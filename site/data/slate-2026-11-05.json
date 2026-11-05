@@ -58,74 +58,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 34.37,
+    "margin": 34.29,
     "src_sd": 3.08,
-    "model_sd": 11.92,
-    "sd": 12.31,
-    "p_home": 0.9974,
-    "p_sd": 0.0024,
-    "total": 155.2,
-    "total_sd": 17.0,
-    "baseline_total": 150.0,
-    "lean": "near",
+    "model_sd": 11.09,
+    "sd": 11.51,
+    "p_home": 0.9986,
+    "p_sd": 0.0015,
+    "total": 155.3,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Texas",
     "dog": "Gardner Webb",
-    "p": 0.9974,
-    "margin": 34.37,
+    "p": 0.9986,
+    "margin": 34.29,
     "lock": true
    },
    "momentum": {
     "Gardner Webb": {
-     "n": 1,
-     "avg": -3.4,
-     "last": [
-      -3.4
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Texas": {
-     "n": 1,
-     "avg": 15.4,
-     "last": [
-      15.4
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -138,8 +134,8 @@
     "side": "away",
     "spread": 41.5,
     "spread_home": -41.5,
-    "edge": 7.13,
-    "cover_p": 0.7188,
+    "edge": 7.21,
+    "cover_p": 0.7345,
     "agree": 4,
     "n": 4
    }
@@ -194,74 +190,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 34.5,
+    "margin": 34.38,
     "src_sd": 5.33,
-    "model_sd": 11.92,
-    "sd": 13.06,
-    "p_home": 0.9959,
-    "p_sd": 0.0031,
+    "model_sd": 11.09,
+    "sd": 12.3,
+    "p_home": 0.9974,
+    "p_sd": 0.0019,
     "total": 145.3,
-    "total_sd": 17.0,
-    "baseline_total": 137.5,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Duke",
     "dog": "Coastal Carolina",
-    "p": 0.9959,
-    "margin": 34.5,
+    "p": 0.9974,
+    "margin": 34.38,
     "lock": true
    },
    "momentum": {
     "Coastal Carolina": {
-     "n": 1,
-     "avg": -1.0,
-     "last": [
-      -1.0
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Duke": {
-     "n": 1,
-     "avg": -6.7,
-     "last": [
-      -6.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -319,48 +311,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 31.69,
+    "margin": 31.64,
     "src_sd": 2.85,
-    "model_sd": 11.92,
-    "sd": 12.26,
-    "p_home": 0.9951,
-    "p_sd": 0.0031,
+    "model_sd": 11.09,
+    "sd": 11.45,
+    "p_home": 0.9971,
+    "p_sd": 0.002,
     "total": 150.3,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -368,8 +360,8 @@
    "pick": {
     "team": "Florida",
     "dog": "Jacksonville",
-    "p": 0.9951,
-    "margin": 31.69,
+    "p": 0.9971,
+    "margin": 31.64,
     "lock": true
    },
    "momentum": {
@@ -380,11 +372,9 @@
      "flag": null
     },
     "Florida": {
-     "n": 1,
-     "avg": 4.8,
-     "last": [
-      4.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -442,48 +432,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 28.31,
+    "margin": 28.24,
     "src_sd": 4.89,
-    "model_sd": 11.92,
-    "sd": 12.89,
-    "p_home": 0.986,
-    "p_sd": 0.0115,
+    "model_sd": 11.09,
+    "sd": 12.12,
+    "p_home": 0.9901,
+    "p_sd": 0.0085,
     "total": 170.8,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -491,8 +481,8 @@
    "pick": {
     "team": "Arizona",
     "dog": "Cal Poly",
-    "p": 0.986,
-    "margin": 28.31,
+    "p": 0.9901,
+    "margin": 28.24,
     "lock": true
    },
    "momentum": {
@@ -503,11 +493,9 @@
      "flag": null
     },
     "Arizona": {
-     "n": 1,
-     "avg": -14.1,
-     "last": [
-      -14.1
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -565,48 +553,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 26.82,
+    "margin": 26.76,
     "src_sd": 3.53,
-    "model_sd": 11.92,
-    "sd": 12.43,
-    "p_home": 0.9845,
-    "p_sd": 0.0109,
-    "total": 158.5,
-    "total_sd": 17.0,
+    "model_sd": 11.09,
+    "sd": 11.64,
+    "p_home": 0.9893,
+    "p_sd": 0.0083,
+    "total": 158.4,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -614,8 +602,8 @@
    "pick": {
     "team": "Illinois",
     "dog": "Penn",
-    "p": 0.9845,
-    "margin": 26.82,
+    "p": 0.9893,
+    "margin": 26.76,
     "lock": true
    },
    "momentum": {
@@ -626,11 +614,9 @@
      "flag": null
     },
     "Illinois": {
-     "n": 1,
-     "avg": 38.8,
-     "last": [
-      38.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -688,79 +674,75 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 25.83,
+    "margin": 25.79,
     "src_sd": 1.99,
-    "model_sd": 11.92,
-    "sd": 12.08,
-    "p_home": 0.9837,
-    "p_sd": 0.0057,
+    "model_sd": 11.09,
+    "sd": 11.27,
+    "p_home": 0.9889,
+    "p_sd": 0.0042,
     "total": 151.9,
-    "total_sd": 17.0,
-    "baseline_total": 144.0,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Indiana",
     "dog": "Bellarmine",
-    "p": 0.9837,
-    "margin": 25.83,
+    "p": 0.9889,
+    "margin": 25.79,
     "lock": true
    },
    "momentum": {
     "Bellarmine": {
-     "n": 1,
-     "avg": -17.0,
-     "last": [
-      -17.0
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Indiana": {
-     "n": 1,
-     "avg": 2.2,
-     "last": [
-      2.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±0%)",
    "result": null
   },
   {
@@ -813,79 +795,75 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 26.65,
+    "margin": 26.6,
     "src_sd": 4.73,
-    "model_sd": 11.92,
-    "sd": 12.82,
-    "p_home": 0.9812,
-    "p_sd": 0.0162,
-    "total": 155.0,
-    "total_sd": 17.0,
-    "baseline_total": 153.5,
-    "lean": "near",
+    "model_sd": 11.09,
+    "sd": 12.06,
+    "p_home": 0.9863,
+    "p_sd": 0.0126,
+    "total": 155.1,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Creighton",
     "dog": "Le Moyne",
-    "p": 0.9812,
-    "margin": 26.65,
+    "p": 0.9863,
+    "margin": 26.6,
     "lock": true
    },
    "momentum": {
     "Le Moyne": {
-     "n": 1,
-     "avg": -10.1,
-     "last": [
-      -10.1
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Creighton": {
-     "n": 1,
-     "avg": -10.8,
-     "last": [
-      -10.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
    "result": null
   },
   {
@@ -938,79 +916,75 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 25.84,
+    "margin": 25.82,
     "src_sd": 4.54,
-    "model_sd": 11.92,
-    "sd": 12.75,
-    "p_home": 0.9786,
-    "p_sd": 0.0167,
-    "total": 150.1,
-    "total_sd": 17.0,
-    "baseline_total": 133.5,
-    "lean": "over",
+    "model_sd": 11.09,
+    "sd": 11.98,
+    "p_home": 0.9844,
+    "p_sd": 0.0133,
+    "total": 150.2,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Texas Tech",
     "dog": "Bethune Cookman",
-    "p": 0.9786,
-    "margin": 25.84,
+    "p": 0.9844,
+    "margin": 25.82,
     "lock": true
    },
    "momentum": {
     "Bethune Cookman": {
-     "n": 1,
-     "avg": -5.0,
-     "last": [
-      -5.0
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Texas Tech": {
-     "n": 1,
-     "avg": 1.3,
-     "last": [
-      1.3
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
    "result": null
   },
   {
@@ -1063,48 +1037,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 25.55,
+    "margin": 25.45,
     "src_sd": 4.96,
-    "model_sd": 11.92,
-    "sd": 12.91,
-    "p_home": 0.9761,
-    "p_sd": 0.0187,
+    "model_sd": 11.09,
+    "sd": 12.15,
+    "p_home": 0.9819,
+    "p_sd": 0.0146,
     "total": 158.8,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -1112,8 +1086,8 @@
    "pick": {
     "team": "SMU",
     "dog": "VMI",
-    "p": 0.9761,
-    "margin": 25.55,
+    "p": 0.9819,
+    "margin": 25.45,
     "lock": true
    },
    "momentum": {
@@ -1124,16 +1098,14 @@
      "flag": null
     },
     "SMU": {
-     "n": 1,
-     "avg": -9.7,
-     "last": [
-      -9.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
    "result": null
   },
   {
@@ -1186,48 +1158,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 21.67,
+    "margin": 21.66,
     "src_sd": 1.82,
-    "model_sd": 11.92,
-    "sd": 12.06,
-    "p_home": 0.9639,
-    "p_sd": 0.0126,
+    "model_sd": 11.09,
+    "sd": 11.24,
+    "p_home": 0.973,
+    "p_sd": 0.0107,
     "total": 146.4,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -1235,8 +1207,8 @@
    "pick": {
     "team": "Cincinnati",
     "dog": "Green Bay",
-    "p": 0.9639,
-    "margin": 21.67,
+    "p": 0.973,
+    "margin": 21.66,
     "lock": true
    },
    "momentum": {
@@ -1247,11 +1219,9 @@
      "flag": null
     },
     "Cincinnati": {
-     "n": 1,
-     "avg": 5.2,
-     "last": [
-      5.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -1309,79 +1279,75 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 21.54,
+    "margin": 21.49,
     "src_sd": 2.77,
-    "model_sd": 11.92,
-    "sd": 12.24,
-    "p_home": 0.9608,
-    "p_sd": 0.0155,
+    "model_sd": 11.09,
+    "sd": 11.43,
+    "p_home": 0.9699,
+    "p_sd": 0.0127,
     "total": 151.9,
-    "total_sd": 17.0,
-    "baseline_total": 148.0,
-    "lean": "near",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Michigan St.",
     "dog": "Toledo",
-    "p": 0.9608,
-    "margin": 21.54,
+    "p": 0.9699,
+    "margin": 21.49,
     "lock": true
    },
    "momentum": {
     "Toledo": {
-     "n": 1,
-     "avg": -0.1,
-     "last": [
-      -0.1
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Michigan St.": {
-     "n": 1,
-     "avg": 8.2,
-     "last": [
-      8.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
    "result": null
   },
   {
@@ -1434,74 +1400,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 20.26,
+    "margin": 20.21,
     "src_sd": 3.3,
-    "model_sd": 11.92,
-    "sd": 12.37,
-    "p_home": 0.9493,
-    "p_sd": 0.0234,
+    "model_sd": 11.09,
+    "sd": 11.57,
+    "p_home": 0.9597,
+    "p_sd": 0.0201,
     "total": 154.9,
-    "total_sd": 17.0,
-    "baseline_total": 173.0,
-    "lean": "under",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Mississippi St.",
     "dog": "Northwestern St.",
-    "p": 0.9493,
-    "margin": 20.26,
+    "p": 0.9597,
+    "margin": 20.21,
     "lock": true
    },
    "momentum": {
     "Northwestern St.": {
-     "n": 1,
-     "avg": 3.8,
-     "last": [
-      3.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Mississippi St.": {
-     "n": 1,
-     "avg": -1.7,
-     "last": [
-      -1.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -1559,79 +1521,75 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 20.0,
+    "margin": 19.99,
     "src_sd": 3.09,
-    "model_sd": 11.92,
-    "sd": 12.31,
-    "p_home": 0.9478,
-    "p_sd": 0.0261,
+    "model_sd": 11.09,
+    "sd": 11.51,
+    "p_home": 0.9587,
+    "p_sd": 0.0229,
     "total": 140.8,
-    "total_sd": 17.0,
-    "baseline_total": 133.5,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Notre Dame",
     "dog": "Mercyhurst",
-    "p": 0.9478,
-    "margin": 20.0,
+    "p": 0.9587,
+    "margin": 19.99,
     "lock": true
    },
    "momentum": {
     "Mercyhurst": {
-     "n": 1,
-     "avg": -9.2,
-     "last": [
-      -9.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Notre Dame": {
-     "n": 1,
-     "avg": 8.6,
-     "last": [
-      8.6
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1684,74 +1642,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 19.74,
+    "margin": 19.73,
     "src_sd": 3.2,
-    "model_sd": 11.92,
-    "sd": 12.34,
-    "p_home": 0.9451,
-    "p_sd": 0.0341,
-    "total": 137.2,
-    "total_sd": 17.0,
-    "baseline_total": 121.0,
-    "lean": "over",
+    "model_sd": 11.09,
+    "sd": 11.54,
+    "p_home": 0.9563,
+    "p_sd": 0.0309,
+    "total": 137.3,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Seton Hall",
     "dog": "LIU",
-    "p": 0.9451,
-    "margin": 19.74,
+    "p": 0.9563,
+    "margin": 19.73,
     "lock": true
    },
    "momentum": {
     "LIU": {
-     "n": 1,
-     "avg": 0.3,
-     "last": [
-      0.3
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Seton Hall": {
-     "n": 1,
-     "avg": 4.5,
-     "last": [
-      4.5
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -1809,74 +1763,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 18.75,
+    "margin": 18.7,
     "src_sd": 1.83,
-    "model_sd": 11.92,
-    "sd": 12.06,
-    "p_home": 0.94,
-    "p_sd": 0.0174,
+    "model_sd": 11.09,
+    "sd": 11.24,
+    "p_home": 0.9519,
+    "p_sd": 0.0154,
     "total": 142.6,
-    "total_sd": 17.0,
-    "baseline_total": 128.0,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Syracuse",
     "dog": "Central Connecticut",
-    "p": 0.94,
-    "margin": 18.75,
+    "p": 0.9519,
+    "margin": 18.7,
     "lock": true
    },
    "momentum": {
     "Central Connecticut": {
-     "n": 1,
-     "avg": 3.7,
-     "last": [
-      3.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Syracuse": {
-     "n": 1,
-     "avg": -7.6,
-     "last": [
-      -7.6
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -1934,74 +1884,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 17.72,
+    "margin": 17.68,
     "src_sd": 2.56,
-    "model_sd": 11.92,
-    "sd": 12.19,
-    "p_home": 0.9269,
-    "p_sd": 0.0291,
-    "total": 149.3,
-    "total_sd": 17.0,
-    "baseline_total": 154.5,
-    "lean": "near",
+    "model_sd": 11.09,
+    "sd": 11.38,
+    "p_home": 0.9399,
+    "p_sd": 0.0266,
+    "total": 149.2,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Pittsburgh",
     "dog": "Buffalo",
-    "p": 0.9269,
-    "margin": 17.72,
+    "p": 0.9399,
+    "margin": 17.68,
     "lock": true
    },
    "momentum": {
     "Buffalo": {
-     "n": 1,
-     "avg": -24.8,
-     "last": [
-      -24.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Pittsburgh": {
-     "n": 1,
-     "avg": 12.8,
-     "last": [
-      12.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -2059,48 +2005,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 17.15,
+    "margin": 17.1,
     "src_sd": 2.74,
-    "model_sd": 11.92,
-    "sd": 12.23,
-    "p_home": 0.9196,
-    "p_sd": 0.0286,
+    "model_sd": 11.09,
+    "sd": 11.42,
+    "p_home": 0.9328,
+    "p_sd": 0.0259,
     "total": 156.0,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -2108,8 +2054,8 @@
    "pick": {
     "team": "Tulsa",
     "dog": "Northern Illinois",
-    "p": 0.9196,
-    "margin": 17.15,
+    "p": 0.9328,
+    "margin": 17.1,
     "lock": true
    },
    "momentum": {
@@ -2180,48 +2126,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 16.67,
+    "margin": 16.68,
     "src_sd": 1.35,
-    "model_sd": 11.92,
-    "sd": 12.0,
-    "p_home": 0.9177,
-    "p_sd": 0.0181,
-    "total": 154.1,
-    "total_sd": 17.0,
+    "model_sd": 11.09,
+    "sd": 11.17,
+    "p_home": 0.9323,
+    "p_sd": 0.0169,
+    "total": 154.2,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -2229,8 +2175,8 @@
    "pick": {
     "team": "Virginia Tech",
     "dog": "Mercer",
-    "p": 0.9177,
-    "margin": 16.67,
+    "p": 0.9323,
+    "margin": 16.68,
     "lock": true
    },
    "momentum": {
@@ -2301,48 +2247,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 15.48,
+    "margin": 15.47,
     "src_sd": 2.07,
-    "model_sd": 11.92,
-    "sd": 12.1,
-    "p_home": 0.8996,
-    "p_sd": 0.0302,
+    "model_sd": 11.09,
+    "sd": 11.28,
+    "p_home": 0.9148,
+    "p_sd": 0.0286,
     "total": 140.3,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -2350,9 +2296,9 @@
    "pick": {
     "team": "Fordham",
     "dog": "Stonehill",
-    "p": 0.8996,
-    "margin": 15.48,
-    "lock": false
+    "p": 0.9148,
+    "margin": 15.47,
+    "lock": true
    },
    "momentum": {
     "Stonehill": {
@@ -2362,11 +2308,9 @@
      "flag": null
     },
     "Fordham": {
-     "n": 1,
-     "avg": -8.7,
-     "last": [
-      -8.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -2424,79 +2368,75 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 13.66,
+    "margin": 13.65,
     "src_sd": 1.49,
-    "model_sd": 11.92,
-    "sd": 12.01,
-    "p_home": 0.8722,
-    "p_sd": 0.0255,
+    "model_sd": 11.09,
+    "sd": 11.19,
+    "p_home": 0.8887,
+    "p_sd": 0.0247,
     "total": 157.4,
-    "total_sd": 17.0,
-    "baseline_total": 154.0,
-    "lean": "near",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Penn St.",
     "dog": "Chattanooga",
-    "p": 0.8722,
-    "margin": 13.66,
+    "p": 0.8887,
+    "margin": 13.65,
     "lock": false
    },
    "momentum": {
     "Chattanooga": {
-     "n": 1,
-     "avg": 13.7,
-     "last": [
-      13.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Penn St.": {
-     "n": 1,
-     "avg": 18.8,
-     "last": [
-      18.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -2549,79 +2489,75 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 13.65,
+    "margin": 13.62,
     "src_sd": 2.14,
-    "model_sd": 11.92,
-    "sd": 12.11,
-    "p_home": 0.8701,
-    "p_sd": 0.0354,
-    "total": 145.9,
-    "total_sd": 17.0,
-    "baseline_total": 131.0,
-    "lean": "over",
+    "model_sd": 11.09,
+    "sd": 11.29,
+    "p_home": 0.8862,
+    "p_sd": 0.0343,
+    "total": 146.0,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Loyola Chicago",
     "dog": "West Georgia",
-    "p": 0.8701,
-    "margin": 13.65,
+    "p": 0.8862,
+    "margin": 13.62,
     "lock": false
    },
    "momentum": {
     "West Georgia": {
-     "n": 1,
-     "avg": 5.2,
-     "last": [
-      5.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Loyola Chicago": {
-     "n": 1,
-     "avg": 10.5,
-     "last": [
-      10.5
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
    "result": null
   },
   {
@@ -2674,74 +2610,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 13.3,
+    "margin": 13.28,
     "src_sd": 1.39,
-    "model_sd": 11.92,
-    "sd": 12.0,
-    "p_home": 0.8661,
-    "p_sd": 0.0247,
+    "model_sd": 11.09,
+    "sd": 11.18,
+    "p_home": 0.8826,
+    "p_sd": 0.0241,
     "total": 151.8,
-    "total_sd": 17.0,
-    "baseline_total": 158.0,
-    "lean": "under",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Tulane",
     "dog": "Jackson St.",
-    "p": 0.8661,
-    "margin": 13.3,
+    "p": 0.8826,
+    "margin": 13.28,
     "lock": false
    },
    "momentum": {
     "Jackson St.": {
-     "n": 1,
-     "avg": -1.3,
-     "last": [
-      -1.3
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Tulane": {
-     "n": 1,
-     "avg": -9.0,
-     "last": [
-      -9.0
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -2799,74 +2731,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
     "margin": 12.39,
     "src_sd": 2.42,
-    "model_sd": 11.92,
-    "sd": 12.16,
-    "p_home": 0.8459,
-    "p_sd": 0.0509,
+    "model_sd": 11.09,
+    "sd": 11.35,
+    "p_home": 0.8626,
+    "p_sd": 0.051,
     "total": 154.1,
-    "total_sd": 17.0,
-    "baseline_total": 142.5,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Vanderbilt",
     "dog": "Wake Forest",
-    "p": 0.8459,
+    "p": 0.8626,
     "margin": 12.39,
     "lock": false
    },
    "momentum": {
     "Wake Forest": {
-     "n": 1,
-     "avg": -6.7,
-     "last": [
-      -6.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Vanderbilt": {
-     "n": 1,
-     "avg": 17.0,
-     "last": [
-      17.0
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -2924,48 +2852,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 10.93,
+    "margin": 10.91,
     "src_sd": 0.84,
-    "model_sd": 11.92,
-    "sd": 11.95,
-    "p_home": 0.8198,
-    "p_sd": 0.0185,
-    "total": 136.9,
-    "total_sd": 17.0,
+    "model_sd": 11.09,
+    "sd": 11.12,
+    "p_home": 0.8367,
+    "p_sd": 0.0186,
+    "total": 137.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -2973,8 +2901,8 @@
    "pick": {
     "team": "Navy",
     "dog": "Delaware St.",
-    "p": 0.8198,
-    "margin": 10.93,
+    "p": 0.8367,
+    "margin": 10.91,
     "lock": false
    },
    "momentum": {
@@ -2985,11 +2913,9 @@
      "flag": null
     },
     "Navy": {
-     "n": 1,
-     "avg": -37.4,
-     "last": [
-      -37.4
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -3047,74 +2973,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 10.38,
+    "margin": 10.4,
     "src_sd": 1.04,
-    "model_sd": 11.92,
-    "sd": 11.97,
-    "p_home": 0.8072,
-    "p_sd": 0.0234,
-    "total": 144.4,
-    "total_sd": 17.0,
-    "baseline_total": 129.0,
-    "lean": "over",
+    "model_sd": 11.09,
+    "sd": 11.14,
+    "p_home": 0.8249,
+    "p_sd": 0.0236,
+    "total": 144.5,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Iona",
     "dog": "NJIT",
-    "p": 0.8072,
-    "margin": 10.38,
+    "p": 0.8249,
+    "margin": 10.4,
     "lock": false
    },
    "momentum": {
     "NJIT": {
-     "n": 1,
-     "avg": -7.9,
-     "last": [
-      -7.9
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Iona": {
-     "n": 1,
-     "avg": -0.8,
-     "last": [
-      -0.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -3172,74 +3094,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 9.75,
+    "margin": 9.76,
     "src_sd": 0.77,
-    "model_sd": 11.92,
-    "sd": 11.94,
-    "p_home": 0.7929,
-    "p_sd": 0.0188,
+    "model_sd": 11.09,
+    "sd": 11.12,
+    "p_home": 0.81,
+    "p_sd": 0.0192,
     "total": 147.5,
-    "total_sd": 17.0,
-    "baseline_total": 148.5,
-    "lean": "near",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Charlotte",
     "dog": "Georgia St.",
-    "p": 0.7929,
-    "margin": 9.75,
+    "p": 0.81,
+    "margin": 9.76,
     "lock": false
    },
    "momentum": {
     "Georgia St.": {
-     "n": 1,
-     "avg": -5.2,
-     "last": [
-      -5.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Charlotte": {
-     "n": 1,
-     "avg": 4.9,
-     "last": [
-      4.9
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -3297,74 +3215,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 9.71,
+    "margin": 9.74,
     "src_sd": 1.27,
-    "model_sd": 11.92,
-    "sd": 11.99,
-    "p_home": 0.7911,
-    "p_sd": 0.0302,
+    "model_sd": 11.09,
+    "sd": 11.16,
+    "p_home": 0.8086,
+    "p_sd": 0.0308,
     "total": 141.9,
-    "total_sd": 17.0,
-    "baseline_total": 144.0,
-    "lean": "near",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Utah",
     "dog": "Towson",
-    "p": 0.7911,
-    "margin": 9.71,
+    "p": 0.8086,
+    "margin": 9.74,
     "lock": false
    },
    "momentum": {
     "Towson": {
-     "n": 1,
-     "avg": -5.9,
-     "last": [
-      -5.9
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Utah": {
-     "n": 1,
-     "avg": -13.3,
-     "last": [
-      -13.3
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -3422,74 +3336,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
     "margin": 8.25,
     "src_sd": 0.9,
-    "model_sd": 11.92,
-    "sd": 11.95,
-    "p_home": 0.7551,
-    "p_sd": 0.0237,
+    "model_sd": 11.09,
+    "sd": 11.13,
+    "p_home": 0.7709,
+    "p_sd": 0.0245,
     "total": 139.3,
-    "total_sd": 17.0,
-    "baseline_total": 127.0,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Saint Peter's",
     "dog": "Binghamton",
-    "p": 0.7551,
+    "p": 0.7709,
     "margin": 8.25,
     "lock": false
    },
    "momentum": {
     "Binghamton": {
-     "n": 1,
-     "avg": -2.7,
-     "last": [
-      -2.7
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Saint Peter's": {
-     "n": 1,
-     "avg": -4.5,
-     "last": [
-      -4.5
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -3547,74 +3457,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 7.36,
+    "margin": 7.38,
     "src_sd": 1.67,
-    "model_sd": 11.92,
-    "sd": 12.04,
-    "p_home": 0.7295,
-    "p_sd": 0.0466,
+    "model_sd": 11.09,
+    "sd": 11.21,
+    "p_home": 0.7448,
+    "p_sd": 0.0487,
     "total": 147.8,
-    "total_sd": 17.0,
-    "baseline_total": 159.5,
-    "lean": "under",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Incarnate Word",
     "dog": "Chicago St.",
-    "p": 0.7295,
-    "margin": 7.36,
+    "p": 0.7448,
+    "margin": 7.38,
     "lock": false
    },
    "momentum": {
     "Chicago St.": {
-     "n": 1,
-     "avg": -15.4,
-     "last": [
-      -15.4
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Incarnate Word": {
-     "n": 1,
-     "avg": -5.3,
-     "last": [
-      -5.3
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -3672,48 +3578,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 7.36,
+    "margin": 7.31,
     "src_sd": 2.06,
-    "model_sd": 11.92,
-    "sd": 12.1,
-    "p_home": 0.7284,
-    "p_sd": 0.0548,
+    "model_sd": 11.09,
+    "sd": 11.28,
+    "p_home": 0.7415,
+    "p_sd": 0.0569,
     "total": 145.4,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -3721,17 +3627,15 @@
    "pick": {
     "team": "Rice",
     "dog": "East Texas A&M",
-    "p": 0.7284,
-    "margin": 7.36,
+    "p": 0.7415,
+    "margin": 7.31,
     "lock": false
    },
    "momentum": {
     "East Texas A&M": {
-     "n": 1,
-     "avg": 34.2,
-     "last": [
-      34.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Rice": {
@@ -3795,74 +3699,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
     "margin": 6.62,
     "src_sd": 0.93,
-    "model_sd": 11.92,
-    "sd": 11.96,
-    "p_home": 0.71,
-    "p_sd": 0.0267,
-    "total": 150.4,
-    "total_sd": 17.0,
-    "baseline_total": 155.0,
-    "lean": "near",
+    "model_sd": 11.09,
+    "sd": 11.13,
+    "p_home": 0.724,
+    "p_sd": 0.028,
+    "total": 150.5,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Quinnipiac",
     "dog": "Bryant",
-    "p": 0.71,
+    "p": 0.724,
     "margin": 6.62,
     "lock": false
    },
    "momentum": {
     "Bryant": {
-     "n": 1,
-     "avg": 4.4,
-     "last": [
-      4.4
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Quinnipiac": {
-     "n": 1,
-     "avg": -8.2,
-     "last": [
-      -8.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -3920,48 +3820,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 6.32,
+    "margin": 6.28,
     "src_sd": 2.31,
-    "model_sd": 11.92,
-    "sd": 12.14,
-    "p_home": 0.6986,
-    "p_sd": 0.0659,
-    "total": 142.6,
-    "total_sd": 17.0,
+    "model_sd": 11.09,
+    "sd": 11.33,
+    "p_home": 0.7104,
+    "p_sd": 0.0691,
+    "total": 142.7,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -3969,8 +3869,8 @@
    "pick": {
     "team": "Merrimack",
     "dog": "UMass Lowell",
-    "p": 0.6986,
-    "margin": 6.32,
+    "p": 0.7104,
+    "margin": 6.28,
     "lock": false
    },
    "momentum": {
@@ -4041,74 +3941,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": -5.94,
+    "margin": -5.95,
     "src_sd": 1.52,
-    "model_sd": 11.92,
-    "sd": 12.02,
-    "p_home": 0.3106,
-    "p_sd": 0.0458,
-    "total": 149.5,
-    "total_sd": 17.0,
-    "baseline_total": 145.5,
-    "lean": "near",
+    "model_sd": 11.09,
+    "sd": 11.19,
+    "p_home": 0.2975,
+    "p_sd": 0.0484,
+    "total": 149.6,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Howard",
     "dog": "Alcorn St.",
-    "p": 0.6894,
-    "margin": 5.94,
+    "p": 0.7025,
+    "margin": 5.95,
     "lock": false
    },
    "momentum": {
     "Howard": {
-     "n": 1,
-     "avg": -4.1,
-     "last": [
-      -4.1
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Alcorn St.": {
-     "n": 1,
-     "avg": -13.9,
-     "last": [
-      -13.9
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -4166,48 +4062,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 5.54,
+    "margin": 5.57,
     "src_sd": 1.28,
-    "model_sd": 11.92,
-    "sd": 11.99,
-    "p_home": 0.6779,
-    "p_sd": 0.0382,
+    "model_sd": 11.09,
+    "sd": 11.16,
+    "p_home": 0.6911,
+    "p_sd": 0.0404,
     "total": 144.5,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -4215,17 +4111,15 @@
    "pick": {
     "team": "Sacred Heart",
     "dog": "Maine",
-    "p": 0.6779,
-    "margin": 5.54,
+    "p": 0.6911,
+    "margin": 5.57,
     "lock": false
    },
    "momentum": {
     "Maine": {
-     "n": 1,
-     "avg": 0.3,
-     "last": [
-      0.3
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Sacred Heart": {
@@ -4289,74 +4183,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
     "margin": 4.09,
     "src_sd": 0.4,
-    "model_sd": 11.92,
-    "sd": 11.93,
-    "p_home": 0.634,
-    "p_sd": 0.0127,
+    "model_sd": 11.09,
+    "sd": 11.1,
+    "p_home": 0.6438,
+    "p_sd": 0.0136,
     "total": 141.2,
-    "total_sd": 17.0,
-    "baseline_total": 133.5,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Marist",
     "dog": "UMBC",
-    "p": 0.634,
+    "p": 0.6438,
     "margin": 4.09,
     "lock": false
    },
    "momentum": {
     "UMBC": {
-     "n": 1,
-     "avg": -10.5,
-     "last": [
-      -10.5
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Marist": {
-     "n": 1,
-     "avg": -13.0,
-     "last": [
-      -13.0
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -4414,74 +4304,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 3.35,
+    "margin": 3.38,
     "src_sd": 1.88,
-    "model_sd": 11.92,
-    "sd": 12.07,
-    "p_home": 0.6092,
-    "p_sd": 0.0602,
+    "model_sd": 11.09,
+    "sd": 11.25,
+    "p_home": 0.6181,
+    "p_sd": 0.0643,
     "total": 151.5,
-    "total_sd": 17.0,
-    "baseline_total": 151.0,
-    "lean": "near",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "DePaul",
     "dog": "South Florida",
-    "p": 0.6092,
-    "margin": 3.35,
+    "p": 0.6181,
+    "margin": 3.38,
     "lock": false
    },
    "momentum": {
     "South Florida": {
-     "n": 1,
-     "avg": 7.1,
-     "last": [
-      7.1
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "DePaul": {
-     "n": 1,
-     "avg": -5.2,
-     "last": [
-      -5.2
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -4539,48 +4425,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 2.99,
+    "margin": 3.04,
     "src_sd": 1.93,
-    "model_sd": 11.92,
-    "sd": 12.07,
-    "p_home": 0.5978,
-    "p_sd": 0.063,
+    "model_sd": 11.09,
+    "sd": 11.26,
+    "p_home": 0.6063,
+    "p_sd": 0.0675,
     "total": 149.0,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -4588,8 +4474,8 @@
    "pick": {
     "team": "Manhattan",
     "dog": "Albany",
-    "p": 0.5978,
-    "margin": 2.99,
+    "p": 0.6063,
+    "margin": 3.04,
     "lock": false
    },
    "momentum": {
@@ -4660,74 +4546,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
     "margin": -2.57,
     "src_sd": 1.83,
-    "model_sd": 11.92,
-    "sd": 12.06,
-    "p_home": 0.4156,
-    "p_sd": 0.0587,
+    "model_sd": 11.09,
+    "sd": 11.24,
+    "p_home": 0.4096,
+    "p_sd": 0.0627,
     "total": 163.0,
-    "total_sd": 17.0,
-    "baseline_total": 165.0,
-    "lean": "near",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Cornell",
     "dog": "Lehigh",
-    "p": 0.5844,
+    "p": 0.5904,
     "margin": 2.57,
     "lock": false
    },
    "momentum": {
     "Cornell": {
-     "n": 1,
-     "avg": -0.8,
-     "last": [
-      -0.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Lehigh": {
-     "n": 1,
-     "avg": -3.8,
-     "last": [
-      -3.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -4785,48 +4667,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 2.06,
+    "margin": 2.08,
     "src_sd": 2.4,
-    "model_sd": 11.92,
-    "sd": 12.16,
-    "p_home": 0.5673,
-    "p_sd": 0.0789,
-    "total": 139.8,
-    "total_sd": 17.0,
+    "model_sd": 11.09,
+    "sd": 11.35,
+    "p_home": 0.5726,
+    "p_sd": 0.0846,
+    "total": 139.9,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -4834,8 +4716,8 @@
    "pick": {
     "team": "Princeton",
     "dog": "Hofstra",
-    "p": 0.5673,
-    "margin": 2.06,
+    "p": 0.5726,
+    "margin": 2.08,
     "lock": false
    },
    "momentum": {
@@ -4906,48 +4788,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 1.59,
+    "margin": 1.61,
     "src_sd": 1.87,
-    "model_sd": 11.92,
-    "sd": 12.07,
-    "p_home": 0.5526,
-    "p_sd": 0.062,
-    "total": 140.7,
-    "total_sd": 17.0,
+    "model_sd": 11.09,
+    "sd": 11.25,
+    "p_home": 0.5569,
+    "p_sd": 0.0666,
+    "total": 140.8,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -4955,17 +4837,15 @@
    "pick": {
     "team": "Fairfield",
     "dog": "Vermont",
-    "p": 0.5526,
-    "margin": 1.59,
+    "p": 0.5569,
+    "margin": 1.61,
     "lock": false
    },
    "momentum": {
     "Vermont": {
-     "n": 1,
-     "avg": 0.8,
-     "last": [
-      0.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Fairfield": {
@@ -5029,48 +4909,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 1.51,
+    "margin": 1.55,
     "src_sd": 2.29,
-    "model_sd": 11.92,
-    "sd": 12.14,
-    "p_home": 0.5493,
-    "p_sd": 0.0755,
+    "model_sd": 11.09,
+    "sd": 11.32,
+    "p_home": 0.5544,
+    "p_sd": 0.081,
     "total": 143.4,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -5078,17 +4958,15 @@
    "pick": {
     "team": "North Texas",
     "dog": "McNeese",
-    "p": 0.5493,
-    "margin": 1.51,
+    "p": 0.5544,
+    "margin": 1.55,
     "lock": false
    },
    "momentum": {
     "McNeese": {
-     "n": 1,
-     "avg": 18.4,
-     "last": [
-      18.4
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "North Texas": {
@@ -5152,48 +5030,48 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 1.31,
+    "margin": 1.32,
     "src_sd": 1.48,
-    "model_sd": 11.92,
-    "sd": 12.01,
-    "p_home": 0.5435,
-    "p_sd": 0.0489,
+    "model_sd": 11.09,
+    "sd": 11.19,
+    "p_home": 0.547,
+    "p_sd": 0.0524,
     "total": 144.1,
-    "total_sd": 17.0,
+    "total_sd": null,
     "baseline_total": null,
     "lean": null,
     "n_sources": 4
@@ -5201,8 +5079,8 @@
    "pick": {
     "team": "South Alabama",
     "dog": "Jacksonville St.",
-    "p": 0.5435,
-    "margin": 1.31,
+    "p": 0.547,
+    "margin": 1.32,
     "lock": false
    },
    "momentum": {
@@ -5213,11 +5091,9 @@
      "flag": null
     },
     "South Alabama": {
-     "n": 1,
-     "avg": -8.1,
-     "last": [
-      -8.1
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -5275,74 +5151,70 @@
    "injuries": [],
    "weights": {
     "away": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "home": {
-     "basis": "D1",
+     "basis": "default",
      "w": {
-      "torvik": 0.169,
-      "hasla": 0.172,
-      "espn": 0.159,
+      "torvik": 0.167,
+      "hasla": 0.167,
+      "espn": 0.167,
       "dratings": 0.167,
       "massey": 0.167,
       "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.258,
-     "espn": 0.24,
-     "dratings": 0.251,
-     "massey": 0.251
+     "hasla": 0.25,
+     "espn": 0.25,
+     "dratings": 0.25,
+     "massey": 0.25
     },
     "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.337,
-     "massey": 0.337
+     "hasla": 0.333,
+     "dratings": 0.333,
+     "massey": 0.333
     }
    },
    "blend": {
-    "margin": 0.66,
+    "margin": 0.65,
     "src_sd": 1.72,
-    "model_sd": 11.92,
-    "sd": 12.04,
-    "p_home": 0.5217,
-    "p_sd": 0.0569,
+    "model_sd": 11.09,
+    "sd": 11.22,
+    "p_home": 0.523,
+    "p_sd": 0.0611,
     "total": 142.4,
-    "total_sd": 17.0,
-    "baseline_total": 133.0,
-    "lean": "over",
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
     "n_sources": 4
    },
    "pick": {
     "team": "Rider",
     "dog": "New Hampshire",
-    "p": 0.5217,
-    "margin": 0.66,
+    "p": 0.523,
+    "margin": 0.65,
     "lock": false
    },
    "momentum": {
     "New Hampshire": {
-     "n": 1,
-     "avg": 13.6,
-     "last": [
-      13.6
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     },
     "Rider": {
-     "n": 1,
-     "avg": -12.8,
-     "last": [
-      -12.8
-     ],
+     "n": 0,
+     "avg": null,
+     "last": [],
      "flag": null
     }
    },
@@ -5358,8 +5230,8 @@
   "side": "away",
   "spread": 41.5,
   "spread_home": -41.5,
-  "edge": 7.13,
-  "cover_p": 0.7188,
+  "edge": 7.21,
+  "cover_p": 0.7345,
   "agree": 4,
   "n": 4
  },
@@ -5388,5 +5260,5 @@
   "Union (TN) Bulldogs",
   "Virginia Lynchburg Dragons"
  ],
- "abridged": "THE BALLGORITHM · NCAAM · Thu, Nov 5\n\nNOTES\n- 43 D1 games on the board. Coverage: Torvik 0, Haslametrics 43, ESPN 43, DRatings 43, Massey 43, CBBD 0, DraftKings lines 43.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 22 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-1)\nGardner Webb +41.5 vs Texas — our number Texas −34.4, 4 of 4 sources on this side, 72% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nTexas >99% · −34.4 ±12.3 vs Gardner Webb · total 155\nDuke >99% · −34.5 ±13.1 vs Coastal Carolina · total 145\nFlorida >99% · −31.7 ±12.3 vs Jacksonville · total 150\nArizona 99% · −28.3 ±12.9 vs Cal Poly · total 171\nIllinois 98% · −26.8 ±12.4 vs Penn · total 158\nIndiana 98% · −25.8 ±12.1 vs Bellarmine · total 152\nCreighton 98% · −26.6 ±12.8 vs Le Moyne · total 155\nTexas Tech 98% · −25.8 ±12.8 vs Bethune Cookman · total 150\nSMU 98% · −25.6 ±12.9 vs VMI · total 159\nCincinnati 96% · −21.7 ±12.1 vs Green Bay · total 146\nMichigan St. 96% · −21.5 ±12.2 vs Toledo · total 152\nMississippi St. 95% · −20.3 ±12.4 vs Northwestern St. · total 155\nNotre Dame 95% · −20.0 ±12.3 vs Mercyhurst · total 141\nSeton Hall 95% · −19.7 ±12.3 vs LIU · total 137\nSyracuse 94% · −18.8 ±12.1 vs Central Connecticut · total 143\nPittsburgh 93% · −17.7 ±12.2 vs Buffalo · total 149\nTulsa 92% · −17.1 ±12.2 vs Northern Illinois · total 156\nVirginia Tech 92% · −16.7 ±12.0 vs Mercer · total 154\nFordham 90% · −15.5 ±12.1 vs Stonehill · total 140\nPenn St. 87% · −13.7 ±12.0 vs Chattanooga · total 157\nLoyola Chicago 87% · −13.7 ±12.1 vs West Georgia · total 146\nTulane 87% · −13.3 ±12.0 vs Jackson St. · total 152\nVanderbilt 85% · −12.4 ±12.2 vs Wake Forest · total 154\nNavy 82% · −10.9 ±11.9 vs Delaware St. · total 137\nIona 81% · −10.4 ±12.0 vs NJIT · total 144\nCharlotte 79% · −9.8 ±11.9 vs Georgia St. · total 148\nUtah 79% · −9.7 ±12.0 vs Towson · total 142\nSaint Peter's 76% · −8.2 ±11.9 vs Binghamton · total 139\nMid\nIncarnate Word 73% · −7.4 ±12.0 vs Chicago St. · total 148\nRice 73% · −7.4 ±12.1 vs East Texas A&M · total 145\nQuinnipiac 71% · −6.6 ±12.0 vs Bryant · total 150\nMerrimack 70% · −6.3 ±12.1 vs UMass Lowell · total 143\nHoward 69% · −5.9 ±12.0 vs Alcorn St. · total 150\nSacred Heart 68% · −5.5 ±12.0 vs Maine · total 144\nMarist 63% · −4.1 ±11.9 vs UMBC · total 141\nDePaul 61% · −3.4 ±12.1 vs South Florida · total 152\nManhattan 60% · −3.0 ±12.1 vs Albany · total 149\nCornell 58% · −2.6 ±12.1 vs Lehigh · total 163\nPrinceton 57% · −2.1 ±12.2 vs Hofstra · total 140\nFairfield 55% · −1.6 ±12.1 vs Vermont · total 141\nNorth Texas 55% · −1.5 ±12.1 vs McNeese · total 143\nSouth Alabama 54% · −1.3 ±12.0 vs Jacksonville St. · total 144\nRider 52% · −0.7 ±12.0 vs New Hampshire · total 142\nWeak — none"
+ "abridged": "THE BALLGORITHM · NCAAM · Thu, Nov 5\n\nNOTES\n- 43 D1 games on the board. Coverage: Torvik 0, Haslametrics 43, ESPN 43, DRatings 43, Massey 43, CBBD 0, DraftKings lines 43.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 22 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-0)\nGardner Webb +41.5 vs Texas — our number Texas −34.3, 4 of 4 sources on this side, 73% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nTexas >99% · −34.3 ±11.5 vs Gardner Webb · total 155\nDuke >99% · −34.4 ±12.3 vs Coastal Carolina · total 145\nFlorida >99% · −31.6 ±11.4 vs Jacksonville · total 150\nArizona 99% · −28.2 ±12.1 vs Cal Poly · total 171\nIllinois 99% · −26.8 ±11.6 vs Penn · total 158\nIndiana 99% · −25.8 ±11.3 vs Bellarmine · total 152\nCreighton 99% · −26.6 ±12.1 vs Le Moyne · total 155\nTexas Tech 98% · −25.8 ±12.0 vs Bethune Cookman · total 150\nSMU 98% · −25.4 ±12.2 vs VMI · total 159\nCincinnati 97% · −21.7 ±11.2 vs Green Bay · total 146\nMichigan St. 97% · −21.5 ±11.4 vs Toledo · total 152\nMississippi St. 96% · −20.2 ±11.6 vs Northwestern St. · total 155\nNotre Dame 96% · −20.0 ±11.5 vs Mercyhurst · total 141\nSeton Hall 96% · −19.7 ±11.5 vs LIU · total 137\nSyracuse 95% · −18.7 ±11.2 vs Central Connecticut · total 143\nPittsburgh 94% · −17.7 ±11.4 vs Buffalo · total 149\nTulsa 93% · −17.1 ±11.4 vs Northern Illinois · total 156\nVirginia Tech 93% · −16.7 ±11.2 vs Mercer · total 154\nFordham 91% · −15.5 ±11.3 vs Stonehill · total 140\nPenn St. 89% · −13.7 ±11.2 vs Chattanooga · total 157\nLoyola Chicago 89% · −13.6 ±11.3 vs West Georgia · total 146\nTulane 88% · −13.3 ±11.2 vs Jackson St. · total 152\nVanderbilt 86% · −12.4 ±11.3 vs Wake Forest · total 154\nNavy 84% · −10.9 ±11.1 vs Delaware St. · total 137\nIona 82% · −10.4 ±11.1 vs NJIT · total 144\nCharlotte 81% · −9.8 ±11.1 vs Georgia St. · total 148\nUtah 81% · −9.7 ±11.2 vs Towson · total 142\nSaint Peter's 77% · −8.2 ±11.1 vs Binghamton · total 139\nMid\nIncarnate Word 74% · −7.4 ±11.2 vs Chicago St. · total 148\nRice 74% · −7.3 ±11.3 vs East Texas A&M · total 145\nQuinnipiac 72% · −6.6 ±11.1 vs Bryant · total 150\nMerrimack 71% · −6.3 ±11.3 vs UMass Lowell · total 143\nHoward 70% · −6.0 ±11.2 vs Alcorn St. · total 150\nSacred Heart 69% · −5.6 ±11.2 vs Maine · total 144\nMarist 64% · −4.1 ±11.1 vs UMBC · total 141\nDePaul 62% · −3.4 ±11.2 vs South Florida · total 152\nManhattan 61% · −3.0 ±11.3 vs Albany · total 149\nCornell 59% · −2.6 ±11.2 vs Lehigh · total 163\nPrinceton 57% · −2.1 ±11.3 vs Hofstra · total 140\nFairfield 56% · −1.6 ±11.2 vs Vermont · total 141\nNorth Texas 55% · −1.6 ±11.3 vs McNeese · total 143\nSouth Alabama 55% · −1.3 ±11.2 vs Jacksonville St. · total 144\nRider 52% · −0.7 ±11.2 vs New Hampshire · total 142\nWeak — none"
 }

@@ -575,7 +575,7 @@ function renderSeason(){
   const rec = o => `${o.w}-${o.l}`;
   $("#sz-sub").textContent = `${STATE.season} · ${m.n} graded ${m.n===1?"game":"games"}`;
   $("#sz-tiles").innerHTML = [
-    ["Hammer vs DraftKings", recATS(r.hammer), r.hammer.w+r.hammer.l ? pct(r.hammer.w/(r.hammer.w+r.hammer.l))+" against the spread" : "Graded against the spread, from Nov 2"],
+    ["Hammer vs DraftKings", recATS(r.hammer), r.hammer.w+r.hammer.l ? pct(r.hammer.w/(r.hammer.w+r.hammer.l))+" against the spread" : "Graded against the spread, from Nov 5"],
     ["Winners picked", rec(r.su), r.su.w+r.su.l ? pct(r.su.w/(r.su.w+r.su.l))+" straight up" : "No grades yet"],
     ["Brier score", m.n ? (m.brier_sum/m.n).toFixed(3) : "—", "Lower is better · 0.250 is a coin flip"],
     ["Margin miss", m.n ? f1(m.mae) : "—", m.n ? "Average points off the final" : "Your Colab model held out at 8.85"]

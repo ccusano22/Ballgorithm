@@ -421,7 +421,7 @@ def build_today(state, now):
     pend = state.get("pending") or {}
     if pend.get("games"):   # today's untipped games are rebuilt below; anything of today's that no longer qualifies drops out
         pend["games"] = [x for x in pend["games"] if not x["id"].startswith(today.isoformat()) or x["id"] in locked_ids]
-        slate = E.build_slate(state, today.isoformat(), games, notes, generated_at=now.isoformat(timespec="seconds"))
+    slate = E.build_slate(state, today.isoformat(), games, notes, generated_at=now.isoformat(timespec="seconds"))
     for p in slate["games"]:
         p["tip_sort"] = next(x["tip_sort"] for x in games if x["id"] == p["id"])
     slate["waiting"] = waiting
