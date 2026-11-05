@@ -402,11 +402,16 @@ def build_today(state, now):
     notes = [f"{len(games) + len(locked)} D1 games on the board"
              + (f" ({len(locked)} locked at tip)" if locked else "") + ". Coverage: "
              + ", ".join(f"{SRC_NAME[k]} {cov[k]}" for k in E.SOURCES) + f", DraftKings lines {n_mkt}."]
+    dormant = "blank" in str((status.get("torvik") or {}).get("error", ""))
     broke = [SRC_NAME.get(k, k) for k, v in status.items() if isinstance(v, dict) and not v.get("ok")
-             and k in ("espn", "torvik", "haslametrics", "dratings", "massey", "cbbd")]
+             and k in ("espn", "torvik", "haslametrics", "dratings", "massey", "cbbd") and not (k == "torvik" and dormant)]
     if broke:
         notes.append("Didn't load this run: " + ", ".join(sorted(set(b.replace("haslametrics", "Haslametrics") for b in broke)))
                      + ". Those games use the remaining sources.")
+    if dormant:
+        notes.append("Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.")
+    if cov.get("cbbd", 0) == 0:
+        notes.append(f"CBBD joins once both teams in a game have played {CBBD_MIN_GAMES} games and its adjusted ratings are published.")
     if unmatched:
         notes.append(f"{len(unmatched)} ESPN games skipped because one team isn't Division I or its name isn't recognized yet.")
 
