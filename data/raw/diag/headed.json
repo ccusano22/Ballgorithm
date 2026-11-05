@@ -1,0 +1,37 @@
+{
+ "mode": "headed",
+ "kenpom_browser_headed": {
+  "home_cleared_after": 0.1,
+  "home_len": 39653,
+  "inputs": [
+   "email/email/",
+   "password/password/",
+   "submit/submit/",
+   "remember/checkbox/",
+   "team/text/teams",
+   "c/text/coaches"
+  ],
+  "buttons": [
+   "Login!",
+   "",
+   "\n                \n  "
+  ],
+  "login_error": "Page.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"input[type=\\\"submit\\\"], button[type=\\\"submit\\\"]\")\n    - locator resolved to <input type=\"submit\" name=\"submit\" value=\"Login!\"/>",
+  "fanmatch.php": {
+   "final_url": "https://kenpom.com/fanmatch.php",
+   "title": "Just a moment...",
+   "html_len": 44729,
+   "text_len": 258,
+   "proj": 0,
+   "snip": "kenpom.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a55d21f48c6917c8\nPerformance and Security by Cloudflare"
+  },
+  "fanmatch.php?d=2026-11-05": {
+   "final_url": "https://kenpom.com/fanmatch.php?d=2026-11-05",
+   "title": "Just a moment...",
+   "html_len": 44804,
+   "text_len": 258,
+   "proj": 0,
+   "snip": "kenpom.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a55d222bcbcb17c8\nPerformance and Security by Cloudflare"
+  }
+ }
+}

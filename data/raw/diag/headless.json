@@ -1,0 +1,45 @@
+{
+ "mode": "headless",
+ "torvik_browser_headless": {
+  "cleared_after": null,
+  "len": 513,
+  "proj": 0,
+  "head": "403 ERROR\nThe request could not be satisfied.\nRequest blocked. We can't connect to the server for this app or website at this time. There might be too"
+ },
+ "kenpom_browser_headless": {
+  "home_cleared_after": 0.1,
+  "home_len": 39653,
+  "inputs": [
+   "email/email/",
+   "password/password/",
+   "submit/submit/",
+   "remember/checkbox/",
+   "team/text/teams",
+   "c/text/coaches"
+  ],
+  "buttons": [
+   "Login!",
+   "",
+   "\n                \n  "
+  ],
+  "after_login_url": "https://kenpom.com/handlers/login_handler.php",
+  "after_login_has_logout": false,
+  "after_login_snip": "kenpom.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a55d2",
+  "fanmatch.php": {
+   "final_url": "https://kenpom.com/fanmatch.php",
+   "title": "Just a moment...",
+   "html_len": 44751,
+   "text_len": 258,
+   "proj": 0,
+   "snip": "kenpom.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a55d2111ede23478\nPerformance and Security by Cloudflare"
+  },
+  "fanmatch.php?d=2026-11-05": {
+   "final_url": "https://kenpom.com/fanmatch.php?d=2026-11-05",
+   "title": "Just a moment...",
+   "html_len": 44826,
+   "text_len": 258,
+   "proj": 0,
+   "snip": "kenpom.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a55d2138f9383478\nPerformance and Security by Cloudflare"
+  }
+ }
+}
