@@ -146,7 +146,11 @@ def main():
                     out.append({"espn_id": ev["id"], "home": h, "away": a, "error": str(e)[:200]})
                 time.sleep(0.3)
             save(today, "torvik_cbbdata.json", out)
-            good = sum(1 for x in out if x.get("status") == 200 and isinstance(x.get("rows"), list) and len(x["rows"]) >= 2)
+            good = sum(1 for x in out if x.get("status") == 200 and isinstance(x.get("rows"), list) and len(x["rows"]) >= 2
+                       and all(isinstance(r, dict) and r.get("pts") is not None for r in x["rows"]))
+            if asked and not good:
+                raise RuntimeError("cbbdata answered but every T-Rank number was blank "
+                                   "(as of Nov 2026 its data stops after the 2024-25 season)")
             return {"asked": asked, "predictions": good}
         run("torvik", torvik, status)
     else:
