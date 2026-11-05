@@ -21,10 +21,9 @@ def pred(team, opp, date, loc="H"):
         js = rr.text[:120]
     print("prediction", team, "v", opp, date or "(no date)", rr.status_code, json.dumps(js)[:400])
 
-for d in ["20261105", "20261104", "20261102", None, "20260301"]:
-    pred("Duke", "North Carolina", d)
-pred("Texas", "Gardner Webb", "20261105")
-
+pred("Duke", "North Carolina", "20250308", "H")
+pred("Duke", "North Carolina", "20240309", "H")
+parquet_years = [2025, 2024, 2023]
 def parquet(path, **q):
     import pyarrow.parquet as pq
     rr = requests.get(f"{B}/{path}", params={"key": key, **q}, timeout=120)
@@ -42,8 +41,7 @@ def parquet(path, **q):
         extra += f" years {sorted(t['year'].unique().tolist())[-3:]}"
     print(path, q, f"{len(t)} rows{extra}; columns: {cols[:25]}")
 
-parquet("torvik/ratings", year=2027)
-parquet("torvik/ratings", year=2026)
-parquet("torvik/ratings/archive", year=2027)
-parquet("torvik/ratings/archive", year=2026)
-parquet("torvik/game/factors", year=2027)
+for y in parquet_years:
+    parquet("torvik/ratings", year=y)
+    parquet("torvik/ratings/archive", year=y)
+parquet("torvik/ratings")
