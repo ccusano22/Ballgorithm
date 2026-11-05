@@ -1,0 +1,242 @@
+{
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01T13:55:00+00:00",
+ "notes": [
+  "GRADED: Notre Dame 74, Villanova 72. Villanova was our pick at −6.6 (73%) and lost by 2. Our miss: 8.6 points, close to the 8.85 the model averages.",
+  "Two games: Notre Dame vs Villanova in Rome (9:30 AM) and Liberty vs High Point in Rock Hill at midnight. Both neutral.",
+  "ND–Nova runs on Torvik and ESPN only, both converted from published ratings. Haslametrics is posted but won't load from here; paste it and the blend updates.",
+  "Liberty–High Point has no source number yet, so it's on the board without a pick. Market: High Point −7.5, total 154.5. Pace clash: Liberty is one of D1's slowest teams, High Point one of the fastest.",
+  "Villanova: Hodge out (ACL), Onyekwere didn't travel, Evans Jr. expected back. Notre Dame: Duncomb (leg) expected to play. High Point: Rivera-Torres likely out.",
+  "Market reference, ND–Nova: Villanova −7 (opened −7.5), total 147. Our number sits about half a point under.",
+  "Both rosters turned over heavily, so preseason ratings carry the whole projection today."
+ ],
+ "games": [
+  {
+   "id": "2026-11-01-nd-nova",
+   "away": "Notre Dame",
+   "home": "Villanova",
+   "away_conf": "ACC",
+   "home_conf": "Big East",
+   "short": {
+    "Notre Dame": "ND",
+    "Villanova": "Nova"
+   },
+   "neutral": true,
+   "site": "Rome, Italy",
+   "tip": "9:30 AM ET",
+   "tv": "FOX",
+   "sources": {
+    "kenpom": {
+     "margin": null,
+     "rank": {
+      "Notre Dame": 83,
+      "Villanova": 32
+     },
+     "note": "Ranks only (Villanova 32, Notre Dame 83). The point margin sits behind the paywall. Send the FanMatch line or both AdjEMs and it goes into the blend."
+    },
+    "torvik": {
+     "margin": 6.41,
+     "total": null,
+     "derived": true,
+     "rank": {
+      "Notre Dame": 82,
+      "Villanova": 31
+     },
+     "note": "Villanova +9.5 per 100 possessions on a neutral floor, times 67.5 possessions (D1 average; team tempos unavailable)."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "Haslametrics has 2026-27 numbers posted, but its tables load blank from here and Chrome isn't connected. Paste its projected score and it goes into the blend."
+    },
+    "espn": {
+     "margin": 6.86,
+     "derived": true,
+     "winprob": 0.732,
+     "note": "73.2% Villanova win chance, converted to points at our 11.1-point SD."
+    }
+   },
+   "market": {
+    "spread_home": -7.0,
+    "spread_open": -7.5,
+    "total": 147.0,
+    "total_open": 147.5,
+    "ml_home": -330,
+    "ml_away": 265,
+    "book": "TheSpread consensus, Sun morning",
+    "alt": "Hard Rock 6 AM: Villanova −7.5, total 148.5"
+   },
+   "injuries": [
+    {
+     "team": "Villanova",
+     "player": "Matt Hodge",
+     "status": "Out",
+     "note": "ACL recovery"
+    },
+    {
+     "team": "Villanova",
+     "player": "Nico Onyekwere",
+     "status": "Out",
+     "note": "Did not travel (visa)"
+    },
+    {
+     "team": "Villanova",
+     "player": "Kwame Evans Jr.",
+     "status": "Expected",
+     "note": "Leg; no exhibition reps"
+    },
+    {
+     "team": "Notre Dame",
+     "player": "Logan Duncomb",
+     "status": "Expected",
+     "note": "Leg; missed final exhibition"
+    }
+   ],
+   "weights": {
+    "away": {
+     "basis": "default",
+     "w": {
+      "kenpom": 0.2,
+      "torvik": 0.2,
+      "hasla": 0.2,
+      "espn": 0.2,
+      "chd": 0.2
+     }
+    },
+    "home": {
+     "basis": "default",
+     "w": {
+      "kenpom": 0.2,
+      "torvik": 0.2,
+      "hasla": 0.2,
+      "espn": 0.2,
+      "chd": 0.2
+     }
+    },
+    "used": {
+     "torvik": 0.5,
+     "espn": 0.5
+    },
+    "used_total": {}
+   },
+   "blend": {
+    "margin": 6.63,
+    "src_sd": 0.23,
+    "model_sd": 11.09,
+    "sd": 11.09,
+    "p_home": 0.7251,
+    "total": null,
+    "total_sd": null,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 2
+   },
+   "pick": {
+    "team": "Villanova",
+    "dog": "Notre Dame",
+    "p": 0.7251,
+    "margin": 6.63,
+    "lock": false
+   },
+   "momentum": {
+    "Notre Dame": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Villanova": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "only 2 of 5 sources have a number; they agree within 0.5 pts",
+   "result": {
+    "tags": [],
+    "score": [
+     74,
+     72
+    ],
+    "model_err": 8.63,
+    "src_err": {
+     "torvik": 8.41,
+     "espn": 8.86,
+     "market": 9.0
+    },
+    "won": false,
+    "note": "Notre Dame rallied late. Perkins fouled out with 16 seconds left; Evans Jr. limped off before halftime but returned.",
+    "label": "Lost by 2"
+   }
+  }
+ ],
+ "waiting": [
+  {
+   "id": "2026-11-02-lib-hpu",
+   "away": "Liberty",
+   "home": "High Point",
+   "away_conf": "CUSA",
+   "home_conf": "Big South",
+   "short": {
+    "Liberty": "LIB",
+    "High Point": "HPU"
+   },
+   "neutral": true,
+   "site": "Rock Hill, SC",
+   "tip": "12:00 AM ET (Mon)",
+   "tv": "YouTube",
+   "sources": {
+    "kenpom": {
+     "margin": null,
+     "rank": {
+      "Liberty": 139,
+      "High Point": 61
+     },
+     "note": "Preseason ranks only (High Point 61, Liberty 139). No point margin was public before tip."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No Torvik line found in public previews. Torvik's tempo history: Liberty outside the top 285 four straight years; High Point top-50 last season."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "Tables load blank from here. Paste its projected score."
+    },
+    "espn": {
+     "margin": null,
+     "note": "ESPN's matchup predictor didn't load from here."
+    },
+    "chd": {
+     "margin": null,
+     "note": "Not reachable this morning."
+    },
+    "evanmiya": {
+     "margin": null,
+     "note": "Added as a source on Nov 2."
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "spread_open": -7.5,
+    "total": 154.5,
+    "total_open": 155.5,
+    "ml_home": -325,
+    "ml_away": 260,
+    "book": "DraftKings, moved from −7.5 to −6.5"
+   },
+   "injuries": [
+    {
+     "team": "High Point",
+     "player": "Jason Rivera-Torres",
+     "status": "Likely out",
+     "note": "Monmouth transfer, 15.8 ppg last season; Isaac Garrett expected to fill in"
+    }
+   ],
+   "wait_note": "Tipped before any source number reached us, so no pick and nothing graded."
+  }
+ ],
+ "graded": true,
+ "abridged": "THE BALLGORITHM · NCAAM · Sun, Nov 1\n\nNOTES\n- GRADED: Notre Dame 74, Villanova 72. Villanova was our pick at −6.6 (73%) and lost by 2. Our miss: 8.6 points, close to the 8.85 the model averages.\n- Two games: Notre Dame vs Villanova in Rome (9:30 AM) and Liberty vs High Point in Rock Hill at midnight. Both neutral.\n- ND–Nova runs on Torvik and ESPN only, both converted from published ratings. Haslametrics is posted but won't load from here; paste it and the blend updates.\n- Liberty–High Point has no source number yet, so it's on the board without a pick. Market: High Point −7.5, total 154.5. Pace clash: Liberty is one of D1's slowest teams, High Point one of the fastest.\n- Villanova: Hodge out (ACL), Onyekwere didn't travel, Evans Jr. expected back. Notre Dame: Duncomb (leg) expected to play. High Point: Rivera-Torres likely out.\n- Market reference, ND–Nova: Villanova −7 (opened −7.5), total 147. Our number sits about half a point under.\n- Both rosters turned over heavily, so preseason ratings carry the whole projection today.\n\nRESULTS\nVillanova −6.6: Lost by 2 (final Notre Dame 74, Villanova 72)\n\nHAMMER OF THE DAY vs DraftKings (0-0)\nWaiting on DraftKings lines.\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong — none\nMid\nVillanova 73% · −6.6 ±11.1 vs Notre Dame (N)\nWeak — none\nLiberty vs High Point — waiting on source numbers",
+ "hammer": null
+}

@@ -1,0 +1,42 @@
+name: Daily collect and build
+
+on:
+  schedule:
+    - cron: "40 10 * * *"   # about 5:40 AM Eastern (6:40 AM in daylight time): finals, then today's slate
+    - cron: "20 20 * * *"   # about 3:20 PM Eastern (4:20 PM in daylight time): fresh lines, re-blend games not yet tipped
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install requests numpy playwright
+          python -m playwright install --with-deps chromium
+      - name: Collect sources
+        env:
+          KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}
+          KENPOM_PASSWORD: ${{ secrets.KENPOM_PASSWORD }}
+        run: python collect/collect.py
+      - name: Grade and build the slate
+        run: python model/run_daily.py
+      - name: Save to the repo
+        run: |
+          git config user.name "ballgorithm-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data site
+          git commit -m "Daily run $(date -u +%Y-%m-%dT%H:%MZ)" || echo "Nothing new"
+          git push
