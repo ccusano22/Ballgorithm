@@ -1,0 +1,37 @@
+name: Source access check
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install requests playwright
+          python -m playwright install --with-deps chromium
+      - name: Headless
+        env:
+          KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}
+          KENPOM_PASSWORD: ${{ secrets.KENPOM_PASSWORD }}
+        run: python collect/diag.py headless || true
+      - name: Headed (virtual display)
+        env:
+          KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}
+          KENPOM_PASSWORD: ${{ secrets.KENPOM_PASSWORD }}
+        run: xvfb-run -a python collect/diag.py headed || true
+      - name: Save
+        run: |
+          git config user.name "ballgorithm-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/diag
+          git commit -m "Source access check" || echo "nothing"
+          git pull --rebase -q origin main && git push

@@ -3,7 +3,7 @@ import json, os, re, unicodedata
 
 TEAMS = json.load(open(os.path.join(os.path.dirname(__file__), "teams.json")))   # name -> conference
 
-ALIAS = {'Abil. Christian': 'Abilene Christian',
+ALIAS = {'Cal State Bakersfield': 'Cal St. Bakersfield', 'CSU Bakersfield': 'Cal St. Bakersfield', 'Abil. Christian': 'Abilene Christian',
  'American University': 'American',
  'App State': 'Appalachian St.',
  'App State Mountaineers': 'Appalachian St.',
