@@ -117,7 +117,8 @@ def main():
             sys.path.insert(0, os.path.join(ROOT, "model"))
             import names as N
             r = requests.post("https://www.cbbdata.com/api/auth/login",
-                              json={"username": os.environ["CBD_USER"], "password": os.environ["CBD_PW"]}, timeout=30)
+                              json={"username": os.environ["CBD_USER"].strip(), "password": os.environ["CBD_PW"].strip()},
+                              timeout=30)
             r.raise_for_status()
             body = r.json()
             key = next(iter(body.values())) if isinstance(body, dict) else body[0]
