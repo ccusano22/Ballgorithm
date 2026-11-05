@@ -36,4 +36,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/raw/diag
           git commit -m "Source access check" || echo "nothing"
-          git pull --rebase -q origin main && git push
+          git pull --rebase -q origin main && git push || echo 'push skipped'

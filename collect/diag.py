@@ -15,7 +15,7 @@ def probe(name, fn):
         out[name] = {"error": f"{type(e).__name__}: {str(e)[:200]}"}
     print(name, out[name], flush=True)
 
-if mode == "headless":
+if mode == "skip-requests":
     for name, url in [("torvik_requests_schedule", f"https://barttorvik.com/schedule.php?date={d}"),
                       ("torvik_requests_csv", "https://barttorvik.com/2027_team_results.csv"),
                       ("torvik_requests_trank", "https://barttorvik.com/trank.php")]:
@@ -50,23 +50,35 @@ with sync_playwright() as p:
         pg.goto(f"https://barttorvik.com/schedule.php?date={d}", wait_until="domcontentloaded", timeout=90000)
         secs, txt = wait_clear(pg, 30)
         return {"cleared_after": secs, "len": len(txt), "proj": txt.count("%)"), "head": txt[:150]}
-    probe(f"torvik_browser_{mode}", torvik)
+    if mode == "headless":
+        probe(f"torvik_browser_{mode}", torvik)
     def kenpom():
-        pg.goto("https://kenpom.com/", wait_until="domcontentloaded", timeout=90000)
+        pg.goto("https://kenpom.com/", wait_until="load", timeout=90000)
         secs, txt = wait_clear(pg, 45)
-        res = {"home_cleared_after": secs, "home_len": len(txt)}
-        if secs is not None and os.environ.get("KENPOM_EMAIL"):
+        res = {"home_cleared_after": secs, "home_len": len(txt),
+               "inputs": pg.eval_on_selector_all("input", "els => els.map(e => [e.name, e.type, e.id].join('/'))")[:12],
+               "buttons": pg.eval_on_selector_all("button, input[type=submit]", "els => els.map(e => (e.innerText || e.value || '').slice(0,20))")[:6]}
+        if os.environ.get("KENPOM_EMAIL"):
             try:
-                pg.fill('input[name="email"]', os.environ["KENPOM_EMAIL"], timeout=15000)
-                pg.fill('input[name="password"]', os.environ["KENPOM_PASSWORD"], timeout=15000)
-                pg.click('input[type="submit"], button[type="submit"]', timeout=15000)
-                pg.wait_for_timeout(5000)
-                res["logged_in_text"] = "logout" in pg.inner_text("body").lower()
+                pg.fill('input[name="email"], input[type="email"]', os.environ["KENPOM_EMAIL"], timeout=15000)
+                pg.fill('input[name="password"], input[type="password"]', os.environ["KENPOM_PASSWORD"], timeout=15000)
+                with pg.expect_navigation(wait_until="load", timeout=30000):
+                    pg.click('input[type="submit"], button[type="submit"]', timeout=15000)
+                pg.wait_for_timeout(3000)
+                t = pg.inner_text("body")
+                res.update({"after_login_url": pg.url, "after_login_has_logout": "logout" in t.lower(),
+                            "after_login_snip": t[:200]})
             except Exception as e:
-                res["login_error"] = str(e)[:150]
-            pg.goto("https://kenpom.com/fanmatch.php", wait_until="domcontentloaded", timeout=90000)
-            s2, t2 = wait_clear(pg, 45)
-            res.update({"fanmatch_cleared_after": s2, "fanmatch_len": len(t2), "proj": t2.count("%)"), "head": t2[:150]})
+                res["login_error"] = str(e)[:200]
+            for url in ("https://kenpom.com/fanmatch.php", f"https://kenpom.com/fanmatch.php?d={datetime.date.today().isoformat()}"):
+                try:
+                    pg.goto(url, wait_until="load", timeout=90000)
+                    pg.wait_for_timeout(6000)
+                    t2 = pg.inner_text("body")
+                    res[url.split("/")[-1]] = {"final_url": pg.url, "title": pg.title(), "html_len": len(pg.content()),
+                                               "text_len": len(t2), "proj": t2.count("%)"), "snip": t2[:250]}
+                except Exception as e:
+                    res[url.split("/")[-1]] = {"error": str(e)[:200]}
         return res
     probe(f"kenpom_browser_{mode}", kenpom)
     b.close()
