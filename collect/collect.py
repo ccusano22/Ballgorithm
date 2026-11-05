@@ -180,6 +180,49 @@ def main():
         return {"chars": len(txt), "has_outcomes": "EXPECTED OUTCOMES" in txt.upper()}
     run("haslametrics", hasla, status)
 
+    def dratings():
+        pages = []
+        for n in range(1, 6):
+            url = "https://www.dratings.com/predictor/ncaa-basketball-predictions/" + ("" if n == 1 else f"upcoming/{n}#scroll-upcoming")
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=45)
+            if r.status_code != 200:
+                break
+            pages.append(r.text)
+            if f"upcoming/{n + 1}" not in r.text:
+                break
+            time.sleep(1)
+        for i, h in enumerate(pages, 1):
+            save(today, f"dratings_{i}.html", h)
+        return {"pages": len(pages), "chars": sum(len(h) for h in pages)}
+    run("dratings", dratings, status)
+
+    def massey():
+        from playwright.sync_api import sync_playwright
+        caught = []
+        with sync_playwright() as p:
+            b = p.chromium.launch()
+            pg = b.new_page(user_agent=UA, viewport={"width": 1400, "height": 2000})
+            def keep(resp):
+                try:
+                    if "masseyratings.com" in resp.url and "json" in (resp.headers.get("content-type", "") + resp.url):
+                        caught.append({"url": resp.url, "body": resp.text()[:3_000_000]})
+                except Exception:
+                    pass
+            pg.on("response", keep)
+            pg.goto("https://masseyratings.com/cb/ncaa-d1/games", wait_until="domcontentloaded", timeout=90000)
+            try:
+                pg.wait_for_load_state("networkidle", timeout=30000)
+            except Exception:
+                pass
+            pg.wait_for_timeout(6000)
+            txt, html = pg.inner_text("body"), pg.content()
+            b.close()
+        save(today, "massey.txt", txt)
+        save(today, "massey.html", html)
+        save(today, "massey_json.json", caught)
+        return {"chars": len(txt), "json_responses": len(caught)}
+    run("massey", massey, status)
+
     save(today, "status.json", status)
     bad = [k for k, v in status.items() if isinstance(v, dict) and not v.get("ok")]
     print("collection done; failed:", bad or "none")
