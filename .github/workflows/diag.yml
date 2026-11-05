@@ -15,9 +15,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: |
+      - name: Install
+        timeout-minutes: 8
+        run: |
           pip install requests playwright
-          python -m playwright install --with-deps chromium
+          for i in 1 2 3; do timeout 150 python -m playwright install --with-deps chromium && break; echo "install attempt $i timed out, retrying"; done
       - name: Headless
         env:
           KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}

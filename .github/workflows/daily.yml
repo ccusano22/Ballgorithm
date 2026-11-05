@@ -23,9 +23,10 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install
+        timeout-minutes: 8
         run: |
           pip install requests numpy playwright
-          python -m playwright install --with-deps chromium
+          for i in 1 2 3; do timeout 150 python -m playwright install --with-deps chromium && break; echo "install attempt $i timed out, retrying"; done
       - name: Collect sources
         env:
           KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}
