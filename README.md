@@ -47,4 +47,4 @@ If the board's notes say games were skipped for unrecognized names, add the site
 | Secret | What it's for |
 |---|---|
 | `CBBD_API_KEY` | CollegeBasketballData.com API key (free) |
-| `CBD_USER`, `CBD_EMAIL`, `CBD_PW` | Username (not email) and password of your cbbdata account, which serves T-Rank (Torvik) predictions. `CBD_EMAIL` is not used. |
+| `CBD_USER`, `CBD_EMAIL`, `CBD_PW` | cbbdata account (separate from CollegeBasketballData), which serves T-Rank (Torvik) predictions. Create it once with the *Create cbbdata account (run once)* workflow; `CBD_USER` is the username, not the email. |
