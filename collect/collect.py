@@ -119,6 +119,8 @@ def main():
         return {"games": len(sb.get("events", [])), "predictors": sum(1 for v in pr.values() if "error" not in v)}
     run("espn", espn_today, status)
 
+    # Nov 5: barttorvik.com returns 403 to GitHub's servers for every kind of request (blocked by network, not
+    # by browser). Kept so the board notes it; it costs a few seconds.
     def torvik():
         txt, html = page_text(f"https://barttorvik.com/schedule.php?date={today.strftime('%Y%m%d')}")
         save(today, "torvik.txt", txt)
@@ -133,14 +135,18 @@ def main():
         return {"chars": len(txt), "has_outcomes": "EXPECTED OUTCOMES" in txt.upper()}
     run("haslametrics", hasla, status)
 
-    if os.environ.get("KENPOM_EMAIL") and os.environ.get("KENPOM_PASSWORD"):
+    # Nov 5: KenPom's logged-in pages sit behind Cloudflare's bot check, which automated browsers can't pass and
+    # which we don't try to get around. Login attempts are switched off so the account isn't hit by failed bot logins.
+    if os.environ.get("KENPOM_API_KEY"):
+        status["kenpom"] = {"ok": False, "error": "KenPom API key present but the API client isn't written yet."}
+    elif False:
         def kenpom():
             txt, html = page_text(f"https://kenpom.com/fanmatch.php?d={today.isoformat()}", login=kenpom_login)
             save(today, "fanmatch.txt", txt)
             return {"chars": len(txt), "lines_with_projection": txt.count("%)")}
         run("kenpom", kenpom, status)
     else:
-        status["kenpom"] = {"ok": False, "error": "No KenPom login saved in the repo's secrets; KenPom sits out."}
+        status["kenpom"] = {"ok": False, "error": "KenPom isn't collected automatically (Cloudflare blocks automated logins)."}
 
     save(today, "status.json", status)
     bad = [k for k, v in status.items() if isinstance(v, dict) and not v.get("ok") and k != "kenpom"]
