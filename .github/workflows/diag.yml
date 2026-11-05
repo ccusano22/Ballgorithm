@@ -20,12 +20,16 @@ jobs:
         run: |
           pip install requests playwright
           for i in 1 2 3; do timeout 150 python -m playwright install --with-deps chromium && break; echo "install attempt $i timed out, retrying"; done
+      - name: Probe APIs
+        run: python collect/probe.py || true
       - name: Headless
+        if: false
         env:
           KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}
           KENPOM_PASSWORD: ${{ secrets.KENPOM_PASSWORD }}
         run: python collect/diag.py headless || true
       - name: Headed (virtual display)
+        if: false
         env:
           KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}
           KENPOM_PASSWORD: ${{ secrets.KENPOM_PASSWORD }}
