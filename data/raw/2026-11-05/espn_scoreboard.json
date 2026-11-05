@@ -8966,8 +8966,8 @@
    ],
    "weather": {
     "displayValue": "7",
-    "temperature": 61,
-    "highTemperature": 61,
+    "temperature": 57,
+    "highTemperature": 57,
     "conditionId": "Cloudy",
     "link": {
      "language": "en-US",
@@ -13576,7 +13576,7 @@
         "shortDisplayName": "ML",
         "home": {
          "close": {
-          "odds": "-148",
+          "odds": "-155",
           "link": {
            "language": "en-US",
            "rel": [
@@ -13608,7 +13608,7 @@
         },
         "away": {
          "close": {
-          "odds": "+124",
+          "odds": "+130",
           "link": {
            "language": "en-US",
            "rel": [
@@ -13717,7 +13717,7 @@
         "over": {
          "close": {
           "line": "o138.5",
-          "odds": "-115",
+          "odds": "-110",
           "link": {
            "language": "en-US",
            "rel": [
@@ -13751,7 +13751,7 @@
         "under": {
          "close": {
           "line": "u138.5",
-          "odds": "-105",
+          "odds": "-110",
           "link": {
            "language": "en-US",
            "rel": [
@@ -21022,7 +21022,7 @@
         ]
        },
        "details": "MRMK -9.5",
-       "overUnder": 140.5,
+       "overUnder": 139.5,
        "spread": -9.5,
        "awayTeamOdds": {
         "favorite": false,
@@ -21195,8 +21195,8 @@
         "shortDisplayName": "Total",
         "over": {
          "close": {
-          "line": "o140.5",
-          "odds": "-105",
+          "line": "o139.5",
+          "odds": "-108",
           "link": {
            "language": "en-US",
            "rel": [
@@ -21204,7 +21204,7 @@
             "desktop",
             "bets"
            ],
-           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965087%3Foutcomes%3D0OU87101287O14050_1",
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965087%3Foutcomes%3D0OU87101287O13950_1",
            "text": "Over Odds",
            "shortText": "Over Odds",
            "isExternal": true,
@@ -21217,7 +21217,7 @@
              "gameId": 401921679,
              "betSide": "over",
              "betType": "straight",
-             "betDetails": "Over:140.5"
+             "betDetails": "Over:139.5"
             }
            }
           }
@@ -21229,8 +21229,8 @@
         },
         "under": {
          "close": {
-          "line": "u140.5",
-          "odds": "-115",
+          "line": "u139.5",
+          "odds": "-112",
           "link": {
            "language": "en-US",
            "rel": [
@@ -21238,7 +21238,7 @@
             "desktop",
             "bets"
            ],
-           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965087%3Foutcomes%3D0OU87101287U14050_3",
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34965087%3Foutcomes%3D0OU87101287U13950_3",
            "text": "Under Odds",
            "shortText": "Under Odds",
            "isExternal": true,
@@ -21251,7 +21251,7 @@
              "gameId": 401921679,
              "betSide": "under",
              "betType": "straight",
-             "betDetails": "Under:140.5"
+             "betDetails": "Under:139.5"
             }
            }
           }
@@ -36397,32 +36397,6 @@
          "rankDisplayValue": "Tied-179th"
         }
        ],
-       "records": [
-        {
-         "name": "overall",
-         "abbreviation": "Season",
-         "type": "total",
-         "summary": "1-0"
-        },
-        {
-         "name": "Home",
-         "abbreviation": "Home",
-         "type": "home",
-         "summary": "1-0"
-        },
-        {
-         "name": "Road",
-         "abbreviation": "AWAY",
-         "type": "road",
-         "summary": "0-0"
-        },
-        {
-         "name": "vs. Conf.",
-         "abbreviation": "VS CONF",
-         "type": "vsconf",
-         "summary": "0-0"
-        }
-       ],
        "leaders": [
         {
          "name": "pointsPerGame",
@@ -36543,6 +36517,32 @@
            }
           }
          ]
+        }
+       ],
+       "records": [
+        {
+         "name": "overall",
+         "abbreviation": "Season",
+         "type": "total",
+         "summary": "1-0"
+        },
+        {
+         "name": "Home",
+         "abbreviation": "Home",
+         "type": "home",
+         "summary": "1-0"
+        },
+        {
+         "name": "Road",
+         "abbreviation": "AWAY",
+         "type": "road",
+         "summary": "0-0"
+        },
+        {
+         "name": "vs. Conf.",
+         "abbreviation": "VS CONF",
+         "type": "vsconf",
+         "summary": "0-0"
         }
        ]
       },
