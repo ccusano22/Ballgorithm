@@ -1,10 +1,10 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T16:40:43-05:00",
+ "generated_at": "2026-11-05T16:48:12-05:00",
  "notes": [
-  "46 D1 games on the board. Coverage: Torvik 0, Haslametrics 43, ESPN 46, CBBD 0, DraftKings lines 43.",
+  "43 D1 games on the board. Coverage: Torvik 0, Haslametrics 43, ESPN 43, DRatings 43, Massey 43, CBBD 0, DraftKings lines 43.",
   "Didn't load this run: Torvik. Those games use the remaining sources.",
-  "16 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
+  "22 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
  ],
  "games": [
   {
@@ -24,6 +24,16 @@
      "margin": 37.86,
      "total": 158.9,
      "note": "Published projection: Gardner Webb 60.5, Texas 98.4."
+    },
+    "dratings": {
+     "margin": 35.4,
+     "total": 153.4,
+     "note": "Published projection: Gardner Webb 59.0, Texas 94.4."
+    },
+    "massey": {
+     "margin": 34.5,
+     "total": 153.5,
+     "note": "Published median margin: Texas by 34.5, total 153.5."
     },
     "espn": {
      "margin": 29.41,
@@ -49,47 +59,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 33.79,
-    "src_sd": 4.22,
+    "margin": 34.37,
+    "src_sd": 3.08,
     "model_sd": 11.92,
-    "sd": 12.65,
-    "p_home": 0.9962,
-    "p_sd": 0.003,
-    "total": 158.9,
+    "sd": 12.31,
+    "p_home": 0.9974,
+    "p_sd": 0.0024,
+    "total": 155.2,
     "total_sd": 17.0,
     "baseline_total": 150.0,
-    "lean": "over",
-    "n_sources": 2
+    "lean": "near",
+    "n_sources": 4
    },
    "pick": {
     "team": "Texas",
     "dog": "Gardner Webb",
-    "p": 0.9962,
-    "margin": 33.79,
+    "p": 0.9974,
+    "margin": 34.37,
     "lock": true
    },
    "momentum": {
@@ -111,7 +129,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±0%)",
+   "tier_reason": "4 core systems agree (win chance ±0%)",
    "result": null,
    "hammer": {
     "id": "2026-11-05-gardner-webb-texas",
@@ -119,10 +137,10 @@
     "side": "away",
     "spread": 41.5,
     "spread_home": -41.5,
-    "edge": 7.71,
-    "cover_p": 0.7289,
-    "agree": 2,
-    "n": 2
+    "edge": 7.13,
+    "cover_p": 0.7188,
+    "agree": 4,
+    "n": 4
    }
   },
   {
@@ -142,6 +160,16 @@
      "margin": 42.53,
      "total": 146.8,
      "note": "Published projection: Coastal Carolina 52.1, Duke 94.7."
+    },
+    "dratings": {
+     "margin": 30.9,
+     "total": 143.7,
+     "note": "Published projection: Coastal Carolina 56.4, Duke 87.3."
+    },
+    "massey": {
+     "margin": 35.5,
+     "total": 145.5,
+     "note": "Published median margin: Duke by 35.5, total 145.5."
     },
     "espn": {
      "margin": 28.57,
@@ -167,47 +195,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 35.81,
-    "src_sd": 6.98,
+    "margin": 34.5,
+    "src_sd": 5.33,
     "model_sd": 11.92,
-    "sd": 13.81,
-    "p_home": 0.9952,
-    "p_sd": 0.004,
-    "total": 146.8,
+    "sd": 13.06,
+    "p_home": 0.9959,
+    "p_sd": 0.0031,
+    "total": 145.3,
     "total_sd": 17.0,
     "baseline_total": 137.5,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Duke",
     "dog": "Coastal Carolina",
-    "p": 0.9952,
-    "margin": 35.81,
+    "p": 0.9959,
+    "margin": 34.5,
     "lock": true
    },
    "momentum": {
@@ -229,7 +265,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±0%)",
+   "tier_reason": "4 core systems agree (win chance ±0%)",
    "result": null
   },
   {
@@ -249,6 +285,16 @@
      "margin": 32.9,
      "total": 149.0,
      "note": "Published projection: Jacksonville 58.1, Florida 91.0."
+    },
+    "dratings": {
+     "margin": 30.3,
+     "total": 150.5,
+     "note": "Published projection: Jacksonville 60.1, Florida 90.4."
+    },
+    "massey": {
+     "margin": 35.5,
+     "total": 151.5,
+     "note": "Published median margin: Florida by 35.5, total 151.5."
     },
     "espn": {
      "margin": 27.86,
@@ -274,47 +320,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 30.47,
-    "src_sd": 2.52,
+    "margin": 31.69,
+    "src_sd": 2.85,
     "model_sd": 11.92,
-    "sd": 12.18,
-    "p_home": 0.9938,
-    "p_sd": 0.0034,
-    "total": 149.0,
+    "sd": 12.26,
+    "p_home": 0.9951,
+    "p_sd": 0.0031,
+    "total": 150.3,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Florida",
     "dog": "Jacksonville",
-    "p": 0.9938,
-    "margin": 30.47,
+    "p": 0.9951,
+    "margin": 31.69,
     "lock": true
    },
    "momentum": {
@@ -334,7 +388,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±0%)",
+   "tier_reason": "4 core systems agree (win chance ±0%)",
    "result": null
   },
   {
@@ -354,6 +408,16 @@
      "margin": 31.38,
      "total": 173.3,
      "note": "Published projection: Cal Poly 70.9, Arizona 102.3."
+    },
+    "dratings": {
+     "margin": 22.4,
+     "total": 173.6,
+     "note": "Published projection: Cal Poly 75.6, Arizona 98.0."
+    },
+    "massey": {
+     "margin": 34.5,
+     "total": 165.5,
+     "note": "Published median margin: Arizona by 34.5, total 165.5."
     },
     "espn": {
      "margin": 24.69,
@@ -379,47 +443,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 28.16,
-    "src_sd": 3.34,
+    "margin": 28.31,
+    "src_sd": 4.89,
     "model_sd": 11.92,
-    "sd": 12.38,
-    "p_home": 0.9885,
-    "p_sd": 0.0075,
-    "total": 173.3,
+    "sd": 12.89,
+    "p_home": 0.986,
+    "p_sd": 0.0115,
+    "total": 170.8,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Arizona",
     "dog": "Cal Poly",
-    "p": 0.9885,
-    "margin": 28.16,
+    "p": 0.986,
+    "margin": 28.31,
     "lock": true
    },
    "momentum": {
@@ -439,328 +511,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-le-moyne-creighton",
-   "away": "Le Moyne",
-   "home": "Creighton",
-   "away_conf": "NEC",
-   "home_conf": "BE",
-   "short": {},
-   "neutral": false,
-   "site": "at Creighton",
-   "tip": "8 PM ET",
-   "tip_sort": 1200,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 29.54,
-     "total": 159.6,
-     "note": "Published projection: Le Moyne 65.0, Creighton 94.5."
-    },
-    "espn": {
-     "margin": 24.07,
-     "derived": true,
-     "note": "BPI matchup predictor: Creighton 98.5% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -29.5,
-    "total": 156.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 26.91,
-    "src_sd": 2.73,
-    "model_sd": 11.92,
-    "sd": 12.23,
-    "p_home": 0.9861,
-    "p_sd": 0.0076,
-    "total": 159.6,
-    "total_sd": 17.0,
-    "baseline_total": 153.5,
-    "lean": "over",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Creighton",
-    "dog": "Le Moyne",
-    "p": 0.9861,
-    "margin": 26.91,
-    "lock": true
-   },
-   "momentum": {
-    "Le Moyne": {
-     "n": 1,
-     "avg": -10.1,
-     "last": [
-      -10.1
-     ],
-     "flag": null
-    },
-    "Creighton": {
-     "n": 1,
-     "avg": -10.8,
-     "last": [
-      -10.8
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-bellarmine-indiana",
-   "away": "Bellarmine",
-   "home": "Indiana",
-   "away_conf": "ASun",
-   "home_conf": "B10",
-   "short": {},
-   "neutral": false,
-   "site": "at Indiana",
-   "tip": "6 PM ET",
-   "tip_sort": 1080,
-   "tv": "Peacock",
-   "sources": {
-    "hasla": {
-     "margin": 29.06,
-     "total": 151.2,
-     "note": "Published projection: Bellarmine 61.0, Indiana 90.1."
-    },
-    "espn": {
-     "margin": 23.78,
-     "derived": true,
-     "note": "BPI matchup predictor: Indiana 98.4% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -30.5,
-    "total": 153.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 26.52,
-    "src_sd": 2.64,
-    "model_sd": 11.92,
-    "sd": 12.21,
-    "p_home": 0.9851,
-    "p_sd": 0.0078,
-    "total": 151.2,
-    "total_sd": 17.0,
-    "baseline_total": 144.0,
-    "lean": "over",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Indiana",
-    "dog": "Bellarmine",
-    "p": 0.9851,
-    "margin": 26.52,
-    "lock": true
-   },
-   "momentum": {
-    "Bellarmine": {
-     "n": 1,
-     "avg": -17.0,
-     "last": [
-      -17.0
-     ],
-     "flag": null
-    },
-    "Indiana": {
-     "n": 1,
-     "avg": 2.2,
-     "last": [
-      2.2
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-bethune-cookman-texas-tech",
-   "away": "Bethune Cookman",
-   "home": "Texas Tech",
-   "away_conf": "SWAC",
-   "home_conf": "B12",
-   "short": {},
-   "neutral": false,
-   "site": "at Texas Tech",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 26.29,
-     "total": 154.2,
-     "note": "Published projection: Bethune Cookman 63.9, Texas Tech 90.2."
-    },
-    "espn": {
-     "margin": 24.69,
-     "derived": true,
-     "note": "BPI matchup predictor: Texas Tech 98.7% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -29.5,
-    "total": 149.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 25.52,
-    "src_sd": 0.8,
-    "model_sd": 11.92,
-    "sd": 11.95,
-    "p_home": 0.9837,
-    "p_sd": 0.0027,
-    "total": 154.2,
-    "total_sd": 17.0,
-    "baseline_total": 133.5,
-    "lean": "over",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Texas Tech",
-    "dog": "Bethune Cookman",
-    "p": 0.9837,
-    "margin": 25.52,
-    "lock": true
-   },
-   "momentum": {
-    "Bethune Cookman": {
-     "n": 1,
-     "avg": -5.0,
-     "last": [
-      -5.0
-     ],
-     "flag": null
-    },
-    "Texas Tech": {
-     "n": 1,
-     "avg": 1.3,
-     "last": [
-      1.3
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±0%)",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
    "result": null
   },
   {
@@ -780,6 +531,16 @@
      "margin": 28.2,
      "total": 156.4,
      "note": "Published projection: Penn 64.1, Illinois 92.3."
+    },
+    "dratings": {
+     "margin": 25.4,
+     "total": 164.4,
+     "note": "Published projection: Penn 69.5, Illinois 94.9."
+    },
+    "massey": {
+     "margin": 31.5,
+     "total": 154.5,
+     "note": "Published median margin: Illinois by 31.5, total 154.5."
     },
     "espn": {
      "margin": 21.93,
@@ -805,47 +566,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 25.18,
-    "src_sd": 3.13,
+    "margin": 26.82,
+    "src_sd": 3.53,
     "model_sd": 11.92,
-    "sd": 12.33,
-    "p_home": 0.9795,
-    "p_sd": 0.012,
-    "total": 156.4,
+    "sd": 12.43,
+    "p_home": 0.9845,
+    "p_sd": 0.0109,
+    "total": 158.5,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Illinois",
     "dog": "Penn",
-    "p": 0.9795,
-    "margin": 25.18,
+    "p": 0.9845,
+    "margin": 26.82,
     "lock": true
    },
    "momentum": {
@@ -865,7 +634,382 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-bellarmine-indiana",
+   "away": "Bellarmine",
+   "home": "Indiana",
+   "away_conf": "ASun",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Indiana",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "Peacock",
+   "sources": {
+    "hasla": {
+     "margin": 29.06,
+     "total": 151.2,
+     "note": "Published projection: Bellarmine 61.0, Indiana 90.1."
+    },
+    "dratings": {
+     "margin": 24.8,
+     "total": 150.0,
+     "note": "Published projection: Bellarmine 62.6, Indiana 87.4."
+    },
+    "massey": {
+     "margin": 25.5,
+     "total": 154.5,
+     "note": "Published median margin: Indiana by 25.5, total 154.5."
+    },
+    "espn": {
+     "margin": 23.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Indiana 98.4% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -30.5,
+    "total": 153.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 25.83,
+    "src_sd": 1.99,
+    "model_sd": 11.92,
+    "sd": 12.08,
+    "p_home": 0.9837,
+    "p_sd": 0.0057,
+    "total": 151.9,
+    "total_sd": 17.0,
+    "baseline_total": 144.0,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Indiana",
+    "dog": "Bellarmine",
+    "p": 0.9837,
+    "margin": 25.83,
+    "lock": true
+   },
+   "momentum": {
+    "Bellarmine": {
+     "n": 1,
+     "avg": -17.0,
+     "last": [
+      -17.0
+     ],
+     "flag": null
+    },
+    "Indiana": {
+     "n": 1,
+     "avg": 2.2,
+     "last": [
+      2.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-le-moyne-creighton",
+   "away": "Le Moyne",
+   "home": "Creighton",
+   "away_conf": "NEC",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Creighton",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 29.54,
+     "total": 159.6,
+     "note": "Published projection: Le Moyne 65.0, Creighton 94.5."
+    },
+    "dratings": {
+     "margin": 20.3,
+     "total": 153.1,
+     "note": "Published projection: Le Moyne 66.4, Creighton 86.7."
+    },
+    "massey": {
+     "margin": 32.5,
+     "total": 152.5,
+     "note": "Published median margin: Creighton by 32.5, total 152.5."
+    },
+    "espn": {
+     "margin": 24.07,
+     "derived": true,
+     "note": "BPI matchup predictor: Creighton 98.5% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -29.5,
+    "total": 156.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 26.65,
+    "src_sd": 4.73,
+    "model_sd": 11.92,
+    "sd": 12.82,
+    "p_home": 0.9812,
+    "p_sd": 0.0162,
+    "total": 155.0,
+    "total_sd": 17.0,
+    "baseline_total": 153.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Creighton",
+    "dog": "Le Moyne",
+    "p": 0.9812,
+    "margin": 26.65,
+    "lock": true
+   },
+   "momentum": {
+    "Le Moyne": {
+     "n": 1,
+     "avg": -10.1,
+     "last": [
+      -10.1
+     ],
+     "flag": null
+    },
+    "Creighton": {
+     "n": 1,
+     "avg": -10.8,
+     "last": [
+      -10.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-bethune-cookman-texas-tech",
+   "away": "Bethune Cookman",
+   "home": "Texas Tech",
+   "away_conf": "SWAC",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Texas Tech",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 26.29,
+     "total": 154.2,
+     "note": "Published projection: Bethune Cookman 63.9, Texas Tech 90.2."
+    },
+    "dratings": {
+     "margin": 19.8,
+     "total": 146.8,
+     "note": "Published projection: Bethune Cookman 63.5, Texas Tech 83.3."
+    },
+    "massey": {
+     "margin": 32.5,
+     "total": 149.5,
+     "note": "Published median margin: Texas Tech by 32.5, total 149.5."
+    },
+    "espn": {
+     "margin": 24.69,
+     "derived": true,
+     "note": "BPI matchup predictor: Texas Tech 98.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -29.5,
+    "total": 149.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 25.84,
+    "src_sd": 4.54,
+    "model_sd": 11.92,
+    "sd": 12.75,
+    "p_home": 0.9786,
+    "p_sd": 0.0167,
+    "total": 150.1,
+    "total_sd": 17.0,
+    "baseline_total": 133.5,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Texas Tech",
+    "dog": "Bethune Cookman",
+    "p": 0.9786,
+    "margin": 25.84,
+    "lock": true
+   },
+   "momentum": {
+    "Bethune Cookman": {
+     "n": 1,
+     "avg": -5.0,
+     "last": [
+      -5.0
+     ],
+     "flag": null
+    },
+    "Texas Tech": {
+     "n": 1,
+     "avg": 1.3,
+     "last": [
+      1.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -885,6 +1029,16 @@
      "margin": 30.32,
      "total": 159.8,
      "note": "Published projection: VMI 64.8, SMU 95.1."
+    },
+    "dratings": {
+     "margin": 20.6,
+     "total": 160.2,
+     "note": "Published projection: VMI 69.8, SMU 90.4."
+    },
+    "massey": {
+     "margin": 30.5,
+     "total": 156.5,
+     "note": "Published median margin: SMU by 30.5, total 156.5."
     },
     "espn": {
      "margin": 20.39,
@@ -910,47 +1064,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 25.54,
+    "margin": 25.55,
     "src_sd": 4.96,
     "model_sd": 11.92,
     "sd": 12.91,
-    "p_home": 0.976,
-    "p_sd": 0.019,
-    "total": 159.8,
+    "p_home": 0.9761,
+    "p_sd": 0.0187,
+    "total": 158.8,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "SMU",
     "dog": "VMI",
-    "p": 0.976,
-    "margin": 25.54,
+    "p": 0.9761,
+    "margin": 25.55,
     "lock": true
    },
    "momentum": {
@@ -970,114 +1132,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-toledo-michigan-st",
-   "away": "Toledo",
-   "home": "Michigan St.",
-   "away_conf": "MAC",
-   "home_conf": "B10",
-   "short": {},
-   "neutral": false,
-   "site": "at Michigan St.",
-   "tip": "8 PM ET",
-   "tip_sort": 1200,
-   "tv": "Peacock",
-   "sources": {
-    "hasla": {
-     "margin": 26.17,
-     "total": 152.9,
-     "note": "Published projection: Toledo 63.4, Michigan St. 89.5."
-    },
-    "espn": {
-     "margin": 20.39,
-     "derived": true,
-     "note": "BPI matchup predictor: Michigan St. 96.7% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -26.5,
-    "total": 155.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 23.39,
-    "src_sd": 2.89,
-    "model_sd": 11.92,
-    "sd": 12.27,
-    "p_home": 0.9717,
-    "p_sd": 0.0148,
-    "total": 152.9,
-    "total_sd": 17.0,
-    "baseline_total": 148.0,
-    "lean": "near",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Michigan St.",
-    "dog": "Toledo",
-    "p": 0.9717,
-    "margin": 23.39,
-    "lock": true
-   },
-   "momentum": {
-    "Toledo": {
-     "n": 1,
-     "avg": -0.1,
-     "last": [
-      -0.1
-     ],
-     "flag": null
-    },
-    "Michigan St.": {
-     "n": 1,
-     "avg": 8.2,
-     "last": [
-      8.2
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1097,6 +1152,16 @@
      "margin": 23.85,
      "total": 146.3,
      "note": "Published projection: Green Bay 61.2, Cincinnati 85.1."
+    },
+    "dratings": {
+     "margin": 18.9,
+     "total": 148.5,
+     "note": "Published projection: Green Bay 64.8, Cincinnati 83.7."
+    },
+    "massey": {
+     "margin": 22.5,
+     "total": 144.5,
+     "note": "Published median margin: Cincinnati by 22.5, total 144.5."
     },
     "espn": {
      "margin": 21.37,
@@ -1122,47 +1187,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 22.66,
-    "src_sd": 1.24,
+    "margin": 21.67,
+    "src_sd": 1.82,
     "model_sd": 11.92,
-    "sd": 11.98,
-    "p_home": 0.9707,
-    "p_sd": 0.0069,
-    "total": 146.3,
+    "sd": 12.06,
+    "p_home": 0.9639,
+    "p_sd": 0.0126,
+    "total": 146.4,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Cincinnati",
     "dog": "Green Bay",
-    "p": 0.9707,
-    "margin": 22.66,
+    "p": 0.9639,
+    "margin": 21.67,
     "lock": true
    },
    "momentum": {
@@ -1182,7 +1255,132 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-toledo-michigan-st",
+   "away": "Toledo",
+   "home": "Michigan St.",
+   "away_conf": "MAC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Michigan St.",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "Peacock",
+   "sources": {
+    "hasla": {
+     "margin": 26.17,
+     "total": 152.9,
+     "note": "Published projection: Toledo 63.4, Michigan St. 89.5."
+    },
+    "dratings": {
+     "margin": 18.9,
+     "total": 151.3,
+     "note": "Published projection: Toledo 66.2, Michigan St. 85.1."
+    },
+    "massey": {
+     "margin": 20.5,
+     "total": 151.5,
+     "note": "Published median margin: Michigan St. by 20.5, total 151.5."
+    },
+    "espn": {
+     "margin": 20.39,
+     "derived": true,
+     "note": "BPI matchup predictor: Michigan St. 96.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -26.5,
+    "total": 155.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 21.54,
+    "src_sd": 2.77,
+    "model_sd": 11.92,
+    "sd": 12.24,
+    "p_home": 0.9608,
+    "p_sd": 0.0155,
+    "total": 151.9,
+    "total_sd": 17.0,
+    "baseline_total": 148.0,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Michigan St.",
+    "dog": "Toledo",
+    "p": 0.9608,
+    "margin": 21.54,
+    "lock": true
+   },
+   "momentum": {
+    "Toledo": {
+     "n": 1,
+     "avg": -0.1,
+     "last": [
+      -0.1
+     ],
+     "flag": null
+    },
+    "Michigan St.": {
+     "n": 1,
+     "avg": 8.2,
+     "last": [
+      8.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1202,6 +1400,16 @@
      "margin": 25.59,
      "total": 158.0,
      "note": "Published projection: Northwestern St. 66.2, Mississippi St. 91.8."
+    },
+    "dratings": {
+     "margin": 16.6,
+     "total": 158.2,
+     "note": "Published projection: Northwestern St. 70.8, Mississippi St. 87.4."
+    },
+    "massey": {
+     "margin": 19.5,
+     "total": 148.5,
+     "note": "Published median margin: Mississippi St. by 19.5, total 148.5."
     },
     "espn": {
      "margin": 19.16,
@@ -1227,47 +1435,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 22.5,
-    "src_sd": 3.21,
+    "margin": 20.26,
+    "src_sd": 3.3,
     "model_sd": 11.92,
-    "sd": 12.35,
-    "p_home": 0.9658,
-    "p_sd": 0.019,
-    "total": 158.0,
+    "sd": 12.37,
+    "p_home": 0.9493,
+    "p_sd": 0.0234,
+    "total": 154.9,
     "total_sd": 17.0,
     "baseline_total": 173.0,
     "lean": "under",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Mississippi St.",
     "dog": "Northwestern St.",
-    "p": 0.9658,
-    "margin": 22.5,
+    "p": 0.9493,
+    "margin": 20.26,
     "lock": true
    },
    "momentum": {
@@ -1289,114 +1505,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-liu-seton-hall",
-   "away": "LIU",
-   "home": "Seton Hall",
-   "away_conf": "NEC",
-   "home_conf": "BE",
-   "short": {},
-   "neutral": false,
-   "site": "at Seton Hall",
-   "tip": "6:30 PM ET",
-   "tip_sort": 1110,
-   "tv": "truTV",
-   "sources": {
-    "hasla": {
-     "margin": 21.93,
-     "total": 142.3,
-     "note": "Published projection: LIU 60.2, Seton Hall 82.1."
-    },
-    "espn": {
-     "margin": 20.09,
-     "derived": true,
-     "note": "BPI matchup predictor: Seton Hall 96.5% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -17.5,
-    "total": 135.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 21.04,
-    "src_sd": 0.92,
-    "model_sd": 11.92,
-    "sd": 11.96,
-    "p_home": 0.9608,
-    "p_sd": 0.0065,
-    "total": 142.3,
-    "total_sd": 17.0,
-    "baseline_total": 121.0,
-    "lean": "over",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Seton Hall",
-    "dog": "LIU",
-    "p": 0.9608,
-    "margin": 21.04,
-    "lock": true
-   },
-   "momentum": {
-    "LIU": {
-     "n": 1,
-     "avg": 0.3,
-     "last": [
-      0.3
-     ],
-     "flag": null
-    },
-    "Seton Hall": {
-     "n": 1,
-     "avg": 4.5,
-     "last": [
-      4.5
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1416,6 +1525,16 @@
      "margin": 20.23,
      "total": 144.3,
      "note": "Published projection: Mercyhurst 62.0, Notre Dame 82.3."
+    },
+    "dratings": {
+     "margin": 15.8,
+     "total": 136.6,
+     "note": "Published projection: Mercyhurst 60.4, Notre Dame 76.2."
+    },
+    "massey": {
+     "margin": 24.5,
+     "total": 141.5,
+     "note": "Published median margin: Notre Dame by 24.5, total 141.5."
     },
     "espn": {
      "margin": 19.42,
@@ -1441,47 +1560,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 19.84,
-    "src_sd": 0.4,
+    "margin": 20.0,
+    "src_sd": 3.09,
     "model_sd": 11.92,
-    "sd": 11.93,
-    "p_home": 0.9519,
-    "p_sd": 0.0034,
-    "total": 144.3,
+    "sd": 12.31,
+    "p_home": 0.9478,
+    "p_sd": 0.0261,
+    "total": 140.8,
     "total_sd": 17.0,
     "baseline_total": 133.5,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Notre Dame",
     "dog": "Mercyhurst",
-    "p": 0.9519,
-    "margin": 19.84,
+    "p": 0.9478,
+    "margin": 20.0,
     "lock": true
    },
    "momentum": {
@@ -1503,7 +1630,132 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±0%)",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-liu-seton-hall",
+   "away": "LIU",
+   "home": "Seton Hall",
+   "away_conf": "NEC",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Seton Hall",
+   "tip": "6:30 PM ET",
+   "tip_sort": 1110,
+   "tv": "truTV",
+   "sources": {
+    "hasla": {
+     "margin": 21.93,
+     "total": 142.3,
+     "note": "Published projection: LIU 60.2, Seton Hall 82.1."
+    },
+    "dratings": {
+     "margin": 14.4,
+     "total": 132.0,
+     "note": "Published projection: LIU 58.8, Seton Hall 73.2."
+    },
+    "massey": {
+     "margin": 22.5,
+     "total": 137.5,
+     "note": "Published median margin: Seton Hall by 22.5, total 137.5."
+    },
+    "espn": {
+     "margin": 20.09,
+     "derived": true,
+     "note": "BPI matchup predictor: Seton Hall 96.5% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -17.5,
+    "total": 135.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 19.74,
+    "src_sd": 3.2,
+    "model_sd": 11.92,
+    "sd": 12.34,
+    "p_home": 0.9451,
+    "p_sd": 0.0341,
+    "total": 137.2,
+    "total_sd": 17.0,
+    "baseline_total": 121.0,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Seton Hall",
+    "dog": "LIU",
+    "p": 0.9451,
+    "margin": 19.74,
+    "lock": true
+   },
+   "momentum": {
+    "LIU": {
+     "n": 1,
+     "avg": 0.3,
+     "last": [
+      0.3
+     ],
+     "flag": null
+    },
+    "Seton Hall": {
+     "n": 1,
+     "avg": 4.5,
+     "last": [
+      4.5
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
    "result": null
   },
   {
@@ -1523,6 +1775,16 @@
      "margin": 21.33,
      "total": 146.8,
      "note": "Published projection: Central Connecticut 62.8, Syracuse 84.1."
+    },
+    "dratings": {
+     "margin": 17.2,
+     "total": 133.6,
+     "note": "Published projection: Central Connecticut 58.2, Syracuse 75.4."
+    },
+    "massey": {
+     "margin": 19.5,
+     "total": 147.5,
+     "note": "Published median margin: Syracuse by 19.5, total 147.5."
     },
     "espn": {
      "margin": 16.79,
@@ -1548,47 +1810,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 19.14,
-    "src_sd": 2.27,
+    "margin": 18.75,
+    "src_sd": 1.83,
     "model_sd": 11.92,
-    "sd": 12.13,
-    "p_home": 0.9427,
-    "p_sd": 0.0214,
-    "total": 146.8,
+    "sd": 12.06,
+    "p_home": 0.94,
+    "p_sd": 0.0174,
+    "total": 142.6,
     "total_sd": 17.0,
     "baseline_total": 128.0,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Syracuse",
     "dog": "Central Connecticut",
-    "p": 0.9427,
-    "margin": 19.14,
+    "p": 0.94,
+    "margin": 18.75,
     "lock": true
    },
    "momentum": {
@@ -1610,7 +1880,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1630,6 +1900,16 @@
      "margin": 21.24,
      "total": 146.2,
      "note": "Published projection: Buffalo 62.5, Pittsburgh 83.7."
+    },
+    "dratings": {
+     "margin": 14.2,
+     "total": 152.0,
+     "note": "Published projection: Buffalo 68.9, Pittsburgh 83.1."
+    },
+    "massey": {
+     "margin": 18.5,
+     "total": 149.5,
+     "note": "Published median margin: Pittsburgh by 18.5, total 149.5."
     },
     "espn": {
      "margin": 16.79,
@@ -1655,47 +1935,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 19.1,
-    "src_sd": 2.22,
+    "margin": 17.72,
+    "src_sd": 2.56,
     "model_sd": 11.92,
-    "sd": 12.13,
-    "p_home": 0.9424,
-    "p_sd": 0.021,
-    "total": 146.2,
+    "sd": 12.19,
+    "p_home": 0.9269,
+    "p_sd": 0.0291,
+    "total": 149.3,
     "total_sd": 17.0,
     "baseline_total": 154.5,
-    "lean": "under",
-    "n_sources": 2
+    "lean": "near",
+    "n_sources": 4
    },
    "pick": {
     "team": "Pittsburgh",
     "dog": "Buffalo",
-    "p": 0.9424,
-    "margin": 19.1,
+    "p": 0.9269,
+    "margin": 17.72,
     "lock": true
    },
    "momentum": {
@@ -1717,7 +2005,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
    "result": null
   },
   {
@@ -1737,6 +2025,16 @@
      "margin": 21.68,
      "total": 156.9,
      "note": "Published projection: Northern Illinois 67.6, Tulsa 89.3."
+    },
+    "dratings": {
+     "margin": 14.5,
+     "total": 156.5,
+     "note": "Published projection: Northern Illinois 71.0, Tulsa 85.5."
+    },
+    "massey": {
+     "margin": 16.5,
+     "total": 154.5,
+     "note": "Published median margin: Tulsa by 16.5, total 154.5."
     },
     "espn": {
      "margin": 15.73,
@@ -1762,47 +2060,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 18.82,
-    "src_sd": 2.97,
+    "margin": 17.15,
+    "src_sd": 2.74,
     "model_sd": 11.92,
-    "sd": 12.29,
-    "p_home": 0.9372,
-    "p_sd": 0.0295,
-    "total": 156.9,
+    "sd": 12.23,
+    "p_home": 0.9196,
+    "p_sd": 0.0286,
+    "total": 156.0,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Tulsa",
     "dog": "Northern Illinois",
-    "p": 0.9372,
-    "margin": 18.82,
+    "p": 0.9196,
+    "margin": 17.15,
     "lock": true
    },
    "momentum": {
@@ -1820,7 +2126,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±3%)",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
    "result": null
   },
   {
@@ -1840,6 +2146,16 @@
      "margin": 17.79,
      "total": 157.2,
      "note": "Published projection: Mercer 69.7, Virginia Tech 87.5."
+    },
+    "dratings": {
+     "margin": 16.6,
+     "total": 152.8,
+     "note": "Published projection: Mercer 68.1, Virginia Tech 84.7."
+    },
+    "massey": {
+     "margin": 14.5,
+     "total": 152.5,
+     "note": "Published median margin: Virginia Tech by 14.5, total 152.5."
     },
     "espn": {
      "margin": 17.82,
@@ -1865,47 +2181,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 17.8,
-    "src_sd": 0.02,
+    "margin": 16.67,
+    "src_sd": 1.35,
     "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.9324,
-    "p_sd": 0.0002,
-    "total": 157.2,
+    "sd": 12.0,
+    "p_home": 0.9177,
+    "p_sd": 0.0181,
+    "total": 154.1,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Virginia Tech",
     "dog": "Mercer",
-    "p": 0.9324,
-    "margin": 17.8,
+    "p": 0.9177,
+    "margin": 16.67,
     "lock": true
    },
    "momentum": {
@@ -1923,7 +2247,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±0%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1943,6 +2267,16 @@
      "margin": 18.22,
      "total": 140.4,
      "note": "Published projection: Stonehill 61.1, Fordham 79.3."
+    },
+    "dratings": {
+     "margin": 12.7,
+     "total": 142.9,
+     "note": "Published projection: Stonehill 65.1, Fordham 77.8."
+    },
+    "massey": {
+     "margin": 14.5,
+     "total": 137.5,
+     "note": "Published median margin: Fordham by 14.5, total 137.5."
     },
     "espn": {
      "margin": 16.45,
@@ -1968,48 +2302,56 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 17.37,
-    "src_sd": 0.88,
+    "margin": 15.48,
+    "src_sd": 2.07,
     "model_sd": 11.92,
-    "sd": 11.95,
-    "p_home": 0.9269,
-    "p_sd": 0.0103,
-    "total": 140.4,
+    "sd": 12.1,
+    "p_home": 0.8996,
+    "p_sd": 0.0302,
+    "total": 140.3,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Fordham",
     "dog": "Stonehill",
-    "p": 0.9269,
-    "margin": 17.37,
-    "lock": true
+    "p": 0.8996,
+    "margin": 15.48,
+    "lock": false
    },
    "momentum": {
     "Stonehill": {
@@ -2028,114 +2370,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-west-georgia-loyola-chicago",
-   "away": "West Georgia",
-   "home": "Loyola Chicago",
-   "away_conf": "UAC",
-   "home_conf": "A10",
-   "short": {},
-   "neutral": false,
-   "site": "at Loyola Chicago",
-   "tip": "8 PM ET",
-   "tip_sort": 1200,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 16.96,
-     "total": 151.1,
-     "note": "Published projection: West Georgia 67.1, Loyola Chicago 84.0."
-    },
-    "espn": {
-     "margin": 13.84,
-     "derived": true,
-     "note": "BPI matchup predictor: Loyola Chicago 89.4% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -17.5,
-    "total": 145.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 15.46,
-    "src_sd": 1.56,
-    "model_sd": 11.92,
-    "sd": 12.02,
-    "p_home": 0.9008,
-    "p_sd": 0.0227,
-    "total": 151.1,
-    "total_sd": 17.0,
-    "baseline_total": 131.0,
-    "lean": "over",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Loyola Chicago",
-    "dog": "West Georgia",
-    "p": 0.9008,
-    "margin": 15.46,
-    "lock": true
-   },
-   "momentum": {
-    "West Georgia": {
-     "n": 1,
-     "avg": 5.2,
-     "last": [
-      5.2
-     ],
-     "flag": null
-    },
-    "Loyola Chicago": {
-     "n": 1,
-     "avg": 10.5,
-     "last": [
-      10.5
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
    "result": null
   },
   {
@@ -2155,6 +2390,16 @@
      "margin": 15.75,
      "total": 157.9,
      "note": "Published projection: Chattanooga 71.1, Penn St. 86.8."
+    },
+    "dratings": {
+     "margin": 12.0,
+     "total": 158.8,
+     "note": "Published projection: Chattanooga 73.4, Penn St. 85.4."
+    },
+    "massey": {
+     "margin": 12.5,
+     "total": 155.5,
+     "note": "Published median margin: Penn St. by 12.5, total 155.5."
     },
     "espn": {
      "margin": 14.34,
@@ -2180,47 +2425,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 15.07,
-    "src_sd": 0.71,
+    "margin": 13.66,
+    "src_sd": 1.49,
     "model_sd": 11.92,
-    "sd": 11.94,
-    "p_home": 0.8966,
-    "p_sd": 0.0106,
-    "total": 157.9,
+    "sd": 12.01,
+    "p_home": 0.8722,
+    "p_sd": 0.0255,
+    "total": 157.4,
     "total_sd": 17.0,
     "baseline_total": 154.0,
     "lean": "near",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Penn St.",
     "dog": "Chattanooga",
-    "p": 0.8966,
-    "margin": 15.07,
+    "p": 0.8722,
+    "margin": 13.66,
     "lock": false
    },
    "momentum": {
@@ -2242,31 +2495,41 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
    "result": null
   },
   {
-   "id": "2026-11-05-wake-forest-vanderbilt",
-   "away": "Wake Forest",
-   "home": "Vanderbilt",
-   "away_conf": "ACC",
-   "home_conf": "SEC",
+   "id": "2026-11-05-west-georgia-loyola-chicago",
+   "away": "West Georgia",
+   "home": "Loyola Chicago",
+   "away_conf": "UAC",
+   "home_conf": "A10",
    "short": {},
    "neutral": false,
-   "site": "at Vanderbilt",
-   "tip": "6 PM ET",
-   "tip_sort": 1080,
-   "tv": "ESPN2",
+   "site": "at Loyola Chicago",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
    "sources": {
     "hasla": {
-     "margin": 14.76,
-     "total": 157.0,
-     "note": "Published projection: Wake Forest 71.1, Vanderbilt 85.9."
+     "margin": 16.96,
+     "total": 151.1,
+     "note": "Published projection: West Georgia 67.1, Loyola Chicago 84.0."
+    },
+    "dratings": {
+     "margin": 11.2,
+     "total": 140.4,
+     "note": "Published projection: West Georgia 64.6, Loyola Chicago 75.8."
+    },
+    "massey": {
+     "margin": 12.5,
+     "total": 146.5,
+     "note": "Published median margin: Loyola Chicago by 12.5, total 146.5."
     },
     "espn": {
-     "margin": 14.02,
+     "margin": 13.84,
      "derived": true,
-     "note": "BPI matchup predictor: Vanderbilt 89.7% to win, converted to points at ±11.09."
+     "note": "BPI matchup predictor: Loyola Chicago 89.4% to win, converted to points at ±11.09."
     },
     "torvik": {
      "margin": null,
@@ -2278,8 +2541,8 @@
     }
    },
    "market": {
-    "spread_home": -18.5,
-    "total": 155.5,
+    "spread_home": -17.5,
+    "total": 145.5,
     "book": "DraftKings"
    },
    "injuries": [],
@@ -2287,69 +2550,77 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 14.4,
-    "src_sd": 0.37,
+    "margin": 13.65,
+    "src_sd": 2.14,
     "model_sd": 11.92,
-    "sd": 11.93,
-    "p_home": 0.8864,
-    "p_sd": 0.006,
-    "total": 157.0,
+    "sd": 12.11,
+    "p_home": 0.8701,
+    "p_sd": 0.0354,
+    "total": 145.9,
     "total_sd": 17.0,
-    "baseline_total": 142.5,
+    "baseline_total": 131.0,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
-    "team": "Vanderbilt",
-    "dog": "Wake Forest",
-    "p": 0.8864,
-    "margin": 14.4,
+    "team": "Loyola Chicago",
+    "dog": "West Georgia",
+    "p": 0.8701,
+    "margin": 13.65,
     "lock": false
    },
    "momentum": {
-    "Wake Forest": {
+    "West Georgia": {
      "n": 1,
-     "avg": -6.7,
+     "avg": 5.2,
      "last": [
-      -6.7
+      5.2
      ],
      "flag": null
     },
-    "Vanderbilt": {
+    "Loyola Chicago": {
      "n": 1,
-     "avg": 17.0,
+     "avg": 10.5,
      "last": [
-      17.0
+      10.5
      ],
      "flag": null
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
    "result": null
   },
   {
@@ -2369,6 +2640,16 @@
      "margin": 15.35,
      "total": 155.1,
      "note": "Published projection: Jackson St. 69.9, Tulane 85.2."
+    },
+    "dratings": {
+     "margin": 11.5,
+     "total": 147.9,
+     "note": "Published projection: Jackson St. 68.2, Tulane 79.7."
+    },
+    "massey": {
+     "margin": 13.5,
+     "total": 152.5,
+     "note": "Published median margin: Tulane by 13.5, total 152.5."
     },
     "espn": {
      "margin": 12.76,
@@ -2394,47 +2675,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 14.1,
-    "src_sd": 1.29,
+    "margin": 13.3,
+    "src_sd": 1.39,
     "model_sd": 11.92,
-    "sd": 11.99,
-    "p_home": 0.8803,
-    "p_sd": 0.0216,
-    "total": 155.1,
+    "sd": 12.0,
+    "p_home": 0.8661,
+    "p_sd": 0.0247,
+    "total": 151.8,
     "total_sd": 17.0,
     "baseline_total": 158.0,
-    "lean": "near",
-    "n_sources": 2
+    "lean": "under",
+    "n_sources": 4
    },
    "pick": {
     "team": "Tulane",
     "dog": "Jackson St.",
-    "p": 0.8803,
-    "margin": 14.1,
+    "p": 0.8661,
+    "margin": 13.3,
     "lock": false
    },
    "momentum": {
@@ -2456,7 +2745,132 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-wake-forest-vanderbilt",
+   "away": "Wake Forest",
+   "home": "Vanderbilt",
+   "away_conf": "ACC",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": false,
+   "site": "at Vanderbilt",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": 14.76,
+     "total": 157.0,
+     "note": "Published projection: Wake Forest 71.1, Vanderbilt 85.9."
+    },
+    "dratings": {
+     "margin": 12.3,
+     "total": 151.9,
+     "note": "Published projection: Wake Forest 69.8, Vanderbilt 82.1."
+    },
+    "massey": {
+     "margin": 8.5,
+     "total": 153.5,
+     "note": "Published median margin: Vanderbilt by 8.5, total 153.5."
+    },
+    "espn": {
+     "margin": 14.02,
+     "derived": true,
+     "note": "BPI matchup predictor: Vanderbilt 89.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 155.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 12.39,
+    "src_sd": 2.42,
+    "model_sd": 11.92,
+    "sd": 12.16,
+    "p_home": 0.8459,
+    "p_sd": 0.0509,
+    "total": 154.1,
+    "total_sd": 17.0,
+    "baseline_total": 142.5,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Vanderbilt",
+    "dog": "Wake Forest",
+    "p": 0.8459,
+    "margin": 12.39,
+    "lock": false
+   },
+   "momentum": {
+    "Wake Forest": {
+     "n": 1,
+     "avg": -6.7,
+     "last": [
+      -6.7
+     ],
+     "flag": null
+    },
+    "Vanderbilt": {
+     "n": 1,
+     "avg": 17.0,
+     "last": [
+      17.0
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±5%)",
    "result": null
   },
   {
@@ -2476,6 +2890,16 @@
      "margin": 11.98,
      "total": 141.4,
      "note": "Published projection: Delaware St. 64.7, Navy 76.7."
+    },
+    "dratings": {
+     "margin": 10.1,
+     "total": 133.1,
+     "note": "Published projection: Delaware St. 61.5, Navy 71.6."
+    },
+    "massey": {
+     "margin": 11.5,
+     "total": 136.5,
+     "note": "Published median margin: Navy by 11.5, total 136.5."
     },
     "espn": {
      "margin": 10.07,
@@ -2501,47 +2925,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 11.06,
-    "src_sd": 0.96,
+    "margin": 10.93,
+    "src_sd": 0.84,
     "model_sd": 11.92,
-    "sd": 11.96,
-    "p_home": 0.8225,
-    "p_sd": 0.0208,
-    "total": 141.4,
+    "sd": 11.95,
+    "p_home": 0.8198,
+    "p_sd": 0.0185,
+    "total": 136.9,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Navy",
     "dog": "Delaware St.",
-    "p": 0.8225,
-    "margin": 11.06,
+    "p": 0.8198,
+    "margin": 10.93,
     "lock": false
    },
    "momentum": {
@@ -2561,7 +2993,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -2581,6 +3013,16 @@
      "margin": 9.89,
      "total": 152.1,
      "note": "Published projection: NJIT 71.1, Iona 81.0."
+    },
+    "dratings": {
+     "margin": 9.2,
+     "total": 139.0,
+     "note": "Published projection: NJIT 64.9, Iona 74.1."
+    },
+    "massey": {
+     "margin": 10.5,
+     "total": 142.5,
+     "note": "Published median margin: Iona by 10.5, total 142.5."
     },
     "espn": {
      "margin": 12.03,
@@ -2606,47 +3048,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 10.92,
-    "src_sd": 1.07,
+    "margin": 10.38,
+    "src_sd": 1.04,
     "model_sd": 11.92,
     "sd": 11.97,
-    "p_home": 0.8192,
-    "p_sd": 0.0235,
-    "total": 152.1,
+    "p_home": 0.8072,
+    "p_sd": 0.0234,
+    "total": 144.4,
     "total_sd": 17.0,
     "baseline_total": 129.0,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Iona",
     "dog": "NJIT",
-    "p": 0.8192,
-    "margin": 10.92,
+    "p": 0.8072,
+    "margin": 10.38,
     "lock": false
    },
    "momentum": {
@@ -2668,7 +3118,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±2%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -2688,6 +3138,16 @@
      "margin": 9.79,
      "total": 149.2,
      "note": "Published projection: Georgia St. 69.7, Charlotte 79.5."
+    },
+    "dratings": {
+     "margin": 10.3,
+     "total": 145.9,
+     "note": "Published projection: Georgia St. 67.8, Charlotte 78.1."
+    },
+    "massey": {
+     "margin": 8.5,
+     "total": 147.5,
+     "note": "Published median margin: Charlotte by 8.5, total 147.5."
     },
     "espn": {
      "margin": 10.45,
@@ -2713,47 +3173,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 10.11,
-    "src_sd": 0.33,
+    "margin": 9.75,
+    "src_sd": 0.77,
     "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.8017,
-    "p_sd": 0.0077,
-    "total": 149.2,
+    "sd": 11.94,
+    "p_home": 0.7929,
+    "p_sd": 0.0188,
+    "total": 147.5,
     "total_sd": 17.0,
     "baseline_total": 148.5,
     "lean": "near",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Charlotte",
     "dog": "Georgia St.",
-    "p": 0.8017,
-    "margin": 10.11,
+    "p": 0.7929,
+    "margin": 9.75,
     "lock": false
    },
    "momentum": {
@@ -2775,7 +3243,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -2795,6 +3263,16 @@
      "margin": 8.26,
      "total": 141.5,
      "note": "Published projection: Towson 66.6, Utah 74.9."
+    },
+    "dratings": {
+     "margin": 8.8,
+     "total": 141.8,
+     "note": "Published projection: Towson 66.5, Utah 75.3."
+    },
+    "massey": {
+     "margin": 10.5,
+     "total": 142.5,
+     "note": "Published median margin: Utah by 10.5, total 142.5."
     },
     "espn": {
      "margin": 11.4,
@@ -2820,47 +3298,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 9.77,
-    "src_sd": 1.57,
+    "margin": 9.71,
+    "src_sd": 1.27,
     "model_sd": 11.92,
-    "sd": 12.02,
-    "p_home": 0.7918,
-    "p_sd": 0.0374,
-    "total": 141.5,
+    "sd": 11.99,
+    "p_home": 0.7911,
+    "p_sd": 0.0302,
+    "total": 141.9,
     "total_sd": 17.0,
     "baseline_total": 144.0,
     "lean": "near",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Utah",
     "dog": "Towson",
-    "p": 0.7918,
-    "margin": 9.77,
+    "p": 0.7911,
+    "margin": 9.71,
     "lock": false
    },
    "momentum": {
@@ -2882,512 +3368,7 @@
     }
    },
    "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±4%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-arkansas-louisiana-tech",
-   "away": "Arkansas",
-   "home": "Louisiana Tech",
-   "away_conf": "SEC",
-   "home_conf": "SB",
-   "short": {},
-   "neutral": false,
-   "site": "at Louisiana Tech",
-   "tip": "7:30 PM ET",
-   "tip_sort": 1170,
-   "tv": "ESPN+",
-   "sources": {
-    "espn": {
-     "margin": 31.92,
-     "derived": true,
-     "note": "BPI matchup predictor: Louisiana Tech 99.8% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": null,
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "espn": 1.0
-    },
-    "used_total": {}
-   },
-   "blend": {
-    "margin": 31.92,
-    "src_sd": 0.0,
-    "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.9963,
-    "p_sd": 0.0,
-    "total": null,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 1
-   },
-   "pick": {
-    "team": "Louisiana Tech",
-    "dog": "Arkansas",
-    "p": 0.9963,
-    "margin": 31.92,
-    "lock": true
-   },
-   "momentum": {
-    "Arkansas": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "Louisiana Tech": {
-     "n": 1,
-     "avg": 13.6,
-     "last": [
-      13.6
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "only 1 of 4 sources have a number",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-virginia-morehead-st",
-   "away": "Virginia",
-   "home": "Morehead St.",
-   "away_conf": "ACC",
-   "home_conf": "OVC",
-   "short": {},
-   "neutral": false,
-   "site": "at Morehead St.",
-   "tip": "5:15 PM ET",
-   "tip_sort": 1035,
-   "tv": "ESPN+",
-   "sources": {
-    "espn": {
-     "margin": 28.57,
-     "derived": true,
-     "note": "BPI matchup predictor: Morehead St. 99.5% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": null,
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "espn": 1.0
-    },
-    "used_total": {}
-   },
-   "blend": {
-    "margin": 28.57,
-    "src_sd": 0.0,
-    "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.9917,
-    "p_sd": 0.0,
-    "total": null,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 1
-   },
-   "pick": {
-    "team": "Morehead St.",
-    "dog": "Virginia",
-    "p": 0.9917,
-    "margin": 28.57,
-    "lock": true
-   },
-   "momentum": {
-    "Virginia": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "Morehead St.": {
-     "n": 1,
-     "avg": -10.2,
-     "last": [
-      -10.2
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "only 1 of 4 sources have a number",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-columbia-charleston-southern",
-   "away": "Columbia",
-   "home": "Charleston Southern",
-   "away_conf": "Ivy",
-   "home_conf": "BSth",
-   "short": {},
-   "neutral": false,
-   "site": "at Charleston Southern",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": "ESPN+",
-   "sources": {
-    "espn": {
-     "margin": 28.57,
-     "derived": true,
-     "note": "BPI matchup predictor: Charleston Southern 99.5% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": null,
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "espn": 1.0
-    },
-    "used_total": {}
-   },
-   "blend": {
-    "margin": 28.57,
-    "src_sd": 0.0,
-    "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.9917,
-    "p_sd": 0.0,
-    "total": null,
-    "total_sd": 17.0,
-    "baseline_total": 162.0,
-    "lean": null,
-    "n_sources": 1
-   },
-   "pick": {
-    "team": "Charleston Southern",
-    "dog": "Columbia",
-    "p": 0.9917,
-    "margin": 28.57,
-    "lock": true
-   },
-   "momentum": {
-    "Columbia": {
-     "n": 1,
-     "avg": -18.6,
-     "last": [
-      -18.6
-     ],
-     "flag": null
-    },
-    "Charleston Southern": {
-     "n": 1,
-     "avg": -7.1,
-     "last": [
-      -7.1
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "only 1 of 4 sources have a number",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-east-texas-a-m-rice",
-   "away": "East Texas A&M",
-   "home": "Rice",
-   "away_conf": "Slnd",
-   "home_conf": "Amer",
-   "short": {},
-   "neutral": false,
-   "site": "at Rice",
-   "tip": "8 PM ET",
-   "tip_sort": 1200,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 10.58,
-     "total": 149.3,
-     "note": "Published projection: East Texas A&M 69.4, Rice 79.9."
-    },
-    "espn": {
-     "margin": 5.25,
-     "derived": true,
-     "note": "BPI matchup predictor: Rice 68.2% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -3.5,
-    "total": 145.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 8.01,
-    "src_sd": 2.67,
-    "model_sd": 11.92,
-    "sd": 12.21,
-    "p_home": 0.7441,
-    "p_sd": 0.0712,
-    "total": 149.3,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Rice",
-    "dog": "East Texas A&M",
-    "p": 0.7441,
-    "margin": 8.01,
-    "lock": false
-   },
-   "momentum": {
-    "East Texas A&M": {
-     "n": 1,
-     "avg": 34.2,
-     "last": [
-      34.2
-     ],
-     "flag": null
-    },
-    "Rice": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-bryant-quinnipiac",
-   "away": "Bryant",
-   "home": "Quinnipiac",
-   "away_conf": "AE",
-   "home_conf": "MC",
-   "short": {},
-   "neutral": false,
-   "site": "at Quinnipiac",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 7.59,
-     "total": 152.8,
-     "note": "Published projection: Bryant 72.6, Quinnipiac 80.2."
-    },
-    "espn": {
-     "margin": 7.48,
-     "derived": true,
-     "note": "BPI matchup predictor: Quinnipiac 75.0% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -6.5,
-    "total": 148.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 7.54,
-    "src_sd": 0.05,
-    "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.7364,
-    "p_sd": 0.0015,
-    "total": 152.8,
-    "total_sd": 17.0,
-    "baseline_total": 155.0,
-    "lean": "near",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Quinnipiac",
-    "dog": "Bryant",
-    "p": 0.7364,
-    "margin": 7.54,
-    "lock": false
-   },
-   "momentum": {
-    "Bryant": {
-     "n": 1,
-     "avg": 4.4,
-     "last": [
-      4.4
-     ],
-     "flag": null
-    },
-    "Quinnipiac": {
-     "n": 1,
-     "avg": -8.2,
-     "last": [
-      -8.2
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
    "result": null
   },
   {
@@ -3407,6 +3388,16 @@
      "margin": 7.2,
      "total": 145.6,
      "note": "Published projection: Binghamton 69.2, Saint Peter's 76.4."
+    },
+    "dratings": {
+     "margin": 8.7,
+     "total": 132.9,
+     "note": "Published projection: Binghamton 62.1, Saint Peter's 70.8."
+    },
+    "massey": {
+     "margin": 9.5,
+     "total": 139.5,
+     "note": "Published median margin: Saint Peter's by 9.5, total 139.5."
     },
     "espn": {
      "margin": 7.62,
@@ -3432,47 +3423,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 7.4,
-    "src_sd": 0.21,
+    "margin": 8.25,
+    "src_sd": 0.9,
     "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.7327,
-    "p_sd": 0.0058,
-    "total": 145.6,
+    "sd": 11.95,
+    "p_home": 0.7551,
+    "p_sd": 0.0237,
+    "total": 139.3,
     "total_sd": 17.0,
     "baseline_total": 127.0,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Saint Peter's",
     "dog": "Binghamton",
-    "p": 0.7327,
-    "margin": 7.4,
+    "p": 0.7551,
+    "margin": 8.25,
     "lock": false
    },
    "momentum": {
@@ -3493,115 +3492,8 @@
      "flag": null
     }
    },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-howard-alcorn-st",
-   "away": "Howard",
-   "home": "Alcorn St.",
-   "away_conf": "MEAC",
-   "home_conf": "SWAC",
-   "short": {},
-   "neutral": false,
-   "site": "at Alcorn St.",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": null,
-   "sources": {
-    "hasla": {
-     "margin": -6.71,
-     "total": 153.9,
-     "note": "Published projection: Howard 80.3, Alcorn St. 73.6."
-    },
-    "espn": {
-     "margin": -7.59,
-     "derived": true,
-     "note": "BPI matchup predictor: Alcorn St. 24.7% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 9.5,
-    "total": 149.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": -7.13,
-    "src_sd": 0.44,
-    "model_sd": 11.92,
-    "sd": 11.93,
-    "p_home": 0.2749,
-    "p_sd": 0.0123,
-    "total": 153.9,
-    "total_sd": 17.0,
-    "baseline_total": 145.5,
-    "lean": "over",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Howard",
-    "dog": "Alcorn St.",
-    "p": 0.7251,
-    "margin": 7.13,
-    "lock": false
-   },
-   "momentum": {
-    "Howard": {
-     "n": 1,
-     "avg": -4.1,
-     "last": [
-      -4.1
-     ],
-     "flag": null
-    },
-    "Alcorn St.": {
-     "n": 1,
-     "avg": -13.9,
-     "last": [
-      -13.9
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -3621,6 +3513,16 @@
      "margin": 4.83,
      "total": 148.2,
      "note": "Published projection: Chicago St. 71.7, Incarnate Word 76.5."
+    },
+    "dratings": {
+     "margin": 7.6,
+     "total": 148.6,
+     "note": "Published projection: Chicago St. 70.5, Incarnate Word 78.1."
+    },
+    "massey": {
+     "margin": 9.5,
+     "total": 146.5,
+     "note": "Published median margin: Incarnate Word by 9.5, total 146.5."
     },
     "espn": {
      "margin": 7.59,
@@ -3646,47 +3548,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 6.16,
-    "src_sd": 1.38,
+    "margin": 7.36,
+    "src_sd": 1.67,
     "model_sd": 11.92,
-    "sd": 12.0,
-    "p_home": 0.6961,
-    "p_sd": 0.0403,
-    "total": 148.2,
+    "sd": 12.04,
+    "p_home": 0.7295,
+    "p_sd": 0.0466,
+    "total": 147.8,
     "total_sd": 17.0,
     "baseline_total": 159.5,
     "lean": "under",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Incarnate Word",
     "dog": "Chicago St.",
-    "p": 0.6961,
-    "margin": 6.16,
+    "p": 0.7295,
+    "margin": 7.36,
     "lock": false
    },
    "momentum": {
@@ -3703,6 +3613,500 @@
      "avg": -5.3,
      "last": [
       -5.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-east-texas-a-m-rice",
+   "away": "East Texas A&M",
+   "home": "Rice",
+   "away_conf": "Slnd",
+   "home_conf": "Amer",
+   "short": {},
+   "neutral": false,
+   "site": "at Rice",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 10.58,
+     "total": 149.3,
+     "note": "Published projection: East Texas A&M 69.4, Rice 79.9."
+    },
+    "dratings": {
+     "margin": 5.9,
+     "total": 142.5,
+     "note": "Published projection: East Texas A&M 68.3, Rice 74.2."
+    },
+    "massey": {
+     "margin": 7.5,
+     "total": 144.5,
+     "note": "Published median margin: Rice by 7.5, total 144.5."
+    },
+    "espn": {
+     "margin": 5.25,
+     "derived": true,
+     "note": "BPI matchup predictor: Rice 68.2% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 145.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 7.36,
+    "src_sd": 2.06,
+    "model_sd": 11.92,
+    "sd": 12.1,
+    "p_home": 0.7284,
+    "p_sd": 0.0548,
+    "total": 145.4,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Rice",
+    "dog": "East Texas A&M",
+    "p": 0.7284,
+    "margin": 7.36,
+    "lock": false
+   },
+   "momentum": {
+    "East Texas A&M": {
+     "n": 1,
+     "avg": 34.2,
+     "last": [
+      34.2
+     ],
+     "flag": null
+    },
+    "Rice": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-bryant-quinnipiac",
+   "away": "Bryant",
+   "home": "Quinnipiac",
+   "away_conf": "AE",
+   "home_conf": "MC",
+   "short": {},
+   "neutral": false,
+   "site": "at Quinnipiac",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 7.59,
+     "total": 152.8,
+     "note": "Published projection: Bryant 72.6, Quinnipiac 80.2."
+    },
+    "dratings": {
+     "margin": 5.9,
+     "total": 150.1,
+     "note": "Published projection: Bryant 72.1, Quinnipiac 78.0."
+    },
+    "massey": {
+     "margin": 5.5,
+     "total": 148.5,
+     "note": "Published median margin: Quinnipiac by 5.5, total 148.5."
+    },
+    "espn": {
+     "margin": 7.48,
+     "derived": true,
+     "note": "BPI matchup predictor: Quinnipiac 75.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 148.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 6.62,
+    "src_sd": 0.93,
+    "model_sd": 11.92,
+    "sd": 11.96,
+    "p_home": 0.71,
+    "p_sd": 0.0267,
+    "total": 150.4,
+    "total_sd": 17.0,
+    "baseline_total": 155.0,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Quinnipiac",
+    "dog": "Bryant",
+    "p": 0.71,
+    "margin": 6.62,
+    "lock": false
+   },
+   "momentum": {
+    "Bryant": {
+     "n": 1,
+     "avg": 4.4,
+     "last": [
+      4.4
+     ],
+     "flag": null
+    },
+    "Quinnipiac": {
+     "n": 1,
+     "avg": -8.2,
+     "last": [
+      -8.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-umass-lowell-merrimack",
+   "away": "UMass Lowell",
+   "home": "Merrimack",
+   "away_conf": "AE",
+   "home_conf": "MC",
+   "short": {},
+   "neutral": false,
+   "site": "at Merrimack",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 6.63,
+     "total": 147.6,
+     "note": "Published projection: UMass Lowell 70.5, Merrimack 77.1."
+    },
+    "dratings": {
+     "margin": 9.7,
+     "total": 136.9,
+     "note": "Published projection: UMass Lowell 63.6, Merrimack 73.3."
+    },
+    "massey": {
+     "margin": 5.5,
+     "total": 143.5,
+     "note": "Published median margin: Merrimack by 5.5, total 143.5."
+    },
+    "espn": {
+     "margin": 3.3,
+     "derived": true,
+     "note": "BPI matchup predictor: Merrimack 61.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -9.5,
+    "total": 139.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 6.32,
+    "src_sd": 2.31,
+    "model_sd": 11.92,
+    "sd": 12.14,
+    "p_home": 0.6986,
+    "p_sd": 0.0659,
+    "total": 142.6,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Merrimack",
+    "dog": "UMass Lowell",
+    "p": 0.6986,
+    "margin": 6.32,
+    "lock": false
+   },
+   "momentum": {
+    "UMass Lowell": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Merrimack": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-howard-alcorn-st",
+   "away": "Howard",
+   "home": "Alcorn St.",
+   "away_conf": "MEAC",
+   "home_conf": "SWAC",
+   "short": {},
+   "neutral": false,
+   "site": "at Alcorn St.",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": null,
+   "sources": {
+    "hasla": {
+     "margin": -6.71,
+     "total": 153.9,
+     "note": "Published projection: Howard 80.3, Alcorn St. 73.6."
+    },
+    "dratings": {
+     "margin": -6.0,
+     "total": 147.4,
+     "note": "Published projection: Howard 76.7, Alcorn St. 70.7."
+    },
+    "massey": {
+     "margin": -3.5,
+     "total": 147.5,
+     "note": "Published median margin: Howard by 3.5, total 147.5."
+    },
+    "espn": {
+     "margin": -7.59,
+     "derived": true,
+     "note": "BPI matchup predictor: Alcorn St. 24.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 9.5,
+    "total": 149.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": -5.94,
+    "src_sd": 1.52,
+    "model_sd": 11.92,
+    "sd": 12.02,
+    "p_home": 0.3106,
+    "p_sd": 0.0458,
+    "total": 149.5,
+    "total_sd": 17.0,
+    "baseline_total": 145.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Howard",
+    "dog": "Alcorn St.",
+    "p": 0.6894,
+    "margin": 5.94,
+    "lock": false
+   },
+   "momentum": {
+    "Howard": {
+     "n": 1,
+     "avg": -4.1,
+     "last": [
+      -4.1
+     ],
+     "flag": null
+    },
+    "Alcorn St.": {
+     "n": 1,
+     "avg": -13.9,
+     "last": [
+      -13.9
      ],
      "flag": null
     }
@@ -3729,6 +4133,16 @@
      "total": 149.4,
      "note": "Published projection: Maine 72.8, Sacred Heart 76.5."
     },
+    "dratings": {
+     "margin": 5.7,
+     "total": 142.7,
+     "note": "Published projection: Maine 68.5, Sacred Heart 74.2."
+    },
+    "massey": {
+     "margin": 5.5,
+     "total": 141.5,
+     "note": "Published median margin: Sacred Heart by 5.5, total 141.5."
+    },
     "espn": {
      "margin": 7.34,
      "derived": true,
@@ -3753,47 +4167,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 5.47,
-    "src_sd": 1.8,
+    "margin": 5.54,
+    "src_sd": 1.28,
     "model_sd": 11.92,
-    "sd": 12.06,
-    "p_home": 0.6751,
-    "p_sd": 0.0539,
-    "total": 149.4,
+    "sd": 11.99,
+    "p_home": 0.6779,
+    "p_sd": 0.0382,
+    "total": 144.5,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Sacred Heart",
     "dog": "Maine",
-    "p": 0.6751,
-    "margin": 5.47,
+    "p": 0.6779,
+    "margin": 5.54,
     "lock": false
    },
    "momentum": {
@@ -3806,212 +4228,6 @@
      "flag": null
     },
     "Sacred Heart": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-umass-lowell-merrimack",
-   "away": "UMass Lowell",
-   "home": "Merrimack",
-   "away_conf": "AE",
-   "home_conf": "MC",
-   "short": {},
-   "neutral": false,
-   "site": "at Merrimack",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 6.63,
-     "total": 147.6,
-     "note": "Published projection: UMass Lowell 70.5, Merrimack 77.1."
-    },
-    "espn": {
-     "margin": 3.3,
-     "derived": true,
-     "note": "BPI matchup predictor: Merrimack 61.7% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -9.5,
-    "total": 139.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 5.03,
-    "src_sd": 1.67,
-    "model_sd": 11.92,
-    "sd": 12.04,
-    "p_home": 0.6619,
-    "p_sd": 0.051,
-    "total": 147.6,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Merrimack",
-    "dog": "UMass Lowell",
-    "p": 0.6619,
-    "margin": 5.03,
-    "lock": false
-   },
-   "momentum": {
-    "UMass Lowell": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "Merrimack": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-hofstra-princeton",
-   "away": "Hofstra",
-   "home": "Princeton",
-   "away_conf": "CAA",
-   "home_conf": "Ivy",
-   "short": {},
-   "neutral": false,
-   "site": "at Princeton",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 3.93,
-     "total": 141.4,
-     "note": "Published projection: Hofstra 68.8, Princeton 72.7."
-    },
-    "espn": {
-     "margin": 4.57,
-     "derived": true,
-     "note": "BPI matchup predictor: Princeton 66.0% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -2.5,
-    "total": 138.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 4.24,
-    "src_sd": 0.32,
-    "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.6389,
-    "p_sd": 0.01,
-    "total": 141.4,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Princeton",
-    "dog": "Hofstra",
-    "p": 0.6389,
-    "margin": 4.24,
-    "lock": false
-   },
-   "momentum": {
-    "Hofstra": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "Princeton": {
      "n": 0,
      "avg": null,
      "last": [],
@@ -4040,6 +4256,16 @@
      "total": 144.7,
      "note": "Published projection: UMBC 70.4, Marist 74.3."
     },
+    "dratings": {
+     "margin": 4.5,
+     "total": 137.5,
+     "note": "Published projection: UMBC 66.5, Marist 71.0."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 141.5,
+     "note": "Published median margin: Marist by 3.5, total 141.5."
+    },
     "espn": {
      "margin": 4.42,
      "derived": true,
@@ -4064,47 +4290,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 4.17,
-    "src_sd": 0.24,
+    "margin": 4.09,
+    "src_sd": 0.4,
     "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.6368,
-    "p_sd": 0.0076,
-    "total": 144.7,
+    "sd": 11.93,
+    "p_home": 0.634,
+    "p_sd": 0.0127,
+    "total": 141.2,
     "total_sd": 17.0,
     "baseline_total": 133.5,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Marist",
     "dog": "UMBC",
-    "p": 0.6368,
-    "margin": 4.17,
+    "p": 0.634,
+    "margin": 4.09,
     "lock": false
    },
    "momentum": {
@@ -4147,6 +4381,16 @@
      "total": 151.4,
      "note": "Published projection: South Florida 75.0, DePaul 76.5."
     },
+    "dratings": {
+     "margin": 5.3,
+     "total": 151.5,
+     "note": "Published projection: South Florida 73.1, DePaul 78.4."
+    },
+    "massey": {
+     "margin": 1.5,
+     "total": 151.5,
+     "note": "Published median margin: DePaul by 1.5, total 151.5."
+    },
     "espn": {
      "margin": 5.22,
      "derived": true,
@@ -4171,47 +4415,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 3.29,
-    "src_sd": 1.86,
+    "margin": 3.35,
+    "src_sd": 1.88,
     "model_sd": 11.92,
-    "sd": 12.06,
-    "p_home": 0.6075,
-    "p_sd": 0.0596,
-    "total": 151.4,
+    "sd": 12.07,
+    "p_home": 0.6092,
+    "p_sd": 0.0602,
+    "total": 151.5,
     "total_sd": 17.0,
     "baseline_total": 151.0,
     "lean": "near",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "DePaul",
     "dog": "South Florida",
-    "p": 0.6075,
-    "margin": 3.29,
+    "p": 0.6092,
+    "margin": 3.35,
     "lock": false
    },
    "momentum": {
@@ -4237,111 +4489,6 @@
    "result": null
   },
   {
-   "id": "2026-11-05-vermont-fairfield",
-   "away": "Vermont",
-   "home": "Fairfield",
-   "away_conf": "AE",
-   "home_conf": "MC",
-   "short": {},
-   "neutral": false,
-   "site": "at Fairfield",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 2.36,
-     "total": 147.7,
-     "note": "Published projection: Vermont 72.7, Fairfield 75.0."
-    },
-    "espn": {
-     "margin": 3.48,
-     "derived": true,
-     "note": "BPI matchup predictor: Fairfield 62.3% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 1.5,
-    "total": 140.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 2.9,
-    "src_sd": 0.56,
-    "model_sd": 11.92,
-    "sd": 11.93,
-    "p_home": 0.596,
-    "p_sd": 0.0182,
-    "total": 147.7,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Fairfield",
-    "dog": "Vermont",
-    "p": 0.596,
-    "margin": 2.9,
-    "lock": false
-   },
-   "momentum": {
-    "Vermont": {
-     "n": 1,
-     "avg": 0.8,
-     "last": [
-      0.8
-     ],
-     "flag": null
-    },
-    "Fairfield": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
-  },
-  {
    "id": "2026-11-05-albany-manhattan",
    "away": "Albany",
    "home": "Manhattan",
@@ -4358,6 +4505,16 @@
      "margin": -0.16,
      "total": 152.4,
      "note": "Published projection: Albany 76.3, Manhattan 76.1."
+    },
+    "dratings": {
+     "margin": 3.8,
+     "total": 145.2,
+     "note": "Published projection: Albany 70.7, Manhattan 74.5."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 149.5,
+     "note": "Published median margin: Manhattan by 3.5, total 149.5."
     },
     "espn": {
      "margin": 5.0,
@@ -4383,47 +4540,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": 2.32,
-    "src_sd": 2.58,
+    "margin": 2.99,
+    "src_sd": 1.93,
     "model_sd": 11.92,
-    "sd": 12.2,
-    "p_home": 0.5755,
-    "p_sd": 0.084,
-    "total": 152.4,
+    "sd": 12.07,
+    "p_home": 0.5978,
+    "p_sd": 0.063,
+    "total": 149.0,
     "total_sd": 17.0,
     "baseline_total": null,
     "lean": null,
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Manhattan",
     "dog": "Albany",
-    "p": 0.5755,
-    "margin": 2.32,
+    "p": 0.5978,
+    "margin": 2.99,
     "lock": false
    },
    "momentum": {
@@ -4441,112 +4606,7 @@
     }
    },
    "tier": "Mid",
-   "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-05-mcneese-north-texas",
-   "away": "McNeese",
-   "home": "North Texas",
-   "away_conf": "Slnd",
-   "home_conf": "Amer",
-   "short": {},
-   "neutral": false,
-   "site": "at North Texas",
-   "tip": "5 PM ET",
-   "tip_sort": 1020,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": -0.55,
-     "total": 143.7,
-     "note": "Published projection: McNeese 72.1, North Texas 71.6."
-    },
-    "espn": {
-     "margin": 4.15,
-     "derived": true,
-     "note": "BPI matchup predictor: North Texas 64.6% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 2.5,
-    "total": 138.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 1.71,
-    "src_sd": 2.35,
-    "model_sd": 11.92,
-    "sd": 12.15,
-    "p_home": 0.556,
-    "p_sd": 0.0773,
-    "total": 143.7,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "North Texas",
-    "dog": "McNeese",
-    "p": 0.556,
-    "margin": 1.71,
-    "lock": false
-   },
-   "momentum": {
-    "McNeese": {
-     "n": 1,
-     "avg": 18.4,
-     "last": [
-      18.4
-     ],
-     "flag": null
-    },
-    "North Texas": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "some source disagreement (win chance ±8%)",
+   "tier_reason": "thin margin",
    "result": null
   },
   {
@@ -4566,6 +4626,16 @@
      "margin": -0.83,
      "total": 165.0,
      "note": "Published projection: Cornell 82.9, Lehigh 82.1."
+    },
+    "dratings": {
+     "margin": -2.7,
+     "total": 161.5,
+     "note": "Published projection: Cornell 82.1, Lehigh 79.4."
+    },
+    "massey": {
+     "margin": -5.5,
+     "total": 162.5,
+     "note": "Published median margin: Cornell by 5.5, total 162.5."
     },
     "espn": {
      "margin": -1.25,
@@ -4591,47 +4661,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": -1.03,
-    "src_sd": 0.21,
+    "margin": -2.57,
+    "src_sd": 1.83,
     "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.4655,
-    "p_sd": 0.007,
-    "total": 165.0,
+    "sd": 12.06,
+    "p_home": 0.4156,
+    "p_sd": 0.0587,
+    "total": 163.0,
     "total_sd": 17.0,
     "baseline_total": 165.0,
     "lean": "near",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
     "team": "Cornell",
     "dog": "Lehigh",
-    "p": 0.5345,
-    "margin": 1.03,
+    "p": 0.5844,
+    "margin": 2.57,
     "lock": false
    },
    "momentum": {
@@ -4648,6 +4726,496 @@
      "avg": -3.8,
      "last": [
       -3.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-hofstra-princeton",
+   "away": "Hofstra",
+   "home": "Princeton",
+   "away_conf": "CAA",
+   "home_conf": "Ivy",
+   "short": {},
+   "neutral": false,
+   "site": "at Princeton",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 3.93,
+     "total": 141.4,
+     "note": "Published projection: Hofstra 68.8, Princeton 72.7."
+    },
+    "dratings": {
+     "margin": 1.3,
+     "total": 138.7,
+     "note": "Published projection: Hofstra 68.7, Princeton 70.0."
+    },
+    "massey": {
+     "margin": -1.5,
+     "total": 139.5,
+     "note": "Published median margin: Hofstra by 1.5, total 139.5."
+    },
+    "espn": {
+     "margin": 4.57,
+     "derived": true,
+     "note": "BPI matchup predictor: Princeton 66.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -2.5,
+    "total": 138.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 2.06,
+    "src_sd": 2.4,
+    "model_sd": 11.92,
+    "sd": 12.16,
+    "p_home": 0.5673,
+    "p_sd": 0.0789,
+    "total": 139.8,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Princeton",
+    "dog": "Hofstra",
+    "p": 0.5673,
+    "margin": 2.06,
+    "lock": false
+   },
+   "momentum": {
+    "Hofstra": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Princeton": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-vermont-fairfield",
+   "away": "Vermont",
+   "home": "Fairfield",
+   "away_conf": "AE",
+   "home_conf": "MC",
+   "short": {},
+   "neutral": false,
+   "site": "at Fairfield",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 2.36,
+     "total": 147.7,
+     "note": "Published projection: Vermont 72.7, Fairfield 75.0."
+    },
+    "dratings": {
+     "margin": 2.1,
+     "total": 134.1,
+     "note": "Published projection: Vermont 66.0, Fairfield 68.1."
+    },
+    "massey": {
+     "margin": -1.5,
+     "total": 140.5,
+     "note": "Published median margin: Vermont by 1.5, total 140.5."
+    },
+    "espn": {
+     "margin": 3.48,
+     "derived": true,
+     "note": "BPI matchup predictor: Fairfield 62.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 140.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 1.59,
+    "src_sd": 1.87,
+    "model_sd": 11.92,
+    "sd": 12.07,
+    "p_home": 0.5526,
+    "p_sd": 0.062,
+    "total": 140.7,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Fairfield",
+    "dog": "Vermont",
+    "p": 0.5526,
+    "margin": 1.59,
+    "lock": false
+   },
+   "momentum": {
+    "Vermont": {
+     "n": 1,
+     "avg": 0.8,
+     "last": [
+      0.8
+     ],
+     "flag": null
+    },
+    "Fairfield": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-mcneese-north-texas",
+   "away": "McNeese",
+   "home": "North Texas",
+   "away_conf": "Slnd",
+   "home_conf": "Amer",
+   "short": {},
+   "neutral": false,
+   "site": "at North Texas",
+   "tip": "5 PM ET",
+   "tip_sort": 1020,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -0.55,
+     "total": 143.7,
+     "note": "Published projection: McNeese 72.1, North Texas 71.6."
+    },
+    "dratings": {
+     "margin": -0.9,
+     "total": 147.1,
+     "note": "Published projection: McNeese 74.0, North Texas 73.1."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 139.5,
+     "note": "Published median margin: North Texas by 3.5, total 139.5."
+    },
+    "espn": {
+     "margin": 4.15,
+     "derived": true,
+     "note": "BPI matchup predictor: North Texas 64.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 138.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 1.51,
+    "src_sd": 2.29,
+    "model_sd": 11.92,
+    "sd": 12.14,
+    "p_home": 0.5493,
+    "p_sd": 0.0755,
+    "total": 143.4,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "North Texas",
+    "dog": "McNeese",
+    "p": 0.5493,
+    "margin": 1.51,
+    "lock": false
+   },
+   "momentum": {
+    "McNeese": {
+     "n": 1,
+     "avg": 18.4,
+     "last": [
+      18.4
+     ],
+     "flag": null
+    },
+    "North Texas": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-05-jacksonville-st-south-alabama",
+   "away": "Jacksonville St.",
+   "home": "South Alabama",
+   "away_conf": "CUSA",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at South Alabama",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -0.63,
+     "total": 144.1,
+     "note": "Published projection: Jacksonville St. 72.4, South Alabama 71.8."
+    },
+    "dratings": {
+     "margin": 3.5,
+     "total": 144.7,
+     "note": "Published projection: Jacksonville St. 70.6, South Alabama 74.1."
+    },
+    "massey": {
+     "margin": 1.5,
+     "total": 143.5,
+     "note": "Published median margin: South Alabama by 1.5, total 143.5."
+    },
+    "espn": {
+     "margin": 0.92,
+     "derived": true,
+     "note": "BPI matchup predictor: South Alabama 53.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -5.5,
+    "total": 140.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 1.31,
+    "src_sd": 1.48,
+    "model_sd": 11.92,
+    "sd": 12.01,
+    "p_home": 0.5435,
+    "p_sd": 0.0489,
+    "total": 144.1,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "South Alabama",
+    "dog": "Jacksonville St.",
+    "p": 0.5435,
+    "margin": 1.31,
+    "lock": false
+   },
+   "momentum": {
+    "Jacksonville St.": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "South Alabama": {
+     "n": 1,
+     "avg": -8.1,
+     "last": [
+      -8.1
      ],
      "flag": null
     }
@@ -4674,6 +5242,16 @@
      "total": 149.3,
      "note": "Published projection: New Hampshire 74.9, Rider 74.4."
     },
+    "dratings": {
+     "margin": 0.5,
+     "total": 135.5,
+     "note": "Published projection: New Hampshire 67.5, Rider 68.0."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 142.5,
+     "note": "Published median margin: Rider by 3.5, total 142.5."
+    },
     "espn": {
      "margin": -0.86,
      "derived": true,
@@ -4698,47 +5276,55 @@
     "away": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "home": {
      "basis": "D1",
      "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
+      "torvik": 0.169,
+      "hasla": 0.172,
+      "espn": 0.159,
+      "dratings": 0.167,
+      "massey": 0.167,
+      "cbbd": 0.167
      }
     },
     "used": {
-     "hasla": 0.519,
-     "espn": 0.481
+     "hasla": 0.258,
+     "espn": 0.24,
+     "dratings": 0.251,
+     "massey": 0.251
     },
     "used_total": {
-     "hasla": 1.0
+     "hasla": 0.325,
+     "dratings": 0.337,
+     "massey": 0.337
     }
    },
    "blend": {
-    "margin": -0.7,
-    "src_sd": 0.15,
+    "margin": 0.66,
+    "src_sd": 1.72,
     "model_sd": 11.92,
-    "sd": 11.92,
-    "p_home": 0.4766,
-    "p_sd": 0.0052,
-    "total": 149.3,
+    "sd": 12.04,
+    "p_home": 0.5217,
+    "p_sd": 0.0569,
+    "total": 142.4,
     "total_sd": 17.0,
     "baseline_total": 133.0,
     "lean": "over",
-    "n_sources": 2
+    "n_sources": 4
    },
    "pick": {
-    "team": "New Hampshire",
-    "dog": "Rider",
-    "p": 0.5234,
-    "margin": 0.7,
+    "team": "Rider",
+    "dog": "New Hampshire",
+    "p": 0.5217,
+    "margin": 0.66,
     "lock": false
    },
    "momentum": {
@@ -4762,243 +5348,44 @@
    "tier": "Mid",
    "tier_reason": "thin margin",
    "result": null
-  },
-  {
-   "id": "2026-11-05-jacksonville-st-south-alabama",
-   "away": "Jacksonville St.",
-   "home": "South Alabama",
-   "away_conf": "CUSA",
-   "home_conf": "SB",
-   "short": {},
-   "neutral": false,
-   "site": "at South Alabama",
-   "tip": "8 PM ET",
-   "tip_sort": 1200,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": -0.63,
-     "total": 144.1,
-     "note": "Published projection: Jacksonville St. 72.4, South Alabama 71.8."
-    },
-    "espn": {
-     "margin": 0.92,
-     "derived": true,
-     "note": "BPI matchup predictor: South Alabama 53.3% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -5.5,
-    "total": 140.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.254,
-      "hasla": 0.257,
-      "espn": 0.239,
-      "cbbd": 0.25
-     }
-    },
-    "used": {
-     "hasla": 0.519,
-     "espn": 0.481
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 0.12,
-    "src_sd": 0.78,
-    "model_sd": 11.92,
-    "sd": 11.95,
-    "p_home": 0.5039,
-    "p_sd": 0.0259,
-    "total": 144.1,
-    "total_sd": 17.0,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "South Alabama",
-    "dog": "Jacksonville St.",
-    "p": 0.5039,
-    "margin": 0.12,
-    "lock": false
-   },
-   "momentum": {
-    "Jacksonville St.": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "South Alabama": {
-     "n": 1,
-     "avg": -8.1,
-     "last": [
-      -8.1
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
   }
  ],
- "waiting": [
-  {
-   "id": "2026-11-05-howard-texas-st",
-   "away": "Howard",
-   "home": "Texas St.",
-   "away_conf": "MEAC",
-   "home_conf": "P12",
-   "short": {},
-   "neutral": false,
-   "site": "at Texas St.",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": "YouTube",
-   "sources": {
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "espn": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": null,
-   "injuries": []
-  },
-  {
-   "id": "2026-11-05-southern-richmond",
-   "away": "Southern",
-   "home": "Richmond",
-   "away_conf": "SWAC",
-   "home_conf": "A10",
-   "short": {},
-   "neutral": false,
-   "site": "at Richmond",
-   "tip": "7 PM ET",
-   "tip_sort": 1140,
-   "tv": "ESPN+",
-   "sources": {
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "espn": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": null,
-   "injuries": []
-  },
-  {
-   "id": "2026-11-05-kentucky-western-kentucky",
-   "away": "Kentucky",
-   "home": "Western Kentucky",
-   "away_conf": "SEC",
-   "home_conf": "CUSA",
-   "short": {},
-   "neutral": false,
-   "site": "at Western Kentucky",
-   "tip": "7:30 PM ET",
-   "tip_sort": 1170,
-   "tv": "ESPN+",
-   "sources": {
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "espn": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": null,
-   "injuries": []
-  }
- ],
+ "waiting": [],
  "hammer": {
   "id": "2026-11-05-gardner-webb-texas",
   "team": "Gardner Webb",
   "side": "away",
   "spread": 41.5,
   "spread_home": -41.5,
-  "edge": 7.71,
-  "cover_p": 0.7289,
-  "agree": 2,
-  "n": 2
+  "edge": 7.13,
+  "cover_p": 0.7188,
+  "agree": 4,
+  "n": 4
  },
  "graded": false,
  "unmatched": [
+  "Arkansas Monticello Boll Weevils",
   "Calumet St. Joseph Crimson Wave",
   "Central Bible Saints",
   "Central State Marauders",
   "Centre Colonels",
   "College of Biblical Studies Ambassadors",
+  "Columbia International Rams",
   "East West Phantoms",
   "Fort Valley State Wildcats",
   "Grace University Lancers",
+  "Howard Payne Yellow Jackets",
   "Kalamazoo Hornets",
+  "Kentucky Wesleyan Panthers",
   "King's Monarchs",
   "La Sierra Golden Eagles",
   "Menlo Oaks",
   "Mount St Mary Knights",
   "SUNY Old Westbury Panthers",
+  "Southern Virginia Knights",
   "Stanton Elks",
-  "Union (TN) Bulldogs"
+  "Union (TN) Bulldogs",
+  "Virginia Lynchburg Dragons"
  ],
- "abridged": "THE BALLGORITHM · NCAAM · Thu, Nov 5\n\nNOTES\n- 46 D1 games on the board. Coverage: Torvik 0, Haslametrics 43, ESPN 46, CBBD 0, DraftKings lines 43.\n- Didn't load this run: Torvik. Those games use the remaining sources.\n- 16 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-1)\nGardner Webb +41.5 vs Texas — our number Texas −33.8, 2 of 2 sources on this side, 73% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nTexas >99% · −33.8 ±12.7 vs Gardner Webb · total 159\nDuke >99% · −35.8 ±13.8 vs Coastal Carolina · total 147\nFlorida 99% · −30.5 ±12.2 vs Jacksonville · total 149\nArizona 99% · −28.2 ±12.4 vs Cal Poly · total 173\nCreighton 99% · −26.9 ±12.2 vs Le Moyne · total 160\nIndiana 99% · −26.5 ±12.2 vs Bellarmine · total 151\nTexas Tech 98% · −25.5 ±11.9 vs Bethune Cookman · total 154\nIllinois 98% · −25.2 ±12.3 vs Penn · total 156\nSMU 98% · −25.5 ±12.9 vs VMI · total 160\nMichigan St. 97% · −23.4 ±12.3 vs Toledo · total 153\nCincinnati 97% · −22.7 ±12.0 vs Green Bay · total 146\nMississippi St. 97% · −22.5 ±12.3 vs Northwestern St. · total 158\nSeton Hall 96% · −21.0 ±12.0 vs LIU · total 142\nNotre Dame 95% · −19.8 ±11.9 vs Mercyhurst · total 144\nSyracuse 94% · −19.1 ±12.1 vs Central Connecticut · total 147\nPittsburgh 94% · −19.1 ±12.1 vs Buffalo · total 146\nTulsa 94% · −18.8 ±12.3 vs Northern Illinois · total 157\nVirginia Tech 93% · −17.8 ±11.9 vs Mercer · total 157\nFordham 93% · −17.4 ±11.9 vs Stonehill · total 140\nLoyola Chicago 90% · −15.5 ±12.0 vs West Georgia · total 151\nPenn St. 90% · −15.1 ±11.9 vs Chattanooga · total 158\nVanderbilt 89% · −14.4 ±11.9 vs Wake Forest · total 157\nTulane 88% · −14.1 ±12.0 vs Jackson St. · total 155\nNavy 82% · −11.1 ±12.0 vs Delaware St. · total 141\nIona 82% · −10.9 ±12.0 vs NJIT · total 152\nCharlotte 80% · −10.1 ±11.9 vs Georgia St. · total 149\nUtah 79% · −9.8 ±12.0 vs Towson · total 142\nMid\nLouisiana Tech >99% · −31.9 ±11.9 vs Arkansas\nMorehead St. 99% · −28.6 ±11.9 vs Virginia\nCharleston Southern 99% · −28.6 ±11.9 vs Columbia\nRice 74% · −8.0 ±12.2 vs East Texas A&M · total 149\nQuinnipiac 74% · −7.5 ±11.9 vs Bryant · total 153\nSaint Peter's 73% · −7.4 ±11.9 vs Binghamton · total 146\nHoward 73% · −7.1 ±11.9 vs Alcorn St. · total 154\nIncarnate Word 70% · −6.2 ±12.0 vs Chicago St. · total 148\nSacred Heart 68% · −5.5 ±12.1 vs Maine · total 149\nMerrimack 66% · −5.0 ±12.0 vs UMass Lowell · total 148\nPrinceton 64% · −4.2 ±11.9 vs Hofstra · total 141\nMarist 64% · −4.2 ±11.9 vs UMBC · total 145\nDePaul 61% · −3.3 ±12.1 vs South Florida · total 151\nFairfield 60% · −2.9 ±11.9 vs Vermont · total 148\nManhattan 58% · −2.3 ±12.2 vs Albany · total 152\nNorth Texas 56% · −1.7 ±12.2 vs McNeese · total 144\nCornell 53% · −1.0 ±11.9 vs Lehigh · total 165\nNew Hampshire 52% · −0.7 ±11.9 vs Rider · total 149\nSouth Alabama 50% · −0.1 ±11.9 vs Jacksonville St. · total 144\nWeak — none\nHoward vs Texas St. — waiting on source numbers\nSouthern vs Richmond — waiting on source numbers\nKentucky vs Western Kentucky — waiting on source numbers"
+ "abridged": "THE BALLGORITHM · NCAAM · Thu, Nov 5\n\nNOTES\n- 43 D1 games on the board. Coverage: Torvik 0, Haslametrics 43, ESPN 43, DRatings 43, Massey 43, CBBD 0, DraftKings lines 43.\n- Didn't load this run: Torvik. Those games use the remaining sources.\n- 22 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-1)\nGardner Webb +41.5 vs Texas — our number Texas −34.4, 4 of 4 sources on this side, 72% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nTexas >99% · −34.4 ±12.3 vs Gardner Webb · total 155\nDuke >99% · −34.5 ±13.1 vs Coastal Carolina · total 145\nFlorida >99% · −31.7 ±12.3 vs Jacksonville · total 150\nArizona 99% · −28.3 ±12.9 vs Cal Poly · total 171\nIllinois 98% · −26.8 ±12.4 vs Penn · total 158\nIndiana 98% · −25.8 ±12.1 vs Bellarmine · total 152\nCreighton 98% · −26.6 ±12.8 vs Le Moyne · total 155\nTexas Tech 98% · −25.8 ±12.8 vs Bethune Cookman · total 150\nSMU 98% · −25.6 ±12.9 vs VMI · total 159\nCincinnati 96% · −21.7 ±12.1 vs Green Bay · total 146\nMichigan St. 96% · −21.5 ±12.2 vs Toledo · total 152\nMississippi St. 95% · −20.3 ±12.4 vs Northwestern St. · total 155\nNotre Dame 95% · −20.0 ±12.3 vs Mercyhurst · total 141\nSeton Hall 95% · −19.7 ±12.3 vs LIU · total 137\nSyracuse 94% · −18.8 ±12.1 vs Central Connecticut · total 143\nPittsburgh 93% · −17.7 ±12.2 vs Buffalo · total 149\nTulsa 92% · −17.1 ±12.2 vs Northern Illinois · total 156\nVirginia Tech 92% · −16.7 ±12.0 vs Mercer · total 154\nFordham 90% · −15.5 ±12.1 vs Stonehill · total 140\nPenn St. 87% · −13.7 ±12.0 vs Chattanooga · total 157\nLoyola Chicago 87% · −13.7 ±12.1 vs West Georgia · total 146\nTulane 87% · −13.3 ±12.0 vs Jackson St. · total 152\nVanderbilt 85% · −12.4 ±12.2 vs Wake Forest · total 154\nNavy 82% · −10.9 ±11.9 vs Delaware St. · total 137\nIona 81% · −10.4 ±12.0 vs NJIT · total 144\nCharlotte 79% · −9.8 ±11.9 vs Georgia St. · total 148\nUtah 79% · −9.7 ±12.0 vs Towson · total 142\nSaint Peter's 76% · −8.2 ±11.9 vs Binghamton · total 139\nMid\nIncarnate Word 73% · −7.4 ±12.0 vs Chicago St. · total 148\nRice 73% · −7.4 ±12.1 vs East Texas A&M · total 145\nQuinnipiac 71% · −6.6 ±12.0 vs Bryant · total 150\nMerrimack 70% · −6.3 ±12.1 vs UMass Lowell · total 143\nHoward 69% · −5.9 ±12.0 vs Alcorn St. · total 150\nSacred Heart 68% · −5.5 ±12.0 vs Maine · total 144\nMarist 63% · −4.1 ±11.9 vs UMBC · total 141\nDePaul 61% · −3.4 ±12.1 vs South Florida · total 152\nManhattan 60% · −3.0 ±12.1 vs Albany · total 149\nCornell 58% · −2.6 ±12.1 vs Lehigh · total 163\nPrinceton 57% · −2.1 ±12.2 vs Hofstra · total 140\nFairfield 55% · −1.6 ±12.1 vs Vermont · total 141\nNorth Texas 55% · −1.5 ±12.1 vs McNeese · total 143\nSouth Alabama 54% · −1.3 ±12.0 vs Jacksonville St. · total 144\nRider 52% · −0.7 ±12.0 vs New Hampshire · total 142\nWeak — none"
 }
