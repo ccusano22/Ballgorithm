@@ -27,7 +27,7 @@ jobs:
           u, e, p = os.environ["CBD_USER"], os.environ["CBD_EMAIL"], os.environ["CBD_PW"]
           code, body = post("https://www.cbbdata.com/api/auth/register",
                             {"username": u, "email": e, "password": p, "confirm_password": p})
-          print("register:", code, "(201 = created; an error here is fine if the account already exists)")
+          print("register:", code, "- account created" if code in (200, 201) else "- " + body[:200])
           code, body = post("https://www.cbbdata.com/api/auth/login", {"username": u, "password": p})
           ok = code == 200 and len(body) > 10
           print("login:", code, "- API key received" if ok else "- no key: " + body[:200])
