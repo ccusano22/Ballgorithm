@@ -2,9 +2,9 @@
 says what worked. Each source is independent: one failing never stops the others.
 
   ESPN       public JSON API: schedule, DraftKings spread/total, final scores, BPI matchup predictor
-  Torvik     barttorvik.com daily schedule page (T-Rank line and projected score per game)
+  Torvik     T-Rank game predictions through the cbbdata API (barttorvik.com itself blocks GitHub's servers)
   Haslametrics  ratings page, "This week's expected outcomes" (projected score per team)
-  KenPom     FanMatch, only if KENPOM_EMAIL and KENPOM_PASSWORD secrets are set
+  CBBD       CollegeBasketballData.com adjusted efficiency ratings and team pace
 """
 import datetime, json, os, sys, time, traceback, zoneinfo
 import requests
@@ -76,14 +76,6 @@ def page_text(url, login=None, wait_ms=5000):
     return txt, html
 
 
-def kenpom_login(pg):
-    pg.goto("https://kenpom.com/", wait_until="domcontentloaded", timeout=90000)
-    pg.fill('input[name="email"]', os.environ["KENPOM_EMAIL"])
-    pg.fill('input[name="password"]', os.environ["KENPOM_PASSWORD"])
-    pg.click('input[type="submit"], button[type="submit"]')
-    pg.wait_for_timeout(4000)
-
-
 def run(source, fn, status):
     t0 = time.time()
     try:
@@ -119,14 +111,62 @@ def main():
         return {"games": len(sb.get("events", [])), "predictors": sum(1 for v in pr.values() if "error" not in v)}
     run("espn", espn_today, status)
 
-    # Nov 5: barttorvik.com returns 403 to GitHub's servers for every kind of request (blocked by network, not
-    # by browser). Kept so the board notes it; it costs a few seconds.
-    def torvik():
-        txt, html = page_text(f"https://barttorvik.com/schedule.php?date={today.strftime('%Y%m%d')}")
-        save(today, "torvik.txt", txt)
-        save(today, "torvik.html", html)
-        return {"chars": len(txt), "lines_with_projection": txt.count("%)")}
-    run("torvik", torvik, status)
+    # Torvik through cbbdata (barttorvik.com itself refuses GitHub's servers). Needs CBD_USER / CBD_PW secrets.
+    if os.environ.get("CBD_USER") and os.environ.get("CBD_PW"):
+        def torvik():
+            sys.path.insert(0, os.path.join(ROOT, "model"))
+            import names as N
+            r = requests.post("https://www.cbbdata.com/api/auth/login",
+                              json={"username": os.environ["CBD_USER"], "password": os.environ["CBD_PW"]}, timeout=30)
+            r.raise_for_status()
+            body = r.json()
+            key = next(iter(body.values())) if isinstance(body, dict) else body[0]
+            if isinstance(key, list):
+                key = key[0]
+            sb = json.load(open(os.path.join(day_dir(today), "espn_scoreboard.json")))
+            out, asked = [], 0
+            for ev in sb.get("events", []):
+                comp = (ev.get("competitions") or [{}])[0]
+                cs = {c.get("homeAway"): c for c in comp.get("competitors", [])}
+                if ev.get("status", {}).get("type", {}).get("state") != "pre" or "home" not in cs or "away" not in cs:
+                    continue
+                h = N.to_canon(cs["home"]["team"].get("location", "")) or N.to_canon(cs["home"]["team"].get("displayName", ""), True)
+                a = N.to_canon(cs["away"]["team"].get("location", "")) or N.to_canon(cs["away"]["team"].get("displayName", ""), True)
+                if not h or not a:
+                    continue
+                q = {"key": key, "team": N.TORVIK.get(h, h), "opp": N.TORVIK.get(a, a), "date": today.strftime("%Y%m%d"),
+                     "location": "N" if comp.get("neutralSite") else "H"}
+                asked += 1
+                try:
+                    rr = requests.get("https://www.cbbdata.com/api/torvik/game/prediction", params=q, timeout=30)
+                    out.append({"espn_id": ev["id"], "home": h, "away": a, "status": rr.status_code,
+                                "rows": rr.json() if rr.headers.get("content-type", "").startswith("application/json") else rr.text[:300]})
+                except Exception as e:
+                    out.append({"espn_id": ev["id"], "home": h, "away": a, "error": str(e)[:200]})
+                time.sleep(0.3)
+            save(today, "torvik_cbbdata.json", out)
+            good = sum(1 for x in out if x.get("status") == 200 and isinstance(x.get("rows"), list) and len(x["rows"]) >= 2)
+            return {"asked": asked, "predictions": good}
+        run("torvik", torvik, status)
+    else:
+        status["torvik"] = {"ok": False, "error": "No cbbdata login saved (CBD_USER / CBD_PW secrets)."}
+
+    # CBBD: adjusted efficiency ratings and team pace. Needs the CBBD_API_KEY secret.
+    if os.environ.get("CBBD_API_KEY"):
+        def cbbd():
+            hdr = {"Authorization": "Bearer " + os.environ["CBBD_API_KEY"], "Accept": "application/json"}
+            season = today.year + 1 if today.month >= 8 else today.year
+            base = "https://api.collegebasketballdata.com"
+            rat = requests.get(f"{base}/ratings/adjusted", params={"season": season}, headers=hdr, timeout=60)
+            rat.raise_for_status()
+            stats = requests.get(f"{base}/stats/team/season", params={"season": season}, headers=hdr, timeout=60)
+            stats.raise_for_status()
+            save(today, "cbbd_ratings.json", rat.json())
+            save(today, "cbbd_team_stats.json", stats.json())
+            return {"teams_rated": len(rat.json()), "teams_with_stats": len(stats.json())}
+        run("cbbd", cbbd, status)
+    else:
+        status["cbbd"] = {"ok": False, "error": "No CBBD_API_KEY secret saved."}
 
     def hasla():
         txt, html = page_text("https://haslametrics.com/ratings.php", wait_ms=8000)
@@ -135,21 +175,8 @@ def main():
         return {"chars": len(txt), "has_outcomes": "EXPECTED OUTCOMES" in txt.upper()}
     run("haslametrics", hasla, status)
 
-    # Nov 5: KenPom's logged-in pages sit behind Cloudflare's bot check, which automated browsers can't pass and
-    # which we don't try to get around. Login attempts are switched off so the account isn't hit by failed bot logins.
-    if os.environ.get("KENPOM_API_KEY"):
-        status["kenpom"] = {"ok": False, "error": "KenPom API key present but the API client isn't written yet."}
-    elif False:
-        def kenpom():
-            txt, html = page_text(f"https://kenpom.com/fanmatch.php?d={today.isoformat()}", login=kenpom_login)
-            save(today, "fanmatch.txt", txt)
-            return {"chars": len(txt), "lines_with_projection": txt.count("%)")}
-        run("kenpom", kenpom, status)
-    else:
-        status["kenpom"] = {"ok": False, "error": "KenPom isn't collected automatically (Cloudflare blocks automated logins)."}
-
     save(today, "status.json", status)
-    bad = [k for k, v in status.items() if isinstance(v, dict) and not v.get("ok") and k != "kenpom"]
+    bad = [k for k, v in status.items() if isinstance(v, dict) and not v.get("ok")]
     print("collection done; failed:", bad or "none")
 
 

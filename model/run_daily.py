@@ -16,7 +16,9 @@ ET = zoneinfo.ZoneInfo("America/New_York")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "data", "raw")
 SITE = os.path.join(ROOT, "site", "data")
-SRC_NAME = {"kenpom": "KenPom", "torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN"}
+SRC_NAME = {"torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN", "cbbd": "CBBD"}
+HCA_FALLBACK = 3.0          # measured from published lines on Nov 2; re-measured daily when enough lines exist
+CBBD_MIN_GAMES = 5          # CBBD's ratings come only from this season's games, so wait for a few per team
 
 
 def now_et():
@@ -117,34 +119,6 @@ def tip(g, day):
 SCORE = re.compile(r"(\d{2,3})-(\d{2,3})(?:\s*\((\d{1,3}(?:\.\d+)?)%\))?")
 
 
-def torvik_lines(txt):
-    """'Florida -2.8,' then the next '82-79 (60%)'. Returns {favorite: (spread, fav_pts, dog_pts, pct)}."""
-    out = {}
-    marks = []
-    for m in re.finditer(r"(-\d+(?:\.\d)?),", txt):
-        head = txt[:m.start()].rsplit("\n", 1)[-1]
-        fav = N.canon_tail(head)
-        if fav:
-            marks.append((m.end(), fav, abs(float(m.group(1)))))
-    for i, (pos, fav, spread) in enumerate(marks):
-        stop = marks[i + 1][0] if i + 1 < len(marks) else len(txt)
-        sm = re.compile(r"(\d{2,3})-(\d{2,3}) \((\d{1,3})%\)").search(txt, pos, stop)
-        if sm and fav not in out:
-            out[fav] = (spread, int(sm.group(1)), int(sm.group(2)), int(sm.group(3)) / 100)
-    return out
-
-
-def fanmatch_lines(txt):
-    """'Florida 84-77 (74%)'. Returns {winner: (win_pts, lose_pts, pct)}."""
-    out = {}
-    for m in re.finditer(r"(\d{2,3})-(\d{2,3})\s*\((\d{1,3}(?:\.\d+)?)%\)", txt):
-        head = txt[:m.start()].rsplit("\n", 1)[-1]
-        w = N.canon_tail(head)
-        if w and w not in out:
-            out[w] = (int(m.group(1)), int(m.group(2)), float(m.group(3)) / 100)
-    return out
-
-
 def hasla_scores(txt):
     """'Army 336 51.86' entries after "EXPECTED OUTCOMES". Returns {team: projected points}."""
     i = txt.upper().find("EXPECTED OUTCOMES")
@@ -156,6 +130,59 @@ def hasla_scores(txt):
         if t and t not in out:
             out[t] = float(m.group(3))
     return out
+
+
+def torvik_cbbdata(rows_by_game):
+    """{espn_id: (home_pts, away_pts, home_win_pct)} from cbbdata's T-Rank predictions (one row per team)."""
+    out = {}
+    for x in rows_by_game or []:
+        rows = x.get("rows")
+        if x.get("status") != 200 or not isinstance(rows, list) or len(rows) < 2:
+            continue
+        by = {}
+        for r in rows:
+            t = N.to_canon(str(r.get("team", ""))) or N.to_canon(str(r.get("team", "")), True)
+            if t:
+                by[t] = r
+        h, a = by.get(x["home"]), by.get(x["away"])
+        if h is None or a is None:   # fall back to row order: team (home) first, then opponent
+            h, a = rows[0], rows[1]
+        try:
+            hp, ap = float(h["pts"]), float(a["pts"])
+            wp = h.get("win_per")
+            wp = float(wp) / (100 if wp is not None and float(wp) > 1 else 1) if wp is not None else None
+            out[x["espn_id"]] = (hp, ap, wp)
+        except (KeyError, TypeError, ValueError):
+            continue
+    return out
+
+
+def cbbd_ratings(rat, stats):
+    """{team: (net_rating, pace or None, games)} from CBBD."""
+    pace, games = {}, {}
+    for r in stats or []:
+        t = N.to_canon(str(r.get("team", ""))) or N.to_canon(str(r.get("team", "")), True)
+        if t:
+            pace[t] = r.get("pace")
+            games[t] = r.get("games") or 0
+    out = {}
+    for r in rat or []:
+        t = N.to_canon(str(r.get("team", ""))) or N.to_canon(str(r.get("team", "")), True)
+        net = r.get("netRating", r.get("net_rating"))
+        if t and net is not None:
+            out[t] = (float(net), pace.get(t), games.get(t, 0))
+    return out
+
+
+def measure_hca(rows):
+    """Home-court points implied by today's published projections vs CBBD's neutral numbers (needs both kinds of site)."""
+    import numpy as np
+    pts = [(r["neutral_m"], 0.0 if r["neutral"] else 1.0, r["pub_m"]) for r in rows if r.get("pub_m") is not None]
+    if len(pts) < 20 or sum(1 for p in pts if p[1] == 1.0) < 10 or sum(1 for p in pts if p[1] == 0.0) < 3:
+        return HCA_FALLBACK, "fallback"
+    X = np.array([[1.0, p[0], p[1]] for p in pts]); y = np.array([p[2] for p in pts])
+    h = float(np.linalg.lstsq(X, y, rcond=None)[0][2])
+    return (round(h, 1), "measured") if 0.5 <= h <= 6.0 else (HCA_FALLBACK, "fallback")
 
 
 def espn_p_home(pr):
@@ -229,9 +256,11 @@ def build_today(state, now):
     unmatched = set()
     sched = espn_games(jload(raw(today, "espn_scoreboard.json")), unmatched)
     preds = jload(raw(today, "espn_predictor.json"), {}) or {}
-    tv = torvik_lines(tload(raw(today, "torvik.txt")))
-    fm = fanmatch_lines(tload(raw(today, "fanmatch.txt")))
+    tv = torvik_cbbdata(jload(raw(today, "torvik_cbbdata.json"), []))
     ha = hasla_scores(tload(raw(today, "hasla.txt")))
+    cb = cbbd_ratings(jload(raw(today, "cbbd_ratings.json"), []), jload(raw(today, "cbbd_team_stats.json"), []))
+    paces = [v[1] for v in cb.values() if v[1]]
+    avg_pace = statistics.mean(paces) if paces else 68.0
 
     path = os.path.join(SITE, f"slate-{today.isoformat()}.json")
     old = jload(path)
@@ -249,16 +278,10 @@ def build_today(state, now):
             continue
         a, h = g["away"], g["home"]
         src = {}
-        fav = a if a in tv else h if h in tv else None
-        if fav and fav in tv:
-            sp, fp, dp, pc = tv[fav]
-            src["torvik"] = {"margin": sp if fav == h else -sp, "total": fp + dp,
-                             "note": f"Published line: {fav} −{sp:.1f}, {fp}-{dp}, {round(pc * 100)}%."}
-        win = a if a in fm else h if h in fm else None
-        if win:
-            wp, lp, pc = fm[win]
-            src["kenpom"] = {"margin": (wp - lp) if win == h else -(wp - lp), "total": wp + lp,
-                             "note": f"FanMatch: {win} {wp}-{lp} ({pc * 100:.0f}%)."}
+        if g["espn_id"] in tv:
+            hp, ap, wp = tv[g["espn_id"]]
+            src["torvik"] = {"margin": round(hp - ap, 2), "total": round(hp + ap, 1),
+                             "note": f"T-Rank prediction (via cbbdata): {h} {hp:.1f}, {a} {ap:.1f}" + (f", {h} {wp * 100:.0f}% to win." if wp is not None else ".")}
         if a in ha and h in ha:
             src["hasla"] = {"margin": round(ha[h] - ha[a], 2), "total": round(ha[h] + ha[a], 1),
                             "note": f"Published projection: {a} {ha[a]:.1f}, {h} {ha[h]:.1f}."}
@@ -266,12 +289,36 @@ def build_today(state, now):
         if ph is not None and 0.001 < ph < 0.999:
             src["espn"] = {"margin": round(E.margin_from_winprob(ph, E.SIGMA0), 2), "derived": True,
                            "note": f"BPI matchup predictor: {h} {ph * 100:.1f}% to win, converted to points at ±{E.SIGMA0}."}
+        if h in cb and a in cb and min(cb[h][2], cb[a][2]) >= CBBD_MIN_GAMES:
+            (nh, ph, _), (na, pa, _) = cb[h], cb[a]
+            poss = (ph * pa / avg_pace) if ph and pa else avg_pace
+            src["cbbd"] = {"neutral_m": (nh - na) * poss / 100, "poss": poss, "derived": True}
+        elif h in cb and a in cb:
+            src["cbbd"] = {"margin": None, "note": f"CBBD ratings wait until both teams have {CBBD_MIN_GAMES} games."}
         for k in E.SOURCES:
             src.setdefault(k, {"margin": None, "note": "No number today."})
         rec = {"id": gid, "away": a, "home": h, "away_conf": N.TEAMS.get(a), "home_conf": N.TEAMS.get(h),
                "short": {}, "neutral": g["neutral"], "site": ("Neutral site" + (f", {g['venue']}" if g.get("venue") else "")) if g["neutral"] else f"at {h}",
                "tip": tlabel, "tip_sort": tsort, "tv": g.get("tv"), "sources": src, "market": g.get("market"), "injuries": []}
         (games if any(v.get("margin") is not None for v in src.values()) else waiting).append(rec)
+
+    # CBBD is a rating, so its margin needs home court: measured from today's published projections when possible
+    rows = []
+    for x in games + waiting:
+        c = x["sources"].get("cbbd", {})
+        if "neutral_m" in c:
+            pub = [x["sources"][k]["margin"] for k in ("torvik", "hasla") if x["sources"][k].get("margin") is not None]
+            rows.append({"neutral_m": c["neutral_m"], "neutral": x["neutral"], "pub_m": statistics.mean(pub) if pub else None})
+    hca, hca_how = measure_hca(rows)
+    for x in games + waiting:
+        c = x["sources"].get("cbbd", {})
+        if "neutral_m" in c:
+            m = c["neutral_m"] + (0 if x["neutral"] else hca)
+            x["sources"]["cbbd"] = {"margin": round(m, 2), "derived": True,
+                                    "note": f"From CBBD ratings: net rating gap at {c['poss']:.1f} possessions" + ("." if x["neutral"] else f", +{hca} home court ({hca_how}).")}
+    moved = [x for x in waiting if x["sources"].get("cbbd", {}).get("margin") is not None]
+    for x in moved:
+        waiting.remove(x); games.append(x)
 
     # coverage + collection problems go in the notes, so a bad day is visible on the board
     cov = {k: sum(1 for x in games if x["sources"][k].get("margin") is not None) for k in E.SOURCES}
@@ -280,9 +327,9 @@ def build_today(state, now):
              + (f" ({len(locked)} locked at tip)" if locked else "") + ". Coverage: "
              + ", ".join(f"{SRC_NAME[k]} {cov[k]}" for k in E.SOURCES) + f", DraftKings lines {n_mkt}."]
     broke = [SRC_NAME.get(k, k) for k, v in status.items() if isinstance(v, dict) and not v.get("ok")
-             and k in ("espn", "torvik", "haslametrics", "kenpom")]
+             and k in ("espn", "torvik", "haslametrics", "cbbd")]
     if broke:
-        notes.append("Didn't load this run: " + ", ".join(sorted(set(b.replace("haslametrics", "Haslametrics") for b in broke)))
+        notes.append("Didn't load this run: " + ", ".join(sorted(set(b.replace("haslametrics", "Haslametrics").replace("cbbd", "CBBD") for b in broke)))
                      + ". Those games use the remaining sources.")
     if unmatched:
         notes.append(f"{len(unmatched)} ESPN games skipped because one team isn't Division I or its name isn't recognized yet.")

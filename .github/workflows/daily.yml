@@ -29,8 +29,9 @@ jobs:
           for i in 1 2 3; do timeout 150 python -m playwright install --with-deps chromium && break; echo "install attempt $i timed out, retrying"; done
       - name: Collect sources
         env:
-          KENPOM_EMAIL: ${{ secrets.KENPOM_EMAIL }}
-          KENPOM_PASSWORD: ${{ secrets.KENPOM_PASSWORD }}
+          CBD_USER: ${{ secrets.CBD_USER }}
+          CBD_PW: ${{ secrets.CBD_PW }}
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
         run: python collect/collect.py
       - name: Grade and build the slate
         run: python model/run_daily.py

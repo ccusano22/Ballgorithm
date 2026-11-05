@@ -1,0 +1,35 @@
+name: Create cbbdata account (run once)
+
+# Registers a free cbbdata account with the CBD_USER, CBD_EMAIL and CBD_PW repository secrets,
+# then checks that logging in returns an API key. Nothing secret is printed.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Register and test login
+        env:
+          CBD_USER: ${{ secrets.CBD_USER }}
+          CBD_EMAIL: ${{ secrets.CBD_EMAIL }}
+          CBD_PW: ${{ secrets.CBD_PW }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          def post(url, body):
+              req = urllib.request.Request(url, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      return r.status, r.read().decode()[:2000]
+              except urllib.error.HTTPError as e:
+                  return e.code, e.read().decode()[:300]
+          u, e, p = os.environ["CBD_USER"], os.environ["CBD_EMAIL"], os.environ["CBD_PW"]
+          code, body = post("https://www.cbbdata.com/api/auth/register",
+                            {"username": u, "email": e, "password": p, "confirm_password": p})
+          print("register:", code, "(201 = created; an error here is fine if the account already exists)")
+          code, body = post("https://www.cbbdata.com/api/auth/login", {"username": u, "password": p})
+          ok = code == 200 and len(body) > 10
+          print("login:", code, "- API key received" if ok else "- no key: " + body[:200])
+          raise SystemExit(0 if ok else 1)
+          PY

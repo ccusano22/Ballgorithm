@@ -8,9 +8,12 @@ All margins are HOME minus AWAY (for neutral sites, "home" is just the second-li
 """
 import math, statistics, copy, datetime
 
-SOURCES = ["kenpom", "torvik", "hasla", "espn"]
-LABEL = {"kenpom": "KenPom", "torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN"}
-RETIRED = ["chd", "evanmiya"]   # dropped Nov 2: CHD appears shut down; EvanMiya's free page only covers its top 50
+SOURCES = ["torvik", "hasla", "espn", "cbbd"]
+LABEL = {"torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN", "cbbd": "CBBD"}
+# dropped Nov 2: CHD appears shut down; EvanMiya's free page only covers its top 50.
+# dropped Nov 5: KenPom (its logged-in pages block automated access).
+RETIRED = ["chd", "evanmiya", "kenpom"]
+CORE = ("torvik", "hasla", "espn")   # sources that publish their own game projection (CBBD is derived from ratings)
 # Scored every game like a source, but never weighted into the blend.
 BENCH = ["market"]
 
@@ -266,7 +269,7 @@ def predict_game(state, g):
         return any(state["teams"][name]["losses"][-2:])
 
     flags = [form_flag(x) for x in (g["away"], g["home"]) if form_flag(x)]
-    core = [s for s in ("kenpom", "torvik", "hasla") if s in avail]
+    core = [s for s in CORE if s in avail]
     if p_sd > TIER["weak_psd"] or flags or bad_loss(g["away"]) or bad_loss(g["home"]):
         tier = "Weak"
         why = []

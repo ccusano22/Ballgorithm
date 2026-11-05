@@ -307,7 +307,7 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
   </section>
 
   <footer>
-    <span>Every number is ours, blended from KenPom, Torvik, Haslametrics and ESPN. DraftKings lines never enter the blend. They set the Hammer and are scored as a benchmark, so you can see whether the blend beats the market.</span>
+    <span>Every number is ours, blended from Torvik, Haslametrics, ESPN and CBBD (CollegeBasketballData.com). DraftKings lines never enter the blend. They set the Hammer and are scored as a benchmark, so you can see whether the blend beats the market.</span>
     <span id="foot-upd"></span>
   </footer>
 </main>
@@ -316,7 +316,7 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
 (() => {
 "use strict";
 const $ = s => document.querySelector(s);
-const SRC = [["kenpom","KenPom"],["torvik","Torvik"],["hasla","Haslametrics"],["espn","ESPN"]];
+const SRC = [["torvik","Torvik"],["hasla","Haslametrics"],["espn","ESPN"],["cbbd","CBBD"]];
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -457,7 +457,7 @@ function gameCard(g){
   const b = g.blend, pk = g.pick, mk = g.market;
   const pickHome = pk.team===g.home;
   const pHome = b.p_home;
-  const ranks = t => { const kp = g.sources.kenpom?.rank?.[t], tv = g.sources.torvik?.rank?.[t]; const out = []; if (kp) out.push("KP "+kp); if (tv) out.push("T "+tv); return out.join(" · "); };
+  const ranks = t => { const tv = g.sources.torvik?.rank?.[t]; return tv ? "T "+tv : ""; };
   const row = (t, p) => { const fav = t===pk.team; return `
     <div class="trow ${fav?"":"dog"}"><div class="tname"><b>${esc(t)}</b><span class="ranks">${esc(ranks(t))}</span></div>
       <div class="tprob"><span class="num">${pct(p)}</span></div></div>`; };

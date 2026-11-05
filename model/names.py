@@ -103,6 +103,11 @@ ALIAS = {'Cal State Bakersfield': 'Cal St. Bakersfield', 'CSU Bakersfield': 'Cal
  'Wofford Terriers': 'Wofford'}
 
 
+# Our canonical names follow KenPom; T-Rank (and cbbdata) differ for a handful of teams.
+TORVIK = {"McNeese": "McNeese St.", "Kansas City": "UMKC", "Southeast Missouri": "Southeast Missouri St.",
+          "Texas A&M Corpus Chris": "Texas A&M Corpus Chris", "Nicholls": "Nicholls St.", "SIUE": "SIU Edwardsville"}
+
+
 def deaccent(s):
     return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
 
