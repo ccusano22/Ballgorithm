@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap">
 <style>
-/* Layout: sticky header with three views (Today, Season, Sources). Today is a tiered stack of game cards; each card shows the blended number, its spread as a curve, momentum and the four sources with their weights. */
+/* Layout: sticky header with three views (Today, Season, Sources). Today is a tiered stack of game cards; each card shows the blended number, its spread as a curve, momentum and each source with its weight. */
 :root{
   --bg:#EDEFF3; --surface:#FFFFFF; --surface-2:#E3E7EE; --ink:#151A23; --muted:#596173; --rule:#D5DAE3;
   --accent:#BD530B; --accent-ink:#FFFFFF; --hit:#0B8467; --miss:#B4364A; --push:#8A92A3;
@@ -499,7 +499,7 @@ function waitCard(g){
   const mk = g.market;
   const inj = (g.injuries||[]).length ? `<div class="sec"><h3>Availability</h3><ul class="inj">${g.injuries.map(i => `<li><span class="${/out/i.test(i.status)?"st-out":"st-exp"}">${esc(i.status)}</span><b>${esc(i.player)}</b> · ${esc(i.team)} · ${esc(i.note)}</li>`).join("")}</ul></div>` : "";
   return `<article class="card game" aria-label="${esc(g.away)} vs ${esc(g.home)}">
-    <div class="g-top"><span class="tchip">No pick yet</span><span>${esc(g.wait_note || "None of the four sources has posted a number we can reach")}</span></div>
+    <div class="g-top"><span class="tchip">No pick yet</span><span>${esc(g.wait_note || "None of the sources has posted a number we can reach")}</span></div>
     <div class="g-top" style="padding-top:0"><b>${esc(g.tip||"")}</b>${g.tv?`<span>${esc(g.tv)}</span>`:""}<span>${esc(g.site||"")}${g.neutral?" · neutral (N)":""}</span></div>
     <div class="teams"><div class="trow dog"><div class="tname"><b>${esc(g.away)}</b></div></div><div class="trow dog"><div class="tname"><b>${esc(g.home)}</b></div></div></div>
     ${mk ? `<div class="sec"><p class="mkt">${esc(mk.book || "DraftKings")}: <b>${esc(g.home)} ${spr(mk.spread_home)}</b>${mk.total!=null ? ` · total <b>${mk.total}</b>` : ""}.</p></div>` : ""}
