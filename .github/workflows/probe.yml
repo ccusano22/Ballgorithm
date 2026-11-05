@@ -1,0 +1,14 @@
+name: Probe sites (temporary)
+on:
+  workflow_dispatch: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in "https://masseyratings.com/cb/ncaa-d1/games" "https://masseyratings.com/json/rate.php?argv=ncaa-d1&task=json" \
+                   "https://www.dratings.com/predictor/ncaa-basketball-predictions/" "https://www.teamrankings.com/ncb/predictions/" \
+                   "https://www.warrennolan.com/basketball/2027/predict" "https://barttorvik.com/trank.php"; do
+            out=$(curl -sS -L -A "Mozilla/5.0 (compatible; Ballgorithm/1.0)" -o /tmp/p -w "%{http_code} %{size_download}" --max-time 30 "$u" || echo "fail")
+            echo "SITE $u -> $out $(head -c 300 /tmp/p | tr -d '\n' | grep -oiE 'captcha|cloudflare|just a moment|verify|access denied' | head -1)"
+          done
