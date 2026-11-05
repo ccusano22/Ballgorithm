@@ -10,7 +10,7 @@ print("cap ok", {k: round(v, 3) for k, v in w.items()})
 
 random.seed(7)
 s = E.new_state("test")
-noise = {"kenpom": 9, "torvik": 9, "hasla": 9, "espn": 12}
+noise = {"torvik": 9, "hasla": 9, "espn": 12, "dratings": 10, "massey": 9, "cbbd": 11}
 for day in range(40):
     games = []
     for i in range(10):

@@ -21,7 +21,9 @@ A Claude scheduled task publishes `site/` to the board artifact after each run.
 | Source | How it's collected | Notes |
 |---|---|---|
 | ESPN | Public JSON API | Schedule, DraftKings spread and total, final scores, BPI matchup predictor |
-| Torvik | cbbdata API (barttorvik.com blocks GitHub) | T-Rank projected score and win percentage per game |
+| DRatings | Plain page fetch, "Upcoming Games" table | Projected score for each team and win chance |
+| Massey | Headless browser, games page | Median margin, median total and win chance |
+| Torvik | cbbdata API (barttorvik.com blocks GitHub) | **Dormant:** as of Nov 2026 cbbdata's T-Rank data stops after 2024-25. Collected every run; joins the blend automatically if numbers return |
 | Haslametrics | Headless browser, ratings page | "This week's expected outcomes" |
 | CBBD | CollegeBasketballData.com API | Adjusted efficiency ratings and pace; margins derived, used once both teams have 5 games |
 

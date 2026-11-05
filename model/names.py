@@ -118,6 +118,18 @@ def norm(s):
 
 
 NORMIDX = {norm(t): t for t in TEAMS}
+# DRatings writes full names with mascots; these are the ones whose first words name a different school
+ALIAS.update({"Pitt": "Pittsburgh", "Wisconsin Green Bay": "Green Bay", "Wisconsin Milwaukee": "Milwaukee",
+              "Texas A&M Commerce": "East Texas A&M", "Texas A&M Corpus Christi": "Texas A&M Corpus Chris",
+              "Arkansas Little Rock": "Little Rock", "Arkansas Pine Bluff": "Arkansas Pine Bluff", "Tennessee Martin": "UT Martin",
+              "Louisiana Monroe": "Louisiana Monroe", "Texas Rio Grande Valley": "UT Rio Grande Valley", "Missouri Kansas City": "Kansas City",
+              "Indiana Purdue Indianapolis": "IU Indy", "Illinois Chicago": "Illinois Chicago", "Maryland Baltimore County": "UMBC",
+              "Massachusetts Lowell": "UMass Lowell", "North Carolina Wilmington": "UNC Wilmington", "North Carolina Greensboro": "UNC Greensboro",
+              "North Carolina Asheville": "UNC Asheville", "Texas San Antonio": "UTSA", "Texas Arlington": "UT Arlington", "Texas El Paso": "UTEP",
+              "Southern Illinois Edwardsville": "SIU Edwardsville", "Nebraska Omaha": "Nebraska Omaha", "Mississippi Valley State": "Mississippi Valley St."})
+ALIAS = {k: v for k, v in ALIAS.items() if v in TEAMS}
+PREFIXIDX = dict(NORMIDX)
+PREFIXIDX.update({norm(k): v for k, v in ALIAS.items()})
 
 
 def to_canon(name, allow_prefix=False):
@@ -135,11 +147,49 @@ def to_canon(name, allow_prefix=False):
         return NORMIDX[n]
     if allow_prefix:
         best = None
-        for k, t in NORMIDX.items():
+        for k, t in PREFIXIDX.items():
             if n.startswith(k) and (best is None or len(k) > len(best[0])):
                 best = (k, t)
         if best:
             return best[1]
+    return None
+
+
+MASSEY = {"CS Bakersfield": "Cal St. Bakersfield", "Central Conn": "Central Connecticut", "Charleston So": "Charleston Southern",
+          "Coastal Car": "Coastal Carolina", "LIU Brooklyn": "LIU", "MA Lowell": "UMass Lowell", "McNeese St": "McNeese",
+          "Northwestern LA": "Northwestern St.", "Prairie View": "Prairie View A&M", "SUNY Albany": "Albany",
+          "St Peter's": "Saint Peter's", "WI Green Bay": "Green Bay", "WI Milwaukee": "Milwaukee", "WKU": "Western Kentucky",
+          "Pitt": "Pittsburgh", "Pitt Panthers": "Pittsburgh", "TAM C. Christi": "Texas A&M Corpus Chris", "TX Southern": "Texas Southern",
+          "UT San Antonio": "UTSA", "UTRGV": "UT Rio Grande Valley", "Ark Pine Bluff": "Arkansas Pine Bluff", "Ark Little Rock": "Little Rock",
+          "FL Gulf Coast": "Florida Gulf Coast", "Florida Intl": "FIU", "Loyola MD": "Loyola MD", "Loyola-Chicago": "Loyola Chicago",
+          "Miami OH": "Miami OH", "Miami FL": "Miami FL", "MS Valley St": "Mississippi Valley St.", "MD E Shore": "Maryland Eastern Shore",
+          "NC A&T": "North Carolina A&T", "NC Central": "North Carolina Central", "S Carolina St": "South Carolina St.",
+          "SE Missouri St": "Southeast Missouri", "SE Louisiana": "Southeastern Louisiana", "SF Austin": "Stephen F. Austin",
+          "St Mary's CA": "Saint Mary's", "St Joseph's PA": "Saint Joseph's", "St Louis": "Saint Louis",
+          "Mt St Mary's": "Mount St. Mary's", "Houston Chr": "Houston Christian", "Incarnate Word": "Incarnate Word",
+          "IL Chicago": "Illinois Chicago", "IUPUI": "IU Indy", "Kennesaw": "Kennesaw St.", "UNC Wilmington": "UNC Wilmington",
+          "Citadel": "The Citadel", "ETSU": "East Tennessee St.", "UC Santa Barbara": "UC Santa Barbara", "Cal Baptist": "Cal Baptist",
+          "CS Fullerton": "Cal St. Fullerton", "CS Northridge": "CSUN", "Sacramento St": "Sacramento St.", "Long Beach St": "Long Beach St.",
+          "Southern Univ": "Southern", "Grambling": "Grambling St.", "Texas A&M Corpus Christi": "Texas A&M Corpus Chris"}
+_DIR = [("N ", ("Northern ", "North ")), ("S ", ("Southern ", "South ")), ("E ", ("Eastern ", "East ")), ("W ", ("Western ", "West ")),
+        ("C ", ("Central ",)), ("SE ", ("Southeast ", "Southeastern ")), ("NW ", ("Northwestern ",)), ("SW ", ("Southwestern ",))]
+
+
+def to_canon_abbr(name):
+    """Massey-style abbreviations ("W Michigan", "Central Conn", "St Peter's"): exact/alias match, then the MASSEY table,
+    then directional prefixes spelled out. No prefix guessing, so a non-D1 name ("Howard Payne") stays unmatched."""
+    name = (name or "").strip()
+    c = to_canon(name) or (MASSEY.get(name) and to_canon(MASSEY[name]))
+    if c:
+        return c
+    for ab, full in _DIR:
+        if name.startswith(ab):
+            for f in full:
+                c = to_canon(f + name[len(ab):])
+                if c:
+                    return c
+    if name.startswith("St "):
+        return to_canon("Saint " + name[3:]) or to_canon("St. " + name[3:])
     return None
 
 

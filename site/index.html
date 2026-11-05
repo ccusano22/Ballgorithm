@@ -307,7 +307,7 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
   </section>
 
   <footer>
-    <span>Every number is ours, blended from Torvik, Haslametrics, ESPN and CBBD (CollegeBasketballData.com). DraftKings lines never enter the blend. They set the Hammer and are scored as a benchmark, so you can see whether the blend beats the market.</span>
+    <span>Every number is ours, blended from Haslametrics, ESPN, DRatings, Massey and CBBD (CollegeBasketballData.com), plus Torvik when it has numbers. DraftKings lines never enter the blend. They set the Hammer and are scored as a benchmark, so you can see whether the blend beats the market.</span>
     <span id="foot-upd"></span>
   </footer>
 </main>
@@ -316,7 +316,9 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
 (() => {
 "use strict";
 const $ = s => document.querySelector(s);
-const SRC = [["torvik","Torvik"],["hasla","Haslametrics"],["espn","ESPN"],["cbbd","CBBD"]];
+const SRC = [["torvik","Torvik"],["hasla","Haslametrics"],["espn","ESPN"],["dratings","DRatings"],["massey","Massey"],["cbbd","CBBD"]];
+// sources with at least one number on the slate being shown (a source that's out for the day doesn't clutter every game)
+const ACT = () => { const a = SRC.filter(([k]) => (SLATE.games||[]).some(g => g.sources?.[k]?.margin != null)); return a.length ? a : SRC; };
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -377,7 +379,7 @@ function renderHeader(){
   const n = SLATE.games.length, nw = (SLATE.waiting||[]).length;
   const reporting = n ? Math.round(SLATE.games.reduce((s,g)=>s+g.blend.n_sources,0)/n*10)/10 : 0;
   $("#slate-title").textContent = `${fmtDay(SLATE.date)} slate`;
-  $("#slate-sub").textContent = `${n+nw} ${n+nw===1?"game":"games"}${nw ? ` (${nw} waiting on numbers)` : ""} · ${reporting} of ${SRC.length} sources reporting per game · built ${etTime(SLATE.generated_at)} ET`;
+  $("#slate-sub").textContent = `${n+nw} ${n+nw===1?"game":"games"}${nw ? ` (${nw} waiting on numbers)` : ""} · ${reporting} of ${ACT().length} sources reporting per game · built ${etTime(SLATE.generated_at)} ET`;
   const live = SLATE.date===todayET() && !SLATE.graded;
   const pill = $("#pill");
   pill.className = "pill" + (live ? " live" : "");
@@ -442,7 +444,7 @@ function momentumHTML(g){
 function sourcesHTML(g){
   const used = (g.weights || {}).used || {}, usedT = (g.weights || {}).used_total || {};
   const head = `<div class="srow shead"><span class="lbl">Source</span><span class="lbl r">Margin</span><span class="lbl r">Wt</span><span class="lbl r">Total</span><span class="lbl r">Wt</span></div>`;
-  return `<div class="srcs">${head}${SRC.map(([k,name]) => {
+  return `<div class="srcs">${head}${ACT().map(([k,name]) => {
     const s = g.sources[k] || {}; const has = s.margin!=null;
     const side = has ? (s.margin>=0 ? g.home : g.away) : null;
     const val = has ? `<span class="sval">${esc(short(side))} ${Math.abs(s.margin).toFixed(1)}</span>` : `<span class="sval none">No number</span>`;
@@ -478,7 +480,7 @@ function gameCard(g){
     <div class="teams">${row(g.away, 1-pHome)}${row(g.home, pHome)}</div>
     <div class="pbar" aria-hidden="true"><i class="${pickHome?"":"pk"}" style="width:${(1-pHome)*100}%"></i><i class="${pickHome?"pk":""}" style="width:${pHome*100}%"></i></div>
     <div class="g-stats">
-      <div class="st"><span class="lbl">Our number</span><span class="num">${esc(short(pk.team))} −${f1(pk.margin)}</span><small>${b.n_sources} of ${SRC.length} sources</small></div>
+      <div class="st"><span class="lbl">Our number</span><span class="num">${esc(short(pk.team))} −${f1(pk.margin)}</span><small>${b.n_sources} of ${ACT().length} sources</small></div>
       <div class="st"><span class="lbl">Standard dev.</span><span class="num">±${f1(b.sd)}</span><small>model ${f1(b.model_sd)} · sources ${f1(b.src_sd)}</small></div>
       <div class="st"><span class="lbl">Total</span><span class="num">${b.total!=null ? f1(b.total) : "—"}</span><small>${b.total!=null ? (b.total_sd!=null ? "±"+f1(b.total_sd) : "SD learning") + (b.lean ? " · "+b.lean : "") : "No source total yet"}</small></div>
       <div class="st"><span class="lbl">1-SD range</span><span class="num" style="font-size:17px;line-height:1.25">${esc(end(lo))} to ${esc(end(hi))}</span><small>About 2 in 3 finals land here</small></div>
@@ -516,7 +518,7 @@ try { const v = localStorage.getItem("ballgorithm:order"); if (v==="time" || v==
 function gameRow(g){
   const pk = g.pick, other = pk.team===g.home ? g.away : g.home;
   const tip = String(g.tip||"").replace(" ET","").replace(" (Tue)","");
-  const sub = [`${g.neutral ? "vs" : pk.team===g.home ? "vs" : "at"} ${other}`, g.neutral ? "N" : null, `±${f1(g.blend.sd)}`, g.market && g.market.spread_home!=null ? `${/draftkings/i.test(g.market.book||"DraftKings") ? "DK" : "Line"} ${short(g.home)} ${spr(g.market.spread_home)}` : null, g.blend.total!=null ? `total ${Math.round(g.blend.total)}` : null, `${g.blend.n_sources}/${SRC.length} src`].filter(Boolean).join(" · ");
+  const sub = [`${g.neutral ? "vs" : pk.team===g.home ? "vs" : "at"} ${other}`, g.neutral ? "N" : null, `±${f1(g.blend.sd)}`, g.market && g.market.spread_home!=null ? `${/draftkings/i.test(g.market.book||"DraftKings") ? "DK" : "Line"} ${short(g.home)} ${spr(g.market.spread_home)}` : null, g.blend.total!=null ? `total ${Math.round(g.blend.total)}` : null, `${g.blend.n_sources}/${ACT().length} src`].filter(Boolean).join(" · ");
   const res = g.result ? `<span class="badge">${g.result.won ? "W" : "L"}</span>` : "";
   return `<details class="gl" data-id="${esc(g.id)}"${SLATE.games.length<=3 ? " open" : ""}><summary>
       <span class="gl-time">${esc(tip)}${GSORT==="time" ? `<br><span class="tchip ${g.tier}">${g.tier}</span>` : ""}</span>

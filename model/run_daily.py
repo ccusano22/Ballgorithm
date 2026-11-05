@@ -16,7 +16,7 @@ ET = zoneinfo.ZoneInfo("America/New_York")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "data", "raw")
 SITE = os.path.join(ROOT, "site", "data")
-SRC_NAME = {"torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN", "cbbd": "CBBD"}
+SRC_NAME = {"torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN", "dratings": "DRatings", "massey": "Massey", "cbbd": "CBBD"}
 HCA_FALLBACK = 3.0          # measured from published lines on Nov 2; re-measured daily when enough lines exist
 CBBD_MIN_GAMES = 5          # CBBD's ratings come only from this season's games, so wait for a few per team
 
@@ -55,6 +55,8 @@ def raw(d, name):
 # ---------------- ESPN ----------------
 def espn_team(c):
     t = c.get("team", {})
+    if t.get("conferenceId") is None:   # ESPN gives every D1 team a conference; non-D1 opponents ("Kentucky Wesleyan") have none
+        return None
     for key in ("location", "shortDisplayName", "displayName", "name"):
         x = N.to_canon(t.get(key) or "")
         if x:
@@ -155,6 +157,66 @@ def torvik_cbbdata(rows_by_game):
         except (KeyError, TypeError, ValueError):
             continue
     return out
+
+
+def dratings_games(pages, day):
+    """{frozenset(teams): {away, home, away_pts, home_pts, away_win}} from DRatings' "Upcoming Games" tables.
+    Each page is one day (page 1 = today); only games tipping on `day` (Eastern) are kept. Away is listed first."""
+    out = {}
+    for h in pages:
+        i, j = h.find("Upcoming Games"), h.find("Completed Games")
+        if i < 0:
+            continue
+        sec = h[i:j if j > i else len(h)]
+        for row in re.findall(r"<tr>(.*?)</tr>", sec, re.S):
+            dt = re.search(r'datetime="([^"]+)"', row)
+            teams = re.findall(r'<a href="/teams/[^"]+">([^<]+)</a>', row)
+            win = re.search(r'([\d.]+)%</span>\s*<br\s*/?>\s*<span[^>]*>([\d.]+)%', row)
+            pts = re.search(r'<td class="table-division">\s*([\d.]+)\s*<br\s*/?>\s*([\d.]+)\s*</td>', row)
+            if not (dt and len(teams) >= 2 and pts):
+                continue
+            when = datetime.datetime.fromisoformat(dt.group(1).replace("Z", "+00:00")).astimezone(ET)
+            if when.date() != day:
+                continue
+            a, hm = (N.to_canon(html_unescape(t)) or N.to_canon(html_unescape(t), True) for t in teams[:2])
+            if not a or not hm or a == hm:
+                continue
+            out[frozenset((a, hm))] = {"away": a, "home": hm, "away_pts": float(pts.group(1)), "home_pts": float(pts.group(2)),
+                                       "away_win": float(win.group(1)) / 100 if win else None}
+    return out
+
+
+def massey_games(txt):
+    """{frozenset(teams): {away, home, margin_home, total, home_win}} from Massey's rendered games table.
+    Each game is a tab-separated block: date+time | away / @ home | standing | score | predicted score | win % | MOV | total."""
+    out = {}
+    for blk in re.split(r"\n(?=(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun) \d\d\.\d\d\n)", txt or ""):
+        cells = blk.split("\t")
+        if len(cells) < 8 or "\n@ " not in "\n" + cells[1]:
+            continue
+        nm = [x.strip() for x in cells[1].strip().split("\n")]
+        if len(nm) != 2 or not nm[1].startswith("@ "):
+            continue
+        a, h = N.to_canon_abbr(nm[0]), N.to_canon_abbr(nm[1][2:].strip())
+        if not a or not h or a == h:
+            continue
+        num = lambda c: [float(x) for x in re.findall(r"-?\d+(?:\.\d+)?", c)]
+        pred, pw, mov, tot = num(cells[4]), num(cells[5]), num(cells[6]), num(cells[7])
+        if len(pred) != 2:
+            continue
+        diff = pred[1] - pred[0]
+        home_fav = (pw[1] > pw[0]) if len(pw) == 2 and pw[0] != pw[1] else diff >= 0
+        # MOV is the favorite's median margin; if a market spread ever shares the cell, keep the one nearer the predicted score
+        m = min((abs(x) for x in mov), key=lambda x: abs(x - abs(diff)), default=abs(diff))
+        t = min(tot, key=lambda x: abs(x - sum(pred)), default=sum(pred))
+        out[frozenset((a, h))] = {"away": a, "home": h, "margin_home": m if home_fav else -m, "total": t,
+                                  "home_win": pw[1] / 100 if len(pw) == 2 else None}
+    return out
+
+
+def html_unescape(s):
+    import html
+    return html.unescape(s).strip()
 
 
 def cbbd_ratings(rat, stats):
@@ -259,6 +321,8 @@ def build_today(state, now):
     tv = torvik_cbbdata(jload(raw(today, "torvik_cbbdata.json"), []))
     ha = hasla_scores(tload(raw(today, "hasla.txt")))
     cb = cbbd_ratings(jload(raw(today, "cbbd_ratings.json"), []), jload(raw(today, "cbbd_team_stats.json"), []))
+    dr = dratings_games([tload(raw(today, f"dratings_{i}.html")) or "" for i in range(1, 6)], today)
+    ma = massey_games(tload(raw(today, "massey.txt")))
     paces = [v[1] for v in cb.values() if v[1]]
     avg_pace = statistics.mean(paces) if paces else 68.0
 
@@ -285,6 +349,18 @@ def build_today(state, now):
         if a in ha and h in ha:
             src["hasla"] = {"margin": round(ha[h] - ha[a], 2), "total": round(ha[h] + ha[a], 1),
                             "note": f"Published projection: {a} {ha[a]:.1f}, {h} {ha[h]:.1f}."}
+        key = frozenset((a, h))
+        if key in dr:
+            d = dr[key]
+            hp, ap = (d["home_pts"], d["away_pts"]) if d["home"] == h else (d["away_pts"], d["home_pts"])
+            src["dratings"] = {"margin": round(hp - ap, 2), "total": round(hp + ap, 1),
+                               "note": f"Published projection: {a} {ap:.1f}, {h} {hp:.1f}."}
+        if key in ma:
+            m = ma[key]
+            mh = m["margin_home"] if m["home"] == h else -m["margin_home"]
+            fav = h if mh >= 0 else a
+            src["massey"] = {"margin": round(mh, 2), "total": round(m["total"], 1),
+                             "note": f"Published median margin: {fav} by {abs(mh):.1f}, total {m['total']:.1f}."}
         ph = espn_p_home(preds.get(g["espn_id"]))
         if ph is not None and 0.001 < ph < 0.999:
             src["espn"] = {"margin": round(E.margin_from_winprob(ph, E.SIGMA0), 2), "derived": True,
@@ -307,7 +383,7 @@ def build_today(state, now):
     for x in games + waiting:
         c = x["sources"].get("cbbd", {})
         if "neutral_m" in c:
-            pub = [x["sources"][k]["margin"] for k in ("torvik", "hasla") if x["sources"][k].get("margin") is not None]
+            pub = [x["sources"][k]["margin"] for k in ("torvik", "hasla", "dratings", "massey") if x["sources"][k].get("margin") is not None]
             rows.append({"neutral_m": c["neutral_m"], "neutral": x["neutral"], "pub_m": statistics.mean(pub) if pub else None})
     hca, hca_how = measure_hca(rows)
     for x in games + waiting:
@@ -327,9 +403,9 @@ def build_today(state, now):
              + (f" ({len(locked)} locked at tip)" if locked else "") + ". Coverage: "
              + ", ".join(f"{SRC_NAME[k]} {cov[k]}" for k in E.SOURCES) + f", DraftKings lines {n_mkt}."]
     broke = [SRC_NAME.get(k, k) for k, v in status.items() if isinstance(v, dict) and not v.get("ok")
-             and k in ("espn", "torvik", "haslametrics", "cbbd")]
+             and k in ("espn", "torvik", "haslametrics", "dratings", "massey", "cbbd")]
     if broke:
-        notes.append("Didn't load this run: " + ", ".join(sorted(set(b.replace("haslametrics", "Haslametrics").replace("cbbd", "CBBD") for b in broke)))
+        notes.append("Didn't load this run: " + ", ".join(sorted(set(b.replace("haslametrics", "Haslametrics") for b in broke)))
                      + ". Those games use the remaining sources.")
     if unmatched:
         notes.append(f"{len(unmatched)} ESPN games skipped because one team isn't Division I or its name isn't recognized yet.")
@@ -337,7 +413,10 @@ def build_today(state, now):
     if not games and not locked and not waiting:
         print("No games could be built for", today, "- leaving the board's last slate in place.", flush=True)
         return {"games": [], "waiting": [], "hammer": None}
-    slate = E.build_slate(state, today.isoformat(), games, notes, generated_at=now.isoformat(timespec="seconds"))
+    pend = state.get("pending") or {}
+    if pend.get("games"):   # today's untipped games are rebuilt below; anything of today's that no longer qualifies drops out
+        pend["games"] = [x for x in pend["games"] if not x["id"].startswith(today.isoformat()) or x["id"] in locked_ids]
+        slate = E.build_slate(state, today.isoformat(), games, notes, generated_at=now.isoformat(timespec="seconds"))
     for p in slate["games"]:
         p["tip_sort"] = next(x["tip_sort"] for x in games if x["id"] == p["id"])
     slate["waiting"] = waiting

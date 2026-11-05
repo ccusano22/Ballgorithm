@@ -8,12 +8,12 @@ All margins are HOME minus AWAY (for neutral sites, "home" is just the second-li
 """
 import math, statistics, copy, datetime
 
-SOURCES = ["torvik", "hasla", "espn", "cbbd"]
-LABEL = {"torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN", "cbbd": "CBBD"}
+SOURCES = ["torvik", "hasla", "espn", "dratings", "massey", "cbbd"]
+LABEL = {"torvik": "Torvik", "hasla": "Haslametrics", "espn": "ESPN", "dratings": "DRatings", "massey": "Massey", "cbbd": "CBBD"}
 # dropped Nov 2: CHD appears shut down; EvanMiya's free page only covers its top 50.
 # dropped Nov 5: KenPom (its logged-in pages block automated access).
 RETIRED = ["chd", "evanmiya", "kenpom"]
-CORE = ("torvik", "hasla", "espn")   # sources that publish their own game projection (CBBD is derived from ratings)
+CORE = ("torvik", "hasla", "espn", "dratings", "massey")   # sources that publish their own game projection (CBBD is derived from ratings)
 # Scored every game like a source, but never weighted into the blend.
 BENCH = ["market"]
 
