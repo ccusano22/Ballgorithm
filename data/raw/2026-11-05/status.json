@@ -1,9 +1,9 @@
 {
- "collected_at": "2026-11-05T10:56:21-05:00",
+ "collected_at": "2026-11-05T16:19:40-05:00",
  "date": "2026-11-05",
  "espn_finals_2026-11-04": {
   "ok": true,
-  "secs": 0.1,
+  "secs": 0.3,
   "games": 26,
   "final": 26
  },
@@ -15,32 +15,31 @@
  },
  "espn_finals_2026-11-02": {
   "ok": true,
-  "secs": 0.3,
+  "secs": 0.5,
   "games": 182,
   "final": 182
  },
  "espn": {
   "ok": true,
-  "secs": 21.0,
+  "secs": 23.3,
   "games": 65,
   "predictors": 65
  },
  "torvik": {
+  "ok": false,
+  "error": "HTTPError: 401 Client Error: UNAUTHORIZED for url: https://www.cbbdata.com/api/auth/login",
+  "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/Ballgorithm/Ballgorithm/collect/collect.py\", line 82, in run\n    info = fn() or {}\n           ^^^^\n  File \"/home/runner/work/Ballgorithm/Ballgorithm/collect/collect.py\", line 121, in torvik\n    r.raise_for_status()\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 401 Client Error: UNAUTHORIZED for url: https://www.cbbdata.com/api/auth/login\n"
+ },
+ "cbbd": {
   "ok": true,
-  "secs": 7.8,
-  "chars": 513,
-  "lines_with_projection": 0
+  "secs": 1.8,
+  "teams_rated": 0,
+  "teams_with_stats": 444
  },
  "haslametrics": {
   "ok": true,
-  "secs": 11.8,
+  "secs": 12.2,
   "chars": 72049,
   "has_outcomes": true
- },
- "kenpom": {
-  "ok": true,
-  "secs": 40.5,
-  "chars": 258,
-  "lines_with_projection": 0
  }
 }
