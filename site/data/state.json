@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-05T16:50:36-05:00",
+ "updated": "2026-11-05T20:00:49-05:00",
  "artifact_url": "https://claude.ai/artifact/AN8JdyqWML4JjQM7vBZYwr",
  "constants": {
   "MAE_PRIOR": 8.85,
@@ -24,7 +24,7 @@
  },
  "records": {
   "su": {
-   "w": 0,
+   "w": 1,
    "l": 0,
    "since": "2026-11-05"
   },
@@ -36,13 +36,13 @@
   }
  },
  "model": {
-  "n": 0,
-  "mae": 0.0,
-  "brier_sum": 0.0,
-  "correct": 0,
+  "n": 1,
+  "mae": 8.45,
+  "brier_sum": 0.19855936,
+  "correct": 1,
   "sigma": 11.09,
-  "tot_n": 0,
-  "tot_mae": 0.0
+  "tot_n": 1,
+  "tot_mae": 0.5999999999999943
  },
  "sources": {
   "torvik": {
@@ -50,20 +50,20 @@
    "mae": 0.0
   },
   "hasla": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 10.55
   },
   "espn": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 5.85
   },
   "dratings": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 10.9
   },
   "massey": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 6.5
   },
   "cbbd": {
    "n": 0,
@@ -76,20 +76,20 @@
    "mae": 0.0
   },
   "hasla": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 0.30000000000001137
   },
   "espn": {
    "n": 0,
    "mae": 0.0
   },
   "dratings": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 3.0999999999999943
   },
   "massey": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 4.5
   },
   "cbbd": {
    "n": 0,
@@ -98,38 +98,148 @@
  },
  "bench": {
   "market": {
-   "n": 0,
-   "mae": 0.0
+   "n": 1,
+   "mae": 11.5
   }
  },
- "groups": {},
- "groups_tot": {},
+ "groups": {
+  "Slnd": {
+   "torvik": {
+    "n": 0,
+    "mae": 0.0
+   },
+   "hasla": {
+    "n": 1,
+    "mae": 10.55
+   },
+   "espn": {
+    "n": 1,
+    "mae": 5.85
+   },
+   "dratings": {
+    "n": 1,
+    "mae": 10.9
+   },
+   "massey": {
+    "n": 1,
+    "mae": 6.5
+   },
+   "cbbd": {
+    "n": 0,
+    "mae": 0.0
+   }
+  },
+  "Amer": {
+   "torvik": {
+    "n": 0,
+    "mae": 0.0
+   },
+   "hasla": {
+    "n": 1,
+    "mae": 10.55
+   },
+   "espn": {
+    "n": 1,
+    "mae": 5.85
+   },
+   "dratings": {
+    "n": 1,
+    "mae": 10.9
+   },
+   "massey": {
+    "n": 1,
+    "mae": 6.5
+   },
+   "cbbd": {
+    "n": 0,
+    "mae": 0.0
+   }
+  }
+ },
+ "groups_tot": {
+  "Slnd": {
+   "torvik": {
+    "n": 0,
+    "mae": 0.0
+   },
+   "hasla": {
+    "n": 1,
+    "mae": 0.30000000000001137
+   },
+   "espn": {
+    "n": 0,
+    "mae": 0.0
+   },
+   "dratings": {
+    "n": 1,
+    "mae": 3.0999999999999943
+   },
+   "massey": {
+    "n": 1,
+    "mae": 4.5
+   },
+   "cbbd": {
+    "n": 0,
+    "mae": 0.0
+   }
+  },
+  "Amer": {
+   "torvik": {
+    "n": 0,
+    "mae": 0.0
+   },
+   "hasla": {
+    "n": 1,
+    "mae": 0.30000000000001137
+   },
+   "espn": {
+    "n": 0,
+    "mae": 0.0
+   },
+   "dratings": {
+    "n": 1,
+    "mae": 3.0999999999999943
+   },
+   "massey": {
+    "n": 1,
+    "mae": 4.5
+   },
+   "cbbd": {
+    "n": 0,
+    "mae": 0.0
+   }
+  }
+ },
  "teams": {
   "McNeese": {
    "conf": "Slnd",
-   "n": 0,
-   "form": [],
-   "losses": [],
+   "n": 1,
+   "form": [
+    -8.45
+   ],
+   "losses": [
+    false
+   ],
    "err": {
     "torvik": {
      "n": 0,
      "mae": 0.0
     },
     "hasla": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 10.55
     },
     "espn": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 5.85
     },
     "dratings": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 10.9
     },
     "massey": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 6.5
     },
     "cbbd": {
      "n": 0,
@@ -142,20 +252,20 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 0.30000000000001137
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 3.0999999999999943
     },
     "massey": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 4.5
     },
     "cbbd": {
      "n": 0,
@@ -163,8 +273,8 @@
     }
    },
    "tot": {
-    "n": 0,
-    "avg": 0.0
+    "n": 1,
+    "avg": 144.0
    },
    "weights": {
     "torvik": 0.167,
@@ -177,8 +287,8 @@
    "basis": "default",
    "bench": {
     "market": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 11.5
     }
    },
    "tweights": {
@@ -193,29 +303,33 @@
   },
   "North Texas": {
    "conf": "Amer",
-   "n": 0,
-   "form": [],
-   "losses": [],
+   "n": 1,
+   "form": [
+    8.45
+   ],
+   "losses": [
+    false
+   ],
    "err": {
     "torvik": {
      "n": 0,
      "mae": 0.0
     },
     "hasla": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 10.55
     },
     "espn": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 5.85
     },
     "dratings": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 10.9
     },
     "massey": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 6.5
     },
     "cbbd": {
      "n": 0,
@@ -228,20 +342,20 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 0.30000000000001137
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 3.0999999999999943
     },
     "massey": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 4.5
     },
     "cbbd": {
      "n": 0,
@@ -249,8 +363,8 @@
     }
    },
    "tot": {
-    "n": 0,
-    "avg": 0.0
+    "n": 1,
+    "avg": 144.0
    },
    "weights": {
     "torvik": 0.167,
@@ -263,8 +377,8 @@
    "basis": "default",
    "bench": {
     "market": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 11.5
     }
    },
    "tweights": {
@@ -7586,52 +7700,6 @@
     "market": 36.5
    },
    {
-    "id": "2026-11-05-cal-poly-arizona",
-    "away": "Cal Poly",
-    "home": "Arizona",
-    "neutral": false,
-    "margin": 28.24,
-    "p_home": 0.9901,
-    "total": 170.8,
-    "pick": "Arizona",
-    "hammer": null,
-    "sources": {
-     "hasla": 31.38,
-     "espn": 24.69,
-     "dratings": 22.4,
-     "massey": 34.5
-    },
-    "src_totals": {
-     "hasla": 173.3,
-     "dratings": 173.6,
-     "massey": 165.5
-    },
-    "market": 30.5
-   },
-   {
-    "id": "2026-11-05-penn-illinois",
-    "away": "Penn",
-    "home": "Illinois",
-    "neutral": false,
-    "margin": 26.76,
-    "p_home": 0.9893,
-    "total": 158.4,
-    "pick": "Illinois",
-    "hammer": null,
-    "sources": {
-     "hasla": 28.2,
-     "espn": 21.93,
-     "dratings": 25.4,
-     "massey": 31.5
-    },
-    "src_totals": {
-     "hasla": 156.4,
-     "dratings": 164.4,
-     "massey": 154.5
-    },
-    "market": 30.5
-   },
-   {
     "id": "2026-11-05-bellarmine-indiana",
     "away": "Bellarmine",
     "home": "Indiana",
@@ -7674,29 +7742,6 @@
      "hasla": 159.6,
      "dratings": 153.1,
      "massey": 152.5
-    },
-    "market": 29.5
-   },
-   {
-    "id": "2026-11-05-bethune-cookman-texas-tech",
-    "away": "Bethune Cookman",
-    "home": "Texas Tech",
-    "neutral": false,
-    "margin": 25.82,
-    "p_home": 0.9844,
-    "total": 150.2,
-    "pick": "Texas Tech",
-    "hammer": null,
-    "sources": {
-     "hasla": 26.29,
-     "espn": 24.69,
-     "dratings": 19.8,
-     "massey": 32.5
-    },
-    "src_totals": {
-     "hasla": 154.2,
-     "dratings": 146.8,
-     "massey": 149.5
     },
     "market": 29.5
    },
@@ -8115,29 +8160,6 @@
     "market": 11.5
    },
    {
-    "id": "2026-11-05-towson-utah",
-    "away": "Towson",
-    "home": "Utah",
-    "neutral": false,
-    "margin": 9.74,
-    "p_home": 0.8086,
-    "total": 141.9,
-    "pick": "Utah",
-    "hammer": null,
-    "sources": {
-     "hasla": 8.26,
-     "espn": 11.4,
-     "dratings": 8.8,
-     "massey": 10.5
-    },
-    "src_totals": {
-     "hasla": 141.5,
-     "dratings": 141.8,
-     "massey": 142.5
-    },
-    "market": 8.5
-   },
-   {
     "id": "2026-11-05-binghamton-saint-peter-s",
     "away": "Binghamton",
     "home": "Saint Peter's",
@@ -8322,29 +8344,6 @@
     "market": 4.5
    },
    {
-    "id": "2026-11-05-south-florida-depaul",
-    "away": "South Florida",
-    "home": "DePaul",
-    "neutral": false,
-    "margin": 3.38,
-    "p_home": 0.6181,
-    "total": 151.5,
-    "pick": "DePaul",
-    "hammer": null,
-    "sources": {
-     "hasla": 1.5,
-     "espn": 5.22,
-     "dratings": 5.3,
-     "massey": 1.5
-    },
-    "src_totals": {
-     "hasla": 151.4,
-     "dratings": 151.5,
-     "massey": 151.5
-    },
-    "market": 6.5
-   },
-   {
     "id": "2026-11-05-albany-manhattan",
     "away": "Albany",
     "home": "Manhattan",
@@ -8437,29 +8436,6 @@
     "market": -1.5
    },
    {
-    "id": "2026-11-05-mcneese-north-texas",
-    "away": "McNeese",
-    "home": "North Texas",
-    "neutral": false,
-    "margin": 1.55,
-    "p_home": 0.5544,
-    "total": 143.4,
-    "pick": "North Texas",
-    "hammer": null,
-    "sources": {
-     "hasla": -0.55,
-     "espn": 4.15,
-     "dratings": -0.9,
-     "massey": 3.5
-    },
-    "src_totals": {
-     "hasla": 143.7,
-     "dratings": 147.1,
-     "massey": 139.5
-    },
-    "market": -1.5
-   },
-   {
     "id": "2026-11-05-jacksonville-st-south-alabama",
     "away": "Jacksonville St.",
     "home": "South Alabama",
@@ -8504,10 +8480,133 @@
      "massey": 142.5
     },
     "market": -1.5
+   },
+   {
+    "id": "2026-11-05-cal-poly-arizona",
+    "away": "Cal Poly",
+    "home": "Arizona",
+    "neutral": false,
+    "margin": 28.24,
+    "p_home": 0.9901,
+    "total": 170.8,
+    "pick": "Arizona",
+    "hammer": null,
+    "sources": {
+     "hasla": 31.38,
+     "espn": 24.69,
+     "dratings": 22.4,
+     "massey": 34.5
+    },
+    "src_totals": {
+     "hasla": 173.3,
+     "dratings": 173.6,
+     "massey": 165.5
+    },
+    "market": 30.5
+   },
+   {
+    "id": "2026-11-05-penn-illinois",
+    "away": "Penn",
+    "home": "Illinois",
+    "neutral": false,
+    "margin": 26.76,
+    "p_home": 0.9893,
+    "total": 158.4,
+    "pick": "Illinois",
+    "hammer": null,
+    "sources": {
+     "hasla": 28.2,
+     "espn": 21.93,
+     "dratings": 25.4,
+     "massey": 31.5
+    },
+    "src_totals": {
+     "hasla": 156.4,
+     "dratings": 164.4,
+     "massey": 154.5
+    },
+    "market": 30.5
+   },
+   {
+    "id": "2026-11-05-bethune-cookman-texas-tech",
+    "away": "Bethune Cookman",
+    "home": "Texas Tech",
+    "neutral": false,
+    "margin": 25.82,
+    "p_home": 0.9844,
+    "total": 150.2,
+    "pick": "Texas Tech",
+    "hammer": null,
+    "sources": {
+     "hasla": 26.29,
+     "espn": 24.69,
+     "dratings": 19.8,
+     "massey": 32.5
+    },
+    "src_totals": {
+     "hasla": 154.2,
+     "dratings": 146.8,
+     "massey": 149.5
+    },
+    "market": 29.5
+   },
+   {
+    "id": "2026-11-05-towson-utah",
+    "away": "Towson",
+    "home": "Utah",
+    "neutral": false,
+    "margin": 9.74,
+    "p_home": 0.8086,
+    "total": 141.9,
+    "pick": "Utah",
+    "hammer": null,
+    "sources": {
+     "hasla": 8.26,
+     "espn": 11.4,
+     "dratings": 8.8,
+     "massey": 10.5
+    },
+    "src_totals": {
+     "hasla": 141.5,
+     "dratings": 141.8,
+     "massey": 142.5
+    },
+    "market": 8.5
+   },
+   {
+    "id": "2026-11-05-south-florida-depaul",
+    "away": "South Florida",
+    "home": "DePaul",
+    "neutral": false,
+    "margin": 3.38,
+    "p_home": 0.6181,
+    "total": 151.5,
+    "pick": "DePaul",
+    "hammer": null,
+    "sources": {
+     "hasla": 1.5,
+     "espn": 5.22,
+     "dratings": 5.3,
+     "massey": 1.5
+    },
+    "src_totals": {
+     "hasla": 151.4,
+     "dratings": 151.5,
+     "massey": 151.5
+    },
+    "market": 6.5
    }
   ]
  },
- "history": [],
+ "history": [
+  {
+   "date": "2026-11-05",
+   "graded": 1,
+   "w": 1,
+   "l": 0,
+   "mae": 8.45
+  }
+ ],
  "log": [],
  "reset": {
   "date": "2026-11-05",
