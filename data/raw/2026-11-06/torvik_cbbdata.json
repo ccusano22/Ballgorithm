@@ -1,1018 +1,66 @@
 [
  {
-  "espn_id": "401909552",
-  "home": "Boston College",
-  "away": "Massachusetts",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Boston College",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Massachusetts",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401920423",
-  "home": "Virginia",
-  "away": "Northeastern",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Virginia",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Northeastern",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401922248",
-  "home": "FIU",
-  "away": "West Florida",
-  "status": 200,
-  "rows": [
-   {
-    "team": "FIU",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": 100,
-    "did_win": true
-   },
-   {
-    "team": "West Florida",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": 0,
-    "did_win": false
-   }
-  ]
- },
- {
-  "espn_id": "401909751",
-  "home": "Baylor",
-  "away": "Arkansas Pine Bluff",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Baylor",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Arkansas Pine Bluff",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401920717",
-  "home": "Oregon",
-  "away": "Eastern Washington",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Oregon",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Eastern Washington",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401926131",
-  "home": "Purdue",
-  "away": "Valparaiso",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Purdue",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Valparaiso",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401922059",
-  "home": "USC Upstate",
-  "away": "South Carolina St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "USC Upstate",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "South Carolina St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401916314",
-  "home": "Ohio St.",
-  "away": "Youngstown St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Ohio St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Youngstown St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401921802",
-  "home": "Kentucky",
-  "away": "James Madison",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Kentucky",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "James Madison",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401926135",
-  "home": "Rutgers",
-  "away": "New Haven",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Rutgers",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": 100,
-    "did_win": true
-   },
-   {
-    "team": "New Haven",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": 0,
-    "did_win": false
-   }
-  ]
- },
- {
-  "espn_id": "401921767",
-  "home": "West Virginia",
-  "away": "Stetson",
-  "status": 200,
-  "rows": [
-   {
-    "team": "West Virginia",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Stetson",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401921754",
-  "home": "UCF",
-  "away": "Yale",
-  "status": 200,
-  "rows": [
-   {
-    "team": "UCF",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Yale",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401921285",
-  "home": "Villanova",
-  "away": "Holy Cross",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Villanova",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Holy Cross",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401921166",
-  "home": "Cleveland St.",
-  "away": "Michigan",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Cleveland St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Michigan",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401921140",
-  "home": "Elon",
-  "away": "UNC Greensboro",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Elon",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "UNC Greensboro",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401920920",
-  "home": "Mount St. Mary's",
-  "away": "Loyola MD",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Mount St. Mary's",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Loyola MD",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401920305",
-  "home": "Georgia Tech",
-  "away": "Georgia Southern",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Georgia Tech",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Georgia Southern",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401920072",
-  "home": "George Mason",
-  "away": "Coppin St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "George Mason",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Coppin St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401918956",
-  "home": "N.C. State",
-  "away": "East Tennessee St.",
-  "status": 500,
-  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
- },
- {
-  "espn_id": "401917949",
-  "home": "Kennesaw St.",
-  "away": "Austin Peay",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Kennesaw St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Austin Peay",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401913100",
-  "home": "North Carolina",
-  "away": "Wofford",
-  "status": 200,
-  "rows": [
-   {
-    "team": "North Carolina",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Wofford",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401912208",
-  "home": "Clemson",
-  "away": "American",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Clemson",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "American",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401911305",
-  "home": "Brown",
-  "away": "Boston University",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Brown",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Boston University",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401911249",
-  "home": "Missouri",
-  "away": "Saint Louis",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Missouri",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Saint Louis",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401911005",
-  "home": "Ball St.",
-  "away": "Indiana St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Ball St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Indiana St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401909695",
-  "home": "Florida St.",
-  "away": "Troy",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Florida St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Troy",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401909542",
-  "home": "Xavier",
-  "away": "Eastern Michigan",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Xavier",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Eastern Michigan",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
-  "espn_id": "401906780",
-  "home": "Georgia",
-  "away": "Presbyterian",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Georgia",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Presbyterian",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
- },
- {
   "espn_id": "401906758",
   "home": "Alabama",
   "away": "Arkansas St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Alabama",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Arkansas St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401925089",
   "home": "Stephen F. Austin",
   "away": "Texas",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Stephen F. Austin",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Texas",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401923260",
   "home": "Wright St.",
   "away": "Florida Atlantic",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Wright St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Florida Atlantic",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401920894",
   "home": "Wisconsin",
   "away": "Delaware",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Wisconsin",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Delaware",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401919015",
   "home": "UAB",
   "away": "Nicholls",
-  "status": 200,
-  "rows": [
-   {
-    "team": "UAB",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Nicholls St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401920685",
   "home": "Michigan",
   "away": "Connecticut",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Michigan",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Connecticut",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401909772",
   "home": "Iowa St.",
   "away": "Southern Miss",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Iowa St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Southern Miss",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401928823",
   "home": "Illinois Chicago",
   "away": "Robert Morris",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Illinois Chicago",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Robert Morris",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401925641",
   "home": "Alabama A&M",
   "away": "Mississippi",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Alabama A&M",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Mississippi",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401925097",
@@ -1025,141 +73,36 @@
   "espn_id": "401921809",
   "home": "LSU",
   "away": "Texas Southern",
-  "status": 200,
-  "rows": [
-   {
-    "team": "LSU",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Texas Southern",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401920807",
   "home": "Texas A&M",
   "away": "Northern Kentucky",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Texas A&M",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Northern Kentucky",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401920733",
   "home": "Northwestern",
   "away": "Stony Brook",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Northwestern",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Stony Brook",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401919048",
   "home": "TCU",
   "away": "Southern",
-  "status": 200,
-  "rows": [
-   {
-    "team": "TCU",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Southern",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401916304",
   "home": "Minnesota",
   "away": "St. Thomas",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Minnesota",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "St. Thomas",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401909523",
@@ -1172,309 +115,78 @@
   "espn_id": "401906802",
   "home": "Oklahoma",
   "away": "Mississippi Valley St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Oklahoma",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Mississippi Valley St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401922021",
   "home": "Wyoming",
   "away": "Idaho St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Wyoming",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Idaho St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401920952",
   "home": "Kansas City",
   "away": "Southern Illinois",
-  "status": 200,
-  "rows": [
-   {
-    "team": "UMKC",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Southern Illinois",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401920726",
   "home": "Iowa",
   "away": "Eastern Illinois",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Iowa",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Eastern Illinois",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401917914",
   "home": "Mississippi",
   "away": "Central Arkansas",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Mississippi",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Central Arkansas",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401921719",
   "home": "Miami FL",
   "away": "Wagner",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Miami FL",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Wagner",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401909785",
   "home": "Kansas",
   "away": "Middle Tennessee",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Kansas",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Middle Tennessee",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401921739",
   "home": "BYU",
   "away": "Nebraska Omaha",
-  "status": 200,
-  "rows": [
-   {
-    "team": "BYU",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Nebraska Omaha",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401922261",
   "home": "Colorado St.",
   "away": "Idaho",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Colorado St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Idaho",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401921732",
   "home": "Arizona St.",
   "away": "Northern Colorado",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Arizona St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Northern Colorado",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401919040",
   "home": "Oklahoma St.",
   "away": "Queens",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Oklahoma St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Queens",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401909797",
@@ -1508,168 +220,42 @@
   "espn_id": "401929356",
   "home": "Portland",
   "away": "UT Arlington",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Portland",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "UT Arlington",
-    "date": "20261106",
-    "location": "N",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401920344",
   "home": "Oregon St.",
   "away": "California",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Oregon St.",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "California",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401917515",
   "home": "San Diego",
   "away": "Tarleton St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "San Diego",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Tarleton St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401921727",
   "home": "Stanford",
   "away": "Oakland",
-  "status": 200,
-  "rows": [
-   {
-    "team": "Stanford",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "Oakland",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401921061",
   "home": "San Francisco",
   "away": "North Dakota St.",
-  "status": 200,
-  "rows": [
-   {
-    "team": "San Francisco",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "North Dakota St.",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  },
  {
   "espn_id": "401922219",
   "home": "UCLA",
   "away": "North Florida",
-  "status": 200,
-  "rows": [
-   {
-    "team": "UCLA",
-    "date": "20261106",
-    "location": "H",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": false
-   },
-   {
-    "team": "North Florida",
-    "date": "20261106",
-    "location": "A",
-    "tempo": null,
-    "ppp": null,
-    "pts": null,
-    "win_per": null,
-    "did_win": true
-   }
-  ]
+  "status": 500,
+  "rows": "<!doctype html>\n<html lang=en>\n<title>500 Internal Server Error</title>\n<h1>Internal Server Error</h1>\n<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>\n"
  }
 ]
