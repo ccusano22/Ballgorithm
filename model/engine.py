@@ -28,6 +28,7 @@ CAP_LO, CAP_HI = 0.10, 0.45                       # instructions: each source 10
 SHIFT_REPORT = 0.05                               # provisional: report a weight move of 5+ points
 LOCK = 0.90                                       # instructions: lock at >=90% win probability
 TOTAL_LEAN = 6.0                                  # instructions: total lean trigger
+HAMMER_MAX_SPREAD = 20.0                          # Nov 7: no Hammer on DK spreads above 20 (early-season mismatches went 0-2)
 # Tier cutoffs are PROVISIONAL until ~200 graded games let us set them from data.
 # Disagreement is measured as the spread of each source's implied win chance, so a 40-point favorite isn't
 # flagged because sources differ by 4 points on the margin. 0.07 / 0.14 match 2 / 4 points near a coin flip.
@@ -69,7 +70,7 @@ def new_state(season, artifact_url=None):
         "artifact_url": artifact_url,
         "constants": {"MAE_PRIOR": MAE_PRIOR, "SIGMA0": SIGMA0, "K_SHRINK": K_SHRINK, "MIN_TEAM_GAMES": MIN_TEAM_GAMES,
                        "GROUP_MIN": GROUP_MIN, "CAP": [CAP_LO, CAP_HI], "SHIFT_REPORT": SHIFT_REPORT, "LOCK": LOCK,
-                       "TOTAL_LEAN": TOTAL_LEAN, "TIER": TIER},
+                       "TOTAL_LEAN": TOTAL_LEAN, "TIER": TIER, "HAMMER_MAX_SPREAD": HAMMER_MAX_SPREAD},
         "records": {"su": {"w": 0, "l": 0}, "hammer": {"w": 0, "l": 0, "p": 0, "since": None}},
         "model": {"n": 0, "mae": 0.0, "brier_sum": 0.0, "correct": 0, "sigma": SIGMA0,
                   "tot_n": 0, "tot_mae": 0.0},
@@ -311,12 +312,12 @@ def predict_game(state, g):
 
 
 def hammer_candidates(preds):
-    """For every game with a DraftKings spread: which side our blend likes, how many sources agree, and the
+    """For every game with a DraftKings spread of HAMMER_MAX_SPREAD or less: which side our blend likes, how many sources agree, and the
     chance that side covers (normal model, blended margin and SD)."""
     out = []
     for p in preds:
         mk = p.get("market") or {}
-        if mk.get("spread_home") is None:
+        if mk.get("spread_home") is None or abs(mk["spread_home"]) > HAMMER_MAX_SPREAD:
             continue
         line_home = -mk["spread_home"]                       # DK's expected home margin
         edge = p["blend"]["margin"] - line_home

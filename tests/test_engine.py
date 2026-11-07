@@ -50,4 +50,10 @@ print("model", s["model"]["n"], round(s["model"]["mae"], 2), s["model"]["sigma"]
 print("shifts logged", len(s["log"]), "| market bench", s["bench"]["market"])
 assert E.result_label(7, 6.6).startswith("Won by 7, on our") and E.result_label(-3, 6.6) == "Lost by 3"
 assert s["records"]["hammer"]["w"] + s["records"]["hammer"]["l"] + s["records"]["hammer"]["p"] == 40, s["records"]["hammer"]
+# Hammer skips games with a DraftKings spread above HAMMER_MAX_SPREAD
+def _p(gid, sh, blend):
+    return {"id": gid, "home": "H"+gid, "away": "A"+gid, "market": {"spread_home": sh}, "blend": {"margin": blend, "sd": 10},
+            "sources": {"hasla": {"margin": blend}, "espn": {"margin": blend}, "massey": {"margin": blend}}}
+c = E.hammer_candidates([_p("big", -37.5, 27.0), _p("ok", -6.5, 12.0), _p("edge", 20.0, -14.0)])
+assert sorted(x["id"] for x in c) == ["edge", "ok"], c
 print("all checks pass")
