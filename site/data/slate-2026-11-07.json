@@ -2,6 +2,7 @@
  "date": "2026-11-07",
  "generated_at": "2026-11-07T18:42:35-05:00",
  "notes": [
+  "GRADED: 25-6 picking winners (81%), average margin miss 7.3. Hammer Morehead St. +37.5: loss.",
   "31 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 0, ESPN 0, DRatings 0, Massey 0, CBBD 0, DraftKings lines 0.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
@@ -127,7 +128,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null,
+   "result": {
+    "label": "Won by 50, 22.3 better our number",
+    "tags": [],
+    "score": [
+     57,
+     107
+    ],
+    "model_err": 22.33,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 20.17,
+     "espn": 26.49,
+     "dratings": 19.7,
+     "massey": 23.5
+    },
+    "src_tot_err": {
+     "hasla": 10.4,
+     "dratings": 11.5,
+     "massey": 15.5
+    },
+    "won": true,
+    "hammer": "loss",
+    "total_err": 12.5
+   },
    "hammer": {
     "id": "2026-11-07-morehead-st-louisville",
     "team": "Morehead St.",
@@ -259,7 +283,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 41, 17.6 better our number",
+    "tags": [],
+    "score": [
+     68,
+     109
+    ],
+    "model_err": 17.59,
+    "src_err": {
+     "market": 11.5,
+     "hasla": 17.71,
+     "espn": 18.66,
+     "dratings": 17.5,
+     "massey": 16.5
+    },
+    "src_tot_err": {
+     "hasla": 23.3,
+     "dratings": 25.7,
+     "massey": 28.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 25.9
+   }
   },
   {
    "id": "2026-11-07-northern-arizona-new-mexico",
@@ -377,7 +424,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 29, 6.8 better our number",
+    "tags": [],
+    "score": [
+     65,
+     94
+    ],
+    "model_err": 6.82,
+    "src_err": {
+     "market": 1.5,
+     "espn": 9.32,
+     "dratings": 4.8,
+     "massey": 6.5
+    },
+    "src_tot_err": {
+     "dratings": 3.6,
+     "massey": 8.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.0
+   }
   },
   {
    "id": "2026-11-07-nebraska-omaha-utah-st",
@@ -497,7 +565,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 34, 12.7 better our number",
+    "tags": [],
+    "score": [
+     56,
+     90
+    ],
+    "model_err": 12.73,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 13.46,
+     "espn": 13.76,
+     "dratings": 11.0
+    },
+    "src_tot_err": {
+     "hasla": 9.5,
+     "dratings": 7.2
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.3
+   }
   },
   {
    "id": "2026-11-07-lafayette-saint-joseph-s",
@@ -618,7 +707,32 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 10, 6.9 short of our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     57,
+     67
+    ],
+    "model_err": 6.94,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 9.25,
+     "espn": 5.36,
+     "dratings": 5.4,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 29.0,
+     "dratings": 22.4,
+     "massey": 20.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 23.8
+   }
   },
   {
    "id": "2026-11-07-hampton-george-washington",
@@ -736,7 +850,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 14, 2.3 short of our number",
+    "tags": [],
+    "score": [
+     61,
+     75
+    ],
+    "model_err": 2.29,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 4.93,
+     "espn": 1.51,
+     "dratings": 0.2
+    },
+    "src_tot_err": {
+     "hasla": 13.1,
+     "dratings": 9.6
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 11.2
+   }
   },
   {
    "id": "2026-11-07-bellarmine-miami-oh",
@@ -856,7 +991,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 7, 9.1 short of our number",
+    "tags": [],
+    "score": [
+     73,
+     80
+    ],
+    "model_err": 9.05,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 12.44,
+     "espn": 8.73,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 6.9,
+     "massey": 8.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 7.7
+   }
   },
   {
    "id": "2026-11-07-prairie-view-a-m-ut-rio-grande-valley",
@@ -971,7 +1127,26 @@
    },
    "tier": "Strong",
    "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 5, 6.9 short of our number",
+    "tags": [],
+    "score": [
+     63,
+     68
+    ],
+    "model_err": 6.86,
+    "src_err": {
+     "market": 3.5,
+     "espn": 6.21,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "massey": 19.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 19.5
+   }
   },
   {
    "id": "2026-11-07-samford-unlv",
@@ -1092,7 +1267,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 9, 2.3 short of our number",
+    "tags": [],
+    "score": [
+     79,
+     88
+    ],
+    "model_err": 2.31,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 3.74,
+     "espn": 2.93,
+     "dratings": 1.9,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 3.5,
+     "dratings": 8.7,
+     "massey": 11.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.1
+   }
   },
   {
    "id": "2026-11-07-north-carolina-a-t-ohio",
@@ -1210,7 +1408,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 10, 0.8 short of our number",
+    "tags": [],
+    "score": [
+     70,
+     80
+    ],
+    "model_err": 0.85,
+    "src_err": {
+     "market": 4.5,
+     "espn": 2.81,
+     "dratings": 0.3,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "dratings": 10.5,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.1
+   }
   },
   {
    "id": "2026-11-07-north-carolina-central-longwood",
@@ -1331,7 +1550,32 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 5, 4.9 short of our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     75,
+     80
+    ],
+    "model_err": 4.87,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 5.95,
+     "espn": 4.53,
+     "dratings": 5.3,
+     "massey": 3.5
+    },
+    "src_tot_err": {
+     "hasla": 2.0,
+     "dratings": 7.7,
+     "massey": 3.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.5
+   }
   },
   {
    "id": "2026-11-07-long-beach-st-montana-st",
@@ -1452,7 +1696,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
+   "result": {
+    "label": "Won by 13, 3.7 better our number",
+    "tags": [],
+    "score": [
+     70,
+     83
+    ],
+    "model_err": 3.69,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 1.36,
+     "espn": 2.29,
+     "dratings": 3.9,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 0.5,
+     "dratings": 5.9,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.8
+   }
   },
   {
    "id": "2026-11-07-north-dakota-winthrop",
@@ -1573,7 +1840,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Lost by 3",
+    "tags": [],
+    "score": [
+     93,
+     90
+    ],
+    "model_err": 12.13,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 14.83,
+     "espn": 12.25,
+     "dratings": 11.6,
+     "massey": 9.5
+    },
+    "src_tot_err": {
+     "hasla": 21.4,
+     "dratings": 22.2,
+     "massey": 24.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 22.7
+   }
   },
   {
    "id": "2026-11-07-vmi-utsa",
@@ -1696,7 +1986,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 2, 6.3 short of our number",
+    "tags": [],
+    "score": [
+     68,
+     70
+    ],
+    "model_err": 6.33,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 8.07,
+     "espn": 5.87,
+     "dratings": 3.8,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 20.9,
+     "dratings": 23.8,
+     "massey": 14.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 19.8
+   }
   },
   {
    "id": "2026-11-07-washington-st-high-point",
@@ -1817,7 +2130,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±14%)",
-   "result": null
+   "result": {
+    "label": "Won by 12, 2.2 better our number",
+    "tags": [],
+    "score": [
+     71,
+     83
+    ],
+    "model_err": 2.15,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 1.51,
+     "espn": 3.36,
+     "dratings": 3.3,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "hasla": 4.0,
+     "dratings": 1.9,
+     "massey": 0.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 0.4
+   }
   },
   {
    "id": "2026-11-07-oakland-uc-santa-barbara",
@@ -1937,7 +2273,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 23, 15.4 better our number",
+    "tags": [],
+    "score": [
+     67,
+     90
+    ],
+    "model_err": 15.44,
+    "src_err": {
+     "market": 9.5,
+     "espn": 15.41,
+     "dratings": 12.6,
+     "massey": 18.5
+    },
+    "src_tot_err": {
+     "dratings": 4.6,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.6
+   }
   },
   {
    "id": "2026-11-07-siue-lipscomb",
@@ -2058,7 +2415,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 1, 6.0 short of our number",
+    "tags": [],
+    "score": [
+     77,
+     78
+    ],
+    "model_err": 5.95,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 5.18,
+     "espn": 7.41,
+     "dratings": 4.9,
+     "massey": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 5.0,
+     "dratings": 11.9,
+     "massey": 10.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.3
+   }
   },
   {
    "id": "2026-11-07-liu-la-salle",
@@ -2181,7 +2561,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 8, 1.2 better our number",
+    "tags": [],
+    "score": [
+     80,
+     88
+    ],
+    "model_err": 1.16,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 0.5,
+     "espn": 0.62,
+     "dratings": 3.0,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 17.5,
+     "dratings": 23.8,
+     "massey": 26.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.8
+   }
   },
   {
    "id": "2026-11-07-monmouth-rhode-island",
@@ -2296,7 +2699,26 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 18, 12.7 better our number",
+    "tags": [],
+    "score": [
+     66,
+     84
+    ],
+    "model_err": 12.72,
+    "src_err": {
+     "market": 11.5,
+     "espn": 13.18,
+     "dratings": 12.3
+    },
+    "src_tot_err": {
+     "dratings": 5.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.3
+   }
   },
   {
    "id": "2026-11-07-morgan-st-niagara",
@@ -2417,7 +2839,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 6",
+    "tags": [],
+    "score": [
+     73,
+     67
+    ],
+    "model_err": 9.66,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 8.79,
+     "espn": 9.77,
+     "dratings": 9.7,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "hasla": 12.6,
+     "dratings": 5.9,
+     "massey": 8.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 8.8
+   }
   },
   {
    "id": "2026-11-07-old-dominion-bucknell",
@@ -2538,7 +2983,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 20, 16.9 better our number",
+    "tags": [],
+    "score": [
+     82,
+     62
+    ],
+    "model_err": 16.93,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 18.04,
+     "espn": 16.93,
+     "dratings": 15.2,
+     "massey": 17.5
+    },
+    "src_tot_err": {
+     "hasla": 8.7,
+     "dratings": 0.0,
+     "massey": 2.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.5
+   }
   },
   {
    "id": "2026-11-07-tennessee-martin-iu-indy",
@@ -2653,7 +3121,26 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 1",
+    "tags": [],
+    "score": [
+     74,
+     75
+    ],
+    "model_err": 3.31,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 3.31,
+     "espn": 3.32
+    },
+    "src_tot_err": {
+     "hasla": 12.1
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 12.1
+   }
   },
   {
    "id": "2026-11-07-colgate-drexel",
@@ -2774,7 +3261,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 3, 0.8 better our number",
+    "tags": [],
+    "score": [
+     74,
+     77
+    ],
+    "model_err": 0.81,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 1.44,
+     "espn": 3.0,
+     "dratings": 0.3,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 4.4,
+     "dratings": 6.9,
+     "massey": 6.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.0
+   }
   },
   {
    "id": "2026-11-07-northern-iowa-furman",
@@ -2895,7 +3405,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±12%)",
-   "result": null
+   "result": {
+    "label": "Won by 15, 12.9 better our number",
+    "tags": [],
+    "score": [
+     83,
+     98
+    ],
+    "model_err": 12.95,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 13.79,
+     "espn": 7.06,
+     "dratings": 13.2,
+     "massey": 17.5
+    },
+    "src_tot_err": {
+     "hasla": 39.2,
+     "dratings": 35.8,
+     "massey": 38.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 37.7
+   }
   },
   {
    "id": "2026-11-07-toledo-marshall",
@@ -3018,7 +3551,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 5",
+    "tags": [],
+    "score": [
+     81,
+     76
+    ],
+    "model_err": 6.93,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 6.6,
+     "espn": 7.15,
+     "dratings": 7.5,
+     "massey": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 4.1,
+     "dratings": 2.3,
+     "massey": 1.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 2.6
+   }
   },
   {
    "id": "2026-11-07-unc-wilmington-east-carolina",
@@ -3139,7 +3695,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 3, 1.4 better our number",
+    "tags": [],
+    "score": [
+     78,
+     75
+    ],
+    "model_err": 1.38,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 0.77,
+     "espn": 3.42,
+     "dratings": 0.9,
+     "massey": 2.5
+    },
+    "src_tot_err": {
+     "hasla": 0.5,
+     "dratings": 4.7,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.4
+   }
   },
   {
    "id": "2026-11-07-lamar-abilene-christian",
@@ -3257,7 +3836,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 2, on our number",
+    "tags": [],
+    "score": [
+     81,
+     83
+    ],
+    "model_err": 0.45,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 2.12,
+     "espn": 0.44,
+     "dratings": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 15.9,
+     "dratings": 9.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.3
+   }
   },
   {
    "id": "2026-11-07-san-diego-st-colorado",
@@ -3375,7 +3975,28 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Won by 11, 10.2 better our number",
+    "tags": [],
+    "score": [
+     77,
+     66
+    ],
+    "model_err": 10.22,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 8.92,
+     "espn": 13.38,
+     "dratings": 8.7
+    },
+    "src_tot_err": {
+     "hasla": 16.3,
+     "dratings": 11.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.7
+   }
   },
   {
    "id": "2026-11-07-cal-st-fullerton-south-dakota",
@@ -3493,7 +4114,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 2",
+    "tags": [],
+    "score": [
+     87,
+     85
+    ],
+    "model_err": 2.75,
+    "src_err": {
+     "market": 3.5,
+     "espn": 3.98,
+     "dratings": 2.8,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "dratings": 2.6,
+     "massey": 8.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 2.8
+   }
   },
   {
    "id": "2026-11-07-vcu-memphis",
@@ -3614,7 +4256,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 1",
+    "tags": [],
+    "score": [
+     88,
+     89
+    ],
+    "model_err": 1.34,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 1.92,
+     "espn": 0.19,
+     "dratings": 3.5,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 16.5,
+     "dratings": 18.9,
+     "massey": 26.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 20.8
+   }
   },
   {
    "id": "2026-11-07-western-carolina-unc-asheville",
@@ -3735,7 +4400,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 8, 7.8 better our number",
+    "tags": [],
+    "score": [
+     83,
+     75
+    ],
+    "model_err": 7.82,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 7.75,
+     "espn": 6.27,
+     "dratings": 6.8,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "hasla": 7.8,
+     "dratings": 6.4,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.5
+   }
   }
  ],
  "waiting": [],
@@ -3750,7 +4438,7 @@
   "agree": 4,
   "n": 4
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Abilene Christian Wildcats",
   "Albion Britons",
@@ -3874,5 +4562,5 @@
   "Western Illinois Leathernecks",
   "Winthrop Eagles"
  ],
- "abridged": "THE BALLGORITHM · NCAAM · Sat, Nov 7\n\nNOTES\n- 31 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 0, ESPN 0, DRatings 0, Massey 0, CBBD 0, DraftKings lines 0.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 121 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-2)\nMorehead St. +37.5 vs Louisville — our number Louisville −27.7, 4 of 4 sources on this side, 79% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nLouisville 99% · −27.7 ±12.0 vs Morehead St. · total 152\nGonzaga 98% · −23.4 ±11.7 vs New Mexico St. · total 151\nNew Mexico 97% · −22.2 ±11.8 vs Northern Arizona · total 153\nUtah St. 97% · −21.3 ±11.7 vs Nebraska Omaha · total 154\nSaint Joseph's 92% · −16.9 ±11.8 vs Lafayette · total 148\nGeorge Washington 92% · −16.3 ±11.8 vs Hampton · total 147\nMiami OH 91% · −16.1 ±12.0 vs Bellarmine · total 161\nUT Rio Grande Valley 85% · −11.9 ±11.7 vs Prairie View A&M · total 150\nUNLV 83% · −11.3 ±11.7 vs Samford · total 159\nOhio 82% · −10.8 ±11.7 vs North Carolina A&T · total 158\nLongwood 80% · −9.9 ±11.7 vs North Carolina Central · total 150\nMontana St. 78% · −9.3 ±11.9 vs Long Beach St. · total 149\nWinthrop 78% · −9.1 ±11.8 vs North Dakota · total 160\nUTSA 76% · −8.3 ±11.8 vs VMI · total 158\nMid\nHigh Point 78% · −9.8 ±12.8 vs Washington St. · total 154\nUC Santa Barbara 74% · −7.6 ±11.9 vs Oakland · total 152\nLipscomb 72% · −7.0 ±11.7 vs SIUE · total 146\nLa Salle 72% · −6.8 ±11.7 vs LIU · total 145\nRhode Island 67% · −5.3 ±11.7 vs Monmouth (N) · total 145\nNiagara 62% · −3.7 ±11.7 vs Morgan St. · total 149\nOld Dominion 60% · −3.1 ±11.7 vs Bucknell · total 148\nTennessee Martin 58% · −2.3 ±11.7 vs IU Indy · total 161\nDrexel 57% · −2.2 ±11.8 vs Colgate · total 145\nFurman 57% · −2.0 ±12.2 vs Northern Iowa · total 143\nMarshall 57% · −1.9 ±11.7 vs Toledo · total 160\nUNC Wilmington 55% · −1.6 ±11.8 vs East Carolina · total 150\nAbilene Christian 55% · −1.6 ±11.7 vs Lamar · total 152\nSan Diego St. 53% · −0.8 ±11.9 vs Colorado (N) · total 157\nSouth Dakota 53% · −0.8 ±11.7 vs Cal St. Fullerton · total 169\nVCU 51% · −0.3 ±11.8 vs Memphis · total 156\nWestern Carolina 51% · −0.2 ±11.8 vs UNC Asheville · total 152\nWeak — none"
+ "abridged": "THE BALLGORITHM · NCAAM · Sat, Nov 7\n\nNOTES\n- GRADED: 25-6 picking winners (81%), average margin miss 7.3. Hammer Morehead St. +37.5: loss.\n- 31 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 0, ESPN 0, DRatings 0, Massey 0, CBBD 0, DraftKings lines 0.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 121 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nRESULTS\nLouisville −27.7: Won by 50, 22.3 better our number (final Morehead St. 57, Louisville 107)\nGonzaga −23.4: Won by 41, 17.6 better our number (final New Mexico St. 68, Gonzaga 109)\nNew Mexico −22.2: Won by 29, 6.8 better our number (final Northern Arizona 65, New Mexico 94)\nUtah St. −21.3: Won by 34, 12.7 better our number (final Nebraska Omaha 56, Utah St. 90)\nSaint Joseph's −16.9: Won by 10, 6.9 short of our number (final Lafayette 57, Saint Joseph's 67)\nGeorge Washington −16.3: Won by 14, 2.3 short of our number (final Hampton 61, George Washington 75)\nMiami OH −16.1: Won by 7, 9.1 short of our number (final Bellarmine 73, Miami OH 80)\nUT Rio Grande Valley −11.9: Won by 5, 6.9 short of our number (final Prairie View A&M 63, UT Rio Grande Valley 68)\nUNLV −11.3: Won by 9, 2.3 short of our number (final Samford 79, UNLV 88)\nOhio −10.8: Won by 10, 0.8 short of our number (final North Carolina A&T 70, Ohio 80)\nLongwood −9.9: Won by 5, 4.9 short of our number (final North Carolina Central 75, Longwood 80)\nMontana St. −9.3: Won by 13, 3.7 better our number (final Long Beach St. 70, Montana St. 83)\nWinthrop −9.1: Lost by 3 (final North Dakota 93, Winthrop 90)\nUTSA −8.3: Won by 2, 6.3 short of our number (final VMI 68, UTSA 70)\nHigh Point −9.8: Won by 12, 2.2 better our number (final Washington St. 71, High Point 83)\nUC Santa Barbara −7.6: Won by 23, 15.4 better our number (final Oakland 67, UC Santa Barbara 90)\nLipscomb −7.0: Won by 1, 6.0 short of our number (final SIUE 77, Lipscomb 78)\nLa Salle −6.8: Won by 8, 1.2 better our number (final LIU 80, La Salle 88)\nRhode Island −5.3: Won by 18, 12.7 better our number (final Monmouth 66, Rhode Island 84)\nNiagara −3.7: Lost by 6 (final Morgan St. 73, Niagara 67)\nOld Dominion −3.1: Won by 20, 16.9 better our number (final Old Dominion 82, Bucknell 62)\nTennessee Martin −2.3: Lost by 1 (final Tennessee Martin 74, IU Indy 75)\nDrexel −2.2: Won by 3, 0.8 better our number (final Colgate 74, Drexel 77)\nFurman −2.0: Won by 15, 12.9 better our number (final Northern Iowa 83, Furman 98)\nMarshall −1.9: Lost by 5 (final Toledo 81, Marshall 76)\nUNC Wilmington −1.6: Won by 3, 1.4 better our number (final UNC Wilmington 78, East Carolina 75)\nAbilene Christian −1.6: Won by 2, on our number (final Lamar 81, Abilene Christian 83)\nSan Diego St. −0.8: Won by 11, 10.2 better our number (final San Diego St. 77, Colorado 66)\nSouth Dakota −0.8: Lost by 2 (final Cal St. Fullerton 87, South Dakota 85)\nVCU −0.3: Lost by 1 (final VCU 88, Memphis 89)\nWestern Carolina −0.2: Won by 8, 7.8 better our number (final Western Carolina 83, UNC Asheville 75)\n\nHAMMER OF THE DAY vs DraftKings (0-3)\nMorehead St. +37.5 vs Louisville — our number Louisville −27.7, 4 of 4 sources on this side, 79% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nLouisville 99% · −27.7 ±12.0 vs Morehead St. · total 152\nGonzaga 98% · −23.4 ±11.7 vs New Mexico St. · total 151\nNew Mexico 97% · −22.2 ±11.8 vs Northern Arizona · total 153\nUtah St. 97% · −21.3 ±11.7 vs Nebraska Omaha · total 154\nSaint Joseph's 92% · −16.9 ±11.8 vs Lafayette · total 148\nGeorge Washington 92% · −16.3 ±11.8 vs Hampton · total 147\nMiami OH 91% · −16.1 ±12.0 vs Bellarmine · total 161\nUT Rio Grande Valley 85% · −11.9 ±11.7 vs Prairie View A&M · total 150\nUNLV 83% · −11.3 ±11.7 vs Samford · total 159\nOhio 82% · −10.8 ±11.7 vs North Carolina A&T · total 158\nLongwood 80% · −9.9 ±11.7 vs North Carolina Central · total 150\nMontana St. 78% · −9.3 ±11.9 vs Long Beach St. · total 149\nWinthrop 78% · −9.1 ±11.8 vs North Dakota · total 160\nUTSA 76% · −8.3 ±11.8 vs VMI · total 158\nMid\nHigh Point 78% · −9.8 ±12.8 vs Washington St. · total 154\nUC Santa Barbara 74% · −7.6 ±11.9 vs Oakland · total 152\nLipscomb 72% · −7.0 ±11.7 vs SIUE · total 146\nLa Salle 72% · −6.8 ±11.7 vs LIU · total 145\nRhode Island 67% · −5.3 ±11.7 vs Monmouth (N) · total 145\nNiagara 62% · −3.7 ±11.7 vs Morgan St. · total 149\nOld Dominion 60% · −3.1 ±11.7 vs Bucknell · total 148\nTennessee Martin 58% · −2.3 ±11.7 vs IU Indy · total 161\nDrexel 57% · −2.2 ±11.8 vs Colgate · total 145\nFurman 57% · −2.0 ±12.2 vs Northern Iowa · total 143\nMarshall 57% · −1.9 ±11.7 vs Toledo · total 160\nUNC Wilmington 55% · −1.6 ±11.8 vs East Carolina · total 150\nAbilene Christian 55% · −1.6 ±11.7 vs Lamar · total 152\nSan Diego St. 53% · −0.8 ±11.9 vs Colorado (N) · total 157\nSouth Dakota 53% · −0.8 ±11.7 vs Cal St. Fullerton · total 169\nVCU 51% · −0.3 ±11.8 vs Memphis · total 156\nWestern Carolina 51% · −0.2 ±11.8 vs UNC Asheville · total 152\nWeak — none"
 }
