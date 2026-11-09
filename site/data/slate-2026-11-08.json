@@ -2,6 +2,7 @@
  "date": "2026-11-08",
  "generated_at": "2026-11-08T18:50:16-05:00",
  "notes": [
+  "GRADED: 17-12 picking winners (59%), average margin miss 9.9. Hammer Incarnate Word +12.5: loss.",
   "29 D1 games on the board (24 locked at tip). Coverage: Torvik 0, Haslametrics 5, ESPN 5, DRatings 5, Massey 2, CBBD 0, DraftKings lines 5.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
@@ -706,7 +707,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 31, 23.5 better our number",
+    "tags": [],
+    "score": [
+     73,
+     104
+    ],
+    "model_err": 23.54,
+    "src_err": {
+     "market": 21.5,
+     "hasla": 26.16,
+     "espn": 24.47,
+     "dratings": 20.1,
+     "massey": 23.5
+    },
+    "src_tot_err": {
+     "hasla": 11.8,
+     "dratings": 19.7,
+     "massey": 24.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 18.9
+   }
   },
   {
    "id": "2026-11-08-central-connecticut-dartmouth",
@@ -1417,7 +1441,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+   "result": {
+    "label": "Lost by 11",
+    "tags": [],
+    "score": [
+     80,
+     91
+    ],
+    "model_err": 16.0,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 16.23,
+     "espn": 12.25,
+     "dratings": 19.6,
+     "massey": 15.5
+    },
+    "src_tot_err": {
+     "hasla": 15.2,
+     "dratings": 13.6,
+     "massey": 18.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 15.7
+   }
   },
   {
    "id": "2026-11-08-manhattan-maine",
@@ -2415,7 +2462,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Lost by 1",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     95,
+     96
+    ],
+    "model_err": 2.85,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 1.7,
+     "espn": 0.11,
+     "dratings": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 45.1,
+     "dratings": 47.1
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 46.2
+   }
   },
   {
    "id": "2026-11-08-fairfield-bryant",
@@ -2681,7 +2751,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 26, 25.1 better our number",
+    "tags": [],
+    "score": [
+     79,
+     53
+    ],
+    "model_err": 25.07,
+    "src_err": {
+     "market": 24.5,
+     "hasla": 24.31,
+     "espn": 23.68,
+     "dratings": 27.1
+    },
+    "src_tot_err": {
+     "hasla": 19.4,
+     "dratings": 14.7
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 16.8
+   }
   },
   {
    "id": "2026-11-08-arkansas-virginia",
@@ -3532,7 +3623,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Won by 18, 2.0 better our number",
+    "tags": [],
+    "score": [
+     68,
+     86
+    ],
+    "model_err": 2.04,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 2.23,
+     "espn": 1.3,
+     "dratings": 7.0
+    },
+    "src_tot_err": {
+     "hasla": 9.4,
+     "dratings": 6.2
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 7.7
+   }
   },
   {
    "id": "2026-11-08-ut-arlington-hawaii",
@@ -3655,7 +3767,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
+   "result": {
+    "label": "Won by 9, on our number",
+    "tags": [],
+    "score": [
+     62,
+     71
+    ],
+    "model_err": 0.05,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 0.39,
+     "espn": 2.03,
+     "dratings": 1.6,
+     "massey": 3.5
+    },
+    "src_tot_err": {
+     "hasla": 15.3,
+     "dratings": 9.0,
+     "massey": 11.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 11.8
+   }
   },
   {
    "id": "2026-11-08-incarnate-word-utep",
@@ -3778,7 +3913,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null,
+   "result": {
+    "label": "Won by 19, 10.2 better our number",
+    "tags": [],
+    "score": [
+     60,
+     79
+    ],
+    "model_err": 10.2,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 7.51,
+     "espn": 8.29,
+     "dratings": 13.4,
+     "massey": 11.5
+    },
+    "src_tot_err": {
+     "hasla": 1.3,
+     "dratings": 4.6,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": "loss",
+    "total_err": 3.9
+   },
    "hammer": {
     "id": "2026-11-08-incarnate-word-utep",
     "team": "Incarnate Word",
@@ -3907,7 +4065,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 7, on our number",
+    "tags": [],
+    "score": [
+     86,
+     93
+    ],
+    "model_err": 0.23,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 0.37,
+     "espn": 0.34,
+     "dratings": 0.6
+    },
+    "src_tot_err": {
+     "hasla": 22.4,
+     "dratings": 22.8
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.6
+   }
   },
   {
    "id": "2026-11-08-pittsburgh-penn-st",
@@ -4029,7 +4208,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 6, 3.3 better our number",
+    "tags": [],
+    "score": [
+     82,
+     76
+    ],
+    "model_err": 3.29,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 3.87,
+     "espn": 3.87,
+     "dratings": 2.2
+    },
+    "src_tot_err": {
+     "hasla": 5.0,
+     "dratings": 11.0
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.2
+   }
   }
  ],
  "waiting": [],
@@ -4044,7 +4244,7 @@
   "agree": 4,
   "n": 4
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Allen Yellow Jackets",
   "Bethesda Flames",
@@ -4055,5 +4255,5 @@
   "Lincoln (CA) Oaklanders",
   "Ripon Red Hawks"
  ],
- "abridged": "THE BALLGORITHM · NCAAM · Sun, Nov 8\n\nNOTES\n- 29 D1 games on the board (24 locked at tip). Coverage: Torvik 0, Haslametrics 5, ESPN 5, DRatings 5, Massey 2, CBBD 0, DraftKings lines 5.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 8 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nRESULTS\nSt. John's −24.3: Won by 39, 14.7 better our number (final Iona 65, St. John's 104)\nSouth Carolina −16.6: Won by 10, 6.6 short of our number (final Southeast Missouri 68, South Carolina 78)\nDrake −13.2: Won by 7, 6.2 short of our number (final Southern 68, Drake 75)\nSt. Thomas −9.3: Lost by 9 (final Green Bay 76, St. Thomas 67)\nDartmouth −7.3: Lost by 7 (final Central Connecticut 78, Dartmouth 71)\nWestern Kentucky −6.9: Lost by 3 (final Western Kentucky 94, Tennessee Tech 97)\nBinghamton −6.0: Won by 12, 6.0 better our number (final Rider 63, Binghamton 75)\nVermont −5.0: Lost by 3 (final Quinnipiac 79, Vermont 76)\nMaine −4.8: Lost by 6 (final Manhattan 68, Maine 62)\nBoise St. −4.2: Won by 19, 14.8 better our number (final Butler 81, Boise St. 100)\nPrinceton −3.4: Lost by 14 (final Princeton 68, Siena 82)\nLehigh −3.2: Lost by 10 (final Brown 65, Lehigh 55)\nMerrimack −2.7: Won by 13, 10.3 better our number (final Merrimack 73, Albany 60)\nAir Force −2.4: Won by 7, 4.7 better our number (final Idaho St. 82, Air Force 89)\nFairfield −1.3: Won by 9, 7.7 better our number (final Fairfield 68, Bryant 59)\nVirginia −0.4: Won by 19, 18.6 better our number (final Arkansas 72, Virginia 91)\nNew Hampshire −0.3: Lost by 5 (final Sacred Heart 81, New Hampshire 76)\nWestern Michigan −4.7: Won by 16, 11.3 better our number (final Campbell 71, Western Michigan 87)\nSaint Peter's −2.3: Lost by 2 (final Saint Peter's 52, NJIT 54)\nMarist −0.3: Lost by 2 (final Marist 61, UMass Lowell 63)\n\nHAMMER OF THE DAY vs DraftKings (0-3)\nIncarnate Word +12.5 vs UTEP — our number UTEP −8.8, 4 of 4 sources on this side, 62% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nSt. John's 98% · −24.3 ±12.1 vs Iona · total 147\nSouth Carolina 92% · −16.6 ±11.7 vs Southeast Missouri · total 149\nDrake 87% · −13.2 ±11.6 vs Southern · total 152\nSt. Thomas 79% · −9.3 ±11.4 vs Green Bay · total 154\nHouston 91% · −16.0 ±12.1 vs California (N) · total 146\nHawaii 78% · −8.9 ±11.7 vs UT Arlington · total 145\nUTEP 77% · −8.8 ±11.7 vs Incarnate Word · total 143\nMid\nWilliam & Mary 74% · −7.5 ±11.5 vs Norfolk St. · total 158\nDartmouth 74% · −7.3 ±11.4 vs Central Connecticut · total 144\nWestern Kentucky 73% · −6.9 ±11.4 vs Tennessee Tech · total 156\nBinghamton 70% · −6.0 ±11.6 vs Rider · total 141\nVermont 67% · −5.0 ±11.6 vs Quinnipiac · total 142\nNorth Dakota St. 67% · −5.0 ±11.6 vs Cal St. Bakersfield · total 155\nMaine 66% · −4.8 ±11.7 vs Manhattan · total 141\nBoise St. 64% · −4.2 ±11.3 vs Butler · total 154\nPrinceton 61% · −3.4 ±11.8 vs Siena · total 139\nLehigh 61% · −3.2 ±11.6 vs Brown · total 140\nMerrimack 59% · −2.7 ±11.4 vs Albany · total 135\nAir Force 58% · −2.4 ±11.8 vs Idaho St. · total 148\nSaint Mary's 56% · −1.9 ±11.7 vs Nevada (N) · total 145\nFairfield 55% · −1.3 ±11.7 vs Bryant · total 144\nRichmond 53% · −0.9 ±11.4 vs Temple (N) · total 149\nVirginia 51% · −0.4 ±11.5 vs Arkansas (N) · total 162\nNew Hampshire 51% · −0.3 ±11.5 vs Sacred Heart · total 147\nUSC 74% · −7.2 ±11.4 vs Wichita St. (N) · total 156\nPittsburgh 59% · −2.7 ±11.5 vs Penn St. (N) · total 150\nWeak\nWestern Michigan 65% · −4.7 ±12.2 vs Campbell · total 151\nSaint Peter's 58% · −2.3 ±11.4 vs NJIT · total 135\nMarist 51% · −0.3 ±13.0 vs UMass Lowell · total 144"
+ "abridged": "THE BALLGORITHM · NCAAM · Sun, Nov 8\n\nNOTES\n- GRADED: 17-12 picking winners (59%), average margin miss 9.9. Hammer Incarnate Word +12.5: loss.\n- 29 D1 games on the board (24 locked at tip). Coverage: Torvik 0, Haslametrics 5, ESPN 5, DRatings 5, Massey 2, CBBD 0, DraftKings lines 5.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 8 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nRESULTS\nSt. John's −24.3: Won by 39, 14.7 better our number (final Iona 65, St. John's 104)\nSouth Carolina −16.6: Won by 10, 6.6 short of our number (final Southeast Missouri 68, South Carolina 78)\nDrake −13.2: Won by 7, 6.2 short of our number (final Southern 68, Drake 75)\nSt. Thomas −9.3: Lost by 9 (final Green Bay 76, St. Thomas 67)\nWilliam & Mary −7.5: Won by 31, 23.5 better our number (final Norfolk St. 73, William & Mary 104)\nDartmouth −7.3: Lost by 7 (final Central Connecticut 78, Dartmouth 71)\nWestern Kentucky −6.9: Lost by 3 (final Western Kentucky 94, Tennessee Tech 97)\nBinghamton −6.0: Won by 12, 6.0 better our number (final Rider 63, Binghamton 75)\nVermont −5.0: Lost by 3 (final Quinnipiac 79, Vermont 76)\nNorth Dakota St. −5.0: Lost by 11 (final North Dakota St. 80, Cal St. Bakersfield 91)\nMaine −4.8: Lost by 6 (final Manhattan 68, Maine 62)\nBoise St. −4.2: Won by 19, 14.8 better our number (final Butler 81, Boise St. 100)\nPrinceton −3.4: Lost by 14 (final Princeton 68, Siena 82)\nLehigh −3.2: Lost by 10 (final Brown 65, Lehigh 55)\nMerrimack −2.7: Won by 13, 10.3 better our number (final Merrimack 73, Albany 60)\nAir Force −2.4: Won by 7, 4.7 better our number (final Idaho St. 82, Air Force 89)\nSaint Mary's −1.9: Lost by 1 (final Saint Mary's 95, Nevada 96)\nFairfield −1.3: Won by 9, 7.7 better our number (final Fairfield 68, Bryant 59)\nRichmond −0.9: Won by 26, 25.1 better our number (final Richmond 79, Temple 53)\nVirginia −0.4: Won by 19, 18.6 better our number (final Arkansas 72, Virginia 91)\nNew Hampshire −0.3: Lost by 5 (final Sacred Heart 81, New Hampshire 76)\nWestern Michigan −4.7: Won by 16, 11.3 better our number (final Campbell 71, Western Michigan 87)\nSaint Peter's −2.3: Lost by 2 (final Saint Peter's 52, NJIT 54)\nMarist −0.3: Lost by 2 (final Marist 61, UMass Lowell 63)\nHouston −16.0: Won by 18, 2.0 better our number (final California 68, Houston 86)\nHawaii −8.9: Won by 9, on our number (final UT Arlington 62, Hawaii 71)\nUTEP −8.8: Won by 19, 10.2 better our number (final Incarnate Word 60, UTEP 79)\nUSC −7.2: Won by 7, on our number (final Wichita St. 86, USC 93)\nPittsburgh −2.7: Won by 6, 3.3 better our number (final Pittsburgh 82, Penn St. 76)\n\nHAMMER OF THE DAY vs DraftKings (0-4)\nIncarnate Word +12.5 vs UTEP — our number UTEP −8.8, 4 of 4 sources on this side, 62% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nSt. John's 98% · −24.3 ±12.1 vs Iona · total 147\nSouth Carolina 92% · −16.6 ±11.7 vs Southeast Missouri · total 149\nDrake 87% · −13.2 ±11.6 vs Southern · total 152\nSt. Thomas 79% · −9.3 ±11.4 vs Green Bay · total 154\nHouston 91% · −16.0 ±12.1 vs California (N) · total 146\nHawaii 78% · −8.9 ±11.7 vs UT Arlington · total 145\nUTEP 77% · −8.8 ±11.7 vs Incarnate Word · total 143\nMid\nWilliam & Mary 74% · −7.5 ±11.5 vs Norfolk St. · total 158\nDartmouth 74% · −7.3 ±11.4 vs Central Connecticut · total 144\nWestern Kentucky 73% · −6.9 ±11.4 vs Tennessee Tech · total 156\nBinghamton 70% · −6.0 ±11.6 vs Rider · total 141\nVermont 67% · −5.0 ±11.6 vs Quinnipiac · total 142\nNorth Dakota St. 67% · −5.0 ±11.6 vs Cal St. Bakersfield · total 155\nMaine 66% · −4.8 ±11.7 vs Manhattan · total 141\nBoise St. 64% · −4.2 ±11.3 vs Butler · total 154\nPrinceton 61% · −3.4 ±11.8 vs Siena · total 139\nLehigh 61% · −3.2 ±11.6 vs Brown · total 140\nMerrimack 59% · −2.7 ±11.4 vs Albany · total 135\nAir Force 58% · −2.4 ±11.8 vs Idaho St. · total 148\nSaint Mary's 56% · −1.9 ±11.7 vs Nevada (N) · total 145\nFairfield 55% · −1.3 ±11.7 vs Bryant · total 144\nRichmond 53% · −0.9 ±11.4 vs Temple (N) · total 149\nVirginia 51% · −0.4 ±11.5 vs Arkansas (N) · total 162\nNew Hampshire 51% · −0.3 ±11.5 vs Sacred Heart · total 147\nUSC 74% · −7.2 ±11.4 vs Wichita St. (N) · total 156\nPittsburgh 59% · −2.7 ±11.5 vs Penn St. (N) · total 150\nWeak\nWestern Michigan 65% · −4.7 ±12.2 vs Campbell · total 151\nSaint Peter's 58% · −2.3 ±11.4 vs NJIT · total 135\nMarist 51% · −0.3 ±13.0 vs UMass Lowell · total 144"
 }
