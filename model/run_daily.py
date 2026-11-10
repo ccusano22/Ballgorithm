@@ -255,6 +255,29 @@ def espn_p_home(pr):
 
 
 # ---------------- grading ----------------
+def backfill_dawg(state):
+    """One time (Nov 10): rebuild every team's season "THAT DAWG" book from the results already written onto
+    the slate files, so the list starts from opening night instead of from the day the feature shipped.
+    Runs before grading, so only games graded on earlier runs are counted; later games go through E.grade."""
+    if state.get("dawg_since"):
+        return 0
+    for t in state["teams"].values():
+        t["dawg"] = E.new_dawg()
+    n = 0
+    for ds in sorted((jload(os.path.join(SITE, "index.json"), {}) or {}).get("dates", [])):
+        for g in (jload(os.path.join(SITE, f"slate-{ds}.json"), {}) or {}).get("games", []):
+            r = g.get("result")
+            if not r or g["home"] not in state["teams"] or g["away"] not in state["teams"]:
+                continue
+            actual = r["score"][1] - r["score"][0]
+            resid = actual - g["blend"]["margin"]
+            E.dawg_add(state["teams"][g["home"]], resid, actual, g["away"], ds)
+            E.dawg_add(state["teams"][g["away"]], -resid, -actual, g["home"], ds)
+            n += 1
+    state["dawg_since"] = datetime.date.today().isoformat()
+    return n
+
+
 def grade_pending(state, today):
     pend = state.get("pending")
     if not pend:
@@ -450,6 +473,7 @@ def main():
     now = now_et()
     state = jload(os.path.join(SITE, "state.json")) or E.new_state("2026-27")
     E.migrate(state)
+    backfill_dawg(state)
     rep = grade_pending(state, now.date())
     slate = build_today(state, now)
     state["updated"] = now.isoformat(timespec="seconds")
