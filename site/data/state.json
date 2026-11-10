@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-10T13:16:57-05:00",
+ "updated": "2026-11-10T13:47:42-05:00",
  "artifact_url": "https://claude.ai/artifact/AN8JdyqWML4JjQM7vBZYwr",
  "constants": {
   "MAE_PRIOR": 8.85,
@@ -1859,7 +1859,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -8.45,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "North Texas": {
    "conf": "Amer",
@@ -1949,7 +1956,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 8.45,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.4,
+     "margin": 10,
+     "opp": "McNeese",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Wake Forest": {
    "conf": "ACC",
@@ -2039,7 +2058,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -10.61,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Vanderbilt": {
    "conf": "SEC",
@@ -2129,7 +2155,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 10.61,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 10.6,
+     "margin": 23,
+     "opp": "Wake Forest",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Chattanooga": {
    "conf": "SC",
@@ -2219,7 +2257,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 9.65,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.7,
+     "margin": -4,
+     "opp": "Penn St.",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Penn St.": {
    "conf": "B10",
@@ -2311,7 +2361,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -12.94,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Bellarmine": {
    "conf": "ASun",
@@ -2403,7 +2460,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 11.84,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 9.1,
+     "margin": -7,
+     "opp": "Miami OH",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Indiana": {
    "conf": "B10",
@@ -2495,7 +2564,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -4.4,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "LIU": {
    "conf": "NEC",
@@ -2588,7 +2664,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 3,
+    "sum": -0.9,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 12.7,
+     "margin": -7,
+     "opp": "Seton Hall",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Seton Hall": {
    "conf": "BE",
@@ -2680,7 +2768,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -13.36,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Georgia St.": {
    "conf": "SB",
@@ -2770,7 +2865,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.24,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Charlotte": {
    "conf": "Amer",
@@ -2862,7 +2964,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 0.87,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 0.6,
+     "margin": -6,
+     "opp": "Seton Hall",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Howard": {
    "conf": "MEAC",
@@ -2954,7 +3068,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -1.18,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 5.0,
+     "margin": 11,
+     "opp": "Alcorn St.",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Alcorn St.": {
    "conf": "SWAC",
@@ -3044,7 +3170,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -5.05,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Hofstra": {
    "conf": "CAA",
@@ -3134,7 +3267,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.08,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.1,
+     "margin": -2,
+     "opp": "Princeton",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Princeton": {
    "conf": "Ivy",
@@ -3226,7 +3371,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -17.44,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Cornell": {
    "conf": "Ivy",
@@ -3316,7 +3468,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.57,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Lehigh": {
    "conf": "PL",
@@ -3408,7 +3567,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -3.59,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.6,
+     "margin": 7,
+     "opp": "Cornell",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Green Bay": {
    "conf": "Horz",
@@ -3500,7 +3671,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 22.92,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 18.3,
+     "margin": 9,
+     "opp": "St. Thomas",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Cincinnati": {
    "conf": "B12",
@@ -3592,7 +3775,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -14.43,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Maine": {
    "conf": "AE",
@@ -3684,7 +3874,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -3.22,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.6,
+     "margin": 2,
+     "opp": "Sacred Heart",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Sacred Heart": {
    "conf": "MC",
@@ -3776,7 +3978,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -2.3,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 5.3,
+     "margin": 5,
+     "opp": "New Hampshire",
+     "date": "2026-11-08"
+    }
+   }
   },
   "New Hampshire": {
    "conf": "AE",
@@ -3868,7 +4082,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 6.38,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 11.7,
+     "margin": 11,
+     "opp": "Rider",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Rider": {
    "conf": "MC",
@@ -3960,7 +4186,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -17.69,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Bryant": {
    "conf": "AE",
@@ -4052,7 +4285,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -11.04,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Quinnipiac": {
    "conf": "MC",
@@ -4144,7 +4384,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 11.41,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 8.0,
+     "margin": 3,
+     "opp": "Vermont",
+     "date": "2026-11-08"
+    }
+   }
   },
   "UMass Lowell": {
    "conf": "AE",
@@ -4236,7 +4488,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 18.59,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 16.3,
+     "margin": 10,
+     "opp": "Merrimack",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Merrimack": {
    "conf": "MC",
@@ -4328,7 +4592,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -5.96,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 10.3,
+     "margin": 13,
+     "opp": "Albany",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Albany": {
    "conf": "AE",
@@ -4420,7 +4696,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -3.28,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.0,
+     "margin": 4,
+     "opp": "Manhattan",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Manhattan": {
    "conf": "MC",
@@ -4512,7 +4800,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 3.75,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 10.8,
+     "margin": 6,
+     "opp": "Maine",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Delaware St.": {
    "conf": "MEAC",
@@ -4602,7 +4902,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.91,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.9,
+     "margin": -6,
+     "opp": "Navy",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Navy": {
    "conf": "PL",
@@ -4692,7 +5004,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -4.91,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UMBC": {
    "conf": "AE",
@@ -4782,7 +5101,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -3.91,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Marist": {
    "conf": "MC",
@@ -4874,7 +5200,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 1.6,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 3.9,
+     "margin": 8,
+     "opp": "UMBC",
+     "date": "2026-11-05"
+    }
+   }
   },
   "NJIT": {
    "conf": "AE",
@@ -4966,7 +5304,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -8.28,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.3,
+     "margin": 2,
+     "opp": "Saint Peter's",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Iona": {
    "conf": "MC",
@@ -5058,7 +5408,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -2.09,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.6,
+     "margin": 23,
+     "opp": "NJIT",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Vermont": {
    "conf": "AE",
@@ -5150,7 +5512,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 5.58,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 13.6,
+     "margin": 12,
+     "opp": "Fairfield",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Fairfield": {
    "conf": "MC",
@@ -5242,7 +5616,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -5.95,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.7,
+     "margin": 9,
+     "opp": "Bryant",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Mercer": {
    "conf": "SC",
@@ -5332,7 +5718,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -12.32,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Virginia Tech": {
    "conf": "ACC",
@@ -5422,7 +5815,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 12.32,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.3,
+     "margin": 29,
+     "opp": "Mercer",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Mercyhurst": {
    "conf": "NEC",
@@ -5512,7 +5917,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -7.01,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Notre Dame": {
    "conf": "ACC",
@@ -5604,7 +6016,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 7.27,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 7.0,
+     "margin": 27,
+     "opp": "Mercyhurst",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Chicago St.": {
    "conf": "NEC",
@@ -5696,7 +6120,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 0.67,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 19.4,
+     "margin": 12,
+     "opp": "Incarnate Word",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Incarnate Word": {
    "conf": "Slnd",
@@ -5788,7 +6224,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -29.58,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Binghamton": {
    "conf": "AE",
@@ -5880,7 +6323,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 17.29,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 11.2,
+     "margin": 3,
+     "opp": "Saint Peter's",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Saint Peter's": {
    "conf": "MC",
@@ -5972,7 +6427,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -15.57,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Central Connecticut": {
    "conf": "NEC",
@@ -6064,7 +6526,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -19.97,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 14.3,
+     "margin": 7,
+     "opp": "Dartmouth",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Syracuse": {
    "conf": "ACC",
@@ -6156,7 +6630,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 35.91,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 34.3,
+     "margin": 53,
+     "opp": "Central Connecticut",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Buffalo": {
    "conf": "MAC",
@@ -6246,7 +6732,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.32,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Pittsburgh": {
    "conf": "ACC",
@@ -6338,7 +6831,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 4.61,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 3.3,
+     "margin": 6,
+     "opp": "Penn St.",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Jackson St.": {
    "conf": "SWAC",
@@ -6430,7 +6935,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -0.86,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 15.3,
+     "margin": 2,
+     "opp": "Tulane",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Tulane": {
    "conf": "Amer",
@@ -6520,7 +7037,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -15.28,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Stonehill": {
    "conf": "NEC",
@@ -6612,7 +7136,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -12.1,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Fordham": {
    "conf": "A10",
@@ -6702,7 +7233,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.53,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.5,
+     "margin": 20,
+     "opp": "Stonehill",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Northwestern St.": {
    "conf": "Slnd",
@@ -6792,7 +7335,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -17.79,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Mississippi St.": {
    "conf": "SEC",
@@ -6884,7 +7434,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 33.93,
+    "beat": 2,
+    "whoop": 2,
+    "best": {
+     "over": 17.8,
+     "margin": 38,
+     "opp": "Northwestern St.",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Jacksonville": {
    "conf": "ASun",
@@ -6976,7 +7538,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 14.4,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 13.8,
+     "margin": 18,
+     "opp": "Kansas City",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Florida": {
    "conf": "SEC",
@@ -7066,7 +7640,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.64,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Coastal Carolina": {
    "conf": "SB",
@@ -7158,7 +7739,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -26.29,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.3,
+     "margin": 9,
+     "opp": "USC Upstate",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Duke": {
    "conf": "ACC",
@@ -7248,7 +7841,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 26.62,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 26.6,
+     "margin": 61,
+     "opp": "Coastal Carolina",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Toledo": {
    "conf": "MAC",
@@ -7340,7 +7945,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -1.58,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.9,
+     "margin": 5,
+     "opp": "Marshall",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Michigan St.": {
    "conf": "B10",
@@ -7430,7 +8047,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 8.51,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.5,
+     "margin": 30,
+     "opp": "Toledo",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Gardner Webb": {
    "conf": "BSth",
@@ -7520,7 +8149,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -13.71,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Texas": {
    "conf": "SEC",
@@ -7612,7 +8248,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 13.98,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 13.7,
+     "margin": 48,
+     "opp": "Gardner Webb",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Jacksonville St.": {
    "conf": "CUSA",
@@ -7702,7 +8350,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.68,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "South Alabama": {
    "conf": "SB",
@@ -7792,7 +8447,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.68,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.7,
+     "margin": 3,
+     "opp": "Jacksonville St.",
+     "date": "2026-11-05"
+    }
+   }
   },
   "East Texas A&M": {
    "conf": "Slnd",
@@ -7882,7 +8549,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 8.31,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.3,
+     "margin": 1,
+     "opp": "Rice",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Rice": {
    "conf": "Amer",
@@ -7974,7 +8653,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -11.19,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Northern Illinois": {
    "conf": "Horz",
@@ -8064,7 +8750,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.9,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Tulsa": {
    "conf": "Amer",
@@ -8154,7 +8847,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.9,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.9,
+     "margin": 19,
+     "opp": "Northern Illinois",
+     "date": "2026-11-05"
+    }
+   }
   },
   "VMI": {
    "conf": "SC",
@@ -8246,7 +8951,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 6.78,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 6.3,
+     "margin": -2,
+     "opp": "UTSA",
+     "date": "2026-11-07"
+    }
+   }
   },
   "SMU": {
    "conf": "ACC",
@@ -8336,7 +9053,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.45,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "West Georgia": {
    "conf": "UAC",
@@ -8426,7 +9150,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.38,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Loyola Chicago": {
    "conf": "A10",
@@ -8516,7 +9247,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 9.38,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.4,
+     "margin": 23,
+     "opp": "West Georgia",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Le Moyne": {
    "conf": "NEC",
@@ -8606,7 +9349,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.4,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Creighton": {
    "conf": "BE",
@@ -8696,7 +9446,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.4,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.4,
+     "margin": 28,
+     "opp": "Le Moyne",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Penn": {
    "conf": "Ivy",
@@ -8788,7 +9550,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -9.01,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.2,
+     "margin": 13,
+     "opp": "Howard",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Illinois": {
    "conf": "B10",
@@ -8878,7 +9652,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 15.24,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 15.2,
+     "margin": 42,
+     "opp": "Penn",
+     "date": "2026-11-05"
+    }
+   }
   },
   "South Florida": {
    "conf": "Amer",
@@ -8968,7 +9754,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.38,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.4,
+     "margin": -2,
+     "opp": "DePaul",
+     "date": "2026-11-05"
+    }
+   }
   },
   "DePaul": {
    "conf": "BE",
@@ -9060,7 +9858,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 16.28,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 17.7,
+     "margin": 37,
+     "opp": "Alabama A&M",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Bethune Cookman": {
    "conf": "SWAC",
@@ -9150,7 +9960,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 7.82,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.8,
+     "margin": -18,
+     "opp": "Texas Tech",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Texas Tech": {
    "conf": "B12",
@@ -9240,7 +10062,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -7.82,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Towson": {
    "conf": "CAA",
@@ -9332,7 +10161,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 12.21,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.5,
+     "margin": 20,
+     "opp": "LIU",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Utah": {
    "conf": "B12",
@@ -9422,7 +10263,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.26,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.3,
+     "margin": 10,
+     "opp": "Towson",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Cal Poly": {
    "conf": "BW",
@@ -9512,7 +10365,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 8.24,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.2,
+     "margin": -20,
+     "opp": "Arizona",
+     "date": "2026-11-05"
+    }
+   }
   },
   "Arizona": {
    "conf": "B12",
@@ -9602,7 +10467,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -8.24,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Massachusetts": {
    "conf": "MAC",
@@ -9692,7 +10564,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -10.2,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Boston College": {
    "conf": "ACC",
@@ -9782,7 +10661,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 10.2,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 10.2,
+     "margin": 16,
+     "opp": "Massachusetts",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Northeastern": {
    "conf": "CAA",
@@ -9872,7 +10763,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.54,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.5,
+     "margin": -25,
+     "opp": "Virginia",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Virginia": {
    "conf": "ACC",
@@ -9964,7 +10867,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 17.08,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 18.6,
+     "margin": 19,
+     "opp": "Arkansas",
+     "date": "2026-11-08"
+    }
+   }
   },
   "West Florida": {
    "conf": "ASun",
@@ -10054,7 +10969,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 3.02,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 3.0,
+     "margin": -10,
+     "opp": "FIU",
+     "date": "2026-11-06"
+    }
+   }
   },
   "FIU": {
    "conf": "CUSA",
@@ -10144,7 +11071,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -3.02,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Arkansas Pine Bluff": {
    "conf": "SWAC",
@@ -10234,7 +11168,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -24.91,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Baylor": {
    "conf": "B12",
@@ -10324,7 +11265,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 24.91,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 24.9,
+     "margin": 56,
+     "opp": "Arkansas Pine Bluff",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Eastern Washington": {
    "conf": "BSky",
@@ -10416,7 +11369,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -12.97,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Oregon": {
    "conf": "B10",
@@ -10506,7 +11466,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 12.35,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.3,
+     "margin": 27,
+     "opp": "Eastern Washington",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Valparaiso": {
    "conf": "MVC",
@@ -10596,7 +11568,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 23.7,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 23.7,
+     "margin": 3,
+     "opp": "Purdue",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Purdue": {
    "conf": "B10",
@@ -10688,7 +11672,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -21.86,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.8,
+     "margin": 17,
+     "opp": "Illinois St.",
+     "date": "2026-11-09"
+    }
+   }
   },
   "South Carolina St.": {
    "conf": "MEAC",
@@ -10780,7 +11776,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 33.48,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 18.7,
+     "margin": 15,
+     "opp": "Chicago St.",
+     "date": "2026-11-09"
+    }
+   }
   },
   "USC Upstate": {
    "conf": "BSth",
@@ -10872,7 +11880,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -15.1,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Youngstown St.": {
    "conf": "Horz",
@@ -10962,7 +11977,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.95,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Ohio St.": {
    "conf": "B10",
@@ -11054,7 +12076,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -9.12,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.9,
+     "margin": 24,
+     "opp": "Youngstown St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "James Madison": {
    "conf": "SB",
@@ -11144,7 +12178,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 11.47,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 11.5,
+     "margin": -9,
+     "opp": "Kentucky",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Kentucky": {
    "conf": "SEC",
@@ -11234,7 +12280,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -11.47,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "New Haven": {
    "conf": "NEC",
@@ -11324,7 +12377,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -3.99,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Rutgers": {
    "conf": "B10",
@@ -11414,7 +12474,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 3.99,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.0,
+     "margin": 27,
+     "opp": "New Haven",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Stetson": {
    "conf": "ASun",
@@ -11504,7 +12576,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -14.99,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "West Virginia": {
    "conf": "B12",
@@ -11594,7 +12673,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.99,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 15.0,
+     "margin": 38,
+     "opp": "Stetson",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Yale": {
    "conf": "Ivy",
@@ -11684,7 +12775,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -4.09,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UCF": {
    "conf": "B12",
@@ -11774,7 +12872,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.09,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.1,
+     "margin": 12,
+     "opp": "Yale",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Holy Cross": {
    "conf": "PL",
@@ -11864,7 +12974,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.25,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.2,
+     "margin": -29,
+     "opp": "Villanova",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Villanova": {
    "conf": "BE",
@@ -11954,7 +13076,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.25,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UNC Greensboro": {
    "conf": "SC",
@@ -12046,7 +13175,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -2.37,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.9,
+     "margin": -10,
+     "opp": "Illinois Chicago",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Elon": {
    "conf": "CAA",
@@ -12136,7 +13277,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.25,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.2,
+     "margin": 9,
+     "opp": "UNC Greensboro",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Loyola MD": {
    "conf": "PL",
@@ -12226,7 +13379,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -5.41,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Mount St. Mary's": {
    "conf": "MC",
@@ -12316,7 +13476,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 5.41,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 5.4,
+     "margin": 11,
+     "opp": "Loyola MD",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Georgia Southern": {
    "conf": "SB",
@@ -12406,7 +13578,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.93,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.9,
+     "margin": -12,
+     "opp": "Georgia Tech",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Georgia Tech": {
    "conf": "ACC",
@@ -12496,7 +13680,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.93,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Coppin St.": {
    "conf": "MEAC",
@@ -12586,7 +13777,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 9.78,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.8,
+     "margin": -17,
+     "opp": "George Mason",
+     "date": "2026-11-06"
+    }
+   }
   },
   "George Mason": {
    "conf": "A10",
@@ -12676,7 +13879,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.78,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "East Tennessee St.": {
    "conf": "SC",
@@ -12766,7 +13976,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.26,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.3,
+     "margin": -14,
+     "opp": "N.C. State",
+     "date": "2026-11-06"
+    }
+   }
   },
   "N.C. State": {
    "conf": "ACC",
@@ -12856,7 +14078,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -2.26,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Austin Peay": {
    "conf": "UAC",
@@ -12946,7 +14175,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.15,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.2,
+     "margin": -2,
+     "opp": "Kennesaw St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Kennesaw St.": {
    "conf": "CUSA",
@@ -13036,7 +14277,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -4.15,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Wofford": {
    "conf": "SC",
@@ -13126,7 +14374,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -14.25,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "North Carolina": {
    "conf": "ACC",
@@ -13216,7 +14471,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.25,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 14.2,
+     "margin": 39,
+     "opp": "Wofford",
+     "date": "2026-11-06"
+    }
+   }
   },
   "American": {
    "conf": "PL",
@@ -13306,7 +14573,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 9.23,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.2,
+     "margin": -9,
+     "opp": "Clemson",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Clemson": {
    "conf": "ACC",
@@ -13398,7 +14677,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -17.03,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Boston University": {
    "conf": "PL",
@@ -13490,7 +14776,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 8.67,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.9,
+     "margin": 5,
+     "opp": "Brown",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Brown": {
    "conf": "Ivy",
@@ -13582,7 +14880,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 4.28,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 13.2,
+     "margin": 10,
+     "opp": "Lehigh",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Saint Louis": {
    "conf": "A10",
@@ -13672,7 +14982,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 10.33,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 10.3,
+     "margin": 6,
+     "opp": "Missouri",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Missouri": {
    "conf": "SEC",
@@ -13764,7 +15086,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 5.44,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 15.8,
+     "margin": 38,
+     "opp": "SIUE",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Indiana St.": {
    "conf": "MVC",
@@ -13854,7 +15188,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 3.01,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 3.0,
+     "margin": 3,
+     "opp": "Ball St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Ball St.": {
    "conf": "MAC",
@@ -13944,7 +15290,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -3.01,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Troy": {
    "conf": "SB",
@@ -14034,7 +15387,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -8.19,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Florida St.": {
    "conf": "ACC",
@@ -14124,7 +15484,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 8.19,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.2,
+     "margin": 23,
+     "opp": "Troy",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Eastern Michigan": {
    "conf": "MAC",
@@ -14214,7 +15586,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -3.72,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Xavier": {
    "conf": "BE",
@@ -14304,7 +15683,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 3.72,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 3.7,
+     "margin": 23,
+     "opp": "Eastern Michigan",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Presbyterian": {
    "conf": "BSth",
@@ -14394,7 +15785,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 7.0,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.0,
+     "margin": -14,
+     "opp": "Georgia",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Georgia": {
    "conf": "SEC",
@@ -14486,7 +15889,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -19.02,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Arkansas St.": {
    "conf": "SB",
@@ -14576,7 +15986,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 8.91,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.9,
+     "margin": -15,
+     "opp": "Alabama",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Alabama": {
    "conf": "SEC",
@@ -14668,7 +16090,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 6.25,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 15.2,
+     "margin": 41,
+     "opp": "Oakland",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Florida Atlantic": {
    "conf": "Amer",
@@ -14758,7 +16192,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -25.47,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Wright St.": {
    "conf": "Horz",
@@ -14848,7 +16289,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 25.47,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 25.5,
+     "margin": 26,
+     "opp": "Florida Atlantic",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Delaware": {
    "conf": "CUSA",
@@ -14938,7 +16391,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 13.16,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 13.2,
+     "margin": -9,
+     "opp": "Wisconsin",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Wisconsin": {
    "conf": "B10",
@@ -15028,7 +16493,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -13.16,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Nicholls": {
    "conf": "Slnd",
@@ -15118,7 +16590,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 6.18,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.2,
+     "margin": -7,
+     "opp": "UAB",
+     "date": "2026-11-06"
+    }
+   }
   },
   "UAB": {
    "conf": "Amer",
@@ -15210,7 +16694,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 3.79,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 10.0,
+     "margin": 28,
+     "opp": "Florida A&M",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Connecticut": {
    "conf": "BE",
@@ -15302,7 +16798,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 11.52,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 6.7,
+     "margin": 42,
+     "opp": "Wagner",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Michigan": {
    "conf": "B10",
@@ -15392,7 +16900,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -4.83,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Southern Miss": {
    "conf": "SB",
@@ -15482,7 +16997,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.46,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.5,
+     "margin": -26,
+     "opp": "Iowa St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Iowa St.": {
    "conf": "B12",
@@ -15572,7 +17099,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.46,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Robert Morris": {
    "conf": "Horz",
@@ -15662,7 +17196,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -12.61,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Illinois Chicago": {
    "conf": "MVC",
@@ -15754,7 +17295,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 10.73,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.6,
+     "margin": 23,
+     "opp": "Robert Morris",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Texas A&M Corpus Chris": {
    "conf": "Slnd",
@@ -15844,7 +17397,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 7.34,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.3,
+     "margin": 7,
+     "opp": "Louisiana",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Louisiana": {
    "conf": "SB",
@@ -15934,7 +17499,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -7.34,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Texas Southern": {
    "conf": "SWAC",
@@ -16024,7 +17596,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -16.86,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "LSU": {
    "conf": "SEC",
@@ -16116,7 +17695,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 41.31,
+    "beat": 2,
+    "whoop": 2,
+    "best": {
+     "over": 24.4,
+     "margin": 40,
+     "opp": "Louisiana Tech",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Northern Kentucky": {
    "conf": "Horz",
@@ -16206,7 +17797,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -17.26,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Texas A&M": {
    "conf": "SEC",
@@ -16298,7 +17896,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 26.36,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 17.3,
+     "margin": 37,
+     "opp": "Northern Kentucky",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Stony Brook": {
    "conf": "CAA",
@@ -16388,7 +17998,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.79,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.8,
+     "margin": -13,
+     "opp": "Northwestern",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Northwestern": {
    "conf": "B10",
@@ -16480,7 +18102,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -4.58,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.2,
+     "margin": 17,
+     "opp": "Boston University",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Southern": {
    "conf": "SWAC",
@@ -16572,7 +18206,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -23.38,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.2,
+     "margin": -7,
+     "opp": "Drake",
+     "date": "2026-11-08"
+    }
+   }
   },
   "TCU": {
    "conf": "B12",
@@ -16662,7 +18308,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 29.57,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 29.6,
+     "margin": 52,
+     "opp": "Southern",
+     "date": "2026-11-06"
+    }
+   }
   },
   "St. Thomas": {
    "conf": "Sum",
@@ -16754,7 +18412,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -19.94,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Minnesota": {
    "conf": "B10",
@@ -16846,7 +18511,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 11.45,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 9.8,
+     "margin": 2,
+     "opp": "Cincinnati",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Detroit Mercy": {
    "conf": "Horz",
@@ -16936,7 +18613,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -37.06,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Marquette": {
    "conf": "BE",
@@ -17026,7 +18710,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 37.06,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 37.1,
+     "margin": 61,
+     "opp": "Detroit Mercy",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Mississippi Valley St.": {
    "conf": "SWAC",
@@ -17118,7 +18814,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 28.65,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 19.5,
+     "margin": -13,
+     "opp": "Washington",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Oklahoma": {
    "conf": "SEC",
@@ -17210,7 +18918,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -23.74,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Idaho St.": {
    "conf": "BSky",
@@ -17302,7 +19017,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -21.44,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Wyoming": {
    "conf": "MWC",
@@ -17392,7 +19114,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 16.79,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 16.8,
+     "margin": 31,
+     "opp": "Idaho St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Southern Illinois": {
    "conf": "MVC",
@@ -17482,7 +19216,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.42,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Kansas City": {
    "conf": "Sum",
@@ -17574,7 +19315,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -4.34,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.4,
+     "margin": 7,
+     "opp": "Southern Illinois",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Eastern Illinois": {
    "conf": "OVC",
@@ -17666,7 +19419,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -14.32,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Iowa": {
    "conf": "B10",
@@ -17756,7 +19516,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.06,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 14.1,
+     "margin": 44,
+     "opp": "Eastern Illinois",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Central Arkansas": {
    "conf": "UAC",
@@ -17846,7 +19618,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -14.69,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Mississippi": {
    "conf": "SEC",
@@ -17936,7 +19715,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.69,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 14.7,
+     "margin": 32,
+     "opp": "Central Arkansas",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Wagner": {
    "conf": "NEC",
@@ -18028,7 +19819,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -3.18,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 3.5,
+     "margin": -26,
+     "opp": "Miami FL",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Miami FL": {
    "conf": "ACC",
@@ -18120,7 +19923,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 5.66,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.2,
+     "margin": 38,
+     "opp": "North Florida",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Middle Tennessee": {
    "conf": "CUSA",
@@ -18210,7 +20025,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -22.81,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Kansas": {
    "conf": "B12",
@@ -18300,7 +20122,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 22.81,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 22.8,
+     "margin": 44,
+     "opp": "Middle Tennessee",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Nebraska Omaha": {
    "conf": "Sum",
@@ -18392,7 +20226,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -26.27,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "BYU": {
    "conf": "B12",
@@ -18482,7 +20323,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 13.54,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 13.5,
+     "margin": 41,
+     "opp": "Nebraska Omaha",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Idaho": {
    "conf": "BSky",
@@ -18572,7 +20425,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 5.08,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 5.1,
+     "margin": -11,
+     "opp": "Colorado St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Colorado St.": {
    "conf": "P12",
@@ -18662,7 +20527,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -5.08,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Northern Colorado": {
    "conf": "BSky",
@@ -18752,7 +20624,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -14.37,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Arizona St.": {
    "conf": "B12",
@@ -18842,7 +20721,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.37,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 14.4,
+     "margin": 27,
+     "opp": "Northern Colorado",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Queens": {
    "conf": "ASun",
@@ -18932,7 +20823,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -32.02,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Oklahoma St.": {
    "conf": "B12",
@@ -19022,7 +20920,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 32.02,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 32.0,
+     "margin": 50,
+     "opp": "Queens",
+     "date": "2026-11-06"
+    }
+   }
   },
   "CSUN": {
    "conf": "BW",
@@ -19112,7 +21022,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -5.11,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Kansas St.": {
    "conf": "B12",
@@ -19202,7 +21119,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 5.11,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 5.1,
+     "margin": 17,
+     "opp": "CSUN",
+     "date": "2026-11-06"
+    }
+   }
   },
   "UT Arlington": {
    "conf": "UAC",
@@ -19294,7 +21223,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 4.46,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.5,
+     "margin": 4,
+     "opp": "Portland",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Portland": {
    "conf": "WCC",
@@ -19386,7 +21327,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 10.74,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 15.2,
+     "margin": 7,
+     "opp": "Hawaii",
+     "date": "2026-11-09"
+    }
+   }
   },
   "California": {
    "conf": "ACC",
@@ -19478,7 +21431,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -19.24,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Oregon St.": {
    "conf": "P12",
@@ -19570,7 +21530,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 17.82,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 17.2,
+     "margin": 28,
+     "opp": "California",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Tarleton St.": {
    "conf": "UAC",
@@ -19660,7 +21632,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -2.25,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "San Diego": {
    "conf": "WCC",
@@ -19750,7 +21729,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.25,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.2,
+     "margin": 6,
+     "opp": "Tarleton St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Oakland": {
    "conf": "Horz",
@@ -19843,7 +21834,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 3,
+    "sum": -35.58,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Stanford": {
    "conf": "ACC",
@@ -19935,7 +21933,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 7.86,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 5.0,
+     "margin": 18,
+     "opp": "Oakland",
+     "date": "2026-11-06"
+    }
+   }
   },
   "North Dakota St.": {
    "conf": "Sum",
@@ -20027,7 +22037,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -16.79,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "San Francisco": {
    "conf": "WCC",
@@ -20117,7 +22134,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.79,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.8,
+     "margin": 9,
+     "opp": "North Dakota St.",
+     "date": "2026-11-06"
+    }
+   }
   },
   "North Florida": {
    "conf": "ASun",
@@ -20209,7 +22238,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -32.35,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UCLA": {
    "conf": "B10",
@@ -20299,7 +22335,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 23.18,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 23.2,
+     "margin": 51,
+     "opp": "North Florida",
+     "date": "2026-11-06"
+    }
+   }
   },
   "Morehead St.": {
    "conf": "OVC",
@@ -20389,7 +22437,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -22.33,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Louisville": {
    "conf": "ACC",
@@ -20479,7 +22534,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 22.33,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 22.3,
+     "margin": 50,
+     "opp": "Morehead St.",
+     "date": "2026-11-07"
+    }
+   }
   },
   "North Dakota": {
    "conf": "Sum",
@@ -20571,7 +22638,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 19.93,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 12.1,
+     "margin": 3,
+     "opp": "Winthrop",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Winthrop": {
    "conf": "BSth",
@@ -20661,7 +22740,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -12.13,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "North Carolina A&T": {
    "conf": "CAA",
@@ -20751,7 +22837,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.85,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.8,
+     "margin": -10,
+     "opp": "Ohio",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Ohio": {
    "conf": "MAC",
@@ -20841,7 +22939,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.85,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Marshall": {
    "conf": "SB",
@@ -20933,7 +23038,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": 4.14,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 11.1,
+     "margin": -10,
+     "opp": "Ohio St.",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Colgate": {
    "conf": "PL",
@@ -21023,7 +23140,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.81,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Drexel": {
    "conf": "CAA",
@@ -21113,7 +23237,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.81,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.8,
+     "margin": 3,
+     "opp": "Colgate",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Cal St. Fullerton": {
    "conf": "BW",
@@ -21203,7 +23339,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.75,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.8,
+     "margin": 2,
+     "opp": "South Dakota",
+     "date": "2026-11-07"
+    }
+   }
   },
   "South Dakota": {
    "conf": "Sum",
@@ -21293,7 +23441,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -2.75,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UNC Wilmington": {
    "conf": "CAA",
@@ -21383,7 +23538,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.38,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.4,
+     "margin": 3,
+     "opp": "East Carolina",
+     "date": "2026-11-07"
+    }
+   }
   },
   "East Carolina": {
    "conf": "Amer",
@@ -21473,7 +23640,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.38,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Lamar": {
    "conf": "Slnd",
@@ -21563,7 +23737,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.45,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Abilene Christian": {
    "conf": "UAC",
@@ -21653,7 +23834,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.45,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.4,
+     "margin": 2,
+     "opp": "Lamar",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Long Beach St.": {
    "conf": "BW",
@@ -21743,7 +23936,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -3.69,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Montana St.": {
    "conf": "BSky",
@@ -21833,7 +24033,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 3.69,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 3.7,
+     "margin": 13,
+     "opp": "Long Beach St.",
+     "date": "2026-11-07"
+    }
+   }
   },
   "North Carolina Central": {
    "conf": "MEAC",
@@ -21923,7 +24135,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.87,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.9,
+     "margin": -5,
+     "opp": "Longwood",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Longwood": {
    "conf": "BSth",
@@ -22013,7 +24237,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -4.87,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "VCU": {
    "conf": "A10",
@@ -22103,7 +24334,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.34,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Memphis": {
    "conf": "Amer",
@@ -22193,7 +24431,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.34,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.3,
+     "margin": 1,
+     "opp": "VCU",
+     "date": "2026-11-07"
+    }
+   }
   },
   "La Salle": {
    "conf": "A10",
@@ -22283,7 +24533,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.16,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.2,
+     "margin": 8,
+     "opp": "LIU",
+     "date": "2026-11-07"
+    }
+   }
   },
   "San Diego St.": {
    "conf": "P12",
@@ -22373,7 +24635,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 10.22,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 10.2,
+     "margin": 11,
+     "opp": "Colorado",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Colorado": {
    "conf": "B12",
@@ -22463,7 +24737,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -10.22,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Utah St.": {
    "conf": "P12",
@@ -22553,7 +24834,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 12.73,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.7,
+     "margin": 34,
+     "opp": "Nebraska Omaha",
+     "date": "2026-11-07"
+    }
+   }
   },
   "UC Santa Barbara": {
    "conf": "BW",
@@ -22643,7 +24936,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 15.44,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 15.4,
+     "margin": 23,
+     "opp": "Oakland",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Samford": {
    "conf": "SC",
@@ -22733,7 +25038,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.31,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.3,
+     "margin": -9,
+     "opp": "UNLV",
+     "date": "2026-11-07"
+    }
+   }
   },
   "UNLV": {
    "conf": "MWC",
@@ -22823,7 +25140,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -2.31,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Lafayette": {
    "conf": "PL",
@@ -22913,7 +25237,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 6.94,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.9,
+     "margin": -10,
+     "opp": "Saint Joseph's",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Saint Joseph's": {
    "conf": "A10",
@@ -23003,7 +25339,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -6.94,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Monmouth": {
    "conf": "CAA",
@@ -23093,7 +25436,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -12.72,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Rhode Island": {
    "conf": "A10",
@@ -23183,7 +25533,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 12.72,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.7,
+     "margin": 18,
+     "opp": "Monmouth",
+     "date": "2026-11-07"
+    }
+   }
   },
   "New Mexico St.": {
    "conf": "CUSA",
@@ -23273,7 +25635,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -17.59,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Gonzaga": {
    "conf": "P12",
@@ -23363,7 +25732,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 17.59,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 17.6,
+     "margin": 41,
+     "opp": "New Mexico St.",
+     "date": "2026-11-07"
+    }
+   }
   },
   "UTSA": {
    "conf": "Amer",
@@ -23453,7 +25834,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -6.33,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Northern Iowa": {
    "conf": "MVC",
@@ -23543,7 +25931,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -12.95,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Furman": {
    "conf": "SC",
@@ -23633,7 +26028,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 12.95,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.9,
+     "margin": 15,
+     "opp": "Northern Iowa",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Old Dominion": {
    "conf": "SB",
@@ -23723,7 +26130,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 16.93,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 16.9,
+     "margin": 20,
+     "opp": "Bucknell",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Bucknell": {
    "conf": "PL",
@@ -23813,7 +26232,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -16.93,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Tennessee Martin": {
    "conf": "OVC",
@@ -23903,7 +26329,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -3.31,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "IU Indy": {
    "conf": "Horz",
@@ -23993,7 +26426,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 3.31,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 3.3,
+     "margin": 1,
+     "opp": "Tennessee Martin",
+     "date": "2026-11-07"
+    }
+   }
   },
   "SIUE": {
    "conf": "OVC",
@@ -24085,7 +26530,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -9.82,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.0,
+     "margin": -1,
+     "opp": "Lipscomb",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Lipscomb": {
    "conf": "ASun",
@@ -24175,7 +26632,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -5.95,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Washington St.": {
    "conf": "P12",
@@ -24265,7 +26729,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -2.15,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "High Point": {
    "conf": "BSth",
@@ -24355,7 +26826,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.15,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.2,
+     "margin": 12,
+     "opp": "Washington St.",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Miami OH": {
    "conf": "MAC",
@@ -24445,7 +26928,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.05,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Prairie View A&M": {
    "conf": "SWAC",
@@ -24535,7 +27025,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 6.86,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.9,
+     "margin": -5,
+     "opp": "UT Rio Grande Valley",
+     "date": "2026-11-07"
+    }
+   }
   },
   "UT Rio Grande Valley": {
    "conf": "Slnd",
@@ -24625,7 +27127,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -6.86,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Western Carolina": {
    "conf": "SC",
@@ -24715,7 +27224,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 7.82,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.8,
+     "margin": 8,
+     "opp": "UNC Asheville",
+     "date": "2026-11-07"
+    }
+   }
   },
   "UNC Asheville": {
    "conf": "BSth",
@@ -24805,7 +27326,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -7.82,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Hampton": {
    "conf": "CAA",
@@ -24895,7 +27423,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.29,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.3,
+     "margin": -14,
+     "opp": "George Washington",
+     "date": "2026-11-07"
+    }
+   }
   },
   "George Washington": {
    "conf": "A10",
@@ -24985,7 +27525,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -2.29,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Northern Arizona": {
    "conf": "BSky",
@@ -25075,7 +27622,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -6.82,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "New Mexico": {
    "conf": "MWC",
@@ -25165,7 +27719,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 6.82,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.8,
+     "margin": 29,
+     "opp": "Northern Arizona",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Morgan St.": {
    "conf": "MEAC",
@@ -25255,7 +27821,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 9.66,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.7,
+     "margin": 6,
+     "opp": "Niagara",
+     "date": "2026-11-07"
+    }
+   }
   },
   "Niagara": {
    "conf": "MC",
@@ -25345,7 +27923,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.66,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Davidson": {
    "conf": "A10",
@@ -25431,7 +28016,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Houston Christian": {
    "conf": "Slnd",
@@ -25517,7 +28109,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Western Illinois": {
    "conf": "OVC",
@@ -25603,7 +28202,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "St. Bonaventure": {
    "conf": "A10",
@@ -25689,7 +28295,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Canisius": {
    "conf": "MC",
@@ -25775,7 +28388,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Dayton": {
    "conf": "A10",
@@ -25861,7 +28481,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Providence": {
    "conf": "BE",
@@ -25947,7 +28574,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Nebraska": {
    "conf": "B10",
@@ -26033,7 +28667,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Denver": {
    "conf": "WCC",
@@ -26119,7 +28760,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UC Riverside": {
    "conf": "BW",
@@ -26205,7 +28853,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Maryland": {
    "conf": "B10",
@@ -26291,7 +28946,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Georgetown": {
    "conf": "BE",
@@ -26377,7 +29039,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Murray St.": {
    "conf": "MVC",
@@ -26463,7 +29132,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Southern Indiana": {
    "conf": "OVC",
@@ -26549,7 +29225,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Evansville": {
    "conf": "MVC",
@@ -26635,7 +29318,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Southeastern Louisiana": {
    "conf": "Slnd",
@@ -26721,7 +29411,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Little Rock": {
    "conf": "UAC",
@@ -26807,7 +29504,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Grand Canyon": {
    "conf": "MWC",
@@ -26893,7 +29597,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Utah Valley": {
    "conf": "BW",
@@ -26979,7 +29690,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Weber St.": {
    "conf": "BSky",
@@ -27065,7 +29783,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Fresno St.": {
    "conf": "P12",
@@ -27151,7 +29876,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UC San Diego": {
    "conf": "BW",
@@ -27237,7 +29969,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Sacramento St.": {
    "conf": "BW",
@@ -27323,7 +30062,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Santa Clara": {
    "conf": "WCC",
@@ -27409,7 +30155,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Portland St.": {
    "conf": "BSky",
@@ -27495,7 +30248,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Seattle": {
    "conf": "WCC",
@@ -27581,7 +30341,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "San Jose St.": {
    "conf": "MWC",
@@ -27667,7 +30434,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "UC Irvine": {
    "conf": "BW",
@@ -27753,7 +30527,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "St. John's": {
    "conf": "BE",
@@ -27843,7 +30624,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.69,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 14.7,
+     "margin": 39,
+     "opp": "Iona",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Arkansas": {
    "conf": "SEC",
@@ -27933,7 +30726,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -18.62,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Siena": {
    "conf": "MC",
@@ -28023,7 +30823,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 17.36,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 17.4,
+     "margin": 14,
+     "opp": "Princeton",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Southeast Missouri": {
    "conf": "OVC",
@@ -28113,7 +30925,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 6.56,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 6.6,
+     "margin": -10,
+     "opp": "South Carolina",
+     "date": "2026-11-08"
+    }
+   }
   },
   "South Carolina": {
    "conf": "SEC",
@@ -28203,7 +31027,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -6.56,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Campbell": {
    "conf": "CAA",
@@ -28293,7 +31124,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -11.35,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Western Michigan": {
    "conf": "MAC",
@@ -28383,7 +31221,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 11.35,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 11.3,
+     "margin": 16,
+     "opp": "Campbell",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Dartmouth": {
    "conf": "Ivy",
@@ -28473,7 +31323,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -14.33,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Butler": {
    "conf": "BE",
@@ -28563,7 +31420,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -14.82,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Boise St.": {
    "conf": "P12",
@@ -28653,7 +31517,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.82,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 14.8,
+     "margin": 19,
+     "opp": "Butler",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Drake": {
    "conf": "MVC",
@@ -28743,7 +31619,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -6.19,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Western Kentucky": {
    "conf": "CUSA",
@@ -28833,7 +31716,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.88,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Tennessee Tech": {
    "conf": "SC",
@@ -28923,7 +31813,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 9.88,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 9.9,
+     "margin": 3,
+     "opp": "Western Kentucky",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Air Force": {
    "conf": "MWC",
@@ -29013,7 +31915,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.65,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.7,
+     "margin": 7,
+     "opp": "Idaho St.",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Saint Mary's": {
    "conf": "WCC",
@@ -29103,7 +32017,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -2.85,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Nevada": {
    "conf": "MWC",
@@ -29193,7 +32114,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.85,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.9,
+     "margin": 1,
+     "opp": "Saint Mary's",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Richmond": {
    "conf": "A10",
@@ -29283,7 +32216,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 25.07,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 25.1,
+     "margin": 26,
+     "opp": "Temple",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Temple": {
    "conf": "Amer",
@@ -29373,7 +32318,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -25.07,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Norfolk St.": {
    "conf": "MEAC",
@@ -29463,7 +32415,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -23.54,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "William & Mary": {
    "conf": "CAA",
@@ -29553,7 +32512,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 23.54,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 23.5,
+     "margin": 31,
+     "opp": "Norfolk St.",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Cal St. Bakersfield": {
    "conf": "BW",
@@ -29643,7 +32614,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 16.0,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 16.0,
+     "margin": 11,
+     "opp": "North Dakota St.",
+     "date": "2026-11-08"
+    }
+   }
   },
   "UTEP": {
    "conf": "MWC",
@@ -29733,7 +32716,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 10.2,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 10.2,
+     "margin": 19,
+     "opp": "Incarnate Word",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Houston": {
    "conf": "B12",
@@ -29823,7 +32818,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 2.04,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 2.0,
+     "margin": 18,
+     "opp": "California",
+     "date": "2026-11-08"
+    }
+   }
   },
   "USC": {
    "conf": "B10",
@@ -29913,7 +32920,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.23,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Wichita St.": {
    "conf": "Amer",
@@ -30003,7 +33017,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 0.23,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.2,
+     "margin": -7,
+     "opp": "USC",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Hawaii": {
    "conf": "MWC",
@@ -30095,7 +33121,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 2,
+    "sum": -15.2,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 0.1,
+     "margin": 9,
+     "opp": "UT Arlington",
+     "date": "2026-11-08"
+    }
+   }
   },
   "Grambling St.": {
    "conf": "SWAC",
@@ -30185,7 +33223,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -0.27,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Radford": {
    "conf": "BSth",
@@ -30275,7 +33320,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 5.66,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 5.7,
+     "margin": -23,
+     "opp": "Tennessee",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Tennessee": {
    "conf": "SEC",
@@ -30365,7 +33422,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -5.66,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Columbia": {
    "conf": "Ivy",
@@ -30455,7 +33519,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 7.57,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 7.6,
+     "margin": 20,
+     "opp": "Stonehill",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Cleveland St.": {
    "conf": "Horz",
@@ -30545,7 +33621,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -4.67,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Bowling Green": {
    "conf": "MAC",
@@ -30635,7 +33718,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 4.67,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 4.7,
+     "margin": 16,
+     "opp": "Cleveland St.",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Florida Gulf Coast": {
    "conf": "ASun",
@@ -30725,7 +33820,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 12.02,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 12.0,
+     "margin": -8,
+     "opp": "Georgia",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Florida A&M": {
    "conf": "SWAC",
@@ -30815,7 +33922,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.97,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Louisiana Tech": {
    "conf": "SB",
@@ -30905,7 +34019,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -24.45,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Louisiana Monroe": {
    "conf": "SB",
@@ -30995,7 +34116,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -9.1,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "North Alabama": {
    "conf": "UAC",
@@ -31085,7 +34213,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 14.54,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 14.5,
+     "margin": -9,
+     "opp": "Oklahoma",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Illinois St.": {
    "conf": "MVC",
@@ -31175,7 +34315,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.84,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Appalachian St.": {
    "conf": "SB",
@@ -31265,7 +34412,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -1.49,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Auburn": {
    "conf": "SEC",
@@ -31355,7 +34509,19 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": 1.49,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 1.5,
+     "margin": 22,
+     "opp": "Appalachian St.",
+     "date": "2026-11-09"
+    }
+   }
   },
   "Alabama A&M": {
    "conf": "SWAC",
@@ -31445,7 +34611,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -17.66,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Washington": {
    "conf": "B10",
@@ -31535,7 +34708,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 1,
+    "sum": -19.45,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Duquesne": {
    "conf": "A10",
@@ -31621,7 +34801,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Bradley": {
    "conf": "MVC",
@@ -31707,7 +34894,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Harvard": {
    "conf": "Ivy",
@@ -31793,7 +34987,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Eastern Kentucky": {
    "conf": "UAC",
@@ -31879,7 +35080,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Loyola Marymount": {
    "conf": "WCC",
@@ -31965,7 +35173,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Army": {
    "conf": "PL",
@@ -32051,7 +35266,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Central Michigan": {
    "conf": "MAC",
@@ -32137,7 +35359,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Charleston Southern": {
    "conf": "BSth",
@@ -32223,7 +35452,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Maryland Eastern Shore": {
    "conf": "MEAC",
@@ -32309,7 +35545,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Texas St.": {
    "conf": "P12",
@@ -32395,7 +35638,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Belmont": {
    "conf": "MVC",
@@ -32481,7 +35731,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Utah Tech": {
    "conf": "BSky",
@@ -32567,7 +35824,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   },
   "Montana": {
    "conf": "BSky",
@@ -32653,7 +35917,14 @@
     "massey": 0.169,
     "cbbd": 0.166
    },
-   "tbasis": "D1"
+   "tbasis": "D1",
+   "dawg": {
+    "n": 0,
+    "sum": 0.0,
+    "beat": 0,
+    "whoop": 0,
+    "best": null
+   }
   }
  },
  "standing_notes": [],
@@ -33047,7 +36318,7 @@
      "dratings": 154.5,
      "massey": 152.5
     },
-    "market": 26.5
+    "market": 25.5
    },
    {
     "id": "2026-11-10-little-rock-new-mexico",
@@ -33557,7 +36828,7 @@
      "dratings": 148.5,
      "massey": 147.5
     },
-    "market": 5.5
+    "market": 6.5
    },
    {
     "id": "2026-11-10-virginia-tech-iowa",
@@ -34003,6 +37274,534 @@
    "massey": 0.169,
    "cbbd": 0.166
   },
-  "d1_total_basis": "D1"
- }
+  "d1_total_basis": "D1",
+  "dawgs": [
+   {
+    "team": "LSU",
+    "conf": "SEC",
+    "n": 2,
+    "score": 6.9,
+    "avg": 20.7,
+    "beat": 2,
+    "whoop": 2,
+    "best": {
+     "over": 24.4,
+     "margin": 40,
+     "opp": "Louisiana Tech",
+     "date": "2026-11-09"
+    },
+    "last": [
+     16.9,
+     24.4
+    ],
+    "rank": 1,
+    "badge": false
+   },
+   {
+    "team": "Syracuse",
+    "conf": "ACC",
+    "n": 2,
+    "score": 6.0,
+    "avg": 18.0,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 34.3,
+     "margin": 53,
+     "opp": "Central Connecticut",
+     "date": "2026-11-05"
+    },
+    "last": [
+     34.3,
+     1.6
+    ],
+    "rank": 2,
+    "badge": false
+   },
+   {
+    "team": "Mississippi St.",
+    "conf": "SEC",
+    "n": 2,
+    "score": 5.7,
+    "avg": 17.0,
+    "beat": 2,
+    "whoop": 2,
+    "best": {
+     "over": 17.8,
+     "margin": 38,
+     "opp": "Northwestern St.",
+     "date": "2026-11-05"
+    },
+    "last": [
+     17.8,
+     16.1
+    ],
+    "rank": 3,
+    "badge": false
+   },
+   {
+    "team": "South Carolina St.",
+    "conf": "MEAC",
+    "n": 2,
+    "score": 5.6,
+    "avg": 16.7,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 18.7,
+     "margin": 15,
+     "opp": "Chicago St.",
+     "date": "2026-11-09"
+    },
+    "last": [
+     14.8,
+     18.7
+    ],
+    "rank": 4,
+    "badge": false
+   },
+   {
+    "team": "Mississippi Valley St.",
+    "conf": "SWAC",
+    "n": 2,
+    "score": 4.8,
+    "avg": 14.3,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 19.5,
+     "margin": -13,
+     "opp": "Washington",
+     "date": "2026-11-09"
+    },
+    "last": [
+     9.2,
+     19.4
+    ],
+    "rank": 5,
+    "badge": false
+   },
+   {
+    "team": "Texas A&M",
+    "conf": "SEC",
+    "n": 2,
+    "score": 4.4,
+    "avg": 13.2,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 17.3,
+     "margin": 37,
+     "opp": "Northern Kentucky",
+     "date": "2026-11-06"
+    },
+    "last": [
+     17.3,
+     9.1
+    ],
+    "rank": 6,
+    "badge": false
+   },
+   {
+    "team": "Green Bay",
+    "conf": "Horz",
+    "n": 2,
+    "score": 3.8,
+    "avg": 11.5,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 18.3,
+     "margin": 9,
+     "opp": "St. Thomas",
+     "date": "2026-11-08"
+    },
+    "last": [
+     4.7,
+     18.3
+    ],
+    "rank": 7,
+    "badge": false
+   },
+   {
+    "team": "North Dakota",
+    "conf": "Sum",
+    "n": 2,
+    "score": 3.3,
+    "avg": 10.0,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 12.1,
+     "margin": 3,
+     "opp": "Winthrop",
+     "date": "2026-11-07"
+    },
+    "last": [
+     12.1,
+     7.8
+    ],
+    "rank": 8,
+    "badge": false
+   },
+   {
+    "team": "UMass Lowell",
+    "conf": "AE",
+    "n": 2,
+    "score": 3.1,
+    "avg": 9.3,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 16.3,
+     "margin": 10,
+     "opp": "Merrimack",
+     "date": "2026-11-05"
+    },
+    "last": [
+     16.3,
+     2.3
+    ],
+    "rank": 9,
+    "badge": false
+   },
+   {
+    "team": "Oregon St.",
+    "conf": "P12",
+    "n": 2,
+    "score": 3.0,
+    "avg": 8.9,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 17.2,
+     "margin": 28,
+     "opp": "California",
+     "date": "2026-11-06"
+    },
+    "last": [
+     17.2,
+     0.6
+    ],
+    "rank": 10,
+    "badge": false
+   },
+   {
+    "team": "Binghamton",
+    "conf": "AE",
+    "n": 2,
+    "score": 2.9,
+    "avg": 8.6,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 11.2,
+     "margin": 3,
+     "opp": "Saint Peter's",
+     "date": "2026-11-05"
+    },
+    "last": [
+     11.2,
+     6.0
+    ],
+    "rank": 11,
+    "badge": false
+   },
+   {
+    "team": "Virginia",
+    "conf": "ACC",
+    "n": 2,
+    "score": 2.8,
+    "avg": 8.5,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 18.6,
+     "margin": 19,
+     "opp": "Arkansas",
+     "date": "2026-11-08"
+    },
+    "last": [
+     -1.5,
+     18.6
+    ],
+    "rank": 12,
+    "badge": false
+   },
+   {
+    "team": "DePaul",
+    "conf": "BE",
+    "n": 2,
+    "score": 2.7,
+    "avg": 8.1,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 17.7,
+     "margin": 37,
+     "opp": "Alabama A&M",
+     "date": "2026-11-09"
+    },
+    "last": [
+     -1.4,
+     17.7
+    ],
+    "rank": 13,
+    "badge": false
+   },
+   {
+    "team": "Jacksonville",
+    "conf": "ASun",
+    "n": 2,
+    "score": 2.4,
+    "avg": 7.2,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 13.8,
+     "margin": 18,
+     "opp": "Kansas City",
+     "date": "2026-11-09"
+    },
+    "last": [
+     0.6,
+     13.8
+    ],
+    "rank": 14,
+    "badge": false
+   },
+   {
+    "team": "Texas",
+    "conf": "SEC",
+    "n": 2,
+    "score": 2.3,
+    "avg": 7.0,
+    "beat": 2,
+    "whoop": 1,
+    "best": {
+     "over": 13.7,
+     "margin": 48,
+     "opp": "Gardner Webb",
+     "date": "2026-11-05"
+    },
+    "last": [
+     13.7,
+     0.3
+    ],
+    "rank": 15,
+    "badge": false
+   },
+   {
+    "team": "Towson",
+    "conf": "CAA",
+    "n": 2,
+    "score": 2.0,
+    "avg": 6.1,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.5,
+     "margin": 20,
+     "opp": "LIU",
+     "date": "2026-11-09"
+    },
+    "last": [
+     -0.3,
+     12.5
+    ],
+    "rank": 16,
+    "badge": false
+   },
+   {
+    "team": "Bellarmine",
+    "conf": "ASun",
+    "n": 2,
+    "score": 2.0,
+    "avg": 5.9,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 9.1,
+     "margin": -7,
+     "opp": "Miami OH",
+     "date": "2026-11-07"
+    },
+    "last": [
+     2.8,
+     9.1
+    ],
+    "rank": 17,
+    "badge": false
+   },
+   {
+    "team": "Connecticut",
+    "conf": "BE",
+    "n": 2,
+    "score": 1.9,
+    "avg": 5.8,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 6.7,
+     "margin": 42,
+     "opp": "Wagner",
+     "date": "2026-11-09"
+    },
+    "last": [
+     4.8,
+     6.7
+    ],
+    "rank": 18,
+    "badge": false
+   },
+   {
+    "team": "Minnesota",
+    "conf": "B10",
+    "n": 2,
+    "score": 1.9,
+    "avg": 5.7,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 9.8,
+     "margin": 2,
+     "opp": "Cincinnati",
+     "date": "2026-11-09"
+    },
+    "last": [
+     1.7,
+     9.8
+    ],
+    "rank": 19,
+    "badge": false
+   },
+   {
+    "team": "Quinnipiac",
+    "conf": "MC",
+    "n": 2,
+    "score": 1.9,
+    "avg": 5.7,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 8.0,
+     "margin": 3,
+     "opp": "Vermont",
+     "date": "2026-11-08"
+    },
+    "last": [
+     3.4,
+     8.0
+    ],
+    "rank": 20,
+    "badge": false
+   },
+   {
+    "team": "Illinois Chicago",
+    "conf": "MVC",
+    "n": 2,
+    "score": 1.8,
+    "avg": 5.4,
+    "beat": 1,
+    "whoop": 1,
+    "best": {
+     "over": 12.6,
+     "margin": 23,
+     "opp": "Robert Morris",
+     "date": "2026-11-06"
+    },
+    "last": [
+     12.6,
+     -1.9
+    ],
+    "rank": 21,
+    "badge": false
+   },
+   {
+    "team": "Portland",
+    "conf": "WCC",
+    "n": 2,
+    "score": 1.8,
+    "avg": 5.4,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 15.2,
+     "margin": 7,
+     "opp": "Hawaii",
+     "date": "2026-11-09"
+    },
+    "last": [
+     -4.5,
+     15.2
+    ],
+    "rank": 22,
+    "badge": false
+   },
+   {
+    "team": "Boston University",
+    "conf": "PL",
+    "n": 2,
+    "score": 1.4,
+    "avg": 4.3,
+    "beat": 1,
+    "whoop": 0,
+    "best": {
+     "over": 8.9,
+     "margin": 5,
+     "opp": "Brown",
+     "date": "2026-11-06"
+    },
+    "last": [
+     8.9,
+     -0.2
+    ],
+    "rank": 23,
+    "badge": false
+   },
+   {
+    "team": "Stanford",
+    "conf": "ACC",
+    "n": 2,
+    "score": 1.3,
+    "avg": 3.9,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 5.0,
+     "margin": 18,
+     "opp": "Oakland",
+     "date": "2026-11-06"
+    },
+    "last": [
+     5.0,
+     2.9
+    ],
+    "rank": 24,
+    "badge": false
+   },
+   {
+    "team": "Notre Dame",
+    "conf": "ACC",
+    "n": 2,
+    "score": 1.2,
+    "avg": 3.6,
+    "beat": 2,
+    "whoop": 0,
+    "best": {
+     "over": 7.0,
+     "margin": 27,
+     "opp": "Mercyhurst",
+     "date": "2026-11-05"
+    },
+    "last": [
+     7.0,
+     0.3
+    ],
+    "rank": 25,
+    "badge": false
+   }
+  ]
+ },
+ "dawg_since": "2026-11-10"
 }
