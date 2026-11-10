@@ -1,11 +1,10 @@
 {
- "collected_at": "2026-11-09T16:04:03-05:00",
+ "collected_at": "2026-11-09T21:48:16-05:00",
  "date": "2026-11-09",
  "espn_finals_2026-11-08": {
-  "ok": true,
-  "secs": 0.2,
-  "games": 36,
-  "final": 36
+  "ok": false,
+  "error": "SSLError: HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261108&groups=50&limit=500 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)'))",
+  "trace": "ams, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/api.py\", line 71, in request\n    return session.request(method=method, url=url, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py\", line 727, in send\n    raise SSLError(e, request=request)\nrequests.exceptions.SSLError: HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261108&groups=50&limit=500 (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)')))\n"
  },
  "espn_finals_2026-11-07": {
   "ok": true,
@@ -21,9 +20,9 @@
  },
  "espn": {
   "ok": true,
-  "secs": 18.9,
+  "secs": 1.2,
   "games": 50,
-  "predictors": 49
+  "predictors": 3
  },
  "torvik": {
   "ok": false,
@@ -32,26 +31,26 @@
  },
  "cbbd": {
   "ok": true,
-  "secs": 0.9,
+  "secs": 1.1,
   "teams_rated": 0,
-  "teams_with_stats": 492
+  "teams_with_stats": 503
  },
  "haslametrics": {
   "ok": true,
-  "secs": 14.3,
+  "secs": 12.5,
   "chars": 71515,
   "has_outcomes": true
  },
  "dratings": {
   "ok": true,
-  "secs": 3.9,
+  "secs": 2.3,
   "pages": 2,
-  "chars": 231057
+  "chars": 204107
  },
  "massey": {
   "ok": true,
-  "secs": 10.0,
-  "chars": 5656,
+  "secs": 10.6,
+  "chars": 5626,
   "json_responses": 6
  }
 }

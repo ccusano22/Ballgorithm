@@ -1,8 +1,8 @@
 {
  "date": "2026-11-09",
- "generated_at": "2026-11-09T16:05:16-05:00",
+ "generated_at": "2026-11-09T21:48:48-05:00",
  "notes": [
-  "34 D1 games on the board. Coverage: Torvik 0, Haslametrics 31, ESPN 34, DRatings 32, Massey 28, CBBD 0, DraftKings lines 34.",
+  "34 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 2, ESPN 3, DRatings 1, Massey 3, CBBD 0, DraftKings lines 3.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
   "16 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
@@ -131,7 +131,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 42, 6.7 better our number",
+    "tags": [],
+    "score": [
+     41,
+     83
+    ],
+    "model_err": 6.69,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 4.44,
+     "espn": 13.43,
+     "dratings": 7.5,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 17.8,
+     "dratings": 12.5,
+     "massey": 14.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 14.8
+   }
   },
   {
    "id": "2026-11-09-grambling-st-texas",
@@ -254,7 +277,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 31, on our number",
+    "tags": [],
+    "score": [
+     62,
+     93
+    ],
+    "model_err": 0.27,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 2.34,
+     "espn": 3.14,
+     "dratings": 1.9,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 0.1,
+     "dratings": 1.9,
+     "massey": 6.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 2.8
+   }
   },
   {
    "id": "2026-11-09-louisiana-monroe-texas-a-m",
@@ -499,124 +545,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-09-mississippi-valley-st-washington",
-   "away": "Mississippi Valley St.",
-   "home": "Washington",
-   "away_conf": "SWAC",
-   "home_conf": "B10",
-   "short": {},
-   "neutral": false,
-   "site": "at Washington",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "BTN",
-   "sources": {
-    "massey": {
-     "margin": 39.5,
-     "total": 146.5,
-     "note": "Published median margin: Washington by 39.5, total 146.5."
+   "result": {
+    "label": "Won by 38, 9.2 better our number",
+    "tags": [],
+    "score": [
+     51,
+     89
+    ],
+    "model_err": 9.17,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 4.31,
+     "espn": 12.2,
+     "dratings": 8.3,
+     "massey": 12.5
     },
-    "espn": {
-     "margin": 25.4,
-     "derived": true,
-     "note": "BPI matchup predictor: Washington 98.9% to win, converted to points at ±11.09."
+    "src_tot_err": {
+     "hasla": 21.4,
+     "dratings": 20.7,
+     "massey": 24.5
     },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -33.5,
-    "total": 154.5,
-    "book": "Draft Kings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.159,
-      "dratings": 0.173,
-      "massey": 0.158,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.159,
-      "dratings": 0.173,
-      "massey": 0.158,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "espn": 0.503,
-     "massey": 0.497
-    },
-    "used_total": {
-     "massey": 1.0
-    }
-   },
-   "blend": {
-    "margin": 32.41,
-    "src_sd": 7.05,
-    "model_sd": 11.45,
-    "sd": 13.45,
-    "p_home": 0.992,
-    "p_sd": 0.0065,
-    "total": 146.5,
-    "total_sd": 16.8,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Washington",
-    "dog": "Mississippi Valley St.",
-    "p": 0.992,
-    "margin": 32.41,
-    "lock": true
-   },
-   "momentum": {
-    "Mississippi Valley St.": {
-     "n": 1,
-     "avg": 9.2,
-     "last": [
-      9.2
-     ],
-     "flag": null
-    },
-    "Washington": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 22.2
+   }
   },
   {
    "id": "2026-11-09-radford-tennessee",
@@ -737,7 +689,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 23, 5.7 short of our number",
+    "tags": [],
+    "score": [
+     47,
+     70
+    ],
+    "model_err": 5.66,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 12.41,
+     "espn": 2.03,
+     "dratings": 0.5,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 35.3,
+     "dratings": 36.1,
+     "massey": 31.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 34.3
+   }
   },
   {
    "id": "2026-11-09-oakland-alabama",
@@ -863,7 +838,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 41, 15.2 better our number",
+    "tags": [],
+    "score": [
+     68,
+     109
+    ],
+    "model_err": 15.16,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 9.61,
+     "espn": 19.45,
+     "dratings": 18.4,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 1.4,
+     "dratings": 3.2,
+     "massey": 7.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.1
+   }
   },
   {
    "id": "2026-11-09-north-alabama-oklahoma",
@@ -1111,7 +1109,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 24, on our number",
+    "tags": [],
+    "score": [
+     70,
+     94
+    ],
+    "model_err": 0.26,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 4.06,
+     "espn": 1.22,
+     "dratings": 3.6,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 18.7,
+     "dratings": 22.8,
+     "massey": 22.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 21.4
+   }
   },
   {
    "id": "2026-11-09-jackson-st-mississippi-st",
@@ -1236,7 +1257,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 41, 16.1 better our number",
+    "tags": [],
+    "score": [
+     57,
+     98
+    ],
+    "model_err": 16.14,
+    "src_err": {
+     "market": 17.5,
+     "hasla": 9.94,
+     "espn": 18.22,
+     "dratings": 23.0,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 6.1,
+     "dratings": 2.6,
+     "massey": 0.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 2.6
+   }
   },
   {
    "id": "2026-11-09-north-dakota-clemson",
@@ -1361,7 +1405,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 15, 7.8 short of our number",
+    "tags": [],
+    "score": [
+     77,
+     92
+    ],
+    "model_err": 7.8,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 12.22,
+     "espn": 6.19,
+     "dratings": 4.1,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 19.3,
+     "dratings": 17.7,
+     "massey": 19.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 18.8
+   }
   },
   {
    "id": "2026-11-09-siue-missouri",
@@ -1732,7 +1799,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 10, 11.1 short of our number",
+    "tags": [],
+    "score": [
+     74,
+     84
+    ],
+    "model_err": 11.07,
+    "src_err": {
+     "market": 15.5,
+     "hasla": 17.31,
+     "espn": 8.8,
+     "dratings": 8.2,
+     "massey": 9.5
+    },
+    "src_tot_err": {
+     "hasla": 2.7,
+     "dratings": 4.6,
+     "massey": 1.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 2.0
+   }
   },
   {
    "id": "2026-11-09-florida-gulf-coast-georgia",
@@ -1855,7 +1945,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 12.0 short of our number",
+    "tags": [],
+    "score": [
+     72,
+     80
+    ],
+    "model_err": 12.02,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 15.03,
+     "espn": 11.29,
+     "dratings": 10.1,
+     "massey": 11.5
+    },
+    "src_tot_err": {
+     "hasla": 10.3,
+     "dratings": 12.1,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.3
+   }
   },
   {
    "id": "2026-11-09-alabama-a-m-depaul",
@@ -2101,7 +2214,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 28, 10.0 better our number",
+    "tags": [],
+    "score": [
+     64,
+     92
+    ],
+    "model_err": 9.97,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 6.86,
+     "espn": 9.65,
+     "dratings": 14.8,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 3.8,
+     "dratings": 0.0,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 0.7
+   }
   },
   {
    "id": "2026-11-09-boston-university-northwestern",
@@ -2360,131 +2496,6 @@
    }
   },
   {
-   "id": "2026-11-09-rice-stanford",
-   "away": "Rice",
-   "home": "Stanford",
-   "away_conf": "Amer",
-   "home_conf": "ACC",
-   "short": {},
-   "neutral": false,
-   "site": "at Stanford",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "ACCNX",
-   "sources": {
-    "hasla": {
-     "margin": 15.46,
-     "total": 148.0,
-     "note": "Published projection: Rice 66.3, Stanford 81.8."
-    },
-    "dratings": {
-     "margin": 15.3,
-     "total": 145.5,
-     "note": "Published projection: Rice 65.1, Stanford 80.4."
-    },
-    "massey": {
-     "margin": 14.5,
-     "total": 147.5,
-     "note": "Published median margin: Stanford by 14.5, total 147.5."
-    },
-    "espn": {
-     "margin": 15.15,
-     "derived": true,
-     "note": "BPI matchup predictor: Stanford 91.4% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -18.5,
-    "total": 144.5,
-    "book": "Draft Kings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.159,
-      "dratings": 0.173,
-      "massey": 0.158,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.159,
-      "dratings": 0.173,
-      "massey": 0.158,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "hasla": 0.266,
-     "espn": 0.239,
-     "dratings": 0.259,
-     "massey": 0.236
-    },
-    "used_total": {
-     "hasla": 0.31,
-     "dratings": 0.355,
-     "massey": 0.334
-    }
-   },
-   "blend": {
-    "margin": 15.12,
-    "src_sd": 0.36,
-    "model_sd": 11.45,
-    "sd": 11.46,
-    "p_home": 0.9065,
-    "p_sd": 0.0054,
-    "total": 146.9,
-    "total_sd": 16.8,
-    "baseline_total": 143.5,
-    "lean": "near",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Stanford",
-    "dog": "Rice",
-    "p": 0.9065,
-    "margin": 15.12,
-    "lock": true
-   },
-   "momentum": {
-    "Rice": {
-     "n": 1,
-     "avg": -8.3,
-     "last": [
-      -8.3
-     ],
-     "flag": null
-    },
-    "Stanford": {
-     "n": 1,
-     "avg": 5.0,
-     "last": [
-      5.0
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
-  },
-  {
    "id": "2026-11-09-stonehill-columbia",
    "away": "Stonehill",
    "home": "Columbia",
@@ -2605,7 +2616,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 20, 7.6 better our number",
+    "tags": [],
+    "score": [
+     55,
+     75
+    ],
+    "model_err": 7.57,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 4.29,
+     "espn": 6.8,
+     "dratings": 9.9,
+     "massey": 9.5
+    },
+    "src_tot_err": {
+     "hasla": 17.0,
+     "dratings": 13.1,
+     "massey": 14.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 14.8
+   }
   },
   {
    "id": "2026-11-09-unc-greensboro-illinois-chicago",
@@ -2727,7 +2761,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Won by 10, 1.9 short of our number",
+    "tags": [],
+    "score": [
+     72,
+     82
+    ],
+    "model_err": 1.88,
+    "src_err": {
+     "market": 9.5,
+     "espn": 2.81,
+     "dratings": 4.1,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "dratings": 3.9,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.7
+   }
   },
   {
    "id": "2026-11-09-cleveland-st-bowling-green",
@@ -2848,7 +2903,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Won by 16, 4.7 better our number",
+    "tags": [],
+    "score": [
+     79,
+     95
+    ],
+    "model_err": 4.67,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 2.53,
+     "espn": 3.13,
+     "dratings": 4.8,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 13.1,
+     "dratings": 15.2,
+     "massey": 17.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 15.3
+   }
   },
   {
    "id": "2026-11-09-usc-upstate-coastal-carolina",
@@ -2970,129 +3048,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±3%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-09-portland-hawaii",
-   "away": "Portland",
-   "home": "Hawaii",
-   "away_conf": "WCC",
-   "home_conf": "MWC",
-   "short": {},
-   "neutral": false,
-   "site": "at Hawaii",
-   "tip": "11:59 PM ET",
-   "tip_sort": 1439,
-   "tv": "MW+",
-   "sources": {
-    "hasla": {
-     "margin": 10.11,
-     "total": 156.1,
-     "note": "Published projection: Portland 73.0, Hawaii 83.1."
+   "result": {
+    "label": "Won by 9, on our number",
+    "tags": [],
+    "score": [
+     56,
+     65
+    ],
+    "model_err": 0.33,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 0.97,
+     "espn": 1.9,
+     "dratings": 0.2
     },
-    "massey": {
-     "margin": 5.5,
-     "total": 151.5,
-     "note": "Published median margin: Hawaii by 5.5, total 151.5."
+    "src_tot_err": {
+     "hasla": 26.6,
+     "dratings": 27.0
     },
-    "espn": {
-     "margin": 8.9,
-     "derived": true,
-     "note": "BPI matchup predictor: Hawaii 78.9% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -8.5,
-    "total": 156.5,
-    "book": "Draft Kings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.159,
-      "dratings": 0.173,
-      "massey": 0.158,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.159,
-      "dratings": 0.173,
-      "massey": 0.158,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "hasla": 0.358,
-     "espn": 0.323,
-     "massey": 0.319
-    },
-    "used_total": {
-     "hasla": 0.481,
-     "massey": 0.519
-    }
-   },
-   "blend": {
-    "margin": 8.25,
-    "src_sd": 1.95,
-    "model_sd": 11.45,
-    "sd": 11.62,
-    "p_home": 0.7612,
-    "p_sd": 0.0542,
-    "total": 153.7,
-    "total_sd": 16.8,
-    "baseline_total": 153.5,
-    "lean": "near",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "Hawaii",
-    "dog": "Portland",
-    "p": 0.7612,
-    "margin": 8.25,
-    "lock": false
-   },
-   "momentum": {
-    "Portland": {
-     "n": 1,
-     "avg": -4.5,
-     "last": [
-      -4.5
-     ],
-     "flag": null
-    },
-    "Hawaii": {
-     "n": 1,
-     "avg": 0.1,
-     "last": [
-      0.1
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "3 core systems agree (win chance ±5%)",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 26.8
+   }
   },
   {
    "id": "2026-11-09-eastern-washington-oregon-st",
@@ -3342,7 +3319,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 2",
+    "tags": [],
+    "score": [
+     63,
+     61
+    ],
+    "model_err": 9.77,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 7.77,
+     "espn": 12.98,
+     "dratings": 10.0,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 16.5,
+     "dratings": 17.2,
+     "massey": 13.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 15.7
+   }
   },
   {
    "id": "2026-11-09-liu-towson",
@@ -3468,7 +3468,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 20, 12.5 better our number",
+    "tags": [],
+    "score": [
+     46,
+     66
+    ],
+    "model_err": 12.47,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 14.78,
+     "espn": 10.63,
+     "dratings": 14.5,
+     "massey": 9.5
+    },
+    "src_tot_err": {
+     "hasla": 29.0,
+     "dratings": 26.9,
+     "massey": 26.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 27.4
+   }
   },
   {
    "id": "2026-11-09-howard-penn",
@@ -3593,7 +3616,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 13, 6.2 better our number",
+    "tags": [],
+    "score": [
+     65,
+     78
+    ],
+    "model_err": 6.23,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 3.79,
+     "espn": 6.86,
+     "dratings": 7.0,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 15.3,
+     "dratings": 11.0,
+     "massey": 10.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.2
+   }
   },
   {
    "id": "2026-11-09-seton-hall-charlotte",
@@ -3837,7 +3883,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 3, 1.6 short of our number",
+    "tags": [],
+    "score": [
+     80,
+     83
+    ],
+    "model_err": 1.61,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 0.01,
+     "espn": 2.22,
+     "dratings": 2.7
+    },
+    "src_tot_err": {
+     "hasla": 11.6,
+     "dratings": 15.1
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.5
+   }
   },
   {
    "id": "2026-11-09-kansas-city-jacksonville",
@@ -3959,7 +4026,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 18, 13.8 better our number",
+    "tags": [],
+    "score": [
+     61,
+     79
+    ],
+    "model_err": 13.76,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 13.79,
+     "espn": 15.08,
+     "dratings": 12.5
+    },
+    "src_tot_err": {
+     "hasla": 9.3,
+     "dratings": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 7.3
+   }
   },
   {
    "id": "2026-11-09-south-carolina-st-chicago-st",
@@ -4081,7 +4169,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 15",
+    "tags": [],
+    "score": [
+     82,
+     67
+    ],
+    "model_err": 18.71,
+    "src_err": {
+     "market": 16.5,
+     "espn": 17.52,
+     "dratings": 20.0,
+     "massey": 18.5
+    },
+    "src_tot_err": {
+     "dratings": 3.0,
+     "massey": 4.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 3.7
+   }
   },
   {
    "id": "2026-11-09-illinois-st-purdue",
@@ -4205,6 +4314,381 @@
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
    "result": null
+  },
+  {
+   "id": "2026-11-09-mississippi-valley-st-washington",
+   "away": "Mississippi Valley St.",
+   "home": "Washington",
+   "away_conf": "SWAC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Washington",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "BTN",
+   "sources": {
+    "massey": {
+     "margin": 39.5,
+     "total": 146.5,
+     "note": "Published median margin: Washington by 39.5, total 146.5."
+    },
+    "espn": {
+     "margin": 25.4,
+     "derived": true,
+     "note": "BPI matchup predictor: Washington 98.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -31.5,
+    "total": 153.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.179,
+      "espn": 0.159,
+      "dratings": 0.17,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.179,
+      "espn": 0.159,
+      "dratings": 0.17,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "espn": 0.5,
+     "massey": 0.5
+    },
+    "used_total": {
+     "massey": 1.0
+    }
+   },
+   "blend": {
+    "margin": 32.45,
+    "src_sd": 7.05,
+    "model_sd": 11.36,
+    "sd": 13.37,
+    "p_home": 0.9924,
+    "p_sd": 0.0062,
+    "total": 146.5,
+    "total_sd": 16.7,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 2
+   },
+   "pick": {
+    "team": "Washington",
+    "dog": "Mississippi Valley St.",
+    "p": 0.9924,
+    "margin": 32.45,
+    "lock": true
+   },
+   "momentum": {
+    "Mississippi Valley St.": {
+     "n": 1,
+     "avg": 9.2,
+     "last": [
+      9.2
+     ],
+     "flag": null
+    },
+    "Washington": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-09-rice-stanford",
+   "away": "Rice",
+   "home": "Stanford",
+   "away_conf": "Amer",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Stanford",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "ACCNX",
+   "sources": {
+    "hasla": {
+     "margin": 15.46,
+     "total": 148.0,
+     "note": "Published projection: Rice 66.3, Stanford 81.8."
+    },
+    "dratings": {
+     "margin": 15.3,
+     "total": 145.5,
+     "note": "Published projection: Rice 65.1, Stanford 80.4."
+    },
+    "massey": {
+     "margin": 14.5,
+     "total": 147.5,
+     "note": "Published median margin: Stanford by 14.5, total 147.5."
+    },
+    "espn": {
+     "margin": 15.15,
+     "derived": true,
+     "note": "BPI matchup predictor: Stanford 91.4% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 146.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.179,
+      "espn": 0.159,
+      "dratings": 0.17,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.179,
+      "espn": 0.159,
+      "dratings": 0.17,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.269,
+     "espn": 0.238,
+     "dratings": 0.255,
+     "massey": 0.238
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 15.12,
+    "src_sd": 0.36,
+    "model_sd": 11.36,
+    "sd": 11.37,
+    "p_home": 0.9082,
+    "p_sd": 0.0054,
+    "total": 146.9,
+    "total_sd": 16.7,
+    "baseline_total": 143.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Stanford",
+    "dog": "Rice",
+    "p": 0.9082,
+    "margin": 15.12,
+    "lock": true
+   },
+   "momentum": {
+    "Rice": {
+     "n": 1,
+     "avg": -8.3,
+     "last": [
+      -8.3
+     ],
+     "flag": null
+    },
+    "Stanford": {
+     "n": 1,
+     "avg": 5.0,
+     "last": [
+      5.0
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-09-rice-stanford",
+    "team": "Rice",
+    "side": "away",
+    "spread": 18.5,
+    "spread_home": -18.5,
+    "edge": 3.38,
+    "cover_p": 0.6169,
+    "agree": 4,
+    "n": 4
+   }
+  },
+  {
+   "id": "2026-11-09-portland-hawaii",
+   "away": "Portland",
+   "home": "Hawaii",
+   "away_conf": "WCC",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": false,
+   "site": "at Hawaii",
+   "tip": "11:59 PM ET",
+   "tip_sort": 1439,
+   "tv": "MW+",
+   "sources": {
+    "hasla": {
+     "margin": 10.11,
+     "total": 156.1,
+     "note": "Published projection: Portland 73.0, Hawaii 83.1."
+    },
+    "massey": {
+     "margin": 5.5,
+     "total": 151.5,
+     "note": "Published median margin: Hawaii by 5.5, total 151.5."
+    },
+    "espn": {
+     "margin": 8.9,
+     "derived": true,
+     "note": "BPI matchup predictor: Hawaii 78.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -8.5,
+    "total": 156.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.179,
+      "espn": 0.159,
+      "dratings": 0.17,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.179,
+      "espn": 0.159,
+      "dratings": 0.17,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.361,
+     "espn": 0.32,
+     "massey": 0.319
+    },
+    "used_total": {
+     "hasla": 0.476,
+     "massey": 0.524
+    }
+   },
+   "blend": {
+    "margin": 8.25,
+    "src_sd": 1.95,
+    "model_sd": 11.36,
+    "sd": 11.53,
+    "p_home": 0.763,
+    "p_sd": 0.0544,
+    "total": 153.7,
+    "total_sd": 16.7,
+    "baseline_total": 153.5,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Hawaii",
+    "dog": "Portland",
+    "p": 0.763,
+    "margin": 8.25,
+    "lock": false
+   },
+   "momentum": {
+    "Portland": {
+     "n": 1,
+     "avg": -4.5,
+     "last": [
+      -4.5
+     ],
+     "flag": null
+    },
+    "Hawaii": {
+     "n": 1,
+     "avg": 0.1,
+     "last": [
+      0.1
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±5%)",
+   "result": null
   }
  ],
  "waiting": [],
@@ -4238,5 +4722,5 @@
   "Southern New Orleans Knights",
   "Washington Maryland Shoremen"
  ],
- "abridged": "THE BALLGORITHM · NCAAM · Mon, Nov 9\n\nNOTES\n- 34 D1 games on the board. Coverage: Torvik 0, Haslametrics 31, ESPN 34, DRatings 32, Massey 28, CBBD 0, DraftKings lines 34.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 16 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-4)\nLouisiana Tech +29.5 vs LSU — our number LSU −15.6, 4 of 4 sources on this side, 88% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nConnecticut >99% · −35.3 ±12.3 vs Wagner · total 139\nTexas >99% · −30.7 ±11.7 vs Grambling St. · total 152\nTexas A&M >99% · −31.9 ±12.2 vs Louisiana Monroe · total 165\nMiami FL 99% · −28.8 ±11.9 vs North Florida · total 162\nWashington 99% · −32.4 ±13.4 vs Mississippi Valley St. · total 146\nTennessee 99% · −28.7 ±12.5 vs Radford · total 151\nAlabama 98% · −25.8 ±12.1 vs Oakland · total 173\nOklahoma 98% · −23.5 ±11.5 vs North Alabama · total 150\nNotre Dame 98% · −23.7 ±11.8 vs Eastern Illinois · total 143\nMississippi St. 98% · −24.9 ±12.5 vs Jackson St. · total 158\nClemson 97% · −22.8 ±11.8 vs North Dakota · total 150\nMissouri 97% · −22.2 ±11.6 vs SIUE · total 146\nAuburn 96% · −20.5 ±11.6 vs Appalachian St. · total 144\nOhio St. 96% · −21.1 ±12.0 vs Marshall · total 160\nGeorgia 96% · −20.0 ±11.6 vs Florida Gulf Coast · total 161\nDePaul 95% · −19.3 ±11.6 vs Alabama A&M · total 142\nUAB 94% · −18.0 ±11.8 vs Florida A&M · total 155\nNorthwestern 92% · −16.8 ±11.8 vs Boston University · total 144\nLSU 91% · −15.6 ±11.7 vs Louisiana Tech · total 147\nStanford 91% · −15.1 ±11.5 vs Rice · total 147\nColumbia 86% · −12.4 ±11.7 vs Stonehill · total 145\nIllinois Chicago 84% · −11.9 ±11.7 vs UNC Greensboro · total 149\nBowling Green 83% · −11.3 ±11.7 vs Cleveland St. · total 159\nCoastal Carolina 77% · −8.7 ±11.5 vs USC Upstate · total 148\nHawaii 76% · −8.2 ±11.6 vs Portland · total 154\nMid\nOregon St. 79% · −9.4 ±11.8 vs Eastern Washington · total 156\nCincinnati 75% · −7.8 ±11.6 vs Minnesota · total 140\nTowson 74% · −7.5 ±11.7 vs LIU · total 139\nPenn 72% · −6.8 ±11.5 vs Howard · total 155\nSeton Hall 72% · −6.6 ±11.4 vs Charlotte (N) · total 135\nIndiana 66% · −4.6 ±11.5 vs Syracuse (N) · total 150\nJacksonville 64% · −4.2 ±11.5 vs Kansas City · total 147\nChicago St. 63% · −3.7 ±11.5 vs South Carolina St. · total 145\nWeak\nPurdue 90% · −15.2 ±11.7 vs Illinois St. · total 147"
+ "abridged": "THE BALLGORITHM · NCAAM · Mon, Nov 9\n\nNOTES\n- 34 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 2, ESPN 3, DRatings 1, Massey 3, CBBD 0, DraftKings lines 3.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 16 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nRESULTS\nConnecticut −35.3: Won by 42, 6.7 better our number (final Wagner 41, Connecticut 83)\nTexas −30.7: Won by 31, on our number (final Grambling St. 62, Texas 93)\nMiami FL −28.8: Won by 38, 9.2 better our number (final North Florida 51, Miami FL 89)\nTennessee −28.7: Won by 23, 5.7 short of our number (final Radford 47, Tennessee 70)\nAlabama −25.8: Won by 41, 15.2 better our number (final Oakland 68, Alabama 109)\nNotre Dame −23.7: Won by 24, on our number (final Eastern Illinois 70, Notre Dame 94)\nMississippi St. −24.9: Won by 41, 16.1 better our number (final Jackson St. 57, Mississippi St. 98)\nClemson −22.8: Won by 15, 7.8 short of our number (final North Dakota 77, Clemson 92)\nOhio St. −21.1: Won by 10, 11.1 short of our number (final Marshall 74, Ohio St. 84)\nGeorgia −20.0: Won by 8, 12.0 short of our number (final Florida Gulf Coast 72, Georgia 80)\nUAB −18.0: Won by 28, 10.0 better our number (final Florida A&M 64, UAB 92)\nColumbia −12.4: Won by 20, 7.6 better our number (final Stonehill 55, Columbia 75)\nIllinois Chicago −11.9: Won by 10, 1.9 short of our number (final UNC Greensboro 72, Illinois Chicago 82)\nBowling Green −11.3: Won by 16, 4.7 better our number (final Cleveland St. 79, Bowling Green 95)\nCoastal Carolina −8.7: Won by 9, on our number (final USC Upstate 56, Coastal Carolina 65)\nCincinnati −7.8: Lost by 2 (final Minnesota 63, Cincinnati 61)\nTowson −7.5: Won by 20, 12.5 better our number (final LIU 46, Towson 66)\nPenn −6.8: Won by 13, 6.2 better our number (final Howard 65, Penn 78)\nIndiana −4.6: Won by 3, 1.6 short of our number (final Syracuse 80, Indiana 83)\nJacksonville −4.2: Won by 18, 13.8 better our number (final Kansas City 61, Jacksonville 79)\nChicago St. −3.7: Lost by 15 (final South Carolina St. 82, Chicago St. 67)\n\nHAMMER OF THE DAY vs DraftKings (0-4)\nLouisiana Tech +29.5 vs LSU — our number LSU −15.6, 4 of 4 sources on this side, 88% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nConnecticut >99% · −35.3 ±12.3 vs Wagner · total 139\nTexas >99% · −30.7 ±11.7 vs Grambling St. · total 152\nTexas A&M >99% · −31.9 ±12.2 vs Louisiana Monroe · total 165\nMiami FL 99% · −28.8 ±11.9 vs North Florida · total 162\nTennessee 99% · −28.7 ±12.5 vs Radford · total 151\nAlabama 98% · −25.8 ±12.1 vs Oakland · total 173\nOklahoma 98% · −23.5 ±11.5 vs North Alabama · total 150\nNotre Dame 98% · −23.7 ±11.8 vs Eastern Illinois · total 143\nMississippi St. 98% · −24.9 ±12.5 vs Jackson St. · total 158\nClemson 97% · −22.8 ±11.8 vs North Dakota · total 150\nMissouri 97% · −22.2 ±11.6 vs SIUE · total 146\nAuburn 96% · −20.5 ±11.6 vs Appalachian St. · total 144\nOhio St. 96% · −21.1 ±12.0 vs Marshall · total 160\nGeorgia 96% · −20.0 ±11.6 vs Florida Gulf Coast · total 161\nDePaul 95% · −19.3 ±11.6 vs Alabama A&M · total 142\nUAB 94% · −18.0 ±11.8 vs Florida A&M · total 155\nNorthwestern 92% · −16.8 ±11.8 vs Boston University · total 144\nLSU 91% · −15.6 ±11.7 vs Louisiana Tech · total 147\nColumbia 86% · −12.4 ±11.7 vs Stonehill · total 145\nIllinois Chicago 84% · −11.9 ±11.7 vs UNC Greensboro · total 149\nBowling Green 83% · −11.3 ±11.7 vs Cleveland St. · total 159\nCoastal Carolina 77% · −8.7 ±11.5 vs USC Upstate · total 148\nWashington 99% · −32.5 ±13.4 vs Mississippi Valley St. · total 146\nStanford 91% · −15.1 ±11.4 vs Rice · total 147\nHawaii 76% · −8.2 ±11.5 vs Portland · total 154\nMid\nOregon St. 79% · −9.4 ±11.8 vs Eastern Washington · total 156\nCincinnati 75% · −7.8 ±11.6 vs Minnesota · total 140\nTowson 74% · −7.5 ±11.7 vs LIU · total 139\nPenn 72% · −6.8 ±11.5 vs Howard · total 155\nSeton Hall 72% · −6.6 ±11.4 vs Charlotte (N) · total 135\nIndiana 66% · −4.6 ±11.5 vs Syracuse (N) · total 150\nJacksonville 64% · −4.2 ±11.5 vs Kansas City · total 147\nChicago St. 63% · −3.7 ±11.5 vs South Carolina St. · total 145\nWeak\nPurdue 90% · −15.2 ±11.7 vs Illinois St. · total 147"
 }
