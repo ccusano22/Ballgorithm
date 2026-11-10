@@ -2,6 +2,7 @@
  "date": "2026-11-09",
  "generated_at": "2026-11-09T21:48:48-05:00",
  "notes": [
+  "GRADED: 31-3 picking winners (91%), average margin miss 8.7. Hammer Louisiana Tech +29.5: loss.",
   "34 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 2, ESPN 3, DRatings 1, Massey 3, CBBD 0, DraftKings lines 3.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
@@ -420,7 +421,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 41, 9.1 better our number",
+    "tags": [],
+    "score": [
+     67,
+     108
+    ],
+    "model_err": 9.1,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 5.06,
+     "espn": 14.77,
+     "dratings": 8.0
+    },
+    "src_tot_err": {
+     "hasla": 11.6,
+     "dratings": 7.8
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.6
+   }
   },
   {
    "id": "2026-11-09-north-florida-miami-fl",
@@ -984,7 +1006,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 9, 14.5 short of our number",
+    "tags": [],
+    "score": [
+     72,
+     81
+    ],
+    "model_err": 14.54,
+    "src_err": {
+     "market": 19.5,
+     "hasla": 14.25,
+     "espn": 14.25,
+     "dratings": 13.3,
+     "massey": 16.5
+    },
+    "src_tot_err": {
+     "hasla": 4.9,
+     "dratings": 4.3,
+     "massey": 1.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.5
+   }
   },
   {
    "id": "2026-11-09-eastern-illinois-notre-dame",
@@ -1553,7 +1598,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 38, 15.8 better our number",
+    "tags": [],
+    "score": [
+     58,
+     96
+    ],
+    "model_err": 15.77,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 13.99,
+     "espn": 17.46,
+     "dratings": 17.2,
+     "massey": 14.5
+    },
+    "src_tot_err": {
+     "hasla": 8.7,
+     "dratings": 6.6,
+     "massey": 7.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 7.6
+   }
   },
   {
    "id": "2026-11-09-appalachian-st-auburn",
@@ -1674,7 +1742,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 22, 1.5 better our number",
+    "tags": [],
+    "score": [
+     53,
+     75
+    ],
+    "model_err": 1.49,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 0.62,
+     "espn": 3.31,
+     "dratings": 3.8,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 14.6,
+     "dratings": 16.6,
+     "massey": 17.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 16.3
+   }
   },
   {
    "id": "2026-11-09-marshall-ohio-st",
@@ -2091,7 +2182,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 37, 17.7 better our number",
+    "tags": [],
+    "score": [
+     47,
+     84
+    ],
+    "model_err": 17.66,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 17.22,
+     "espn": 19.07,
+     "dratings": 19.7,
+     "massey": 14.5
+    },
+    "src_tot_err": {
+     "hasla": 13.6,
+     "dratings": 7.9,
+     "massey": 13.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 11.5
+   }
   },
   {
    "id": "2026-11-09-florida-a-m-uab",
@@ -2359,7 +2473,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 17, on our number",
+    "tags": [],
+    "score": [
+     55,
+     72
+    ],
+    "model_err": 0.21,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 3.64,
+     "espn": 0.8,
+     "dratings": 3.6
+    },
+    "src_tot_err": {
+     "hasla": 17.9,
+     "dratings": 16.6
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 17.2
+   }
   },
   {
    "id": "2026-11-09-louisiana-tech-lsu",
@@ -2482,7 +2617,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null,
+   "result": {
+    "label": "Won by 40, 24.4 better our number",
+    "tags": [],
+    "score": [
+     50,
+     90
+    ],
+    "model_err": 24.45,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 22.06,
+     "espn": 26.74,
+     "dratings": 22.0,
+     "massey": 27.5
+    },
+    "src_tot_err": {
+     "hasla": 5.1,
+     "dratings": 10.4,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": "loss",
+    "total_err": 6.8
+   },
    "hammer": {
     "id": "2026-11-09-louisiana-tech-lsu",
     "team": "Louisiana Tech",
@@ -3194,7 +3352,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+   "result": {
+    "label": "Won by 10, 0.6 better our number",
+    "tags": [],
+    "score": [
+     84,
+     94
+    ],
+    "model_err": 0.62,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 1.37,
+     "espn": 0.39,
+     "dratings": 1.6,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 20.7,
+     "dratings": 19.8,
+     "massey": 25.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.0
+   }
   },
   {
    "id": "2026-11-09-minnesota-cincinnati",
@@ -3761,7 +3942,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 6, 0.6 short of our number",
+    "tags": [],
+    "score": [
+     68,
+     62
+    ],
+    "model_err": 0.63,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 0.35,
+     "espn": 0.86,
+     "dratings": 0.7
+    },
+    "src_tot_err": {
+     "hasla": 8.9,
+     "dratings": 2.1
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.3
+   }
   },
   {
    "id": "2026-11-09-syracuse-indiana",
@@ -4313,7 +4515,30 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 17, 1.8 better our number",
+    "tags": [],
+    "score": [
+     59,
+     76
+    ],
+    "model_err": 1.84,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 1.17,
+     "espn": 5.17,
+     "dratings": 2.5,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 10.6,
+     "dratings": 11.7,
+     "massey": 14.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.3
+   }
   },
   {
    "id": "2026-11-09-mississippi-valley-st-washington",
@@ -4430,7 +4655,26 @@
    },
    "tier": "Strong",
    "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 13, 19.5 short of our number",
+    "tags": [],
+    "score": [
+     64,
+     77
+    ],
+    "model_err": 19.45,
+    "src_err": {
+     "market": 18.5,
+     "espn": 12.4,
+     "massey": 26.5
+    },
+    "src_tot_err": {
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.5
+   }
   },
   {
    "id": "2026-11-09-rice-stanford",
@@ -4555,7 +4799,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null,
+   "result": {
+    "label": "Won by 18, 2.9 better our number",
+    "tags": [],
+    "score": [
+     73,
+     91
+    ],
+    "model_err": 2.88,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 2.54,
+     "espn": 2.85,
+     "dratings": 2.7,
+     "massey": 3.5
+    },
+    "src_tot_err": {
+     "hasla": 16.0,
+     "dratings": 18.5,
+     "massey": 16.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 17.1
+   },
    "hammer": {
     "id": "2026-11-09-rice-stanford",
     "team": "Rice",
@@ -4688,7 +4955,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Lost by 7",
+    "tags": [],
+    "score": [
+     73,
+     66
+    ],
+    "model_err": 15.25,
+    "src_err": {
+     "market": 15.5,
+     "hasla": 17.11,
+     "espn": 15.9,
+     "massey": 12.5
+    },
+    "src_tot_err": {
+     "hasla": 17.1,
+     "massey": 12.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 14.7
+   }
   }
  ],
  "waiting": [],
@@ -4703,7 +4991,7 @@
   "agree": 4,
   "n": 4
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Baptist (Fl) Eagles",
   "Bethesda Flames",
@@ -4722,5 +5010,5 @@
   "Southern New Orleans Knights",
   "Washington Maryland Shoremen"
  ],
- "abridged": "THE BALLGORITHM · NCAAM · Mon, Nov 9\n\nNOTES\n- 34 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 2, ESPN 3, DRatings 1, Massey 3, CBBD 0, DraftKings lines 3.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 16 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nRESULTS\nConnecticut −35.3: Won by 42, 6.7 better our number (final Wagner 41, Connecticut 83)\nTexas −30.7: Won by 31, on our number (final Grambling St. 62, Texas 93)\nMiami FL −28.8: Won by 38, 9.2 better our number (final North Florida 51, Miami FL 89)\nTennessee −28.7: Won by 23, 5.7 short of our number (final Radford 47, Tennessee 70)\nAlabama −25.8: Won by 41, 15.2 better our number (final Oakland 68, Alabama 109)\nNotre Dame −23.7: Won by 24, on our number (final Eastern Illinois 70, Notre Dame 94)\nMississippi St. −24.9: Won by 41, 16.1 better our number (final Jackson St. 57, Mississippi St. 98)\nClemson −22.8: Won by 15, 7.8 short of our number (final North Dakota 77, Clemson 92)\nOhio St. −21.1: Won by 10, 11.1 short of our number (final Marshall 74, Ohio St. 84)\nGeorgia −20.0: Won by 8, 12.0 short of our number (final Florida Gulf Coast 72, Georgia 80)\nUAB −18.0: Won by 28, 10.0 better our number (final Florida A&M 64, UAB 92)\nColumbia −12.4: Won by 20, 7.6 better our number (final Stonehill 55, Columbia 75)\nIllinois Chicago −11.9: Won by 10, 1.9 short of our number (final UNC Greensboro 72, Illinois Chicago 82)\nBowling Green −11.3: Won by 16, 4.7 better our number (final Cleveland St. 79, Bowling Green 95)\nCoastal Carolina −8.7: Won by 9, on our number (final USC Upstate 56, Coastal Carolina 65)\nCincinnati −7.8: Lost by 2 (final Minnesota 63, Cincinnati 61)\nTowson −7.5: Won by 20, 12.5 better our number (final LIU 46, Towson 66)\nPenn −6.8: Won by 13, 6.2 better our number (final Howard 65, Penn 78)\nIndiana −4.6: Won by 3, 1.6 short of our number (final Syracuse 80, Indiana 83)\nJacksonville −4.2: Won by 18, 13.8 better our number (final Kansas City 61, Jacksonville 79)\nChicago St. −3.7: Lost by 15 (final South Carolina St. 82, Chicago St. 67)\n\nHAMMER OF THE DAY vs DraftKings (0-4)\nLouisiana Tech +29.5 vs LSU — our number LSU −15.6, 4 of 4 sources on this side, 88% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nConnecticut >99% · −35.3 ±12.3 vs Wagner · total 139\nTexas >99% · −30.7 ±11.7 vs Grambling St. · total 152\nTexas A&M >99% · −31.9 ±12.2 vs Louisiana Monroe · total 165\nMiami FL 99% · −28.8 ±11.9 vs North Florida · total 162\nTennessee 99% · −28.7 ±12.5 vs Radford · total 151\nAlabama 98% · −25.8 ±12.1 vs Oakland · total 173\nOklahoma 98% · −23.5 ±11.5 vs North Alabama · total 150\nNotre Dame 98% · −23.7 ±11.8 vs Eastern Illinois · total 143\nMississippi St. 98% · −24.9 ±12.5 vs Jackson St. · total 158\nClemson 97% · −22.8 ±11.8 vs North Dakota · total 150\nMissouri 97% · −22.2 ±11.6 vs SIUE · total 146\nAuburn 96% · −20.5 ±11.6 vs Appalachian St. · total 144\nOhio St. 96% · −21.1 ±12.0 vs Marshall · total 160\nGeorgia 96% · −20.0 ±11.6 vs Florida Gulf Coast · total 161\nDePaul 95% · −19.3 ±11.6 vs Alabama A&M · total 142\nUAB 94% · −18.0 ±11.8 vs Florida A&M · total 155\nNorthwestern 92% · −16.8 ±11.8 vs Boston University · total 144\nLSU 91% · −15.6 ±11.7 vs Louisiana Tech · total 147\nColumbia 86% · −12.4 ±11.7 vs Stonehill · total 145\nIllinois Chicago 84% · −11.9 ±11.7 vs UNC Greensboro · total 149\nBowling Green 83% · −11.3 ±11.7 vs Cleveland St. · total 159\nCoastal Carolina 77% · −8.7 ±11.5 vs USC Upstate · total 148\nWashington 99% · −32.5 ±13.4 vs Mississippi Valley St. · total 146\nStanford 91% · −15.1 ±11.4 vs Rice · total 147\nHawaii 76% · −8.2 ±11.5 vs Portland · total 154\nMid\nOregon St. 79% · −9.4 ±11.8 vs Eastern Washington · total 156\nCincinnati 75% · −7.8 ±11.6 vs Minnesota · total 140\nTowson 74% · −7.5 ±11.7 vs LIU · total 139\nPenn 72% · −6.8 ±11.5 vs Howard · total 155\nSeton Hall 72% · −6.6 ±11.4 vs Charlotte (N) · total 135\nIndiana 66% · −4.6 ±11.5 vs Syracuse (N) · total 150\nJacksonville 64% · −4.2 ±11.5 vs Kansas City · total 147\nChicago St. 63% · −3.7 ±11.5 vs South Carolina St. · total 145\nWeak\nPurdue 90% · −15.2 ±11.7 vs Illinois St. · total 147"
+ "abridged": "THE BALLGORITHM · NCAAM · Mon, Nov 9\n\nNOTES\n- GRADED: 31-3 picking winners (91%), average margin miss 8.7. Hammer Louisiana Tech +29.5: loss.\n- 34 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 2, ESPN 3, DRatings 1, Massey 3, CBBD 0, DraftKings lines 3.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 16 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nRESULTS\nConnecticut −35.3: Won by 42, 6.7 better our number (final Wagner 41, Connecticut 83)\nTexas −30.7: Won by 31, on our number (final Grambling St. 62, Texas 93)\nTexas A&M −31.9: Won by 41, 9.1 better our number (final Louisiana Monroe 67, Texas A&M 108)\nMiami FL −28.8: Won by 38, 9.2 better our number (final North Florida 51, Miami FL 89)\nTennessee −28.7: Won by 23, 5.7 short of our number (final Radford 47, Tennessee 70)\nAlabama −25.8: Won by 41, 15.2 better our number (final Oakland 68, Alabama 109)\nOklahoma −23.5: Won by 9, 14.5 short of our number (final North Alabama 72, Oklahoma 81)\nNotre Dame −23.7: Won by 24, on our number (final Eastern Illinois 70, Notre Dame 94)\nMississippi St. −24.9: Won by 41, 16.1 better our number (final Jackson St. 57, Mississippi St. 98)\nClemson −22.8: Won by 15, 7.8 short of our number (final North Dakota 77, Clemson 92)\nMissouri −22.2: Won by 38, 15.8 better our number (final SIUE 58, Missouri 96)\nAuburn −20.5: Won by 22, 1.5 better our number (final Appalachian St. 53, Auburn 75)\nOhio St. −21.1: Won by 10, 11.1 short of our number (final Marshall 74, Ohio St. 84)\nGeorgia −20.0: Won by 8, 12.0 short of our number (final Florida Gulf Coast 72, Georgia 80)\nDePaul −19.3: Won by 37, 17.7 better our number (final Alabama A&M 47, DePaul 84)\nUAB −18.0: Won by 28, 10.0 better our number (final Florida A&M 64, UAB 92)\nNorthwestern −16.8: Won by 17, on our number (final Boston University 55, Northwestern 72)\nLSU −15.6: Won by 40, 24.4 better our number (final Louisiana Tech 50, LSU 90)\nColumbia −12.4: Won by 20, 7.6 better our number (final Stonehill 55, Columbia 75)\nIllinois Chicago −11.9: Won by 10, 1.9 short of our number (final UNC Greensboro 72, Illinois Chicago 82)\nBowling Green −11.3: Won by 16, 4.7 better our number (final Cleveland St. 79, Bowling Green 95)\nCoastal Carolina −8.7: Won by 9, on our number (final USC Upstate 56, Coastal Carolina 65)\nOregon St. −9.4: Won by 10, 0.6 better our number (final Eastern Washington 84, Oregon St. 94)\nCincinnati −7.8: Lost by 2 (final Minnesota 63, Cincinnati 61)\nTowson −7.5: Won by 20, 12.5 better our number (final LIU 46, Towson 66)\nPenn −6.8: Won by 13, 6.2 better our number (final Howard 65, Penn 78)\nSeton Hall −6.6: Won by 6, 0.6 short of our number (final Seton Hall 68, Charlotte 62)\nIndiana −4.6: Won by 3, 1.6 short of our number (final Syracuse 80, Indiana 83)\nJacksonville −4.2: Won by 18, 13.8 better our number (final Kansas City 61, Jacksonville 79)\nChicago St. −3.7: Lost by 15 (final South Carolina St. 82, Chicago St. 67)\nPurdue −15.2: Won by 17, 1.8 better our number (final Illinois St. 59, Purdue 76)\nWashington −32.5: Won by 13, 19.5 short of our number (final Mississippi Valley St. 64, Washington 77)\nStanford −15.1: Won by 18, 2.9 better our number (final Rice 73, Stanford 91)\nHawaii −8.2: Lost by 7 (final Portland 73, Hawaii 66)\n\nHAMMER OF THE DAY vs DraftKings (0-5)\nLouisiana Tech +29.5 vs LSU — our number LSU −15.6, 4 of 4 sources on this side, 88% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nConnecticut >99% · −35.3 ±12.3 vs Wagner · total 139\nTexas >99% · −30.7 ±11.7 vs Grambling St. · total 152\nTexas A&M >99% · −31.9 ±12.2 vs Louisiana Monroe · total 165\nMiami FL 99% · −28.8 ±11.9 vs North Florida · total 162\nTennessee 99% · −28.7 ±12.5 vs Radford · total 151\nAlabama 98% · −25.8 ±12.1 vs Oakland · total 173\nOklahoma 98% · −23.5 ±11.5 vs North Alabama · total 150\nNotre Dame 98% · −23.7 ±11.8 vs Eastern Illinois · total 143\nMississippi St. 98% · −24.9 ±12.5 vs Jackson St. · total 158\nClemson 97% · −22.8 ±11.8 vs North Dakota · total 150\nMissouri 97% · −22.2 ±11.6 vs SIUE · total 146\nAuburn 96% · −20.5 ±11.6 vs Appalachian St. · total 144\nOhio St. 96% · −21.1 ±12.0 vs Marshall · total 160\nGeorgia 96% · −20.0 ±11.6 vs Florida Gulf Coast · total 161\nDePaul 95% · −19.3 ±11.6 vs Alabama A&M · total 142\nUAB 94% · −18.0 ±11.8 vs Florida A&M · total 155\nNorthwestern 92% · −16.8 ±11.8 vs Boston University · total 144\nLSU 91% · −15.6 ±11.7 vs Louisiana Tech · total 147\nColumbia 86% · −12.4 ±11.7 vs Stonehill · total 145\nIllinois Chicago 84% · −11.9 ±11.7 vs UNC Greensboro · total 149\nBowling Green 83% · −11.3 ±11.7 vs Cleveland St. · total 159\nCoastal Carolina 77% · −8.7 ±11.5 vs USC Upstate · total 148\nWashington 99% · −32.5 ±13.4 vs Mississippi Valley St. · total 146\nStanford 91% · −15.1 ±11.4 vs Rice · total 147\nHawaii 76% · −8.2 ±11.5 vs Portland · total 154\nMid\nOregon St. 79% · −9.4 ±11.8 vs Eastern Washington · total 156\nCincinnati 75% · −7.8 ±11.6 vs Minnesota · total 140\nTowson 74% · −7.5 ±11.7 vs LIU · total 139\nPenn 72% · −6.8 ±11.5 vs Howard · total 155\nSeton Hall 72% · −6.6 ±11.4 vs Charlotte (N) · total 135\nIndiana 66% · −4.6 ±11.5 vs Syracuse (N) · total 150\nJacksonville 64% · −4.2 ±11.5 vs Kansas City · total 147\nChicago St. 63% · −3.7 ±11.5 vs South Carolina St. · total 145\nWeak\nPurdue 90% · −15.2 ±11.7 vs Illinois St. · total 147"
 }

@@ -1,0 +1,6946 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T13:16:57-05:00",
+ "notes": [
+  "56 D1 games on the board. Coverage: Torvik 0, Haslametrics 50, ESPN 56, DRatings 51, Massey 45, CBBD 0, DraftKings lines 56.",
+  "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
+  "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
+  "13 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
+ ],
+ "games": [
+  {
+   "id": "2026-11-10-bucknell-virginia",
+   "away": "Bucknell",
+   "home": "Virginia",
+   "away_conf": "PL",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Virginia",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ACC Network",
+   "sources": {
+    "hasla": {
+     "margin": 34.1,
+     "total": 150.8,
+     "note": "Published projection: Bucknell 58.4, Virginia 92.5."
+    },
+    "dratings": {
+     "margin": 33.6,
+     "total": 148.0,
+     "note": "Published projection: Bucknell 57.2, Virginia 90.8."
+    },
+    "massey": {
+     "margin": 32.5,
+     "total": 144.5,
+     "note": "Published median margin: Virginia by 32.5, total 144.5."
+    },
+    "espn": {
+     "margin": 26.71,
+     "derived": true,
+     "note": "BPI matchup predictor: Virginia 99.2% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -38.5,
+    "total": 151.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 31.85,
+    "src_sd": 2.95,
+    "model_sd": 11.38,
+    "sd": 11.76,
+    "p_home": 0.9966,
+    "p_sd": 0.0034,
+    "total": 147.7,
+    "total_sd": 16.6,
+    "baseline_total": 155.0,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Virginia",
+    "dog": "Bucknell",
+    "p": 0.9966,
+    "margin": 31.85,
+    "lock": true
+   },
+   "momentum": {
+    "Bucknell": {
+     "n": 1,
+     "avg": -16.9,
+     "last": [
+      -16.9
+     ],
+     "flag": null
+    },
+    "Virginia": {
+     "n": 2,
+     "avg": 8.5,
+     "last": [
+      -1.5,
+      18.6
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±0%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-southern-iowa-st",
+   "away": "Southern",
+   "home": "Iowa St.",
+   "away_conf": "SWAC",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Iowa St.",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 33.74,
+     "total": 152.2,
+     "note": "Published projection: Southern 59.2, Iowa St. 93.0."
+    },
+    "dratings": {
+     "margin": 30.6,
+     "total": 149.8,
+     "note": "Published projection: Southern 59.6, Iowa St. 90.2."
+    },
+    "massey": {
+     "margin": 35.5,
+     "total": 149.5,
+     "note": "Published median margin: Iowa St. by 35.5, total 149.5."
+    },
+    "espn": {
+     "margin": 27.25,
+     "derived": true,
+     "note": "BPI matchup predictor: Iowa St. 99.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -35.5,
+    "total": 146.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 31.8,
+    "src_sd": 3.15,
+    "model_sd": 11.38,
+    "sd": 11.81,
+    "p_home": 0.9965,
+    "p_sd": 0.0029,
+    "total": 150.4,
+    "total_sd": 16.6,
+    "baseline_total": 145.8,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Iowa St.",
+    "dog": "Southern",
+    "p": 0.9965,
+    "margin": 31.8,
+    "lock": true
+   },
+   "momentum": {
+    "Southern": {
+     "n": 2,
+     "avg": -11.7,
+     "last": [
+      -29.6,
+      6.2
+     ],
+     "flag": null
+    },
+    "Iowa St.": {
+     "n": 1,
+     "avg": -1.5,
+     "last": [
+      -1.5
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±0%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-louisiana-monroe-tcu",
+   "away": "Louisiana Monroe",
+   "home": "TCU",
+   "away_conf": "SB",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at TCU",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 36.9,
+     "total": 159.1,
+     "note": "Published projection: Louisiana Monroe 61.1, TCU 98.0."
+    },
+    "dratings": {
+     "margin": 31.3,
+     "total": 159.5,
+     "note": "Published projection: Louisiana Monroe 64.1, TCU 95.4."
+    },
+    "espn": {
+     "margin": 27.25,
+     "derived": true,
+     "note": "BPI matchup predictor: TCU 99.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -33.5,
+    "total": 160.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": 32.04,
+    "src_sd": 3.96,
+    "model_sd": 11.38,
+    "sd": 12.05,
+    "p_home": 0.9961,
+    "p_sd": 0.0032,
+    "total": 159.3,
+    "total_sd": 16.6,
+    "baseline_total": 167.5,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "TCU",
+    "dog": "Louisiana Monroe",
+    "p": 0.9961,
+    "margin": 32.04,
+    "lock": true
+   },
+   "momentum": {
+    "Louisiana Monroe": {
+     "n": 1,
+     "avg": -9.1,
+     "last": [
+      -9.1
+     ],
+     "flag": null
+    },
+    "TCU": {
+     "n": 1,
+     "avg": 29.6,
+     "last": [
+      29.6
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±0%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-northern-arizona-arizona",
+   "away": "Northern Arizona",
+   "home": "Arizona",
+   "away_conf": "BSky",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Arizona",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "dratings": {
+     "margin": 35.2,
+     "total": 157.4,
+     "note": "Published projection: Northern Arizona 61.1, Arizona 96.3."
+    },
+    "massey": {
+     "margin": 36.5,
+     "total": 154.5,
+     "note": "Published median margin: Arizona by 36.5, total 154.5."
+    },
+    "espn": {
+     "margin": 25.8,
+     "derived": true,
+     "note": "BPI matchup predictor: Arizona 99.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -35.5,
+    "total": 156.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "espn": 0.326,
+     "dratings": 0.356,
+     "massey": 0.318
+    },
+    "used_total": {
+     "dratings": 0.514,
+     "massey": 0.486
+    }
+   },
+   "blend": {
+    "margin": 32.55,
+    "src_sd": 4.77,
+    "model_sd": 11.38,
+    "sd": 12.34,
+    "p_home": 0.9958,
+    "p_sd": 0.0051,
+    "total": 156.0,
+    "total_sd": 16.6,
+    "baseline_total": 173.5,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Arizona",
+    "dog": "Northern Arizona",
+    "p": 0.9958,
+    "margin": 32.55,
+    "lock": true
+   },
+   "momentum": {
+    "Northern Arizona": {
+     "n": 1,
+     "avg": -6.8,
+     "last": [
+      -6.8
+     ],
+     "flag": null
+    },
+    "Arizona": {
+     "n": 1,
+     "avg": -8.2,
+     "last": [
+      -8.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-queens-byu",
+   "away": "Queens",
+   "home": "BYU",
+   "away_conf": "ASun",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at BYU",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 31.81,
+     "total": 173.2,
+     "note": "Published projection: Queens 70.7, BYU 102.5."
+    },
+    "espn": {
+     "margin": 21.93,
+     "derived": true,
+     "note": "BPI matchup predictor: BYU 97.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -29.5,
+    "total": 181.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.536,
+     "espn": 0.464
+    },
+    "used_total": {
+     "hasla": 1.0
+    }
+   },
+   "blend": {
+    "margin": 27.22,
+    "src_sd": 4.94,
+    "model_sd": 11.38,
+    "sd": 12.41,
+    "p_home": 0.9859,
+    "p_sd": 0.0122,
+    "total": 173.2,
+    "total_sd": 16.6,
+    "baseline_total": 180.5,
+    "lean": "under",
+    "n_sources": 2
+   },
+   "pick": {
+    "team": "BYU",
+    "dog": "Queens",
+    "p": 0.9859,
+    "margin": 27.22,
+    "lock": true
+   },
+   "momentum": {
+    "Queens": {
+     "n": 1,
+     "avg": -32.0,
+     "last": [
+      -32.0
+     ],
+     "flag": null
+    },
+    "BYU": {
+     "n": 1,
+     "avg": 13.5,
+     "last": [
+      13.5
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-bryant-providence",
+   "away": "Bryant",
+   "home": "Providence",
+   "away_conf": "AE",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Providence",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 29.82,
+     "total": 150.7,
+     "note": "Published projection: Bryant 60.4, Providence 90.3."
+    },
+    "dratings": {
+     "margin": 26.0,
+     "total": 148.0,
+     "note": "Published projection: Bryant 61.0, Providence 87.0."
+    },
+    "massey": {
+     "margin": 23.5,
+     "total": 153.5,
+     "note": "Published median margin: Providence by 23.5, total 153.5."
+    },
+    "espn": {
+     "margin": 22.13,
+     "derived": true,
+     "note": "BPI matchup predictor: Providence 97.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -30.5,
+    "total": 149.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 25.55,
+    "src_sd": 2.92,
+    "model_sd": 11.38,
+    "sd": 11.75,
+    "p_home": 0.9852,
+    "p_sd": 0.0082,
+    "total": 150.7,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Providence",
+    "dog": "Bryant",
+    "p": 0.9852,
+    "margin": 25.55,
+    "lock": true
+   },
+   "momentum": {
+    "Bryant": {
+     "n": 2,
+     "avg": -5.5,
+     "last": [
+      -3.4,
+      -7.7
+     ],
+     "flag": null
+    },
+    "Providence": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-delaware-st-georgetown",
+   "away": "Delaware St.",
+   "home": "Georgetown",
+   "away_conf": "MEAC",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Georgetown",
+   "tip": "6:30 PM ET",
+   "tip_sort": 1110,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 30.94,
+     "total": 146.9,
+     "note": "Published projection: Delaware St. 58.0, Georgetown 88.9."
+    },
+    "dratings": {
+     "margin": 22.5,
+     "total": 139.7,
+     "note": "Published projection: Delaware St. 58.6, Georgetown 81.1."
+    },
+    "massey": {
+     "margin": 28.5,
+     "total": 141.5,
+     "note": "Published median margin: Georgetown by 28.5, total 141.5."
+    },
+    "espn": {
+     "margin": 21.19,
+     "derived": true,
+     "note": "BPI matchup predictor: Georgetown 97.2% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -30.5,
+    "total": 143.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 25.88,
+    "src_sd": 4.06,
+    "model_sd": 11.38,
+    "sd": 12.08,
+    "p_home": 0.9839,
+    "p_sd": 0.0118,
+    "total": 142.5,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Georgetown",
+    "dog": "Delaware St.",
+    "p": 0.9839,
+    "margin": 25.88,
+    "lock": true
+   },
+   "momentum": {
+    "Delaware St.": {
+     "n": 1,
+     "avg": 4.9,
+     "last": [
+      4.9
+     ],
+     "flag": null
+    },
+    "Georgetown": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-detroit-mercy-xavier",
+   "away": "Detroit Mercy",
+   "home": "Xavier",
+   "away_conf": "Horz",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Xavier",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 28.98,
+     "total": 159.5,
+     "note": "Published projection: Detroit Mercy 65.2, Xavier 94.2."
+    },
+    "dratings": {
+     "margin": 21.9,
+     "total": 158.5,
+     "note": "Published projection: Detroit Mercy 68.3, Xavier 90.2."
+    },
+    "massey": {
+     "margin": 24.5,
+     "total": 154.5,
+     "note": "Published median margin: Xavier by 24.5, total 154.5."
+    },
+    "espn": {
+     "margin": 23.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Xavier 98.4% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -34.5,
+    "total": 158.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 24.88,
+    "src_sd": 2.6,
+    "model_sd": 11.38,
+    "sd": 11.67,
+    "p_home": 0.9835,
+    "p_sd": 0.0077,
+    "total": 157.5,
+    "total_sd": 16.6,
+    "baseline_total": 127.0,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Xavier",
+    "dog": "Detroit Mercy",
+    "p": 0.9835,
+    "margin": 24.88,
+    "lock": true
+   },
+   "momentum": {
+    "Detroit Mercy": {
+     "n": 1,
+     "avg": -37.1,
+     "last": [
+      -37.1
+     ],
+     "flag": null
+    },
+    "Xavier": {
+     "n": 1,
+     "avg": 3.7,
+     "last": [
+      3.7
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-maryland-eastern-shore-boston-college",
+   "away": "Maryland Eastern Shore",
+   "home": "Boston College",
+   "away_conf": "MEAC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Boston College",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ACCNX",
+   "sources": {
+    "hasla": {
+     "margin": 25.67,
+     "total": 137.4,
+     "note": "Published projection: Maryland Eastern Shore 55.8, Boston College 81.5."
+    },
+    "massey": {
+     "margin": 23.5,
+     "total": 134.5,
+     "note": "Published median margin: Boston College by 23.5, total 134.5."
+    },
+    "espn": {
+     "margin": 20.7,
+     "derived": true,
+     "note": "BPI matchup predictor: Boston College 96.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -27.5,
+    "total": 128.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.369,
+     "espn": 0.32,
+     "massey": 0.311
+    },
+    "used_total": {
+     "hasla": 0.477,
+     "massey": 0.523
+    }
+   },
+   "blend": {
+    "margin": 23.41,
+    "src_sd": 2.03,
+    "model_sd": 11.38,
+    "sd": 11.56,
+    "p_home": 0.9785,
+    "p_sd": 0.0093,
+    "total": 135.9,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Boston College",
+    "dog": "Maryland Eastern Shore",
+    "p": 0.9785,
+    "margin": 23.41,
+    "lock": true
+   },
+   "momentum": {
+    "Maryland Eastern Shore": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Boston College": {
+     "n": 1,
+     "avg": 10.2,
+     "last": [
+      10.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-prairie-view-a-m-smu",
+   "away": "Prairie View A&M",
+   "home": "SMU",
+   "away_conf": "SWAC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at SMU",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ACCNX",
+   "sources": {
+    "dratings": {
+     "margin": 20.4,
+     "total": 160.4,
+     "note": "Published projection: Prairie View A&M 70.0, SMU 90.4."
+    },
+    "massey": {
+     "margin": 28.5,
+     "total": 156.5,
+     "note": "Published median margin: SMU by 28.5, total 156.5."
+    },
+    "espn": {
+     "margin": 21.93,
+     "derived": true,
+     "note": "BPI matchup predictor: SMU 97.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -26.5,
+    "total": 160.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "espn": 0.326,
+     "dratings": 0.356,
+     "massey": 0.318
+    },
+    "used_total": {
+     "dratings": 0.514,
+     "massey": 0.486
+    }
+   },
+   "blend": {
+    "margin": 23.47,
+    "src_sd": 3.51,
+    "model_sd": 11.38,
+    "sd": 11.91,
+    "p_home": 0.9756,
+    "p_sd": 0.0127,
+    "total": 158.5,
+    "total_sd": 16.6,
+    "baseline_total": 148.0,
+    "lean": "over",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "SMU",
+    "dog": "Prairie View A&M",
+    "p": 0.9756,
+    "margin": 23.47,
+    "lock": true
+   },
+   "momentum": {
+    "Prairie View A&M": {
+     "n": 1,
+     "avg": 6.9,
+     "last": [
+      6.9
+     ],
+     "flag": null
+    },
+    "SMU": {
+     "n": 1,
+     "avg": -0.5,
+     "last": [
+      -0.5
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-njit-rutgers",
+   "away": "NJIT",
+   "home": "Rutgers",
+   "away_conf": "AE",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Rutgers",
+   "tip": "6:30 PM ET",
+   "tip_sort": 1110,
+   "tv": "BTN",
+   "sources": {
+    "hasla": {
+     "margin": 26.07,
+     "total": 149.6,
+     "note": "Published projection: NJIT 61.8, Rutgers 87.8."
+    },
+    "dratings": {
+     "margin": 18.3,
+     "total": 142.9,
+     "note": "Published projection: NJIT 62.3, Rutgers 80.6."
+    },
+    "massey": {
+     "margin": 27.5,
+     "total": 141.5,
+     "note": "Published median margin: Rutgers by 27.5, total 141.5."
+    },
+    "espn": {
+     "margin": 21.74,
+     "derived": true,
+     "note": "BPI matchup predictor: Rutgers 97.5% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -24.5,
+    "total": 143.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 23.36,
+    "src_sd": 3.63,
+    "model_sd": 11.38,
+    "sd": 11.94,
+    "p_home": 0.9748,
+    "p_sd": 0.0183,
+    "total": 144.5,
+    "total_sd": 16.6,
+    "baseline_total": 124.2,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Rutgers",
+    "dog": "NJIT",
+    "p": 0.9748,
+    "margin": 23.36,
+    "lock": true
+   },
+   "momentum": {
+    "NJIT": {
+     "n": 2,
+     "avg": -4.1,
+     "last": [
+      -12.6,
+      4.3
+     ],
+     "flag": null
+    },
+    "Rutgers": {
+     "n": 1,
+     "avg": 4.0,
+     "last": [
+      4.0
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-southeastern-louisiana-mississippi",
+   "away": "Southeastern Louisiana",
+   "home": "Mississippi",
+   "away_conf": "Slnd",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": false,
+   "site": "at Mississippi",
+   "tip": "8:30 PM ET",
+   "tip_sort": 1230,
+   "tv": "SECN+",
+   "sources": {
+    "hasla": {
+     "margin": 25.53,
+     "total": 146.5,
+     "note": "Published projection: Southeastern Louisiana 60.5, Mississippi 86.0."
+    },
+    "dratings": {
+     "margin": 19.6,
+     "total": 146.8,
+     "note": "Published projection: Southeastern Louisiana 63.6, Mississippi 83.2."
+    },
+    "massey": {
+     "margin": 21.5,
+     "total": 144.5,
+     "note": "Published median margin: Mississippi by 21.5, total 144.5."
+    },
+    "espn": {
+     "margin": 22.13,
+     "derived": true,
+     "note": "BPI matchup predictor: Mississippi 97.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -26.5,
+    "total": 147.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 22.26,
+    "src_sd": 2.14,
+    "model_sd": 11.38,
+    "sd": 11.58,
+    "p_home": 0.9727,
+    "p_sd": 0.0107,
+    "total": 145.9,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Mississippi",
+    "dog": "Southeastern Louisiana",
+    "p": 0.9727,
+    "margin": 22.26,
+    "lock": true
+   },
+   "momentum": {
+    "Southeastern Louisiana": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Mississippi": {
+     "n": 1,
+     "avg": 14.7,
+     "last": [
+      14.7
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-fairfield-wisconsin",
+   "away": "Fairfield",
+   "home": "Wisconsin",
+   "away_conf": "MC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Wisconsin",
+   "tip": "8:30 PM ET",
+   "tip_sort": 1230,
+   "tv": "BTN",
+   "sources": {
+    "hasla": {
+     "margin": 23.59,
+     "total": 153.4,
+     "note": "Published projection: Fairfield 64.9, Wisconsin 88.5."
+    },
+    "dratings": {
+     "margin": 19.3,
+     "total": 150.1,
+     "note": "Published projection: Fairfield 65.4, Wisconsin 84.7."
+    },
+    "massey": {
+     "margin": 30.5,
+     "total": 149.5,
+     "note": "Published median margin: Wisconsin by 30.5, total 149.5."
+    },
+    "espn": {
+     "margin": 17.72,
+     "derived": true,
+     "note": "BPI matchup predictor: Wisconsin 94.5% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -25.5,
+    "total": 150.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 22.68,
+    "src_sd": 4.95,
+    "model_sd": 11.38,
+    "sd": 12.41,
+    "p_home": 0.9662,
+    "p_sd": 0.0218,
+    "total": 150.9,
+    "total_sd": 16.6,
+    "baseline_total": 136.8,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Wisconsin",
+    "dog": "Fairfield",
+    "p": 0.9662,
+    "margin": 22.68,
+    "lock": true
+   },
+   "momentum": {
+    "Fairfield": {
+     "n": 2,
+     "avg": -3.0,
+     "last": [
+      -13.6,
+      7.7
+     ],
+     "flag": null
+    },
+    "Wisconsin": {
+     "n": 1,
+     "avg": -13.2,
+     "last": [
+      -13.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-presbyterian-n-c-state",
+   "away": "Presbyterian",
+   "home": "N.C. State",
+   "away_conf": "BSth",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at N.C. State",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ACCNX",
+   "sources": {
+    "hasla": {
+     "margin": 22.45,
+     "total": 151.2,
+     "note": "Published projection: Presbyterian 64.4, N.C. State 86.8."
+    },
+    "dratings": {
+     "margin": 17.0,
+     "total": 149.0,
+     "note": "Published projection: Presbyterian 66.0, N.C. State 83.0."
+    },
+    "massey": {
+     "margin": 23.5,
+     "total": 149.5,
+     "note": "Published median margin: N.C. State by 23.5, total 149.5."
+    },
+    "espn": {
+     "margin": 20.39,
+     "derived": true,
+     "note": "BPI matchup predictor: N.C. State 96.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -19.5,
+    "total": 150.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 20.79,
+    "src_sd": 2.48,
+    "model_sd": 11.38,
+    "sd": 11.65,
+    "p_home": 0.9629,
+    "p_sd": 0.0188,
+    "total": 149.8,
+    "total_sd": 16.6,
+    "baseline_total": 154.0,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "N.C. State",
+    "dog": "Presbyterian",
+    "p": 0.9629,
+    "margin": 20.79,
+    "lock": true
+   },
+   "momentum": {
+    "Presbyterian": {
+     "n": 1,
+     "avg": 7.0,
+     "last": [
+      7.0
+     ],
+     "flag": null
+    },
+    "N.C. State": {
+     "n": 1,
+     "avg": -2.3,
+     "last": [
+      -2.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-alcorn-st-murray-st",
+   "away": "Alcorn St.",
+   "home": "Murray St.",
+   "away_conf": "SWAC",
+   "home_conf": "MVC",
+   "short": {},
+   "neutral": false,
+   "site": "at Murray St.",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 21.66,
+     "total": 166.5,
+     "note": "Published projection: Alcorn St. 72.4, Murray St. 94.1."
+    },
+    "dratings": {
+     "margin": 18.1,
+     "total": 162.1,
+     "note": "Published projection: Alcorn St. 72.0, Murray St. 90.1."
+    },
+    "massey": {
+     "margin": 18.5,
+     "total": 153.5,
+     "note": "Published median margin: Murray St. by 18.5, total 153.5."
+    },
+    "espn": {
+     "margin": 19.68,
+     "derived": true,
+     "note": "BPI matchup predictor: Murray St. 96.2% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -30.5,
+    "total": 165.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 19.54,
+    "src_sd": 1.38,
+    "model_sd": 11.38,
+    "sd": 11.46,
+    "p_home": 0.9559,
+    "p_sd": 0.0106,
+    "total": 160.6,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Murray St.",
+    "dog": "Alcorn St.",
+    "p": 0.9559,
+    "margin": 19.54,
+    "lock": true
+   },
+   "momentum": {
+    "Alcorn St.": {
+     "n": 1,
+     "avg": -5.0,
+     "last": [
+      -5.0
+     ],
+     "flag": null
+    },
+    "Murray St.": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-10-alcorn-st-murray-st",
+    "team": "Alcorn St.",
+    "side": "away",
+    "spread": 30.5,
+    "spread_home": -30.5,
+    "edge": 10.96,
+    "cover_p": 0.8306,
+    "agree": 4,
+    "n": 4
+   }
+  },
+  {
+   "id": "2026-11-10-la-salle-villanova",
+   "away": "La Salle",
+   "home": "Villanova",
+   "away_conf": "A10",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Villanova",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "truTV",
+   "sources": {
+    "hasla": {
+     "margin": 21.1,
+     "total": 148.6,
+     "note": "Published projection: La Salle 63.8, Villanova 84.9."
+    },
+    "dratings": {
+     "margin": 17.8,
+     "total": 154.2,
+     "note": "Published projection: La Salle 68.2, Villanova 86.0."
+    },
+    "massey": {
+     "margin": 19.5,
+     "total": 146.5,
+     "note": "Published median margin: Villanova by 19.5, total 146.5."
+    },
+    "espn": {
+     "margin": 19.04,
+     "derived": true,
+     "note": "BPI matchup predictor: Villanova 95.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -20.5,
+    "total": 159.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 19.39,
+    "src_sd": 1.18,
+    "model_sd": 11.38,
+    "sd": 11.44,
+    "p_home": 0.9549,
+    "p_sd": 0.0097,
+    "total": 149.9,
+    "total_sd": 16.6,
+    "baseline_total": 164.5,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Villanova",
+    "dog": "La Salle",
+    "p": 0.9549,
+    "margin": 19.39,
+    "lock": true
+   },
+   "momentum": {
+    "La Salle": {
+     "n": 1,
+     "avg": 1.2,
+     "last": [
+      1.2
+     ],
+     "flag": null
+    },
+    "Villanova": {
+     "n": 1,
+     "avg": -0.2,
+     "last": [
+      -0.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-utah-tech-utah-st",
+   "away": "Utah Tech",
+   "home": "Utah St.",
+   "away_conf": "BSky",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": false,
+   "site": "at Utah St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "YouTube",
+   "sources": {
+    "hasla": {
+     "margin": 20.02,
+     "total": 153.1,
+     "note": "Published projection: Utah Tech 66.5, Utah St. 86.5."
+    },
+    "dratings": {
+     "margin": 17.5,
+     "total": 154.5,
+     "note": "Published projection: Utah Tech 68.5, Utah St. 86.0."
+    },
+    "massey": {
+     "margin": 21.5,
+     "total": 152.5,
+     "note": "Published median margin: Utah St. by 21.5, total 152.5."
+    },
+    "espn": {
+     "margin": 18.13,
+     "derived": true,
+     "note": "BPI matchup predictor: Utah St. 94.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -26.5,
+    "total": 156.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 19.26,
+    "src_sd": 1.58,
+    "model_sd": 11.38,
+    "sd": 11.49,
+    "p_home": 0.9532,
+    "p_sd": 0.0129,
+    "total": 153.4,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Utah St.",
+    "dog": "Utah Tech",
+    "p": 0.9532,
+    "margin": 19.26,
+    "lock": true
+   },
+   "momentum": {
+    "Utah Tech": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Utah St.": {
+     "n": 1,
+     "avg": 12.7,
+     "last": [
+      12.7
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-little-rock-new-mexico",
+   "away": "Little Rock",
+   "home": "New Mexico",
+   "away_conf": "UAC",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": false,
+   "site": "at New Mexico",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "MW+",
+   "sources": {
+    "hasla": {
+     "margin": 19.17,
+     "total": 159.8,
+     "note": "Published projection: Little Rock 70.3, New Mexico 89.5."
+    },
+    "dratings": {
+     "margin": 17.5,
+     "total": 154.9,
+     "note": "Published projection: Little Rock 68.7, New Mexico 86.2."
+    },
+    "massey": {
+     "margin": 24.5,
+     "total": 150.5,
+     "note": "Published median margin: New Mexico by 24.5, total 150.5."
+    },
+    "espn": {
+     "margin": 17.82,
+     "derived": true,
+     "note": "BPI matchup predictor: New Mexico 94.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -22.5,
+    "total": 159.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 19.65,
+    "src_sd": 2.81,
+    "model_sd": 11.38,
+    "sd": 11.72,
+    "p_home": 0.9531,
+    "p_sd": 0.0183,
+    "total": 154.9,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "New Mexico",
+    "dog": "Little Rock",
+    "p": 0.9531,
+    "margin": 19.65,
+    "lock": true
+   },
+   "momentum": {
+    "Little Rock": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "New Mexico": {
+     "n": 1,
+     "avg": 6.8,
+     "last": [
+      6.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-charleston-southern-wake-forest",
+   "away": "Charleston Southern",
+   "home": "Wake Forest",
+   "away_conf": "BSth",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Wake Forest",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ACCNX",
+   "sources": {
+    "hasla": {
+     "margin": 23.47,
+     "total": 161.3,
+     "note": "Published projection: Charleston Southern 68.9, Wake Forest 92.4."
+    },
+    "dratings": {
+     "margin": 15.7,
+     "total": 156.9,
+     "note": "Published projection: Charleston Southern 70.6, Wake Forest 86.3."
+    },
+    "massey": {
+     "margin": 21.5,
+     "total": 155.5,
+     "note": "Published median margin: Wake Forest by 21.5, total 155.5."
+    },
+    "espn": {
+     "margin": 16.79,
+     "derived": true,
+     "note": "BPI matchup predictor: Wake Forest 93.5% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 157.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 19.42,
+    "src_sd": 3.22,
+    "model_sd": 11.38,
+    "sd": 11.83,
+    "p_home": 0.9497,
+    "p_sd": 0.0269,
+    "total": 157.8,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Wake Forest",
+    "dog": "Charleston Southern",
+    "p": 0.9497,
+    "margin": 19.42,
+    "lock": true
+   },
+   "momentum": {
+    "Charleston Southern": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Wake Forest": {
+     "n": 1,
+     "avg": -10.6,
+     "last": [
+      -10.6
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-northern-kentucky-saint-louis",
+   "away": "Northern Kentucky",
+   "home": "Saint Louis",
+   "away_conf": "Horz",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": false,
+   "site": "at Saint Louis",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 20.67,
+     "total": 169.7,
+     "note": "Published projection: Northern Kentucky 74.5, Saint Louis 95.2."
+    },
+    "dratings": {
+     "margin": 16.8,
+     "total": 168.0,
+     "note": "Published projection: Northern Kentucky 75.6, Saint Louis 92.4."
+    },
+    "massey": {
+     "margin": 14.5,
+     "total": 159.5,
+     "note": "Published median margin: Saint Louis by 14.5, total 159.5."
+    },
+    "espn": {
+     "margin": 17.72,
+     "derived": true,
+     "note": "BPI matchup predictor: Saint Louis 94.5% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -23.5,
+    "total": 168.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 17.55,
+    "src_sd": 2.21,
+    "model_sd": 11.38,
+    "sd": 11.59,
+    "p_home": 0.9349,
+    "p_sd": 0.0239,
+    "total": 165.7,
+    "total_sd": 16.6,
+    "baseline_total": 172.5,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Saint Louis",
+    "dog": "Northern Kentucky",
+    "p": 0.9349,
+    "margin": 17.55,
+    "lock": true
+   },
+   "momentum": {
+    "Northern Kentucky": {
+     "n": 1,
+     "avg": -17.3,
+     "last": [
+      -17.3
+     ],
+     "flag": null
+    },
+    "Saint Louis": {
+     "n": 1,
+     "avg": 10.3,
+     "last": [
+      10.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-maine-rhode-island",
+   "away": "Maine",
+   "home": "Rhode Island",
+   "away_conf": "AE",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": false,
+   "site": "at Rhode Island",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "dratings": {
+     "margin": 16.3,
+     "total": 138.9,
+     "note": "Published projection: Maine 61.3, Rhode Island 77.6."
+    },
+    "massey": {
+     "margin": 15.5,
+     "total": 136.5,
+     "note": "Published median margin: Rhode Island by 15.5, total 136.5."
+    },
+    "espn": {
+     "margin": 16.88,
+     "derived": true,
+     "note": "BPI matchup predictor: Rhode Island 93.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -20.5,
+    "total": 140.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "espn": 0.326,
+     "dratings": 0.356,
+     "massey": 0.318
+    },
+    "used_total": {
+     "dratings": 0.514,
+     "massey": 0.486
+    }
+   },
+   "blend": {
+    "margin": 16.23,
+    "src_sd": 0.57,
+    "model_sd": 11.38,
+    "sd": 11.39,
+    "p_home": 0.9229,
+    "p_sd": 0.0072,
+    "total": 137.7,
+    "total_sd": 16.6,
+    "baseline_total": 144.0,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Rhode Island",
+    "dog": "Maine",
+    "p": 0.9229,
+    "margin": 16.23,
+    "lock": true
+   },
+   "momentum": {
+    "Maine": {
+     "n": 2,
+     "avg": -1.6,
+     "last": [
+      7.6,
+      -10.8
+     ],
+     "flag": null
+    },
+    "Rhode Island": {
+     "n": 1,
+     "avg": 12.7,
+     "last": [
+      12.7
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-siena-dayton",
+   "away": "Siena",
+   "home": "Dayton",
+   "away_conf": "MC",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": false,
+   "site": "at Dayton",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+, Spectrum News 1",
+   "sources": {
+    "hasla": {
+     "margin": 23.58,
+     "total": 147.7,
+     "note": "Published projection: Siena 62.0, Dayton 85.6."
+    },
+    "dratings": {
+     "margin": 12.4,
+     "total": 152.8,
+     "note": "Published projection: Siena 70.2, Dayton 82.6."
+    },
+    "massey": {
+     "margin": 16.5,
+     "total": 141.5,
+     "note": "Published median margin: Dayton by 16.5, total 141.5."
+    },
+    "espn": {
+     "margin": 15.58,
+     "derived": true,
+     "note": "BPI matchup predictor: Dayton 92.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -13.5,
+    "total": 159.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 17.16,
+    "src_sd": 4.08,
+    "model_sd": 11.38,
+    "sd": 12.09,
+    "p_home": 0.9221,
+    "p_sd": 0.0422,
+    "total": 147.4,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Dayton",
+    "dog": "Siena",
+    "p": 0.9221,
+    "margin": 17.16,
+    "lock": true
+   },
+   "momentum": {
+    "Siena": {
+     "n": 1,
+     "avg": 17.4,
+     "last": [
+      17.4
+     ],
+     "flag": null
+    },
+    "Dayton": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-weber-st-utah",
+   "away": "Weber St.",
+   "home": "Utah",
+   "away_conf": "BSky",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Utah",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 16.75,
+     "total": 154.2,
+     "note": "Published projection: Weber St. 68.7, Utah 85.5."
+    },
+    "dratings": {
+     "margin": 13.6,
+     "total": 154.8,
+     "note": "Published projection: Weber St. 70.6, Utah 84.2."
+    },
+    "massey": {
+     "margin": 14.5,
+     "total": 153.5,
+     "note": "Published median margin: Utah by 14.5, total 153.5."
+    },
+    "espn": {
+     "margin": 17.06,
+     "derived": true,
+     "note": "BPI matchup predictor: Utah 93.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 155.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 15.49,
+    "src_sd": 1.47,
+    "model_sd": 11.38,
+    "sd": 11.47,
+    "p_home": 0.9115,
+    "p_sd": 0.0207,
+    "total": 154.2,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Utah",
+    "dog": "Weber St.",
+    "p": 0.9115,
+    "margin": 15.49,
+    "lock": true
+   },
+   "momentum": {
+    "Weber St.": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Utah": {
+     "n": 1,
+     "avg": 0.3,
+     "last": [
+      0.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-yale-baylor",
+   "away": "Yale",
+   "home": "Baylor",
+   "away_conf": "Ivy",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Baylor",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 16.19,
+     "total": 150.9,
+     "note": "Published projection: Yale 67.3, Baylor 83.5."
+    },
+    "dratings": {
+     "margin": 15.3,
+     "total": 155.7,
+     "note": "Published projection: Yale 70.2, Baylor 85.5."
+    },
+    "massey": {
+     "margin": 14.5,
+     "total": 152.5,
+     "note": "Published median margin: Baylor by 14.5, total 152.5."
+    },
+    "espn": {
+     "margin": 15.08,
+     "derived": true,
+     "note": "BPI matchup predictor: Baylor 91.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -19.5,
+    "total": 157.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 15.31,
+    "src_sd": 0.61,
+    "model_sd": 11.38,
+    "sd": 11.4,
+    "p_home": 0.9104,
+    "p_sd": 0.0086,
+    "total": 153.1,
+    "total_sd": 16.6,
+    "baseline_total": 162.0,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Baylor",
+    "dog": "Yale",
+    "p": 0.9104,
+    "margin": 15.31,
+    "lock": true
+   },
+   "momentum": {
+    "Yale": {
+     "n": 1,
+     "avg": -4.1,
+     "last": [
+      -4.1
+     ],
+     "flag": null
+    },
+    "Baylor": {
+     "n": 1,
+     "avg": 24.9,
+     "last": [
+      24.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-south-alabama-ucf",
+   "away": "South Alabama",
+   "home": "UCF",
+   "away_conf": "SB",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at UCF",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 19.91,
+     "total": 153.4,
+     "note": "Published projection: South Alabama 66.8, UCF 86.7."
+    },
+    "dratings": {
+     "margin": 13.1,
+     "total": 153.5,
+     "note": "Published projection: South Alabama 70.2, UCF 83.3."
+    },
+    "massey": {
+     "margin": 14.5,
+     "total": 153.5,
+     "note": "Published median margin: UCF by 14.5, total 153.5."
+    },
+    "espn": {
+     "margin": 14.09,
+     "derived": true,
+     "note": "BPI matchup predictor: UCF 89.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -13.5,
+    "total": 151.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 15.52,
+    "src_sd": 2.65,
+    "model_sd": 11.38,
+    "sd": 11.69,
+    "p_home": 0.9079,
+    "p_sd": 0.032,
+    "total": 153.5,
+    "total_sd": 16.6,
+    "baseline_total": 162.5,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "UCF",
+    "dog": "South Alabama",
+    "p": 0.9079,
+    "margin": 15.52,
+    "lock": true
+   },
+   "momentum": {
+    "South Alabama": {
+     "n": 1,
+     "avg": 1.7,
+     "last": [
+      1.7
+     ],
+     "flag": null
+    },
+    "UCF": {
+     "n": 1,
+     "avg": 4.1,
+     "last": [
+      4.1
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-wyoming-north-carolina",
+   "away": "Wyoming",
+   "home": "North Carolina",
+   "away_conf": "MWC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at North Carolina",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ACC Network",
+   "sources": {
+    "hasla": {
+     "margin": 19.17,
+     "total": 154.6,
+     "note": "Published projection: Wyoming 67.7, North Carolina 86.9."
+    },
+    "massey": {
+     "margin": 12.5,
+     "total": 149.5,
+     "note": "Published median margin: North Carolina by 12.5, total 149.5."
+    },
+    "espn": {
+     "margin": 13.6,
+     "derived": true,
+     "note": "BPI matchup predictor: North Carolina 89.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -12.5,
+    "total": 155.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.369,
+     "espn": 0.32,
+     "massey": 0.311
+    },
+    "used_total": {
+     "hasla": 0.477,
+     "massey": 0.523
+    }
+   },
+   "blend": {
+    "margin": 15.31,
+    "src_sd": 2.92,
+    "model_sd": 11.38,
+    "sd": 11.75,
+    "p_home": 0.9038,
+    "p_sd": 0.0386,
+    "total": 151.9,
+    "total_sd": 16.6,
+    "baseline_total": 167.0,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "North Carolina",
+    "dog": "Wyoming",
+    "p": 0.9038,
+    "margin": 15.31,
+    "lock": true
+   },
+   "momentum": {
+    "Wyoming": {
+     "n": 1,
+     "avg": 16.8,
+     "last": [
+      16.8
+     ],
+     "flag": null
+    },
+    "North Carolina": {
+     "n": 1,
+     "avg": 14.2,
+     "last": [
+      14.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-san-diego-colorado",
+   "away": "San Diego",
+   "home": "Colorado",
+   "away_conf": "WCC",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Colorado",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 12.18,
+     "total": 154.9,
+     "note": "Published projection: San Diego 71.4, Colorado 83.6."
+    },
+    "dratings": {
+     "margin": 11.5,
+     "total": 153.5,
+     "note": "Published projection: San Diego 71.0, Colorado 82.5."
+    },
+    "massey": {
+     "margin": 15.5,
+     "total": 156.5,
+     "note": "Published median margin: Colorado by 15.5, total 156.5."
+    },
+    "espn": {
+     "margin": 16.53,
+     "derived": true,
+     "note": "BPI matchup predictor: Colorado 93.2% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -12.5,
+    "total": 151.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 13.8,
+    "src_sd": 2.13,
+    "model_sd": 11.38,
+    "sd": 11.58,
+    "p_home": 0.8834,
+    "p_sd": 0.0353,
+    "total": 154.9,
+    "total_sd": 16.6,
+    "baseline_total": 164.5,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Colorado",
+    "dog": "San Diego",
+    "p": 0.8834,
+    "margin": 13.8,
+    "lock": false
+   },
+   "momentum": {
+    "San Diego": {
+     "n": 1,
+     "avg": 2.2,
+     "last": [
+      2.2
+     ],
+     "flag": null
+    },
+    "Colorado": {
+     "n": 1,
+     "avg": -10.2,
+     "last": [
+      -10.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-memphis-vanderbilt",
+   "away": "Memphis",
+   "home": "Vanderbilt",
+   "away_conf": "Amer",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": false,
+   "site": "at Vanderbilt",
+   "tip": "7:15 PM ET",
+   "tip_sort": 1155,
+   "tv": "SECN+",
+   "sources": {
+    "hasla": {
+     "margin": 14.95,
+     "total": 158.4,
+     "note": "Published projection: Memphis 71.7, Vanderbilt 86.7."
+    },
+    "dratings": {
+     "margin": 14.1,
+     "total": 159.7,
+     "note": "Published projection: Memphis 72.8, Vanderbilt 86.9."
+    },
+    "massey": {
+     "margin": 10.5,
+     "total": 155.5,
+     "note": "Published median margin: Vanderbilt by 10.5, total 155.5."
+    },
+    "espn": {
+     "margin": 11.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Vanderbilt 85.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -13.5,
+    "total": 160.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 12.95,
+    "src_sd": 1.78,
+    "model_sd": 11.38,
+    "sd": 11.52,
+    "p_home": 0.8696,
+    "p_sd": 0.0334,
+    "total": 157.9,
+    "total_sd": 16.6,
+    "baseline_total": 151.0,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Vanderbilt",
+    "dog": "Memphis",
+    "p": 0.8696,
+    "margin": 12.95,
+    "lock": false
+   },
+   "momentum": {
+    "Memphis": {
+     "n": 1,
+     "avg": 1.3,
+     "last": [
+      1.3
+     ],
+     "flag": null
+    },
+    "Vanderbilt": {
+     "n": 1,
+     "avg": 10.6,
+     "last": [
+      10.6
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-elon-george-washington",
+   "away": "Elon",
+   "home": "George Washington",
+   "away_conf": "CAA",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": false,
+   "site": "at George Washington",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 13.31,
+     "total": 158.8,
+     "note": "Published projection: Elon 72.8, George Washington 86.1."
+    },
+    "dratings": {
+     "margin": 12.7,
+     "total": 150.7,
+     "note": "Published projection: Elon 69.0, George Washington 81.7."
+    },
+    "espn": {
+     "margin": 11.17,
+     "derived": true,
+     "note": "BPI matchup predictor: George Washington 84.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -13.5,
+    "total": 148.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": 12.45,
+    "src_sd": 0.9,
+    "model_sd": 11.38,
+    "sd": 11.42,
+    "p_home": 0.8622,
+    "p_sd": 0.0178,
+    "total": 154.4,
+    "total_sd": 16.6,
+    "baseline_total": 137.5,
+    "lean": "over",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "George Washington",
+    "dog": "Elon",
+    "p": 0.8622,
+    "margin": 12.45,
+    "lock": false
+   },
+   "momentum": {
+    "Elon": {
+     "n": 1,
+     "avg": 4.2,
+     "last": [
+      4.2
+     ],
+     "flag": null
+    },
+    "George Washington": {
+     "n": 1,
+     "avg": -2.3,
+     "last": [
+      -2.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-hofstra-arizona-st",
+   "away": "Hofstra",
+   "home": "Arizona St.",
+   "away_conf": "CAA",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Arizona St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 12.41,
+     "total": 148.7,
+     "note": "Published projection: Hofstra 68.2, Arizona St. 80.6."
+    },
+    "dratings": {
+     "margin": 13.0,
+     "total": 138.2,
+     "note": "Published projection: Hofstra 62.6, Arizona St. 75.6."
+    },
+    "massey": {
+     "margin": 11.5,
+     "total": 142.5,
+     "note": "Published median margin: Arizona St. by 11.5, total 142.5."
+    },
+    "espn": {
+     "margin": 12.39,
+     "derived": true,
+     "note": "BPI matchup predictor: Arizona St. 86.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 133.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 12.35,
+    "src_sd": 0.54,
+    "model_sd": 11.38,
+    "sd": 11.39,
+    "p_home": 0.8608,
+    "p_sd": 0.0106,
+    "total": 142.9,
+    "total_sd": 16.6,
+    "baseline_total": 135.5,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Arizona St.",
+    "dog": "Hofstra",
+    "p": 0.8608,
+    "margin": 12.35,
+    "lock": false
+   },
+   "momentum": {
+    "Hofstra": {
+     "n": 1,
+     "avg": 0.1,
+     "last": [
+      0.1
+     ],
+     "flag": null
+    },
+    "Arizona St.": {
+     "n": 1,
+     "avg": 14.4,
+     "last": [
+      14.4
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-eastern-kentucky-georgia-tech",
+   "away": "Eastern Kentucky",
+   "home": "Georgia Tech",
+   "away_conf": "UAC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Georgia Tech",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ACCNX",
+   "sources": {
+    "dratings": {
+     "margin": 13.2,
+     "total": 161.2,
+     "note": "Published projection: Eastern Kentucky 74.0, Georgia Tech 87.2."
+    },
+    "massey": {
+     "margin": 11.5,
+     "total": 157.5,
+     "note": "Published median margin: Georgia Tech by 11.5, total 157.5."
+    },
+    "espn": {
+     "margin": 11.73,
+     "derived": true,
+     "note": "BPI matchup predictor: Georgia Tech 85.5% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -15.5,
+    "total": 165.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "espn": 0.326,
+     "dratings": 0.356,
+     "massey": 0.318
+    },
+    "used_total": {
+     "dratings": 0.514,
+     "massey": 0.486
+    }
+   },
+   "blend": {
+    "margin": 12.18,
+    "src_sd": 0.75,
+    "model_sd": 11.38,
+    "sd": 11.4,
+    "p_home": 0.8572,
+    "p_sd": 0.0146,
+    "total": 159.4,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Georgia Tech",
+    "dog": "Eastern Kentucky",
+    "p": 0.8572,
+    "margin": 12.18,
+    "lock": false
+   },
+   "momentum": {
+    "Eastern Kentucky": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Georgia Tech": {
+     "n": 1,
+     "avg": -1.9,
+     "last": [
+      -1.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-iona-fordham",
+   "away": "Iona",
+   "home": "Fordham",
+   "away_conf": "MC",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": false,
+   "site": "at Fordham",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 10.99,
+     "total": 144.6,
+     "note": "Published projection: Iona 66.8, Fordham 77.8."
+    },
+    "dratings": {
+     "margin": 10.1,
+     "total": 138.9,
+     "note": "Published projection: Iona 64.4, Fordham 74.5."
+    },
+    "massey": {
+     "margin": 6.5,
+     "total": 142.5,
+     "note": "Published median margin: Fordham by 6.5, total 142.5."
+    },
+    "espn": {
+     "margin": 9.22,
+     "derived": true,
+     "note": "BPI matchup predictor: Fordham 79.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -11.5,
+    "total": 139.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 9.3,
+    "src_sd": 1.68,
+    "model_sd": 11.38,
+    "sd": 11.5,
+    "p_home": 0.7907,
+    "p_sd": 0.0442,
+    "total": 141.9,
+    "total_sd": 16.6,
+    "baseline_total": 145.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Fordham",
+    "dog": "Iona",
+    "p": 0.7907,
+    "margin": 9.3,
+    "lock": false
+   },
+   "momentum": {
+    "Iona": {
+     "n": 2,
+     "avg": -1.0,
+     "last": [
+      12.6,
+      -14.7
+     ],
+     "flag": null
+    },
+    "Fordham": {
+     "n": 1,
+     "avg": 4.5,
+     "last": [
+      4.5
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-florida-florida-st",
+   "away": "Florida",
+   "home": "Florida St.",
+   "away_conf": "SEC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Florida St.",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": -8.0,
+     "total": 165.5,
+     "note": "Published projection: Florida 86.8, Florida St. 78.8."
+    },
+    "dratings": {
+     "margin": -9.2,
+     "total": 167.0,
+     "note": "Published projection: Florida 88.1, Florida St. 78.9."
+    },
+    "massey": {
+     "margin": -7.5,
+     "total": 158.5,
+     "note": "Published median margin: Florida by 7.5, total 158.5."
+    },
+    "espn": {
+     "margin": -12.08,
+     "derived": true,
+     "note": "BPI matchup predictor: Florida St. 13.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 9.5,
+    "total": 166.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": -9.16,
+    "src_sd": 1.78,
+    "model_sd": 11.38,
+    "sd": 11.52,
+    "p_home": 0.2132,
+    "p_sd": 0.0427,
+    "total": 163.7,
+    "total_sd": 16.6,
+    "baseline_total": 152.0,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Florida",
+    "dog": "Florida St.",
+    "p": 0.7868,
+    "margin": 9.16,
+    "lock": false
+   },
+   "momentum": {
+    "Florida": {
+     "n": 1,
+     "avg": -0.6,
+     "last": [
+      -0.6
+     ],
+     "flag": null
+    },
+    "Florida St.": {
+     "n": 1,
+     "avg": 8.2,
+     "last": [
+      8.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-tennessee-martin-arkansas-st",
+   "away": "Tennessee Martin",
+   "home": "Arkansas St.",
+   "away_conf": "OVC",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at Arkansas St.",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 9.48,
+     "total": 151.7,
+     "note": "Published projection: Tennessee Martin 71.1, Arkansas St. 80.6."
+    },
+    "dratings": {
+     "margin": 7.9,
+     "total": 152.5,
+     "note": "Published projection: Tennessee Martin 72.3, Arkansas St. 80.2."
+    },
+    "espn": {
+     "margin": 8.34,
+     "derived": true,
+     "note": "BPI matchup predictor: Arkansas St. 77.4% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -5.5,
+    "total": 153.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": 8.6,
+    "src_sd": 0.67,
+    "model_sd": 11.38,
+    "sd": 11.4,
+    "p_home": 0.7746,
+    "p_sd": 0.0174,
+    "total": 152.1,
+    "total_sd": 16.6,
+    "baseline_total": 168.0,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Arkansas St.",
+    "dog": "Tennessee Martin",
+    "p": 0.7746,
+    "margin": 8.6,
+    "lock": false
+   },
+   "momentum": {
+    "Tennessee Martin": {
+     "n": 1,
+     "avg": -3.3,
+     "last": [
+      -3.3
+     ],
+     "flag": null
+    },
+    "Arkansas St.": {
+     "n": 1,
+     "avg": 8.9,
+     "last": [
+      8.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-michigan-st-duke",
+   "away": "Michigan St.",
+   "home": "Duke",
+   "away_conf": "B10",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Chicago",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": 10.89,
+     "total": 147.1,
+     "note": "Published projection: Michigan St. 68.1, Duke 79.0."
+    },
+    "dratings": {
+     "margin": 6.2,
+     "total": 147.0,
+     "note": "Published projection: Michigan St. 70.4, Duke 76.6."
+    },
+    "espn": {
+     "margin": 6.93,
+     "derived": true,
+     "note": "BPI matchup predictor: Duke 73.4% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -7.5,
+    "total": 145.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": 8.09,
+    "src_sd": 2.06,
+    "model_sd": 11.38,
+    "sd": 11.57,
+    "p_home": 0.7579,
+    "p_sd": 0.0539,
+    "total": 147.0,
+    "total_sd": 16.6,
+    "baseline_total": 158.5,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Duke",
+    "dog": "Michigan St.",
+    "p": 0.7579,
+    "margin": 8.09,
+    "lock": false
+   },
+   "momentum": {
+    "Michigan St.": {
+     "n": 1,
+     "avg": 8.5,
+     "last": [
+      8.5
+     ],
+     "flag": null
+    },
+    "Duke": {
+     "n": 1,
+     "avg": 26.6,
+     "last": [
+      26.6
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±5%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-evansville-middle-tennessee",
+   "away": "Evansville",
+   "home": "Middle Tennessee",
+   "away_conf": "MVC",
+   "home_conf": "CUSA",
+   "short": {},
+   "neutral": false,
+   "site": "at Middle Tennessee",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "ESPN+",
+   "sources": {
+    "espn": {
+     "margin": 10.49,
+     "derived": true,
+     "note": "BPI matchup predictor: Middle Tennessee 82.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -9.5,
+    "total": 144.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "espn": 1.0
+    },
+    "used_total": {}
+   },
+   "blend": {
+    "margin": 10.49,
+    "src_sd": 0.0,
+    "model_sd": 11.38,
+    "sd": 11.38,
+    "p_home": 0.8217,
+    "p_sd": 0.0,
+    "total": null,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 1
+   },
+   "pick": {
+    "team": "Middle Tennessee",
+    "dog": "Evansville",
+    "p": 0.8217,
+    "margin": 10.49,
+    "lock": false
+   },
+   "momentum": {
+    "Evansville": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Middle Tennessee": {
+     "n": 1,
+     "avg": -22.8,
+     "last": [
+      -22.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "only 1 of 6 sources have a number",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-montana-san-francisco",
+   "away": "Montana",
+   "home": "San Francisco",
+   "away_conf": "BSky",
+   "home_conf": "WCC",
+   "short": {},
+   "neutral": false,
+   "site": "at San Francisco",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 5.07,
+     "total": 154.0,
+     "note": "Published projection: Montana 74.5, San Francisco 79.5."
+    },
+    "dratings": {
+     "margin": 11.1,
+     "total": 148.9,
+     "note": "Published projection: Montana 68.9, San Francisco 80.0."
+    },
+    "massey": {
+     "margin": 11.5,
+     "total": 149.5,
+     "note": "Published median margin: San Francisco by 11.5, total 149.5."
+    },
+    "espn": {
+     "margin": 5.5,
+     "derived": true,
+     "note": "BPI matchup predictor: San Francisco 69.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -11.5,
+    "total": 148.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 8.22,
+    "src_sd": 3.01,
+    "model_sd": 11.38,
+    "sd": 11.77,
+    "p_home": 0.7574,
+    "p_sd": 0.0806,
+    "total": 150.7,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "San Francisco",
+    "dog": "Montana",
+    "p": 0.7574,
+    "margin": 8.22,
+    "lock": false
+   },
+   "momentum": {
+    "Montana": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "San Francisco": {
+     "n": 1,
+     "avg": 0.8,
+     "last": [
+      0.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-bradley-davidson",
+   "away": "Bradley",
+   "home": "Davidson",
+   "away_conf": "MVC",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": false,
+   "site": "at Davidson",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 7.86,
+     "total": 143.0,
+     "note": "Published projection: Bradley 67.6, Davidson 75.4."
+    },
+    "dratings": {
+     "margin": 8.2,
+     "total": 139.6,
+     "note": "Published projection: Bradley 65.7, Davidson 73.9."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 143.5,
+     "note": "Published median margin: Davidson by 3.5, total 143.5."
+    },
+    "espn": {
+     "margin": 10.07,
+     "derived": true,
+     "note": "BPI matchup predictor: Davidson 81.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 137.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 7.46,
+    "src_sd": 2.41,
+    "model_sd": 11.38,
+    "sd": 11.63,
+    "p_home": 0.7395,
+    "p_sd": 0.071,
+    "total": 142.0,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Davidson",
+    "dog": "Bradley",
+    "p": 0.7395,
+    "margin": 7.46,
+    "lock": false
+   },
+   "momentum": {
+    "Bradley": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Davidson": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±7%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-green-bay-northern-iowa",
+   "away": "Green Bay",
+   "home": "Northern Iowa",
+   "away_conf": "Horz",
+   "home_conf": "MVC",
+   "short": {},
+   "neutral": false,
+   "site": "at Northern Iowa",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 8.0,
+     "total": 142.0,
+     "note": "Published projection: Green Bay 67.0, Northern Iowa 75.0."
+    },
+    "dratings": {
+     "margin": 5.5,
+     "total": 146.9,
+     "note": "Published projection: Green Bay 70.7, Northern Iowa 76.2."
+    },
+    "massey": {
+     "margin": 12.5,
+     "total": 143.5,
+     "note": "Published median margin: Northern Iowa by 12.5, total 143.5."
+    },
+    "espn": {
+     "margin": 4.21,
+     "derived": true,
+     "note": "BPI matchup predictor: Northern Iowa 64.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 150.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 7.49,
+    "src_sd": 3.16,
+    "model_sd": 11.38,
+    "sd": 11.81,
+    "p_home": 0.7371,
+    "p_sd": 0.0834,
+    "total": 144.3,
+    "total_sd": 16.6,
+    "baseline_total": 162.5,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Northern Iowa",
+    "dog": "Green Bay",
+    "p": 0.7371,
+    "margin": 7.49,
+    "lock": false
+   },
+   "momentum": {
+    "Green Bay": {
+     "n": 2,
+     "avg": 11.5,
+     "last": [
+      4.7,
+      18.3
+     ],
+     "flag": null
+    },
+    "Northern Iowa": {
+     "n": 1,
+     "avg": -12.9,
+     "last": [
+      -12.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-georgia-st-fresno-st",
+   "away": "Georgia St.",
+   "home": "Fresno St.",
+   "away_conf": "SB",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": false,
+   "site": "at Fresno St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "YouTube",
+   "sources": {
+    "hasla": {
+     "margin": 3.38,
+     "total": 152.1,
+     "note": "Published projection: Georgia St. 74.4, Fresno St. 77.8."
+    },
+    "dratings": {
+     "margin": 6.9,
+     "total": 148.5,
+     "note": "Published projection: Georgia St. 70.8, Fresno St. 77.7."
+    },
+    "massey": {
+     "margin": 9.5,
+     "total": 147.5,
+     "note": "Published median margin: Fresno St. by 9.5, total 147.5."
+    },
+    "espn": {
+     "margin": 1.51,
+     "derived": true,
+     "note": "BPI matchup predictor: Fresno St. 55.4% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -5.5,
+    "total": 146.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 5.26,
+    "src_sd": 3.09,
+    "model_sd": 11.38,
+    "sd": 11.79,
+    "p_home": 0.6722,
+    "p_sd": 0.0952,
+    "total": 149.3,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Fresno St.",
+    "dog": "Georgia St.",
+    "p": 0.6722,
+    "margin": 5.26,
+    "lock": false
+   },
+   "momentum": {
+    "Georgia St.": {
+     "n": 1,
+     "avg": -0.2,
+     "last": [
+      -0.2
+     ],
+     "flag": null
+    },
+    "Fresno St.": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±10%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-virginia-tech-iowa",
+   "away": "Virginia Tech",
+   "home": "Iowa",
+   "away_conf": "ACC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Sioux City",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "FS1",
+   "sources": {
+    "hasla": {
+     "margin": 5.06,
+     "total": 140.2,
+     "note": "Published projection: Virginia Tech 67.6, Iowa 72.6."
+    },
+    "dratings": {
+     "margin": 4.8,
+     "total": 141.8,
+     "note": "Published projection: Virginia Tech 68.5, Iowa 73.3."
+    },
+    "espn": {
+     "margin": 4.97,
+     "derived": true,
+     "note": "BPI matchup predictor: Iowa 67.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 139.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": 4.94,
+    "src_sd": 0.11,
+    "model_sd": 11.38,
+    "sd": 11.38,
+    "p_home": 0.668,
+    "p_sd": 0.0034,
+    "total": 141.1,
+    "total_sd": 16.6,
+    "baseline_total": 150.5,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Iowa",
+    "dog": "Virginia Tech",
+    "p": 0.668,
+    "margin": 4.94,
+    "lock": false
+   },
+   "momentum": {
+    "Virginia Tech": {
+     "n": 1,
+     "avg": 12.3,
+     "last": [
+      12.3
+     ],
+     "flag": null
+    },
+    "Iowa": {
+     "n": 1,
+     "avg": 14.1,
+     "last": [
+      14.1
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-kansas-kentucky",
+   "away": "Kansas",
+   "home": "Kentucky",
+   "away_conf": "B12",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Chicago",
+   "tip": "9:30 PM ET",
+   "tip_sort": 1290,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": -7.45,
+     "total": 151.3,
+     "note": "Published projection: Kansas 79.4, Kentucky 71.9."
+    },
+    "dratings": {
+     "margin": -2.4,
+     "total": 155.0,
+     "note": "Published projection: Kansas 78.7, Kentucky 76.3."
+    },
+    "espn": {
+     "margin": -4.0,
+     "derived": true,
+     "note": "BPI matchup predictor: Kentucky 35.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 158.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": -4.69,
+    "src_sd": 2.11,
+    "model_sd": 11.38,
+    "sd": 11.57,
+    "p_home": 0.3427,
+    "p_sd": 0.0665,
+    "total": 153.3,
+    "total_sd": 16.6,
+    "baseline_total": 151.5,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Kansas",
+    "dog": "Kentucky",
+    "p": 0.6573,
+    "margin": 4.69,
+    "lock": false
+   },
+   "momentum": {
+    "Kansas": {
+     "n": 1,
+     "avg": 22.8,
+     "last": [
+      22.8
+     ],
+     "flag": null
+    },
+    "Kentucky": {
+     "n": 1,
+     "avg": -11.5,
+     "last": [
+      -11.5
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-creighton-kansas-st",
+   "away": "Creighton",
+   "home": "Kansas St.",
+   "away_conf": "BE",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Kansas St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "FS1",
+   "sources": {
+    "hasla": {
+     "margin": -5.13,
+     "total": 158.6,
+     "note": "Published projection: Creighton 81.9, Kansas St. 76.8."
+    },
+    "dratings": {
+     "margin": -3.1,
+     "total": 156.1,
+     "note": "Published projection: Creighton 79.6, Kansas St. 76.5."
+    },
+    "massey": {
+     "margin": 0.5,
+     "total": 150.5,
+     "note": "Published median margin: Kansas St. by 0.5, total 150.5."
+    },
+    "espn": {
+     "margin": -5.69,
+     "derived": true,
+     "note": "BPI matchup predictor: Kansas St. 30.4% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 3.5,
+    "total": 158.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": -3.44,
+    "src_sd": 2.43,
+    "model_sd": 11.38,
+    "sd": 11.64,
+    "p_home": 0.3838,
+    "p_sd": 0.0821,
+    "total": 155.0,
+    "total_sd": 16.6,
+    "baseline_total": 155.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Creighton",
+    "dog": "Kansas St.",
+    "p": 0.6162,
+    "margin": 3.44,
+    "lock": false
+   },
+   "momentum": {
+    "Creighton": {
+     "n": 1,
+     "avg": 1.4,
+     "last": [
+      1.4
+     ],
+     "flag": null
+    },
+    "Kansas St.": {
+     "n": 1,
+     "avg": 5.1,
+     "last": [
+      5.1
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-houston-christian-south-dakota",
+   "away": "Houston Christian",
+   "home": "South Dakota",
+   "away_conf": "Slnd",
+   "home_conf": "Sum",
+   "short": {},
+   "neutral": false,
+   "site": "at South Dakota",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "Summit League Network, Midco Sports Plus",
+   "sources": {
+    "hasla": {
+     "margin": 2.9,
+     "total": 156.3,
+     "note": "Published projection: Houston Christian 76.7, South Dakota 79.6."
+    },
+    "dratings": {
+     "margin": 4.0,
+     "total": 155.2,
+     "note": "Published projection: Houston Christian 75.6, South Dakota 79.6."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 152.5,
+     "note": "Published median margin: South Dakota by 3.5, total 152.5."
+    },
+    "espn": {
+     "margin": 2.21,
+     "derived": true,
+     "note": "BPI matchup predictor: South Dakota 57.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 155.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 3.16,
+    "src_sd": 0.67,
+    "model_sd": 11.38,
+    "sd": 11.4,
+    "p_home": 0.6092,
+    "p_sd": 0.0226,
+    "total": 154.6,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "South Dakota",
+    "dog": "Houston Christian",
+    "p": 0.6092,
+    "margin": 3.16,
+    "lock": false
+   },
+   "momentum": {
+    "Houston Christian": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "South Dakota": {
+     "n": 1,
+     "avg": -2.8,
+     "last": [
+      -2.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-illinois-texas-tech",
+   "away": "Illinois",
+   "home": "Texas Tech",
+   "away_conf": "B10",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at Texas Tech",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "Peacock",
+   "sources": {
+    "hasla": {
+     "margin": -5.17,
+     "total": 148.5,
+     "note": "Published projection: Illinois 76.8, Texas Tech 71.7."
+    },
+    "dratings": {
+     "margin": -2.0,
+     "total": 162.2,
+     "note": "Published projection: Illinois 82.1, Texas Tech 80.1."
+    },
+    "massey": {
+     "margin": -2.5,
+     "total": 153.5,
+     "note": "Published median margin: Illinois by 2.5, total 153.5."
+    },
+    "espn": {
+     "margin": -1.62,
+     "derived": true,
+     "note": "BPI matchup predictor: Texas Tech 44.2% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 2.5,
+    "total": 166.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": -2.89,
+    "src_sd": 1.39,
+    "model_sd": 11.38,
+    "sd": 11.46,
+    "p_home": 0.4004,
+    "p_sd": 0.0463,
+    "total": 155.1,
+    "total_sd": 16.6,
+    "baseline_total": 158.0,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Illinois",
+    "dog": "Texas Tech",
+    "p": 0.5996,
+    "margin": 2.89,
+    "lock": false
+   },
+   "momentum": {
+    "Illinois": {
+     "n": 1,
+     "avg": 15.2,
+     "last": [
+      15.2
+     ],
+     "flag": null
+    },
+    "Texas Tech": {
+     "n": 1,
+     "avg": -7.8,
+     "last": [
+      -7.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-harvard-northeastern",
+   "away": "Harvard",
+   "home": "Northeastern",
+   "away_conf": "Ivy",
+   "home_conf": "CAA",
+   "short": {},
+   "neutral": false,
+   "site": "at Northeastern",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": -5.8,
+     "total": 155.9,
+     "note": "Published projection: Harvard 80.8, Northeastern 75.0."
+    },
+    "dratings": {
+     "margin": -4.2,
+     "total": 146.0,
+     "note": "Published projection: Harvard 75.1, Northeastern 70.9."
+    },
+    "massey": {
+     "margin": 1.5,
+     "total": 143.5,
+     "note": "Published median margin: Northeastern by 1.5, total 143.5."
+    },
+    "espn": {
+     "margin": -0.61,
+     "derived": true,
+     "note": "BPI matchup predictor: Northeastern 47.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 143.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": -2.47,
+    "src_sd": 2.88,
+    "model_sd": 11.38,
+    "sd": 11.74,
+    "p_home": 0.4166,
+    "p_sd": 0.0978,
+    "total": 148.2,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Harvard",
+    "dog": "Northeastern",
+    "p": 0.5834,
+    "margin": 2.47,
+    "lock": false
+   },
+   "momentum": {
+    "Harvard": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Northeastern": {
+     "n": 1,
+     "avg": 1.5,
+     "last": [
+      1.5
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±10%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-washington-st-duquesne",
+   "away": "Washington St.",
+   "home": "Duquesne",
+   "away_conf": "P12",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": false,
+   "site": "at Duquesne",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 3.61,
+     "total": 159.2,
+     "note": "Published projection: Washington St. 77.8, Duquesne 81.4."
+    },
+    "dratings": {
+     "margin": 4.1,
+     "total": 149.3,
+     "note": "Published projection: Washington St. 72.6, Duquesne 76.7."
+    },
+    "massey": {
+     "margin": -1.5,
+     "total": 148.5,
+     "note": "Published median margin: Washington St. by 1.5, total 148.5."
+    },
+    "espn": {
+     "margin": 2.72,
+     "derived": true,
+     "note": "BPI matchup predictor: Duquesne 59.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 144.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 2.35,
+    "src_sd": 2.21,
+    "model_sd": 11.38,
+    "sd": 11.59,
+    "p_home": 0.5802,
+    "p_sd": 0.0764,
+    "total": 152.1,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Duquesne",
+    "dog": "Washington St.",
+    "p": 0.5802,
+    "margin": 2.35,
+    "lock": false
+   },
+   "momentum": {
+    "Washington St.": {
+     "n": 1,
+     "avg": -2.1,
+     "last": [
+      -2.1
+     ],
+     "flag": null
+    },
+    "Duquesne": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-belmont-lipscomb",
+   "away": "Belmont",
+   "home": "Lipscomb",
+   "away_conf": "MVC",
+   "home_conf": "ASun",
+   "short": {},
+   "neutral": false,
+   "site": "at Lipscomb",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -1.32,
+     "total": 161.0,
+     "note": "Published projection: Belmont 81.2, Lipscomb 79.8."
+    },
+    "dratings": {
+     "margin": -3.9,
+     "total": 154.5,
+     "note": "Published projection: Belmont 79.2, Lipscomb 75.3."
+    },
+    "massey": {
+     "margin": -3.5,
+     "total": 154.5,
+     "note": "Published median margin: Belmont by 3.5, total 154.5."
+    },
+    "espn": {
+     "margin": 1.48,
+     "derived": true,
+     "note": "BPI matchup predictor: Lipscomb 55.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 157.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": -1.83,
+    "src_sd": 2.14,
+    "model_sd": 11.38,
+    "sd": 11.58,
+    "p_home": 0.4373,
+    "p_sd": 0.0739,
+    "total": 156.5,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Belmont",
+    "dog": "Lipscomb",
+    "p": 0.5627,
+    "margin": 1.83,
+    "lock": false
+   },
+   "momentum": {
+    "Belmont": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Lipscomb": {
+     "n": 1,
+     "avg": -6.0,
+     "last": [
+      -6.0
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±7%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-army-new-haven",
+   "away": "Army",
+   "home": "New Haven",
+   "away_conf": "PL",
+   "home_conf": "NEC",
+   "short": {},
+   "neutral": false,
+   "site": "at New Haven",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "NEC Front Row",
+   "sources": {
+    "hasla": {
+     "margin": 0.83,
+     "total": 143.2,
+     "note": "Published projection: Army 71.2, New Haven 72.0."
+    },
+    "dratings": {
+     "margin": -2.3,
+     "total": 131.3,
+     "note": "Published projection: Army 66.8, New Haven 64.5."
+    },
+    "massey": {
+     "margin": -2.5,
+     "total": 138.5,
+     "note": "Published median margin: Army by 2.5, total 138.5."
+    },
+    "espn": {
+     "margin": -1.73,
+     "derived": true,
+     "note": "BPI matchup predictor: New Haven 43.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 133.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": -1.36,
+    "src_sd": 1.33,
+    "model_sd": 11.38,
+    "sd": 11.46,
+    "p_home": 0.4529,
+    "p_sd": 0.0464,
+    "total": 137.4,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Army",
+    "dog": "New Haven",
+    "p": 0.5471,
+    "margin": 1.36,
+    "lock": false
+   },
+   "momentum": {
+    "Army": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "New Haven": {
+     "n": 1,
+     "avg": -4.0,
+     "last": [
+      -4.0
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-wright-st-toledo",
+   "away": "Wright St.",
+   "home": "Toledo",
+   "away_conf": "Horz",
+   "home_conf": "MAC",
+   "short": {},
+   "neutral": false,
+   "site": "at Toledo",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -0.83,
+     "total": 155.3,
+     "note": "Published projection: Wright St. 78.1, Toledo 77.2."
+    },
+    "dratings": {
+     "margin": 1.2,
+     "total": 159.8,
+     "note": "Published projection: Wright St. 79.3, Toledo 80.5."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 158.5,
+     "note": "Published median margin: Toledo by 3.5, total 158.5."
+    },
+    "espn": {
+     "margin": 1.34,
+     "derived": true,
+     "note": "BPI matchup predictor: Toledo 54.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 159.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 1.21,
+    "src_sd": 1.53,
+    "model_sd": 11.38,
+    "sd": 11.48,
+    "p_home": 0.5419,
+    "p_sd": 0.053,
+    "total": 158.0,
+    "total_sd": 16.6,
+    "baseline_total": 161.2,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Toledo",
+    "dog": "Wright St.",
+    "p": 0.5419,
+    "margin": 1.21,
+    "lock": false
+   },
+   "momentum": {
+    "Wright St.": {
+     "n": 1,
+     "avg": 25.5,
+     "last": [
+      25.5
+     ],
+     "flag": null
+    },
+    "Toledo": {
+     "n": 2,
+     "avg": -0.8,
+     "last": [
+      -8.5,
+      6.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-youngstown-st-central-michigan",
+   "away": "Youngstown St.",
+   "home": "Central Michigan",
+   "away_conf": "Horz",
+   "home_conf": "MAC",
+   "short": {},
+   "neutral": false,
+   "site": "at Central Michigan",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 0.2,
+     "total": 155.1,
+     "note": "Published projection: Youngstown St. 77.5, Central Michigan 77.7."
+    },
+    "dratings": {
+     "margin": 2.1,
+     "total": 152.5,
+     "note": "Published projection: Youngstown St. 75.2, Central Michigan 77.3."
+    },
+    "massey": {
+     "margin": 1.5,
+     "total": 149.5,
+     "note": "Published median margin: Central Michigan by 1.5, total 149.5."
+    },
+    "espn": {
+     "margin": -0.58,
+     "derived": true,
+     "note": "BPI matchup predictor: Central Michigan 47.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 152.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 0.81,
+    "src_sd": 1.05,
+    "model_sd": 11.38,
+    "sd": 11.43,
+    "p_home": 0.5282,
+    "p_sd": 0.0368,
+    "total": 152.3,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Central Michigan",
+    "dog": "Youngstown St.",
+    "p": 0.5282,
+    "margin": 0.81,
+    "lock": false
+   },
+   "momentum": {
+    "Youngstown St.": {
+     "n": 1,
+     "avg": -1.9,
+     "last": [
+      -1.9
+     ],
+     "flag": null
+    },
+    "Central Michigan": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-loyola-marymount-troy",
+   "away": "Loyola Marymount",
+   "home": "Troy",
+   "away_conf": "WCC",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at Troy",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -0.37,
+     "total": 148.1,
+     "note": "Published projection: Loyola Marymount 74.2, Troy 73.9."
+    },
+    "dratings": {
+     "margin": -1.4,
+     "total": 147.2,
+     "note": "Published projection: Loyola Marymount 74.3, Troy 72.9."
+    },
+    "espn": {
+     "margin": 0.44,
+     "derived": true,
+     "note": "BPI matchup predictor: Troy 51.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 143.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": -0.47,
+    "src_sd": 0.75,
+    "model_sd": 11.38,
+    "sd": 11.4,
+    "p_home": 0.4837,
+    "p_sd": 0.0263,
+    "total": 147.6,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Loyola Marymount",
+    "dog": "Troy",
+    "p": 0.5163,
+    "margin": 0.47,
+    "lock": false
+   },
+   "momentum": {
+    "Loyola Marymount": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Troy": {
+     "n": 1,
+     "avg": -8.2,
+     "last": [
+      -8.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-mercer-georgia-southern",
+   "away": "Mercer",
+   "home": "Georgia Southern",
+   "away_conf": "SC",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at Georgia Southern",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -3.02,
+     "total": 163.7,
+     "note": "Published projection: Mercer 83.4, Georgia Southern 80.4."
+    },
+    "dratings": {
+     "margin": 1.5,
+     "total": 161.5,
+     "note": "Published projection: Mercer 80.0, Georgia Southern 81.5."
+    },
+    "espn": {
+     "margin": 2.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Georgia Southern 59.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 165.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": 0.29,
+    "src_sd": 2.49,
+    "model_sd": 11.38,
+    "sd": 11.65,
+    "p_home": 0.5098,
+    "p_sd": 0.0863,
+    "total": 162.5,
+    "total_sd": 16.6,
+    "baseline_total": 170.5,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Georgia Southern",
+    "dog": "Mercer",
+    "p": 0.5098,
+    "margin": 0.29,
+    "lock": false
+   },
+   "momentum": {
+    "Mercer": {
+     "n": 1,
+     "avg": -12.3,
+     "last": [
+      -12.3
+     ],
+     "flag": null
+    },
+    "Georgia Southern": {
+     "n": 1,
+     "avg": 1.9,
+     "last": [
+      1.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±9%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-winthrop-kennesaw-st",
+   "away": "Winthrop",
+   "home": "Kennesaw St.",
+   "away_conf": "BSth",
+   "home_conf": "CUSA",
+   "short": {},
+   "neutral": false,
+   "site": "at Kennesaw St.",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 7.42,
+     "total": 166.4,
+     "note": "Published projection: Winthrop 79.5, Kennesaw St. 86.9."
+    },
+    "dratings": {
+     "margin": 8.1,
+     "total": 166.9,
+     "note": "Published projection: Winthrop 79.4, Kennesaw St. 87.5."
+    },
+    "massey": {
+     "margin": 5.5,
+     "total": 162.5,
+     "note": "Published median margin: Kennesaw St. by 5.5, total 162.5."
+    },
+    "espn": {
+     "margin": 9.74,
+     "derived": true,
+     "note": "BPI matchup predictor: Kennesaw St. 81.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 169.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.237,
+     "dratings": 0.259,
+     "massey": 0.231
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.356,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 7.7,
+    "src_sd": 1.52,
+    "model_sd": 11.38,
+    "sd": 11.48,
+    "p_home": 0.7488,
+    "p_sd": 0.0426,
+    "total": 165.3,
+    "total_sd": 16.6,
+    "baseline_total": 161.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Kennesaw St.",
+    "dog": "Winthrop",
+    "p": 0.7488,
+    "margin": 7.7,
+    "lock": false
+   },
+   "momentum": {
+    "Winthrop": {
+     "n": 1,
+     "avg": -12.1,
+     "last": [
+      -12.1
+     ],
+     "flag": null
+    },
+    "Kennesaw St.": {
+     "n": 1,
+     "avg": -4.2,
+     "last": [
+      -4.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-nicholls-tulane",
+   "away": "Nicholls",
+   "home": "Tulane",
+   "away_conf": "Slnd",
+   "home_conf": "Amer",
+   "short": {},
+   "neutral": false,
+   "site": "at Tulane",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 9.3,
+     "total": 152.2,
+     "note": "Published projection: Nicholls 71.5, Tulane 80.8."
+    },
+    "dratings": {
+     "margin": 7.9,
+     "total": 150.3,
+     "note": "Published projection: Nicholls 71.2, Tulane 79.1."
+    },
+    "espn": {
+     "margin": 5.16,
+     "derived": true,
+     "note": "BPI matchup predictor: Tulane 67.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -9.5,
+    "total": 153.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.356,
+     "espn": 0.308,
+     "dratings": 0.337
+    },
+    "used_total": {
+     "hasla": 0.463,
+     "dratings": 0.537
+    }
+   },
+   "blend": {
+    "margin": 7.55,
+    "src_sd": 1.72,
+    "model_sd": 11.38,
+    "sd": 11.51,
+    "p_home": 0.7442,
+    "p_sd": 0.0494,
+    "total": 151.2,
+    "total_sd": 16.6,
+    "baseline_total": 152.5,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Tulane",
+    "dog": "Nicholls",
+    "p": 0.7442,
+    "margin": 7.55,
+    "lock": false
+   },
+   "momentum": {
+    "Nicholls": {
+     "n": 1,
+     "avg": 6.2,
+     "last": [
+      6.2
+     ],
+     "flag": null
+    },
+    "Tulane": {
+     "n": 1,
+     "avg": -15.3,
+     "last": [
+      -15.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-10-texas-st-ut-rio-grande-valley",
+   "away": "Texas St.",
+   "home": "UT Rio Grande Valley",
+   "away_conf": "P12",
+   "home_conf": "Slnd",
+   "short": {},
+   "neutral": false,
+   "site": "at UT Rio Grande Valley",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "ESPN+",
+   "sources": {
+    "massey": {
+     "margin": 2.5,
+     "total": 144.5,
+     "note": "Published median margin: UT Rio Grande Valley by 2.5, total 144.5."
+    },
+    "espn": {
+     "margin": -6.56,
+     "derived": true,
+     "note": "BPI matchup predictor: UT Rio Grande Valley 27.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 5.5,
+    "total": 138.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.158,
+      "dratings": 0.173,
+      "massey": 0.154,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "espn": 0.506,
+     "massey": 0.494
+    },
+    "used_total": {
+     "massey": 1.0
+    }
+   },
+   "blend": {
+    "margin": -2.09,
+    "src_sd": 4.53,
+    "model_sd": 11.38,
+    "sd": 12.25,
+    "p_home": 0.4323,
+    "p_sd": 0.1524,
+    "total": 144.5,
+    "total_sd": 16.6,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 2
+   },
+   "pick": {
+    "team": "Texas St.",
+    "dog": "UT Rio Grande Valley",
+    "p": 0.5677,
+    "margin": 2.09,
+    "lock": false
+   },
+   "momentum": {
+    "Texas St.": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "UT Rio Grande Valley": {
+     "n": 1,
+     "avg": -6.9,
+     "last": [
+      -6.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "sources split on the winner's chances (±15%)",
+   "result": null
+  }
+ ],
+ "waiting": [],
+ "hammer": {
+  "id": "2026-11-10-alcorn-st-murray-st",
+  "team": "Alcorn St.",
+  "side": "away",
+  "spread": 30.5,
+  "spread_home": -30.5,
+  "edge": 10.96,
+  "cover_p": 0.8306,
+  "agree": 4,
+  "n": 4
+ },
+ "graded": false,
+ "unmatched": [
+  "Apprentice School Builders",
+  "College of Biblical Studies Ambassadors",
+  "Dallas Christian Crusaders",
+  "Ecclesia Royals",
+  "Livingstone Blue Bears",
+  "Millsaps Majors",
+  "Newman Jets",
+  "Northern New Mexico Eagles",
+  "Penn State Lehigh Valley Nittany Lions",
+  "St. Mary's (MD) Seahawks",
+  "UT Dallas Comets",
+  "Virginia Lynchburg Dragons",
+  "York (NE) Panthers"
+ ],
+ "abridged": "THE BALLGORITHM · NCAAM · Tue, Nov 10\n\nNOTES\n- 56 D1 games on the board. Coverage: Torvik 0, Haslametrics 50, ESPN 56, DRatings 51, Massey 45, CBBD 0, DraftKings lines 56.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 13 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-5)\nAlcorn St. +30.5 vs Murray St. — our number Murray St. −19.5, 4 of 4 sources on this side, 83% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nVirginia >99% · −31.9 ±11.8 vs Bucknell · total 148\nIowa St. >99% · −31.8 ±11.8 vs Southern · total 150\nTCU >99% · −32.0 ±12.1 vs Louisiana Monroe · total 159\nArizona >99% · −32.5 ±12.3 vs Northern Arizona · total 156\nBYU 99% · −27.2 ±12.4 vs Queens · total 173\nProvidence 99% · −25.6 ±11.8 vs Bryant · total 151\nGeorgetown 98% · −25.9 ±12.1 vs Delaware St. · total 142\nXavier 98% · −24.9 ±11.7 vs Detroit Mercy · total 158\nBoston College 98% · −23.4 ±11.6 vs Maryland Eastern Shore · total 136\nSMU 98% · −23.5 ±11.9 vs Prairie View A&M · total 158\nRutgers 97% · −23.4 ±11.9 vs NJIT · total 144\nMississippi 97% · −22.3 ±11.6 vs Southeastern Louisiana · total 146\nWisconsin 97% · −22.7 ±12.4 vs Fairfield · total 151\nN.C. State 96% · −20.8 ±11.7 vs Presbyterian · total 150\nMurray St. 96% · −19.5 ±11.5 vs Alcorn St. · total 161\nVillanova 95% · −19.4 ±11.4 vs La Salle · total 150\nUtah St. 95% · −19.3 ±11.5 vs Utah Tech · total 153\nNew Mexico 95% · −19.6 ±11.7 vs Little Rock · total 155\nWake Forest 95% · −19.4 ±11.8 vs Charleston Southern · total 158\nSaint Louis 93% · −17.6 ±11.6 vs Northern Kentucky · total 166\nRhode Island 92% · −16.2 ±11.4 vs Maine · total 138\nDayton 92% · −17.2 ±12.1 vs Siena · total 147\nUtah 91% · −15.5 ±11.5 vs Weber St. · total 154\nBaylor 91% · −15.3 ±11.4 vs Yale · total 153\nUCF 91% · −15.5 ±11.7 vs South Alabama · total 154\nNorth Carolina 90% · −15.3 ±11.8 vs Wyoming · total 152\nColorado 88% · −13.8 ±11.6 vs San Diego · total 155\nVanderbilt 87% · −12.9 ±11.5 vs Memphis · total 158\nGeorge Washington 86% · −12.4 ±11.4 vs Elon · total 154\nArizona St. 86% · −12.3 ±11.4 vs Hofstra · total 143\nGeorgia Tech 86% · −12.2 ±11.4 vs Eastern Kentucky · total 159\nFordham 79% · −9.3 ±11.5 vs Iona · total 142\nFlorida 79% · −9.2 ±11.5 vs Florida St. · total 164\nArkansas St. 77% · −8.6 ±11.4 vs Tennessee Martin · total 152\nDuke 76% · −8.1 ±11.6 vs Michigan St. (N) · total 147\nMid\nMiddle Tennessee 82% · −10.5 ±11.4 vs Evansville\nSan Francisco 76% · −8.2 ±11.8 vs Montana · total 151\nDavidson 74% · −7.5 ±11.6 vs Bradley · total 142\nNorthern Iowa 74% · −7.5 ±11.8 vs Green Bay · total 144\nFresno St. 67% · −5.3 ±11.8 vs Georgia St. · total 149\nIowa 67% · −4.9 ±11.4 vs Virginia Tech (N) · total 141\nKansas 66% · −4.7 ±11.6 vs Kentucky (N) · total 153\nCreighton 62% · −3.4 ±11.6 vs Kansas St. · total 155\nSouth Dakota 61% · −3.2 ±11.4 vs Houston Christian · total 155\nIllinois 60% · −2.9 ±11.5 vs Texas Tech · total 155\nHarvard 58% · −2.5 ±11.7 vs Northeastern · total 148\nDuquesne 58% · −2.4 ±11.6 vs Washington St. · total 152\nBelmont 56% · −1.8 ±11.6 vs Lipscomb · total 156\nArmy 55% · −1.4 ±11.5 vs New Haven · total 137\nToledo 54% · −1.2 ±11.5 vs Wright St. · total 158\nCentral Michigan 53% · −0.8 ±11.4 vs Youngstown St. · total 152\nLoyola Marymount 52% · −0.5 ±11.4 vs Troy · total 148\nGeorgia Southern 51% · −0.3 ±11.7 vs Mercer · total 162\nWeak\nKennesaw St. 75% · −7.7 ±11.5 vs Winthrop · total 165\nTulane 74% · −7.5 ±11.5 vs Nicholls · total 151\nTexas St. 57% · −2.1 ±12.2 vs UT Rio Grande Valley · total 144"
+}
