@@ -335,7 +335,7 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
     <div class="slate"><h2>Teams with THAT DAWG in them</h2><span id="dg-sub"></span></div>
     <p class="lede">The teams that keep beating our own number. Our number already prices in the opponent and the site, so a team on this list is playing better than every source expects, not just beating up on weak schedules. Ranked by points beaten by across the season, pulled toward zero as if each team had played 4 extra even games, so one blowout can't carry a team to the top.</p>
     <section class="card" aria-label="Ranked list"><div class="dawgs" id="dg-list"></div></section>
-    <p class="lede">A <span class="whoop">WHOOPIN'</span> is a win by 15 or more that also beat our number by 10 or more. Every team on this list carries its spot, like <span class="badge dawg">DAWG:3</span>, everywhere its name shows on the board. Teams in the top 10 with 3 or more graded games and a score of +4 or better get the solid <span class="badge dawg hot">DAWG:3</span> version. Display only for now: none of this moves the blend.</p>
+    <p class="lede">A <span class="whoop">WHOOPIN'</span> is a win by 15 or more that also beat our number by 10 or more. Every team on this list carries its spot, like <span class="badge dawg">DAWG #3</span>, everywhere its name shows on the board. Teams in the top 10 with 3 or more graded games and a score of +4 or better get the solid <span class="badge dawg hot">DAWG #3</span> version. Display only for now: none of this moves the blend.</p>
   </section>
 
   <footer>
@@ -366,10 +366,10 @@ let NICK = {};
 const short = n => NICK[n] || n;
 
 let IDX = null, STATE = null, SLATE = null, CUR = null, MODE = "full";
-// Every team on the Dawgs list carries DAWG:<rank> wherever its name shows; teams that clear the badge bar get the bold version.
+// Every team on the Dawgs list carries DAWG #<rank> wherever its name shows; teams that clear the badge bar get the bold version.
 const dawgRow = t => ((STATE && STATE.display && STATE.display.dawgs) || []).find(r => r.team===t);
-const dawgTag = t => { const r = dawgRow(t); return r ? `<span class="badge dawg${r.badge ? " hot" : ""}" title="#${r.rank} on the Dawgs list">DAWG:${r.rank}</span>` : ""; };
-const dawgTxt = t => { const r = dawgRow(t); return r ? ` (DAWG:${r.rank})` : ""; };
+const dawgTag = t => { const r = dawgRow(t); return r ? `<span class="badge dawg${r.badge ? " hot" : ""}" title="#${r.rank} on the Dawgs list">DAWG #${r.rank}</span>` : ""; };
+const dawgTxt = t => { const r = dawgRow(t); return r ? ` (DAWG #${r.rank})` : ""; };
 const cache = {};
 async function getJSON(p){ const r = await fetch(p, {cache:"no-store"}); if (!r.ok) throw new Error(p); return r.json(); }
 
