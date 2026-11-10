@@ -205,6 +205,28 @@ td.muted{color:var(--muted);font-size:12.5px;white-space:normal}
 @media (min-width:860px){.grid2{grid-template-columns:repeat(2,minmax(0,1fr))}}
 footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;flex-direction:column;gap:6px;max-width:80ch}
 .err{padding:30px 16px;color:var(--miss);font-weight:600}
+
+/* Dawgs */
+.badge.dawg{background:var(--ink);color:var(--surface)}
+@media (max-width:420px){.tabs{gap:0}.tabs a{padding:6px 8px 9px;font-size:15px}}
+.dawgs{display:flex;flex-direction:column}
+.dg{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:12px 16px;border-top:1px solid var(--rule)}
+.dg:first-child{border-top:0}
+.dg-rk{font-family:var(--font-display);font-size:24px;font-weight:700;color:var(--muted);line-height:1.1;font-variant-numeric:tabular-nums}
+.dg.top .dg-rk{color:var(--accent)}
+.dg-main{min-width:0;display:flex;flex-direction:column;gap:3px}
+.dg-name{display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 8px}
+.dg-name b{font-family:var(--font-display);font-size:22px;font-weight:700;line-height:1.1}
+.dg-name span{font-size:12px;color:var(--muted)}
+.dg-sub{font-size:13px;color:var(--muted)}
+.dg-sub b{color:var(--ink);font-weight:600}
+.dg-best{font-size:12.5px;color:var(--muted)}
+.dg .cells{max-width:260px;margin-top:3px}
+.dg .cell{font-size:13px;padding:2px 1px}
+.dg-sc{text-align:right;line-height:1}
+.dg-sc .num{font-size:28px;font-weight:700}
+.dg-sc small{display:block;font-size:11px;color:var(--muted);margin-top:3px;white-space:nowrap}
+.whoop{font-family:var(--font-display);font-weight:700;color:var(--accent);letter-spacing:.03em}
 </style>
 
 <header class="top">
@@ -220,6 +242,7 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
       <a href="#today" role="tab" data-view="today" aria-selected="true">Today</a>
       <a href="#season" role="tab" data-view="season" aria-selected="false">Season</a>
       <a href="#sources" role="tab" data-view="sources" aria-selected="false">Sources</a>
+      <a href="#dawgs" role="tab" data-view="dawgs" aria-selected="false">Dawgs</a>
     </nav>
   </div>
 </header>
@@ -306,6 +329,14 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
     </section>
   </section>
 
+  <!-- DAWGS -->
+  <section class="view" id="v-dawgs" aria-label="Dawgs" hidden>
+    <div class="slate"><h2>Teams with THAT DAWG in them</h2><span id="dg-sub"></span></div>
+    <p class="lede">The teams that keep beating our own number. Our number already prices in the opponent and the site, so a team on this list is playing better than every source expects, not just beating up on weak schedules. Ranked by points beaten by across the season, pulled toward zero as if each team had played 4 extra even games, so one blowout can't carry a team to the top.</p>
+    <section class="card" aria-label="Ranked list"><div class="dawgs" id="dg-list"></div></section>
+    <p class="lede">A <span class="whoop">WHOOPIN'</span> is a win by 15 or more that also beat our number by 10 or more. Teams in the top 10 with 3 or more graded games and a score of +4 or better wear the <span class="badge dawg">Dawg</span> badge on Today. Display only for now: none of this moves the blend.</p>
+  </section>
+
   <footer>
     <span>Every number is ours, blended from Haslametrics, ESPN, DRatings, Massey and CBBD (CollegeBasketballData.com), plus Torvik when it has numbers. DraftKings lines never enter the blend. They set the Hammer and are scored as a benchmark, so you can see whether the blend beats the market.</span>
     <span id="foot-upd"></span>
@@ -334,11 +365,13 @@ let NICK = {};
 const short = n => NICK[n] || n;
 
 let IDX = null, STATE = null, SLATE = null, CUR = null, MODE = "full";
+const isDawg = t => ((STATE && STATE.display && STATE.display.dawgs) || []).some(r => r.team===t && r.badge);
+const dawgTag = t => isDawg(t) ? '<span class="badge dawg">Dawg</span>' : "";
 const cache = {};
 async function getJSON(p){ const r = await fetch(p, {cache:"no-store"}); if (!r.ok) throw new Error(p); return r.json(); }
 
 /* ---------- Views ---------- */
-const VIEWS = ["today","season","sources"];
+const VIEWS = ["today","season","sources","dawgs"];
 function showView(v){
   if (!VIEWS.includes(v)) v = "today";
   for (const x of VIEWS) $("#v-"+x).hidden = x!==v;
@@ -461,7 +494,7 @@ function gameCard(g){
   const pHome = b.p_home;
   const ranks = t => { const tv = g.sources.torvik?.rank?.[t]; return tv ? "T "+tv : ""; };
   const row = (t, p) => { const fav = t===pk.team; return `
-    <div class="trow ${fav?"":"dog"}"><div class="tname"><b>${esc(t)}</b><span class="ranks">${esc(ranks(t))}</span></div>
+    <div class="trow ${fav?"":"dog"}"><div class="tname"><b>${esc(t)}</b>${dawgTag(t)}<span class="ranks">${esc(ranks(t))}</span></div>
       <div class="tprob"><span class="num">${pct(p)}</span></div></div>`; };
   const lo = b.margin - b.sd, hi = b.margin + b.sd;
   const end = v => v>=0 ? `${short(g.home)} by ${Math.abs(v).toFixed(0)}` : `${short(g.away)} by ${Math.abs(v).toFixed(0)}`;
@@ -518,11 +551,11 @@ try { const v = localStorage.getItem("ballgorithm:order"); if (v==="time" || v==
 function gameRow(g){
   const pk = g.pick, other = pk.team===g.home ? g.away : g.home;
   const tip = String(g.tip||"").replace(" ET","").replace(" (Tue)","");
-  const sub = [`${g.neutral ? "vs" : pk.team===g.home ? "vs" : "at"} ${other}`, g.neutral ? "N" : null, `±${f1(g.blend.sd)}`, g.market && g.market.spread_home!=null ? `${/draftkings/i.test(g.market.book||"DraftKings") ? "DK" : "Line"} ${short(g.home)} ${spr(g.market.spread_home)}` : null, g.blend.total!=null ? `total ${Math.round(g.blend.total)}` : null, `${g.blend.n_sources}/${ACT().length} src`].filter(Boolean).join(" · ");
+  const sub = [`${g.neutral ? "vs" : pk.team===g.home ? "vs" : "at"} ${other}${isDawg(other) ? " (Dawg)" : ""}`, g.neutral ? "N" : null, `±${f1(g.blend.sd)}`, g.market && g.market.spread_home!=null ? `${/draftkings/i.test(g.market.book||"DraftKings") ? "DK" : "Line"} ${short(g.home)} ${spr(g.market.spread_home)}` : null, g.blend.total!=null ? `total ${Math.round(g.blend.total)}` : null, `${g.blend.n_sources}/${ACT().length} src`].filter(Boolean).join(" · ");
   const res = g.result ? `<span class="badge">${g.result.won ? "W" : "L"}</span>` : "";
   return `<details class="gl" data-id="${esc(g.id)}"${SLATE.games.length<=3 ? " open" : ""}><summary>
       <span class="gl-time">${esc(tip)}${GSORT==="time" ? `<br><span class="tchip ${g.tier}">${g.tier}</span>` : ""}</span>
-      <span class="gl-main"><span class="gl-pick"><b>${esc(pk.team)}</b>${g.hammer ? '<span class="badge hm">Hammer</span>' : ""}${res}</span><span class="gl-sub">${esc(sub)}</span></span>
+      <span class="gl-main"><span class="gl-pick"><b>${esc(pk.team)}</b>${dawgTag(pk.team)}${g.hammer ? '<span class="badge hm">Hammer</span>' : ""}${res}</span><span class="gl-sub">${esc(sub)}</span></span>
       <span class="gl-p"><span class="num">${pct(pk.p)}</span><span class="mg">−${f1(pk.margin)}</span></span>
     </summary><div class="gl-body">${SLATE.games.length<=3 ? gameCard(g) : ""}</div></details>`;
 }
@@ -626,6 +659,25 @@ function renderTeams(){
 }
 $("#tq").addEventListener("input", () => STATE && renderTeams());
 
+/* ---------- Dawgs ---------- */
+function renderDawgs(){
+  const D = (STATE.display && STATE.display.dawgs) || [];
+  $("#dg-sub").textContent = D.length ? `Top ${D.length} · through ${fmtDay(STATE.updated.slice(0,10))}` : "";
+  if (!D.length){ $("#dg-list").innerHTML = `<p class="empty">Nobody yet. A team joins once it has 2 graded games and is beating our number on balance.</p>`; return; }
+  $("#dg-list").innerHTML = D.map(r => {
+    const b = r.best;
+    const res = b ? (b.margin>0 ? `Beat ${esc(b.opp)} by ${b.margin}` : b.margin<0 ? `Lost to ${esc(b.opp)} by ${-b.margin}` : `Tied ${esc(b.opp)}`) : "";
+    const best = b ? `<span class="dg-best">Best night: ${res}, ${f1(b.over)} better than our number (${esc(fmtDay(b.date))})</span>` : "";
+    const cells = Array.from({length:5}, (_,i) => { const v = r.last[i]; return v==null ? `<span class="cell">·</span>` : `<span class="cell ${v>0?"up":v<0?"dn":""}">${sgn(v)}</span>`; }).join("");
+    return `<div class="dg${r.rank<=3 ? " top" : ""}"><span class="dg-rk">${r.rank}</span>
+      <div class="dg-main"><div class="dg-name"><b>${esc(r.team)}</b>${r.badge ? '<span class="badge dawg">Dawg</span>' : ""}<span>${esc(r.conf||"")}</span></div>
+        <span class="dg-sub">Average <b>${sgn(r.avg)}</b> vs our number · beat it <b>${r.beat} of ${r.n}</b>${r.whoop ? ` · <span class="whoop">${r.whoop} ${r.whoop>1 ? "WHOOPINS" : "WHOOPIN'"}</span>` : ""}</span>
+        ${best}
+        <div class="cells" aria-label="Last five results against our number">${cells}</div></div>
+      <div class="dg-sc"><span class="num">${sgn(r.score)}</span><small>Dawg score</small></div></div>`;
+  }).join("");
+}
+
 /* ---------- Boot ---------- */
 (async function boot(){
   try {
@@ -638,7 +690,7 @@ $("#tq").addEventListener("input", () => STATE && renderTeams());
     return;
   }
   try { const m = localStorage.getItem("cb-ncaam:mode"); if (m==="abr") $("#mode [data-v=abr]").click(); } catch(e) {}
-  renderToday(); renderSeason(); renderSources();
+  renderToday(); renderSeason(); renderSources(); renderDawgs();
   showView(location.hash.slice(1));
 })();
 })();
