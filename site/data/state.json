@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-10T13:47:42-05:00",
+ "updated": "2026-11-10T19:44:36-05:00",
  "artifact_url": "https://claude.ai/artifact/AN8JdyqWML4JjQM7vBZYwr",
  "constants": {
   "MAE_PRIOR": 8.85,
@@ -35932,113 +35932,6 @@
   "date": "2026-11-10",
   "games": [
    {
-    "id": "2026-11-10-bucknell-virginia",
-    "away": "Bucknell",
-    "home": "Virginia",
-    "neutral": false,
-    "margin": 31.85,
-    "p_home": 0.9966,
-    "total": 147.7,
-    "pick": "Virginia",
-    "hammer": null,
-    "sources": {
-     "hasla": 34.1,
-     "espn": 26.71,
-     "dratings": 33.6,
-     "massey": 32.5
-    },
-    "src_totals": {
-     "hasla": 150.8,
-     "dratings": 148.0,
-     "massey": 144.5
-    },
-    "market": 38.5
-   },
-   {
-    "id": "2026-11-10-southern-iowa-st",
-    "away": "Southern",
-    "home": "Iowa St.",
-    "neutral": false,
-    "margin": 31.8,
-    "p_home": 0.9965,
-    "total": 150.4,
-    "pick": "Iowa St.",
-    "hammer": null,
-    "sources": {
-     "hasla": 33.74,
-     "espn": 27.25,
-     "dratings": 30.6,
-     "massey": 35.5
-    },
-    "src_totals": {
-     "hasla": 152.2,
-     "dratings": 149.8,
-     "massey": 149.5
-    },
-    "market": 35.5
-   },
-   {
-    "id": "2026-11-10-louisiana-monroe-tcu",
-    "away": "Louisiana Monroe",
-    "home": "TCU",
-    "neutral": false,
-    "margin": 32.04,
-    "p_home": 0.9961,
-    "total": 159.3,
-    "pick": "TCU",
-    "hammer": null,
-    "sources": {
-     "hasla": 36.9,
-     "espn": 27.25,
-     "dratings": 31.3
-    },
-    "src_totals": {
-     "hasla": 159.1,
-     "dratings": 159.5
-    },
-    "market": 33.5
-   },
-   {
-    "id": "2026-11-10-northern-arizona-arizona",
-    "away": "Northern Arizona",
-    "home": "Arizona",
-    "neutral": false,
-    "margin": 32.55,
-    "p_home": 0.9958,
-    "total": 156.0,
-    "pick": "Arizona",
-    "hammer": null,
-    "sources": {
-     "espn": 25.8,
-     "dratings": 35.2,
-     "massey": 36.5
-    },
-    "src_totals": {
-     "dratings": 157.4,
-     "massey": 154.5
-    },
-    "market": 35.5
-   },
-   {
-    "id": "2026-11-10-queens-byu",
-    "away": "Queens",
-    "home": "BYU",
-    "neutral": false,
-    "margin": 27.22,
-    "p_home": 0.9859,
-    "total": 173.2,
-    "pick": "BYU",
-    "hammer": null,
-    "sources": {
-     "hasla": 31.81,
-     "espn": 21.93
-    },
-    "src_totals": {
-     "hasla": 173.2
-    },
-    "market": 29.5
-   },
-   {
     "id": "2026-11-10-bryant-providence",
     "away": "Bryant",
     "home": "Providence",
@@ -36129,27 +36022,6 @@
     "market": 27.5
    },
    {
-    "id": "2026-11-10-prairie-view-a-m-smu",
-    "away": "Prairie View A&M",
-    "home": "SMU",
-    "neutral": false,
-    "margin": 23.47,
-    "p_home": 0.9756,
-    "total": 158.5,
-    "pick": "SMU",
-    "hammer": null,
-    "sources": {
-     "espn": 21.93,
-     "dratings": 20.4,
-     "massey": 28.5
-    },
-    "src_totals": {
-     "dratings": 160.4,
-     "massey": 156.5
-    },
-    "market": 26.5
-   },
-   {
     "id": "2026-11-10-njit-rutgers",
     "away": "NJIT",
     "home": "Rutgers",
@@ -36171,52 +36043,6 @@
      "massey": 141.5
     },
     "market": 24.5
-   },
-   {
-    "id": "2026-11-10-southeastern-louisiana-mississippi",
-    "away": "Southeastern Louisiana",
-    "home": "Mississippi",
-    "neutral": false,
-    "margin": 22.26,
-    "p_home": 0.9727,
-    "total": 145.9,
-    "pick": "Mississippi",
-    "hammer": null,
-    "sources": {
-     "hasla": 25.53,
-     "espn": 22.13,
-     "dratings": 19.6,
-     "massey": 21.5
-    },
-    "src_totals": {
-     "hasla": 146.5,
-     "dratings": 146.8,
-     "massey": 144.5
-    },
-    "market": 26.5
-   },
-   {
-    "id": "2026-11-10-fairfield-wisconsin",
-    "away": "Fairfield",
-    "home": "Wisconsin",
-    "neutral": false,
-    "margin": 22.68,
-    "p_home": 0.9662,
-    "total": 150.9,
-    "pick": "Wisconsin",
-    "hammer": null,
-    "sources": {
-     "hasla": 23.59,
-     "espn": 17.72,
-     "dratings": 19.3,
-     "massey": 30.5
-    },
-    "src_totals": {
-     "hasla": 153.4,
-     "dratings": 150.1,
-     "massey": 149.5
-    },
-    "market": 25.5
    },
    {
     "id": "2026-11-10-presbyterian-n-c-state",
@@ -36242,39 +36068,6 @@
     "market": 19.5
    },
    {
-    "id": "2026-11-10-alcorn-st-murray-st",
-    "away": "Alcorn St.",
-    "home": "Murray St.",
-    "neutral": false,
-    "margin": 19.54,
-    "p_home": 0.9559,
-    "total": 160.6,
-    "pick": "Murray St.",
-    "hammer": {
-     "id": "2026-11-10-alcorn-st-murray-st",
-     "team": "Alcorn St.",
-     "side": "away",
-     "spread": 30.5,
-     "spread_home": -30.5,
-     "edge": 10.96,
-     "cover_p": 0.8306,
-     "agree": 4,
-     "n": 4
-    },
-    "sources": {
-     "hasla": 21.66,
-     "espn": 19.68,
-     "dratings": 18.1,
-     "massey": 18.5
-    },
-    "src_totals": {
-     "hasla": 166.5,
-     "dratings": 162.1,
-     "massey": 153.5
-    },
-    "market": 30.5
-   },
-   {
     "id": "2026-11-10-la-salle-villanova",
     "away": "La Salle",
     "home": "Villanova",
@@ -36298,52 +36091,6 @@
     "market": 20.5
    },
    {
-    "id": "2026-11-10-utah-tech-utah-st",
-    "away": "Utah Tech",
-    "home": "Utah St.",
-    "neutral": false,
-    "margin": 19.26,
-    "p_home": 0.9532,
-    "total": 153.4,
-    "pick": "Utah St.",
-    "hammer": null,
-    "sources": {
-     "hasla": 20.02,
-     "espn": 18.13,
-     "dratings": 17.5,
-     "massey": 21.5
-    },
-    "src_totals": {
-     "hasla": 153.1,
-     "dratings": 154.5,
-     "massey": 152.5
-    },
-    "market": 25.5
-   },
-   {
-    "id": "2026-11-10-little-rock-new-mexico",
-    "away": "Little Rock",
-    "home": "New Mexico",
-    "neutral": false,
-    "margin": 19.65,
-    "p_home": 0.9531,
-    "total": 154.9,
-    "pick": "New Mexico",
-    "hammer": null,
-    "sources": {
-     "hasla": 19.17,
-     "espn": 17.82,
-     "dratings": 17.5,
-     "massey": 24.5
-    },
-    "src_totals": {
-     "hasla": 159.8,
-     "dratings": 154.9,
-     "massey": 150.5
-    },
-    "market": 22.5
-   },
-   {
     "id": "2026-11-10-charleston-southern-wake-forest",
     "away": "Charleston Southern",
     "home": "Wake Forest",
@@ -36365,29 +36112,6 @@
      "massey": 155.5
     },
     "market": 18.5
-   },
-   {
-    "id": "2026-11-10-northern-kentucky-saint-louis",
-    "away": "Northern Kentucky",
-    "home": "Saint Louis",
-    "neutral": false,
-    "margin": 17.55,
-    "p_home": 0.9349,
-    "total": 165.7,
-    "pick": "Saint Louis",
-    "hammer": null,
-    "sources": {
-     "hasla": 20.67,
-     "espn": 17.72,
-     "dratings": 16.8,
-     "massey": 14.5
-    },
-    "src_totals": {
-     "hasla": 169.7,
-     "dratings": 168.0,
-     "massey": 159.5
-    },
-    "market": 23.5
    },
    {
     "id": "2026-11-10-maine-rhode-island",
@@ -36434,52 +36158,6 @@
     "market": 13.5
    },
    {
-    "id": "2026-11-10-weber-st-utah",
-    "away": "Weber St.",
-    "home": "Utah",
-    "neutral": false,
-    "margin": 15.49,
-    "p_home": 0.9115,
-    "total": 154.2,
-    "pick": "Utah",
-    "hammer": null,
-    "sources": {
-     "hasla": 16.75,
-     "espn": 17.06,
-     "dratings": 13.6,
-     "massey": 14.5
-    },
-    "src_totals": {
-     "hasla": 154.2,
-     "dratings": 154.8,
-     "massey": 153.5
-    },
-    "market": 16.5
-   },
-   {
-    "id": "2026-11-10-yale-baylor",
-    "away": "Yale",
-    "home": "Baylor",
-    "neutral": false,
-    "margin": 15.31,
-    "p_home": 0.9104,
-    "total": 153.1,
-    "pick": "Baylor",
-    "hammer": null,
-    "sources": {
-     "hasla": 16.19,
-     "espn": 15.08,
-     "dratings": 15.3,
-     "massey": 14.5
-    },
-    "src_totals": {
-     "hasla": 150.9,
-     "dratings": 155.7,
-     "massey": 152.5
-    },
-    "market": 19.5
-   },
-   {
     "id": "2026-11-10-south-alabama-ucf",
     "away": "South Alabama",
     "home": "UCF",
@@ -36520,29 +36198,6 @@
     "src_totals": {
      "hasla": 154.6,
      "massey": 149.5
-    },
-    "market": 12.5
-   },
-   {
-    "id": "2026-11-10-san-diego-colorado",
-    "away": "San Diego",
-    "home": "Colorado",
-    "neutral": false,
-    "margin": 13.8,
-    "p_home": 0.8834,
-    "total": 154.9,
-    "pick": "Colorado",
-    "hammer": null,
-    "sources": {
-     "hasla": 12.18,
-     "espn": 16.53,
-     "dratings": 11.5,
-     "massey": 15.5
-    },
-    "src_totals": {
-     "hasla": 154.9,
-     "dratings": 153.5,
-     "massey": 156.5
     },
     "market": 12.5
    },
@@ -36589,29 +36244,6 @@
      "dratings": 150.7
     },
     "market": 13.5
-   },
-   {
-    "id": "2026-11-10-hofstra-arizona-st",
-    "away": "Hofstra",
-    "home": "Arizona St.",
-    "neutral": false,
-    "margin": 12.35,
-    "p_home": 0.8608,
-    "total": 142.9,
-    "pick": "Arizona St.",
-    "hammer": null,
-    "sources": {
-     "hasla": 12.41,
-     "espn": 12.39,
-     "dratings": 13.0,
-     "massey": 11.5
-    },
-    "src_totals": {
-     "hasla": 148.7,
-     "dratings": 138.2,
-     "massey": 142.5
-    },
-    "market": 18.5
    },
    {
     "id": "2026-11-10-eastern-kentucky-georgia-tech",
@@ -36681,27 +36313,6 @@
     "market": -9.5
    },
    {
-    "id": "2026-11-10-tennessee-martin-arkansas-st",
-    "away": "Tennessee Martin",
-    "home": "Arkansas St.",
-    "neutral": false,
-    "margin": 8.6,
-    "p_home": 0.7746,
-    "total": 152.1,
-    "pick": "Arkansas St.",
-    "hammer": null,
-    "sources": {
-     "hasla": 9.48,
-     "espn": 8.34,
-     "dratings": 7.9
-    },
-    "src_totals": {
-     "hasla": 151.7,
-     "dratings": 152.5
-    },
-    "market": 5.5
-   },
-   {
     "id": "2026-11-10-michigan-st-duke",
     "away": "Michigan St.",
     "home": "Duke",
@@ -36739,29 +36350,6 @@
     "market": 9.5
    },
    {
-    "id": "2026-11-10-montana-san-francisco",
-    "away": "Montana",
-    "home": "San Francisco",
-    "neutral": false,
-    "margin": 8.22,
-    "p_home": 0.7574,
-    "total": 150.7,
-    "pick": "San Francisco",
-    "hammer": null,
-    "sources": {
-     "hasla": 5.07,
-     "espn": 5.5,
-     "dratings": 11.1,
-     "massey": 11.5
-    },
-    "src_totals": {
-     "hasla": 154.0,
-     "dratings": 148.9,
-     "massey": 149.5
-    },
-    "market": 11.5
-   },
-   {
     "id": "2026-11-10-bradley-davidson",
     "away": "Bradley",
     "home": "Davidson",
@@ -36785,52 +36373,6 @@
     "market": 10.5
    },
    {
-    "id": "2026-11-10-green-bay-northern-iowa",
-    "away": "Green Bay",
-    "home": "Northern Iowa",
-    "neutral": false,
-    "margin": 7.49,
-    "p_home": 0.7371,
-    "total": 144.3,
-    "pick": "Northern Iowa",
-    "hammer": null,
-    "sources": {
-     "hasla": 8.0,
-     "espn": 4.21,
-     "dratings": 5.5,
-     "massey": 12.5
-    },
-    "src_totals": {
-     "hasla": 142.0,
-     "dratings": 146.9,
-     "massey": 143.5
-    },
-    "market": 3.5
-   },
-   {
-    "id": "2026-11-10-georgia-st-fresno-st",
-    "away": "Georgia St.",
-    "home": "Fresno St.",
-    "neutral": false,
-    "margin": 5.26,
-    "p_home": 0.6722,
-    "total": 149.3,
-    "pick": "Fresno St.",
-    "hammer": null,
-    "sources": {
-     "hasla": 3.38,
-     "espn": 1.51,
-     "dratings": 6.9,
-     "massey": 9.5
-    },
-    "src_totals": {
-     "hasla": 152.1,
-     "dratings": 148.5,
-     "massey": 147.5
-    },
-    "market": 6.5
-   },
-   {
     "id": "2026-11-10-virginia-tech-iowa",
     "away": "Virginia Tech",
     "home": "Iowa",
@@ -36850,96 +36392,6 @@
      "dratings": 141.8
     },
     "market": 4.5
-   },
-   {
-    "id": "2026-11-10-kansas-kentucky",
-    "away": "Kansas",
-    "home": "Kentucky",
-    "neutral": true,
-    "margin": -4.69,
-    "p_home": 0.3427,
-    "total": 153.3,
-    "pick": "Kansas",
-    "hammer": null,
-    "sources": {
-     "hasla": -7.45,
-     "espn": -4.0,
-     "dratings": -2.4
-    },
-    "src_totals": {
-     "hasla": 151.3,
-     "dratings": 155.0
-    },
-    "market": -4.5
-   },
-   {
-    "id": "2026-11-10-creighton-kansas-st",
-    "away": "Creighton",
-    "home": "Kansas St.",
-    "neutral": false,
-    "margin": -3.44,
-    "p_home": 0.3838,
-    "total": 155.0,
-    "pick": "Creighton",
-    "hammer": null,
-    "sources": {
-     "hasla": -5.13,
-     "espn": -5.69,
-     "dratings": -3.1,
-     "massey": 0.5
-    },
-    "src_totals": {
-     "hasla": 158.6,
-     "dratings": 156.1,
-     "massey": 150.5
-    },
-    "market": -3.5
-   },
-   {
-    "id": "2026-11-10-houston-christian-south-dakota",
-    "away": "Houston Christian",
-    "home": "South Dakota",
-    "neutral": false,
-    "margin": 3.16,
-    "p_home": 0.6092,
-    "total": 154.6,
-    "pick": "South Dakota",
-    "hammer": null,
-    "sources": {
-     "hasla": 2.9,
-     "espn": 2.21,
-     "dratings": 4.0,
-     "massey": 3.5
-    },
-    "src_totals": {
-     "hasla": 156.3,
-     "dratings": 155.2,
-     "massey": 152.5
-    },
-    "market": 3.5
-   },
-   {
-    "id": "2026-11-10-illinois-texas-tech",
-    "away": "Illinois",
-    "home": "Texas Tech",
-    "neutral": false,
-    "margin": -2.89,
-    "p_home": 0.4004,
-    "total": 155.1,
-    "pick": "Illinois",
-    "hammer": null,
-    "sources": {
-     "hasla": -5.17,
-     "espn": -1.62,
-     "dratings": -2.0,
-     "massey": -2.5
-    },
-    "src_totals": {
-     "hasla": 148.5,
-     "dratings": 162.2,
-     "massey": 153.5
-    },
-    "market": -2.5
    },
    {
     "id": "2026-11-10-harvard-northeastern",
@@ -36986,29 +36438,6 @@
      "massey": 148.5
     },
     "market": 3.5
-   },
-   {
-    "id": "2026-11-10-belmont-lipscomb",
-    "away": "Belmont",
-    "home": "Lipscomb",
-    "neutral": false,
-    "margin": -1.83,
-    "p_home": 0.4373,
-    "total": 156.5,
-    "pick": "Belmont",
-    "hammer": null,
-    "sources": {
-     "hasla": -1.32,
-     "espn": 1.48,
-     "dratings": -3.9,
-     "massey": -3.5
-    },
-    "src_totals": {
-     "hasla": 161.0,
-     "dratings": 154.5,
-     "massey": 154.5
-    },
-    "market": -4.5
    },
    {
     "id": "2026-11-10-army-new-haven",
@@ -37183,6 +36612,577 @@
      "massey": 144.5
     },
     "market": -5.5
+   },
+   {
+    "id": "2026-11-10-bucknell-virginia",
+    "away": "Bucknell",
+    "home": "Virginia",
+    "neutral": false,
+    "margin": 31.85,
+    "p_home": 0.9966,
+    "total": 147.7,
+    "pick": "Virginia",
+    "hammer": null,
+    "sources": {
+     "hasla": 34.1,
+     "espn": 26.71,
+     "dratings": 33.6,
+     "massey": 32.5
+    },
+    "src_totals": {
+     "hasla": 150.8,
+     "dratings": 148.0,
+     "massey": 144.5
+    },
+    "market": 38.5
+   },
+   {
+    "id": "2026-11-10-southern-iowa-st",
+    "away": "Southern",
+    "home": "Iowa St.",
+    "neutral": false,
+    "margin": 31.8,
+    "p_home": 0.9965,
+    "total": 150.4,
+    "pick": "Iowa St.",
+    "hammer": null,
+    "sources": {
+     "hasla": 33.74,
+     "espn": 27.25,
+     "dratings": 30.6,
+     "massey": 35.5
+    },
+    "src_totals": {
+     "hasla": 152.2,
+     "dratings": 149.8,
+     "massey": 149.5
+    },
+    "market": 35.5
+   },
+   {
+    "id": "2026-11-10-louisiana-monroe-tcu",
+    "away": "Louisiana Monroe",
+    "home": "TCU",
+    "neutral": false,
+    "margin": 32.04,
+    "p_home": 0.9961,
+    "total": 159.3,
+    "pick": "TCU",
+    "hammer": null,
+    "sources": {
+     "hasla": 36.9,
+     "espn": 27.25,
+     "dratings": 31.3
+    },
+    "src_totals": {
+     "hasla": 159.1,
+     "dratings": 159.5
+    },
+    "market": 33.5
+   },
+   {
+    "id": "2026-11-10-northern-arizona-arizona",
+    "away": "Northern Arizona",
+    "home": "Arizona",
+    "neutral": false,
+    "margin": 31.8,
+    "p_home": 0.9954,
+    "total": 156.0,
+    "pick": "Arizona",
+    "hammer": null,
+    "sources": {
+     "espn": 25.8,
+     "dratings": 33.1,
+     "massey": 36.5
+    },
+    "src_totals": {
+     "dratings": 157.5,
+     "massey": 154.5
+    },
+    "market": 35.5
+   },
+   {
+    "id": "2026-11-10-queens-byu",
+    "away": "Queens",
+    "home": "BYU",
+    "neutral": false,
+    "margin": 27.22,
+    "p_home": 0.9859,
+    "total": 173.2,
+    "pick": "BYU",
+    "hammer": null,
+    "sources": {
+     "hasla": 31.81,
+     "espn": 21.93
+    },
+    "src_totals": {
+     "hasla": 173.2
+    },
+    "market": 28.5
+   },
+   {
+    "id": "2026-11-10-prairie-view-a-m-smu",
+    "away": "Prairie View A&M",
+    "home": "SMU",
+    "neutral": false,
+    "margin": 23.47,
+    "p_home": 0.9756,
+    "total": 158.5,
+    "pick": "SMU",
+    "hammer": null,
+    "sources": {
+     "espn": 21.93,
+     "dratings": 20.4,
+     "massey": 28.5
+    },
+    "src_totals": {
+     "dratings": 160.4,
+     "massey": 156.5
+    },
+    "market": 27.5
+   },
+   {
+    "id": "2026-11-10-southeastern-louisiana-mississippi",
+    "away": "Southeastern Louisiana",
+    "home": "Mississippi",
+    "neutral": false,
+    "margin": 22.26,
+    "p_home": 0.9727,
+    "total": 145.9,
+    "pick": "Mississippi",
+    "hammer": null,
+    "sources": {
+     "hasla": 25.53,
+     "espn": 22.13,
+     "dratings": 19.6,
+     "massey": 21.5
+    },
+    "src_totals": {
+     "hasla": 146.5,
+     "dratings": 146.8,
+     "massey": 144.5
+    },
+    "market": 26.5
+   },
+   {
+    "id": "2026-11-10-fairfield-wisconsin",
+    "away": "Fairfield",
+    "home": "Wisconsin",
+    "neutral": false,
+    "margin": 22.68,
+    "p_home": 0.9662,
+    "total": 150.9,
+    "pick": "Wisconsin",
+    "hammer": null,
+    "sources": {
+     "hasla": 23.59,
+     "espn": 17.72,
+     "dratings": 19.3,
+     "massey": 30.5
+    },
+    "src_totals": {
+     "hasla": 153.4,
+     "dratings": 150.1,
+     "massey": 149.5
+    },
+    "market": 25.5
+   },
+   {
+    "id": "2026-11-10-alcorn-st-murray-st",
+    "away": "Alcorn St.",
+    "home": "Murray St.",
+    "neutral": false,
+    "margin": 19.54,
+    "p_home": 0.9559,
+    "total": 160.6,
+    "pick": "Murray St.",
+    "hammer": {
+     "id": "2026-11-10-alcorn-st-murray-st",
+     "team": "Alcorn St.",
+     "side": "away",
+     "spread": 31.5,
+     "spread_home": -31.5,
+     "edge": 11.96,
+     "cover_p": 0.8517,
+     "agree": 4,
+     "n": 4
+    },
+    "sources": {
+     "hasla": 21.66,
+     "espn": 19.68,
+     "dratings": 18.1,
+     "massey": 18.5
+    },
+    "src_totals": {
+     "hasla": 166.5,
+     "dratings": 162.1,
+     "massey": 153.5
+    },
+    "market": 31.5
+   },
+   {
+    "id": "2026-11-10-utah-tech-utah-st",
+    "away": "Utah Tech",
+    "home": "Utah St.",
+    "neutral": false,
+    "margin": 19.26,
+    "p_home": 0.9532,
+    "total": 153.4,
+    "pick": "Utah St.",
+    "hammer": null,
+    "sources": {
+     "hasla": 20.02,
+     "espn": 18.13,
+     "dratings": 17.5,
+     "massey": 21.5
+    },
+    "src_totals": {
+     "hasla": 153.1,
+     "dratings": 154.5,
+     "massey": 152.5
+    },
+    "market": 25.5
+   },
+   {
+    "id": "2026-11-10-little-rock-new-mexico",
+    "away": "Little Rock",
+    "home": "New Mexico",
+    "neutral": false,
+    "margin": 19.65,
+    "p_home": 0.9531,
+    "total": 154.9,
+    "pick": "New Mexico",
+    "hammer": null,
+    "sources": {
+     "hasla": 19.17,
+     "espn": 17.82,
+     "dratings": 17.5,
+     "massey": 24.5
+    },
+    "src_totals": {
+     "hasla": 159.8,
+     "dratings": 154.9,
+     "massey": 150.5
+    },
+    "market": 23.5
+   },
+   {
+    "id": "2026-11-10-northern-kentucky-saint-louis",
+    "away": "Northern Kentucky",
+    "home": "Saint Louis",
+    "neutral": false,
+    "margin": 17.29,
+    "p_home": 0.9317,
+    "total": 165.7,
+    "pick": "Saint Louis",
+    "hammer": null,
+    "sources": {
+     "hasla": 20.67,
+     "espn": 17.72,
+     "dratings": 15.8,
+     "massey": 14.5
+    },
+    "src_totals": {
+     "hasla": 169.7,
+     "dratings": 168.0,
+     "massey": 159.5
+    },
+    "market": 23.5
+   },
+   {
+    "id": "2026-11-10-weber-st-utah",
+    "away": "Weber St.",
+    "home": "Utah",
+    "neutral": false,
+    "margin": 15.49,
+    "p_home": 0.9115,
+    "total": 154.2,
+    "pick": "Utah",
+    "hammer": null,
+    "sources": {
+     "hasla": 16.75,
+     "espn": 17.06,
+     "dratings": 13.6,
+     "massey": 14.5
+    },
+    "src_totals": {
+     "hasla": 154.2,
+     "dratings": 154.8,
+     "massey": 153.5
+    },
+    "market": 16.5
+   },
+   {
+    "id": "2026-11-10-yale-baylor",
+    "away": "Yale",
+    "home": "Baylor",
+    "neutral": false,
+    "margin": 15.31,
+    "p_home": 0.9104,
+    "total": 153.1,
+    "pick": "Baylor",
+    "hammer": null,
+    "sources": {
+     "hasla": 16.19,
+     "espn": 15.08,
+     "dratings": 15.3,
+     "massey": 14.5
+    },
+    "src_totals": {
+     "hasla": 150.9,
+     "dratings": 155.7,
+     "massey": 152.5
+    },
+    "market": 19.5
+   },
+   {
+    "id": "2026-11-10-san-diego-colorado",
+    "away": "San Diego",
+    "home": "Colorado",
+    "neutral": false,
+    "margin": 13.8,
+    "p_home": 0.8834,
+    "total": 154.9,
+    "pick": "Colorado",
+    "hammer": null,
+    "sources": {
+     "hasla": 12.18,
+     "espn": 16.53,
+     "dratings": 11.5,
+     "massey": 15.5
+    },
+    "src_totals": {
+     "hasla": 154.9,
+     "dratings": 153.5,
+     "massey": 156.5
+    },
+    "market": 12.5
+   },
+   {
+    "id": "2026-11-10-hofstra-arizona-st",
+    "away": "Hofstra",
+    "home": "Arizona St.",
+    "neutral": false,
+    "margin": 12.35,
+    "p_home": 0.8608,
+    "total": 142.9,
+    "pick": "Arizona St.",
+    "hammer": null,
+    "sources": {
+     "hasla": 12.41,
+     "espn": 12.39,
+     "dratings": 13.0,
+     "massey": 11.5
+    },
+    "src_totals": {
+     "hasla": 148.7,
+     "dratings": 138.2,
+     "massey": 142.5
+    },
+    "market": 18.5
+   },
+   {
+    "id": "2026-11-10-tennessee-martin-arkansas-st",
+    "away": "Tennessee Martin",
+    "home": "Arkansas St.",
+    "neutral": false,
+    "margin": 8.6,
+    "p_home": 0.7746,
+    "total": 152.1,
+    "pick": "Arkansas St.",
+    "hammer": null,
+    "sources": {
+     "hasla": 9.48,
+     "espn": 8.34,
+     "dratings": 7.9
+    },
+    "src_totals": {
+     "hasla": 151.7,
+     "dratings": 152.5
+    },
+    "market": 5.5
+   },
+   {
+    "id": "2026-11-10-montana-san-francisco",
+    "away": "Montana",
+    "home": "San Francisco",
+    "neutral": false,
+    "margin": 8.22,
+    "p_home": 0.7574,
+    "total": 150.7,
+    "pick": "San Francisco",
+    "hammer": null,
+    "sources": {
+     "hasla": 5.07,
+     "espn": 5.5,
+     "dratings": 11.1,
+     "massey": 11.5
+    },
+    "src_totals": {
+     "hasla": 154.0,
+     "dratings": 148.9,
+     "massey": 149.5
+    },
+    "market": 11.5
+   },
+   {
+    "id": "2026-11-10-green-bay-northern-iowa",
+    "away": "Green Bay",
+    "home": "Northern Iowa",
+    "neutral": false,
+    "margin": 7.49,
+    "p_home": 0.7371,
+    "total": 144.3,
+    "pick": "Northern Iowa",
+    "hammer": null,
+    "sources": {
+     "hasla": 8.0,
+     "espn": 4.21,
+     "dratings": 5.5,
+     "massey": 12.5
+    },
+    "src_totals": {
+     "hasla": 142.0,
+     "dratings": 146.9,
+     "massey": 143.5
+    },
+    "market": 3.5
+   },
+   {
+    "id": "2026-11-10-georgia-st-fresno-st",
+    "away": "Georgia St.",
+    "home": "Fresno St.",
+    "neutral": false,
+    "margin": 5.26,
+    "p_home": 0.6722,
+    "total": 149.3,
+    "pick": "Fresno St.",
+    "hammer": null,
+    "sources": {
+     "hasla": 3.38,
+     "espn": 1.51,
+     "dratings": 6.9,
+     "massey": 9.5
+    },
+    "src_totals": {
+     "hasla": 152.1,
+     "dratings": 148.5,
+     "massey": 147.5
+    },
+    "market": 6.5
+   },
+   {
+    "id": "2026-11-10-kansas-kentucky",
+    "away": "Kansas",
+    "home": "Kentucky",
+    "neutral": true,
+    "margin": -4.69,
+    "p_home": 0.3427,
+    "total": 153.3,
+    "pick": "Kansas",
+    "hammer": null,
+    "sources": {
+     "hasla": -7.45,
+     "espn": -4.0,
+     "dratings": -2.4
+    },
+    "src_totals": {
+     "hasla": 151.3,
+     "dratings": 155.0
+    },
+    "market": -4.5
+   },
+   {
+    "id": "2026-11-10-creighton-kansas-st",
+    "away": "Creighton",
+    "home": "Kansas St.",
+    "neutral": false,
+    "margin": -3.44,
+    "p_home": 0.3838,
+    "total": 155.0,
+    "pick": "Creighton",
+    "hammer": null,
+    "sources": {
+     "hasla": -5.13,
+     "espn": -5.69,
+     "dratings": -3.1,
+     "massey": 0.5
+    },
+    "src_totals": {
+     "hasla": 158.6,
+     "dratings": 156.1,
+     "massey": 150.5
+    },
+    "market": -3.5
+   },
+   {
+    "id": "2026-11-10-houston-christian-south-dakota",
+    "away": "Houston Christian",
+    "home": "South Dakota",
+    "neutral": false,
+    "margin": 3.16,
+    "p_home": 0.6092,
+    "total": 154.6,
+    "pick": "South Dakota",
+    "hammer": null,
+    "sources": {
+     "hasla": 2.9,
+     "espn": 2.21,
+     "dratings": 4.0,
+     "massey": 3.5
+    },
+    "src_totals": {
+     "hasla": 156.3,
+     "dratings": 155.2,
+     "massey": 152.5
+    },
+    "market": 4.5
+   },
+   {
+    "id": "2026-11-10-illinois-texas-tech",
+    "away": "Illinois",
+    "home": "Texas Tech",
+    "neutral": false,
+    "margin": -2.89,
+    "p_home": 0.4004,
+    "total": 155.1,
+    "pick": "Illinois",
+    "hammer": null,
+    "sources": {
+     "hasla": -5.17,
+     "espn": -1.62,
+     "dratings": -2.0,
+     "massey": -2.5
+    },
+    "src_totals": {
+     "hasla": 148.5,
+     "dratings": 162.2,
+     "massey": 153.5
+    },
+    "market": -2.5
+   },
+   {
+    "id": "2026-11-10-belmont-lipscomb",
+    "away": "Belmont",
+    "home": "Lipscomb",
+    "neutral": false,
+    "margin": -1.83,
+    "p_home": 0.4373,
+    "total": 156.5,
+    "pick": "Belmont",
+    "hammer": null,
+    "sources": {
+     "hasla": -1.32,
+     "espn": 1.48,
+     "dratings": -3.9,
+     "massey": -3.5
+    },
+    "src_totals": {
+     "hasla": 161.0,
+     "dratings": 154.5,
+     "massey": 154.5
+    },
+    "market": -3.5
    }
   ]
  },

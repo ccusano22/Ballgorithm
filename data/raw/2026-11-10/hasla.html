@@ -20,7 +20,7 @@
         <meta property="og:url" content="http://www.haslametrics.com">
         <meta property="og:title" content="Haslametrics: A unique approach to college basketball analysis">
         
-        <link href="style.css?i=7" rel="stylesheet" type="text/css">
+        <link href="style.css?i=8" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="ratings_datatable.css?i=2">
         <!--link rel="stylesheet" type="text/css" href="spritesheet.css"-->
         <script type="text/javascript" charset="utf8" src="jquery-1.10.2.min.js"></script>
@@ -2078,6 +2078,7 @@ if (Number(ThisYearLong2) < 27) {
                         <div id="wrapper">
     <div class="dropbtn" id="pos1" onclick="fireDropdown1();" onmouseover="fireDropdown2();" onmouseout="fireDropdown3();">
     </div>
+    <a href="/projections.php" aria-label="Projection Accuracy"><div id="pos9"></div></a>
     <a href="/about.php"> <div id="pos2"></div></a>
     <a href="https://rge-store.com/collections/haslametrics" target="_blank"> <div id="pos7"></div></a>
     <a href="mailto:haslam@haslametrics.com"> <div id="pos3"></div></a>
@@ -2190,8 +2191,8 @@ if (Number(ThisYearLong2) < 27) {
     padding: 4px 0px;;
 }
 .header-dropdown-show {
-    display:block;
-    left: 65px;
+    display: block;
+    left: 25px;  /* Previously 65px */
     top: 63px;
 }
 </style>
