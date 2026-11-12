@@ -63,9 +63,18 @@ p{margin:0}
 .card-pad{padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 
 /* Summary strip */
-.strip{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:"hammer hammer" "sd miss";gap:10px}
-@media (min-width:760px){.strip{grid-template-columns:1.8fr 1fr 1fr;grid-template-areas:"hammer sd miss"}}
-.k-miss{grid-area:miss}.k-sd{grid-area:sd}.kpi.hammer{grid-area:hammer}
+.strip{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+/* Notes: one line until opened, with the model's SD and average miss in the summary */
+.notes-card>summary{list-style:none;display:flex;align-items:center;gap:10px;padding:12px 16px;cursor:pointer;min-width:0}
+.notes-card>summary::-webkit-details-marker{display:none}
+.notes-card>summary:hover{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface));border-radius:var(--radius)}
+.nsum{flex:1;min-width:0;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nsum b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.notes-card[open]>summary:hover{border-radius:var(--radius) var(--radius) 0 0}
+.chev{flex:none;width:16px;height:16px;color:var(--muted);transition:transform .15s}
+.notes-card[open] .chev{transform:rotate(180deg)}
+.notes-body{display:flex;flex-direction:column;gap:10px;padding:0 16px 14px}
+.nstats{font-size:14px;max-width:72ch}
 .kpi{padding:12px 14px;display:flex;flex-direction:column;gap:3px}
 .kpi .num{font-size:30px;font-weight:700;line-height:1.05}
 .kpi small{font-size:12.5px;color:var(--muted)}
@@ -264,11 +273,14 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
     <div id="full">
       <div style="display:flex;flex-direction:column;gap:14px">
         <div class="strip" id="strip"></div>
-        <section class="card card-pad" aria-labelledby="n-h">
-          <h3 id="n-h">Notes</h3>
+        <details class="card notes-card" id="notes-card">
+          <summary><h3>Notes</h3><span class="nsum" id="nsum"></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+          <div class="notes-body">
+          <p class="nstats" id="nstats"></p>
           <ul class="notes" id="notes"></ul>
           <p class="lede">Every number is our blended margin with its standard deviation (±). N marks a neutral site. Moneyline shows each team's chance to win. Against the Spread shows each side's chance to cover the DraftKings spread, read off the same curve. The Hammer is the game where our sources most agree against the DraftKings spread, graded against that spread.</p>
-        </section>
+          </div>
+        </details>
         <div class="tools">
           <div class="field"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="gq" type="search" placeholder="Find a team" aria-label="Find a team" autocomplete="off"></div>
           <div class="seg" id="gsort" role="group" aria-label="Order games"><button type="button" data-v="conf" aria-pressed="true">CONFIDENCE</button><button type="button" data-v="time" aria-pressed="false">TIP TIME</button></div>
@@ -397,6 +409,8 @@ function showView(v){
 }
 window.addEventListener("hashchange", () => { showView(location.hash.slice(1)); window.scrollTo(0,0); });
 
+try { if (localStorage.getItem("ballgorithm:notes")==="open") $("#notes-card").open = true; } catch(e) {}
+$("#notes-card").addEventListener("toggle", e => { try { localStorage.setItem("ballgorithm:notes", e.target.open ? "open" : "closed"); } catch(err) {} });
 function syncMode(){ $("#mode").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.v===MODE))); }
 syncMode();
 $("#mode").addEventListener("click", e => {
@@ -446,10 +460,13 @@ function renderStrip(){
   $("#strip").innerHTML = `
     <div class="card kpi hammer"><span class="lbl">Hammer of the Day · vs DraftKings · ${recATS(r.hammer)}</span>
       ${hm ? hammerLine(hm) : `<small>${SLATE.graded || SLATE.date < "2026-11-02" ? "No Hammer on this slate." : "Waiting on DraftKings lines. Send them and the Hammer is set from the strongest consensus against the spread."}</small>`}
-    </div>
-    <div class="card kpi k-sd"><span class="lbl">Margin SD</span><span class="num">±${f1(m.sigma)}</span><small>${m.n ? `Learned from ${m.n} graded ${m.n===1?"game":"games"}` : "From your Colab model's 8.85 MAE until games are graded"}</small></div>
-    <div class="card kpi k-miss"><span class="lbl">Average miss</span><span class="num">${m.n ? f1(m.mae) : "—"}</span><small>${m.n ? `Points off the final, ${m.n} graded` : "Fills in as games are graded"}</small></div>`;
-  $("#notes").innerHTML = (SLATE.notes.length ? SLATE.notes : ["No notes today."]).map(n => `<li>${esc(n)}</li>`).join("");
+    </div>`;
+  const nn = SLATE.notes.length;
+  $("#nsum").innerHTML = `SD <b>±${f1(m.sigma)}</b> · avg miss <b>${m.n ? f1(m.mae) : "—"}</b> · ${nn} ${nn===1 ? "note" : "notes"}`;
+  $("#nstats").innerHTML = m.n
+    ? `Margin SD <b>±${f1(m.sigma)}</b>, learned from ${m.n} graded ${m.n===1?"game":"games"}. Average miss <b>${f1(m.mae)}</b> points off the final.`
+    : `Margin SD <b>±${f1(m.sigma)}</b>, from your Colab model's 8.85 MAE until games are graded. Average miss fills in as games are graded.`;
+  $("#notes").innerHTML = (nn ? SLATE.notes : ["No notes today."]).map(n => `<li>${esc(n)}</li>`).join("");
 }
 
 function distSVG(g, a){
