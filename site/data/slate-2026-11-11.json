@@ -1,132 +1,13 @@
 {
  "date": "2026-11-11",
- "generated_at": "2026-11-11T13:04:02-05:00",
+ "generated_at": "2026-11-11T20:57:10-05:00",
  "notes": [
-  "44 D1 games on the board. Coverage: Torvik 0, Haslametrics 39, ESPN 44, DRatings 41, Massey 37, CBBD 0, DraftKings lines 44.",
+  "44 D1 games on the board (34 locked at tip). Coverage: Torvik 0, Haslametrics 7, ESPN 10, DRatings 8, Massey 9, CBBD 0, DraftKings lines 10.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
   "20 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
  ],
  "games": [
-  {
-   "id": "2026-11-11-arkansas-pine-bluff-ucla",
-   "away": "Arkansas Pine Bluff",
-   "home": "UCLA",
-   "away_conf": "SWAC",
-   "home_conf": "B10",
-   "short": {},
-   "neutral": false,
-   "site": "at UCLA",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "Peacock",
-   "sources": {
-    "massey": {
-     "margin": 39.5,
-     "total": 154.5,
-     "note": "Published median margin: UCLA by 39.5, total 154.5."
-    },
-    "espn": {
-     "margin": 30.47,
-     "derived": true,
-     "note": "BPI matchup predictor: UCLA 99.7% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -46.5,
-    "total": 157.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "espn": 0.497,
-     "massey": 0.503
-    },
-    "used_total": {
-     "massey": 1.0
-    }
-   },
-   "blend": {
-    "margin": 35.02,
-    "src_sd": 4.52,
-    "model_sd": 11.58,
-    "sd": 12.43,
-    "p_home": 0.9976,
-    "p_sd": 0.002,
-    "total": 154.5,
-    "total_sd": 16.8,
-    "baseline_total": 169.5,
-    "lean": "under",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "UCLA",
-    "dog": "Arkansas Pine Bluff",
-    "p": 0.9976,
-    "margin": 35.02,
-    "lock": true
-   },
-   "momentum": {
-    "Arkansas Pine Bluff": {
-     "n": 1,
-     "avg": -24.9,
-     "last": [
-      -24.9
-     ],
-     "flag": null
-    },
-    "UCLA": {
-     "n": 1,
-     "avg": 23.2,
-     "last": [
-      23.2
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±0%)",
-   "result": null
-  },
   {
    "id": "2026-11-11-njit-vcu",
    "away": "NJIT",
@@ -252,247 +133,6 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-mississippi-valley-st-oregon",
-   "away": "Mississippi Valley St.",
-   "home": "Oregon",
-   "away_conf": "SWAC",
-   "home_conf": "B10",
-   "short": {},
-   "neutral": false,
-   "site": "at Oregon",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "B1G+",
-   "sources": {
-    "massey": {
-     "margin": 40.5,
-     "total": 143.5,
-     "note": "Published median margin: Oregon by 40.5, total 143.5."
-    },
-    "espn": {
-     "margin": 26.23,
-     "derived": true,
-     "note": "BPI matchup predictor: Oregon 99.1% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -35.5,
-    "total": 148.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "espn": 0.497,
-     "massey": 0.503
-    },
-    "used_total": {
-     "massey": 1.0
-    }
-   },
-   "blend": {
-    "margin": 33.41,
-    "src_sd": 7.13,
-    "model_sd": 11.58,
-    "sd": 13.6,
-    "p_home": 0.993,
-    "p_sd": 0.0058,
-    "total": 143.5,
-    "total_sd": 16.8,
-    "baseline_total": 155.0,
-    "lean": "under",
-    "n_sources": 2
-   },
-   "pick": {
-    "team": "Oregon",
-    "dog": "Mississippi Valley St.",
-    "p": 0.993,
-    "margin": 33.41,
-    "lock": true
-   },
-   "momentum": {
-    "Mississippi Valley St.": {
-     "n": 2,
-     "avg": 14.3,
-     "last": [
-      9.2,
-      19.4
-     ],
-     "flag": null
-    },
-    "Oregon": {
-     "n": 1,
-     "avg": 12.3,
-     "last": [
-      12.3
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-lindenwood-nebraska",
-   "away": "Lindenwood",
-   "home": "Nebraska",
-   "away_conf": "OVC",
-   "home_conf": "B10",
-   "short": {},
-   "neutral": false,
-   "site": "at Nebraska",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "FS1",
-   "sources": {
-    "hasla": {
-     "margin": 38.71,
-     "total": 154.7,
-     "note": "Published projection: Lindenwood 58.0, Nebraska 96.7."
-    },
-    "dratings": {
-     "margin": 29.3,
-     "total": 149.5,
-     "note": "Published projection: Lindenwood 60.1, Nebraska 89.4."
-    },
-    "massey": {
-     "margin": 32.5,
-     "total": 144.5,
-     "note": "Published median margin: Nebraska by 32.5, total 144.5."
-    },
-    "espn": {
-     "margin": 23.51,
-     "derived": true,
-     "note": "BPI matchup predictor: Nebraska 98.3% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -34.5,
-    "total": 150.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "hasla": 0.265,
-     "espn": 0.242,
-     "dratings": 0.249,
-     "massey": 0.245
-    },
-    "used_total": {
-     "hasla": 0.305,
-     "dratings": 0.352,
-     "massey": 0.344
-    }
-   },
-   "blend": {
-    "margin": 31.17,
-    "src_sd": 5.49,
-    "model_sd": 11.58,
-    "sd": 12.82,
-    "p_home": 0.9925,
-    "p_sd": 0.0081,
-    "total": 149.4,
-    "total_sd": 16.8,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Nebraska",
-    "dog": "Lindenwood",
-    "p": 0.9925,
-    "margin": 31.17,
-    "lock": true
-   },
-   "momentum": {
-    "Lindenwood": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "Nebraska": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±1%)",
    "result": null
   },
   {
@@ -1128,257 +768,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-cal-poly-grand-canyon",
-   "away": "Cal Poly",
-   "home": "Grand Canyon",
-   "away_conf": "BW",
-   "home_conf": "MWC",
-   "short": {},
-   "neutral": false,
-   "site": "at Grand Canyon",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "MW+",
-   "sources": {
-    "hasla": {
-     "margin": 20.33,
-     "total": 169.8,
-     "note": "Published projection: Cal Poly 74.8, Grand Canyon 95.1."
+   "result": {
+    "label": "Won by 13, 5.6 short of our number",
+    "tags": [],
+    "score": [
+     75,
+     88
+    ],
+    "model_err": 5.63,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 4.3,
+     "espn": 2.15,
+     "dratings": 2.7,
+     "massey": 13.5
     },
-    "dratings": {
-     "margin": 13.3,
-     "total": 180.5,
-     "note": "Published projection: Cal Poly 83.6, Grand Canyon 96.9."
+    "src_tot_err": {
+     "hasla": 3.4,
+     "dratings": 12.1,
+     "massey": 14.5
     },
-    "massey": {
-     "margin": 13.5,
-     "total": 160.5,
-     "note": "Published median margin: Grand Canyon by 13.5, total 160.5."
-    },
-    "espn": {
-     "margin": 18.92,
-     "derived": true,
-     "note": "BPI matchup predictor: Grand Canyon 95.6% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -18.5,
-    "total": 181.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "hasla": 0.265,
-     "espn": 0.242,
-     "dratings": 0.249,
-     "massey": 0.245
-    },
-    "used_total": {
-     "hasla": 0.305,
-     "dratings": 0.352,
-     "massey": 0.344
-    }
-   },
-   "blend": {
-    "margin": 16.57,
-    "src_sd": 3.15,
-    "model_sd": 11.58,
-    "sd": 12.0,
-    "p_home": 0.9163,
-    "p_sd": 0.0394,
-    "total": 170.4,
-    "total_sd": 16.8,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Grand Canyon",
-    "dog": "Cal Poly",
-    "p": 0.9163,
-    "margin": 16.57,
-    "lock": true
-   },
-   "momentum": {
-    "Cal Poly": {
-     "n": 1,
-     "avg": 8.2,
-     "last": [
-      8.2
-     ],
-     "flag": null
-    },
-    "Grand Canyon": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-oakland-boise-st",
-   "away": "Oakland",
-   "home": "Boise St.",
-   "away_conf": "Horz",
-   "home_conf": "P12",
-   "short": {},
-   "neutral": false,
-   "site": "at Boise St.",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "YouTube",
-   "sources": {
-    "hasla": {
-     "margin": 17.11,
-     "total": 153.5,
-     "note": "Published projection: Oakland 68.2, Boise St. 85.3."
-    },
-    "dratings": {
-     "margin": 13.5,
-     "total": 165.1,
-     "note": "Published projection: Oakland 75.8, Boise St. 89.3."
-    },
-    "massey": {
-     "margin": 15.5,
-     "total": 155.5,
-     "note": "Published median margin: Boise St. by 15.5, total 155.5."
-    },
-    "espn": {
-     "margin": 16.45,
-     "derived": true,
-     "note": "BPI matchup predictor: Boise St. 93.1% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -16.5,
-    "total": 161.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "hasla": 0.265,
-     "espn": 0.242,
-     "dratings": 0.249,
-     "massey": 0.245
-    },
-    "used_total": {
-     "hasla": 0.305,
-     "dratings": 0.352,
-     "massey": 0.344
-    }
-   },
-   "blend": {
-    "margin": 15.66,
-    "src_sd": 1.36,
-    "model_sd": 11.58,
-    "sd": 11.66,
-    "p_home": 0.9103,
-    "p_sd": 0.0198,
-    "total": 158.3,
-    "total_sd": 16.8,
-    "baseline_total": 170.2,
-    "lean": "under",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Boise St.",
-    "dog": "Oakland",
-    "p": 0.9103,
-    "margin": 15.66,
-    "lock": true
-   },
-   "momentum": {
-    "Oakland": {
-     "n": 3,
-     "avg": -11.9,
-     "last": [
-      -5.0,
-      -15.4,
-      -15.2
-     ],
-     "flag": null
-    },
-    "Boise St.": {
-     "n": 1,
-     "avg": 14.8,
-     "last": [
-      14.8
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 10.3
+   }
   },
   {
    "id": "2026-11-11-oral-roberts-tulsa",
@@ -1501,252 +914,6 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-portland-st-colorado-st",
-   "away": "Portland St.",
-   "home": "Colorado St.",
-   "away_conf": "BSky",
-   "home_conf": "P12",
-   "short": {},
-   "neutral": false,
-   "site": "at Colorado St.",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "YouTube",
-   "sources": {
-    "hasla": {
-     "margin": 20.11,
-     "total": 145.3,
-     "note": "Published projection: Portland St. 62.6, Colorado St. 82.7."
-    },
-    "dratings": {
-     "margin": 13.0,
-     "total": 146.8,
-     "note": "Published projection: Portland St. 66.9, Colorado St. 79.9."
-    },
-    "massey": {
-     "margin": 13.5,
-     "total": 146.5,
-     "note": "Published median margin: Colorado St. by 13.5, total 146.5."
-    },
-    "espn": {
-     "margin": 15.51,
-     "derived": true,
-     "note": "BPI matchup predictor: Colorado St. 91.9% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -16.5,
-    "total": 150.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "hasla": 0.265,
-     "espn": 0.242,
-     "dratings": 0.249,
-     "massey": 0.245
-    },
-    "used_total": {
-     "hasla": 0.305,
-     "dratings": 0.352,
-     "massey": 0.344
-    }
-   },
-   "blend": {
-    "margin": 15.61,
-    "src_sd": 2.81,
-    "model_sd": 11.58,
-    "sd": 11.92,
-    "p_home": 0.9049,
-    "p_sd": 0.035,
-    "total": 146.2,
-    "total_sd": 16.8,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Colorado St.",
-    "dog": "Portland St.",
-    "p": 0.9049,
-    "margin": 15.61,
-    "lock": true
-   },
-   "momentum": {
-    "Portland St.": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "Colorado St.": {
-     "n": 1,
-     "avg": -5.1,
-     "last": [
-      -5.1
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-utsa-seattle",
-   "away": "UTSA",
-   "home": "Seattle",
-   "away_conf": "Amer",
-   "home_conf": "WCC",
-   "short": {},
-   "neutral": false,
-   "site": "at Seattle",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 16.07,
-     "total": 152.2,
-     "note": "Published projection: UTSA 68.1, Seattle 84.1."
-    },
-    "dratings": {
-     "margin": 14.8,
-     "total": 147.2,
-     "note": "Published projection: UTSA 66.2, Seattle 81.0."
-    },
-    "massey": {
-     "margin": 13.5,
-     "total": 145.5,
-     "note": "Published median margin: Seattle by 13.5, total 145.5."
-    },
-    "espn": {
-     "margin": 13.6,
-     "derived": true,
-     "note": "BPI matchup predictor: Seattle 89.0% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -16.5,
-    "total": 148.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "hasla": 0.265,
-     "espn": 0.242,
-     "dratings": 0.249,
-     "massey": 0.245
-    },
-    "used_total": {
-     "hasla": 0.305,
-     "dratings": 0.352,
-     "massey": 0.344
-    }
-   },
-   "blend": {
-    "margin": 14.53,
-    "src_sd": 1.04,
-    "model_sd": 11.58,
-    "sd": 11.63,
-    "p_home": 0.8943,
-    "p_sd": 0.016,
-    "total": 148.1,
-    "total_sd": 16.8,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Seattle",
-    "dog": "UTSA",
-    "p": 0.8943,
-    "margin": 14.53,
-    "lock": false
-   },
-   "momentum": {
-    "UTSA": {
-     "n": 1,
-     "avg": -6.3,
-     "last": [
-      -6.3
-     ],
-     "flag": null
-    },
-    "Seattle": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1996,7 +1163,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Won by 12, 1.6 better our number",
+    "tags": [],
+    "score": [
+     69,
+     81
+    ],
+    "model_err": 1.6,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 2.13,
+     "espn": 2.55,
+     "dratings": 1.8,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "hasla": 0.5,
+     "dratings": 4.6,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.0
+   }
   },
   {
    "id": "2026-11-11-jackson-st-southern-miss",
@@ -2125,130 +1315,6 @@
    "result": null
   },
   {
-   "id": "2026-11-11-chicago-st-california",
-   "away": "Chicago St.",
-   "home": "California",
-   "away_conf": "NEC",
-   "home_conf": "ACC",
-   "short": {},
-   "neutral": false,
-   "site": "at California",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 8.01,
-     "total": 144.7,
-     "note": "Published projection: Chicago St. 68.3, California 76.3."
-    },
-    "dratings": {
-     "margin": 11.5,
-     "total": 143.7,
-     "note": "Published projection: Chicago St. 66.1, California 77.6."
-    },
-    "espn": {
-     "margin": 9.65,
-     "derived": true,
-     "note": "BPI matchup predictor: California 80.8% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "massey": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -11.5,
-    "total": 140.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.207,
-      "espn": 0.158,
-      "dratings": 0.166,
-      "massey": 0.14,
-      "cbbd": 0.165
-     }
-    },
-    "used": {
-     "hasla": 0.371,
-     "espn": 0.308,
-     "dratings": 0.321
-    },
-    "used_total": {
-     "hasla": 0.48,
-     "dratings": 0.52
-    }
-   },
-   "blend": {
-    "margin": 9.64,
-    "src_sd": 1.43,
-    "model_sd": 11.58,
-    "sd": 11.67,
-    "p_home": 0.7956,
-    "p_sd": 0.0344,
-    "total": 144.2,
-    "total_sd": 16.8,
-    "baseline_total": 146.8,
-    "lean": "near",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "California",
-    "dog": "Chicago St.",
-    "p": 0.7956,
-    "margin": 9.64,
-    "lock": false
-   },
-   "momentum": {
-    "Chicago St.": {
-     "n": 2,
-     "avg": 0.3,
-     "last": [
-      19.4,
-      -18.7
-     ],
-     "flag": null
-    },
-    "California": {
-     "n": 2,
-     "avg": -9.6,
-     "last": [
-      -17.2,
-      -2.0
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "3 core systems agree (win chance ±3%)",
-   "result": null
-  },
-  {
    "id": "2026-11-11-north-carolina-a-t-east-carolina",
    "away": "North Carolina A&T",
    "home": "East Carolina",
@@ -2368,7 +1434,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 5, 4.1 short of our number",
+    "tags": [],
+    "score": [
+     67,
+     72
+    ],
+    "model_err": 4.12,
+    "src_err": {
+     "market": 6.5,
+     "espn": 3.45,
+     "dratings": 4.4,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "dratings": 12.4,
+     "massey": 12.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.4
+   }
   },
   {
    "id": "2026-11-11-umass-lowell-massachusetts",
@@ -2866,7 +1953,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 14",
+    "tags": [],
+    "score": [
+     93,
+     107
+    ],
+    "model_err": 20.91,
+    "src_err": {
+     "market": 24.5,
+     "hasla": 18.95,
+     "espn": 23.45,
+     "dratings": 21.9,
+     "massey": 19.5
+    },
+    "src_tot_err": {
+     "hasla": 49.0,
+     "dratings": 42.5,
+     "massey": 58.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 50.0
+   }
   },
   {
    "id": "2026-11-11-milwaukee-indiana-st",
@@ -3482,133 +2592,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-usc-california",
-   "away": "USC",
-   "home": "California",
-   "away_conf": "B10",
-   "home_conf": "ACC",
-   "short": {},
-   "neutral": false,
-   "site": "at California",
-   "tip": "11 PM ET",
-   "tip_sort": 1380,
-   "tv": "ESPN2",
-   "sources": {
-    "hasla": {
-     "margin": -8.79,
-     "total": 161.5,
-     "note": "Published projection: USC 85.1, California 76.3."
+   "result": {
+    "label": "Lost by 3",
+    "tags": [],
+    "score": [
+     83,
+     80
+    ],
+    "model_err": 9.02,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 9.81,
+     "espn": 8.37,
+     "dratings": 8.8
     },
-    "dratings": {
-     "margin": -5.7,
-     "total": 161.9,
-     "note": "Published projection: USC 83.8, California 78.1."
+    "src_tot_err": {
+     "hasla": 5.8,
+     "dratings": 12.8
     },
-    "massey": {
-     "margin": -1.5,
-     "total": 157.5,
-     "note": "Published median margin: USC by 1.5, total 157.5."
-    },
-    "espn": {
-     "margin": -7.24,
-     "derived": true,
-     "note": "BPI matchup predictor: California 25.7% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 8.5,
-    "total": 161.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.207,
-      "espn": 0.158,
-      "dratings": 0.166,
-      "massey": 0.14,
-      "cbbd": 0.165
-     }
-    },
-    "used": {
-     "hasla": 0.287,
-     "espn": 0.238,
-     "dratings": 0.248,
-     "massey": 0.227
-    },
-    "used_total": {
-     "hasla": 0.325,
-     "dratings": 0.352,
-     "massey": 0.323
-    }
-   },
-   "blend": {
-    "margin": -6.0,
-    "src_sd": 2.72,
-    "model_sd": 11.58,
-    "sd": 11.89,
-    "p_home": 0.3069,
-    "p_sd": 0.0844,
-    "total": 160.3,
-    "total_sd": 16.8,
-    "baseline_total": 169.0,
-    "lean": "under",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "USC",
-    "dog": "California",
-    "p": 0.6931,
-    "margin": 6.0,
-    "lock": false
-   },
-   "momentum": {
-    "USC": {
-     "n": 1,
-     "avg": -0.2,
-     "last": [
-      -0.2
-     ],
-     "flag": null
-    },
-    "California": {
-     "n": 2,
-     "avg": -9.6,
-     "last": [
-      -17.2,
-      -2.0
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+    "won": false,
+    "hammer": null,
+    "total_err": 9.6
+   }
   },
   {
    "id": "2026-11-11-cornell-st-bonaventure",
@@ -3857,7 +2862,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Lost by 5",
+    "tags": [],
+    "score": [
+     76,
+     81
+    ],
+    "model_err": 9.85,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 13.58,
+     "espn": 9.21,
+     "dratings": 10.8,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 9.6,
+     "dratings": 7.0,
+     "massey": 11.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 9.3
+   }
   },
   {
    "id": "2026-11-11-kent-st-unc-wilmington",
@@ -3977,128 +3005,6 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-11-nevada-uc-santa-barbara",
-   "away": "Nevada",
-   "home": "UC Santa Barbara",
-   "away_conf": "MWC",
-   "home_conf": "BW",
-   "short": {},
-   "neutral": false,
-   "site": "at UC Santa Barbara",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "ESPN+",
-   "sources": {
-    "dratings": {
-     "margin": -0.6,
-     "total": 148.0,
-     "note": "Published projection: Nevada 74.3, UC Santa Barbara 73.7."
-    },
-    "massey": {
-     "margin": -6.5,
-     "total": 149.5,
-     "note": "Published median margin: Nevada by 6.5, total 149.5."
-    },
-    "espn": {
-     "margin": -5.09,
-     "derived": true,
-     "note": "BPI matchup predictor: UC Santa Barbara 32.3% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "hasla": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 1.5,
-    "total": 144.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.167,
-      "hasla": 0.176,
-      "espn": 0.161,
-      "dratings": 0.166,
-      "massey": 0.163,
-      "cbbd": 0.167
-     }
-    },
-    "used": {
-     "espn": 0.328,
-     "dratings": 0.339,
-     "massey": 0.333
-    },
-    "used_total": {
-     "dratings": 0.505,
-     "massey": 0.495
-    }
-   },
-   "blend": {
-    "margin": -4.04,
-    "src_sd": 2.52,
-    "model_sd": 11.58,
-    "sd": 11.85,
-    "p_home": 0.3666,
-    "p_sd": 0.0823,
-    "total": 148.7,
-    "total_sd": 16.8,
-    "baseline_total": 174.0,
-    "lean": "under",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "Nevada",
-    "dog": "UC Santa Barbara",
-    "p": 0.6334,
-    "margin": 4.04,
-    "lock": false
-   },
-   "momentum": {
-    "Nevada": {
-     "n": 1,
-     "avg": 2.9,
-     "last": [
-      2.9
-     ],
-     "flag": null
-    },
-    "UC Santa Barbara": {
-     "n": 1,
-     "avg": 15.4,
-     "last": [
-      15.4
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "some source disagreement (win chance ±8%)",
    "result": null
   },
   {
@@ -4471,7 +3377,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 14, 10.6 better our number",
+    "tags": [],
+    "score": [
+     51,
+     65
+    ],
+    "model_err": 10.57,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 10.15,
+     "espn": 11.19,
+     "dratings": 8.5,
+     "massey": 12.5
+    },
+    "src_tot_err": {
+     "hasla": 34.8,
+     "dratings": 34.1,
+     "massey": 34.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 34.5
+   }
   },
   {
    "id": "2026-11-11-southern-indiana-iu-indy",
@@ -4591,7 +3520,28 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 4, 1.5 better our number",
+    "tags": [],
+    "score": [
+     70,
+     74
+    ],
+    "model_err": 1.47,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 1.95,
+     "espn": 4.17,
+     "massey": 2.5
+    },
+    "src_tot_err": {
+     "hasla": 17.6,
+     "massey": 9.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.3
+   }
   },
   {
    "id": "2026-11-11-santa-clara-north-texas",
@@ -4834,7 +3784,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 10",
+    "tags": [],
+    "score": [
+     91,
+     81
+    ],
+    "model_err": 11.93,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 13.52,
+     "espn": 10.22,
+     "dratings": 11.9
+    },
+    "src_tot_err": {
+     "hasla": 22.9,
+     "dratings": 19.7
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 21.2
+   }
   },
   {
    "id": "2026-11-11-american-drexel",
@@ -5456,6 +4427,1245 @@
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
    "result": null
+  },
+  {
+   "id": "2026-11-11-arkansas-pine-bluff-ucla",
+   "away": "Arkansas Pine Bluff",
+   "home": "UCLA",
+   "away_conf": "SWAC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at UCLA",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "Peacock",
+   "sources": {
+    "massey": {
+     "margin": 39.5,
+     "total": 154.5,
+     "note": "Published median margin: UCLA by 39.5, total 154.5."
+    },
+    "espn": {
+     "margin": 30.47,
+     "derived": true,
+     "note": "BPI matchup predictor: UCLA 99.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -47.5,
+    "total": 156.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "espn": 0.498,
+     "massey": 0.502
+    },
+    "used_total": {
+     "massey": 1.0
+    }
+   },
+   "blend": {
+    "margin": 35.0,
+    "src_sd": 4.52,
+    "model_sd": 11.55,
+    "sd": 12.4,
+    "p_home": 0.9976,
+    "p_sd": 0.0019,
+    "total": 154.5,
+    "total_sd": 17.0,
+    "baseline_total": 169.5,
+    "lean": "under",
+    "n_sources": 2
+   },
+   "pick": {
+    "team": "UCLA",
+    "dog": "Arkansas Pine Bluff",
+    "p": 0.9976,
+    "margin": 35.0,
+    "lock": true
+   },
+   "momentum": {
+    "Arkansas Pine Bluff": {
+     "n": 1,
+     "avg": -24.9,
+     "last": [
+      -24.9
+     ],
+     "flag": null
+    },
+    "UCLA": {
+     "n": 1,
+     "avg": 23.2,
+     "last": [
+      23.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "2 core systems agree (win chance ±0%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-mississippi-valley-st-oregon",
+   "away": "Mississippi Valley St.",
+   "home": "Oregon",
+   "away_conf": "SWAC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Oregon",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "B1G+",
+   "sources": {
+    "massey": {
+     "margin": 40.5,
+     "total": 143.5,
+     "note": "Published median margin: Oregon by 40.5, total 143.5."
+    },
+    "espn": {
+     "margin": 26.23,
+     "derived": true,
+     "note": "BPI matchup predictor: Oregon 99.1% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -33.5,
+    "total": 150.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "espn": 0.498,
+     "massey": 0.502
+    },
+    "used_total": {
+     "massey": 1.0
+    }
+   },
+   "blend": {
+    "margin": 33.39,
+    "src_sd": 7.13,
+    "model_sd": 11.55,
+    "sd": 13.58,
+    "p_home": 0.993,
+    "p_sd": 0.0057,
+    "total": 143.5,
+    "total_sd": 17.0,
+    "baseline_total": 155.0,
+    "lean": "under",
+    "n_sources": 2
+   },
+   "pick": {
+    "team": "Oregon",
+    "dog": "Mississippi Valley St.",
+    "p": 0.993,
+    "margin": 33.39,
+    "lock": true
+   },
+   "momentum": {
+    "Mississippi Valley St.": {
+     "n": 2,
+     "avg": 14.3,
+     "last": [
+      9.2,
+      19.4
+     ],
+     "flag": null
+    },
+    "Oregon": {
+     "n": 1,
+     "avg": 12.3,
+     "last": [
+      12.3
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "2 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-lindenwood-nebraska",
+   "away": "Lindenwood",
+   "home": "Nebraska",
+   "away_conf": "OVC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Nebraska",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "FS1",
+   "sources": {
+    "hasla": {
+     "margin": 38.71,
+     "total": 154.7,
+     "note": "Published projection: Lindenwood 58.0, Nebraska 96.7."
+    },
+    "dratings": {
+     "margin": 29.3,
+     "total": 149.5,
+     "note": "Published projection: Lindenwood 60.1, Nebraska 89.4."
+    },
+    "massey": {
+     "margin": 32.5,
+     "total": 144.5,
+     "note": "Published median margin: Nebraska by 32.5, total 144.5."
+    },
+    "espn": {
+     "margin": 23.51,
+     "derived": true,
+     "note": "BPI matchup predictor: Nebraska 98.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -34.5,
+    "total": 153.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.263,
+     "espn": 0.243,
+     "dratings": 0.249,
+     "massey": 0.245
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.352,
+     "massey": 0.341
+    }
+   },
+   "blend": {
+    "margin": 31.15,
+    "src_sd": 5.49,
+    "model_sd": 11.55,
+    "sd": 12.79,
+    "p_home": 0.9926,
+    "p_sd": 0.008,
+    "total": 149.4,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Nebraska",
+    "dog": "Lindenwood",
+    "p": 0.9926,
+    "margin": 31.15,
+    "lock": true
+   },
+   "momentum": {
+    "Lindenwood": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Nebraska": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-cal-poly-grand-canyon",
+   "away": "Cal Poly",
+   "home": "Grand Canyon",
+   "away_conf": "BW",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": false,
+   "site": "at Grand Canyon",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "MW+",
+   "sources": {
+    "hasla": {
+     "margin": 20.33,
+     "total": 169.8,
+     "note": "Published projection: Cal Poly 74.8, Grand Canyon 95.1."
+    },
+    "dratings": {
+     "margin": 13.3,
+     "total": 180.5,
+     "note": "Published projection: Cal Poly 83.6, Grand Canyon 96.9."
+    },
+    "massey": {
+     "margin": 13.5,
+     "total": 160.5,
+     "note": "Published median margin: Grand Canyon by 13.5, total 160.5."
+    },
+    "espn": {
+     "margin": 18.92,
+     "derived": true,
+     "note": "BPI matchup predictor: Grand Canyon 95.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 181.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.263,
+     "espn": 0.243,
+     "dratings": 0.249,
+     "massey": 0.245
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.352,
+     "massey": 0.341
+    }
+   },
+   "blend": {
+    "margin": 16.56,
+    "src_sd": 3.15,
+    "model_sd": 11.55,
+    "sd": 11.97,
+    "p_home": 0.9167,
+    "p_sd": 0.0393,
+    "total": 170.4,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Grand Canyon",
+    "dog": "Cal Poly",
+    "p": 0.9167,
+    "margin": 16.56,
+    "lock": true
+   },
+   "momentum": {
+    "Cal Poly": {
+     "n": 1,
+     "avg": 8.2,
+     "last": [
+      8.2
+     ],
+     "flag": null
+    },
+    "Grand Canyon": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-oakland-boise-st",
+   "away": "Oakland",
+   "home": "Boise St.",
+   "away_conf": "Horz",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": false,
+   "site": "at Boise St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "YouTube",
+   "sources": {
+    "hasla": {
+     "margin": 17.11,
+     "total": 153.5,
+     "note": "Published projection: Oakland 68.2, Boise St. 85.3."
+    },
+    "dratings": {
+     "margin": 13.5,
+     "total": 165.1,
+     "note": "Published projection: Oakland 75.8, Boise St. 89.3."
+    },
+    "massey": {
+     "margin": 15.5,
+     "total": 155.5,
+     "note": "Published median margin: Boise St. by 15.5, total 155.5."
+    },
+    "espn": {
+     "margin": 16.45,
+     "derived": true,
+     "note": "BPI matchup predictor: Boise St. 93.1% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 159.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.263,
+     "espn": 0.243,
+     "dratings": 0.249,
+     "massey": 0.245
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.352,
+     "massey": 0.341
+    }
+   },
+   "blend": {
+    "margin": 15.66,
+    "src_sd": 1.36,
+    "model_sd": 11.55,
+    "sd": 11.63,
+    "p_home": 0.9109,
+    "p_sd": 0.0198,
+    "total": 158.3,
+    "total_sd": 17.0,
+    "baseline_total": 170.2,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Boise St.",
+    "dog": "Oakland",
+    "p": 0.9109,
+    "margin": 15.66,
+    "lock": true
+   },
+   "momentum": {
+    "Oakland": {
+     "n": 3,
+     "avg": -11.9,
+     "last": [
+      -5.0,
+      -15.4,
+      -15.2
+     ],
+     "flag": null
+    },
+    "Boise St.": {
+     "n": 1,
+     "avg": 14.8,
+     "last": [
+      14.8
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-portland-st-colorado-st",
+   "away": "Portland St.",
+   "home": "Colorado St.",
+   "away_conf": "BSky",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": false,
+   "site": "at Colorado St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "YouTube",
+   "sources": {
+    "hasla": {
+     "margin": 20.11,
+     "total": 145.3,
+     "note": "Published projection: Portland St. 62.6, Colorado St. 82.7."
+    },
+    "dratings": {
+     "margin": 13.0,
+     "total": 146.8,
+     "note": "Published projection: Portland St. 66.9, Colorado St. 79.9."
+    },
+    "massey": {
+     "margin": 13.5,
+     "total": 146.5,
+     "note": "Published median margin: Colorado St. by 13.5, total 146.5."
+    },
+    "espn": {
+     "margin": 15.51,
+     "derived": true,
+     "note": "BPI matchup predictor: Colorado St. 91.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 150.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.263,
+     "espn": 0.243,
+     "dratings": 0.249,
+     "massey": 0.245
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.352,
+     "massey": 0.341
+    }
+   },
+   "blend": {
+    "margin": 15.6,
+    "src_sd": 2.81,
+    "model_sd": 11.55,
+    "sd": 11.89,
+    "p_home": 0.9054,
+    "p_sd": 0.035,
+    "total": 146.2,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Colorado St.",
+    "dog": "Portland St.",
+    "p": 0.9054,
+    "margin": 15.6,
+    "lock": true
+   },
+   "momentum": {
+    "Portland St.": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Colorado St.": {
+     "n": 1,
+     "avg": -5.1,
+     "last": [
+      -5.1
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-utsa-seattle",
+   "away": "UTSA",
+   "home": "Seattle",
+   "away_conf": "Amer",
+   "home_conf": "WCC",
+   "short": {},
+   "neutral": false,
+   "site": "at Seattle",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 16.07,
+     "total": 152.2,
+     "note": "Published projection: UTSA 68.1, Seattle 84.1."
+    },
+    "dratings": {
+     "margin": 14.8,
+     "total": 147.2,
+     "note": "Published projection: UTSA 66.2, Seattle 81.0."
+    },
+    "massey": {
+     "margin": 13.5,
+     "total": 145.5,
+     "note": "Published median margin: Seattle by 13.5, total 145.5."
+    },
+    "espn": {
+     "margin": 13.6,
+     "derived": true,
+     "note": "BPI matchup predictor: Seattle 89.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 148.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "hasla": 0.263,
+     "espn": 0.243,
+     "dratings": 0.249,
+     "massey": 0.245
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.352,
+     "massey": 0.341
+    }
+   },
+   "blend": {
+    "margin": 14.52,
+    "src_sd": 1.04,
+    "model_sd": 11.55,
+    "sd": 11.6,
+    "p_home": 0.8948,
+    "p_sd": 0.016,
+    "total": 148.2,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Seattle",
+    "dog": "UTSA",
+    "p": 0.8948,
+    "margin": 14.52,
+    "lock": false
+   },
+   "momentum": {
+    "UTSA": {
+     "n": 1,
+     "avg": -6.3,
+     "last": [
+      -6.3
+     ],
+     "flag": null
+    },
+    "Seattle": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-11-utsa-seattle",
+    "team": "UTSA",
+    "side": "away",
+    "spread": 16.5,
+    "spread_home": -16.5,
+    "edge": 1.98,
+    "cover_p": 0.5678,
+    "agree": 4,
+    "n": 4
+   }
+  },
+  {
+   "id": "2026-11-11-chicago-st-california",
+   "away": "Chicago St.",
+   "home": "California",
+   "away_conf": "NEC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at California",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 8.01,
+     "total": 144.7,
+     "note": "Published projection: Chicago St. 68.3, California 76.3."
+    },
+    "dratings": {
+     "margin": 11.5,
+     "total": 143.7,
+     "note": "Published projection: Chicago St. 66.1, California 77.6."
+    },
+    "espn": {
+     "margin": 9.65,
+     "derived": true,
+     "note": "BPI matchup predictor: California 80.8% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -11.5,
+    "total": 137.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.207,
+      "espn": 0.157,
+      "dratings": 0.165,
+      "massey": 0.14,
+      "cbbd": 0.165
+     }
+    },
+    "used": {
+     "hasla": 0.37,
+     "espn": 0.309,
+     "dratings": 0.321
+    },
+    "used_total": {
+     "hasla": 0.481,
+     "dratings": 0.519
+    }
+   },
+   "blend": {
+    "margin": 9.64,
+    "src_sd": 1.43,
+    "model_sd": 11.55,
+    "sd": 11.64,
+    "p_home": 0.7962,
+    "p_sd": 0.0344,
+    "total": 144.2,
+    "total_sd": 17.0,
+    "baseline_total": 146.8,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "California",
+    "dog": "Chicago St.",
+    "p": 0.7962,
+    "margin": 9.64,
+    "lock": false
+   },
+   "momentum": {
+    "Chicago St.": {
+     "n": 2,
+     "avg": 0.3,
+     "last": [
+      19.4,
+      -18.7
+     ],
+     "flag": null
+    },
+    "California": {
+     "n": 2,
+     "avg": -9.6,
+     "last": [
+      -17.2,
+      -2.0
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-usc-california",
+   "away": "USC",
+   "home": "California",
+   "away_conf": "B10",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at California",
+   "tip": "11 PM ET",
+   "tip_sort": 1380,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": -8.79,
+     "total": 161.5,
+     "note": "Published projection: USC 85.1, California 76.3."
+    },
+    "dratings": {
+     "margin": -5.7,
+     "total": 161.9,
+     "note": "Published projection: USC 83.8, California 78.1."
+    },
+    "massey": {
+     "margin": -1.5,
+     "total": 157.5,
+     "note": "Published median margin: USC by 1.5, total 157.5."
+    },
+    "espn": {
+     "margin": -7.24,
+     "derived": true,
+     "note": "BPI matchup predictor: California 25.7% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 8.5,
+    "total": 160.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.207,
+      "espn": 0.157,
+      "dratings": 0.165,
+      "massey": 0.14,
+      "cbbd": 0.165
+     }
+    },
+    "used": {
+     "hasla": 0.286,
+     "espn": 0.239,
+     "dratings": 0.248,
+     "massey": 0.227
+    },
+    "used_total": {
+     "hasla": 0.328,
+     "dratings": 0.354,
+     "massey": 0.318
+    }
+   },
+   "blend": {
+    "margin": -6.0,
+    "src_sd": 2.72,
+    "model_sd": 11.55,
+    "sd": 11.87,
+    "p_home": 0.3066,
+    "p_sd": 0.0846,
+    "total": 160.4,
+    "total_sd": 17.0,
+    "baseline_total": 169.0,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "USC",
+    "dog": "California",
+    "p": 0.6934,
+    "margin": 6.0,
+    "lock": false
+   },
+   "momentum": {
+    "USC": {
+     "n": 1,
+     "avg": -0.2,
+     "last": [
+      -0.2
+     ],
+     "flag": null
+    },
+    "California": {
+     "n": 2,
+     "avg": -9.6,
+     "last": [
+      -17.2,
+      -2.0
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-11-nevada-uc-santa-barbara",
+   "away": "Nevada",
+   "home": "UC Santa Barbara",
+   "away_conf": "MWC",
+   "home_conf": "BW",
+   "short": {},
+   "neutral": false,
+   "site": "at UC Santa Barbara",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "dratings": {
+     "margin": -0.6,
+     "total": 148.0,
+     "note": "Published projection: Nevada 74.3, UC Santa Barbara 73.7."
+    },
+    "massey": {
+     "margin": -6.5,
+     "total": 149.5,
+     "note": "Published median margin: Nevada by 6.5, total 149.5."
+    },
+    "espn": {
+     "margin": -5.09,
+     "derived": true,
+     "note": "BPI matchup predictor: UC Santa Barbara 32.3% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 146.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.167,
+      "hasla": 0.176,
+      "espn": 0.162,
+      "dratings": 0.166,
+      "massey": 0.163,
+      "cbbd": 0.167
+     }
+    },
+    "used": {
+     "espn": 0.33,
+     "dratings": 0.338,
+     "massey": 0.332
+    },
+    "used_total": {
+     "dratings": 0.508,
+     "massey": 0.492
+    }
+   },
+   "blend": {
+    "margin": -4.04,
+    "src_sd": 2.52,
+    "model_sd": 11.55,
+    "sd": 11.82,
+    "p_home": 0.3662,
+    "p_sd": 0.0825,
+    "total": 148.7,
+    "total_sd": 17.0,
+    "baseline_total": 174.0,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Nevada",
+    "dog": "UC Santa Barbara",
+    "p": 0.6338,
+    "margin": 4.04,
+    "lock": false
+   },
+   "momentum": {
+    "Nevada": {
+     "n": 1,
+     "avg": 2.9,
+     "last": [
+      2.9
+     ],
+     "flag": null
+    },
+    "UC Santa Barbara": {
+     "n": 1,
+     "avg": 15.4,
+     "last": [
+      15.4
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
   }
  ],
  "waiting": [],
@@ -5493,5 +5703,5 @@
   "Voorhees Tigers",
   "William Paterson Pioneers"
  ],
- "abridged": "THE BALLGORITHM · NCAAM · Wed, Nov 11\n\nNOTES\n- 44 D1 games on the board. Coverage: Torvik 0, Haslametrics 39, ESPN 44, DRatings 41, Massey 37, CBBD 0, DraftKings lines 44.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 20 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nHAMMER OF THE DAY vs DraftKings (0-6)\nRobert Morris +30.5 vs Arkansas — our number Arkansas −22.7, 4 of 4 sources on this side, 75% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nUCLA >99% · −35.0 ±12.4 vs Arkansas Pine Bluff · total 154\nVCU 99% · −29.8 ±11.9 vs NJIT · total 149\nOregon 99% · −33.4 ±13.6 vs Mississippi Valley St. · total 144\nNebraska 99% · −31.2 ±12.8 vs Lindenwood · total 149\nHouston 99% · −28.4 ±12.0 vs Jacksonville St. · total 139\nSt. John's 98% · −24.8 ±12.4 vs Colgate · total 156\nArkansas 97% · −22.7 ±11.7 vs Robert Morris · total 158\nNotre Dame 95% · −20.0 ±11.8 vs South Carolina St. · total 147\nSan Diego St. 93% · −18.6 ±12.5 vs Bethune Cookman · total 153\nGrand Canyon 92% · −16.6 ±12.0 vs Cal Poly · total 170\nBoise St. 91% · −15.7 ±11.7 vs Oakland · total 158\nTulsa 91% · −15.7 ±11.9 vs Oral Roberts · total 156\nColorado St. 90% · −15.6 ±11.9 vs Portland St. · total 146\nSeattle 89% · −14.5 ±11.6 vs UTSA · total 148\nFurman 86% · −12.6 ±11.7 vs Holy Cross · total 150\nUC Davis 81% · −10.4 ±11.8 vs Incarnate Word · total 147\nSouthern Miss 80% · −9.7 ±11.7 vs Jackson St. · total 153\nCalifornia 80% · −9.6 ±11.7 vs Chicago St. · total 144\nEast Carolina 78% · −9.1 ±11.6 vs North Carolina A&T · total 151\nMassachusetts 78% · −9.1 ±11.8 vs UMass Lowell · total 151\nMid\nFlorida Atlantic 79% · −9.8 ±12.0 vs William & Mary · total 168\nEast Tennessee St. 79% · −9.6 ±12.2 vs Campbell · total 149\nLoyola Chicago 72% · −6.9 ±11.7 vs Air Force · total 150\nIndiana St. 72% · −6.7 ±11.7 vs Milwaukee · total 155\nStephen F. Austin 71% · −6.5 ±11.7 vs Abilene Christian · total 149\nMichigan 70% · −6.4 ±12.2 vs Marquette · total 154\nPrinceton 70% · −6.1 ±11.6 vs Stony Brook · total 140\nSouth Florida 70% · −6.0 ±11.6 vs Saint Joseph's (N) · total 153\nUSC 69% · −6.0 ±11.9 vs California · total 160\nSt. Bonaventure 69% · −5.8 ±11.8 vs Cornell · total 160\nPenn 66% · −4.8 ±11.9 vs Navy · total 148\nUNC Wilmington 65% · −4.5 ±11.6 vs Kent St. · total 156\nNevada 63% · −4.0 ±11.8 vs UC Santa Barbara · total 149\nSam Houston St. 63% · −3.8 ±11.7 vs Pepperdine · total 159\nOld Dominion 62% · −3.7 ±11.8 vs Norfolk St. · total 149\nVMI 62% · −3.4 ±11.7 vs North Carolina Central · total 150\nIU Indy 58% · −2.5 ±11.9 vs Southern Indiana · total 157\nSanta Clara 57% · −2.0 ±12.0 vs North Texas · total 151\nTemple 57% · −1.9 ±11.7 vs Charleston · total 151\nDrexel 54% · −1.2 ±11.6 vs American · total 144\nJames Madison 54% · −1.2 ±11.8 vs Delaware · total 148\nUNC Asheville 52% · −0.7 ±11.7 vs West Georgia · total 150\nSouth Dakota St. 51% · −0.3 ±11.7 vs Valparaiso · total 145\nWeak\nSouth Carolina 94% · −18.6 ±11.7 vs Saint Peter's · total 135"
+ "abridged": "THE BALLGORITHM · NCAAM · Wed, Nov 11\n\nNOTES\n- 44 D1 games on the board (34 locked at tip). Coverage: Torvik 0, Haslametrics 7, ESPN 10, DRatings 8, Massey 9, CBBD 0, DraftKings lines 10.\n- Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.\n- CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.\n- 20 ESPN games skipped because one team isn't Division I or its name isn't recognized yet.\n\nRESULTS\nSan Diego St. −18.6: Won by 13, 5.6 short of our number (final Bethune Cookman 75, San Diego St. 88)\nUC Davis −10.4: Won by 12, 1.6 better our number (final Incarnate Word 69, UC Davis 81)\nEast Carolina −9.1: Won by 5, 4.1 short of our number (final North Carolina A&T 67, East Carolina 72)\nLoyola Chicago −6.9: Lost by 14 (final Loyola Chicago 93, Air Force 107)\nSouth Florida −6.0: Lost by 3 (final Saint Joseph's 83, South Florida 80)\nPenn −4.8: Lost by 5 (final Penn 76, Navy 81)\nVMI −3.4: Won by 14, 10.6 better our number (final North Carolina Central 51, VMI 65)\nIU Indy −2.5: Won by 4, 1.5 better our number (final Southern Indiana 70, IU Indy 74)\nTemple −1.9: Lost by 10 (final Charleston 91, Temple 81)\n\nHAMMER OF THE DAY vs DraftKings (0-6)\nRobert Morris +30.5 vs Arkansas — our number Arkansas −22.7, 4 of 4 sources on this side, 75% to cover\n\nWIN PROBABILITIES (our margin ± SD · N = neutral site)\nStrong\nVCU 99% · −29.8 ±11.9 vs NJIT · total 149\nHouston 99% · −28.4 ±12.0 vs Jacksonville St. · total 139\nSt. John's 98% · −24.8 ±12.4 vs Colgate · total 156\nArkansas 97% · −22.7 ±11.7 vs Robert Morris · total 158\nNotre Dame 95% · −20.0 ±11.8 vs South Carolina St. · total 147\nSan Diego St. 93% · −18.6 ±12.5 vs Bethune Cookman · total 153\nTulsa 91% · −15.7 ±11.9 vs Oral Roberts · total 156\nFurman 86% · −12.6 ±11.7 vs Holy Cross · total 150\nUC Davis 81% · −10.4 ±11.8 vs Incarnate Word · total 147\nSouthern Miss 80% · −9.7 ±11.7 vs Jackson St. · total 153\nEast Carolina 78% · −9.1 ±11.6 vs North Carolina A&T · total 151\nMassachusetts 78% · −9.1 ±11.8 vs UMass Lowell · total 151\nUCLA >99% · −35.0 ±12.4 vs Arkansas Pine Bluff · total 154\nOregon 99% · −33.4 ±13.6 vs Mississippi Valley St. · total 144\nNebraska 99% · −31.1 ±12.8 vs Lindenwood · total 149\nGrand Canyon 92% · −16.6 ±12.0 vs Cal Poly · total 170\nBoise St. 91% · −15.7 ±11.6 vs Oakland · total 158\nColorado St. 91% · −15.6 ±11.9 vs Portland St. · total 146\nSeattle 89% · −14.5 ±11.6 vs UTSA · total 148\nCalifornia 80% · −9.6 ±11.6 vs Chicago St. · total 144\nMid\nFlorida Atlantic 79% · −9.8 ±12.0 vs William & Mary · total 168\nEast Tennessee St. 79% · −9.6 ±12.2 vs Campbell · total 149\nLoyola Chicago 72% · −6.9 ±11.7 vs Air Force · total 150\nIndiana St. 72% · −6.7 ±11.7 vs Milwaukee · total 155\nStephen F. Austin 71% · −6.5 ±11.7 vs Abilene Christian · total 149\nMichigan 70% · −6.4 ±12.2 vs Marquette · total 154\nPrinceton 70% · −6.1 ±11.6 vs Stony Brook · total 140\nSouth Florida 70% · −6.0 ±11.6 vs Saint Joseph's (N) · total 153\nSt. Bonaventure 69% · −5.8 ±11.8 vs Cornell · total 160\nPenn 66% · −4.8 ±11.9 vs Navy · total 148\nUNC Wilmington 65% · −4.5 ±11.6 vs Kent St. · total 156\nSam Houston St. 63% · −3.8 ±11.7 vs Pepperdine · total 159\nOld Dominion 62% · −3.7 ±11.8 vs Norfolk St. · total 149\nVMI 62% · −3.4 ±11.7 vs North Carolina Central · total 150\nIU Indy 58% · −2.5 ±11.9 vs Southern Indiana · total 157\nSanta Clara 57% · −2.0 ±12.0 vs North Texas · total 151\nTemple 57% · −1.9 ±11.7 vs Charleston · total 151\nDrexel 54% · −1.2 ±11.6 vs American · total 144\nJames Madison 54% · −1.2 ±11.8 vs Delaware · total 148\nUNC Asheville 52% · −0.7 ±11.7 vs West Georgia · total 150\nSouth Dakota St. 51% · −0.3 ±11.7 vs Valparaiso · total 145\nUSC 69% · −6.0 ±11.9 vs California · total 160\nNevada 63% · −4.0 ±11.8 vs UC Santa Barbara · total 149\nWeak\nSouth Carolina 94% · −18.6 ±11.7 vs Saint Peter's · total 135"
 }
