@@ -78,7 +78,7 @@ details.key summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--mu
 /* Tiers + game cards */
 .tier{display:flex;flex-direction:column;gap:10px}
 .tier-h{display:flex;align-items:baseline;gap:10px}
-.tier-h h2{font-size:20px}
+.tier-h h2{font-size:20px;white-space:nowrap}
 .tier-h span{font-size:12.5px;color:var(--muted)}
 .tchip{font-family:var(--font-display);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:5px}
 .tchip.Strong{background:color-mix(in srgb,var(--hit) 22%,var(--surface));color:var(--ink)}
@@ -173,11 +173,13 @@ details.key summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--mu
 .result{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 16px;background:var(--surface-2);border-radius:0 0 var(--radius) var(--radius)}
 .result .big{font-size:26px}
 
-/* Abridged */
-.abr{display:flex;flex-direction:column;gap:10px}
-.abr pre{margin:0;white-space:pre-wrap;word-wrap:break-word;font-family:var(--font-body);font-size:14.5px;line-height:1.55;padding:16px;background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius)}
-.btn{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 14px;border-radius:8px;background:var(--ink);color:var(--surface);font-weight:600;font-size:14px}
-.toast{font-size:13px;color:var(--hit);font-weight:600}
+/* Against the spread */
+.tline{font-family:var(--font-display);font-size:19px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+.trow.dog .tline{color:var(--muted)}
+.c-mkt{stroke:var(--ink);stroke-width:1.4;stroke-dasharray:2 2}
+.badge.cov{background:color-mix(in srgb,var(--hit) 22%,var(--surface));color:var(--ink)}
+.badge.nocov{background:color-mix(in srgb,var(--miss) 18%,var(--surface));color:var(--ink)}
+.gl-p .none{font-family:var(--font-body);font-size:12px;font-weight:600;color:var(--muted)}
 
 /* Tables & season/sources */
 .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
@@ -254,8 +256,8 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
     <div class="scroller" id="dates" aria-label="Slate date"></div>
     <div class="slate"><h2 id="slate-title">Today's slate</h2><span id="slate-sub"></span></div>
     <div class="ctl-row">
-      <div class="seg" id="mode" role="group" aria-label="Report">
-        <button type="button" data-v="full" aria-pressed="true">FULL</button><button type="button" data-v="abr" aria-pressed="false">ABRIDGED</button>
+      <div class="seg" id="mode" role="group" aria-label="Win or cover">
+        <button type="button" data-v="ml" aria-pressed="true">MONEYLINE</button><button type="button" data-v="ats" aria-pressed="false">AGAINST THE SPREAD</button>
       </div>
     </div>
 
@@ -265,7 +267,7 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
         <section class="card card-pad" aria-labelledby="n-h">
           <h3 id="n-h">Notes</h3>
           <ul class="notes" id="notes"></ul>
-          <p class="lede">Every number is our blended margin with its standard deviation (±). N marks a neutral site. The Hammer is the game where our sources most agree against the DraftKings spread, graded against that spread.</p>
+          <p class="lede">Every number is our blended margin with its standard deviation (±). N marks a neutral site. Moneyline shows each team's chance to win. Against the Spread shows each side's chance to cover the DraftKings spread, read off the same curve. The Hammer is the game where our sources most agree against the DraftKings spread, graded against that spread.</p>
         </section>
         <div class="tools">
           <div class="field"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="gq" type="search" placeholder="Find a team" aria-label="Find a team" autocomplete="off"></div>
@@ -275,10 +277,6 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
       </div>
     </div>
 
-    <div id="abr" class="abr" hidden>
-      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><button type="button" class="btn" id="copy">Copy report</button><span class="toast" id="toast" role="status"></span></div>
-      <pre id="abr-text"></pre>
-    </div>
   </section>
 
   <!-- SEASON -->
@@ -365,7 +363,24 @@ const etTime = iso => new Intl.DateTimeFormat("en-US",{timeZone:"America/New_Yor
 let NICK = {};
 const short = n => NICK[n] || n;
 
-let IDX = null, STATE = null, SLATE = null, CUR = null, MODE = "full";
+let IDX = null, STATE = null, SLATE = null, CUR = null, MODE = "ml";
+try { if (localStorage.getItem("ballgorithm:market")==="ats") MODE = "ats"; } catch(e) {}
+const ATS = () => MODE==="ats";
+// Chance to cover the DraftKings spread under our curve: the same normal model (blended margin, blended SD) the Hammer uses.
+const erf = x => { const t = 1/(1+0.3275911*Math.abs(x)); const y = 1 - (((((1.061405429*t - 1.453152027)*t) + 1.421413741)*t - 0.284496736)*t + 0.254829592)*t*Math.exp(-x*x); return x>=0 ? y : -y; };
+const phi = z => 0.5*(1+erf(z/Math.SQRT2));
+function ats(g){
+  const sh = g.market?.spread_home; if (sh==null) return null;
+  const pHome = phi((g.blend.margin + sh)/g.blend.sd);   // home covers when home margin + home spread > 0
+  const home = g.blend.margin + sh >= 0;
+  const lineHome = -sh, edge = g.blend.margin - lineHome;
+  const srcs = Object.values(g.sources||{}).filter(s => s && s.margin!=null);
+  const agree = srcs.filter(s => (s.margin - lineHome)*edge > 0).length;
+  let res = null;
+  if (g.result){ const hm = g.result.score[1] - g.result.score[0], c = (hm + sh)*(home ? 1 : -1); res = c>0 ? "W" : c<0 ? "L" : "P"; }
+  return {team: home ? g.home : g.away, other: home ? g.away : g.home, spread: home ? sh : -sh, sh, p: home ? pHome : 1-pHome, pHome, home, edge: Math.abs(edge), agree, n: srcs.length, res};
+}
+const COVER = {W:["cov","Covered"], L:["nocov","No cover"], P:["","Push"]};
 // Every team on the Dawgs list carries DAWG #<rank> wherever its name shows; teams that clear the badge bar get the bold version.
 const dawgRow = t => ((STATE && STATE.display && STATE.display.dawgs) || []).find(r => r.team===t);
 const dawgTag = t => { const r = dawgRow(t); return r ? `<span class="badge dawg${r.badge ? " hot" : ""}" title="#${r.rank} on the Dawgs list">DAWG #${r.rank}</span>` : ""; };
@@ -382,18 +397,13 @@ function showView(v){
 }
 window.addEventListener("hashchange", () => { showView(location.hash.slice(1)); window.scrollTo(0,0); });
 
+function syncMode(){ $("#mode").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.v===MODE))); }
+syncMode();
 $("#mode").addEventListener("click", e => {
   const b = e.target.closest("[data-v]"); if (!b) return;
-  MODE = b.dataset.v;
-  $("#mode").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.v===MODE)));
-  $("#full").hidden = MODE!=="full"; $("#abr").hidden = MODE!=="abr";
-  try { localStorage.setItem("cb-ncaam:mode", MODE); } catch(e) {}
-});
-$("#copy").addEventListener("click", async () => {
-  const t = $("#abr-text").textContent;
-  try { await navigator.clipboard.writeText(t); $("#toast").textContent = "Copied"; }
-  catch(e){ const r = document.createRange(); r.selectNodeContents($("#abr-text")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("#toast").textContent = "Selected. Copy from the menu."; }
-  setTimeout(() => $("#toast").textContent = "", 2500);
+  MODE = b.dataset.v; syncMode();
+  try { localStorage.setItem("ballgorithm:market", MODE); } catch(e) {}
+  if (SLATE) renderTiers();
 });
 $("#dates").addEventListener("click", async e => {
   const b = e.target.closest("[data-v]"); if (!b) return;
@@ -442,22 +452,24 @@ function renderStrip(){
   $("#notes").innerHTML = (SLATE.notes.length ? SLATE.notes : ["No notes today."]).map(n => `<li>${esc(n)}</li>`).join("");
 }
 
-function distSVG(g){
+function distSVG(g, a){
   const m = g.blend.margin, sd = g.blend.sd, home = g.home, away = g.away;
-  const R = Math.max(30, Math.ceil((Math.abs(m) + 3*sd)/10)*10);
+  const cut = a ? -a.sh : 0;                       // home margin that splits the curve: 0 to win, the line to cover
+  const R = Math.max(30, Math.ceil((Math.max(Math.abs(m) + 3*sd, Math.abs(cut) + 5))/10)*10);
   const W = 340, H = 104, L = 8, Rt = 8, top = 14, base = 74;
   const x = v => L + (v + R) / (2*R) * (W - L - Rt);
   const pdf = v => Math.exp(-0.5*((v-m)/sd)**2);
   const pts = []; for (let i=0;i<=120;i++){ const v = -R + 2*R*i/120; pts.push([v, base - pdf(v)*(base-top)]); }
   const area = (a,b) => { const s = pts.filter(p => p[0]>=a && p[0]<=b); if (!s.length) return ""; return `M${x(s[0][0]).toFixed(1)},${base} ` + s.map(p => `L${x(p[0]).toFixed(1)},${p[1].toFixed(1)}`).join(" ") + ` L${x(s[s.length-1][0]).toFixed(1)},${base} Z`; };
   const line = "M" + pts.map(p => `${x(p[0]).toFixed(1)},${p[1].toFixed(1)}`).join(" L");
-  const pickHome = g.pick.team === home;
+  const pickHome = a ? a.home : g.pick.team === home;
   const ticks = []; for (let v=-R; v<=R; v+=10) ticks.push(v);
-  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Spread of likely final margins: ${esc(g.pick.team)} by ${f1(Math.abs(m))} plus or minus ${f1(sd)}">
-    <path d="${area(-R,0)}" class="${pickHome ? "c-dog" : "c-pick"}"/>
-    <path d="${area(0,R)}" class="${pickHome ? "c-pick" : "c-dog"}"/>
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Spread of likely final margins: ${esc(g.pick.team)} by ${f1(Math.abs(m))} plus or minus ${f1(sd)}${a ? `, DraftKings line ${esc(g.home)} ${spr(a.sh)}` : ""}">
+    <path d="${area(-R,cut)}" class="${pickHome ? "c-dog" : "c-pick"}"/>
+    <path d="${area(cut,R)}" class="${pickHome ? "c-pick" : "c-dog"}"/>
     <path d="${line}" class="c-line"/>
     <line x1="${x(0)}" x2="${x(0)}" y1="${top-6}" y2="${base}" class="c-zero"/>
+    ${a ? `<line x1="${x(cut)}" x2="${x(cut)}" y1="${top-6}" y2="${base}" class="c-mkt"/><text x="${x(cut) + (a.home ? -4 : 4)}" y="${top+2}" text-anchor="${a.home ? "end" : "start"}" class="axb">DK</text>` : ""}
     <line x1="${x(m)}" x2="${x(m)}" y1="${top-2}" y2="${base}" class="c-mean"/>
     <line x1="${x(m-sd)}" x2="${x(m+sd)}" y1="${base+5}" y2="${base+5}" class="c-sd"/>
     <line x1="${x(m-sd)}" x2="${x(m-sd)}" y1="${base+2}" y2="${base+8}" class="c-sd"/>
@@ -493,11 +505,13 @@ function sourcesHTML(g){
 
 function gameCard(g){
   const b = g.blend, pk = g.pick, mk = g.market;
-  const pickHome = pk.team===g.home;
-  const pHome = b.p_home;
+  const a = ATS() ? ats(g) : null;
+  const pickHome = a ? a.home : pk.team===g.home;
+  const pHome = a ? a.pHome : b.p_home;
   const ranks = t => { const tv = g.sources.torvik?.rank?.[t]; return tv ? "T "+tv : ""; };
-  const row = (t, p) => { const fav = t===pk.team; return `
-    <div class="trow ${fav?"":"dog"}"><div class="tname"><b>${esc(t)}</b>${dawgTag(t)}<span class="ranks">${esc(ranks(t))}</span></div>
+  const lineOf = t => a ? `<span class="tline">${spr(t===g.home ? a.sh : -a.sh)}</span>` : "";
+  const row = (t, p) => { const fav = a ? t===a.team : t===pk.team; return `
+    <div class="trow ${fav?"":"dog"}"><div class="tname"><b>${esc(t)}</b>${lineOf(t)}${dawgTag(t)}<span class="ranks">${esc(ranks(t))}</span></div>
       <div class="tprob"><span class="num">${pct(p)}</span></div></div>`; };
   const lo = b.margin - b.sd, hi = b.margin + b.sd;
   const end = v => v>=0 ? `${short(g.home)} by ${Math.abs(v).toFixed(0)}` : `${short(g.away)} by ${Math.abs(v).toFixed(0)}`;
@@ -508,7 +522,8 @@ function gameCard(g){
     mktLine = `<p class="mkt">${esc(mk.book || "DraftKings")}: <b>${esc(g.home)} ${spr(mk.spread_home)}</b>${mk.spread_open!=null?` (opened ${spr(mk.spread_open)})`:""}${mk.total!=null ? ` · total <b>${mk.total}</b>` : ""}${mk.ml_home!=null ? ` · ML ${odds(mk.ml_home)} / ${odds(mk.ml_away)}` : ""}. ${rel}</p>`;
   }
   const inj = (g.injuries||[]).length ? `<div class="sec"><h3>Availability</h3><ul class="inj">${g.injuries.map(i => `<li><span class="${i.status==="Out"?"st-out":"st-exp"}">${esc(i.status)}</span><b>${esc(i.player)}</b> · ${esc(i.team)} · ${esc(i.note)}</li>`).join("")}</ul></div>` : "";
-  const res = g.result ? `<div class="result"><span class="tchip ${g.result.won ? "Strong" : "Weak"}">${g.result.won ? "Won" : "Lost"}</span><b>${esc(g.away)} ${g.result.score[0]}, ${esc(g.home)} ${g.result.score[1]}</b><span class="mkt">${esc(g.result.label || "")}${(g.result.tags||[]).length ? " · "+esc(g.result.tags.join(", ")) : ""} · our miss ${f1(g.result.model_err)} pts${g.result.note ? " · "+esc(g.result.note) : ""}</span></div>` : "";
+  const covTxt = a && a.res ? ` · ${esc(a.team)} ${spr(a.spread)}: ${COVER[a.res][1].toLowerCase()}` : "";
+  const res = g.result ? `<div class="result"><span class="tchip ${g.result.won ? "Strong" : "Weak"}">${g.result.won ? "Won" : "Lost"}</span><b>${esc(g.away)} ${g.result.score[0]}, ${esc(g.home)} ${g.result.score[1]}</b><span class="mkt">${esc(g.result.label || "")}${(g.result.tags||[]).length ? " · "+esc(g.result.tags.join(", ")) : ""} · our miss ${f1(g.result.model_err)} pts${covTxt}${g.result.note ? " · "+esc(g.result.note) : ""}</span></div>` : "";
   const hmSec = g.hammer ? `<div class="sec"><h3>Hammer of the Day</h3><p class="mkt"><b>${esc(g.hammer.team)} ${spr(g.hammer.spread)}</b> against DraftKings: ${g.hammer.agree} of ${g.hammer.n} sources on this side, ${pct(g.hammer.cover_p)} to cover by our curve.${g.result && g.result.hammer ? ` Result: <b>${esc(g.result.hammer)}</b>.` : ""}</p></div>` : "";
   return `<article class="card game" aria-label="${esc(g.away)} vs ${esc(g.home)}">
     <div class="g-top"><span class="tchip ${g.tier}">${g.tier}</span><span>${esc(g.tier_reason)}</span>${g.hammer ? '<span class="badge hm">Hammer</span>' : ""}</div>
@@ -519,9 +534,11 @@ function gameCard(g){
       <div class="st"><span class="lbl">Our number</span><span class="num">${esc(short(pk.team))} −${f1(pk.margin)}</span><small>${b.n_sources} of ${ACT().length} sources</small></div>
       <div class="st"><span class="lbl">Standard dev.</span><span class="num">±${f1(b.sd)}</span><small>model ${f1(b.model_sd)} · sources ${f1(b.src_sd)}</small></div>
       <div class="st"><span class="lbl">Total</span><span class="num">${b.total!=null ? f1(b.total) : "—"}</span><small>${b.total!=null ? (b.total_sd!=null ? "±"+f1(b.total_sd) : "SD learning") + (b.lean ? " · "+b.lean : "") : "No source total yet"}</small></div>
-      <div class="st"><span class="lbl">1-SD range</span><span class="num" style="font-size:17px;line-height:1.25">${esc(end(lo))} to ${esc(end(hi))}</span><small>About 2 in 3 finals land here</small></div>
+      ${a ? `<div class="st"><span class="lbl">Edge vs the line</span><span class="num">${f1(a.edge)} pts</span><small>${a.agree} of ${a.n} sources on ${esc(short(a.team))}'s side</small></div>`
+        : `<div class="st"><span class="lbl">1-SD range</span><span class="num" style="font-size:17px;line-height:1.25">${esc(end(lo))} to ${esc(end(hi))}</span><small>About 2 in 3 finals land here</small></div>`}
     </div>
-    <div class="dist"><figure>${distSVG(g)}<figcaption>Shaded side is where ${esc(pk.team)} wins: ${pct(pk.p)} of the curve. Bar under the curve marks ±1 SD.</figcaption></figure></div>
+    ${ATS() && !a ? `<div class="sec"><p class="mkt">No DraftKings line on this game yet, so there's no cover chance. Showing the chance to win.</p></div>` : ""}
+    <div class="dist"><figure>${distSVG(g, a)}<figcaption>${a ? `Shaded side is where ${esc(a.team)} covers ${spr(a.spread)}: ${pct(a.p)} of the curve. Dotted line marks the DraftKings number.` : `Shaded side is where ${esc(pk.team)} wins: ${pct(pk.p)} of the curve.`} Bar under the curve marks ±1 SD.</figcaption></figure></div>
     ${hmSec}
     ${mk ? `<div class="sec">${mktLine}</div>` : ""}
     <div class="sec"><h3>Momentum vs our number</h3>${momentumHTML(g)}</div>
@@ -551,7 +568,25 @@ function waitingHTML(){
 
 let GSORT = "conf", GQ = "", GMAP = {};
 try { const v = localStorage.getItem("ballgorithm:order"); if (v==="time" || v==="conf") GSORT = v; } catch(e) {}
+function gameRowATS(g){
+  const a = ats(g), pk = g.pick;
+  const tip = String(g.tip||"").replace(" ET","").replace(" (Tue)","");
+  if (!a){
+    const sub = [`${g.away} at ${g.home}`, g.neutral ? "N" : null, `our ${short(pk.team)} −${f1(pk.margin)}`].filter(Boolean).join(" · ");
+    return `<details class="gl" data-id="${esc(g.id)}"><summary><span class="gl-time">${esc(tip)}</span>
+      <span class="gl-main"><span class="gl-pick"><b>${esc(pk.team)}</b>${dawgTag(pk.team)}</span><span class="gl-sub">${esc(sub)}</span></span>
+      <span class="gl-p"><span class="none">No line</span></span></summary><div class="gl-body"></div></details>`;
+  }
+  const sub = [`${g.neutral ? "vs" : a.home ? "vs" : "at"} ${a.other}${dawgTxt(a.other)}`, g.neutral ? "N" : null, `our ${short(pk.team)} −${f1(pk.margin)}`, `±${f1(g.blend.sd)}`, `${a.agree}/${a.n} src on this side`].filter(Boolean).join(" · ");
+  const res = a.res ? `<span class="badge ${COVER[a.res][0]}">${COVER[a.res][1]}</span>` : "";
+  return `<details class="gl" data-id="${esc(g.id)}"${SLATE.games.length<=3 ? " open" : ""}><summary>
+      <span class="gl-time">${esc(tip)}</span>
+      <span class="gl-main"><span class="gl-pick"><b>${esc(a.team)}</b>${dawgTag(a.team)}${g.hammer ? '<span class="badge hm">Hammer</span>' : ""}${res}</span><span class="gl-sub">${esc(sub)}</span></span>
+      <span class="gl-p"><span class="num">${pct(a.p)}</span><span class="mg">${spr(a.spread)}</span></span>
+    </summary><div class="gl-body">${SLATE.games.length<=3 ? gameCard(g) : ""}</div></details>`;
+}
 function gameRow(g){
+  if (ATS()) return gameRowATS(g);
   const pk = g.pick, other = pk.team===g.home ? g.away : g.home;
   const tip = String(g.tip||"").replace(" ET","").replace(" (Tue)","");
   const sub = [`${g.neutral ? "vs" : pk.team===g.home ? "vs" : "at"} ${other}${dawgTxt(other)}`, g.neutral ? "N" : null, `±${f1(g.blend.sd)}`, g.market && g.market.spread_home!=null ? `${/draftkings/i.test(g.market.book||"DraftKings") ? "DK" : "Line"} ${short(g.home)} ${spr(g.market.spread_home)}` : null, g.blend.total!=null ? `total ${Math.round(g.blend.total)}` : null, `${g.blend.n_sources}/${ACT().length} src`].filter(Boolean).join(" · ");
@@ -569,6 +604,14 @@ function renderTiers(){
   const match = g => !q || g.home.toLowerCase().includes(q) || g.away.toLowerCase().includes(q);
   const byTime = (a,b) => (a.tip_sort??0) - (b.tip_sort??0) || b.pick.p - a.pick.p;
   const byConf = (a,b) => b.pick.p - a.pick.p || (a.tip_sort??0) - (b.tip_sort??0);
+  if (ATS() && GSORT!=="time"){
+    const gs = SLATE.games.filter(match), withL = gs.filter(g => ats(g)).sort((x,y) => ats(y).p - ats(x).p || (x.tip_sort??0) - (y.tip_sort??0)), noL = gs.filter(g => !ats(g)).sort(byTime);
+    $("#tiers").innerHTML = `<section class="tier" aria-label="Against the spread" style="margin-bottom:16px"><div class="tier-h"><h2>To cover</h2><span class="cnt">${withL.length}</span><span>The side our number likes against the DraftKings spread, likeliest cover first</span></div>
+      ${withL.length ? `<div class="glist">${withL.map(gameRow).join("")}</div>` : `<p class="empty-tier">${q ? "No match." : "No DraftKings lines on this slate yet."}</p>`}</section>`
+      + (noL.length ? `<section class="tier" aria-label="No line yet" style="margin-bottom:16px"><div class="tier-h"><h2>No line yet</h2><span class="cnt">${noL.length}</span><span>No DraftKings spread posted, so no cover chance</span></div><div class="glist">${noL.map(gameRow).join("")}</div></section>` : "")
+      + waitingHTML();
+    return;
+  }
   if (GSORT==="time"){
     const gs = SLATE.games.filter(match).sort(byTime);
     $("#tiers").innerHTML = `<section class="tier" aria-label="All games by tip time" style="margin-bottom:16px"><div class="tier-h"><h2>By tip time</h2><span class="cnt">${gs.length}</span><span>Every game in order, tier shown under the time</span></div>
@@ -587,7 +630,6 @@ function renderToday(){
   renderHeader(); renderStrip();
   GMAP = Object.fromEntries(SLATE.games.map(g => [g.id, g]));
   renderTiers();
-  $("#abr-text").textContent = SLATE.abridged || "";
 }
 $("#tiers").addEventListener("toggle", e => {
   const d = e.target;
@@ -692,7 +734,6 @@ function renderDawgs(){
     $("#pill").textContent = "Data missing";
     return;
   }
-  try { const m = localStorage.getItem("cb-ncaam:mode"); if (m==="abr") $("#mode [data-v=abr]").click(); } catch(e) {}
   renderToday(); renderSeason(); renderSources(); renderDawgs();
   showView(location.hash.slice(1));
 })();

@@ -329,7 +329,7 @@ def grade_pending(state, today):
         sl["notes"] = [n for n in sl["notes"] if not n.startswith("GRADED")]
         sl["notes"].insert(0, line)
         sl["graded"] = not left
-        sl["abridged"] = E.abridged(sl, datetime.date.fromisoformat(ds).strftime("%a, %b %-d"), state["records"])
+        sl.pop("abridged", None)
         jsave(path, sl)
     return rep
 
@@ -458,7 +458,6 @@ def build_today(state, now):
     else:
         E.set_hammer(slate, state, eligible={x["id"] for x in games})
     slate["unmatched"] = sorted(unmatched)
-    slate["abridged"] = E.abridged(slate, today.strftime("%a, %b %-d"), state["records"])
     jsave(path, slate)
     idx = jload(os.path.join(SITE, "index.json"), {"dates": []})
     if today.isoformat() not in idx["dates"]:
