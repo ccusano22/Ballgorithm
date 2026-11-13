@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-12T13:36:39-05:00",
+ "updated": "2026-11-12T20:13:30-05:00",
  "artifact_url": "https://claude.ai/artifact/AN8JdyqWML4JjQM7vBZYwr",
  "constants": {
   "MAE_PRIOR": 8.85,
@@ -24,7 +24,7 @@
  },
  "records": {
   "su": {
-   "w": 235,
+   "w": 237,
    "l": 61,
    "since": "2026-11-05"
   },
@@ -36,13 +36,13 @@
   }
  },
  "model": {
-  "n": 296,
-  "mae": 9.443547297297293,
-  "brier_sum": 37.33868855999999,
-  "correct": 235,
-  "sigma": 11.65,
-  "tot_n": 294,
-  "tot_mae": 13.198639455782304
+  "n": 298,
+  "mae": 9.419999999999995,
+  "brier_sum": 37.41525940999998,
+  "correct": 237,
+  "sigma": 11.63,
+  "tot_n": 296,
+  "tot_mae": 13.120270270270263
  },
  "sources": {
   "torvik": {
@@ -50,20 +50,20 @@
    "mae": 0.0
   },
   "hasla": {
-   "n": 266,
-   "mae": 9.22872180451128
+   "n": 268,
+   "mae": 9.208619402985079
   },
   "espn": {
-   "n": 296,
-   "mae": 9.897027027027034
+   "n": 298,
+   "mae": 9.865604026845645
   },
   "dratings": {
-   "n": 278,
-   "mae": 9.616187050359716
+   "n": 280,
+   "mae": 9.587500000000004
   },
   "massey": {
-   "n": 242,
-   "mae": 9.665289256198347
+   "n": 243,
+   "mae": 9.656378600823045
   },
   "cbbd": {
    "n": 0,
@@ -76,20 +76,20 @@
    "mae": 0.0
   },
   "hasla": {
-   "n": 266,
-   "mae": 14.042481203007528
+   "n": 268,
+   "mae": 13.964925373134337
   },
   "espn": {
    "n": 0,
    "mae": 0.0
   },
   "dratings": {
-   "n": 278,
-   "mae": 12.916906474820149
+   "n": 280,
+   "mae": 12.837500000000004
   },
   "massey": {
-   "n": 242,
-   "mae": 13.355371900826448
+   "n": 243,
+   "mae": 13.30246913580247
   },
   "cbbd": {
    "n": 0,
@@ -98,8 +98,8 @@
  },
  "bench": {
   "market": {
-   "n": 296,
-   "mae": 8.574324324324317
+   "n": 298,
+   "mae": 8.570469798657712
   }
  },
  "groups": {
@@ -473,16 +473,16 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 20,
-    "mae": 11.487
+    "n": 21,
+    "mae": 11.34142857142857
    },
    "espn": {
-    "n": 22,
-    "mae": 10.828181818181816
+    "n": 23,
+    "mae": 10.459999999999999
    },
    "dratings": {
-    "n": 22,
-    "mae": 11.136363636363638
+    "n": 23,
+    "mae": 10.830434782608698
    },
    "massey": {
     "n": 16,
@@ -551,20 +551,20 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 11,
-    "mae": 10.819090909090908
+    "n": 12,
+    "mae": 10.304166666666665
    },
    "espn": {
-    "n": 14,
-    "mae": 10.750714285714285
+    "n": 15,
+    "mae": 10.572
    },
    "dratings": {
-    "n": 13,
-    "mae": 11.323076923076922
+    "n": 14,
+    "mae": 11.02142857142857
    },
    "massey": {
-    "n": 13,
-    "mae": 11.730769230769232
+    "n": 14,
+    "mae": 11.428571428571429
    },
    "cbbd": {
     "n": 0,
@@ -603,20 +603,20 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 21,
-    "mae": 7.457142857142857
+    "n": 22,
+    "mae": 7.329090909090909
    },
    "espn": {
-    "n": 22,
-    "mae": 8.722272727272728
+    "n": 23,
+    "mae": 8.693913043478261
    },
    "dratings": {
-    "n": 22,
-    "mae": 8.681818181818183
+    "n": 23,
+    "mae": 8.61304347826087
    },
    "massey": {
-    "n": 22,
-    "mae": 8.045454545454545
+    "n": 23,
+    "mae": 8.021739130434781
    },
    "cbbd": {
     "n": 0,
@@ -837,16 +837,16 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 12,
-    "mae": 11.752500000000001
+    "n": 13,
+    "mae": 11.496923076923078
    },
    "espn": {
-    "n": 14,
-    "mae": 9.767857142857144
+    "n": 15,
+    "mae": 9.274000000000001
    },
    "dratings": {
-    "n": 13,
-    "mae": 10.238461538461541
+    "n": 14,
+    "mae": 9.800000000000002
    },
    "massey": {
     "n": 8,
@@ -1307,16 +1307,16 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 20,
-    "mae": 20.685
+    "n": 21,
+    "mae": 19.74285714285714
    },
    "espn": {
     "n": 0,
     "mae": 0.0
    },
    "dratings": {
-    "n": 22,
-    "mae": 16.763636363636365
+    "n": 23,
+    "mae": 16.15217391304348
    },
    "massey": {
     "n": 16,
@@ -1385,20 +1385,20 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 11,
-    "mae": 16.527272727272727
+    "n": 12,
+    "mae": 15.683333333333334
    },
    "espn": {
     "n": 0,
     "mae": 0.0
    },
    "dratings": {
-    "n": 13,
-    "mae": 14.446153846153846
+    "n": 14,
+    "mae": 13.47857142857143
    },
    "massey": {
-    "n": 13,
-    "mae": 15.038461538461537
+    "n": 14,
+    "mae": 13.999999999999998
    },
    "cbbd": {
     "n": 0,
@@ -1437,20 +1437,20 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 21,
-    "mae": 18.119047619047617
+    "n": 22,
+    "mae": 17.586363636363636
    },
    "espn": {
     "n": 0,
     "mae": 0.0
    },
    "dratings": {
-    "n": 22,
-    "mae": 13.463636363636365
+    "n": 23,
+    "mae": 12.917391304347827
    },
    "massey": {
-    "n": 22,
-    "mae": 15.13636363636364
+    "n": 23,
+    "mae": 14.500000000000004
    },
    "cbbd": {
     "n": 0,
@@ -1671,16 +1671,16 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 12,
-    "mae": 10.699999999999998
+    "n": 13,
+    "mae": 9.946153846153845
    },
    "espn": {
     "n": 0,
     "mae": 0.0
    },
    "dratings": {
-    "n": 13,
-    "mae": 12.02307692307692
+    "n": 14,
+    "mae": 11.357142857142852
    },
    "massey": {
     "n": 8,
@@ -2056,10 +2056,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -2141,8 +2141,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -5058,11 +5058,13 @@
   },
   "UMBC": {
    "conf": "AE",
-   "n": 1,
+   "n": 2,
    "form": [
-    -3.91
+    -3.91,
+    6.76
    ],
    "losses": [
+    false,
     false
    ],
    "err": {
@@ -5071,20 +5073,20 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 4.0600000000000005
+     "n": 2,
+     "mae": 4.3500000000000005
     },
     "espn": {
-     "n": 1,
-     "mae": 3.58
+     "n": 2,
+     "mae": 5.825
     },
     "dratings": {
-     "n": 1,
-     "mae": 3.5
+     "n": 2,
+     "mae": 5.3
     },
     "massey": {
-     "n": 1,
-     "mae": 4.5
+     "n": 2,
+     "mae": 6.0
     },
     "cbbd": {
      "n": 0,
@@ -5097,20 +5099,20 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 23.30000000000001
+     "n": 2,
+     "mae": 14.850000000000009
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 1,
-     "mae": 30.5
+     "n": 2,
+     "mae": 15.700000000000003
     },
     "massey": {
-     "n": 1,
-     "mae": 26.5
+     "n": 2,
+     "mae": 13.5
     },
     "cbbd": {
      "n": 0,
@@ -5118,8 +5120,8 @@
     }
    },
    "tot": {
-    "n": 1,
-    "avg": 168.0
+    "n": 2,
+    "avg": 161.5
    },
    "weights": {
     "torvik": 0.166,
@@ -5132,8 +5134,8 @@
    "basis": "D1",
    "bench": {
     "market": {
-     "n": 1,
-     "mae": 3.5
+     "n": 2,
+     "mae": 6.0
     }
    },
    "tweights": {
@@ -5146,11 +5148,16 @@
    },
    "tbasis": "D1",
    "dawg": {
-    "n": 1,
-    "sum": -3.91,
-    "beat": 0,
+    "n": 2,
+    "sum": 2.85,
+    "beat": 1,
     "whoop": 0,
-    "best": null
+    "best": {
+     "over": 6.8,
+     "margin": 15,
+     "opp": "Morgan St.",
+     "date": "2026-11-12"
+    }
    }
   },
   "Marist": {
@@ -5865,10 +5872,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -6067,10 +6074,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -6684,10 +6691,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -6885,10 +6892,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -7484,8 +7491,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -7692,8 +7699,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -7909,10 +7916,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -8305,8 +8312,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -9133,10 +9140,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -10781,10 +10788,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -10990,10 +10997,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -12404,8 +12411,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -13846,10 +13853,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -13970,11 +13977,13 @@
   },
   "George Mason": {
    "conf": "A10",
-   "n": 1,
+   "n": 2,
    "form": [
-    -9.78
+    -9.78,
+    -5.11
    ],
    "losses": [
+    false,
     false
    ],
    "err": {
@@ -13983,16 +13992,16 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 15.020000000000003
+     "n": 2,
+     "mae": 11.725000000000001
     },
     "espn": {
-     "n": 1,
-     "mae": 6.25
+     "n": 2,
+     "mae": 4.305
     },
     "dratings": {
-     "n": 1,
-     "mae": 5.5
+     "n": 2,
+     "mae": 4.8
     },
     "massey": {
      "n": 1,
@@ -14009,16 +14018,16 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 28.099999999999994
+     "n": 2,
+     "mae": 14.5
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 1,
-     "mae": 21.900000000000006
+     "n": 2,
+     "mae": 12.299999999999997
     },
     "massey": {
      "n": 1,
@@ -14030,8 +14039,8 @@
     }
    },
    "tot": {
-    "n": 1,
-    "avg": 119.0
+    "n": 2,
+    "avg": 131.5
    },
    "weights": {
     "torvik": 0.166,
@@ -14044,8 +14053,8 @@
    "basis": "D1",
    "bench": {
     "market": {
-     "n": 1,
-     "mae": 11.5
+     "n": 2,
+     "mae": 9.5
     }
    },
    "tweights": {
@@ -14058,8 +14067,8 @@
    },
    "tbasis": "D1",
    "dawg": {
-    "n": 1,
-    "sum": -9.78,
+    "n": 2,
+    "sum": -14.89,
     "beat": 0,
     "whoop": 0,
     "best": null
@@ -14253,10 +14262,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -14660,10 +14669,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -14868,10 +14877,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -15265,8 +15274,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -15688,10 +15697,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -16083,8 +16092,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -16286,8 +16295,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -17924,8 +17933,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -18127,8 +18136,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -19159,8 +19168,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -19490,10 +19499,11 @@
   },
   "Kansas City": {
    "conf": "Sum",
-   "n": 2,
+   "n": 3,
    "form": [
     9.42,
-    -13.76
+    -13.76,
+    5.11
    ],
    "losses": [
     false,
@@ -19505,16 +19515,16 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 13.79
+     "n": 2,
+     "mae": 11.11
     },
     "espn": {
-     "n": 2,
-     "mae": 11.25
+     "n": 3,
+     "mae": 8.286666666666667
     },
     "dratings": {
-     "n": 2,
-     "mae": 12.0
+     "n": 3,
+     "mae": 9.366666666666667
     },
     "massey": {
      "n": 0,
@@ -19531,16 +19541,16 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 9.300000000000011
+     "n": 2,
+     "mae": 5.1000000000000085
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 2,
-     "mae": 26.299999999999997
+     "n": 3,
+     "mae": 18.433333333333326
     },
     "massey": {
      "n": 0,
@@ -19552,8 +19562,8 @@
     }
    },
    "tot": {
-    "n": 2,
-    "avg": 166.5
+    "n": 3,
+    "avg": 159.0
    },
    "weights": {
     "torvik": 0.166,
@@ -19566,8 +19576,8 @@
    "basis": "D1",
    "bench": {
     "market": {
-     "n": 2,
-     "mae": 11.0
+     "n": 3,
+     "mae": 9.833333333333334
     }
    },
    "tweights": {
@@ -19580,9 +19590,9 @@
    },
    "tbasis": "D1",
    "dawg": {
-    "n": 2,
-    "sum": -4.34,
-    "beat": 1,
+    "n": 3,
+    "sum": 0.77,
+    "beat": 2,
     "whoop": 0,
     "best": {
      "over": 9.4,
@@ -19962,8 +19972,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -20184,10 +20194,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -21718,10 +21728,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -22223,10 +22233,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -22828,10 +22838,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.174,
+    "hasla": 0.173,
     "espn": 0.166,
-    "dratings": 0.178,
-    "massey": 0.15,
+    "dratings": 0.177,
+    "massey": 0.151,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -28151,11 +28161,13 @@
   },
   "Morgan St.": {
    "conf": "MEAC",
-   "n": 1,
+   "n": 2,
    "form": [
-    9.66
+    9.66,
+    -6.76
    ],
    "losses": [
+    false,
     false
    ],
    "err": {
@@ -28164,20 +28176,20 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 8.79
+     "n": 2,
+     "mae": 6.715
     },
     "espn": {
-     "n": 1,
-     "mae": 9.77
+     "n": 2,
+     "mae": 8.92
     },
     "dratings": {
-     "n": 1,
-     "mae": 9.7
+     "n": 2,
+     "mae": 8.399999999999999
     },
     "massey": {
-     "n": 1,
-     "mae": 10.5
+     "n": 2,
+     "mae": 9.0
     },
     "cbbd": {
      "n": 0,
@@ -28190,20 +28202,20 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 1,
-     "mae": 12.599999999999994
+     "n": 2,
+     "mae": 9.5
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 1,
-     "mae": 5.900000000000006
+     "n": 2,
+     "mae": 3.4000000000000057
     },
     "massey": {
-     "n": 1,
-     "mae": 8.5
+     "n": 2,
+     "mae": 4.5
     },
     "cbbd": {
      "n": 0,
@@ -28211,8 +28223,8 @@
     }
    },
    "tot": {
-    "n": 1,
-    "avg": 140.0
+    "n": 2,
+    "avg": 147.5
    },
    "weights": {
     "torvik": 0.166,
@@ -28225,8 +28237,8 @@
    "basis": "D1",
    "bench": {
     "market": {
-     "n": 1,
-     "mae": 9.5
+     "n": 2,
+     "mae": 9.0
     }
    },
    "tweights": {
@@ -28239,8 +28251,8 @@
    },
    "tbasis": "D1",
    "dawg": {
-    "n": 1,
-    "sum": 9.66,
+    "n": 2,
+    "sum": 2.9,
     "beat": 1,
     "whoop": 0,
     "best": {
@@ -31238,8 +31250,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -31548,8 +31560,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -33971,8 +33983,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -35065,8 +35077,8 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.199,
-    "espn": 0.112,
-    "dratings": 0.183,
+    "espn": 0.111,
+    "dratings": 0.184,
     "massey": 0.181,
     "cbbd": 0.163
    },
@@ -37812,27 +37824,6 @@
     "market": 25.5
    },
    {
-    "id": "2026-11-12-montana-st-byu",
-    "away": "Montana St.",
-    "home": "BYU",
-    "neutral": false,
-    "margin": 19.99,
-    "p_home": 0.9535,
-    "total": 157.5,
-    "pick": "BYU",
-    "hammer": null,
-    "sources": {
-     "hasla": 22.13,
-     "espn": 16.37,
-     "massey": 20.5
-    },
-    "src_totals": {
-     "hasla": 159.7,
-     "massey": 155.5
-    },
-    "market": 22.5
-   },
-   {
     "id": "2026-11-12-mercer-west-virginia",
     "away": "Mercer",
     "home": "West Virginia",
@@ -37998,27 +37989,6 @@
     "market": 13.5
    },
    {
-    "id": "2026-11-12-kansas-city-george-mason",
-    "away": "Kansas City",
-    "home": "George Mason",
-    "neutral": true,
-    "margin": 13.11,
-    "p_home": 0.8642,
-    "total": 142.9,
-    "pick": "George Mason",
-    "hammer": null,
-    "sources": {
-     "hasla": 16.43,
-     "espn": 10.36,
-     "dratings": 12.1
-    },
-    "src_totals": {
-     "hasla": 144.9,
-     "dratings": 141.3
-    },
-    "market": 15.5
-   },
-   {
     "id": "2026-11-12-canisius-brown",
     "away": "Canisius",
     "home": "Brown",
@@ -38042,29 +38012,6 @@
     "market": 12.5
    },
    {
-    "id": "2026-11-12-morgan-st-umbc",
-    "away": "Morgan St.",
-    "home": "UMBC",
-    "neutral": false,
-    "margin": 8.24,
-    "p_home": 0.7589,
-    "total": 157.1,
-    "pick": "UMBC",
-    "hammer": null,
-    "sources": {
-     "hasla": 10.36,
-     "espn": 6.93,
-     "dratings": 7.9,
-     "massey": 7.5
-    },
-    "src_totals": {
-     "hasla": 161.4,
-     "dratings": 155.9,
-     "massey": 154.5
-    },
-    "market": 6.5
-   },
-   {
     "id": "2026-11-12-stetson-howard",
     "away": "Stetson",
     "home": "Howard",
@@ -38086,29 +38033,6 @@
      "massey": 153.5
     },
     "market": 9.5
-   },
-   {
-    "id": "2026-11-12-uc-riverside-san-jose-st",
-    "away": "UC Riverside",
-    "home": "San Jose St.",
-    "neutral": false,
-    "margin": 6.39,
-    "p_home": 0.7079,
-    "total": 152.1,
-    "pick": "San Jose St.",
-    "hammer": null,
-    "sources": {
-     "hasla": 6.35,
-     "espn": 5.06,
-     "dratings": 7.6,
-     "massey": 6.5
-    },
-    "src_totals": {
-     "hasla": 156.1,
-     "dratings": 151.2,
-     "massey": 149.5
-    },
-    "market": 8.5
    },
    {
     "id": "2026-11-12-oklahoma-st-texas-a-m",
@@ -38245,29 +38169,6 @@
     "market": -2.5
    },
    {
-    "id": "2026-11-12-new-mexico-st-utep",
-    "away": "New Mexico St.",
-    "home": "UTEP",
-    "neutral": false,
-    "margin": 1.2,
-    "p_home": 0.5391,
-    "total": 144.6,
-    "pick": "UTEP",
-    "hammer": null,
-    "sources": {
-     "hasla": -4.82,
-     "espn": 4.85,
-     "dratings": 3.0,
-     "massey": 2.5
-    },
-    "src_totals": {
-     "hasla": 146.6,
-     "dratings": 143.8,
-     "massey": 143.5
-    },
-    "market": 5.5
-   },
-   {
     "id": "2026-11-12-monmouth-quinnipiac",
     "away": "Monmouth",
     "home": "Quinnipiac",
@@ -38303,6 +38204,73 @@
     },
     "src_totals": {},
     "market": -3.5
+   },
+   {
+    "id": "2026-11-12-montana-st-byu",
+    "away": "Montana St.",
+    "home": "BYU",
+    "neutral": false,
+    "margin": 19.99,
+    "p_home": 0.9538,
+    "total": 157.5,
+    "pick": "BYU",
+    "hammer": null,
+    "sources": {
+     "hasla": 22.13,
+     "espn": 16.37,
+     "massey": 20.5
+    },
+    "src_totals": {
+     "hasla": 159.7,
+     "massey": 155.5
+    },
+    "market": 21.5
+   },
+   {
+    "id": "2026-11-12-uc-riverside-san-jose-st",
+    "away": "UC Riverside",
+    "home": "San Jose St.",
+    "neutral": false,
+    "margin": 6.39,
+    "p_home": 0.7082,
+    "total": 152.1,
+    "pick": "San Jose St.",
+    "hammer": null,
+    "sources": {
+     "hasla": 6.35,
+     "espn": 5.06,
+     "dratings": 7.6,
+     "massey": 6.5
+    },
+    "src_totals": {
+     "hasla": 156.1,
+     "dratings": 151.2,
+     "massey": 149.5
+    },
+    "market": 8.5
+   },
+   {
+    "id": "2026-11-12-new-mexico-st-utep",
+    "away": "New Mexico St.",
+    "home": "UTEP",
+    "neutral": false,
+    "margin": 1.2,
+    "p_home": 0.5392,
+    "total": 144.6,
+    "pick": "UTEP",
+    "hammer": null,
+    "sources": {
+     "hasla": -4.82,
+     "espn": 4.85,
+     "dratings": 3.0,
+     "massey": 2.5
+    },
+    "src_totals": {
+     "hasla": 146.6,
+     "dratings": 143.8,
+     "massey": 143.5
+    },
+    "market": 4.5
    }
   ]
  },
@@ -38390,6 +38358,13 @@
    "w": 30,
    "l": 5,
    "mae": 10.1
+  },
+  {
+   "date": "2026-11-12",
+   "graded": 2,
+   "w": 2,
+   "l": 0,
+   "mae": 5.94
   }
  ],
  "log": [],

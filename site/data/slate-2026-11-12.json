@@ -1,8 +1,8 @@
 {
  "date": "2026-11-12",
- "generated_at": "2026-11-12T13:36:39-05:00",
+ "generated_at": "2026-11-12T20:13:30-05:00",
  "notes": [
-  "24 D1 games on the board. Coverage: Torvik 0, Haslametrics 21, ESPN 24, DRatings 21, Massey 19, CBBD 0, DraftKings lines 24.",
+  "24 D1 games on the board (21 locked at tip). Coverage: Torvik 0, Haslametrics 3, ESPN 3, DRatings 2, Massey 3, CBBD 0, DraftKings lines 3.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
   "5 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
@@ -260,129 +260,6 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-12-montana-st-byu",
-   "away": "Montana St.",
-   "home": "BYU",
-   "away_conf": "BSky",
-   "home_conf": "B12",
-   "short": {},
-   "neutral": false,
-   "site": "at BYU",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "ESPN+",
-   "sources": {
-    "hasla": {
-     "margin": 22.13,
-     "total": 159.7,
-     "note": "Published projection: Montana St. 68.8, BYU 90.9."
-    },
-    "massey": {
-     "margin": 20.5,
-     "total": 155.5,
-     "note": "Published median margin: BYU by 20.5, total 155.5."
-    },
-    "espn": {
-     "margin": 16.37,
-     "derived": true,
-     "note": "BPI matchup predictor: BYU 93.0% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -22.5,
-    "total": 163.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.18,
-      "espn": 0.157,
-      "dratings": 0.166,
-      "massey": 0.164,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.163,
-      "hasla": 0.198,
-      "espn": 0.114,
-      "dratings": 0.182,
-      "massey": 0.18,
-      "cbbd": 0.163
-     }
-    },
-    "used": {
-     "hasla": 0.38,
-     "espn": 0.273,
-     "massey": 0.347
-    },
-    "used_total": {
-     "hasla": 0.475,
-     "massey": 0.525
-    }
-   },
-   "blend": {
-    "margin": 19.99,
-    "src_sd": 2.42,
-    "model_sd": 11.65,
-    "sd": 11.9,
-    "p_home": 0.9535,
-    "p_sd": 0.0221,
-    "total": 157.5,
-    "total_sd": 16.5,
-    "baseline_total": 165.2,
-    "lean": "under",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "BYU",
-    "dog": "Montana St.",
-    "p": 0.9535,
-    "margin": 19.99,
-    "lock": true
-   },
-   "momentum": {
-    "Montana St.": {
-     "n": 1,
-     "avg": 3.7,
-     "last": [
-      3.7
-     ],
-     "flag": null
-    },
-    "BYU": {
-     "n": 2,
-     "avg": 1.2,
-     "last": [
-      13.5,
-      -11.2
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "3 core systems agree (win chance ±2%)",
    "result": null
   },
   {
@@ -1385,7 +1262,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 5.1 short of our number",
+    "tags": [],
+    "score": [
+     68,
+     76
+    ],
+    "model_err": 5.11,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 8.43,
+     "espn": 2.36,
+     "dratings": 4.1
+    },
+    "src_tot_err": {
+     "hasla": 0.9,
+     "dratings": 2.7
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.1
+   }
   },
   {
    "id": "2026-11-12-canisius-brown",
@@ -1634,7 +1532,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 15, 6.8 better our number",
+    "tags": [],
+    "score": [
+     70,
+     85
+    ],
+    "model_err": 6.76,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 4.64,
+     "espn": 8.07,
+     "dratings": 7.1,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 6.4,
+     "dratings": 0.9,
+     "massey": 0.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 2.1
+   }
   },
   {
    "id": "2026-11-12-stetson-howard",
@@ -1760,127 +1681,6 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-12-uc-riverside-san-jose-st",
-   "away": "UC Riverside",
-   "home": "San Jose St.",
-   "away_conf": "BW",
-   "home_conf": "MWC",
-   "short": {},
-   "neutral": false,
-   "site": "at San Jose St.",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "MW+",
-   "sources": {
-    "hasla": {
-     "margin": 6.35,
-     "total": 156.1,
-     "note": "Published projection: UC Riverside 74.9, San Jose St. 81.2."
-    },
-    "dratings": {
-     "margin": 7.6,
-     "total": 151.2,
-     "note": "Published projection: UC Riverside 71.8, San Jose St. 79.4."
-    },
-    "massey": {
-     "margin": 6.5,
-     "total": 149.5,
-     "note": "Published median margin: San Jose St. by 6.5, total 149.5."
-    },
-    "espn": {
-     "margin": 5.06,
-     "derived": true,
-     "note": "BPI matchup predictor: San Jose St. 67.6% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -8.5,
-    "total": 153.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.18,
-      "espn": 0.157,
-      "dratings": 0.166,
-      "massey": 0.164,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.18,
-      "espn": 0.157,
-      "dratings": 0.166,
-      "massey": 0.164,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "hasla": 0.27,
-     "espn": 0.235,
-     "dratings": 0.249,
-     "massey": 0.246
-    },
-    "used_total": {
-     "hasla": 0.304,
-     "dratings": 0.36,
-     "massey": 0.336
-    }
-   },
-   "blend": {
-    "margin": 6.39,
-    "src_sd": 0.9,
-    "model_sd": 11.65,
-    "sd": 11.68,
-    "p_home": 0.7079,
-    "p_sd": 0.0266,
-    "total": 152.1,
-    "total_sd": 16.5,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "San Jose St.",
-    "dog": "UC Riverside",
-    "p": 0.7079,
-    "margin": 6.39,
-    "lock": false
-   },
-   "momentum": {
-    "UC Riverside": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "San Jose St.": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
    "result": null
   },
   {
@@ -2630,131 +2430,6 @@
    "result": null
   },
   {
-   "id": "2026-11-12-new-mexico-st-utep",
-   "away": "New Mexico St.",
-   "home": "UTEP",
-   "away_conf": "CUSA",
-   "home_conf": "MWC",
-   "short": {},
-   "neutral": false,
-   "site": "at UTEP",
-   "tip": "9 PM ET",
-   "tip_sort": 1260,
-   "tv": "MW+",
-   "sources": {
-    "hasla": {
-     "margin": -4.82,
-     "total": 146.6,
-     "note": "Published projection: New Mexico St. 75.7, UTEP 70.9."
-    },
-    "dratings": {
-     "margin": 3.0,
-     "total": 143.8,
-     "note": "Published projection: New Mexico St. 70.4, UTEP 73.4."
-    },
-    "massey": {
-     "margin": 2.5,
-     "total": 143.5,
-     "note": "Published median margin: UTEP by 2.5, total 143.5."
-    },
-    "espn": {
-     "margin": 4.85,
-     "derived": true,
-     "note": "BPI matchup predictor: UTEP 66.9% to win, converted to points at ±11.09."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -5.5,
-    "total": 144.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.18,
-      "espn": 0.157,
-      "dratings": 0.166,
-      "massey": 0.164,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.18,
-      "espn": 0.157,
-      "dratings": 0.166,
-      "massey": 0.164,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "hasla": 0.27,
-     "espn": 0.235,
-     "dratings": 0.249,
-     "massey": 0.246
-    },
-    "used_total": {
-     "hasla": 0.304,
-     "dratings": 0.36,
-     "massey": 0.336
-    }
-   },
-   "blend": {
-    "margin": 1.2,
-    "src_sd": 3.69,
-    "model_sd": 11.65,
-    "sd": 12.22,
-    "p_home": 0.5391,
-    "p_sd": 0.123,
-    "total": 144.6,
-    "total_sd": 16.5,
-    "baseline_total": 158.0,
-    "lean": "under",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "UTEP",
-    "dog": "New Mexico St.",
-    "p": 0.5391,
-    "margin": 1.2,
-    "lock": false
-   },
-   "momentum": {
-    "New Mexico St.": {
-     "n": 1,
-     "avg": -17.6,
-     "last": [
-      -17.6
-     ],
-     "flag": null
-    },
-    "UTEP": {
-     "n": 1,
-     "avg": 10.2,
-     "last": [
-      10.2
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "some source disagreement (win chance ±12%)",
-   "result": null
-  },
-  {
    "id": "2026-11-12-monmouth-quinnipiac",
    "away": "Monmouth",
    "home": "Quinnipiac",
@@ -2988,6 +2663,386 @@
    },
    "tier": "Mid",
    "tier_reason": "only 1 of 6 sources have a number",
+   "result": null
+  },
+  {
+   "id": "2026-11-12-montana-st-byu",
+   "away": "Montana St.",
+   "home": "BYU",
+   "away_conf": "BSky",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": false,
+   "site": "at BYU",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 22.13,
+     "total": 159.7,
+     "note": "Published projection: Montana St. 68.8, BYU 90.9."
+    },
+    "massey": {
+     "margin": 20.5,
+     "total": 155.5,
+     "note": "Published median margin: BYU by 20.5, total 155.5."
+    },
+    "espn": {
+     "margin": 16.37,
+     "derived": true,
+     "note": "BPI matchup predictor: BYU 93.0% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -21.5,
+    "total": 162.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.18,
+      "espn": 0.157,
+      "dratings": 0.166,
+      "massey": 0.164,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.198,
+      "espn": 0.114,
+      "dratings": 0.182,
+      "massey": 0.18,
+      "cbbd": 0.163
+     }
+    },
+    "used": {
+     "hasla": 0.381,
+     "espn": 0.273,
+     "massey": 0.346
+    },
+    "used_total": {
+     "hasla": 0.476,
+     "massey": 0.524
+    }
+   },
+   "blend": {
+    "margin": 19.99,
+    "src_sd": 2.42,
+    "model_sd": 11.63,
+    "sd": 11.88,
+    "p_home": 0.9538,
+    "p_sd": 0.022,
+    "total": 157.5,
+    "total_sd": 16.4,
+    "baseline_total": 165.2,
+    "lean": "under",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "BYU",
+    "dog": "Montana St.",
+    "p": 0.9538,
+    "margin": 19.99,
+    "lock": true
+   },
+   "momentum": {
+    "Montana St.": {
+     "n": 1,
+     "avg": 3.7,
+     "last": [
+      3.7
+     ],
+     "flag": null
+    },
+    "BYU": {
+     "n": 2,
+     "avg": 1.2,
+     "last": [
+      13.5,
+      -11.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-12-uc-riverside-san-jose-st",
+   "away": "UC Riverside",
+   "home": "San Jose St.",
+   "away_conf": "BW",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": false,
+   "site": "at San Jose St.",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "MW+",
+   "sources": {
+    "hasla": {
+     "margin": 6.35,
+     "total": 156.1,
+     "note": "Published projection: UC Riverside 74.9, San Jose St. 81.2."
+    },
+    "dratings": {
+     "margin": 7.6,
+     "total": 151.2,
+     "note": "Published projection: UC Riverside 71.8, San Jose St. 79.4."
+    },
+    "massey": {
+     "margin": 6.5,
+     "total": 149.5,
+     "note": "Published median margin: San Jose St. by 6.5, total 149.5."
+    },
+    "espn": {
+     "margin": 5.06,
+     "derived": true,
+     "note": "BPI matchup predictor: San Jose St. 67.6% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -8.5,
+    "total": 153.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.18,
+      "espn": 0.157,
+      "dratings": 0.166,
+      "massey": 0.164,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.18,
+      "espn": 0.157,
+      "dratings": 0.166,
+      "massey": 0.164,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.27,
+     "espn": 0.235,
+     "dratings": 0.249,
+     "massey": 0.246
+    },
+    "used_total": {
+     "hasla": 0.304,
+     "dratings": 0.36,
+     "massey": 0.335
+    }
+   },
+   "blend": {
+    "margin": 6.39,
+    "src_sd": 0.9,
+    "model_sd": 11.63,
+    "sd": 11.66,
+    "p_home": 0.7082,
+    "p_sd": 0.0266,
+    "total": 152.1,
+    "total_sd": 16.4,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "San Jose St.",
+    "dog": "UC Riverside",
+    "p": 0.7082,
+    "margin": 6.39,
+    "lock": false
+   },
+   "momentum": {
+    "UC Riverside": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "San Jose St.": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-12-uc-riverside-san-jose-st",
+    "team": "UC Riverside",
+    "side": "away",
+    "spread": 8.5,
+    "spread_home": -8.5,
+    "edge": 2.11,
+    "cover_p": 0.5718,
+    "agree": 4,
+    "n": 4
+   }
+  },
+  {
+   "id": "2026-11-12-new-mexico-st-utep",
+   "away": "New Mexico St.",
+   "home": "UTEP",
+   "away_conf": "CUSA",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": false,
+   "site": "at UTEP",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "MW+",
+   "sources": {
+    "hasla": {
+     "margin": -4.82,
+     "total": 146.6,
+     "note": "Published projection: New Mexico St. 75.7, UTEP 70.9."
+    },
+    "dratings": {
+     "margin": 3.0,
+     "total": 143.8,
+     "note": "Published projection: New Mexico St. 70.4, UTEP 73.4."
+    },
+    "massey": {
+     "margin": 2.5,
+     "total": 143.5,
+     "note": "Published median margin: UTEP by 2.5, total 143.5."
+    },
+    "espn": {
+     "margin": 4.85,
+     "derived": true,
+     "note": "BPI matchup predictor: UTEP 66.9% to win, converted to points at ±11.09."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 145.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.18,
+      "espn": 0.157,
+      "dratings": 0.166,
+      "massey": 0.164,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.18,
+      "espn": 0.157,
+      "dratings": 0.166,
+      "massey": 0.164,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.27,
+     "espn": 0.235,
+     "dratings": 0.249,
+     "massey": 0.246
+    },
+    "used_total": {
+     "hasla": 0.304,
+     "dratings": 0.36,
+     "massey": 0.335
+    }
+   },
+   "blend": {
+    "margin": 1.2,
+    "src_sd": 3.69,
+    "model_sd": 11.63,
+    "sd": 12.2,
+    "p_home": 0.5392,
+    "p_sd": 0.1232,
+    "total": 144.6,
+    "total_sd": 16.4,
+    "baseline_total": 158.0,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "UTEP",
+    "dog": "New Mexico St.",
+    "p": 0.5392,
+    "margin": 1.2,
+    "lock": false
+   },
+   "momentum": {
+    "New Mexico St.": {
+     "n": 1,
+     "avg": -17.6,
+     "last": [
+      -17.6
+     ],
+     "flag": null
+    },
+    "UTEP": {
+     "n": 1,
+     "avg": 10.2,
+     "last": [
+      10.2
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±12%)",
    "result": null
   }
  ],
