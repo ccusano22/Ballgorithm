@@ -2,6 +2,7 @@
  "date": "2026-11-13",
  "generated_at": "2026-11-13T19:56:59-05:00",
  "notes": [
+  "GRADED: 43-12 picking winners (78%), average margin miss 9.7. Hammer Texas Southern +28.5: win.",
   "55 D1 games on the board (29 locked at tip). Coverage: Torvik 0, Haslametrics 23, ESPN 26, DRatings 24, Massey 19, CBBD 0, DraftKings lines 26.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
@@ -130,7 +131,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 27, 6.0 short of our number",
+    "tags": [],
+    "score": [
+     62,
+     89
+    ],
+    "model_err": 5.95,
+    "src_err": {
+     "market": 13.5,
+     "espn": 1.57,
+     "dratings": 4.4,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "dratings": 3.6,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.5
+   }
   },
   {
    "id": "2026-11-13-merrimack-florida",
@@ -257,7 +279,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 29, 2.4 short of our number",
+    "tags": [],
+    "score": [
+     54,
+     83
+    ],
+    "model_err": 2.38,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 2.18,
+     "espn": 1.14,
+     "dratings": 2.0,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 7.0,
+     "dratings": 7.0,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.2
+   }
   },
   {
    "id": "2026-11-13-northern-arizona-kentucky",
@@ -381,7 +426,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 1, 26.6 short of our number",
+    "tags": [],
+    "score": [
+     77,
+     78
+    ],
+    "model_err": 26.58,
+    "src_err": {
+     "market": 29.5,
+     "espn": 22.25,
+     "dratings": 29.3,
+     "massey": 27.5
+    },
+    "src_tot_err": {
+     "dratings": 0.5,
+     "massey": 0.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 0.0
+   }
   },
   {
    "id": "2026-11-13-tennessee-st-tennessee",
@@ -504,7 +570,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 5, 23.3 short of our number",
+    "tags": [],
+    "score": [
+     78,
+     83
+    ],
+    "model_err": 23.28,
+    "src_err": {
+     "market": 22.5,
+     "hasla": 26.83,
+     "espn": 20.03,
+     "dratings": 17.3,
+     "massey": 27.5
+    },
+    "src_tot_err": {
+     "hasla": 7.7,
+     "dratings": 6.7,
+     "massey": 10.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.2
+   }
   },
   {
    "id": "2026-11-13-north-alabama-miami-fl",
@@ -779,7 +868,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 22, 4.4 short of our number",
+    "tags": [],
+    "score": [
+     86,
+     108
+    ],
+    "model_err": 4.35,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 7.57,
+     "espn": 2.37,
+     "dratings": 4.2,
+     "massey": 2.5
+    },
+    "src_tot_err": {
+     "hasla": 34.7,
+     "dratings": 23.4,
+     "massey": 36.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 31.4
+   }
   },
   {
    "id": "2026-11-13-mount-st-mary-s-virginia-tech",
@@ -905,7 +1017,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 20, 3.7 short of our number",
+    "tags": [],
+    "score": [
+     62,
+     82
+    ],
+    "model_err": 3.71,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 6.04,
+     "espn": 2.13,
+     "dratings": 1.6,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "hasla": 6.7,
+     "dratings": 5.0,
+     "massey": 1.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.4
+   }
   },
   {
    "id": "2026-11-13-northern-iowa-michigan-st",
@@ -1032,7 +1167,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 34, 12.8 better our number",
+    "tags": [],
+    "score": [
+     72,
+     106
+    ],
+    "model_err": 12.79,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 10.75,
+     "espn": 11.45,
+     "dratings": 13.6,
+     "massey": 15.5
+    },
+    "src_tot_err": {
+     "hasla": 32.0,
+     "dratings": 26.8,
+     "massey": 35.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 31.3
+   }
   },
   {
    "id": "2026-11-13-bryant-rutgers",
@@ -1160,7 +1318,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 21, 0.6 better our number",
+    "tags": [],
+    "score": [
+     51,
+     72
+    ],
+    "model_err": 0.62,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 1.82,
+     "espn": 1.19,
+     "dratings": 3.8,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 22.0,
+     "dratings": 23.6,
+     "massey": 20.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.1
+   }
   },
   {
    "id": "2026-11-13-troy-n-c-state",
@@ -1287,7 +1468,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 19, 0.8 better our number",
+    "tags": [],
+    "score": [
+     62,
+     81
+    ],
+    "model_err": 0.81,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 2.45,
+     "espn": 0.29,
+     "dratings": 2.1,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "hasla": 6.5,
+     "dratings": 7.3,
+     "massey": 6.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.8
+   }
   },
   {
    "id": "2026-11-13-texas-a-m-corpus-chris-florida-st",
@@ -1560,7 +1764,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 8.5 short of our number",
+    "tags": [],
+    "score": [
+     66,
+     74
+    ],
+    "model_err": 8.48,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 11.3,
+     "espn": 7.51,
+     "dratings": 7.3,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 1.8,
+     "dratings": 2.5,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.5
+   }
   },
   {
    "id": "2026-11-13-south-dakota-drake",
@@ -1686,7 +1913,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 9, 4.3 short of our number",
+    "tags": [],
+    "score": [
+     72,
+     81
+    ],
+    "model_err": 4.27,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 4.22,
+     "espn": 6.51,
+     "dratings": 2.0,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "hasla": 7.6,
+     "dratings": 7.4,
+     "massey": 3.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.1
+   }
   },
   {
    "id": "2026-11-13-liu-fordham",
@@ -1814,7 +2064,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 22, 10.5 better our number",
+    "tags": [],
+    "score": [
+     58,
+     80
+    ],
+    "model_err": 10.5,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 9.11,
+     "espn": 9.02,
+     "dratings": 11.4,
+     "massey": 12.5
+    },
+    "src_tot_err": {
+     "hasla": 8.3,
+     "dratings": 4.0,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.5
+   }
   },
   {
    "id": "2026-11-13-harvard-george-washington",
@@ -1937,7 +2210,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 28, 17.1 better our number",
+    "tags": [],
+    "score": [
+     57,
+     85
+    ],
+    "model_err": 17.09,
+    "src_err": {
+     "market": 16.5,
+     "hasla": 17.68,
+     "espn": 16.83,
+     "dratings": 16.7
+    },
+    "src_tot_err": {
+     "hasla": 3.3,
+     "dratings": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.4
+   }
   },
   {
    "id": "2026-11-13-ohio-st-connecticut",
@@ -2064,7 +2358,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 16, 6.2 better our number",
+    "tags": [],
+    "score": [
+     68,
+     84
+    ],
+    "model_err": 6.25,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 5.87,
+     "espn": 4.17,
+     "dratings": 6.3,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 6.5,
+     "dratings": 3.5,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.8
+   }
   },
   {
    "id": "2026-11-13-georgia-north-carolina",
@@ -2188,7 +2505,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Lost by 8",
+    "tags": [],
+    "score": [
+     78,
+     70
+    ],
+    "model_err": 16.4,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 18.85,
+     "espn": 15.66,
+     "massey": 14.5
+    },
+    "src_tot_err": {
+     "hasla": 12.5,
+     "massey": 11.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 12.0
+   }
   },
   {
    "id": "2026-11-13-iona-hofstra",
@@ -2316,7 +2654,32 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 3, 4.9 short of our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     59,
+     62
+    ],
+    "model_err": 4.94,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 5.39,
+     "espn": 4.2,
+     "dratings": 4.6,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 23.5,
+     "dratings": 14.6,
+     "massey": 20.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 19.3
+   }
   },
   {
    "id": "2026-11-13-georgetown-clemson",
@@ -2442,7 +2805,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Lost by 7",
+    "tags": [],
+    "score": [
+     85,
+     78
+    ],
+    "model_err": 14.98,
+    "src_err": {
+     "market": 11.5,
+     "hasla": 14.99,
+     "espn": 16.9,
+     "dratings": 12.6,
+     "massey": 15.5
+    },
+    "src_tot_err": {
+     "hasla": 15.1,
+     "dratings": 17.2,
+     "massey": 17.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 16.6
+   }
   },
   {
    "id": "2026-11-13-southeast-missouri-middle-tennessee",
@@ -2558,7 +2944,23 @@
    },
    "tier": "Mid",
    "tier_reason": "only 1 of 6 sources have a number",
-   "result": null
+   "result": {
+    "label": "Won by 13, 6.6 better our number",
+    "tags": [],
+    "score": [
+     75,
+     88
+    ],
+    "model_err": 6.63,
+    "src_err": {
+     "market": 7.5,
+     "espn": 6.63
+    },
+    "src_tot_err": {},
+    "won": true,
+    "hammer": null,
+    "total_err": null
+   }
   },
   {
    "id": "2026-11-13-columbia-bucknell",
@@ -2684,7 +3086,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Won by 18, 11.8 better our number",
+    "tags": [],
+    "score": [
+     77,
+     59
+    ],
+    "model_err": 11.83,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 8.84,
+     "espn": 10.9,
+     "dratings": 12.3,
+     "massey": 15.5
+    },
+    "src_tot_err": {
+     "hasla": 18.0,
+     "dratings": 9.3,
+     "massey": 14.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.7
+   }
   },
   {
    "id": "2026-11-13-appalachian-st-charlotte",
@@ -2810,7 +3235,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 6",
+    "tags": [],
+    "score": [
+     66,
+     60
+    ],
+    "model_err": 11.38,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 11.65,
+     "espn": 10.7,
+     "dratings": 13.6,
+     "massey": 9.5
+    },
+    "src_tot_err": {
+     "hasla": 10.4,
+     "dratings": 4.8,
+     "massey": 11.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 8.8
+   }
   },
   {
    "id": "2026-11-13-yale-northeastern",
@@ -2937,7 +3385,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 11",
+    "tags": [],
+    "score": [
+     73,
+     84
+    ],
+    "model_err": 15.95,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 16.52,
+     "espn": 15.6,
+     "dratings": 15.1,
+     "massey": 16.5
+    },
+    "src_tot_err": {
+     "hasla": 0.9,
+     "dratings": 2.9,
+     "massey": 4.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 2.3
+   }
   },
   {
    "id": "2026-11-13-chattanooga-elon",
@@ -3063,7 +3534,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 7",
+    "tags": [],
+    "score": [
+     77,
+     70
+    ],
+    "model_err": 10.04,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 11.48,
+     "espn": 11.0,
+     "dratings": 11.1,
+     "massey": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 8.5,
+     "dratings": 5.1,
+     "massey": 7.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 6.9
+   }
   },
   {
    "id": "2026-11-13-pittsburgh-butler",
@@ -3189,7 +3683,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 12",
+    "tags": [],
+    "score": [
+     76,
+     64
+    ],
+    "model_err": 14.17,
+    "src_err": {
+     "market": 15.5,
+     "hasla": 13.58,
+     "espn": 12.86,
+     "dratings": 15.8,
+     "massey": 14.5
+    },
+    "src_tot_err": {
+     "hasla": 14.5,
+     "dratings": 18.2,
+     "massey": 10.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 14.5
+   }
   },
   {
    "id": "2026-11-13-fiu-florida-gulf-coast",
@@ -3314,7 +3831,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+   "result": {
+    "label": "Lost by 9",
+    "tags": [],
+    "score": [
+     89,
+     80
+    ],
+    "model_err": 10.02,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 6.28,
+     "espn": 10.76,
+     "dratings": 10.9,
+     "massey": 12.5
+    },
+    "src_tot_err": {
+     "hasla": 9.5,
+     "dratings": 10.1,
+     "massey": 15.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 11.7
+   }
   },
   {
    "id": "2026-11-13-west-florida-cleveland-st",
@@ -3585,7 +4125,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 5, 4.2 better our number",
+    "tags": [],
+    "score": [
+     60,
+     65
+    ],
+    "model_err": 4.17,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 3.42,
+     "espn": 2.56,
+     "dratings": 4.2,
+     "massey": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 16.9,
+     "dratings": 9.0,
+     "massey": 12.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.6
+   }
   },
   {
    "id": "2026-11-13-ohio-purdue",
@@ -3711,7 +4274,30 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 18, 3.6 short of our number",
+    "tags": [],
+    "score": [
+     62,
+     80
+    ],
+    "model_err": 3.59,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 7.61,
+     "espn": 1.8,
+     "dratings": 0.8,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 9.8,
+     "dratings": 12.0,
+     "massey": 14.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.1
+   }
   },
   {
    "id": "2026-11-13-louisiana-monroe-arizona-st",
@@ -3835,7 +4421,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 30, 3.0 better our number",
+    "tags": [],
+    "score": [
+     62,
+     92
+    ],
+    "model_err": 2.98,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 1.9,
+     "espn": 7.66,
+     "dratings": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 7.9,
+     "dratings": 0.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.4
+   }
   },
   {
    "id": "2026-11-13-fairleigh-dickinson-oklahoma",
@@ -3956,7 +4563,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 16, 10.4 short of our number",
+    "tags": [],
+    "score": [
+     58,
+     74
+    ],
+    "model_err": 10.38,
+    "src_err": {
+     "market": 15.5,
+     "hasla": 10.47,
+     "espn": 8.07,
+     "dratings": 12.3
+    },
+    "src_tot_err": {
+     "hasla": 14.5,
+     "dratings": 16.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 15.5
+   }
   },
   {
    "id": "2026-11-13-mississippi-valley-st-oregon-st",
@@ -4078,7 +4706,26 @@
    },
    "tier": "Strong",
    "tier_reason": "2 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 16, 12.3 short of our number",
+    "tags": [],
+    "score": [
+     65,
+     81
+    ],
+    "model_err": 12.27,
+    "src_err": {
+     "market": 18.5,
+     "espn": 6.78,
+     "massey": 17.5
+    },
+    "src_tot_err": {
+     "massey": 1.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.5
+   }
   },
   {
    "id": "2026-11-13-milwaukee-tcu",
@@ -4204,7 +4851,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 12, 9.4 short of our number",
+    "tags": [],
+    "score": [
+     64,
+     76
+    ],
+    "model_err": 9.39,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 12.88,
+     "espn": 7.55,
+     "dratings": 6.0,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "hasla": 14.8,
+     "dratings": 17.8,
+     "massey": 12.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 15.1
+   }
   },
   {
    "id": "2026-11-13-ball-st-smu",
@@ -4330,7 +5000,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 25, 5.6 better our number",
+    "tags": [],
+    "score": [
+     65,
+     90
+    ],
+    "model_err": 5.65,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 4.15,
+     "espn": 8.3,
+     "dratings": 6.2,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "hasla": 7.6,
+     "dratings": 1.6,
+     "massey": 7.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.5
+   }
   },
   {
    "id": "2026-11-13-central-arkansas-arkansas",
@@ -4453,7 +5146,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 13, 5.9 short of our number",
+    "tags": [],
+    "score": [
+     66,
+     79
+    ],
+    "model_err": 5.89,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 6.2,
+     "espn": 4.82,
+     "dratings": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 17.0,
+     "dratings": 17.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 17.2
+   }
   },
   {
    "id": "2026-11-13-texas-southern-murray-st",
@@ -4578,7 +5292,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null,
+   "result": {
+    "label": "Won by 21, 2.1 better our number",
+    "tags": [],
+    "score": [
+     78,
+     99
+    ],
+    "model_err": 2.08,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 0.45,
+     "espn": 1.71,
+     "dratings": 2.8,
+     "massey": 3.5
+    },
+    "src_tot_err": {
+     "hasla": 13.5,
+     "dratings": 16.4,
+     "massey": 20.5
+    },
+    "won": true,
+    "hammer": "win",
+    "total_err": 16.9
+   },
    "hammer": {
     "id": "2026-11-13-texas-southern-murray-st",
     "team": "Texas Southern",
@@ -4713,7 +5450,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 14, 3.8 short of our number",
+    "tags": [],
+    "score": [
+     70,
+     84
+    ],
+    "model_err": 3.76,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 6.46,
+     "espn": 0.87,
+     "dratings": 3.1
+    },
+    "src_tot_err": {
+     "hasla": 8.5,
+     "dratings": 10.1
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.4
+   }
   },
   {
    "id": "2026-11-13-seton-hall-alabama",
@@ -4840,7 +5598,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 6, 8.5 short of our number",
+    "tags": [],
+    "score": [
+     76,
+     82
+    ],
+    "model_err": 8.53,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 13.76,
+     "espn": 6.98,
+     "dratings": 6.6,
+     "massey": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 0.3,
+     "dratings": 0.6,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.7
+   }
   },
   {
    "id": "2026-11-13-alcorn-st-tarleton-st",
@@ -4963,7 +5744,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 4, 8.0 short of our number",
+    "tags": [],
+    "score": [
+     69,
+     73
+    ],
+    "model_err": 8.03,
+    "src_err": {
+     "market": 12.5,
+     "espn": 7.88,
+     "dratings": 7.7,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "dratings": 8.5,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.5
+   }
   },
   {
    "id": "2026-11-13-chicago-st-san-diego",
@@ -5091,7 +5893,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 20, 8.6 better our number",
+    "tags": [],
+    "score": [
+     67,
+     87
+    ],
+    "model_err": 8.58,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 7.22,
+     "espn": 10.86,
+     "dratings": 8.0,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 1.0,
+     "dratings": 6.2,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.4
+   }
   },
   {
    "id": "2026-11-13-illinois-chicago-saint-mary-s",
@@ -5217,7 +6042,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
+   "result": {
+    "label": "Won by 23, 12.6 better our number",
+    "tags": [],
+    "score": [
+     61,
+     84
+    ],
+    "model_err": 12.55,
+    "src_err": {
+     "market": 17.5,
+     "hasla": 12.88,
+     "espn": 14.95,
+     "dratings": 14.9,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 3.1,
+     "dratings": 5.3,
+     "massey": 1.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.3
+   }
   },
   {
    "id": "2026-11-13-east-texas-a-m-portland",
@@ -5343,7 +6191,32 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Lost by 6",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     94,
+     88
+    ],
+    "model_err": 14.79,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 17.07,
+     "espn": 13.2,
+     "dratings": 14.1,
+     "massey": 14.5
+    },
+    "src_tot_err": {
+     "hasla": 29.2,
+     "dratings": 33.1,
+     "massey": 29.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 30.7
+   }
   },
   {
    "id": "2026-11-13-uc-san-diego-utah-st",
@@ -5467,7 +6340,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 38, 27.0 better our number",
+    "tags": [],
+    "score": [
+     82,
+     120
+    ],
+    "model_err": 26.99,
+    "src_err": {
+     "market": 25.5,
+     "hasla": 33.1,
+     "espn": 26.6,
+     "dratings": 24.2,
+     "massey": 23.5
+    },
+    "src_tot_err": {
+     "hasla": 47.8,
+     "dratings": 46.0,
+     "massey": 51.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 48.4
+   }
   },
   {
    "id": "2026-11-13-southern-miss-texas-st",
@@ -5593,7 +6489,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 20, 10.6 better our number",
+    "tags": [],
+    "score": [
+     65,
+     85
+    ],
+    "model_err": 10.6,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 6.74,
+     "espn": 8.22,
+     "dratings": 12.2,
+     "massey": 15.5
+    },
+    "src_tot_err": {
+     "hasla": 2.7,
+     "dratings": 9.0,
+     "massey": 3.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.6
+   }
   },
   {
    "id": "2026-11-13-depaul-northwestern",
@@ -5720,7 +6639,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Lost by 20",
+    "tags": [],
+    "score": [
+     67,
+     47
+    ],
+    "model_err": 25.91,
+    "src_err": {
+     "market": 21.5,
+     "hasla": 29.15,
+     "espn": 25.06,
+     "dratings": 21.7,
+     "massey": 27.5
+    },
+    "src_tot_err": {
+     "hasla": 28.7,
+     "dratings": 25.3,
+     "massey": 26.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 26.8
+   }
   },
   {
    "id": "2026-11-13-illinois-st-north-dakota-st",
@@ -5846,7 +6788,32 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 1",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     81,
+     82
+    ],
+    "model_err": 5.37,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 6.81,
+     "espn": 7.23,
+     "dratings": 3.9,
+     "massey": 3.5
+    },
+    "src_tot_err": {
+     "hasla": 12.9,
+     "dratings": 14.1,
+     "massey": 13.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 13.5
+   }
   },
   {
    "id": "2026-11-13-virginia-maryland",
@@ -5971,7 +6938,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 4, on our number",
+    "tags": [],
+    "score": [
+     87,
+     83
+    ],
+    "model_err": 0.36,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 0.96,
+     "espn": 1.33,
+     "dratings": 2.9,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 20.7,
+     "dratings": 16.9,
+     "massey": 22.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 20.1
+   }
   },
   {
    "id": "2026-11-13-cal-poly-idaho",
@@ -6097,7 +7087,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Lost by 9",
+    "tags": [],
+    "score": [
+     83,
+     74
+    ],
+    "model_err": 10.74,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 7.65,
+     "espn": 11.98,
+     "dratings": 10.2,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 9.2,
+     "dratings": 11.4,
+     "massey": 2.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 7.7
+   }
   },
   {
    "id": "2026-11-13-arizona-auburn",
@@ -6223,7 +7236,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 11, 9.4 better our number",
+    "tags": [],
+    "score": [
+     80,
+     69
+    ],
+    "model_err": 9.37,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 8.35,
+     "espn": 12.84,
+     "dratings": 7.8,
+     "massey": 9.5
+    },
+    "src_tot_err": {
+     "hasla": 8.2,
+     "dratings": 11.2,
+     "massey": 10.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 10.0
+   }
   },
   {
    "id": "2026-11-13-xavier-mississippi-st",
@@ -6347,7 +7383,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 18, 16.8 better our number",
+    "tags": [],
+    "score": [
+     81,
+     63
+    ],
+    "model_err": 16.82,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 18.44,
+     "espn": 16.44,
+     "dratings": 15.4
+    },
+    "src_tot_err": {
+     "hasla": 20.8,
+     "dratings": 18.8
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 19.7
+   }
   },
   {
    "id": "2026-11-13-wright-st-samford",
@@ -6473,7 +7530,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 24, 23.3 better our number",
+    "tags": [],
+    "score": [
+     90,
+     66
+    ],
+    "model_err": 23.3,
+    "src_err": {
+     "market": 22.5,
+     "hasla": 23.04,
+     "espn": 21.31,
+     "dratings": 23.3,
+     "massey": 25.5
+    },
+    "src_tot_err": {
+     "hasla": 0.7,
+     "dratings": 2.1,
+     "massey": 2.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.8
+   }
   },
   {
    "id": "2026-11-13-stanford-unlv",
@@ -6599,7 +7679,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 8, 7.9 better our number",
+    "tags": [],
+    "score": [
+     68,
+     76
+    ],
+    "model_err": 7.91,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 6.06,
+     "espn": 5.87,
+     "dratings": 9.3,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "hasla": 17.0,
+     "dratings": 12.7,
+     "massey": 6.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 11.8
+   }
   },
   {
    "id": "2026-11-13-siue-duke",
@@ -6726,7 +7829,30 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 43, 7.5 better our number",
+    "tags": [],
+    "score": [
+     47,
+     90
+    ],
+    "model_err": 7.49,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 5.25,
+     "espn": 13.59,
+     "dratings": 6.6,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 5.9,
+     "dratings": 9.6,
+     "massey": 4.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.7
+   }
   },
   {
    "id": "2026-11-13-arkansas-pine-bluff-california",
@@ -6845,7 +7971,23 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 14, 2.4 better our number",
+    "tags": [],
+    "score": [
+     60,
+     74
+    ],
+    "model_err": 2.41,
+    "src_err": {
+     "market": 1.5,
+     "espn": 2.41
+    },
+    "src_tot_err": {},
+    "won": true,
+    "hammer": null,
+    "total_err": null
+   }
   },
   {
    "id": "2026-11-13-lindenwood-nebraska-omaha",
@@ -6968,7 +8110,28 @@
    },
    "tier": "Weak",
    "tier_reason": "sources split on the winner's chances (±16%)",
-   "result": null
+   "result": {
+    "label": "Won by 11, 7.2 better our number",
+    "tags": [],
+    "score": [
+     56,
+     67
+    ],
+    "model_err": 7.23,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 2.17,
+     "espn": 13.87,
+     "dratings": 6.5
+    },
+    "src_tot_err": {
+     "hasla": 36.8,
+     "dratings": 33.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 35.0
+   }
   }
  ],
  "waiting": [],
@@ -6983,7 +8146,7 @@
   "agree": 4,
   "n": 4
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Champion Christian Tigers",
   "College of Biblical Studies Ambassadors",

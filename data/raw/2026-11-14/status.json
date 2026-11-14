@@ -1,0 +1,57 @@
+{
+ "collected_at": "2026-11-14T11:43:54-05:00",
+ "date": "2026-11-14",
+ "espn_finals_2026-11-13": {
+  "ok": true,
+  "secs": 0.2,
+  "games": 61,
+  "final": 61
+ },
+ "espn_finals_2026-11-12": {
+  "ok": true,
+  "secs": 0.1,
+  "games": 29,
+  "final": 29
+ },
+ "espn_finals_2026-11-11": {
+  "ok": true,
+  "secs": 0.1,
+  "games": 67,
+  "final": 67
+ },
+ "espn": {
+  "ok": true,
+  "secs": 24.7,
+  "games": 71,
+  "predictors": 68
+ },
+ "torvik": {
+  "ok": false,
+  "error": "RuntimeError: cbbdata answered but every T-Rank number was blank (as of Nov 2026 its data stops after the 2024-25 season)",
+  "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/Ballgorithm/Ballgorithm/collect/collect.py\", line 82, in run\n    info = fn() or {}\n           ^^^^\n  File \"/home/runner/work/Ballgorithm/Ballgorithm/collect/collect.py\", line 152, in torvik\n    raise RuntimeError(\"cbbdata answered but every T-Rank number was blank \"\nRuntimeError: cbbdata answered but every T-Rank number was blank (as of Nov 2026 its data stops after the 2024-25 season)\n"
+ },
+ "cbbd": {
+  "ok": true,
+  "secs": 1.2,
+  "teams_rated": 364,
+  "teams_with_stats": 533
+ },
+ "haslametrics": {
+  "ok": true,
+  "secs": 12.2,
+  "chars": 73082,
+  "has_outcomes": true
+ },
+ "dratings": {
+  "ok": true,
+  "secs": 3.9,
+  "pages": 2,
+  "chars": 246937
+ },
+ "massey": {
+  "ok": true,
+  "secs": 13.6,
+  "chars": 8141,
+  "json_responses": 6
+ }
+}
