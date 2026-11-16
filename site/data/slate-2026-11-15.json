@@ -2,6 +2,7 @@
  "date": "2026-11-15",
  "generated_at": "2026-11-15T19:03:04-05:00",
  "notes": [
+  "GRADED: 27-6 picking winners (82%), average margin miss 11.2. Hammer Holy Cross +3.5: win. 1 still waiting on a final.",
   "34 D1 games on the board (31 locked at tip). Coverage: Torvik 0, Haslametrics 3, ESPN 3, DRatings 3, Massey 3, CBBD 0, DraftKings lines 3.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
@@ -273,7 +274,26 @@
    },
    "tier": "Strong",
    "tier_reason": "2 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 76, 44.0 better our number",
+    "tags": [],
+    "score": [
+     46,
+     122
+    ],
+    "model_err": 44.05,
+    "src_err": {
+     "market": 29.5,
+     "espn": 47.43,
+     "massey": 40.5
+    },
+    "src_tot_err": {
+     "massey": 7.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 7.5
+   }
   },
   {
    "id": "2026-11-15-william-mary-michigan",
@@ -1243,7 +1263,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 17, 5.5 better our number",
+    "tags": [],
+    "score": [
+     62,
+     79
+    ],
+    "model_err": 5.5,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 4.46,
+     "espn": 6.76,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 17.2,
+     "massey": 11.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 14.1
+   }
   },
   {
    "id": "2026-11-15-new-mexico-st-san-diego-st",
@@ -1505,7 +1546,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 24, 13.4 better our number",
+    "tags": [],
+    "score": [
+     55,
+     79
+    ],
+    "model_err": 13.38,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 12.67,
+     "espn": 12.97,
+     "massey": 14.5
+    },
+    "src_tot_err": {
+     "hasla": 12.5,
+     "massey": 14.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.6
+   }
   },
   {
    "id": "2026-11-15-boise-st-nebraska",
@@ -2480,7 +2542,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 25, 18.0 better our number",
+    "tags": [],
+    "score": [
+     52,
+     77
+    ],
+    "model_err": 17.96,
+    "src_err": {
+     "market": 18.5,
+     "hasla": 19.35,
+     "espn": 14.85,
+     "massey": 19.5
+    },
+    "src_tot_err": {
+     "hasla": 35.6,
+     "massey": 29.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 32.3
+   }
   },
   {
    "id": "2026-11-15-baylor-texas",
@@ -4458,7 +4541,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null,
+   "result": {
+    "label": "Won by 8, 17.7 short of our number",
+    "tags": [],
+    "score": [
+     81,
+     89
+    ],
+    "model_err": 17.73,
+    "src_err": {
+     "market": 19.5,
+     "hasla": 20.16,
+     "espn": 13.74,
+     "dratings": 16.8,
+     "massey": 20.5
+    },
+    "src_tot_err": {
+     "hasla": 22.8,
+     "dratings": 22.2,
+     "massey": 22.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.5
+   },
    "hammer": {
     "id": "2026-11-15-coastal-carolina-wisconsin",
     "team": "Coastal Carolina",
@@ -4592,7 +4698,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
+   "result": {
+    "label": "Won by 12, on our number",
+    "tags": [],
+    "score": [
+     68,
+     80
+    ],
+    "model_err": 0.12,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 3.27,
+     "espn": 5.06,
+     "dratings": 1.8,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 10.9,
+     "dratings": 7.0,
+     "massey": 1.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.3
+   }
   },
   {
    "id": "2026-11-15-texas-st-utsa",
@@ -4719,7 +4848,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 20, 16.0 better our number",
+    "tags": [],
+    "score": [
+     87,
+     67
+    ],
+    "model_err": 15.96,
+    "src_err": {
+     "market": 16.5,
+     "hasla": 15.04,
+     "espn": 15.43,
+     "dratings": 15.9,
+     "massey": 17.5
+    },
+    "src_tot_err": {
+     "hasla": 0.7,
+     "dratings": 5.7,
+     "massey": 6.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.5
+   }
   }
  ],
  "waiting": [],
