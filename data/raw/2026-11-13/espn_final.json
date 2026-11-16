@@ -4076,22 +4076,25 @@
        "records": [
         {
          "name": "overall",
-         "abbreviation": "Game",
+         "abbreviation": "Season",
          "type": "total",
          "summary": "4-0"
         },
         {
          "name": "Home",
+         "abbreviation": "Home",
          "type": "home",
          "summary": "3-0"
         },
         {
          "name": "Road",
+         "abbreviation": "AWAY",
          "type": "road",
          "summary": "0-0"
         },
         {
          "name": "vs. Conf.",
+         "abbreviation": "VS CONF",
          "type": "vsconf",
          "summary": "0-0"
         }
@@ -7337,6 +7340,116 @@
        "region": "us"
       }
      ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Terrence Hill Jr. scored 19 points and No. 11 Tennessee held off a late rally to beat Tennessee State 83-78 on Friday night.",
+       "shortLinkText": "Terrence Hill Jr. leads No. 11 Tennessee to 83-78 win over Tennessee State",
+       "video": [
+        {
+         "id": 50476395,
+         "source": "espn",
+         "headline": "Tennessee State Tigers vs. Tennessee Volunteers: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.jpg",
+         "duration": 84,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "NCAA Mens Basketball",
+          "sportName": "basketball",
+          "trackingId": "dm_20261114_NCB_tennessee_state_tigers_vs_tennessee_volunteers_game_highlights",
+          "trackingName": "NCB_One-Play (Tennessee State Tigers vs. Tennessee Volunteers: Game Highlights) 2026/11/14 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/12c5480f-6f9a-4a93-9a94-a544eb98021b"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50476395"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476395/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50476395"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476395/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476395/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50476395&videoDSI=47f84cdb2e0f7"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50476395/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50476395/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=47f84cdb2e0f7"
+            }
+           }
+          }
+         }
+        }
+       ]
+      }
+     ],
      "highlights": [
       {
        "id": 50476395,
@@ -7450,116 +7563,6 @@
         "trackingId": "dm_20261114_NCB_tennessee_state_tigers_vs_tennessee_volunteers_game_highlights",
         "trackingName": "NCB_One-Play (Tennessee State Tigers vs. Tennessee Volunteers: Game Highlights) 2026/11/14 ESHEET"
        }
-      }
-     ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Terrence Hill Jr. scored 19 points and No. 11 Tennessee held off a late rally to beat Tennessee State 83-78 on Friday night.",
-       "shortLinkText": "Terrence Hill Jr. leads No. 11 Tennessee to 83-78 win over Tennessee State",
-       "video": [
-        {
-         "id": 50476395,
-         "source": "espn",
-         "headline": "Tennessee State Tigers vs. Tennessee Volunteers: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.jpg",
-         "duration": 84,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "NCAA Mens Basketball",
-          "sportName": "basketball",
-          "trackingId": "dm_20261114_NCB_tennessee_state_tigers_vs_tennessee_volunteers_game_highlights",
-          "trackingName": "NCB_One-Play (Tennessee State Tigers vs. Tennessee Volunteers: Game Highlights) 2026/11/14 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/12c5480f-6f9a-4a93-9a94-a544eb98021b"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50476395"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476395/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50476395"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476395/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476395/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/12c5480f-6f9a-4a93-9a94-a544eb98021b/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9112f703-e9f1-4b26-bc04-f2ebaaa64013/9112f703-e9f1-4b26-bc04-f2ebaaa64013.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50476395&videoDSI=47f84cdb2e0f7"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50476395/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50476395/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=47f84cdb2e0f7"
-            }
-           }
-          }
-         }
-        }
-       ]
       }
      ]
     }
@@ -8503,116 +8506,6 @@
        "region": "us"
       }
      ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Freshman guard Caleb Holt had 24 points and nine rebounds in a return to his home state, and No. 12 Arizona took over down the stretch to turn back Auburn's second-half rally in an 80-69 victory Friday night.",
-       "shortLinkText": "No. 12 Arizona gets big homecoming game from freshman Caleb Holt in 80-69 victory at Auburn",
-       "video": [
-        {
-         "id": 50477319,
-         "source": "espn",
-         "headline": "Arizona Wildcats vs. Auburn Tigers: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.jpg",
-         "duration": 84,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "ESPN2",
-          "sportName": "basketball",
-          "trackingId": "dm_20261114_NCB_arizona_wildcats_vs_auburn_tigers_game_highlights",
-          "trackingName": "NCB_One-Play (Arizona Wildcats vs. Auburn Tigers: Game Highlights) 2026/11/14 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/e1dd8172-1dfd-4f04-b2c2-8267caae5be1"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50477319"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477319/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50477319"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477319/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477319/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50477319&videoDSI=91fa30db0a6d4"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50477319/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50477319/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=91fa30db0a6d4"
-            }
-           }
-          }
-         }
-        }
-       ]
-      }
-     ],
      "highlights": [
       {
        "id": 50477319,
@@ -8726,6 +8619,116 @@
         "trackingId": "dm_20261114_NCB_arizona_wildcats_vs_auburn_tigers_game_highlights",
         "trackingName": "NCB_One-Play (Arizona Wildcats vs. Auburn Tigers: Game Highlights) 2026/11/14 ESHEET"
        }
+      }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Freshman guard Caleb Holt had 24 points and nine rebounds in a return to his home state, and No. 12 Arizona took over down the stretch to turn back Auburn's second-half rally in an 80-69 victory Friday night.",
+       "shortLinkText": "No. 12 Arizona gets big homecoming game from freshman Caleb Holt in 80-69 victory at Auburn",
+       "video": [
+        {
+         "id": 50477319,
+         "source": "espn",
+         "headline": "Arizona Wildcats vs. Auburn Tigers: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.jpg",
+         "duration": 84,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "ESPN2",
+          "sportName": "basketball",
+          "trackingId": "dm_20261114_NCB_arizona_wildcats_vs_auburn_tigers_game_highlights",
+          "trackingName": "NCB_One-Play (Arizona Wildcats vs. Auburn Tigers: Game Highlights) 2026/11/14 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/e1dd8172-1dfd-4f04-b2c2-8267caae5be1"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50477319"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477319/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50477319"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477319/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477319/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/e1dd8172-1dfd-4f04-b2c2-8267caae5be1/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/441b7b53-5529-4c57-bdae-cb936b84915d/441b7b53-5529-4c57-bdae-cb936b84915d.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50477319&videoDSI=91fa30db0a6d4"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50477319/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50477319/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=91fa30db0a6d4"
+            }
+           }
+          }
+         }
+        }
+       ]
       }
      ]
     }
@@ -26456,22 +26459,25 @@
        "records": [
         {
          "name": "overall",
-         "abbreviation": "Game",
+         "abbreviation": "Season",
          "type": "total",
          "summary": "1-3"
         },
         {
          "name": "Home",
+         "abbreviation": "Home",
          "type": "home",
          "summary": "1-1"
         },
         {
          "name": "Road",
+         "abbreviation": "AWAY",
          "type": "road",
          "summary": "0-2"
         },
         {
          "name": "vs. Conf.",
+         "abbreviation": "VS CONF",
          "type": "vsconf",
          "summary": "0-0"
         }
@@ -34007,6 +34013,116 @@
        "region": "us"
       }
      ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Paul McNeil Jr. scored 16 points and Ven-Allen Lubin posted a double-double to propel N.C. State to an 81-62 victory over Troy on Friday night.",
+       "shortLinkText": "Paul McNeil Jr., Ven-Allen Lubin power NC State to 81-62 victory over Troy",
+       "video": [
+        {
+         "id": 50476336,
+         "source": "espn",
+         "headline": "Troy Trojans vs. NC State Wolfpack: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.jpg",
+         "duration": 68,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "ACC Network",
+          "sportName": "basketball",
+          "trackingId": "dm_20261114_NCB_troy_trojans_vs_nc_state_wolfpack_game_highlights",
+          "trackingName": "NCB_One-Play (Troy Trojans vs. NC State Wolfpack: Game Highlights) 2026/11/14 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/6844e4de-1a97-458f-b13a-628cbe5a8249"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50476336"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6844e4de-1a97-458f-b13a-628cbe5a8249/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476336/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50476336"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6844e4de-1a97-458f-b13a-628cbe5a8249/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476336/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6844e4de-1a97-458f-b13a-628cbe5a8249/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476336/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/6844e4de-1a97-458f-b13a-628cbe5a8249/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50476336&videoDSI=b0f6005bdff1a"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50476336/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50476336/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=b0f6005bdff1a"
+            }
+           }
+          }
+         }
+        }
+       ]
+      }
+     ],
      "highlights": [
       {
        "id": 50476336,
@@ -34120,116 +34236,6 @@
         "trackingId": "dm_20261114_NCB_troy_trojans_vs_nc_state_wolfpack_game_highlights",
         "trackingName": "NCB_One-Play (Troy Trojans vs. NC State Wolfpack: Game Highlights) 2026/11/14 ESHEET"
        }
-      }
-     ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Paul McNeil Jr. scored 16 points and Ven-Allen Lubin posted a double-double to propel N.C. State to an 81-62 victory over Troy on Friday night.",
-       "shortLinkText": "Paul McNeil Jr., Ven-Allen Lubin power NC State to 81-62 victory over Troy",
-       "video": [
-        {
-         "id": 50476336,
-         "source": "espn",
-         "headline": "Troy Trojans vs. NC State Wolfpack: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.jpg",
-         "duration": 68,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "ACC Network",
-          "sportName": "basketball",
-          "trackingId": "dm_20261114_NCB_troy_trojans_vs_nc_state_wolfpack_game_highlights",
-          "trackingName": "NCB_One-Play (Troy Trojans vs. NC State Wolfpack: Game Highlights) 2026/11/14 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/6844e4de-1a97-458f-b13a-628cbe5a8249"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50476336"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6844e4de-1a97-458f-b13a-628cbe5a8249/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476336/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50476336"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6844e4de-1a97-458f-b13a-628cbe5a8249/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476336/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6844e4de-1a97-458f-b13a-628cbe5a8249/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476336/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/6844e4de-1a97-458f-b13a-628cbe5a8249/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/bc30c78e-38ef-4a1b-8530-8760132193e9/bc30c78e-38ef-4a1b-8530-8760132193e9.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50476336&videoDSI=b0f6005bdff1a"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50476336/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50476336/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=b0f6005bdff1a"
-            }
-           }
-          }
-         }
-        }
-       ]
       }
      ]
     }
@@ -45014,116 +45020,6 @@
        "region": "us"
       }
      ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Ilija Milijasevic had 17 points in Wright State’s 90-66 victory over Samford on Friday.",
-       "shortLinkText": "Milijasevic has 17 as Wright State takes down Samford 90-66",
-       "video": [
-        {
-         "id": 50476573,
-         "source": "espn",
-         "headline": "Wright State Raiders vs. Samford Bulldogs: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.jpg",
-         "duration": 84,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "NCAA Mens Basketball",
-          "sportName": "basketball",
-          "trackingId": "dm_20261114_NCB_wright_state_raiders_vs_samford_bulldogs_game_highlights",
-          "trackingName": "NCB_One-Play (Wright State Raiders vs. Samford Bulldogs: Game Highlights) 2026/11/14 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/383adf50-2ac1-4042-9a60-32ab76e4aafe"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50476573"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476573/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50476573"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476573/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476573/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50476573&videoDSI=27300bbfef8fb"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50476573/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50476573/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=27300bbfef8fb"
-            }
-           }
-          }
-         }
-        }
-       ]
-      }
-     ],
      "highlights": [
       {
        "id": 50476573,
@@ -45237,6 +45133,116 @@
         "trackingId": "dm_20261114_NCB_wright_state_raiders_vs_samford_bulldogs_game_highlights",
         "trackingName": "NCB_One-Play (Wright State Raiders vs. Samford Bulldogs: Game Highlights) 2026/11/14 ESHEET"
        }
+      }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Ilija Milijasevic had 17 points in Wright State’s 90-66 victory over Samford on Friday.",
+       "shortLinkText": "Milijasevic has 17 as Wright State takes down Samford 90-66",
+       "video": [
+        {
+         "id": 50476573,
+         "source": "espn",
+         "headline": "Wright State Raiders vs. Samford Bulldogs: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.jpg",
+         "duration": 84,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "NCAA Mens Basketball",
+          "sportName": "basketball",
+          "trackingId": "dm_20261114_NCB_wright_state_raiders_vs_samford_bulldogs_game_highlights",
+          "trackingName": "NCB_One-Play (Wright State Raiders vs. Samford Bulldogs: Game Highlights) 2026/11/14 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/383adf50-2ac1-4042-9a60-32ab76e4aafe"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50476573"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476573/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50476573"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476573/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50476573/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/383adf50-2ac1-4042-9a60-32ab76e4aafe/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d/72ace1f1-56f9-4ef0-aed2-b5ffb10d408d.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50476573&videoDSI=27300bbfef8fb"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50476573/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50476573/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=27300bbfef8fb"
+            }
+           }
+          }
+         }
+        }
+       ]
       }
      ]
     }
@@ -61138,116 +61144,6 @@
        "region": "us"
       }
      ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Jevon Hill scored 18 points and San Diego beat Chicago State 87-67 on Friday night.",
-       "shortLinkText": "San Diego beats Chicago State 87-67 behind 18 points from Jevon Hill",
-       "video": [
-        {
-         "id": 50477381,
-         "source": "espn",
-         "headline": "Chicago State Cougars vs. San Diego Toreros: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.jpg",
-         "duration": 82,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "NCAA Mens Basketball",
-          "sportName": "basketball",
-          "trackingId": "dm_20261114_NCB_chicago_state_cougars_vs_san_diego_toreros_game_highlights",
-          "trackingName": "NCB_One-Play (Chicago State Cougars vs. San Diego Toreros: Game Highlights) 2026/11/14 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/dd609d5d-305f-4501-b3dd-1c9ddbd41e11"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50477381"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477381/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50477381"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477381/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477381/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50477381&videoDSI=856f0440a435b"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50477381/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50477381/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=856f0440a435b"
-            }
-           }
-          }
-         }
-        }
-       ]
-      }
-     ],
      "highlights": [
       {
        "id": 50477381,
@@ -61361,6 +61257,116 @@
         "trackingId": "dm_20261114_NCB_chicago_state_cougars_vs_san_diego_toreros_game_highlights",
         "trackingName": "NCB_One-Play (Chicago State Cougars vs. San Diego Toreros: Game Highlights) 2026/11/14 ESHEET"
        }
+      }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Jevon Hill scored 18 points and San Diego beat Chicago State 87-67 on Friday night.",
+       "shortLinkText": "San Diego beats Chicago State 87-67 behind 18 points from Jevon Hill",
+       "video": [
+        {
+         "id": 50477381,
+         "source": "espn",
+         "headline": "Chicago State Cougars vs. San Diego Toreros: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.jpg",
+         "duration": 82,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "NCAA Mens Basketball",
+          "sportName": "basketball",
+          "trackingId": "dm_20261114_NCB_chicago_state_cougars_vs_san_diego_toreros_game_highlights",
+          "trackingName": "NCB_One-Play (Chicago State Cougars vs. San Diego Toreros: Game Highlights) 2026/11/14 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/dd609d5d-305f-4501-b3dd-1c9ddbd41e11"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50477381"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477381/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50477381"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477381/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50477381/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/dd609d5d-305f-4501-b3dd-1c9ddbd41e11/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1114/9c851e82-24d6-49e5-80d9-a56ed1c682a2/9c851e82-24d6-49e5-80d9-a56ed1c682a2.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50477381&videoDSI=856f0440a435b"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50477381/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50477381/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=856f0440a435b"
+            }
+           }
+          }
+         }
+        }
+       ]
       }
      ]
     }
