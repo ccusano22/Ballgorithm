@@ -2,6 +2,7 @@
  "date": "2026-11-16",
  "generated_at": "2026-11-16T22:01:09-05:00",
  "notes": [
+  "GRADED: 18-3 picking winners (86%), average margin miss 13.4. Hammer Alcorn St. +34.5: loss.",
   "21 D1 games on the board (21 locked at tip). Coverage: Torvik 0, Haslametrics 0, ESPN 0, DRatings 0, Massey 0, CBBD 0, DraftKings lines 0.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
@@ -429,7 +430,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 39, 11.8 better our number",
+    "tags": [],
+    "score": [
+     66,
+     105
+    ],
+    "model_err": 11.83,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 9.89,
+     "espn": 14.31,
+     "dratings": 10.6,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 21.0,
+     "dratings": 22.4,
+     "massey": 23.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.3
+   }
   },
   {
    "id": "2026-11-16-southeastern-louisiana-texas-a-m",
@@ -556,7 +580,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 32, 4.7 better our number",
+    "tags": [],
+    "score": [
+     69,
+     101
+    ],
+    "model_err": 4.71,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 3.99,
+     "espn": 8.75,
+     "dratings": 2.8,
+     "massey": 3.5
+    },
+    "src_tot_err": {
+     "hasla": 14.7,
+     "dratings": 10.8,
+     "massey": 21.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 15.7
+   }
   },
   {
    "id": "2026-11-16-alcorn-st-maryland",
@@ -1145,7 +1192,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 16, 3.0 short of our number",
+    "tags": [],
+    "score": [
+     78,
+     94
+    ],
+    "model_err": 3.03,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 7.06,
+     "espn": 1.24,
+     "dratings": 0.8,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "hasla": 23.8,
+     "dratings": 23.6,
+     "massey": 25.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 24.3
+   }
   },
   {
    "id": "2026-11-16-central-arkansas-oklahoma-st",
@@ -1269,7 +1339,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 33, 15.2 better our number",
+    "tags": [],
+    "score": [
+     66,
+     99
+    ],
+    "model_err": 15.19,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 11.69,
+     "espn": 16.03,
+     "dratings": 17.8
+    },
+    "src_tot_err": {
+     "hasla": 3.0,
+     "dratings": 2.8
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 2.9
+   }
   },
   {
    "id": "2026-11-16-texas-southern-uc-san-diego",
@@ -1395,7 +1486,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
+   "result": {
+    "label": "Won by 5, 11.7 short of our number",
+    "tags": [],
+    "score": [
+     92,
+     97
+    ],
+    "model_err": 11.66,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 18.79,
+     "espn": 11.04,
+     "dratings": 5.7,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "hasla": 28.9,
+     "dratings": 32.9,
+     "massey": 36.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 33.2
+   }
   },
   {
    "id": "2026-11-16-east-texas-a-m-oregon-st",
@@ -1523,7 +1637,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 38, 22.3 better our number",
+    "tags": [],
+    "score": [
+     71,
+     109
+    ],
+    "model_err": 22.33,
+    "src_err": {
+     "market": 21.5,
+     "hasla": 16.22,
+     "espn": 24.69,
+     "dratings": 25.3,
+     "massey": 23.5
+    },
+    "src_tot_err": {
+     "hasla": 25.4,
+     "dratings": 28.3,
+     "massey": 32.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 28.9
+   }
   },
   {
    "id": "2026-11-16-montana-kansas-st",
@@ -2528,7 +2665,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 9, 4.0 better our number",
+    "tags": [],
+    "score": [
+     64,
+     73
+    ],
+    "model_err": 4.01,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 2.81,
+     "espn": 6.22,
+     "dratings": 3.2
+    },
+    "src_tot_err": {
+     "hasla": 14.5,
+     "dratings": 6.0
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.8
+   }
   },
   {
    "id": "2026-11-16-iona-umbc",
@@ -3000,7 +3158,7 @@
   "agree": 4,
   "n": 4
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Calumet St. Joseph Crimson Wave",
   "Colorado Colorado Springs Mountain Lions",
