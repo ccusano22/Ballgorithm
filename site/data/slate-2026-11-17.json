@@ -1,9 +1,10 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-17T14:24:47-05:00",
+ "generated_at": "2026-11-17T21:29:38-05:00",
  "notes": [
-  "53 D1 games on the board. Coverage: Torvik 0, Haslametrics 49, ESPN 53, DRatings 50, Massey 44, CBBD 3, DraftKings lines 53.",
+  "53 D1 games on the board (49 locked at tip). Coverage: Torvik 0, Haslametrics 3, ESPN 4, DRatings 3, Massey 3, CBBD 0, DraftKings lines 4.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
+  "CBBD joins once both teams in a game have played 5 games and its adjusted ratings are published.",
   "14 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
  ],
  "games": [
@@ -134,7 +135,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 47, 11.8 better our number",
+    "tags": [],
+    "score": [
+     48,
+     95
+    ],
+    "model_err": 11.79,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 8.22,
+     "espn": 16.53,
+     "dratings": 9.7,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 7.9,
+     "dratings": 5.7,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.3
+   }
   },
   {
    "id": "2026-11-17-eastern-illinois-vanderbilt",
@@ -392,7 +416,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 19.9 short of our number",
+    "tags": [],
+    "score": [
+     67,
+     75
+    ],
+    "model_err": 19.94,
+    "src_err": {
+     "market": 24.5,
+     "hasla": 24.63,
+     "espn": 17.4,
+     "dratings": 18.0,
+     "massey": 19.5
+    },
+    "src_tot_err": {
+     "hasla": 19.6,
+     "dratings": 14.8,
+     "massey": 17.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 17.1
+   }
   },
   {
    "id": "2026-11-17-maryland-eastern-shore-depaul",
@@ -770,7 +817,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 19, 4.2 short of our number",
+    "tags": [],
+    "score": [
+     67,
+     86
+    ],
+    "model_err": 4.2,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 8.04,
+     "espn": 1.39,
+     "dratings": 1.4,
+     "massey": 5.5
+    },
+    "src_tot_err": {
+     "hasla": 9.6,
+     "dratings": 0.0,
+     "massey": 6.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.7
+   }
   },
   {
    "id": "2026-11-17-kennesaw-st-alabama",
@@ -1026,7 +1096,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 14, 7.1 short of our number",
+    "tags": [],
+    "score": [
+     71,
+     85
+    ],
+    "model_err": 7.06,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 12.6,
+     "espn": 3.93,
+     "dratings": 3.4,
+     "massey": 7.5
+    },
+    "src_tot_err": {
+     "hasla": 4.6,
+     "dratings": 4.0,
+     "massey": 9.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.1
+   }
   },
   {
    "id": "2026-11-17-oral-roberts-smu",
@@ -1282,7 +1375,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 17, 3.9 short of our number",
+    "tags": [],
+    "score": [
+     78,
+     95
+    ],
+    "model_err": 3.91,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 7.6,
+     "espn": 0.47,
+     "dratings": 0.2,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 24.5,
+     "dratings": 23.8,
+     "massey": 19.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.6
+   }
   },
   {
    "id": "2026-11-17-norfolk-st-georgia-tech",
@@ -1411,7 +1527,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 14, 3.2 short of our number",
+    "tags": [],
+    "score": [
+     79,
+     93
+    ],
+    "model_err": 3.18,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 1.59,
+     "espn": 3.53,
+     "dratings": 3.3,
+     "massey": 4.5
+    },
+    "src_tot_err": {
+     "hasla": 17.1,
+     "dratings": 24.3,
+     "massey": 22.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 21.5
+   }
   },
   {
    "id": "2026-11-17-wagner-saint-joseph-s",
@@ -1539,7 +1678,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 19, 3.3 better our number",
+    "tags": [],
+    "score": [
+     65,
+     84
+    ],
+    "model_err": 3.26,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 2.56,
+     "espn": 4.91,
+     "dratings": 5.2,
+     "massey": 0.5
+    },
+    "src_tot_err": {
+     "hasla": 6.0,
+     "dratings": 8.4,
+     "massey": 9.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.2
+   }
   },
   {
    "id": "2026-11-17-bellarmine-illinois-st",
@@ -1793,7 +1955,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 6.5 short of our number",
+    "tags": [],
+    "score": [
+     78,
+     86
+    ],
+    "model_err": 6.51,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 7.17,
+     "espn": 6.6,
+     "dratings": 5.7
+    },
+    "src_tot_err": {
+     "hasla": 9.2,
+     "dratings": 12.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 10.9
+   }
   },
   {
    "id": "2026-11-17-unlv-kansas",
@@ -2042,7 +2225,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 5, 8.3 short of our number",
+    "tags": [],
+    "score": [
+     76,
+     81
+    ],
+    "model_err": 8.31,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 9.46,
+     "espn": 8.31,
+     "dratings": 7.4
+    },
+    "src_tot_err": {
+     "hasla": 11.9,
+     "dratings": 12.0
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.0
+   }
   },
   {
    "id": "2026-11-17-western-carolina-butler",
@@ -2169,7 +2373,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
+   "result": {
+    "label": "Won by 25, 11.4 better our number",
+    "tags": [],
+    "score": [
+     64,
+     89
+    ],
+    "model_err": 11.43,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 8.5,
+     "espn": 15.47,
+     "dratings": 13.8,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 7.7,
+     "dratings": 6.6,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.5
+   }
   },
   {
    "id": "2026-11-17-akron-bucknell",
@@ -2296,7 +2523,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Lost by 4",
+    "tags": [],
+    "score": [
+     49,
+     53
+    ],
+    "model_err": 16.93,
+    "src_err": {
+     "market": 18.5,
+     "hasla": 17.95,
+     "espn": 17.43,
+     "dratings": 15.8,
+     "massey": 16.5
+    },
+    "src_tot_err": {
+     "hasla": 50.5,
+     "dratings": 43.6,
+     "massey": 50.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 48.0
+   }
   },
   {
    "id": "2026-11-17-lindenwood-northern-iowa",
@@ -2554,7 +2804,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 27, 14.7 better our number",
+    "tags": [],
+    "score": [
+     71,
+     98
+    ],
+    "model_err": 14.69,
+    "src_err": {
+     "market": 15.5,
+     "hasla": 13.46,
+     "espn": 16.11,
+     "dratings": 15.5,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 2.3,
+     "dratings": 7.7,
+     "massey": 8.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.0
+   }
   },
   {
    "id": "2026-11-17-alabama-st-uc-davis",
@@ -3065,132 +3338,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±7%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-17-uc-irvine-stanford",
-   "away": "UC Irvine",
-   "home": "Stanford",
-   "away_conf": "BW",
-   "home_conf": "ACC",
-   "short": {},
-   "neutral": false,
-   "site": "at Stanford",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "ACCNX",
-   "sources": {
-    "hasla": {
-     "margin": 7.47,
-     "total": 150.8,
-     "note": "Published projection: UC Irvine 71.7, Stanford 79.2."
+   "result": {
+    "label": "Won by 19, 8.2 better our number",
+    "tags": [],
+    "score": [
+     80,
+     61
+    ],
+    "model_err": 8.19,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 2.56,
+     "espn": 9.51,
+     "dratings": 8.5,
+     "massey": 11.5
     },
-    "dratings": {
-     "margin": 9.5,
-     "total": 147.5,
-     "note": "Published projection: UC Irvine 69.0, Stanford 78.5."
+    "src_tot_err": {
+     "hasla": 4.3,
+     "dratings": 2.1,
+     "massey": 6.5
     },
-    "massey": {
-     "margin": 8.5,
-     "total": 146.5,
-     "note": "Published median margin: Stanford by 8.5, total 146.5."
-    },
-    "espn": {
-     "margin": 8.27,
-     "derived": true,
-     "note": "BPI matchup predictor: Stanford 77.2% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "CBBD ratings wait until both teams have 5 games."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -6.5,
-    "total": 142.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.158,
-      "dratings": 0.172,
-      "massey": 0.16,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.189,
-      "espn": 0.148,
-      "dratings": 0.161,
-      "massey": 0.171,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "hasla": 0.274,
-     "espn": 0.229,
-     "dratings": 0.249,
-     "massey": 0.248
-    },
-    "used_total": {
-     "hasla": 0.3,
-     "dratings": 0.348,
-     "massey": 0.352
-    }
-   },
-   "blend": {
-    "margin": 8.41,
-    "src_sd": 0.72,
-    "model_sd": 11.97,
-    "sd": 11.99,
-    "p_home": 0.7585,
-    "p_sd": 0.0187,
-    "total": 148.1,
-    "total_sd": 17.1,
-    "baseline_total": null,
-    "lean": null,
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Stanford",
-    "dog": "UC Irvine",
-    "p": 0.7585,
-    "margin": 8.41,
-    "lock": false
-   },
-   "momentum": {
-    "UC Irvine": {
-     "n": 0,
-     "avg": null,
-     "last": [],
-     "flag": null
-    },
-    "Stanford": {
-     "n": 3,
-     "avg": -0.0,
-     "last": [
-      5.0,
-      2.9,
-      -7.9
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Strong",
-   "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 4.2
+   }
   },
   {
    "id": "2026-11-17-sam-houston-st-wyoming",
@@ -3447,7 +3618,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 15, 9.1 better our number",
+    "tags": [],
+    "score": [
+     51,
+     66
+    ],
+    "model_err": 9.07,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 8.91,
+     "espn": 4.33,
+     "dratings": 12.7,
+     "massey": 10.5
+    },
+    "src_tot_err": {
+     "hasla": 25.0,
+     "dratings": 12.9,
+     "massey": 22.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 19.0
+   }
   },
   {
    "id": "2026-11-17-fiu-uab",
@@ -3826,131 +4020,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-17-west-virginia-auburn",
-   "away": "West Virginia",
-   "home": "Auburn",
-   "away_conf": "B12",
-   "home_conf": "SEC",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Las Vegas",
-   "tip": "11:59 PM ET",
-   "tip_sort": 1439,
-   "tv": "ESPN",
-   "sources": {
-    "hasla": {
-     "margin": 2.88,
-     "total": 140.3,
-     "note": "Published projection: West Virginia 68.7, Auburn 71.6."
+   "result": {
+    "label": "Won by 10, 5.9 better our number",
+    "tags": [],
+    "score": [
+     74,
+     84
+    ],
+    "model_err": 5.88,
+    "src_err": {
+     "market": 8.5,
+     "espn": 5.82,
+     "dratings": 7.0,
+     "massey": 4.5
     },
-    "massey": {
-     "margin": 7.5,
-     "total": 146.5,
-     "note": "Published median margin: Auburn by 7.5, total 146.5."
+    "src_tot_err": {
+     "dratings": 6.2,
+     "massey": 2.5
     },
-    "espn": {
-     "margin": 1.37,
-     "derived": true,
-     "note": "BPI matchup predictor: Auburn 54.9% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "CBBD ratings wait until both teams have 5 games."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -1.5,
-    "total": 143.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.168,
-      "espn": 0.144,
-      "dratings": 0.179,
-      "massey": 0.176,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.187,
-      "espn": 0.157,
-      "dratings": 0.177,
-      "massey": 0.148,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "hasla": 0.362,
-     "espn": 0.307,
-     "massey": 0.33
-    },
-    "used_total": {
-     "hasla": 0.46,
-     "massey": 0.54
-    }
-   },
-   "blend": {
-    "margin": 3.94,
-    "src_sd": 2.61,
-    "model_sd": 11.97,
-    "sd": 12.25,
-    "p_home": 0.6262,
-    "p_sd": 0.08,
-    "total": 143.6,
-    "total_sd": 17.1,
-    "baseline_total": 139.2,
-    "lean": "near",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "Auburn",
-    "dog": "West Virginia",
-    "p": 0.6262,
-    "margin": 3.94,
-    "lock": false
-   },
-   "momentum": {
-    "West Virginia": {
-     "n": 2,
-     "avg": 4.8,
-     "last": [
-      15.0,
-      -5.4
-     ],
-     "flag": null
-    },
-    "Auburn": {
-     "n": 2,
-     "avg": -3.9,
-     "last": [
-      1.5,
-      -9.4
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 4.5
+   }
   },
   {
    "id": "2026-11-17-jacksonville-st-louisiana-tech",
@@ -4209,7 +4300,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Lost by 18",
+    "tags": [],
+    "score": [
+     69,
+     87
+    ],
+    "model_err": 21.05,
+    "src_err": {
+     "market": 23.5,
+     "hasla": 20.26,
+     "espn": 20.69,
+     "dratings": 23.0,
+     "massey": 24.5,
+     "cbbd": 16.3
+    },
+    "src_tot_err": {
+     "hasla": 7.7,
+     "dratings": 10.0,
+     "massey": 2.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 6.8
+   }
   },
   {
    "id": "2026-11-17-ut-arlington-southern-miss",
@@ -4466,7 +4581,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 34",
+    "tags": [],
+    "score": [
+     99,
+     65
+    ],
+    "model_err": 36.31,
+    "src_err": {
+     "market": 35.5,
+     "hasla": 35.36,
+     "espn": 36.24,
+     "dratings": 35.3,
+     "massey": 38.5
+    },
+    "src_tot_err": {
+     "hasla": 20.7,
+     "dratings": 26.7,
+     "massey": 23.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 24.0
+   }
   },
   {
    "id": "2026-11-17-texas-a-m-corpus-chris-rice",
@@ -4714,7 +4852,26 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 9, 7.4 better our number",
+    "tags": [],
+    "score": [
+     87,
+     78
+    ],
+    "model_err": 7.41,
+    "src_err": {
+     "market": 10.5,
+     "espn": 6.22,
+     "dratings": 8.5
+    },
+    "src_tot_err": {
+     "dratings": 19.7
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 19.7
+   }
   },
   {
    "id": "2026-11-17-marist-army",
@@ -4842,7 +4999,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 5, 3.5 better our number",
+    "tags": [],
+    "score": [
+     73,
+     68
+    ],
+    "model_err": 3.49,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 2.3,
+     "espn": 8.16,
+     "dratings": 2.4,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 6.4,
+     "dratings": 6.6,
+     "massey": 3.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.9
+   }
   },
   {
    "id": "2026-11-17-siue-north-dakota",
@@ -5099,7 +5279,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 4, 2.9 better our number",
+    "tags": [],
+    "score": [
+     73,
+     77
+    ],
+    "model_err": 2.91,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 3.32,
+     "espn": 4.5,
+     "dratings": 1.5,
+     "massey": 2.5
+    },
+    "src_tot_err": {
+     "hasla": 18.2,
+     "dratings": 20.9,
+     "massey": 9.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 16.2
+   }
   },
   {
    "id": "2026-11-17-east-tennessee-st-marshall",
@@ -5227,7 +5430,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 12, 10.9 better our number",
+    "tags": [],
+    "score": [
+     55,
+     67
+    ],
+    "model_err": 10.93,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 12.92,
+     "espn": 10.63,
+     "dratings": 10.5,
+     "massey": 9.5
+    },
+    "src_tot_err": {
+     "hasla": 29.7,
+     "dratings": 25.5,
+     "massey": 27.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 27.5
+   }
   },
   {
    "id": "2026-11-17-lamar-nebraska-omaha",
@@ -5480,7 +5706,30 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 20",
+    "tags": [],
+    "score": [
+     61,
+     81
+    ],
+    "model_err": 20.36,
+    "src_err": {
+     "market": 21.5,
+     "hasla": 18.25,
+     "espn": 19.36,
+     "dratings": 22.4,
+     "massey": 21.5
+    },
+    "src_tot_err": {
+     "hasla": 0.1,
+     "dratings": 6.0,
+     "massey": 2.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 3.1
+   }
   },
   {
    "id": "2026-11-17-arkansas-indiana",
@@ -5985,134 +6234,6 @@
    "result": null
   },
   {
-   "id": "2026-11-17-montana-st-gonzaga",
-   "away": "Montana St.",
-   "home": "Gonzaga",
-   "away_conf": "BSky",
-   "home_conf": "P12",
-   "short": {},
-   "neutral": false,
-   "site": "at Gonzaga",
-   "tip": "11 PM ET",
-   "tip_sort": 1380,
-   "tv": "CBSSN",
-   "sources": {
-    "hasla": {
-     "margin": 22.24,
-     "total": 154.9,
-     "note": "Published projection: Montana St. 66.3, Gonzaga 88.6."
-    },
-    "dratings": {
-     "margin": 18.2,
-     "total": 155.2,
-     "note": "Published projection: Montana St. 68.5, Gonzaga 86.7."
-    },
-    "massey": {
-     "margin": 23.5,
-     "total": 151.5,
-     "note": "Published median margin: Gonzaga by 23.5, total 151.5."
-    },
-    "espn": {
-     "margin": 16.79,
-     "derived": true,
-     "note": "BPI matchup predictor: Gonzaga 93.5% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "CBBD ratings wait until both teams have 5 games."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -22.5,
-    "total": 152.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.158,
-      "dratings": 0.172,
-      "massey": 0.16,
-      "cbbd": 0.166
-     }
-    },
-    "home": {
-     "basis": "D1",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.177,
-      "espn": 0.158,
-      "dratings": 0.172,
-      "massey": 0.16,
-      "cbbd": 0.166
-     }
-    },
-    "used": {
-     "hasla": 0.266,
-     "espn": 0.237,
-     "dratings": 0.258,
-     "massey": 0.24
-    },
-    "used_total": {
-     "hasla": 0.301,
-     "dratings": 0.36,
-     "massey": 0.339
-    }
-   },
-   "blend": {
-    "margin": 20.21,
-    "src_sd": 2.77,
-    "model_sd": 11.97,
-    "sd": 12.29,
-    "p_home": 0.95,
-    "p_sd": 0.0229,
-    "total": 153.9,
-    "total_sd": 17.1,
-    "baseline_total": 157.7,
-    "lean": "near",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Gonzaga",
-    "dog": "Montana St.",
-    "p": 0.95,
-    "margin": 20.21,
-    "lock": true
-   },
-   "momentum": {
-    "Montana St.": {
-     "n": 3,
-     "avg": 8.9,
-     "last": [
-      3.7,
-      5.0,
-      18.0
-     ],
-     "flag": null
-    },
-    "Gonzaga": {
-     "n": 2,
-     "avg": 3.5,
-     "last": [
-      17.6,
-      -10.7
-     ],
-     "flag": null
-    }
-   },
-   "tier": "Weak",
-   "tier_reason": "bad loss in last 2",
-   "result": null
-  },
-  {
    "id": "2026-11-17-old-dominion-virginia",
    "away": "Old Dominion",
    "home": "Virginia",
@@ -6380,7 +6501,30 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 25, 13.2 better our number",
+    "tags": [],
+    "score": [
+     63,
+     88
+    ],
+    "model_err": 13.18,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 10.54,
+     "espn": 14.29,
+     "dratings": 14.2,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 3.4,
+     "dratings": 2.8,
+     "massey": 2.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.0
+   }
   },
   {
    "id": "2026-11-17-illinois-duke",
@@ -6637,6 +6781,417 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
+   "result": {
+    "label": "Lost by 7",
+    "tags": [],
+    "score": [
+     73,
+     66
+    ],
+    "model_err": 12.3,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 10.74,
+     "espn": 13.73,
+     "dratings": 10.9,
+     "massey": 13.5
+    },
+    "src_tot_err": {
+     "hasla": 0.0,
+     "dratings": 5.3,
+     "massey": 0.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 1.8
+   }
+  },
+  {
+   "id": "2026-11-17-uc-irvine-stanford",
+   "away": "UC Irvine",
+   "home": "Stanford",
+   "away_conf": "BW",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Stanford",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "ACCNX",
+   "sources": {
+    "hasla": {
+     "margin": 7.47,
+     "total": 150.8,
+     "note": "Published projection: UC Irvine 71.7, Stanford 79.2."
+    },
+    "dratings": {
+     "margin": 9.5,
+     "total": 147.5,
+     "note": "Published projection: UC Irvine 69.0, Stanford 78.5."
+    },
+    "massey": {
+     "margin": 8.5,
+     "total": 146.5,
+     "note": "Published median margin: Stanford by 8.5, total 146.5."
+    },
+    "espn": {
+     "margin": 8.27,
+     "derived": true,
+     "note": "BPI matchup predictor: Stanford 77.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 141.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.177,
+      "espn": 0.159,
+      "dratings": 0.172,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.187,
+      "espn": 0.15,
+      "dratings": 0.165,
+      "massey": 0.166,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.273,
+     "espn": 0.231,
+     "dratings": 0.253,
+     "massey": 0.243
+    },
+    "used_total": {
+     "hasla": 0.305,
+     "dratings": 0.345,
+     "massey": 0.35
+    }
+   },
+   "blend": {
+    "margin": 8.42,
+    "src_sd": 0.72,
+    "model_sd": 12.03,
+    "sd": 12.05,
+    "p_home": 0.7576,
+    "p_sd": 0.0187,
+    "total": 148.2,
+    "total_sd": 17.0,
+    "baseline_total": null,
+    "lean": null,
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Stanford",
+    "dog": "UC Irvine",
+    "p": 0.7576,
+    "margin": 8.42,
+    "lock": false
+   },
+   "momentum": {
+    "UC Irvine": {
+     "n": 0,
+     "avg": null,
+     "last": [],
+     "flag": null
+    },
+    "Stanford": {
+     "n": 3,
+     "avg": -0.0,
+     "last": [
+      5.0,
+      2.9,
+      -7.9
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-17-uc-irvine-stanford",
+    "team": "Stanford",
+    "side": "home",
+    "spread": -6.5,
+    "spread_home": -6.5,
+    "edge": 1.92,
+    "cover_p": 0.5633,
+    "agree": 4,
+    "n": 4
+   }
+  },
+  {
+   "id": "2026-11-17-west-virginia-auburn",
+   "away": "West Virginia",
+   "home": "Auburn",
+   "away_conf": "B12",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "11:59 PM ET",
+   "tip_sort": 1439,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": 2.88,
+     "total": 140.3,
+     "note": "Published projection: West Virginia 68.7, Auburn 71.6."
+    },
+    "massey": {
+     "margin": 7.5,
+     "total": 146.5,
+     "note": "Published median margin: Auburn by 7.5, total 146.5."
+    },
+    "espn": {
+     "margin": 1.37,
+     "derived": true,
+     "note": "BPI matchup predictor: Auburn 54.9% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 144.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.168,
+      "espn": 0.144,
+      "dratings": 0.179,
+      "massey": 0.176,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.187,
+      "espn": 0.157,
+      "dratings": 0.179,
+      "massey": 0.146,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.363,
+     "espn": 0.308,
+     "massey": 0.329
+    },
+    "used_total": {
+     "hasla": 0.461,
+     "massey": 0.539
+    }
+   },
+   "blend": {
+    "margin": 3.93,
+    "src_sd": 2.61,
+    "model_sd": 12.03,
+    "sd": 12.31,
+    "p_home": 0.6253,
+    "p_sd": 0.0797,
+    "total": 143.6,
+    "total_sd": 17.0,
+    "baseline_total": 139.2,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Auburn",
+    "dog": "West Virginia",
+    "p": 0.6253,
+    "margin": 3.93,
+    "lock": false
+   },
+   "momentum": {
+    "West Virginia": {
+     "n": 2,
+     "avg": 4.8,
+     "last": [
+      15.0,
+      -5.4
+     ],
+     "flag": null
+    },
+    "Auburn": {
+     "n": 2,
+     "avg": -3.9,
+     "last": [
+      1.5,
+      -9.4
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-17-montana-st-gonzaga",
+   "away": "Montana St.",
+   "home": "Gonzaga",
+   "away_conf": "BSky",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": false,
+   "site": "at Gonzaga",
+   "tip": "11 PM ET",
+   "tip_sort": 1380,
+   "tv": "CBSSN",
+   "sources": {
+    "hasla": {
+     "margin": 22.24,
+     "total": 154.9,
+     "note": "Published projection: Montana St. 66.3, Gonzaga 88.6."
+    },
+    "dratings": {
+     "margin": 18.2,
+     "total": 155.2,
+     "note": "Published projection: Montana St. 68.5, Gonzaga 86.7."
+    },
+    "massey": {
+     "margin": 23.5,
+     "total": 151.5,
+     "note": "Published median margin: Gonzaga by 23.5, total 151.5."
+    },
+    "espn": {
+     "margin": 16.79,
+     "derived": true,
+     "note": "BPI matchup predictor: Gonzaga 93.5% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -23.5,
+    "total": 152.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.177,
+      "espn": 0.159,
+      "dratings": 0.172,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "home": {
+     "basis": "D1",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.177,
+      "espn": 0.159,
+      "dratings": 0.172,
+      "massey": 0.159,
+      "cbbd": 0.166
+     }
+    },
+    "used": {
+     "hasla": 0.265,
+     "espn": 0.238,
+     "dratings": 0.259,
+     "massey": 0.238
+    },
+    "used_total": {
+     "hasla": 0.302,
+     "dratings": 0.358,
+     "massey": 0.34
+    }
+   },
+   "blend": {
+    "margin": 20.2,
+    "src_sd": 2.77,
+    "model_sd": 12.03,
+    "sd": 12.34,
+    "p_home": 0.9491,
+    "p_sd": 0.0231,
+    "total": 153.9,
+    "total_sd": 17.0,
+    "baseline_total": 157.7,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Gonzaga",
+    "dog": "Montana St.",
+    "p": 0.9491,
+    "margin": 20.2,
+    "lock": true
+   },
+   "momentum": {
+    "Montana St.": {
+     "n": 3,
+     "avg": 8.9,
+     "last": [
+      3.7,
+      5.0,
+      18.0
+     ],
+     "flag": null
+    },
+    "Gonzaga": {
+     "n": 2,
+     "avg": 3.5,
+     "last": [
+      17.6,
+      -10.7
+     ],
+     "flag": null
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
    "result": null
   },
   {
@@ -6682,7 +7237,7 @@
    "market": {
     "spread_home": 8.5,
     "total": 133.5,
-    "book": "DraftKings"
+    "book": "Draft Kings"
    },
    "injuries": [],
    "weights": {
@@ -6691,9 +7246,9 @@
      "w": {
       "torvik": 0.166,
       "hasla": 0.177,
-      "espn": 0.158,
+      "espn": 0.159,
       "dratings": 0.172,
-      "massey": 0.16,
+      "massey": 0.159,
       "cbbd": 0.166
      }
     },
@@ -6701,30 +7256,30 @@
      "basis": "conference",
      "w": {
       "torvik": 0.166,
-      "hasla": 0.189,
-      "espn": 0.148,
-      "dratings": 0.161,
-      "massey": 0.171,
+      "hasla": 0.187,
+      "espn": 0.15,
+      "dratings": 0.165,
+      "massey": 0.166,
       "cbbd": 0.166
      }
     },
     "used": {
-     "espn": 0.479,
-     "dratings": 0.521
+     "espn": 0.477,
+     "dratings": 0.523
     },
     "used_total": {
      "dratings": 1.0
     }
    },
    "blend": {
-    "margin": -4.66,
+    "margin": -4.65,
     "src_sd": 0.9,
-    "model_sd": 11.97,
-    "sd": 12.0,
-    "p_home": 0.349,
-    "p_sd": 0.0276,
+    "model_sd": 12.03,
+    "sd": 12.06,
+    "p_home": 0.3498,
+    "p_sd": 0.0275,
     "total": 137.4,
-    "total_sd": 17.1,
+    "total_sd": 17.0,
     "baseline_total": 147.1,
     "lean": "under",
     "n_sources": 2
@@ -6732,8 +7287,8 @@
    "pick": {
     "team": "Seattle",
     "dog": "California",
-    "p": 0.651,
-    "margin": 4.66,
+    "p": 0.6502,
+    "margin": 4.65,
     "lock": false
    },
    "momentum": {
@@ -6786,7 +7341,7 @@
   "Maine Augusta Moose",
   "Newman Jets",
   "Pacific Tigers",
-  "Pacific Union PACIFIC UNION",
+  "Pacific Union Pioneers",
   "SUNY Potsdam SUNY-POTSDAM",
   "Simon Fraser Red Leafs",
   "Spring Hill Badgers",
