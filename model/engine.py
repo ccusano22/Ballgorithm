@@ -33,6 +33,13 @@ HAMMER_MAX_SPREAD = 20.0                          # Nov 7: no Hammer on DK sprea
 # Disagreement is measured as the spread of each source's implied win chance, so a 40-point favorite isn't
 # flagged because sources differ by 4 points on the margin. 0.07 / 0.14 match 2 / 4 points near a coin flip.
 TIER = {"strong_psd": 0.07, "strong_p": 0.75, "weak_psd": 0.14, "bad_loss_p": 0.75}
+# "THAT DAWG" list (Nov 10): teams that keep beating our own number. Our number already prices in the opponent,
+# so beating it is overperformance, not a soft schedule. PROVISIONAL cutoffs, display only (never enters the blend).
+DAWG_K = 4                                        # score = season points beaten by / (games + 4): 3 games at +12 scores 5.1
+DAWG_LIST_MIN = 2                                 # games before a team can appear on the list
+DAWG_BADGE_MIN = 3                                # games before a team can carry the DAWG badge on Today
+DAWG_BADGE_TOP, DAWG_BADGE_SCORE = 10, 4.0        # badge: top 10 on the list and a score of +4 or better
+WHOOP_WIN, WHOOP_BEAT = 15, 10                    # a "whoopin'": won by 15+ AND beat our number by 10+
 
 
 def phi(x):
@@ -128,6 +135,8 @@ def migrate(state):
     rec.setdefault("su", {"w": 0, "l": 0})
     if "since" not in rec.get("hammer", {}):  # Nov 2: Hammer redefined as consensus vs the DraftKings spread
         rec["hammer"] = {"w": 0, "l": 0, "p": 0, "since": "2026-11-02"}
+    for t in state["teams"].values():       # Nov 10: season-long "THAT DAWG" book (backfilled by run_daily)
+        t.setdefault("dawg", new_dawg())
     state.setdefault("bench", {})
     for b in BENCH:
         state["bench"].setdefault(b, {"n": 0, "mae": 0.0})
@@ -136,13 +145,50 @@ def migrate(state):
     return state
 
 
+def new_dawg():
+    return {"n": 0, "sum": 0.0, "beat": 0, "whoop": 0, "best": None}
+
+
+def dawg_add(t, over, margin, opp, date):
+    """One graded game for a team: `over` = points it beat our number by (negative = fell short), `margin` = its
+    actual margin. Keeps season totals plus the single best beatdown, never a game log."""
+    d = t.setdefault("dawg", new_dawg())
+    d["n"] += 1
+    d["sum"] = round(d["sum"] + over, 2)
+    d["beat"] += 1 if over > 0 else 0
+    if margin >= WHOOP_WIN and over >= WHOOP_BEAT:
+        d["whoop"] += 1
+    if over > 0 and (d["best"] is None or over > d["best"]["over"]):
+        d["best"] = {"over": round(over, 1), "margin": margin, "opp": opp, "date": date}
+
+
+def dawg_board(state):
+    """Ranked list for the board's Dawgs tab, plus the teams that earn the badge on Today."""
+    rows = []
+    for name, t in state["teams"].items():
+        d = t.get("dawg") or {}
+        if d.get("n", 0) < DAWG_LIST_MIN:
+            continue
+        score = d["sum"] / (d["n"] + DAWG_K)
+        if score <= 0:
+            continue
+        rows.append({"team": name, "conf": t.get("conf"), "n": d["n"], "score": round(score, 1),
+                     "avg": round(d["sum"] / d["n"], 1), "beat": d["beat"], "whoop": d["whoop"], "best": d["best"],
+                     "last": [round(x, 1) for x in t.get("form", [])[-5:]]})
+    rows.sort(key=lambda r: (-r["score"], -r["whoop"], r["team"]))
+    for i, r in enumerate(rows, 1):
+        r["rank"] = i
+        r["badge"] = i <= DAWG_BADGE_TOP and r["n"] >= DAWG_BADGE_MIN and r["score"] >= DAWG_BADGE_SCORE
+    return rows[:25]
+
+
 def team(state, name, conf=None):
     t = state["teams"].get(name)
     if t is None:
         t = {"conf": conf, "n": 0, "form": [], "losses": [], "err": {s: {"n": 0, "mae": 0.0} for s in SOURCES},
              "terr": {s: {"n": 0, "mae": 0.0} for s in SOURCES},
              "tot": {"n": 0, "avg": 0.0}, "weights": None, "basis": "default",
-             "bench": {b: {"n": 0, "mae": 0.0} for b in BENCH}}
+             "bench": {b: {"n": 0, "mae": 0.0} for b in BENCH}, "dawg": new_dawg()}
         state["teams"][name] = t
     elif conf and not t.get("conf"):
         t["conf"] = conf
@@ -481,6 +527,7 @@ def grade(state, results):
             t = state["teams"][name]
             t["n"] += 1
             t["form"] = (t["form"] + [round(sign * resid, 2)])[-5:]
+            dawg_add(t, sign * resid, sign * actual, gm["away"] if sign == 1 else gm["home"], gm["id"][:10])
             t["losses"] = (t["losses"] + [(not team_won) and p_win >= TIER["bad_loss_p"]])[-2:]
             t["tot"]["avg"], t["tot"]["n"] = _run(t["tot"]["avg"], t["tot"]["n"], tot_actual)
         graded.append({"id": gm["id"], "away": gm["away"], "home": gm["home"], "score": [r["away_pts"], r["home_pts"]],
@@ -534,47 +581,6 @@ def refresh_display(state):
         t["weights"], t["basis"] = {s: round(w[s], 3) for s in SOURCES}, b
         wt, bt, _ = team_weights(state, name, "total")
         t["tweights"], t["tbasis"] = {s: round(wt[s], 3) for s in SOURCES}, bt
+    disp["dawgs"] = dawg_board(state)
     state["display"] = disp
     return state
-
-
-# ---- Abridged report ----
-def pct(p):
-    if 0.995 <= p < 1:
-        return ">99%"
-    return f"{round(p*100)}%"
-
-
-def abridged(slate, weekday_label, records=None):
-    rec = records or {}
-    L = [f"THE BALLGORITHM · NCAAM · {weekday_label}", "", "NOTES"]
-    L += [f"- {n}" for n in slate["notes"]] or ["- none"]
-    done = [g for g in slate["games"] if g.get("result")]
-    if done:
-        L += ["", "RESULTS"]
-        for g in done:
-            r = g["result"]
-            L.append(f"{g['pick']['team']} −{g['pick']['margin']:.1f}: {r.get('label') or ('Won' if r.get('won') else 'Lost')} "
-                     f"(final {g['away']} {r['score'][0]}, {g['home']} {r['score'][1]})")
-    hr = rec.get("hammer", {"w": 0, "l": 0, "p": 0})
-    L += ["", f"HAMMER OF THE DAY vs DraftKings ({hr['w']}-{hr['l']}" + (f"-{hr['p']}" if hr.get('p') else "") + ")"]
-    hm = slate.get("hammer")
-    if hm:
-        g = next(x for x in slate["games"] if x["id"] == hm["id"])
-        other = g["away"] if hm["team"] == g["home"] else g["home"]
-        L.append(f"{hm['team']} {hm['spread']:+.1f} vs {other} — our number {g['pick']['team']} −{g['pick']['margin']:.1f}, "
-                 f"{hm['agree']} of {hm['n']} sources on this side, {round(hm['cover_p']*100)}% to cover")
-    else:
-        L.append("Waiting on DraftKings lines.")
-    L += ["", "WIN PROBABILITIES (our margin ± SD · N = neutral site)"]
-    for tier in ("Strong", "Mid", "Weak"):
-        gs = [g for g in slate["games"] if g["tier"] == tier]
-        L.append(f"{tier}" + (" — none" if not gs else ""))
-        for g in gs:
-            pk = g["pick"]
-            site = " (N)" if g.get("neutral") else ""
-            tot = f" · total {g['blend']['total']:.0f}" if g["blend"]["total"] is not None else ""
-            L.append(f"{pk['team']} {pct(pk['p'])} · −{pk['margin']:.1f} ±{g['blend']['sd']:.1f} vs {pk['dog']}{site}{tot}")
-    for w in slate.get("waiting", []):
-        L.append(f"{w['away']} vs {w['home']} — waiting on source numbers")
-    return "\n".join(L)

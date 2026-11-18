@@ -202,7 +202,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -319,8 +319,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/159.png",
-        "conferenceId": "12"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/159.png"
        },
        "score": "107",
        "linescores": [
@@ -613,8 +612,89 @@
         "abbreviation": "FRSU",
         "displayName": "Framingham State Rams",
         "shortDisplayName": "Framingham St",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/126956/framingham-state-rams",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/126956",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:126956&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/126956",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:126956&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/126956",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:126956&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "50",
        "linescores": [
@@ -721,7 +801,16 @@
             "fullName": "Jamel Walker",
             "displayName": "Jamel Walker",
             "shortName": "J. Walker",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5466170/jamel-walker"
+             }
+            ],
             "jersey": "4",
             "position": {
              "abbreviation": "G"
@@ -751,7 +840,16 @@
             "fullName": "Joshua Saint Jean",
             "displayName": "Joshua Saint Jean",
             "shortName": "J. Saint Jean",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5184142/joshua-saint-jean"
+             }
+            ],
             "jersey": "21",
             "position": {
              "abbreviation": "F"
@@ -781,7 +879,16 @@
             "fullName": "Lorenzo Washington",
             "displayName": "Lorenzo Washington",
             "shortName": "L. Washington",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5108703/lorenzo-washington"
+             }
+            ],
             "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108703.png",
             "jersey": "2",
             "position": {
@@ -812,7 +919,16 @@
             "fullName": "Joshua Saint Jean",
             "displayName": "Joshua Saint Jean",
             "shortName": "J. Saint Jean",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5184142/joshua-saint-jean"
+             }
+            ],
             "jersey": "21",
             "position": {
              "abbreviation": "F"
@@ -1091,7 +1207,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -1208,8 +1324,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/295.png",
-        "conferenceId": "27"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/295.png"
        },
        "score": "91",
        "linescores": [
@@ -1505,8 +1620,89 @@
         "abbreviation": "RGNT",
         "displayName": "Regent Regent Royals",
         "shortDisplayName": "Regent",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/131784/regent-regent-royals",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/131784",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:131784&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/131784",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:131784&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/131784",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:131784&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "47",
        "linescores": [
@@ -1613,7 +1809,16 @@
             "fullName": "Christian Brown",
             "displayName": "Christian Brown",
             "shortName": "C. Brown",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5257884/christian-brown"
+             }
+            ],
             "jersey": "10",
             "position": {
              "abbreviation": "G"
@@ -1643,7 +1848,16 @@
             "fullName": "Chauncey Gilliam",
             "displayName": "Chauncey Gilliam",
             "shortName": "C. Gilliam",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5466189/chauncey-gilliam"
+             }
+            ],
             "jersey": "22",
             "position": {
              "abbreviation": "F"
@@ -1673,7 +1887,16 @@
             "fullName": "Ichi Layne",
             "displayName": "Ichi Layne",
             "shortName": "I. Layne",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5261719/ichi-layne"
+             }
+            ],
             "jersey": "23",
             "position": {
              "abbreviation": "G"
@@ -1703,7 +1926,16 @@
             "fullName": "Christian Brown",
             "displayName": "Christian Brown",
             "shortName": "C. Brown",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5257884/christian-brown"
+             }
+            ],
             "jersey": "10",
             "position": {
              "abbreviation": "G"
@@ -1982,7 +2214,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -2099,8 +2331,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2415.png",
-        "conferenceId": "16"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2415.png"
        },
        "score": "95",
        "linescores": [
@@ -2396,8 +2627,89 @@
         "abbreviation": "VUL",
         "displayName": "Virginia Lynchburg Dragons",
         "shortDisplayName": "VA Lynchburg",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/3229/virginia-lynchburg-dragons",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/3229",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3229&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/3229",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3229&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/3229",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3229&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "58",
        "linescores": [
@@ -2504,7 +2816,16 @@
             "fullName": "Jacob Newman",
             "displayName": "Jacob Newman",
             "shortName": "J. Newman",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5254946/jacob-newman"
+             }
+            ],
             "jersey": "1",
             "position": {
              "abbreviation": "G"
@@ -2534,7 +2855,16 @@
             "fullName": "Donovan Peterson",
             "displayName": "Donovan Peterson",
             "shortName": "D. Peterson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5469204/donovan-peterson"
+             }
+            ],
             "jersey": "8",
             "position": {
              "abbreviation": "G"
@@ -2564,7 +2894,16 @@
             "fullName": "Donovan Peterson",
             "displayName": "Donovan Peterson",
             "shortName": "D. Peterson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5469204/donovan-peterson"
+             }
+            ],
             "jersey": "8",
             "position": {
              "abbreviation": "G"
@@ -2594,7 +2933,16 @@
             "fullName": "Jordan Barr",
             "displayName": "Jordan Barr",
             "shortName": "J. Barr",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5469205/jordan-barr"
+             }
+            ],
             "jersey": "6",
             "position": {
              "abbreviation": "G"
@@ -2722,7 +3070,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -2839,8 +3187,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2565.png",
-        "conferenceId": "20"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2565.png"
        },
        "score": "85",
        "linescores": [
@@ -3135,8 +3482,89 @@
         "shortDisplayName": "Concordia Chi",
         "color": "572a31",
         "alternateColor": "ffc72e",
-        "isActive": false,
-        "links": [],
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/2151/concordia-chicago-cougars",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2151",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2151&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2151",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2151&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2151",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2151&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2151.png",
         "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2151.png"
        },
@@ -3245,7 +3673,16 @@
             "fullName": "Jacob Robinson",
             "displayName": "Jacob Robinson",
             "shortName": "J. Robinson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464598/jacob-robinson"
+             }
+            ],
             "jersey": "5",
             "position": {
              "abbreviation": "G"
@@ -3275,7 +3712,16 @@
             "fullName": "Matthew Guthrie",
             "displayName": "Matthew Guthrie",
             "shortName": "M. Guthrie",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464612/matthew-guthrie"
+             }
+            ],
             "jersey": "34",
             "position": {
              "abbreviation": "F"
@@ -3305,7 +3751,16 @@
             "fullName": "AJ Willard",
             "displayName": "AJ Willard",
             "shortName": "A. Willard",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464604/aj-willard"
+             }
+            ],
             "jersey": "22",
             "position": {
              "abbreviation": "G"
@@ -3335,7 +3790,16 @@
             "fullName": "Jacob Robinson",
             "displayName": "Jacob Robinson",
             "shortName": "J. Robinson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464598/jacob-robinson"
+             }
+            ],
             "jersey": "5",
             "position": {
              "abbreviation": "G"
@@ -3614,7 +4078,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -3731,8 +4195,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2427.png",
-        "conferenceId": "6"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2427.png"
        },
        "score": "101",
        "linescores": [
@@ -4029,8 +4492,89 @@
         "shortDisplayName": "Erskine",
         "color": "701931",
         "alternateColor": "000000",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/2215/erskine-flying-fleet",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2215",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2215&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2215",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2215&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2215",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2215&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "74",
        "linescores": [
@@ -4137,7 +4681,16 @@
             "fullName": "Justen Goudelock",
             "displayName": "Justen Goudelock",
             "shortName": "J. Goudelock",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5258421/justen-goudelock"
+             }
+            ],
             "position": {
              "abbreviation": "G"
             },
@@ -4166,7 +4719,16 @@
             "fullName": "Evan Carter",
             "displayName": "Evan Carter",
             "shortName": "E. Carter",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5466195/evan-carter"
+             }
+            ],
             "position": {
              "abbreviation": "F"
             },
@@ -4195,7 +4757,16 @@
             "fullName": "Jon White",
             "displayName": "Jon White",
             "shortName": "J. White",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5466221/jon-white"
+             }
+            ],
             "position": {
              "abbreviation": "G"
             },
@@ -4224,7 +4795,16 @@
             "fullName": "Jon White",
             "displayName": "Jon White",
             "shortName": "J. White",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5466221/jon-white"
+             }
+            ],
             "position": {
              "abbreviation": "G"
             },
@@ -4625,7 +5205,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -4742,8 +5322,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2272.png",
-        "conferenceId": "6"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2272.png"
        },
        "score": "63",
        "linescores": [
@@ -5128,8 +5707,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2379.png",
-        "conferenceId": "16"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2379.png"
        },
        "score": "49",
        "linescores": [
@@ -5791,7 +6369,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -5908,8 +6486,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2603.png",
-        "conferenceId": "3"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2603.png"
        },
        "score": "82",
        "linescores": [
@@ -6294,8 +6871,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2344.png",
-        "conferenceId": "6"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2344.png"
        },
        "score": "73",
        "linescores": [
@@ -6957,7 +7533,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -7074,8 +7650,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2086.png",
-        "conferenceId": "4"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2086.png"
        },
        "score": "99",
        "linescores": [
@@ -7460,8 +8035,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/161.png",
-        "conferenceId": "19"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/161.png"
        },
        "score": "65",
        "linescores": [
@@ -7792,116 +8366,6 @@
        "region": "us"
       }
      ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Asim Djulovic's 25 points helped Butler defeat Fairleigh Dickinson 99-65 on Wednesday.",
-       "shortLinkText": "Butler takes down Fairleigh Dickinson 99-65",
-       "video": [
-        {
-         "id": 50384187,
-         "source": "espn",
-         "headline": "Fairleigh Dickinson Knights vs. Butler Bulldogs: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.jpg",
-         "duration": 77,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "NCAA Mens Basketball",
-          "sportName": "basketball",
-          "trackingId": "dm_20261105_NCB_fairleigh_dickinson_knights_vs_butler_bulldogs_game_highlights",
-          "trackingName": "NCB_One-Play (Fairleigh Dickinson Knights vs. Butler Bulldogs: Game Highlights) 2026/11/05 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/4905322a-ee3a-4b39-9bb1-39e3b8665b51"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50384187"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384187/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50384187"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384187/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384187/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50384187&videoDSI=42d4660aac275"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50384187/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50384187/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=42d4660aac275"
-            }
-           }
-          }
-         }
-        }
-       ]
-      }
-     ],
      "highlights": [
       {
        "id": 50384187,
@@ -8016,6 +8480,116 @@
         "trackingName": "NCB_One-Play (Fairleigh Dickinson Knights vs. Butler Bulldogs: Game Highlights) 2026/11/05 ESHEET"
        }
       }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Asim Djulovic's 25 points helped Butler defeat Fairleigh Dickinson 99-65 on Wednesday.",
+       "shortLinkText": "Butler takes down Fairleigh Dickinson 99-65",
+       "video": [
+        {
+         "id": 50384187,
+         "source": "espn",
+         "headline": "Fairleigh Dickinson Knights vs. Butler Bulldogs: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.jpg",
+         "duration": 77,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "NCAA Mens Basketball",
+          "sportName": "basketball",
+          "trackingId": "dm_20261105_NCB_fairleigh_dickinson_knights_vs_butler_bulldogs_game_highlights",
+          "trackingName": "NCB_One-Play (Fairleigh Dickinson Knights vs. Butler Bulldogs: Game Highlights) 2026/11/05 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/4905322a-ee3a-4b39-9bb1-39e3b8665b51"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50384187"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384187/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50384187"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384187/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384187/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/4905322a-ee3a-4b39-9bb1-39e3b8665b51/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/6d89ce13-26fc-41d8-b992-486fc7b8615c/6d89ce13-26fc-41d8-b992-486fc7b8615c.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50384187&videoDSI=42d4660aac275"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50384187/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50384187/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=42d4660aac275"
+            }
+           }
+          }
+         }
+        }
+       ]
+      }
      ]
     }
    ],
@@ -8123,7 +8697,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -8240,8 +8814,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2026.png",
-        "conferenceId": "27"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2026.png"
        },
        "score": "108",
        "linescores": [
@@ -8536,8 +9109,89 @@
         "abbreviation": "CTDM",
         "displayName": "Christendom Crusaders",
         "shortDisplayName": "Christendom",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/111180/christendom-crusaders",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/111180",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:111180&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/111180",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:111180&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/111180",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:111180&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "43",
        "linescores": [
@@ -8644,7 +9298,16 @@
             "fullName": "Daniel Schultz",
             "displayName": "Daniel Schultz",
             "shortName": "D. Schultz",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5182697/daniel-schultz"
+             }
+            ],
             "jersey": "34",
             "position": {
              "abbreviation": "F"
@@ -8674,7 +9337,16 @@
             "fullName": "John Fowler",
             "displayName": "John Fowler",
             "shortName": "J. Fowler",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5182687/john-fowler"
+             }
+            ],
             "jersey": "1",
             "position": {
              "abbreviation": "G"
@@ -8704,7 +9376,16 @@
             "fullName": "Charlie Evich",
             "displayName": "Charlie Evich",
             "shortName": "C. Evich",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5182686/charlie-evich"
+             }
+            ],
             "jersey": "0",
             "position": {
              "abbreviation": "G"
@@ -8734,7 +9415,16 @@
             "fullName": "Daniel Schultz",
             "displayName": "Daniel Schultz",
             "shortName": "D. Schultz",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5182697/daniel-schultz"
+             }
+            ],
             "jersey": "34",
             "position": {
              "abbreviation": "F"
@@ -9110,7 +9800,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -9227,8 +9917,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2181.png",
-        "conferenceId": "18"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2181.png"
        },
        "score": "101",
        "linescores": [
@@ -9526,8 +10215,89 @@
         "shortDisplayName": "Central Col",
         "color": "ea0029",
         "alternateColor": "c8c8c8",
-        "isActive": false,
-        "links": [],
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/2964/central-college-dutch",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2964",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2964&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2964",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2964&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2964",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2964&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2964.png",
         "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2964.png"
        },
@@ -9636,7 +10406,16 @@
             "fullName": "Anthony Gott",
             "displayName": "Anthony Gott",
             "shortName": "A. Gott",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464497/anthony-gott"
+             }
+            ],
             "position": {
              "abbreviation": "F"
             },
@@ -9665,7 +10444,16 @@
             "fullName": "Boaz Clark",
             "displayName": "Boaz Clark",
             "shortName": "B. Clark",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464488/boaz-clark"
+             }
+            ],
             "position": {
              "abbreviation": "G"
             },
@@ -9694,7 +10482,16 @@
             "fullName": "Carson Jones",
             "displayName": "Carson Jones",
             "shortName": "C. Jones",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5316242/carson-jones"
+             }
+            ],
             "jersey": "24",
             "position": {
              "abbreviation": "G"
@@ -9724,7 +10521,16 @@
             "fullName": "Anthony Gott",
             "displayName": "Anthony Gott",
             "shortName": "A. Gott",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464497/anthony-gott"
+             }
+            ],
             "position": {
              "abbreviation": "F"
             },
@@ -10002,7 +10808,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -10119,8 +10925,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2635.png",
-        "conferenceId": "24"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2635.png"
        },
        "score": "117",
        "linescores": [
@@ -10415,8 +11220,89 @@
         "abbreviation": "BMCU",
         "displayName": "Blue Mountain Christian Toppers",
         "shortDisplayName": "Blue Mountain",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/494/blue-mountain-christian-toppers",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/494",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:494&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/494",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:494&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/494",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:494&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "70",
        "linescores": [
@@ -10523,7 +11409,16 @@
             "fullName": "Seck Zongo",
             "displayName": "Seck Zongo",
             "shortName": "S. Zongo",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/4894464/seck-zongo"
+             }
+            ],
             "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4894464.png",
             "jersey": "1",
             "position": {
@@ -10554,7 +11449,16 @@
             "fullName": "Seck Zongo",
             "displayName": "Seck Zongo",
             "shortName": "S. Zongo",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/4894464/seck-zongo"
+             }
+            ],
             "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4894464.png",
             "jersey": "1",
             "position": {
@@ -10585,7 +11489,16 @@
             "fullName": "Zane Tipler",
             "displayName": "Zane Tipler",
             "shortName": "Z. Tipler",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464995/zane-tipler"
+             }
+            ],
             "jersey": "2",
             "position": {
              "abbreviation": "G"
@@ -10615,7 +11528,16 @@
             "fullName": "Seck Zongo",
             "displayName": "Seck Zongo",
             "shortName": "S. Zongo",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/4894464/seck-zongo"
+             }
+            ],
             "headshot": "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4894464.png",
             "jersey": "1",
             "position": {
@@ -10992,7 +11914,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -11109,8 +12031,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2546.png",
-        "conferenceId": "20"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2546.png"
        },
        "score": "90",
        "linescores": [
@@ -11405,8 +12326,89 @@
         "abbreviation": "WEBS",
         "displayName": "Webster Gorloks",
         "shortDisplayName": "Webster",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/2693/webster-gorloks",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/2693",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2693&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/2693",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2693&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2693",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:2693&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "65",
        "linescores": [
@@ -11513,7 +12515,16 @@
             "fullName": "Charles Nelson",
             "displayName": "Charles Nelson",
             "shortName": "C. Nelson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5317578/charles-nelson"
+             }
+            ],
             "jersey": "1",
             "position": {
              "abbreviation": "G"
@@ -11543,7 +12554,16 @@
             "fullName": "Adam Painter",
             "displayName": "Adam Painter",
             "shortName": "A. Painter",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5317596/adam-painter"
+             }
+            ],
             "jersey": "33",
             "position": {
              "abbreviation": "F"
@@ -11573,7 +12593,16 @@
             "fullName": "William Burroughs V",
             "displayName": "William Burroughs V",
             "shortName": "W. Burroughs V",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5317581/william-burroughs-v"
+             }
+            ],
             "jersey": "5",
             "position": {
              "abbreviation": "G"
@@ -11603,7 +12632,16 @@
             "fullName": "Charles Nelson",
             "displayName": "Charles Nelson",
             "shortName": "C. Nelson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5317578/charles-nelson"
+             }
+            ],
             "jersey": "1",
             "position": {
              "abbreviation": "G"
@@ -11882,7 +12920,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -11999,8 +13037,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/231.png",
-        "conferenceId": "24"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/231.png"
        },
        "score": "121",
        "linescores": [
@@ -12296,8 +13333,89 @@
         "abbreviation": "BOBJ",
         "displayName": "Bob Jones Bruins",
         "shortDisplayName": "Bob Jones",
-        "isActive": false,
-        "links": [],
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/3243/bob-jones-bruins",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/3243",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3243&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/3243",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3243&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/3243",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3243&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3243.png",
         "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/3243.png"
        },
@@ -12406,7 +13524,16 @@
             "fullName": "Lewis Robertson",
             "displayName": "Lewis Robertson",
             "shortName": "L. Robertson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5318722/lewis-robertson"
+             }
+            ],
             "jersey": "15",
             "position": {
              "abbreviation": "G"
@@ -12436,7 +13563,16 @@
             "fullName": "Lewis Robertson",
             "displayName": "Lewis Robertson",
             "shortName": "L. Robertson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5318722/lewis-robertson"
+             }
+            ],
             "jersey": "15",
             "position": {
              "abbreviation": "G"
@@ -12466,7 +13602,16 @@
             "fullName": "Braxton Murray",
             "displayName": "Braxton Murray",
             "shortName": "B. Murray",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5247512/braxton-murray"
+             }
+            ],
             "jersey": "33",
             "position": {
              "abbreviation": "C"
@@ -12496,7 +13641,16 @@
             "fullName": "Lewis Robertson",
             "displayName": "Lewis Robertson",
             "shortName": "L. Robertson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5318722/lewis-robertson"
+             }
+            ],
             "jersey": "15",
             "position": {
              "abbreviation": "G"
@@ -12542,14 +13696,14 @@
      "startDate": "2026-11-05T00:30Z",
      "broadcast": "",
      "geoBroadcasts": [],
-     "highlights": [],
      "headlines": [
       {
        "type": "Recap",
        "description": "— Tom House scored 17 points as Furman beat Bob Jones 121-52 on Wednesday.",
        "shortLinkText": "House’s 17 help Furman knock off Bob Jones 121-52"
       }
-     ]
+     ],
+     "highlights": []
     }
    ],
    "links": [
@@ -12644,7 +13798,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -12761,8 +13915,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2724.png",
-        "conferenceId": "62"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2724.png"
        },
        "score": "79",
        "linescores": [
@@ -13146,8 +14299,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2463.png",
-        "conferenceId": "9"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2463.png"
        },
        "score": "67",
        "linescores": [
@@ -13809,7 +14961,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -13926,8 +15078,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2433.png",
-        "conferenceId": "27"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2433.png"
        },
        "score": "99",
        "linescores": [
@@ -14223,8 +15374,89 @@
         "abbreviation": "CHCC",
         "displayName": "Champion Christian Tigers",
         "shortDisplayName": "Champ Chrstn",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/3134/champion-christian-tigers",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/3134",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3134&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/3134",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3134&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/3134",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3134&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "55",
        "linescores": [
@@ -14331,7 +15563,16 @@
             "fullName": "Braylon Frazier",
             "displayName": "Braylon Frazier",
             "shortName": "B. Frazier",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464584/braylon-frazier"
+             }
+            ],
             "jersey": "4",
             "position": {
              "abbreviation": "G"
@@ -14361,7 +15602,16 @@
             "fullName": "Gaius Mervin",
             "displayName": "Gaius Mervin",
             "shortName": "G. Mervin",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464589/gaius-mervin"
+             }
+            ],
             "jersey": "23",
             "position": {
              "abbreviation": "F"
@@ -14391,7 +15641,16 @@
             "fullName": "Kelen Smith",
             "displayName": "Kelen Smith",
             "shortName": "K. Smith",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464583/kelen-smith"
+             }
+            ],
             "jersey": "3",
             "position": {
              "abbreviation": "G"
@@ -14421,7 +15680,16 @@
             "fullName": "Gaius Mervin",
             "displayName": "Gaius Mervin",
             "shortName": "G. Mervin",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464589/gaius-mervin"
+             }
+            ],
             "jersey": "23",
             "position": {
              "abbreviation": "F"
@@ -14823,7 +16091,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -14940,8 +16208,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/233.png",
-        "conferenceId": "49"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/233.png"
        },
        "score": "94",
        "linescores": [
@@ -15326,8 +16593,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/94.png",
-        "conferenceId": "45"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/94.png"
        },
        "score": "102",
        "linescores": [
@@ -15774,7 +17040,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -15891,8 +17157,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2450.png",
-        "conferenceId": "16"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2450.png"
        },
        "score": "78",
        "linescores": [
@@ -16188,8 +17453,89 @@
         "abbreviation": "RDPH",
         "displayName": "Randolph Wildcats",
         "shortDisplayName": "Randolph",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/3153/randolph-wildcats",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/3153",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3153&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/3153",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3153&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/3153",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:3153&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "71",
        "linescores": [
@@ -16296,7 +17642,16 @@
             "fullName": "Khalil Caple",
             "displayName": "Khalil Caple",
             "shortName": "K. Caple",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5316488/khalil-caple"
+             }
+            ],
             "jersey": "2",
             "position": {
              "abbreviation": "G"
@@ -16326,7 +17681,16 @@
             "fullName": "Chase James",
             "displayName": "Chase James",
             "shortName": "C. James",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5465034/chase-james"
+             }
+            ],
             "jersey": "9",
             "position": {
              "abbreviation": "G"
@@ -16356,7 +17720,16 @@
             "fullName": "Khalil Caple",
             "displayName": "Khalil Caple",
             "shortName": "K. Caple",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5316488/khalil-caple"
+             }
+            ],
             "jersey": "2",
             "position": {
              "abbreviation": "G"
@@ -16386,7 +17759,16 @@
             "fullName": "Khalil Caple",
             "displayName": "Khalil Caple",
             "shortName": "K. Caple",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5316488/khalil-caple"
+             }
+            ],
             "jersey": "2",
             "position": {
              "abbreviation": "G"
@@ -16432,14 +17814,14 @@
      "startDate": "2026-11-05T01:00Z",
      "broadcast": "",
      "geoBroadcasts": [],
-     "highlights": [],
      "headlines": [
       {
        "type": "Recap",
        "description": "— Jordan Skyers had 22 points in Norfolk State’s 78-71 victory over Randolph on Wednesday.",
        "shortLinkText": "Skyers scores 22 as Norfolk State takes down Randolph 78-71"
       }
-     ]
+     ],
+     "highlights": []
     }
    ],
    "links": [
@@ -16534,7 +17916,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -16649,8 +18031,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/88.png",
-        "conferenceId": "20"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/88.png"
        },
        "score": "112",
        "linescores": [
@@ -16946,8 +18327,89 @@
         "abbreviation": "SMWC",
         "displayName": "Saint Mary of the Woods Pomeroys",
         "shortDisplayName": "St Mary's",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/126824/saint-mary-of-the-woods-pomeroys",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/126824",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:126824&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/126824",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:126824&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/126824",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:126824&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "42",
        "linescores": [
@@ -17054,7 +18516,16 @@
             "fullName": "Donavon Barnett",
             "displayName": "Donavon Barnett",
             "shortName": "D. Barnett",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/4909853/donavon-barnett"
+             }
+            ],
             "jersey": "2",
             "position": {
              "abbreviation": "PG"
@@ -17084,7 +18555,16 @@
             "fullName": "Donavon Barnett",
             "displayName": "Donavon Barnett",
             "shortName": "D. Barnett",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/4909853/donavon-barnett"
+             }
+            ],
             "jersey": "2",
             "position": {
              "abbreviation": "PG"
@@ -17114,7 +18594,16 @@
             "fullName": "Cristian Webster",
             "displayName": "Cristian Webster",
             "shortName": "C. Webster",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464618/cristian-webster"
+             }
+            ],
             "jersey": "1",
             "position": {
              "abbreviation": "G"
@@ -17144,7 +18633,16 @@
             "fullName": "Donavon Barnett",
             "displayName": "Donavon Barnett",
             "shortName": "D. Barnett",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/4909853/donavon-barnett"
+             }
+            ],
             "jersey": "2",
             "position": {
              "abbreviation": "PG"
@@ -17423,7 +18921,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -17540,8 +19038,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2.png",
-        "conferenceId": "23"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2.png"
        },
        "score": "92",
        "linescores": [
@@ -17926,8 +19423,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2545.png",
-        "conferenceId": "25"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2545.png"
        },
        "score": "59",
        "linescores": [
@@ -18258,116 +19754,6 @@
        "region": "us"
       }
      ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Tahaad Pettiford scored 13 of his 18 points in the first half to lead Auburn to a 92-59 victory over Southeastern Louisiana on Wednesday night in the season opener for both teams.",
-       "shortLinkText": "Pettiford scores 18 to lead Auburn to 92-59 win against SE Louisiana in a season opener",
-       "video": [
-        {
-         "id": 50384709,
-         "source": "espn",
-         "headline": "SE Louisiana Lions vs. Auburn Tigers: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.jpg",
-         "duration": 84,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "NCAA Mens Basketball",
-          "sportName": "basketball",
-          "trackingId": "dm_20261105_NCB_se_louisiana_lions_vs_auburn_tigers_game_highlights",
-          "trackingName": "NCB_One-Play (SE Louisiana Lions vs. Auburn Tigers: Game Highlights) 2026/11/05 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/10af2710-474a-4eaa-9b21-f205990dd1be"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50384709"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50384709"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/10af2710-474a-4eaa-9b21-f205990dd1be/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50384709&videoDSI=35d3e67209300"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=35d3e67209300"
-            }
-           }
-          }
-         }
-        }
-       ]
-      }
-     ],
      "highlights": [
       {
        "id": 50384709,
@@ -18482,6 +19868,116 @@
         "trackingName": "NCB_One-Play (SE Louisiana Lions vs. Auburn Tigers: Game Highlights) 2026/11/05 ESHEET"
        }
       }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Tahaad Pettiford scored 13 of his 18 points in the first half to lead Auburn to a 92-59 victory over Southeastern Louisiana on Wednesday night in the season opener for both teams.",
+       "shortLinkText": "Pettiford scores 18 to lead Auburn to 92-59 win against SE Louisiana in a season opener",
+       "video": [
+        {
+         "id": 50384709,
+         "source": "espn",
+         "headline": "SE Louisiana Lions vs. Auburn Tigers: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.jpg",
+         "duration": 84,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "NCAA Mens Basketball",
+          "sportName": "basketball",
+          "trackingId": "dm_20261105_NCB_se_louisiana_lions_vs_auburn_tigers_game_highlights",
+          "trackingName": "NCB_One-Play (SE Louisiana Lions vs. Auburn Tigers: Game Highlights) 2026/11/05 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/10af2710-474a-4eaa-9b21-f205990dd1be"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50384709"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50384709"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/10af2710-474a-4eaa-9b21-f205990dd1be/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50384709/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/10af2710-474a-4eaa-9b21-f205990dd1be/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/0fff5036-098f-4d1c-95db-d2082e23abfc/0fff5036-098f-4d1c-95db-d2082e23abfc.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50384709&videoDSI=35d3e67209300"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50384709/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=35d3e67209300"
+            }
+           }
+          }
+         }
+        }
+       ]
+      }
      ]
     }
    ],
@@ -18589,7 +20085,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -18706,8 +20202,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/68.png",
-        "conferenceId": "21"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/68.png"
        },
        "score": "132",
        "linescores": [
@@ -19003,8 +20498,89 @@
         "abbreviation": "WCBC",
         "displayName": "West Coast Baptist Eagles",
         "shortDisplayName": "West Coast",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/110418/west-coast-baptist-eagles",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/110418",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:110418&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/110418",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:110418&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/110418",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:110418&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "53",
        "linescores": [
@@ -19111,7 +20687,16 @@
             "fullName": "Isaiah Dolloso",
             "displayName": "Isaiah Dolloso",
             "shortName": "I. Dolloso",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464980/isaiah-dolloso"
+             }
+            ],
             "jersey": "0",
             "position": {
              "abbreviation": "G"
@@ -19141,7 +20726,16 @@
             "fullName": "Jacob Winkelman",
             "displayName": "Jacob Winkelman",
             "shortName": "J. Winkelman",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464982/jacob-winkelman"
+             }
+            ],
             "jersey": "3",
             "position": {
              "abbreviation": "G"
@@ -19171,7 +20765,16 @@
             "fullName": "AmenEL Tadasse",
             "displayName": "AmenEL Tadasse",
             "shortName": "A. Tadasse",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464986/amenel-tadasse"
+             }
+            ],
             "jersey": "13",
             "position": {
              "abbreviation": "G"
@@ -19201,7 +20804,16 @@
             "fullName": "Isaiah Dolloso",
             "displayName": "Isaiah Dolloso",
             "shortName": "I. Dolloso",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5464980/isaiah-dolloso"
+             }
+            ],
             "jersey": "0",
             "position": {
              "abbreviation": "G"
@@ -19270,14 +20882,14 @@
        "region": "us"
       }
      ],
+     "highlights": [],
      "headlines": [
       {
        "type": "Recap",
        "description": "— Dovydas Butka's 18 points helped Boise State set a school record for points in a game with a 132-53 win over West Coast Baptist on Wednesday.",
        "shortLinkText": "Boise State defeats West Coast Baptist 132-53"
       }
-     ],
-     "highlights": []
+     ]
     }
    ],
    "links": [
@@ -19372,7 +20984,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -19488,8 +21100,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/3101.png",
-        "conferenceId": "5"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/3101.png"
        },
        "score": "103",
        "linescores": [
@@ -19782,8 +21393,89 @@
         "abbreviation": "GRCU",
         "displayName": "Grace University Lancers",
         "shortDisplayName": "Grace U",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/134743/grace-university-lancers",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/134743",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:134743&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/134743",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:134743&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/134743",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:134743&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "52",
        "linescores": [
@@ -19890,7 +21582,16 @@
             "fullName": "Noah Charles",
             "displayName": "Noah Charles",
             "shortName": "N. Charles",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5465119/noah-charles"
+             }
+            ],
             "position": {
              "abbreviation": "G"
             },
@@ -19919,7 +21620,16 @@
             "fullName": "Caleb Palmer",
             "displayName": "Caleb Palmer",
             "shortName": "C. Palmer",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5318056/caleb-palmer"
+             }
+            ],
             "position": {
              "abbreviation": "F"
             },
@@ -19948,7 +21658,16 @@
             "fullName": "Thibault Merino",
             "displayName": "Thibault Merino",
             "shortName": "T. Merino",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5465118/thibault-merino"
+             }
+            ],
             "position": {
              "abbreviation": "G"
             },
@@ -19977,7 +21696,16 @@
             "fullName": "Nehemiah Johnson",
             "displayName": "Nehemiah Johnson",
             "shortName": "N. Johnson",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5465126/nehemiah-johnson"
+             }
+            ],
             "position": {
              "abbreviation": "F"
             },
@@ -20045,116 +21773,6 @@
        },
        "lang": "en",
        "region": "us"
-      }
-     ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Christian Gibson scored 17 points as Utah Tech beat Grace U 103-52 on Wednesday.",
-       "shortLinkText": "Utah Tech takes down Grace 103-52",
-       "video": [
-        {
-         "id": 50385059,
-         "source": "espn",
-         "headline": "Lancers vs. Utah Tech Trailblazers: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.jpg",
-         "duration": 82,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "NCAA Mens Basketball",
-          "sportName": "basketball",
-          "trackingId": "dm_20261105_NCB_lancers_vs_utah_tech_trailblazers_game_highlights",
-          "trackingName": "NCB_One-Play (Lancers vs. Utah Tech Trailblazers: Game Highlights) 2026/11/05 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/2e40fdb8-1d91-45a6-9a86-426113d2deb1"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50385059"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385059/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50385059"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385059/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385059/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50385059&videoDSI=0cc132eb17505"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50385059/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50385059/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=0cc132eb17505"
-            }
-           }
-          }
-         }
-        }
-       ]
       }
      ],
      "highlights": [
@@ -20271,6 +21889,116 @@
         "trackingName": "NCB_One-Play (Lancers vs. Utah Tech Trailblazers: Game Highlights) 2026/11/05 ESHEET"
        }
       }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Christian Gibson scored 17 points as Utah Tech beat Grace U 103-52 on Wednesday.",
+       "shortLinkText": "Utah Tech takes down Grace 103-52",
+       "video": [
+        {
+         "id": 50385059,
+         "source": "espn",
+         "headline": "Lancers vs. Utah Tech Trailblazers: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.jpg",
+         "duration": 82,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "NCAA Mens Basketball",
+          "sportName": "basketball",
+          "trackingId": "dm_20261105_NCB_lancers_vs_utah_tech_trailblazers_game_highlights",
+          "trackingName": "NCB_One-Play (Lancers vs. Utah Tech Trailblazers: Game Highlights) 2026/11/05 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/2e40fdb8-1d91-45a6-9a86-426113d2deb1"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50385059"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385059/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50385059"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385059/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385059/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/2e40fdb8-1d91-45a6-9a86-426113d2deb1/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/bac08615-cdb2-416c-9daa-ea54be8ee50c/bac08615-cdb2-416c-9daa-ea54be8ee50c.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50385059&videoDSI=0cc132eb17505"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50385059/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50385059/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=0cc132eb17505"
+            }
+           }
+          }
+         }
+        }
+       ]
+      }
      ]
     }
    ],
@@ -20378,7 +22106,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -20495,8 +22223,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/149.png",
-        "conferenceId": "5"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/149.png"
        },
        "score": "105",
        "linescores": [
@@ -20792,8 +22519,89 @@
         "abbreviation": "SKC",
         "displayName": "Salish Kootenai Bison",
         "shortDisplayName": "SalishKootenai",
-        "isActive": false,
-        "links": []
+        "isActive": true,
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/_/id/131858/salish-kootenai-bison",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/roster/_/id/131858",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "roster",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:131858&section=roster",
+          "text": "Roster",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/stats/_/id/131858",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:131858&section=stats",
+          "text": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/131858",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:41~t:131858&section=scores",
+          "text": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+         }
+        ]
        },
        "score": "40",
        "linescores": [
@@ -20900,7 +22708,16 @@
             "fullName": "Payton Racine",
             "displayName": "Payton Racine",
             "shortName": "P. Racine",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5328061/payton-racine"
+             }
+            ],
             "jersey": "12",
             "position": {
              "abbreviation": "F"
@@ -20930,7 +22747,16 @@
             "fullName": "Blaze Callahan",
             "displayName": "Blaze Callahan",
             "shortName": "B. Callahan",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5328054/blaze-callahan"
+             }
+            ],
             "jersey": "15",
             "position": {
              "abbreviation": "F"
@@ -20960,7 +22786,16 @@
             "fullName": "Colton Seymour",
             "displayName": "Colton Seymour",
             "shortName": "C. Seymour",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5328062/colton-seymour"
+             }
+            ],
             "jersey": "3",
             "position": {
              "abbreviation": "F"
@@ -20990,7 +22825,16 @@
             "fullName": "Payton Racine",
             "displayName": "Payton Racine",
             "shortName": "P. Racine",
-            "links": [],
+            "links": [
+             {
+              "rel": [
+               "playercard",
+               "desktop",
+               "athlete"
+              ],
+              "href": "https://www.espn.com/mens-college-basketball/player/_/id/5328061/payton-racine"
+             }
+            ],
             "jersey": "12",
             "position": {
              "abbreviation": "F"
@@ -21143,7 +22987,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -21260,8 +23104,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/25.png",
-        "conferenceId": "2"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/25.png"
        },
        "score": "84",
        "linescores": [
@@ -21646,8 +23489,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2515.png",
-        "conferenceId": "6"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2515.png"
        },
        "score": "70",
        "linescores": [
@@ -22309,7 +24151,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -22426,8 +24268,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2351.png",
-        "conferenceId": "29"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2351.png"
        },
        "score": "95",
        "linescores": [
@@ -22812,8 +24653,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2511.png",
-        "conferenceId": "46"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2511.png"
        },
        "score": "96",
        "linescores": [
@@ -23144,116 +24984,6 @@
        "region": "us"
       }
      ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Nasir Mann led Queens with 28 points and Jordan Watford secured the victory with a free throw with two seconds remaining as the Royals knocked off Loyola Marymount 96-95 on Wednesday.",
-       "shortLinkText": "Mann, Watford lead Queens past Loyola Marymount 96-95",
-       "video": [
-        {
-         "id": 50385404,
-         "source": "espn",
-         "headline": "Queens NC Royals vs. Loyola Marymount Lions: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.jpg",
-         "duration": 81,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "NCAA Mens Basketball",
-          "sportName": "basketball",
-          "trackingId": "dm_20261105_NCB_queens_nc_royals_vs_loyola_marymount_lions_game_highlights",
-          "trackingName": "NCB_One-Play (Queens NC Royals vs. Loyola Marymount Lions: Game Highlights) 2026/11/05 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50385404"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385404/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50385404"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385404/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385404/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50385404&videoDSI=2d5fd6c04841f"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50385404/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50385404/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=2d5fd6c04841f"
-            }
-           }
-          }
-         }
-        }
-       ]
-      }
-     ],
      "highlights": [
       {
        "id": 50385404,
@@ -23368,6 +25098,116 @@
         "trackingName": "NCB_One-Play (Queens NC Royals vs. Loyola Marymount Lions: Game Highlights) 2026/11/05 ESHEET"
        }
       }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Nasir Mann led Queens with 28 points and Jordan Watford secured the victory with a free throw with two seconds remaining as the Royals knocked off Loyola Marymount 96-95 on Wednesday.",
+       "shortLinkText": "Mann, Watford lead Queens past Loyola Marymount 96-95",
+       "video": [
+        {
+         "id": 50385404,
+         "source": "espn",
+         "headline": "Queens NC Royals vs. Loyola Marymount Lions: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.jpg",
+         "duration": 81,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "NCAA Mens Basketball",
+          "sportName": "basketball",
+          "trackingId": "dm_20261105_NCB_queens_nc_royals_vs_loyola_marymount_lions_game_highlights",
+          "trackingName": "NCB_One-Play (Queens NC Royals vs. Loyola Marymount Lions: Game Highlights) 2026/11/05 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50385404"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385404/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50385404"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385404/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50385404/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/7fe579f7-2f1a-4bd3-8298-30cb0f2a0096/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1105/cb8499c3-3d7a-4605-b01f-14520f7cc388/cb8499c3-3d7a-4605-b01f-14520f7cc388.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50385404&videoDSI=2d5fd6c04841f"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50385404/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50385404/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=2d5fd6c04841f"
+            }
+           }
+          }
+         }
+        }
+       ]
+      }
      ]
     }
    ],
@@ -23475,7 +25315,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -23592,8 +25432,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2541.png",
-        "conferenceId": "29"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2541.png"
        },
        "score": "95",
        "linescores": [
@@ -23978,8 +25817,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/270.png",
-        "conferenceId": "45"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/270.png"
        },
        "score": "72",
        "linescores": [
@@ -24640,7 +26478,7 @@
      },
      "timeValid": true,
      "neutralSite": false,
-     "conferenceCompetition": false,
+     "conferenceCompetition": true,
      "playByPlayAvailable": true,
      "recent": false,
      "venue": {
@@ -24757,8 +26595,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2608.png",
-        "conferenceId": "29"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2608.png"
        },
        "score": "105",
        "linescores": [
@@ -25143,8 +26980,7 @@
          }
         ],
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
-        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2449.png",
-        "conferenceId": "49"
+        "logoDark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2449.png"
        },
        "score": "64",
        "linescores": [

@@ -56,4 +56,14 @@ def _p(gid, sh, blend):
             "sources": {"hasla": {"margin": blend}, "espn": {"margin": blend}, "massey": {"margin": blend}}}
 c = E.hammer_candidates([_p("big", -37.5, 27.0), _p("ok", -6.5, 12.0), _p("edge", 20.0, -14.0)])
 assert sorted(x["id"] for x in c) == ["edge", "ok"], c
+# "THAT DAWG" book: one entry per graded team-game, and the list is ranked by shrunk score
+assert all(t["dawg"]["n"] == t["n"] for t in s["teams"].values())
+E.refresh_display(s)
+board = s["display"]["dawgs"]
+assert [r["score"] for r in board] == sorted((r["score"] for r in board), reverse=True) and all(r["score"] > 0 for r in board)
+d = E.team(s, "Dawgtown")
+E.dawg_add(d, 12.0, 20, "Opp", "2026-11-10")   # won by 20, beat our number by 12: a whoopin'
+E.dawg_add(d, 12.0, 8, "Opp2", "2026-11-11")    # beat our number but only won by 8: not one
+assert d["dawg"]["whoop"] == 1 and d["dawg"]["beat"] == 2 and d["dawg"]["best"]["opp"] == "Opp"
+print("dawg ok", board[:1])
 print("all checks pass")

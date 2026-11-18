@@ -1,9 +1,9 @@
 {
- "collected_at": "2026-11-07T11:37:34-05:00",
+ "collected_at": "2026-11-07T18:41:46-05:00",
  "date": "2026-11-07",
  "espn_finals_2026-11-06": {
   "ok": true,
-  "secs": 0.3,
+  "secs": 0.2,
   "games": 72,
   "final": 72
  },
@@ -21,9 +21,9 @@
  },
  "espn": {
   "ok": true,
-  "secs": 22.6,
+  "secs": 7.8,
   "games": 61,
-  "predictors": 61
+  "predictors": 22
  },
  "torvik": {
   "ok": false,
@@ -32,26 +32,26 @@
  },
  "cbbd": {
   "ok": true,
-  "secs": 0.6,
+  "secs": 3.1,
   "teams_rated": 0,
-  "teams_with_stats": 480
+  "teams_with_stats": 485
  },
  "haslametrics": {
   "ok": true,
-  "secs": 11.2,
+  "secs": 13.2,
   "chars": 72450,
   "has_outcomes": true
  },
  "dratings": {
   "ok": true,
-  "secs": 2.6,
+  "secs": 3.2,
   "pages": 2,
-  "chars": 210395
+  "chars": 190468
  },
  "massey": {
   "ok": true,
-  "secs": 11.0,
-  "chars": 6878,
+  "secs": 9.8,
+  "chars": 6855,
   "json_responses": 6
  }
 }
