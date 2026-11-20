@@ -180,6 +180,36 @@ def main():
         return {"chars": len(txt), "has_outcomes": "EXPECTED OUTCOMES" in txt.upper()}
     run("haslametrics", hasla, status)
 
+    # Haslametrics' full ratings file: the page builds its table from it, and only this file carries every column,
+    # including Momentum (mom), Momentum-Offense (mmo), Momentum-Defense (mmd) and Inconsistency (inc).
+    # Feeds model/momentum.py; display only until it proves itself.
+    def hasla_xml():
+        url = "https://haslametrics.com/ratings.xml"
+        body = ""
+        try:
+            r = requests.get(url, params={"z": str(time.time())}, timeout=45,
+                             headers={"User-Agent": UA, "Referer": "https://haslametrics.com/ratings.php"})
+            if r.status_code == 200 and "<mr" in r.text:
+                body = r.text
+        except Exception:
+            pass
+        how = "direct"
+        if not body:   # fall back to the browser, which is how the page itself loads it
+            from playwright.sync_api import sync_playwright
+            with sync_playwright() as p:
+                b = p.chromium.launch()
+                pg = b.new_page(user_agent=UA)
+                pg.goto("https://haslametrics.com/ratings.php", wait_until="domcontentloaded", timeout=90000)
+                resp = pg.request.get(url, headers={"Referer": "https://haslametrics.com/ratings.php"})
+                body = resp.text() if resp.ok else ""
+                b.close()
+            how = "browser"
+        if "<mr" not in body:
+            raise RuntimeError("ratings.xml had no team rows")
+        save(today, "hasla_ratings.xml", body)
+        return {"via": how, "teams": body.count("<mr"), "has_momentum": ' mom="' in body}
+    run("hasla_xml", hasla_xml, status)
+
     def dratings():
         pages = []
         for n in range(1, 6):

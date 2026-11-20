@@ -24,7 +24,7 @@ A Claude scheduled task publishes `site/` to the board artifact after each run.
 | DRatings | Plain page fetch, "Upcoming Games" table | Projected score for each team and win chance |
 | Massey | Headless browser, games page | Median margin, median total and win chance |
 | Torvik | cbbdata API (barttorvik.com blocks GitHub) | **Dormant:** as of Nov 2026 cbbdata's T-Rank data stops after 2024-25. Collected every run; joins the blend automatically if numbers return |
-| Haslametrics | Headless browser, ratings page | "This week's expected outcomes" |
+| Haslametrics | Headless browser, ratings page; plus `ratings.xml` | "This week's expected outcomes"; the XML carries every column, including Momentum (overall, offense, defense) for the Momentum Index |
 | CBBD | CollegeBasketballData.com API | Adjusted efficiency ratings and pace; margins derived, used once both teams have 5 games |
 
 Each source is collected independently. If one fails, the others still run, and the board's notes say which
@@ -35,9 +35,12 @@ one was missing. `data/raw/<date>/status.json` records what worked on every run.
 - `collect/collect.py` — collection (writes `data/raw/<date>/`)
 - `model/engine.py` — blend, SD, tiers, source weighting, grading, Hammer
 - `model/run_daily.py` — grade what finished, build or refresh today's slate
+- `model/momentum.py` — Momentum Index (who is hot or cold, display only); writes `site/data/momentum.json` and a daily snapshot to `data/momentum/`
 - `model/names.py`, `model/teams.json` — one name per team, plus every alias seen from other sites
 - `site/` — the board page and its data (`site/data/state.json` is the season's single source of truth)
 - `tests/test_engine.py` — simulated season check of the learning loop
+- `tests/test_momentum.py` — simulated checks of the Momentum Index
+- `research/momentum/` — the two-season backtest behind the Momentum Index, with findings
 
 ## Adding a team-name alias
 
