@@ -8,14 +8,16 @@
 :root{
   --bg:#EDEFF3; --surface:#FFFFFF; --surface-2:#E3E7EE; --ink:#151A23; --muted:#596173; --rule:#D5DAE3;
   --accent:#BD530B; --accent-ink:#FFFFFF; --hit:#0B8467; --miss:#B4364A; --push:#8A92A3;
+  /* Momentum Index diverging scale (validated for color-blind separation and contrast) */
+  --hot:#BC3A28; --warm:#E8957F; --steady:#D3D8E1; --cool:#72A2EA; --cold:#2B63A6;
   --font-display:"Barlow Condensed","Roboto Condensed","Arial Narrow",sans-serif;
   --font-body:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --radius:12px;
 }
 @media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){--bg:#0C1016;--surface:#141A23;--surface-2:#1C2430;--ink:#E6E9EF;--muted:#8F98AA;--rule:#262F3E;--accent:#EE8740;--accent-ink:#1A0E05;--hit:#2CA987;--miss:#E06A7C;--push:#7D8698;color-scheme:dark}
+  :root:not([data-theme="light"]){--bg:#0C1016;--surface:#141A23;--surface-2:#1C2430;--ink:#E6E9EF;--muted:#8F98AA;--rule:#262F3E;--accent:#EE8740;--accent-ink:#1A0E05;--hit:#2CA987;--miss:#E06A7C;--push:#7D8698;--hot:#E5604A;--warm:#9C4433;--steady:#323B4A;--cool:#3A60A0;--cold:#5893DB;color-scheme:dark}
 }
-:root[data-theme="dark"]{--bg:#0C1016;--surface:#141A23;--surface-2:#1C2430;--ink:#E6E9EF;--muted:#8F98AA;--rule:#262F3E;--accent:#EE8740;--accent-ink:#1A0E05;--hit:#2CA987;--miss:#E06A7C;--push:#7D8698;color-scheme:dark}
+:root[data-theme="dark"]{--bg:#0C1016;--surface:#141A23;--surface-2:#1C2430;--ink:#E6E9EF;--muted:#8F98AA;--rule:#262F3E;--accent:#EE8740;--accent-ink:#1A0E05;--hit:#2CA987;--miss:#E06A7C;--push:#7D8698;--hot:#E5604A;--warm:#9C4433;--steady:#323B4A;--cool:#3A60A0;--cold:#5893DB;color-scheme:dark}
 
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -217,10 +219,63 @@ td.muted{color:var(--muted);font-size:12.5px;white-space:normal}
 footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;flex-direction:column;gap:6px;max-width:80ch}
 .err{padding:30px 16px;color:var(--miss);font-weight:600}
 
+/* Momentum */
+.mv-verdict{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;padding:16px}
+@media (min-width:760px){.mv-verdict{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)}}
+.mv-big{font-family:var(--font-display);font-size:27px;font-weight:700;line-height:1.1;text-wrap:balance}
+.mv-verdict p{font-size:14px;max-width:62ch}
+.mdist{display:flex;flex-direction:column;gap:6px;min-width:0}
+.mdist-bar{display:flex;height:14px;border-radius:7px;overflow:hidden;gap:2px}
+.mdist-bar i{display:block;height:100%;min-width:2px}
+.mdist-key{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--muted)}
+.mdist-key b{color:var(--ink);font-variant-numeric:tabular-nums;font-weight:600}
+.msw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.mcols{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+@media (min-width:900px){.mcols{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.mlist{display:flex;flex-direction:column;min-width:0;overflow:hidden}
+.mlist-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:12px 16px 8px}
+.mlist-h h2{font-size:20px}
+.mlist-h span{font-size:12.5px;color:var(--muted);text-align:right}
+.mt{border-top:1px solid var(--rule)}
+.mt>summary{list-style:none;display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:4px 10px;align-items:center;padding:10px 16px;cursor:pointer}
+.mt>summary::-webkit-details-marker{display:none}
+.mt>summary:hover{background:color-mix(in srgb,var(--surface-2) 45%,var(--surface))}
+.mt[open]>summary{background:var(--surface-2)}
+.mt-rk{font-family:var(--font-display);font-weight:700;font-size:17px;color:var(--muted);font-variant-numeric:tabular-nums}
+.mt-main{min-width:0;display:flex;flex-direction:column;gap:4px}
+.mt-name{display:flex;align-items:baseline;gap:4px 8px;flex-wrap:wrap;min-width:0}
+.mt-name b{font-family:var(--font-display);font-size:21px;font-weight:700;line-height:1.1}
+.mt-name small{font-size:12px;color:var(--muted)}
+.mt-sub{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mt-val{text-align:right;line-height:1}
+.mt-val .num{font-size:26px;font-weight:700}
+.mt-val small{display:block;font-size:11.5px;color:var(--muted);margin-top:3px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.mtag{font-size:10.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 6px;border-radius:4px;white-space:nowrap}
+.mtag.Hot{background:var(--hot);color:#fff}
+.mtag.Warming{background:color-mix(in srgb,var(--warm) 55%,var(--surface));color:var(--ink)}
+.mtag.Steady{background:var(--surface-2);color:var(--muted)}
+.mtag.Cooling{background:color-mix(in srgb,var(--cool) 55%,var(--surface));color:var(--ink)}
+.mtag.Cold{background:var(--cold);color:#fff}
+.mtag.today{background:transparent;color:var(--ink);border:1px solid var(--rule)}
+.mmeter{position:relative;height:10px;max-width:260px}
+.mmeter .trk{position:absolute;left:0;right:0;top:4px;height:2px;background:var(--rule);border-radius:1px}
+.mmeter .mid{position:absolute;left:50%;top:0;width:1px;height:10px;background:var(--muted)}
+.mmeter .band{position:absolute;top:2px;height:6px;border-radius:3px;opacity:.35}
+.mmeter .dot{position:absolute;top:1px;width:8px;height:8px;margin-left:-4px;border-radius:50%;box-shadow:0 0 0 2px var(--surface)}
+.mt-detail{padding:4px 16px 14px;display:flex;flex-direction:column;gap:10px;background:var(--surface-2)}
+.mt-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px}
+@media (min-width:560px){.mt-stats{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.mt-stats .st .num{font-size:20px}
+.mcells{max-width:300px}
+.mcells .cell{font-size:13px;padding:2px 1px}
+.up-t{color:var(--hit);font-weight:600}.dn-t{color:var(--miss);font-weight:600}
+.mfound{display:flex;flex-direction:column;overflow:hidden}
+@media (max-width:520px){.mt>summary{padding:10px 12px;gap:4px 8px}.mt-val .num{font-size:22px}}
+
 /* Dawgs */
 .badge.dawg{background:var(--surface-2);color:var(--ink);border:1px solid var(--ink);white-space:nowrap;font-variant-numeric:tabular-nums}
 .badge.dawg.hot{background:var(--ink);color:var(--surface)}
-@media (max-width:420px){.tabs{gap:0}.tabs a{padding:6px 8px 9px;font-size:15px}}
+@media (max-width:440px){.tabs{gap:0}.tabs a{padding:6px 6px 9px;font-size:14.5px}}
 .dawgs{display:flex;flex-direction:column}
 .dg{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:12px 16px;border-top:1px solid var(--rule)}
 .dg:first-child{border-top:0}
@@ -255,6 +310,7 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
       <a href="#season" role="tab" data-view="season" aria-selected="false">Season</a>
       <a href="#sources" role="tab" data-view="sources" aria-selected="false">Sources</a>
       <a href="#dawgs" role="tab" data-view="dawgs" aria-selected="false">Dawgs</a>
+      <a href="#momentum" role="tab" data-view="momentum" aria-selected="false">Momentum</a>
     </nav>
   </div>
 </header>
@@ -348,6 +404,36 @@ footer{padding-block:20px 40px;color:var(--muted);font-size:12.5px;display:flex;
     <p class="lede">A <span class="whoop">WHOOPIN'</span> is a win by 15 or more that also beat our number by 10 or more. Every team on this list carries its spot, like <span class="badge dawg">DAWG #3</span>, everywhere its name shows on the board. Teams in the top 10 with 3 or more graded games and a score of +4 or better get the solid <span class="badge dawg hot">DAWG #3</span> version. Display only for now: none of this moves the blend.</p>
   </section>
 
+  <!-- MOMENTUM -->
+  <section class="view" id="v-momentum" aria-label="Momentum" hidden>
+    <div class="slate"><h2>Who's hot and who's cold</h2><span id="mv-sub"></span></div>
+    <div class="card mv-verdict" id="mv-verdict"><p class="empty">Loading the Momentum Index…</p></div>
+    <div class="tools">
+      <div class="field"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="mq" type="search" placeholder="Find a team" aria-label="Find a team on the Momentum Index" autocomplete="off"></div>
+      <div class="seg" id="mscope" role="group" aria-label="Which teams"><button type="button" data-v="all" aria-pressed="true">ALL TEAMS</button><button type="button" data-v="today" aria-pressed="false">PLAYING TODAY</button></div>
+    </div>
+    <div class="card mfound" id="mv-found" hidden></div>
+    <div class="mcols" id="mv-cols"></div>
+    <div class="grid2">
+      <section class="card card-pad" aria-labelledby="mh-h">
+        <h3 id="mh-h">How the index works</h3>
+        <ol class="steps">
+          <li><b>Every D1 game is scored</b> for each team: its margin, plus the opponent's current rating, minus the home edge when it was home.</li>
+          <li><b>Raw form</b> is the recent average of those scores (a game 15 games back counts half) minus the team's season average.</li>
+          <li><b>The index keeps only the share that carries.</b> Short streaks are mostly noise, so early in the season it holds near zero. About 1/5 of raw form carries in December, 1/2 in January, 3/4 by March.</li>
+          <li><b>Read it as points.</b> A team at +1.0 has beaten our number by about 1.0 the next game, on average. The ± is how sure we are.</li>
+          <li><b>Tags:</b> Hot at +0.75 or more, Warming from +0.25, Steady within ±0.25, Cooling to −0.75, Cold beyond. A Hot or Cold team puts its game in the Weak tier. The index never moves our margin or the Hammer.</li>
+        </ol>
+        <p class="lede" id="mh-hasla"></p>
+      </section>
+      <section class="card card-pad" aria-labelledby="mb-h">
+        <h3 id="mb-h">Backtest: next game against our number</h3>
+        <div class="tbl-wrap"><table id="mb-tbl"></table></div>
+        <p class="lede">Walk-forward on every D1 game of 2024-25 and 2025-26, games from Dec 1 on. The old rule (beat or missed our number in 4 of the last 5) is shown for comparison.</p>
+      </section>
+    </div>
+  </section>
+
   <footer>
     <span>Every number is ours, blended from Haslametrics, ESPN, DRatings, Massey and CBBD (CollegeBasketballData.com), plus Torvik when it has numbers. DraftKings lines never enter the blend. They set the Hammer and are scored as a benchmark, so you can see whether the blend beats the market.</span>
     <span id="foot-upd"></span>
@@ -401,7 +487,7 @@ const cache = {};
 async function getJSON(p){ const r = await fetch(p, {cache:"no-store"}); if (!r.ok) throw new Error(p); return r.json(); }
 
 /* ---------- Views ---------- */
-const VIEWS = ["today","season","sources","dawgs"];
+const VIEWS = ["today","season","sources","dawgs","momentum"];
 function showView(v){
   if (!VIEWS.includes(v)) v = "today";
   for (const x of VIEWS) $("#v-"+x).hidden = x!==v;
@@ -742,6 +828,110 @@ function renderDawgs(){
   }).join("");
 }
 
+/* ---------- Momentum ---------- */
+let MOM = null, MSCOPE = "all";
+const MTAGS = ["Hot","Warming","Steady","Cooling","Cold"];
+const MCOL = {Hot:"var(--hot)", Warming:"var(--warm)", Steady:"var(--steady)", Cooling:"var(--cool)", Cold:"var(--cold)"};
+const s2 = (x, k=2) => x == null ? "—" : (x > 0 ? "+" : x < 0 ? "−" : "±") + Math.abs(x).toFixed(k);
+const siteTxt = v => v === 1 ? "vs" : v === -1 ? "at" : "N";
+try { const v = localStorage.getItem("ballgorithm:mscope"); if (v === "all" || v === "today") MSCOPE = v; } catch(e) {}
+function mMeter(idx, sd){
+  const R = 2, x = v => (Math.max(-R, Math.min(R, v)) + R) / (2*R) * 100;
+  const col = idx >= 0.75 ? "var(--hot)" : idx >= 0.25 ? "var(--warm)" : idx <= -0.75 ? "var(--cold)" : idx <= -0.25 ? "var(--cool)" : "var(--muted)";
+  const lo = x(idx - sd), hi = x(idx + sd);
+  return `<div class="mmeter" aria-hidden="true"><span class="trk"></span><span class="mid"></span><span class="band" style="left:${lo}%;width:${Math.max(1, hi-lo)}%;background:${col}"></span><span class="dot" style="left:${x(idx)}%;background:${col}"></span></div>`;
+}
+function mDist(rows, title){
+  const n = rows.length || 1, cnt = Object.fromEntries(MTAGS.map(t => [t, rows.filter(r => r.tag === t).length]));
+  return `<div class="mdist"><span class="lbl">${esc(title)}</span>
+    <div class="mdist-bar" role="img" aria-label="${MTAGS.map(t => `${t} ${cnt[t]}`).join(", ")}">${MTAGS.filter(t => cnt[t]).map(t => `<i style="width:${cnt[t]/n*100}%;background:${MCOL[t]}" title="${t}: ${cnt[t]}"></i>`).join("")}</div>
+    <div class="mdist-key">${MTAGS.map(t => `<span><span class="msw" style="background:${MCOL[t]}"></span>${t} <b>${cnt[t]}</b></span>`).join("")}</div></div>`;
+}
+function playingToday(){
+  const S = cache[IDX.latest]; if (!S) return new Set();
+  return new Set([...(S.games || []), ...(S.waiting || [])].flatMap(g => [g.home, g.away]));
+}
+function mRow(r, rank, today){
+  const games = r.games || [], last = games.slice(-5);
+  const hz = r.hasla && r.hasla.mom != null ? `Haslametrics ${s2(r.hasla.mom)}` : null;
+  const sub = [`${r.n} games`, `rating ${s2(r.rating, 1)}`, `raw form ${s2(r.form, 1)}`, hz].filter(Boolean).join(" · ");
+  const cells = Array.from({length:5}, (_, i) => { const g = last[i]; return g == null ? `<span class="cell">·</span>` : `<span class="cell ${g.vs_level > 0 ? "up" : g.vs_level < 0 ? "dn" : ""}">${s2(g.vs_level, 0)}</span>`; }).join("");
+  const rows = games.slice().reverse().map(g => `<tr><td>${esc(fmtDay(g.date))}</td><td>${siteTxt(g.site)} ${esc(g.opp)}</td><td class="r">${esc(g.score)}</td><td class="r">${s2(g.game_score, 1)}</td><td class="r ${g.vs_level > 0 ? "up-t" : g.vs_level < 0 ? "dn-t" : ""}">${s2(g.vs_level, 1)}</td></tr>`).join("");
+  const hzs = r.hasla && r.hasla.mom != null
+    ? `<div class="st"><span class="lbl">Haslametrics</span><span class="num">${s2(r.hasla.mom)}</span><small>offense ${s2(r.hasla.mom_off)} · defense ${s2(r.hasla.mom_def)}</small></div>`
+    : `<div class="st"><span class="lbl">Haslametrics</span><span class="num">—</span><small>Not published yet this season</small></div>`;
+  return `<details class="mt"><summary><span class="mt-rk">${rank}</span>
+    <span class="mt-main"><span class="mt-name"><b>${esc(r.team)}</b><span class="mtag ${r.tag}">${r.tag}</span>${today.has(r.team) ? '<span class="mtag today">Plays today</span>' : ""}${dawgTag(r.team)}<small>${esc(r.conf)}</small></span>
+      ${mMeter(r.index, r.sd)}
+      <span class="mt-sub">${esc(sub)}</span></span>
+    <span class="mt-val"><span class="num">${s2(r.index)}</span><small>±${r.sd.toFixed(2)}</small></span></summary>
+    <div class="mt-detail">
+      <div class="mt-stats">
+        <div class="st"><span class="lbl">Index</span><span class="num">${s2(r.index)}</span><small>Expected to carry into the next game</small></div>
+        <div class="st"><span class="lbl">Raw form</span><span class="num">${s2(r.form)}</span><small>Recent level minus season level</small></div>
+        <div class="st"><span class="lbl">Carries</span><span class="num">${Math.round((r.carry || 0) * 100)}%</span><small>Share of raw form kept</small></div>
+        ${hzs}
+      </div>
+      <div><span class="lbl">Last 5, game score vs season level</span><div class="cells mcells" style="margin-top:4px">${cells}</div></div>
+      <div class="tbl-wrap"><table><thead><tr><th>Date</th><th>Opponent</th><th class="r">Score</th><th class="r">Game score</th><th class="r">Vs level</th></tr></thead><tbody>${rows}</tbody></table></div>
+    </div></details>`;
+}
+function mRated(){
+  const today = playingToday();
+  return MOM.teams.filter(r => r.index != null && (MSCOPE === "all" || today.has(r.team))).sort((a,b) => b.index - a.index);
+}
+function renderMomentum(){
+  if (!MOM){
+    $("#mv-verdict").innerHTML = `<p class="empty">The Momentum Index hasn't been published to the board yet. It's built on every daily run; ask Claude to republish the board if this stays empty.</p>`;
+    $("#mv-cols").innerHTML = ""; return;
+  }
+  const all = MOM.teams.filter(r => r.index != null), rated = mRated(), today = playingToday();
+  const d = parseYMD(MOM.date); d.setDate(d.getDate() - 1);
+  const thru = `${DAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}`;
+  $("#mv-sub").textContent = `Games through ${thru} · ${MOM.games_used} D1 games · ${all.length} teams with ${MOM.params.min_games}+ games`;
+  const moving = all.filter(r => r.tag !== "Steady");
+  const maxAbs = all.length ? Math.max(...all.map(r => Math.abs(r.index))) : 0;
+  const hot = all.filter(r => r.tag === "Hot").length, cold = all.filter(r => r.tag === "Cold").length;
+  const big = !moving.length ? "Too early to call anyone hot or cold."
+    : hot || cold ? `${hot} ${hot === 1 ? "team" : "teams"} Hot, ${cold} Cold.` : "The first trends are showing.";
+  const body = !moving.length
+    ? `Every team is within ±${maxAbs.toFixed(2)} points of Steady. A team's games need to spread over several weeks before a trend can be told from luck. Last season the first Warming and Cooling teams showed up in early January, and the first Hot ones in mid-January.`
+    : `${moving.length} of ${all.length} teams are off Steady. A Hot or Cold team puts its game in the Weak tier on Today.`;
+  $("#mv-verdict").innerHTML = `<div style="display:flex;flex-direction:column;gap:8px;min-width:0"><span class="mv-big">${esc(big)}</span><p>${esc(body)}</p><p class="lede">Open a team to see the games behind its number.</p></div>${mDist(all, "Teams by tag")}`;
+  const up = rated.slice(0, 12), dn = rated.slice().reverse().slice(0, 12);
+  const scopeTxt = MSCOPE === "today" ? " playing today" : "";
+  $("#mv-cols").innerHTML = rated.length ? `
+    <section class="card mlist" aria-label="Trending up"><div class="mlist-h"><h2>Trending up</h2><span>Highest index${scopeTxt}</span></div>${up.map((r, i) => mRow(r, i + 1, today)).join("")}</section>
+    <section class="card mlist" aria-label="Trending down"><div class="mlist-h"><h2>Trending down</h2><span>Lowest index${scopeTxt}</span></div>${dn.map((r, i) => mRow(r, rated.length - i, today)).join("")}</section>`
+    : `<p class="empty">No rated team plays today.</p>`;
+  const hw = MOM.hasla.weight, hn = MOM.teams.filter(r => r.hasla && r.hasla.mom != null).length;
+  $("#mh-hasla").textContent = `Haslametrics Momentum: ${hn ? `${hn} teams have a number` : "not published by Haslametrics yet this season"}. It sits beside ours and earns a weight in the index only after 400 graded games show it adds something (now: weight ${hw.weight}, ${hw.status}).`;
+  const B = MOM.backtest.buckets, O = MOM.backtest.old_rule, av = a => (a[0] + a[1]) / 2;
+  $("#mb-tbl").innerHTML = `<thead><tr><th>Tag</th><th class="r">Share</th><th class="r">Next game</th><th class="r">Beat it</th></tr></thead><tbody>
+    ${B.map(b => `<tr><td><span class="msw" style="background:${MCOL[b.tag]}"></span>${esc(b.tag)}</td><td class="r">${b.share}%</td><td class="r">${s2(b.next)} ± ${b.se.toFixed(2)}</td><td class="r">${b.beat}%</td></tr>`).join("")}
+    <tr><td>Old rule: beat our number 4 of 5</td><td class="r">~20%</td><td class="r">${s2(av(O.hot_next))}</td><td class="r">${av(O.hot_beat).toFixed(1)}%</td></tr>
+    <tr><td>Old rule: missed it 4 of 5</td><td class="r">~18%</td><td class="r">${s2(av(O.cold_next))}</td><td class="r">${av(O.cold_beat).toFixed(1)}%</td></tr></tbody>`;
+  const q = $("#mq").value; if (q) mSearch(q);
+}
+function mSearch(q){
+  const el = $("#mv-found"); q = q.trim().toLowerCase(); el.hidden = !q; if (!q || !MOM) return;
+  const rated = mRated(), today = playingToday();
+  const hit = rated.map((r, i) => [r, i]).filter(([r]) => r.team.toLowerCase().includes(q)).slice(0, 8);
+  const unrated = MOM.teams.filter(r => r.index == null && r.team.toLowerCase().includes(q)).slice(0, 4);
+  el.innerHTML = (hit.length ? `<div class="mlist-h"><h2 style="font-size:18px">Matches</h2><span>Rank by index</span></div>${hit.map(([r, i]) => mRow(r, i + 1, today)).join("")}` : "")
+    + (unrated.length ? `<p class="empty">${unrated.map(r => `${esc(r.team)} (${r.n} ${r.n === 1 ? "game" : "games"})`).join(", ")}: needs ${MOM.params.min_games} games for an index.</p>` : "")
+    || `<p class="empty">No team matches “${esc(q)}”.</p>`;
+}
+$("#mq").addEventListener("input", e => mSearch(e.target.value));
+function syncMScope(){ $("#mscope").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.v === MSCOPE))); }
+syncMScope();
+$("#mscope").addEventListener("click", e => {
+  const b = e.target.closest("[data-v]"); if (!b) return;
+  MSCOPE = b.dataset.v; syncMScope();
+  try { localStorage.setItem("ballgorithm:mscope", MSCOPE); } catch(err) {}
+  renderMomentum();
+});
+
 /* ---------- Boot ---------- */
 (async function boot(){
   try {
@@ -755,6 +945,8 @@ function renderDawgs(){
   }
   renderToday(); renderSeason(); renderSources(); renderDawgs();
   showView(location.hash.slice(1));
+  try { MOM = await getJSON("data/momentum.json"); } catch(e) { MOM = null; }   // separate, so a missing file can't break the board
+  renderMomentum();
 })();
 })();
 </script>
