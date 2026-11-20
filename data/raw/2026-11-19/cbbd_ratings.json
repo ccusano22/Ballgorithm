@@ -22,7 +22,7 @@
   "defensiveRating": 96.8,
   "netRating": 22.6,
   "rankings": {
-   "offense": 2,
+   "offense": 3,
    "defense": 11,
    "net": 2
   }
@@ -33,11 +33,11 @@
   "team": "Houston",
   "conference": "Big 12",
   "offensiveRating": 119,
-  "defensiveRating": 99.3,
-  "netRating": 19.6,
+  "defensiveRating": 99.1,
+  "netRating": 19.9,
   "rankings": {
-   "offense": 4,
-   "defense": 30,
+   "offense": 5,
+   "defense": 29,
    "net": 3
   }
  },
@@ -50,8 +50,8 @@
   "defensiveRating": 99.6,
   "netRating": 18.9,
   "rankings": {
-   "offense": 6,
-   "defense": 33,
+   "offense": 7,
+   "defense": 34,
    "net": 4
   }
  },
@@ -61,11 +61,11 @@
   "team": "UCLA",
   "conference": "Big Ten",
   "offensiveRating": 118.4,
-  "defensiveRating": 99.6,
+  "defensiveRating": 99.5,
   "netRating": 18.8,
   "rankings": {
-   "offense": 7,
-   "defense": 33,
+   "offense": 8,
+   "defense": 31,
    "net": 5
   }
  },
@@ -74,13 +74,13 @@
   "teamId": 131,
   "team": "Kansas",
   "conference": "Big 12",
-  "offensiveRating": 116.1,
+  "offensiveRating": 115.8,
   "defensiveRating": 97.3,
-  "netRating": 18.8,
+  "netRating": 18.6,
   "rankings": {
-   "offense": 16,
+   "offense": 17,
    "defense": 15,
-   "net": 5
+   "net": 6
   }
  },
  {
@@ -103,8 +103,8 @@
   "team": "Vanderbilt",
   "conference": "SEC",
   "offensiveRating": 113.6,
-  "defensiveRating": 95.3,
-  "netRating": 18.3,
+  "defensiveRating": 95.2,
+  "netRating": 18.4,
   "rankings": {
    "offense": 52,
    "defense": 6,
@@ -120,9 +120,23 @@
   "defensiveRating": 99.5,
   "netRating": 18.1,
   "rankings": {
-   "offense": 9,
+   "offense": 10,
    "defense": 31,
    "net": 9
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 87,
+  "team": "Florida",
+  "conference": "SEC",
+  "offensiveRating": 120.2,
+  "defensiveRating": 102.9,
+  "netRating": 17.3,
+  "rankings": {
+   "offense": 2,
+   "defense": 64,
+   "net": 10
   }
  },
  {
@@ -135,7 +149,7 @@
   "netRating": 17.3,
   "rankings": {
    "offense": 82,
-   "defense": 4,
+   "defense": 5,
    "net": 10
   }
  },
@@ -150,7 +164,7 @@
   "rankings": {
    "offense": 25,
    "defense": 19,
-   "net": 11
+   "net": 12
   }
  },
  {
@@ -162,22 +176,8 @@
   "defensiveRating": 97.7,
   "netRating": 16.9,
   "rankings": {
-   "offense": 30,
+   "offense": 31,
    "defense": 18,
-   "net": 12
-  }
- },
- {
-  "season": 2027,
-  "teamId": 293,
-  "team": "Texas A&M",
-  "conference": "SEC",
-  "offensiveRating": 114,
-  "defensiveRating": 98.1,
-  "netRating": 16,
-  "rankings": {
-   "offense": 42,
-   "defense": 20,
    "net": 13
   }
  },
@@ -186,27 +186,41 @@
   "teamId": 357,
   "team": "Wright State",
   "conference": "Horizon",
-  "offensiveRating": 117.1,
-  "defensiveRating": 101.2,
-  "netRating": 15.9,
+  "offensiveRating": 117.4,
+  "defensiveRating": 100.9,
+  "netRating": 16.5,
   "rankings": {
    "offense": 13,
-   "defense": 44,
+   "defense": 42,
    "net": 14
   }
  },
  {
   "season": 2027,
-  "teamId": 173,
-  "team": "Minnesota",
-  "conference": "Big Ten",
-  "offensiveRating": 114.3,
-  "defensiveRating": 98.8,
-  "netRating": 15.5,
+  "teamId": 293,
+  "team": "Texas A&M",
+  "conference": "SEC",
+  "offensiveRating": 114.1,
+  "defensiveRating": 98.1,
+  "netRating": 16,
   "rankings": {
-   "offense": 36,
-   "defense": 26,
+   "offense": 40,
+   "defense": 21,
    "net": 15
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 20,
+  "team": "Baylor",
+  "conference": "Big 12",
+  "offensiveRating": 114.4,
+  "defensiveRating": 98.8,
+  "netRating": 15.6,
+  "rankings": {
+   "offense": 34,
+   "defense": 26,
+   "net": 16
   }
  },
  {
@@ -218,23 +232,23 @@
   "defensiveRating": 102,
   "netRating": 15.5,
   "rankings": {
-   "offense": 10,
-   "defense": 52,
-   "net": 15
+   "offense": 11,
+   "defense": 51,
+   "net": 17
   }
  },
  {
   "season": 2027,
-  "teamId": 20,
-  "team": "Baylor",
-  "conference": "Big 12",
-  "offensiveRating": 114.4,
+  "teamId": 173,
+  "team": "Minnesota",
+  "conference": "Big Ten",
+  "offensiveRating": 114.3,
   "defensiveRating": 98.8,
   "netRating": 15.5,
   "rankings": {
-   "offense": 34,
+   "offense": 37,
    "defense": 26,
-   "net": 15
+   "net": 17
   }
  },
  {
@@ -248,7 +262,7 @@
   "rankings": {
    "offense": 26,
    "defense": 31,
-   "net": 18
+   "net": 19
   }
  },
  {
@@ -262,21 +276,21 @@
   "rankings": {
    "offense": 79,
    "defense": 9,
-   "net": 19
+   "net": 20
   }
  },
  {
   "season": 2027,
-  "teamId": 87,
-  "team": "Florida",
-  "conference": "SEC",
-  "offensiveRating": 118.2,
-  "defensiveRating": 102.9,
-  "netRating": 15.3,
+  "teamId": 168,
+  "team": "Miami",
+  "conference": "ACC",
+  "offensiveRating": 109.2,
+  "defensiveRating": 94.4,
+  "netRating": 14.8,
   "rankings": {
-   "offense": 8,
-   "defense": 65,
-   "net": 19
+   "offense": 138,
+   "defense": 4,
+   "net": 21
   }
  },
  {
@@ -284,13 +298,13 @@
   "teamId": 351,
   "team": "Western Michigan",
   "conference": "MAC",
-  "offensiveRating": 112.3,
-  "defensiveRating": 97.5,
-  "netRating": 14.8,
+  "offensiveRating": 112.2,
+  "defensiveRating": 97.6,
+  "netRating": 14.7,
   "rankings": {
-   "offense": 67,
+   "offense": 70,
    "defense": 16,
-   "net": 21
+   "net": 22
   }
  },
  {
@@ -302,23 +316,9 @@
   "defensiveRating": 104.6,
   "netRating": 14.7,
   "rankings": {
-   "offense": 3,
+   "offense": 4,
    "defense": 101,
    "net": 22
-  }
- },
- {
-  "season": 2027,
-  "teamId": 168,
-  "team": "Miami",
-  "conference": "ACC",
-  "offensiveRating": 109.1,
-  "defensiveRating": 94.7,
-  "netRating": 14.5,
-  "rankings": {
-   "offense": 138,
-   "defense": 5,
-   "net": 23
   }
  },
  {
@@ -331,7 +331,7 @@
   "netRating": 14.4,
   "rankings": {
    "offense": 75,
-   "defense": 17,
+   "defense": 16,
    "net": 24
   }
  },
@@ -358,7 +358,7 @@
   "defensiveRating": 97.2,
   "netRating": 14.3,
   "rankings": {
-   "offense": 89,
+   "offense": 88,
    "defense": 14,
    "net": 25
   }
@@ -372,7 +372,7 @@
   "defensiveRating": 95.7,
   "netRating": 14.2,
   "rankings": {
-   "offense": 121,
+   "offense": 118,
    "defense": 7,
    "net": 27
   }
@@ -386,7 +386,7 @@
   "defensiveRating": 99.1,
   "netRating": 13.9,
   "rankings": {
-   "offense": 57,
+   "offense": 58,
    "defense": 29,
    "net": 28
   }
@@ -407,25 +407,11 @@
  },
  {
   "season": 2027,
-  "teamId": 347,
-  "team": "West Virginia",
-  "conference": "Big 12",
-  "offensiveRating": 113.4,
-  "defensiveRating": 99.8,
-  "netRating": 13.7,
-  "rankings": {
-   "offense": 55,
-   "defense": 36,
-   "net": 30
-  }
- },
- {
-  "season": 2027,
   "teamId": 229,
   "team": "Pittsburgh",
   "conference": "ACC",
   "offensiveRating": 111.8,
-  "defensiveRating": 98.1,
+  "defensiveRating": 98,
   "netRating": 13.7,
   "rankings": {
    "offense": 82,
@@ -439,12 +425,12 @@
   "team": "Saint Louis",
   "conference": "A-10",
   "offensiveRating": 115.6,
-  "defensiveRating": 102.4,
-  "netRating": 13.2,
+  "defensiveRating": 102.3,
+  "netRating": 13.3,
   "rankings": {
    "offense": 20,
-   "defense": 58,
-   "net": 32
+   "defense": 57,
+   "net": 31
   }
  },
  {
@@ -452,13 +438,13 @@
   "teamId": 218,
   "team": "Oklahoma State",
   "conference": "Big 12",
-  "offensiveRating": 114.5,
+  "offensiveRating": 114.6,
   "defensiveRating": 101.5,
   "netRating": 13.1,
   "rankings": {
-   "offense": 32,
-   "defense": 46,
-   "net": 33
+   "offense": 31,
+   "defense": 44,
+   "net": 32
   }
  },
  {
@@ -471,8 +457,8 @@
   "netRating": 12.8,
   "rankings": {
    "offense": 18,
-   "defense": 65,
-   "net": 34
+   "defense": 64,
+   "net": 33
   }
  },
  {
@@ -485,8 +471,8 @@
   "netRating": 12.7,
   "rankings": {
    "offense": 34,
-   "defense": 49,
-   "net": 35
+   "defense": 48,
+   "net": 34
   }
  },
  {
@@ -499,8 +485,8 @@
   "netRating": 12.2,
   "rankings": {
    "offense": 45,
-   "defense": 46,
-   "net": 36
+   "defense": 44,
+   "net": 35
   }
  },
  {
@@ -513,8 +499,8 @@
   "netRating": 12,
   "rankings": {
    "offense": 26,
-   "defense": 65,
-   "net": 37
+   "defense": 64,
+   "net": 36
   }
  },
  {
@@ -526,9 +512,23 @@
   "defensiveRating": 98.7,
   "netRating": 11.7,
   "rankings": {
-   "offense": 108,
-   "defense": 24,
-   "net": 38
+   "offense": 107,
+   "defense": 25,
+   "net": 37
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 213,
+  "team": "Notre Dame",
+  "conference": "ACC",
+  "offensiveRating": 117.8,
+  "defensiveRating": 106.2,
+  "netRating": 11.7,
+  "rankings": {
+   "offense": 9,
+   "defense": 149,
+   "net": 37
   }
  },
  {
@@ -540,9 +540,23 @@
   "defensiveRating": 93.1,
   "netRating": 11.6,
   "rankings": {
-   "offense": 237,
+   "offense": 236,
    "defense": 2,
    "net": 39
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 347,
+  "team": "West Virginia",
+  "conference": "Big 12",
+  "offensiveRating": 113.4,
+  "defensiveRating": 101.9,
+  "netRating": 11.5,
+  "rankings": {
+   "offense": 54,
+   "defense": 50,
+   "net": 40
   }
  },
  {
@@ -551,11 +565,11 @@
   "team": "Arizona",
   "conference": "Big 12",
   "offensiveRating": 115.5,
-  "defensiveRating": 104,
+  "defensiveRating": 104.1,
   "netRating": 11.5,
   "rankings": {
    "offense": 21,
-   "defense": 90,
+   "defense": 92,
    "net": 40
   }
  },
@@ -569,8 +583,8 @@
   "netRating": 11.4,
   "rankings": {
    "offense": 45,
-   "defense": 58,
-   "net": 41
+   "defense": 59,
+   "net": 42
   }
  },
  {
@@ -582,22 +596,8 @@
   "defensiveRating": 106,
   "netRating": 11.1,
   "rankings": {
-   "offense": 13,
-   "defense": 144,
-   "net": 42
-  }
- },
- {
-  "season": 2027,
-  "teamId": 213,
-  "team": "Notre Dame",
-  "conference": "ACC",
-  "offensiveRating": 117.5,
-  "defensiveRating": 106.6,
-  "netRating": 11,
-  "rankings": {
-   "offense": 10,
-   "defense": 160,
+   "offense": 14,
+   "defense": 143,
    "net": 43
   }
  },
@@ -611,7 +611,7 @@
   "netRating": 10.3,
   "rankings": {
    "offense": 67,
-   "defense": 52,
+   "defense": 51,
    "net": 44
   }
  },
@@ -624,8 +624,8 @@
   "defensiveRating": 108.4,
   "netRating": 10.3,
   "rankings": {
-   "offense": 5,
-   "defense": 216,
+   "offense": 6,
+   "defense": 217,
    "net": 44
   }
  },
@@ -636,9 +636,9 @@
   "conference": "SEC",
   "offensiveRating": 114.3,
   "defensiveRating": 104.2,
-  "netRating": 10.1,
+  "netRating": 10.2,
   "rankings": {
-   "offense": 36,
+   "offense": 37,
    "defense": 95,
    "net": 46
   }
@@ -655,6 +655,20 @@
    "offense": 49,
    "defense": 85,
    "net": 47
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 124,
+  "team": "Iowa",
+  "conference": "Big Ten",
+  "offensiveRating": 109.6,
+  "defensiveRating": 99.7,
+  "netRating": 9.9,
+  "rankings": {
+   "offense": 128,
+   "defense": 35,
+   "net": 48
   }
  },
  {
@@ -682,21 +696,7 @@
   "rankings": {
    "offense": 73,
    "defense": 57,
-   "net": 49
-  }
- },
- {
-  "season": 2027,
-  "teamId": 124,
-  "team": "Iowa",
-  "conference": "Big Ten",
-  "offensiveRating": 109.5,
-  "defensiveRating": 99.7,
-  "netRating": 9.8,
-  "rankings": {
-   "offense": 131,
-   "defense": 35,
-   "net": 49
+   "net": 50
   }
  },
  {
@@ -708,8 +708,8 @@
   "defensiveRating": 100.1,
   "netRating": 9.6,
   "rankings": {
-   "offense": 123,
-   "defense": 39,
+   "offense": 122,
+   "defense": 38,
    "net": 51
   }
  },
@@ -718,13 +718,27 @@
   "teamId": 286,
   "team": "Syracuse",
   "conference": "ACC",
-  "offensiveRating": 113,
+  "offensiveRating": 113.1,
   "defensiveRating": 103.6,
   "netRating": 9.5,
   "rankings": {
    "offense": 57,
-   "defense": 82,
+   "defense": 81,
    "net": 52
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 121,
+  "team": "Indiana",
+  "conference": "Big Ten",
+  "offensiveRating": 114.6,
+  "defensiveRating": 105.3,
+  "netRating": 9.2,
+  "rankings": {
+   "offense": 31,
+   "defense": 124,
+   "net": 53
   }
  },
  {
@@ -734,25 +748,11 @@
   "conference": "CAA",
   "offensiveRating": 115.7,
   "defensiveRating": 106.4,
-  "netRating": 9.3,
-  "rankings": {
-   "offense": 18,
-   "defense": 155,
-   "net": 53
-  }
- },
- {
-  "season": 2027,
-  "teamId": 121,
-  "team": "Indiana",
-  "conference": "Big Ten",
-  "offensiveRating": 114.5,
-  "defensiveRating": 105.3,
   "netRating": 9.2,
   "rankings": {
-   "offense": 32,
-   "defense": 124,
-   "net": 54
+   "offense": 18,
+   "defense": 157,
+   "net": 53
   }
  },
  {
@@ -771,29 +771,29 @@
  },
  {
   "season": 2027,
-  "teamId": 49,
-  "team": "Chattanooga",
-  "conference": "SoCon",
-  "offensiveRating": 114.9,
-  "defensiveRating": 106,
+  "teamId": 253,
+  "team": "Saint Mary's",
+  "conference": "WCC",
+  "offensiveRating": 117.5,
+  "defensiveRating": 108.5,
   "netRating": 9,
   "rankings": {
-   "offense": 26,
-   "defense": 144,
+   "offense": 11,
+   "defense": 221,
    "net": 55
   }
  },
  {
   "season": 2027,
-  "teamId": 253,
-  "team": "Saint Mary's",
-  "conference": "WCC",
-  "offensiveRating": 117.4,
-  "defensiveRating": 108.5,
+  "teamId": 49,
+  "team": "Chattanooga",
+  "conference": "SoCon",
+  "offensiveRating": 114.9,
+  "defensiveRating": 106,
   "netRating": 8.9,
   "rankings": {
-   "offense": 12,
-   "defense": 220,
+   "offense": 26,
+   "defense": 143,
    "net": 57
   }
  },
@@ -807,22 +807,8 @@
   "netRating": 8.8,
   "rankings": {
    "offense": 67,
-   "defense": 79,
+   "defense": 78,
    "net": 58
-  }
- },
- {
-  "season": 2027,
-  "teamId": 325,
-  "team": "UT Martin",
-  "conference": "OVC",
-  "offensiveRating": 111.6,
-  "defensiveRating": 102.9,
-  "netRating": 8.7,
-  "rankings": {
-   "offense": 85,
-   "defense": 65,
-   "net": 59
   }
  },
  {
@@ -841,30 +827,30 @@
  },
  {
   "season": 2027,
-  "teamId": 102,
-  "team": "Gonzaga",
-  "conference": "Pac-12",
-  "offensiveRating": 114.7,
-  "defensiveRating": 106.2,
-  "netRating": 8.5,
+  "teamId": 325,
+  "team": "UT Martin",
+  "conference": "OVC",
+  "offensiveRating": 111.5,
+  "defensiveRating": 102.9,
+  "netRating": 8.6,
   "rankings": {
-   "offense": 29,
-   "defense": 150,
-   "net": 61
+   "offense": 88,
+   "defense": 64,
+   "net": 60
   }
  },
  {
   "season": 2027,
-  "teamId": 219,
-  "team": "Old Dominion",
-  "conference": "Sun Belt",
-  "offensiveRating": 110.6,
-  "defensiveRating": 102.1,
-  "netRating": 8.4,
+  "teamId": 102,
+  "team": "Gonzaga",
+  "conference": "Pac-12",
+  "offensiveRating": 114.8,
+  "defensiveRating": 106.2,
+  "netRating": 8.6,
   "rankings": {
-   "offense": 105,
-   "defense": 55,
-   "net": 62
+   "offense": 29,
+   "defense": 149,
+   "net": 60
   }
  },
  {
@@ -873,11 +859,11 @@
   "team": "Oregon State",
   "conference": "Pac-12",
   "offensiveRating": 114.3,
-  "defensiveRating": 105.9,
-  "netRating": 8.4,
+  "defensiveRating": 105.8,
+  "netRating": 8.5,
   "rankings": {
-   "offense": 36,
-   "defense": 142,
+   "offense": 37,
+   "defense": 138,
    "net": 62
   }
  },
@@ -892,7 +878,21 @@
   "rankings": {
    "offense": 49,
    "defense": 124,
-   "net": 62
+   "net": 63
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 219,
+  "team": "Old Dominion",
+  "conference": "Sun Belt",
+  "offensiveRating": 110.5,
+  "defensiveRating": 102.1,
+  "netRating": 8.4,
+  "rankings": {
+   "offense": 106,
+   "defense": 55,
+   "net": 63
   }
  },
  {
@@ -904,7 +904,7 @@
   "defensiveRating": 103.9,
   "netRating": 8.3,
   "rankings": {
-   "offense": 71,
+   "offense": 70,
    "defense": 87,
    "net": 65
   }
@@ -916,10 +916,10 @@
   "conference": "Big East",
   "offensiveRating": 108.9,
   "defensiveRating": 100.7,
-  "netRating": 8.1,
+  "netRating": 8.2,
   "rankings": {
    "offense": 145,
-   "defense": 42,
+   "defense": 41,
    "net": 66
   }
  },
@@ -928,12 +928,12 @@
   "teamId": 160,
   "team": "Maryland",
   "conference": "Big Ten",
-  "offensiveRating": 114.6,
+  "offensiveRating": 114.7,
   "defensiveRating": 106.8,
   "netRating": 7.9,
   "rankings": {
    "offense": 30,
-   "defense": 169,
+   "defense": 168,
    "net": 67
   }
  },
@@ -960,7 +960,7 @@
   "defensiveRating": 104.8,
   "netRating": 7.8,
   "rankings": {
-   "offense": 64,
+   "offense": 65,
    "defense": 105,
    "net": 69
   }
@@ -974,8 +974,8 @@
   "defensiveRating": 108.3,
   "netRating": 7.6,
   "rankings": {
-   "offense": 17,
-   "defense": 211,
+   "offense": 16,
+   "defense": 212,
    "net": 70
   }
  },
@@ -986,11 +986,25 @@
   "conference": "SEC",
   "offensiveRating": 104.2,
   "defensiveRating": 96.7,
-  "netRating": 7.4,
+  "netRating": 7.5,
   "rankings": {
-   "offense": 251,
+   "offense": 252,
    "defense": 10,
    "net": 71
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 90,
+  "team": "Florida State",
+  "conference": "ACC",
+  "offensiveRating": 113.6,
+  "defensiveRating": 106.2,
+  "netRating": 7.4,
+  "rankings": {
+   "offense": 52,
+   "defense": 149,
+   "net": 72
   }
  },
  {
@@ -1000,38 +1014,24 @@
   "conference": "Southland",
   "offensiveRating": 112.4,
   "defensiveRating": 105.1,
-  "netRating": 7.3,
+  "netRating": 7.2,
   "rankings": {
    "offense": 66,
    "defense": 118,
-   "net": 72
+   "net": 73
   }
  },
  {
   "season": 2027,
-  "teamId": 16,
-  "team": "Auburn",
-  "conference": "SEC",
-  "offensiveRating": 110,
-  "defensiveRating": 102.7,
-  "netRating": 7.3,
+  "teamId": 245,
+  "team": "Rutgers",
+  "conference": "Big Ten",
+  "offensiveRating": 115.4,
+  "defensiveRating": 108.5,
+  "netRating": 7,
   "rankings": {
-   "offense": 116,
-   "defense": 64,
-   "net": 72
-  }
- },
- {
-  "season": 2027,
-  "teamId": 90,
-  "team": "Florida State",
-  "conference": "ACC",
-  "offensiveRating": 113.6,
-  "defensiveRating": 106.4,
-  "netRating": 7.1,
-  "rankings": {
-   "offense": 52,
-   "defense": 155,
+   "offense": 22,
+   "defense": 221,
    "net": 74
   }
  },
@@ -1042,24 +1042,38 @@
   "conference": "Big 12",
   "offensiveRating": 110.7,
   "defensiveRating": 103.7,
-  "netRating": 6.9,
+  "netRating": 7,
   "rankings": {
    "offense": 102,
    "defense": 84,
-   "net": 75
+   "net": 74
   }
  },
  {
   "season": 2027,
-  "teamId": 245,
-  "team": "Rutgers",
-  "conference": "Big Ten",
-  "offensiveRating": 115.3,
-  "defensiveRating": 108.5,
-  "netRating": 6.8,
+  "teamId": 34,
+  "team": "Butler",
+  "conference": "Big East",
+  "offensiveRating": 112,
+  "defensiveRating": 105.3,
+  "netRating": 6.7,
   "rankings": {
-   "offense": 23,
-   "defense": 220,
+   "offense": 75,
+   "defense": 124,
+   "net": 76
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 332,
+  "team": "Utah Valley",
+  "conference": "Big West",
+  "offensiveRating": 111.9,
+  "defensiveRating": 105.2,
+  "netRating": 6.7,
+  "rankings": {
+   "offense": 79,
+   "defense": 122,
    "net": 76
   }
  },
@@ -1074,35 +1088,7 @@
   "rankings": {
    "offense": 262,
    "defense": 12,
-   "net": 77
-  }
- },
- {
-  "season": 2027,
-  "teamId": 34,
-  "team": "Butler",
-  "conference": "Big East",
-  "offensiveRating": 112,
-  "defensiveRating": 105.3,
-  "netRating": 6.7,
-  "rankings": {
-   "offense": 75,
-   "defense": 124,
-   "net": 77
-  }
- },
- {
-  "season": 2027,
-  "teamId": 332,
-  "team": "Utah Valley",
-  "conference": "Big West",
-  "offensiveRating": 111.9,
-  "defensiveRating": 105.2,
-  "netRating": 6.7,
-  "rankings": {
-   "offense": 79,
-   "defense": 122,
-   "net": 77
+   "net": 76
   }
  },
  {
@@ -1110,13 +1096,27 @@
   "teamId": 226,
   "team": "Penn State",
   "conference": "Big Ten",
-  "offensiveRating": 112.6,
+  "offensiveRating": 112.7,
   "defensiveRating": 106,
   "netRating": 6.6,
   "rankings": {
-   "offense": 64,
-   "defense": 144,
-   "net": 80
+   "offense": 62,
+   "defense": 143,
+   "net": 79
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 16,
+  "team": "Auburn",
+  "conference": "SEC",
+  "offensiveRating": 109.6,
+  "defensiveRating": 103,
+  "netRating": 6.6,
+  "rankings": {
+   "offense": 128,
+   "defense": 70,
+   "net": 79
   }
  },
  {
@@ -1142,9 +1142,23 @@
   "defensiveRating": 103.3,
   "netRating": 6.4,
   "rankings": {
-   "offense": 123,
+   "offense": 122,
    "defense": 74,
    "net": 82
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 5,
+  "team": "Alabama",
+  "conference": "SEC",
+  "offensiveRating": 114.1,
+  "defensiveRating": 107.8,
+  "netRating": 6.3,
+  "rankings": {
+   "offense": 40,
+   "defense": 191,
+   "net": 83
   }
  },
  {
@@ -1156,65 +1170,9 @@
   "defensiveRating": 103,
   "netRating": 6.3,
   "rankings": {
-   "offense": 135,
-   "defense": 71,
+   "offense": 136,
+   "defense": 70,
    "net": 83
-  }
- },
- {
-  "season": 2027,
-  "teamId": 240,
-  "team": "Rhode Island",
-  "conference": "A-10",
-  "offensiveRating": 110.7,
-  "defensiveRating": 104.5,
-  "netRating": 6.2,
-  "rankings": {
-   "offense": 102,
-   "defense": 98,
-   "net": 84
-  }
- },
- {
-  "season": 2027,
-  "teamId": 167,
-  "team": "Miami (OH)",
-  "conference": "MAC",
-  "offensiveRating": 112.3,
-  "defensiveRating": 106,
-  "netRating": 6.2,
-  "rankings": {
-   "offense": 67,
-   "defense": 144,
-   "net": 84
-  }
- },
- {
-  "season": 2027,
-  "teamId": 5,
-  "team": "Alabama",
-  "conference": "SEC",
-  "offensiveRating": 114.1,
-  "defensiveRating": 107.9,
-  "netRating": 6.2,
-  "rankings": {
-   "offense": 40,
-   "defense": 194,
-   "net": 84
-  }
- },
- {
-  "season": 2027,
-  "teamId": 242,
-  "team": "Richmond",
-  "conference": "A-10",
-  "offensiveRating": 108.8,
-  "defensiveRating": 102.6,
-  "netRating": 6.2,
-  "rankings": {
-   "offense": 147,
-   "defense": 60,
-   "net": 84
   }
  },
  {
@@ -1228,21 +1186,49 @@
   "rankings": {
    "offense": 102,
    "defense": 101,
-   "net": 84
+   "net": 85
   }
  },
  {
   "season": 2027,
-  "teamId": 235,
-  "team": "Providence",
-  "conference": "Big East",
-  "offensiveRating": 104.5,
-  "defensiveRating": 98.7,
-  "netRating": 5.9,
+  "teamId": 242,
+  "team": "Richmond",
+  "conference": "A-10",
+  "offensiveRating": 108.8,
+  "defensiveRating": 102.6,
+  "netRating": 6.2,
   "rankings": {
-   "offense": 242,
-   "defense": 24,
-   "net": 89
+   "offense": 147,
+   "defense": 60,
+   "net": 85
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 167,
+  "team": "Miami (OH)",
+  "conference": "MAC",
+  "offensiveRating": 112.3,
+  "defensiveRating": 106.1,
+  "netRating": 6.2,
+  "rankings": {
+   "offense": 67,
+   "defense": 148,
+   "net": 85
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 240,
+  "team": "Rhode Island",
+  "conference": "A-10",
+  "offensiveRating": 110.7,
+  "defensiveRating": 104.5,
+  "netRating": 6.2,
+  "rankings": {
+   "offense": 102,
+   "defense": 98,
+   "net": 85
   }
  },
  {
@@ -1254,8 +1240,22 @@
   "defensiveRating": 105.1,
   "netRating": 5.9,
   "rankings": {
-   "offense": 95,
+   "offense": 94,
    "defense": 118,
+   "net": 89
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 235,
+  "team": "Providence",
+  "conference": "Big East",
+  "offensiveRating": 104.6,
+  "defensiveRating": 98.6,
+  "netRating": 5.9,
+  "rankings": {
+   "offense": 238,
+   "defense": 23,
    "net": 89
   }
  },
@@ -1303,20 +1303,6 @@
  },
  {
   "season": 2027,
-  "teamId": 163,
-  "team": "Memphis",
-  "conference": "American",
-  "offensiveRating": 116.6,
-  "defensiveRating": 111.3,
-  "netRating": 5.3,
-  "rankings": {
-   "offense": 15,
-   "defense": 299,
-   "net": 94
-  }
- },
- {
-  "season": 2027,
   "teamId": 151,
   "team": "Loyola Chicago",
   "conference": "A-10",
@@ -1335,12 +1321,54 @@
   "team": "Western Kentucky",
   "conference": "CUSA",
   "offensiveRating": 106.3,
-  "defensiveRating": 101,
+  "defensiveRating": 101.1,
   "netRating": 5.3,
   "rankings": {
    "offense": 203,
    "defense": 43,
    "net": 94
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 163,
+  "team": "Memphis",
+  "conference": "American",
+  "offensiveRating": 116.6,
+  "defensiveRating": 111.3,
+  "netRating": 5.3,
+  "rankings": {
+   "offense": 15,
+   "defense": 298,
+   "net": 94
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 338,
+  "team": "Villanova",
+  "conference": "Big East",
+  "offensiveRating": 109.4,
+  "defensiveRating": 104.2,
+  "netRating": 5.2,
+  "rankings": {
+   "offense": 134,
+   "defense": 95,
+   "net": 97
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 248,
+  "team": "SMU",
+  "conference": "ACC",
+  "offensiveRating": 110.4,
+  "defensiveRating": 105.3,
+  "netRating": 5.1,
+  "rankings": {
+   "offense": 107,
+   "defense": 124,
+   "net": 98
   }
  },
  {
@@ -1354,35 +1382,7 @@
   "rankings": {
    "offense": 97,
    "defense": 138,
-   "net": 97
-  }
- },
- {
-  "season": 2027,
-  "teamId": 338,
-  "team": "Villanova",
-  "conference": "Big East",
-  "offensiveRating": 109.3,
-  "defensiveRating": 104.2,
-  "netRating": 5.1,
-  "rankings": {
-   "offense": 135,
-   "defense": 95,
-   "net": 97
-  }
- },
- {
-  "season": 2027,
-  "teamId": 248,
-  "team": "SMU",
-  "conference": "ACC",
-  "offensiveRating": 110.4,
-  "defensiveRating": 105.3,
-  "netRating": 5,
-  "rankings": {
-   "offense": 108,
-   "defense": 124,
-   "net": 99
+   "net": 98
   }
  },
  {
@@ -1394,8 +1394,22 @@
   "defensiveRating": 105,
   "netRating": 4.9,
   "rankings": {
-   "offense": 116,
-   "defense": 114,
+   "offense": 115,
+   "defense": 113,
+   "net": 100
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 236,
+  "team": "Purdue",
+  "conference": "Big Ten",
+  "offensiveRating": 112.9,
+  "defensiveRating": 108.1,
+  "netRating": 4.9,
+  "rankings": {
+   "offense": 59,
+   "defense": 206,
    "net": 100
   }
  },
@@ -1409,22 +1423,22 @@
   "netRating": 4.8,
   "rankings": {
    "offense": 100,
-   "defense": 144,
-   "net": 101
+   "defense": 143,
+   "net": 102
   }
  },
  {
   "season": 2027,
-  "teamId": 236,
-  "team": "Purdue",
+  "teamId": 216,
+  "team": "Ohio State",
   "conference": "Big Ten",
-  "offensiveRating": 112.9,
-  "defensiveRating": 108.1,
+  "offensiveRating": 113.7,
+  "defensiveRating": 108.9,
   "netRating": 4.8,
   "rankings": {
-   "offense": 59,
-   "defense": 205,
-   "net": 101
+   "offense": 49,
+   "defense": 231,
+   "net": 102
   }
  },
  {
@@ -1436,37 +1450,9 @@
   "defensiveRating": 104.9,
   "netRating": 4.7,
   "rankings": {
-   "offense": 129,
-   "defense": 110,
-   "net": 103
-  }
- },
- {
-  "season": 2027,
-  "teamId": 216,
-  "team": "Ohio State",
-  "conference": "Big Ten",
-  "offensiveRating": 113.7,
-  "defensiveRating": 108.9,
-  "netRating": 4.7,
-  "rankings": {
-   "offense": 49,
-   "defense": 230,
-   "net": 103
-  }
- },
- {
-  "season": 2027,
-  "teamId": 321,
-  "team": "UNC Wilmington",
-  "conference": "CAA",
-  "offensiveRating": 115.5,
-  "defensiveRating": 110.8,
-  "netRating": 4.6,
-  "rankings": {
-   "offense": 21,
-   "defense": 289,
-   "net": 105
+   "offense": 128,
+   "defense": 109,
+   "net": 104
   }
  },
  {
@@ -1485,6 +1471,34 @@
  },
  {
   "season": 2027,
+  "teamId": 10,
+  "team": "Arizona State",
+  "conference": "Big 12",
+  "offensiveRating": 112.7,
+  "defensiveRating": 108.2,
+  "netRating": 4.5,
+  "rankings": {
+   "offense": 62,
+   "defense": 209,
+   "net": 106
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 321,
+  "team": "UNC Wilmington",
+  "conference": "CAA",
+  "offensiveRating": 115.4,
+  "defensiveRating": 110.9,
+  "netRating": 4.5,
+  "rankings": {
+   "offense": 22,
+   "defense": 288,
+   "net": 106
+  }
+ },
+ {
+  "season": 2027,
   "teamId": 81,
   "team": "Elon",
   "conference": "CAA",
@@ -1493,22 +1507,8 @@
   "netRating": 4.5,
   "rankings": {
    "offense": 163,
-   "defense": 82,
-   "net": 107
-  }
- },
- {
-  "season": 2027,
-  "teamId": 10,
-  "team": "Arizona State",
-  "conference": "Big 12",
-  "offensiveRating": 112.7,
-  "defensiveRating": 108.2,
-  "netRating": 4.5,
-  "rankings": {
-   "offense": 63,
-   "defense": 209,
-   "net": 107
+   "defense": 81,
+   "net": 106
   }
  },
  {
@@ -1516,11 +1516,11 @@
   "teamId": 25,
   "team": "Boise State",
   "conference": "Pac-12",
-  "offensiveRating": 114.3,
+  "offensiveRating": 114.4,
   "defensiveRating": 109.9,
   "netRating": 4.4,
   "rankings": {
-   "offense": 36,
+   "offense": 34,
    "defense": 261,
    "net": 109
   }
@@ -1541,20 +1541,6 @@
  },
  {
   "season": 2027,
-  "teamId": 28,
-  "team": "Bowling Green",
-  "conference": "MAC",
-  "offensiveRating": 114.1,
-  "defensiveRating": 109.8,
-  "netRating": 4.2,
-  "rankings": {
-   "offense": 40,
-   "defense": 256,
-   "net": 111
-  }
- },
- {
-  "season": 2027,
   "teamId": 263,
   "team": "Seton Hall",
   "conference": "Big East",
@@ -1562,8 +1548,22 @@
   "defensiveRating": 99.8,
   "netRating": 4.2,
   "rankings": {
-   "offense": 257,
+   "offense": 258,
    "defense": 36,
+   "net": 111
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 28,
+  "team": "Bowling Green",
+  "conference": "MAC",
+  "offensiveRating": 114.1,
+  "defensiveRating": 109.9,
+  "netRating": 4.2,
+  "rankings": {
+   "offense": 40,
+   "defense": 261,
    "net": 111
   }
  },
@@ -1576,8 +1576,8 @@
   "defensiveRating": 100.4,
   "netRating": 4,
   "rankings": {
-   "offense": 245,
-   "defense": 40,
+   "offense": 247,
+   "defense": 39,
    "net": 113
   }
  },
@@ -1590,8 +1590,8 @@
   "defensiveRating": 109.7,
   "netRating": 3.8,
   "rankings": {
-   "offense": 55,
-   "defense": 253,
+   "offense": 54,
+   "defense": 254,
    "net": 114
   }
  },
@@ -1625,20 +1625,6 @@
  },
  {
   "season": 2027,
-  "teamId": 291,
-  "team": "Tennessee Tech",
-  "conference": "SoCon",
-  "offensiveRating": 113.9,
-  "defensiveRating": 110.4,
-  "netRating": 3.6,
-  "rankings": {
-   "offense": 43,
-   "defense": 276,
-   "net": 117
-  }
- },
- {
-  "season": 2027,
   "teamId": 91,
   "team": "Fordham",
   "conference": "A-10",
@@ -1648,7 +1634,7 @@
   "rankings": {
    "offense": 147,
    "defense": 124,
-   "net": 118
+   "net": 117
   }
  },
  {
@@ -1662,7 +1648,7 @@
   "rankings": {
    "offense": 169,
    "defense": 95,
-   "net": 118
+   "net": 117
   }
  },
  {
@@ -1670,27 +1656,27 @@
   "teamId": 36,
   "team": "Cal State Bakersfield",
   "conference": "Big West",
-  "offensiveRating": 112.8,
-  "defensiveRating": 109.2,
+  "offensiveRating": 112.7,
+  "defensiveRating": 109.3,
   "netRating": 3.5,
   "rankings": {
-   "offense": 60,
-   "defense": 238,
-   "net": 118
+   "offense": 62,
+   "defense": 241,
+   "net": 117
   }
  },
  {
   "season": 2027,
-  "teamId": 9,
-  "team": "App State",
-  "conference": "Sun Belt",
-  "offensiveRating": 107.4,
-  "defensiveRating": 103.9,
-  "netRating": 3.4,
+  "teamId": 291,
+  "team": "Tennessee Tech",
+  "conference": "SoCon",
+  "offensiveRating": 113.9,
+  "defensiveRating": 110.4,
+  "netRating": 3.5,
   "rankings": {
-   "offense": 179,
-   "defense": 87,
-   "net": 121
+   "offense": 43,
+   "defense": 276,
+   "net": 117
   }
  },
  {
@@ -1702,9 +1688,23 @@
   "defensiveRating": 108.1,
   "netRating": 3.4,
   "rankings": {
-   "offense": 89,
-   "defense": 205,
+   "offense": 88,
+   "defense": 206,
    "net": 121
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 9,
+  "team": "App State",
+  "conference": "Sun Belt",
+  "offensiveRating": 107.4,
+  "defensiveRating": 104,
+  "netRating": 3.3,
+  "rankings": {
+   "offense": 179,
+   "defense": 89,
+   "net": 122
   }
  },
  {
@@ -1716,7 +1716,7 @@
   "defensiveRating": 106.7,
   "netRating": 3.2,
   "rankings": {
-   "offense": 121,
+   "offense": 118,
    "defense": 165,
    "net": 123
   }
@@ -1728,10 +1728,10 @@
   "conference": "WCC",
   "offensiveRating": 111.4,
   "defensiveRating": 108.4,
-  "netRating": 3.1,
+  "netRating": 3,
   "rankings": {
    "offense": 92,
-   "defense": 216,
+   "defense": 217,
    "net": 124
   }
  },
@@ -1741,40 +1741,12 @@
   "team": "Boston University",
   "conference": "Patriot",
   "offensiveRating": 110.6,
-  "defensiveRating": 107.6,
+  "defensiveRating": 107.7,
   "netRating": 2.9,
   "rankings": {
    "offense": 105,
-   "defense": 184,
+   "defense": 187,
    "net": 125
-  }
- },
- {
-  "season": 2027,
-  "teamId": 79,
-  "team": "Eastern Michigan",
-  "conference": "MAC",
-  "offensiveRating": 110.5,
-  "defensiveRating": 107.6,
-  "netRating": 2.9,
-  "rankings": {
-   "offense": 107,
-   "defense": 184,
-   "net": 125
-  }
- },
- {
-  "season": 2027,
-  "teamId": 337,
-  "team": "Vermont",
-  "conference": "Am. East",
-  "offensiveRating": 110,
-  "defensiveRating": 107.2,
-  "netRating": 2.8,
-  "rankings": {
-   "offense": 116,
-   "defense": 173,
-   "net": 127
   }
  },
  {
@@ -1783,40 +1755,54 @@
   "team": "Northern Illinois",
   "conference": "Horizon",
   "offensiveRating": 113.9,
-  "defensiveRating": 111.1,
+  "defensiveRating": 111.2,
   "netRating": 2.8,
   "rankings": {
    "offense": 43,
    "defense": 297,
-   "net": 127
+   "net": 126
   }
  },
  {
   "season": 2027,
-  "teamId": 48,
-  "team": "Charlotte",
-  "conference": "American",
-  "offensiveRating": 108.3,
-  "defensiveRating": 105.7,
+  "teamId": 79,
+  "team": "Eastern Michigan",
+  "conference": "MAC",
+  "offensiveRating": 110.4,
+  "defensiveRating": 107.6,
+  "netRating": 2.8,
+  "rankings": {
+   "offense": 107,
+   "defense": 184,
+   "net": 126
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 337,
+  "team": "Vermont",
+  "conference": "Am. East",
+  "offensiveRating": 109.9,
+  "defensiveRating": 107.2,
   "netRating": 2.7,
   "rankings": {
-   "offense": 158,
-   "defense": 136,
-   "net": 129
+   "offense": 118,
+   "defense": 174,
+   "net": 128
   }
  },
  {
   "season": 2027,
-  "teamId": 304,
-  "team": "Tulsa",
-  "conference": "American",
-  "offensiveRating": 109.5,
-  "defensiveRating": 106.9,
+  "teamId": 135,
+  "team": "Kentucky",
+  "conference": "SEC",
+  "offensiveRating": 111.6,
+  "defensiveRating": 109,
   "netRating": 2.6,
   "rankings": {
-   "offense": 131,
-   "defense": 171,
-   "net": 130
+   "offense": 85,
+   "defense": 232,
+   "net": 129
   }
  },
  {
@@ -1828,9 +1814,37 @@
   "defensiveRating": 108.4,
   "netRating": 2.6,
   "rankings": {
-   "offense": 95,
-   "defense": 216,
-   "net": 130
+   "offense": 94,
+   "defense": 217,
+   "net": 129
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 304,
+  "team": "Tulsa",
+  "conference": "American",
+  "offensiveRating": 109.6,
+  "defensiveRating": 106.9,
+  "netRating": 2.6,
+  "rankings": {
+   "offense": 128,
+   "defense": 171,
+   "net": 129
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 48,
+  "team": "Charlotte",
+  "conference": "American",
+  "offensiveRating": 108.3,
+  "defensiveRating": 105.7,
+  "netRating": 2.6,
+  "rankings": {
+   "offense": 158,
+   "defense": 136,
+   "net": 129
   }
  },
  {
@@ -1840,39 +1854,11 @@
   "conference": "CAA",
   "offensiveRating": 107.5,
   "defensiveRating": 105,
-  "netRating": 2.6,
-  "rankings": {
-   "offense": 176,
-   "defense": 114,
-   "net": 130
-  }
- },
- {
-  "season": 2027,
-  "teamId": 135,
-  "team": "Kentucky",
-  "conference": "SEC",
-  "offensiveRating": 111.6,
-  "defensiveRating": 109,
   "netRating": 2.5,
   "rankings": {
-   "offense": 85,
-   "defense": 232,
+   "offense": 176,
+   "defense": 113,
    "net": 133
-  }
- },
- {
-  "season": 2027,
-  "teamId": 158,
-  "team": "Marshall",
-  "conference": "Sun Belt",
-  "offensiveRating": 103.9,
-  "defensiveRating": 101.4,
-  "netRating": 2.4,
-  "rankings": {
-   "offense": 258,
-   "defense": 45,
-   "net": 134
   }
  },
  {
@@ -1881,11 +1867,25 @@
   "team": "Toledo",
   "conference": "MAC",
   "offensiveRating": 106.5,
-  "defensiveRating": 104.1,
+  "defensiveRating": 104,
   "netRating": 2.4,
   "rankings": {
    "offense": 197,
-   "defense": 92,
+   "defense": 89,
+   "net": 134
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 158,
+  "team": "Marshall",
+  "conference": "Sun Belt",
+  "offensiveRating": 103.9,
+  "defensiveRating": 101.5,
+  "netRating": 2.4,
+  "rankings": {
+   "offense": 259,
+   "defense": 44,
    "net": 134
   }
  },
@@ -1895,12 +1895,26 @@
   "team": "East Tennessee State",
   "conference": "SoCon",
   "offensiveRating": 105.8,
-  "defensiveRating": 103.5,
-  "netRating": 2.3,
+  "defensiveRating": 103.6,
+  "netRating": 2.2,
   "rankings": {
    "offense": 213,
-   "defense": 79,
+   "defense": 81,
    "net": 136
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 280,
+  "team": "St. Thomas-Minnesota",
+  "conference": "Summit",
+  "offensiveRating": 112.8,
+  "defensiveRating": 110.8,
+  "netRating": 2.1,
+  "rankings": {
+   "offense": 60,
+   "defense": 287,
+   "net": 137
   }
  },
  {
@@ -1910,25 +1924,11 @@
   "conference": "Big Ten",
   "offensiveRating": 107.2,
   "defensiveRating": 105,
-  "netRating": 2.2,
-  "rankings": {
-   "offense": 184,
-   "defense": 114,
-   "net": 137
-  }
- },
- {
-  "season": 2027,
-  "teamId": 280,
-  "team": "St. Thomas-Minnesota",
-  "conference": "Summit",
-  "offensiveRating": 112.8,
-  "defensiveRating": 110.7,
   "netRating": 2.1,
   "rankings": {
-   "offense": 60,
-   "defense": 286,
-   "net": 138
+   "offense": 184,
+   "defense": 113,
+   "net": 137
   }
  },
  {
@@ -1940,8 +1940,8 @@
   "defensiveRating": 108.1,
   "netRating": 2,
   "rankings": {
-   "offense": 114,
-   "defense": 205,
+   "offense": 113,
+   "defense": 206,
    "net": 139
   }
  },
@@ -1955,22 +1955,8 @@
   "netRating": 1.7,
   "rankings": {
    "offense": 233,
-   "defense": 71,
+   "defense": 70,
    "net": 140
-  }
- },
- {
-  "season": 2027,
-  "teamId": 198,
-  "team": "North Carolina A&T",
-  "conference": "CAA",
-  "offensiveRating": 107.6,
-  "defensiveRating": 106,
-  "netRating": 1.6,
-  "rankings": {
-   "offense": 173,
-   "defense": 144,
-   "net": 141
   }
  },
  {
@@ -1984,6 +1970,20 @@
   "rankings": {
    "offense": 193,
    "defense": 118,
+   "net": 141
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 12,
+  "team": "Arkansas",
+  "conference": "SEC",
+  "offensiveRating": 110.1,
+  "defensiveRating": 108.6,
+  "netRating": 1.6,
+  "rankings": {
+   "offense": 113,
+   "defense": 225,
    "net": 141
   }
  },
@@ -2003,44 +2003,16 @@
  },
  {
   "season": 2027,
-  "teamId": 1073,
-  "team": "West Florida",
-  "conference": "ASUN",
-  "offensiveRating": 108.2,
-  "defensiveRating": 106.6,
-  "netRating": 1.6,
-  "rankings": {
-   "offense": 161,
-   "defense": 160,
-   "net": 141
-  }
- },
- {
-  "season": 2027,
-  "teamId": 12,
-  "team": "Arkansas",
-  "conference": "SEC",
-  "offensiveRating": 110.1,
-  "defensiveRating": 108.6,
+  "teamId": 198,
+  "team": "North Carolina A&T",
+  "conference": "CAA",
+  "offensiveRating": 107.5,
+  "defensiveRating": 106,
   "netRating": 1.5,
   "rankings": {
-   "offense": 114,
-   "defense": 224,
-   "net": 145
-  }
- },
- {
-  "season": 2027,
-  "teamId": 320,
-  "team": "UNC Greensboro",
-  "conference": "SoCon",
-  "offensiveRating": 111.1,
-  "defensiveRating": 109.5,
-  "netRating": 1.5,
-  "rankings": {
-   "offense": 94,
-   "defense": 247,
-   "net": 145
+   "offense": 176,
+   "defense": 143,
+   "net": 144
   }
  },
  {
@@ -2053,8 +2025,36 @@
   "netRating": 1.5,
   "rankings": {
    "offense": 134,
-   "defense": 194,
-   "net": 145
+   "defense": 195,
+   "net": 144
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 1073,
+  "team": "West Florida",
+  "conference": "ASUN",
+  "offensiveRating": 108.2,
+  "defensiveRating": 106.6,
+  "netRating": 1.5,
+  "rankings": {
+   "offense": 161,
+   "defense": 161,
+   "net": 144
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 320,
+  "team": "UNC Greensboro",
+  "conference": "SoCon",
+  "offensiveRating": 111,
+  "defensiveRating": 109.6,
+  "netRating": 1.5,
+  "rankings": {
+   "offense": 94,
+   "defense": 249,
+   "net": 144
   }
  },
  {
@@ -2064,11 +2064,11 @@
   "conference": "MAC",
   "offensiveRating": 108.6,
   "defensiveRating": 107.2,
-  "netRating": 1.5,
+  "netRating": 1.4,
   "rankings": {
    "offense": 149,
-   "defense": 173,
-   "net": 145
+   "defense": 174,
+   "net": 148
   }
  },
  {
@@ -2081,8 +2081,8 @@
   "netRating": 1.4,
   "rankings": {
    "offense": 169,
-   "defense": 153,
-   "net": 149
+   "defense": 154,
+   "net": 148
   }
  },
  {
@@ -2094,8 +2094,8 @@
   "defensiveRating": 101.5,
   "netRating": 1.3,
   "rankings": {
-   "offense": 287,
-   "defense": 46,
+   "offense": 286,
+   "defense": 44,
    "net": 150
   }
  },
@@ -2109,22 +2109,8 @@
   "netRating": 1.3,
   "rankings": {
    "offense": 141,
-   "defense": 188,
+   "defense": 187,
    "net": 150
-  }
- },
- {
-  "season": 2027,
-  "teamId": 114,
-  "team": "Howard",
-  "conference": "MEAC",
-  "offensiveRating": 107.5,
-  "defensiveRating": 106.2,
-  "netRating": 1.2,
-  "rankings": {
-   "offense": 176,
-   "defense": 150,
-   "net": 152
   }
  },
  {
@@ -2132,13 +2118,41 @@
   "teamId": 318,
   "team": "UMass Lowell",
   "conference": "Am. East",
-  "offensiveRating": 102.9,
+  "offensiveRating": 103,
   "defensiveRating": 101.8,
   "netRating": 1.2,
   "rankings": {
-   "offense": 284,
-   "defense": 51,
+   "offense": 282,
+   "defense": 49,
    "net": 152
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 114,
+  "team": "Howard",
+  "conference": "MEAC",
+  "offensiveRating": 107.4,
+  "defensiveRating": 106.3,
+  "netRating": 1.1,
+  "rankings": {
+   "offense": 179,
+   "defense": 154,
+   "net": 153
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 17,
+  "team": "Austin Peay",
+  "conference": "UAC",
+  "offensiveRating": 103.2,
+  "defensiveRating": 102.2,
+  "netRating": 1,
+  "rankings": {
+   "offense": 274,
+   "defense": 56,
+   "net": 154
   }
  },
  {
@@ -2148,25 +2162,25 @@
   "conference": "SoCon",
   "offensiveRating": 103.1,
   "defensiveRating": 102,
-  "netRating": 1.1,
+  "netRating": 1,
   "rankings": {
    "offense": 277,
-   "defense": 52,
+   "defense": 51,
    "net": 154
   }
  },
  {
   "season": 2027,
-  "teamId": 17,
-  "team": "Austin Peay",
-  "conference": "UAC",
-  "offensiveRating": 103.2,
-  "defensiveRating": 102.1,
-  "netRating": 1,
+  "teamId": 294,
+  "team": "Texas A&M-Corpus Christi",
+  "conference": "Southland",
+  "offensiveRating": 104.5,
+  "defensiveRating": 103.5,
+  "netRating": 0.9,
   "rankings": {
-   "offense": 274,
-   "defense": 55,
-   "net": 155
+   "offense": 243,
+   "defense": 78,
+   "net": 156
   }
  },
  {
@@ -2179,35 +2193,21 @@
   "netRating": 0.9,
   "rankings": {
    "offense": 112,
-   "defense": 242,
+   "defense": 241,
    "net": 156
   }
  },
  {
   "season": 2027,
-  "teamId": 294,
-  "team": "Texas A&M-Corpus Christi",
-  "conference": "Southland",
-  "offensiveRating": 104.4,
-  "defensiveRating": 103.5,
-  "netRating": 0.9,
-  "rankings": {
-   "offense": 245,
-   "defense": 79,
-   "net": 156
-  }
- },
- {
-  "season": 2027,
-  "teamId": 172,
-  "team": "Milwaukee",
-  "conference": "Horizon",
-  "offensiveRating": 104.8,
-  "defensiveRating": 104,
+  "teamId": 281,
+  "team": "Stanford",
+  "conference": "ACC",
+  "offensiveRating": 105.7,
+  "defensiveRating": 104.9,
   "netRating": 0.8,
   "rankings": {
-   "offense": 233,
-   "defense": 90,
+   "offense": 214,
+   "defense": 109,
    "net": 158
   }
  },
@@ -2221,22 +2221,8 @@
   "netRating": 0.8,
   "rankings": {
    "offense": 316,
-   "defense": 38,
+   "defense": 37,
    "net": 158
-  }
- },
- {
-  "season": 2027,
-  "teamId": 281,
-  "team": "Stanford",
-  "conference": "ACC",
-  "offensiveRating": 105.6,
-  "defensiveRating": 104.9,
-  "netRating": 0.7,
-  "rankings": {
-   "offense": 217,
-   "defense": 110,
-   "net": 160
   }
  },
  {
@@ -2249,7 +2235,21 @@
   "netRating": 0.7,
   "rankings": {
    "offense": 154,
-   "defense": 188,
+   "defense": 187,
+   "net": 160
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 172,
+  "team": "Milwaukee",
+  "conference": "Horizon",
+  "offensiveRating": 104.7,
+  "defensiveRating": 104,
+  "netRating": 0.7,
+  "rankings": {
+   "offense": 236,
+   "defense": 89,
    "net": 160
   }
  },
@@ -2262,8 +2262,8 @@
   "defensiveRating": 109.1,
   "netRating": 0.6,
   "rankings": {
-   "offense": 123,
-   "defense": 235,
+   "offense": 122,
+   "defense": 236,
    "net": 162
   }
  },
@@ -2277,7 +2277,7 @@
   "netRating": 0.6,
   "rankings": {
    "offense": 152,
-   "defense": 194,
+   "defense": 195,
    "net": 162
   }
  },
@@ -2290,8 +2290,22 @@
   "defensiveRating": 109.1,
   "netRating": 0.5,
   "rankings": {
-   "offense": 129,
-   "defense": 235,
+   "offense": 128,
+   "defense": 236,
+   "net": 164
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 343,
+  "team": "Washington",
+  "conference": "Big Ten",
+  "offensiveRating": 110.3,
+  "defensiveRating": 109.8,
+  "netRating": 0.5,
+  "rankings": {
+   "offense": 111,
+   "defense": 257,
    "net": 164
   }
  },
@@ -2311,30 +2325,16 @@
  },
  {
   "season": 2027,
-  "teamId": 343,
-  "team": "Washington",
-  "conference": "Big Ten",
-  "offensiveRating": 110.3,
-  "defensiveRating": 109.8,
-  "netRating": 0.4,
-  "rankings": {
-   "offense": 111,
-   "defense": 256,
-   "net": 166
-  }
- },
- {
-  "season": 2027,
   "teamId": 56,
   "team": "Colorado",
   "conference": "Big 12",
-  "offensiveRating": 104.3,
+  "offensiveRating": 104.4,
   "defensiveRating": 103.9,
   "netRating": 0.4,
   "rankings": {
-   "offense": 248,
+   "offense": 247,
    "defense": 87,
-   "net": 166
+   "net": 167
   }
  },
  {
@@ -2361,7 +2361,7 @@
   "netRating": 0.2,
   "rankings": {
    "offense": 277,
-   "defense": 65,
+   "defense": 64,
    "net": 169
   }
  },
@@ -2374,22 +2374,8 @@
   "defensiveRating": 109.3,
   "netRating": 0.2,
   "rankings": {
-   "offense": 131,
-   "defense": 242,
-   "net": 169
-  }
- },
- {
-  "season": 2027,
-  "teamId": 74,
-  "team": "East Carolina",
-  "conference": "American",
-  "offensiveRating": 102,
-  "defensiveRating": 101.7,
-  "netRating": 0.2,
-  "rankings": {
-   "offense": 299,
-   "defense": 49,
+   "offense": 133,
+   "defense": 241,
    "net": 169
   }
  },
@@ -2402,8 +2388,22 @@
   "defensiveRating": 100.4,
   "netRating": 0.1,
   "rankings": {
-   "offense": 321,
-   "defense": 40,
+   "offense": 319,
+   "defense": 39,
+   "net": 171
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 63,
+  "team": "Davidson",
+  "conference": "A-10",
+  "offensiveRating": 103.4,
+  "defensiveRating": 103.5,
+  "netRating": -0.1,
+  "rankings": {
+   "offense": 270,
+   "defense": 78,
    "net": 172
   }
  },
@@ -2418,7 +2418,7 @@
   "rankings": {
    "offense": 73,
    "defense": 307,
-   "net": 173
+   "net": 172
   }
  },
  {
@@ -2431,22 +2431,36 @@
   "netRating": -0.1,
   "rankings": {
    "offense": 100,
-   "defense": 291,
-   "net": 173
+   "defense": 288,
+   "net": 172
   }
  },
  {
   "season": 2027,
-  "teamId": 63,
-  "team": "Davidson",
-  "conference": "A-10",
-  "offensiveRating": 103.4,
-  "defensiveRating": 103.4,
-  "netRating": -0.1,
+  "teamId": 74,
+  "team": "East Carolina",
+  "conference": "American",
+  "offensiveRating": 101.8,
+  "defensiveRating": 102,
+  "netRating": -0.2,
   "rankings": {
-   "offense": 270,
-   "defense": 78,
-   "net": 173
+   "offense": 299,
+   "defense": 51,
+   "net": 175
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 156,
+  "team": "Marist",
+  "conference": "Metro",
+  "offensiveRating": 104.5,
+  "defensiveRating": 105,
+  "netRating": -0.4,
+  "rankings": {
+   "offense": 243,
+   "defense": 113,
+   "net": 176
   }
  },
  {
@@ -2456,25 +2470,11 @@
   "conference": "SWAC",
   "offensiveRating": 109.7,
   "defensiveRating": 110.1,
-  "netRating": -0.3,
-  "rankings": {
-   "offense": 123,
-   "defense": 268,
-   "net": 176
-  }
- },
- {
-  "season": 2027,
-  "teamId": 156,
-  "team": "Marist",
-  "conference": "Metro",
-  "offensiveRating": 104.5,
-  "defensiveRating": 104.9,
   "netRating": -0.4,
   "rankings": {
-   "offense": 242,
-   "defense": 110,
-   "net": 177
+   "offense": 122,
+   "defense": 268,
+   "net": 176
   }
  },
  {
@@ -2488,7 +2488,7 @@
   "rankings": {
    "offense": 92,
    "defense": 303,
-   "net": 177
+   "net": 176
   }
  },
  {
@@ -2500,23 +2500,9 @@
   "defensiveRating": 105.6,
   "netRating": -0.5,
   "rankings": {
-   "offense": 226,
+   "offense": 227,
    "defense": 134,
    "net": 179
-  }
- },
- {
-  "season": 2027,
-  "teamId": 267,
-  "team": "South Carolina State",
-  "conference": "MEAC",
-  "offensiveRating": 105.2,
-  "defensiveRating": 105.9,
-  "netRating": -0.7,
-  "rankings": {
-   "offense": 223,
-   "defense": 142,
-   "net": 180
   }
  },
  {
@@ -2542,7 +2528,7 @@
   "defensiveRating": 112.2,
   "netRating": -0.7,
   "rankings": {
-   "offense": 89,
+   "offense": 88,
    "defense": 307,
    "net": 180
   }
@@ -2553,12 +2539,12 @@
   "team": "Lipscomb",
   "conference": "ASUN",
   "offensiveRating": 108.5,
-  "defensiveRating": 109.2,
+  "defensiveRating": 109.3,
   "netRating": -0.8,
   "rankings": {
    "offense": 152,
-   "defense": 238,
-   "net": 183
+   "defense": 241,
+   "net": 182
   }
  },
  {
@@ -2571,22 +2557,8 @@
   "netRating": -0.8,
   "rankings": {
    "offense": 187,
-   "defense": 194,
-   "net": 183
-  }
- },
- {
-  "season": 2027,
-  "teamId": 205,
-  "team": "Northeastern",
-  "conference": "CAA",
-  "offensiveRating": 109.1,
-  "defensiveRating": 109.9,
-  "netRating": -0.8,
-  "rankings": {
-   "offense": 138,
-   "defense": 261,
-   "net": 183
+   "defense": 195,
+   "net": 182
   }
  },
  {
@@ -2599,22 +2571,22 @@
   "netRating": -0.8,
   "rankings": {
    "offense": 199,
-   "defense": 173,
-   "net": 183
+   "defense": 174,
+   "net": 182
   }
  },
  {
   "season": 2027,
-  "teamId": 164,
-  "team": "Mercer",
-  "conference": "SoCon",
-  "offensiveRating": 110.2,
-  "defensiveRating": 111,
-  "netRating": -0.9,
+  "teamId": 205,
+  "team": "Northeastern",
+  "conference": "CAA",
+  "offensiveRating": 109.1,
+  "defensiveRating": 109.9,
+  "netRating": -0.8,
   "rankings": {
-   "offense": 112,
-   "defense": 294,
-   "net": 187
+   "offense": 139,
+   "defense": 261,
+   "net": 182
   }
  },
  {
@@ -2628,7 +2600,7 @@
   "rankings": {
    "offense": 85,
    "defense": 313,
-   "net": 187
+   "net": 186
   }
  },
  {
@@ -2642,21 +2614,7 @@
   "rankings": {
    "offense": 82,
    "defense": 317,
-   "net": 187
-  }
- },
- {
-  "season": 2027,
-  "teamId": 38,
-  "team": "Cal State Northridge",
-  "conference": "Big West",
-  "offensiveRating": 106.4,
-  "defensiveRating": 107.4,
-  "netRating": -1,
-  "rankings": {
-   "offense": 199,
-   "defense": 180,
-   "net": 190
+   "net": 186
   }
  },
  {
@@ -2664,27 +2622,27 @@
   "teamId": 262,
   "team": "Seattle U",
   "conference": "WCC",
-  "offensiveRating": 103.5,
+  "offensiveRating": 103.6,
   "defensiveRating": 104.5,
   "netRating": -1,
   "rankings": {
-   "offense": 266,
+   "offense": 265,
    "defense": 98,
-   "net": 190
+   "net": 188
   }
  },
  {
   "season": 2027,
-  "teamId": 217,
-  "team": "Oklahoma",
-  "conference": "SEC",
-  "offensiveRating": 107.5,
-  "defensiveRating": 108.6,
+  "teamId": 267,
+  "team": "South Carolina State",
+  "conference": "MEAC",
+  "offensiveRating": 105,
+  "defensiveRating": 106.2,
   "netRating": -1.1,
   "rankings": {
-   "offense": 176,
-   "defense": 224,
-   "net": 192
+   "offense": 229,
+   "defense": 149,
+   "net": 189
   }
  },
  {
@@ -2698,7 +2656,7 @@
   "rankings": {
    "offense": 60,
    "defense": 335,
-   "net": 192
+   "net": 189
   }
  },
  {
@@ -2712,21 +2670,49 @@
   "rankings": {
    "offense": 207,
    "defense": 180,
-   "net": 192
+   "net": 189
   }
  },
  {
   "season": 2027,
-  "teamId": 328,
-  "team": "UTSA",
-  "conference": "American",
-  "offensiveRating": 106.5,
-  "defensiveRating": 107.7,
+  "teamId": 38,
+  "team": "Cal State Northridge",
+  "conference": "Big West",
+  "offensiveRating": 106.4,
+  "defensiveRating": 107.5,
+  "netRating": -1.1,
+  "rankings": {
+   "offense": 199,
+   "defense": 182,
+   "net": 189
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 217,
+  "team": "Oklahoma",
+  "conference": "SEC",
+  "offensiveRating": 107.5,
+  "defensiveRating": 108.6,
+  "netRating": -1.1,
+  "rankings": {
+   "offense": 176,
+   "defense": 225,
+   "net": 189
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 164,
+  "team": "Mercer",
+  "conference": "SoCon",
+  "offensiveRating": 109.9,
+  "defensiveRating": 111.1,
   "netRating": -1.2,
   "rankings": {
-   "offense": 197,
-   "defense": 188,
-   "net": 195
+   "offense": 118,
+   "defense": 295,
+   "net": 194
   }
  },
  {
@@ -2739,8 +2725,36 @@
   "netRating": -1.2,
   "rankings": {
    "offense": 229,
-   "defense": 150,
-   "net": 195
+   "defense": 149,
+   "net": 194
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 328,
+  "team": "UTSA",
+  "conference": "American",
+  "offensiveRating": 106.5,
+  "defensiveRating": 107.7,
+  "netRating": -1.2,
+  "rankings": {
+   "offense": 197,
+   "defense": 187,
+   "net": 194
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 73,
+  "team": "Duquesne",
+  "conference": "A-10",
+  "offensiveRating": 105.4,
+  "defensiveRating": 106.7,
+  "netRating": -1.3,
+  "rankings": {
+   "offense": 222,
+   "defense": 165,
+   "net": 197
   }
  },
  {
@@ -2759,6 +2773,20 @@
  },
  {
   "season": 2027,
+  "teamId": 282,
+  "team": "Stephen F. Austin",
+  "conference": "Southland",
+  "offensiveRating": 107.1,
+  "defensiveRating": 108.5,
+  "netRating": -1.4,
+  "rankings": {
+   "offense": 187,
+   "defense": 221,
+   "net": 199
+  }
+ },
+ {
+  "season": 2027,
   "teamId": 361,
   "team": "Youngstown State",
   "conference": "Horizon",
@@ -2768,21 +2796,7 @@
   "rankings": {
    "offense": 211,
    "defense": 177,
-   "net": 198
-  }
- },
- {
-  "season": 2027,
-  "teamId": 106,
-  "team": "Hampton",
-  "conference": "CAA",
-  "offensiveRating": 101.2,
-  "defensiveRating": 102.6,
-  "netRating": -1.4,
-  "rankings": {
-   "offense": 312,
-   "defense": 60,
-   "net": 198
+   "net": 199
   }
  },
  {
@@ -2795,36 +2809,36 @@
   "netRating": -1.4,
   "rankings": {
    "offense": 158,
-   "defense": 253,
-   "net": 198
+   "defense": 254,
+   "net": 199
   }
  },
  {
   "season": 2027,
-  "teamId": 73,
-  "team": "Duquesne",
-  "conference": "A-10",
-  "offensiveRating": 105.4,
-  "defensiveRating": 106.7,
-  "netRating": -1.4,
+  "teamId": 43,
+  "team": "Central Arkansas",
+  "conference": "UAC",
+  "offensiveRating": 105.5,
+  "defensiveRating": 107.1,
+  "netRating": -1.5,
   "rankings": {
-   "offense": 221,
-   "defense": 165,
-   "net": 198
+   "offense": 220,
+   "defense": 172,
+   "net": 202
   }
  },
  {
   "season": 2027,
-  "teamId": 282,
-  "team": "Stephen F. Austin",
-  "conference": "Southland",
-  "offensiveRating": 107.1,
-  "defensiveRating": 108.5,
-  "netRating": -1.4,
+  "teamId": 106,
+  "team": "Hampton",
+  "conference": "CAA",
+  "offensiveRating": 101.2,
+  "defensiveRating": 102.6,
+  "netRating": -1.5,
   "rankings": {
-   "offense": 187,
-   "defense": 220,
-   "net": 198
+   "offense": 311,
+   "defense": 60,
+   "net": 202
   }
  },
  {
@@ -2837,22 +2851,8 @@
   "netRating": -1.5,
   "rankings": {
    "offense": 270,
-   "defense": 110,
-   "net": 203
-  }
- },
- {
-  "season": 2027,
-  "teamId": 43,
-  "team": "Central Arkansas",
-  "conference": "UAC",
-  "offensiveRating": 105.5,
-  "defensiveRating": 107.1,
-  "netRating": -1.5,
-  "rankings": {
-   "offense": 218,
-   "defense": 172,
-   "net": 203
+   "defense": 109,
+   "net": 202
   }
  },
  {
@@ -2864,23 +2864,9 @@
   "defensiveRating": 110.7,
   "netRating": -1.6,
   "rankings": {
-   "offense": 138,
+   "offense": 139,
    "defense": 286,
    "net": 205
-  }
- },
- {
-  "season": 2027,
-  "teamId": 41,
-  "team": "Campbell",
-  "conference": "CAA",
-  "offensiveRating": 113.5,
-  "defensiveRating": 115.2,
-  "netRating": -1.7,
-  "rankings": {
-   "offense": 54,
-   "defense": 348,
-   "net": 206
   }
  },
  {
@@ -2893,7 +2879,7 @@
   "netRating": -1.7,
   "rankings": {
    "offense": 163,
-   "defense": 256,
+   "defense": 257,
    "net": 206
   }
  },
@@ -2903,40 +2889,12 @@
   "team": "Morgan State",
   "conference": "MEAC",
   "offensiveRating": 103.1,
-  "defensiveRating": 104.8,
-  "netRating": -1.7,
+  "defensiveRating": 104.9,
+  "netRating": -1.8,
   "rankings": {
    "offense": 277,
-   "defense": 105,
-   "net": 206
-  }
- },
- {
-  "season": 2027,
-  "teamId": 55,
-  "team": "Colgate",
-  "conference": "Patriot",
-  "offensiveRating": 106.4,
-  "defensiveRating": 108.3,
-  "netRating": -1.9,
-  "rankings": {
-   "offense": 199,
-   "defense": 211,
-   "net": 209
-  }
- },
- {
-  "season": 2027,
-  "teamId": 272,
-  "team": "Southeast Missouri State",
-  "conference": "OVC",
-  "offensiveRating": 107.2,
-  "defensiveRating": 109.2,
-  "netRating": -2,
-  "rankings": {
-   "offense": 184,
-   "defense": 238,
-   "net": 210
+   "defense": 109,
+   "net": 207
   }
  },
  {
@@ -2946,11 +2904,39 @@
   "conference": "CUSA",
   "offensiveRating": 104.6,
   "defensiveRating": 106.5,
-  "netRating": -2,
+  "netRating": -1.9,
   "rankings": {
    "offense": 238,
    "defense": 159,
-   "net": 210
+   "net": 208
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 272,
+  "team": "Southeast Missouri State",
+  "conference": "OVC",
+  "offensiveRating": 107.2,
+  "defensiveRating": 109.3,
+  "netRating": -2,
+  "rankings": {
+   "offense": 184,
+   "defense": 241,
+   "net": 209
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 55,
+  "team": "Colgate",
+  "conference": "Patriot",
+  "offensiveRating": 106.4,
+  "defensiveRating": 108.3,
+  "netRating": -2,
+  "rankings": {
+   "offense": 199,
+   "defense": 212,
+   "net": 209
   }
  },
  {
@@ -2964,7 +2950,21 @@
   "rankings": {
    "offense": 196,
    "defense": 227,
-   "net": 212
+   "net": 211
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 86,
+  "team": "Florida Atlantic",
+  "conference": "American",
+  "offensiveRating": 108.4,
+  "defensiveRating": 110.6,
+  "netRating": -2.1,
+  "rankings": {
+   "offense": 154,
+   "defense": 281,
+   "net": 211
   }
  },
  {
@@ -2976,8 +2976,8 @@
   "defensiveRating": 106.4,
   "netRating": -2.2,
   "rankings": {
-   "offense": 251,
-   "defense": 155,
+   "offense": 252,
+   "defense": 157,
    "net": 213
   }
  },
@@ -2997,15 +2997,15 @@
  },
  {
   "season": 2027,
-  "teamId": 86,
-  "team": "Florida Atlantic",
-  "conference": "American",
-  "offensiveRating": 108.4,
-  "defensiveRating": 110.6,
+  "teamId": 41,
+  "team": "Campbell",
+  "conference": "CAA",
+  "offensiveRating": 113.3,
+  "defensiveRating": 115.5,
   "netRating": -2.2,
   "rankings": {
-   "offense": 154,
-   "defense": 281,
+   "offense": 56,
+   "defense": 348,
    "net": 213
   }
  },
@@ -3014,26 +3014,12 @@
   "teamId": 35,
   "team": "Cal Poly",
   "conference": "Big West",
-  "offensiveRating": 104.6,
+  "offensiveRating": 104.5,
   "defensiveRating": 106.8,
   "netRating": -2.3,
   "rankings": {
-   "offense": 238,
-   "defense": 169,
-   "net": 216
-  }
- },
- {
-  "season": 2027,
-  "teamId": 123,
-  "team": "Iona",
-  "conference": "Metro",
-  "offensiveRating": 101.7,
-  "defensiveRating": 104.1,
-  "netRating": -2.3,
-  "rankings": {
-   "offense": 302,
-   "defense": 92,
+   "offense": 243,
+   "defense": 168,
    "net": 216
   }
  },
@@ -3042,41 +3028,13 @@
   "teamId": 197,
   "team": "North Alabama",
   "conference": "UAC",
-  "offensiveRating": 105.5,
+  "offensiveRating": 105.6,
   "defensiveRating": 108,
   "netRating": -2.4,
   "rankings": {
    "offense": 218,
    "defense": 202,
-   "net": 218
-  }
- },
- {
-  "season": 2027,
-  "teamId": 199,
-  "team": "North Carolina Central",
-  "conference": "MEAC",
-  "offensiveRating": 102.7,
-  "defensiveRating": 105,
-  "netRating": -2.4,
-  "rankings": {
-   "offense": 291,
-   "defense": 114,
-   "net": 218
-  }
- },
- {
-  "season": 2027,
-  "teamId": 285,
-  "team": "Stony Brook",
-  "conference": "CAA",
-  "offensiveRating": 107.6,
-  "defensiveRating": 110,
-  "netRating": -2.4,
-  "rankings": {
-   "offense": 173,
-   "defense": 265,
-   "net": 218
+   "net": 217
   }
  },
  {
@@ -3090,21 +3048,21 @@
   "rankings": {
    "offense": 167,
    "defense": 279,
-   "net": 218
+   "net": 217
   }
  },
  {
   "season": 2027,
-  "teamId": 331,
-  "team": "Utah",
-  "conference": "Big 12",
-  "offensiveRating": 102.7,
-  "defensiveRating": 105.2,
-  "netRating": -2.5,
+  "teamId": 199,
+  "team": "North Carolina Central",
+  "conference": "MEAC",
+  "offensiveRating": 102.6,
+  "defensiveRating": 105,
+  "netRating": -2.4,
   "rankings": {
    "offense": 291,
-   "defense": 122,
-   "net": 222
+   "defense": 113,
+   "net": 217
   }
  },
  {
@@ -3114,11 +3072,67 @@
   "conference": "Mountain West",
   "offensiveRating": 103.1,
   "defensiveRating": 105.5,
-  "netRating": -2.5,
+  "netRating": -2.4,
   "rankings": {
    "offense": 277,
    "defense": 132,
-   "net": 222
+   "net": 217
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 123,
+  "team": "Iona",
+  "conference": "Metro",
+  "offensiveRating": 101.7,
+  "defensiveRating": 104.1,
+  "netRating": -2.4,
+  "rankings": {
+   "offense": 301,
+   "defense": 92,
+   "net": 217
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 285,
+  "team": "Stony Brook",
+  "conference": "CAA",
+  "offensiveRating": 107.6,
+  "defensiveRating": 110,
+  "netRating": -2.4,
+  "rankings": {
+   "offense": 174,
+   "defense": 265,
+   "net": 217
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 331,
+  "team": "Utah",
+  "conference": "Big 12",
+  "offensiveRating": 102.8,
+  "defensiveRating": 105.2,
+  "netRating": -2.5,
+  "rankings": {
+   "offense": 286,
+   "defense": 122,
+   "net": 223
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 256,
+  "team": "Samford",
+  "conference": "SoCon",
+  "offensiveRating": 105.6,
+  "defensiveRating": 108.2,
+  "netRating": -2.6,
+  "rankings": {
+   "offense": 218,
+   "defense": 209,
+   "net": 224
   }
  },
  {
@@ -3131,8 +3145,8 @@
   "netRating": -2.7,
   "rankings": {
    "offense": 189,
-   "defense": 253,
-   "net": 224
+   "defense": 254,
+   "net": 225
   }
  },
  {
@@ -3146,7 +3160,7 @@
   "rankings": {
    "offense": 183,
    "defense": 268,
-   "net": 225
+   "net": 226
   }
  },
  {
@@ -3159,8 +3173,8 @@
   "netRating": -2.8,
   "rankings": {
    "offense": 163,
-   "defense": 291,
-   "net": 225
+   "defense": 288,
+   "net": 226
   }
  },
  {
@@ -3174,63 +3188,7 @@
   "rankings": {
    "offense": 282,
    "defense": 138,
-   "net": 225
-  }
- },
- {
-  "season": 2027,
-  "teamId": 238,
-  "team": "Quinnipiac",
-  "conference": "Metro",
-  "offensiveRating": 107.6,
-  "defensiveRating": 110.5,
-  "netRating": -2.9,
-  "rankings": {
-   "offense": 173,
-   "defense": 279,
-   "net": 228
-  }
- },
- {
-  "season": 2027,
-  "teamId": 307,
-  "team": "UC Davis",
-  "conference": "Mountain West",
-  "offensiveRating": 101.8,
-  "defensiveRating": 104.7,
-  "netRating": -2.9,
-  "rankings": {
-   "offense": 301,
-   "defense": 103,
-   "net": 228
-  }
- },
- {
-  "season": 2027,
-  "teamId": 30,
-  "team": "Brown",
-  "conference": "Ivy",
-  "offensiveRating": 101.9,
-  "defensiveRating": 104.8,
-  "netRating": -2.9,
-  "rankings": {
-   "offense": 300,
-   "defense": 105,
-   "net": 228
-  }
- },
- {
-  "season": 2027,
-  "teamId": 171,
-  "team": "Middle Tennessee",
-  "conference": "CUSA",
-  "offensiveRating": 106.1,
-  "defensiveRating": 108.9,
-  "netRating": -2.9,
-  "rankings": {
-   "offense": 209,
-   "defense": 230,
-   "net": 228
+   "net": 226
   }
  },
  {
@@ -3243,8 +3201,64 @@
   "netRating": -2.9,
   "rankings": {
    "offense": 229,
-   "defense": 194,
-   "net": 228
+   "defense": 195,
+   "net": 229
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 171,
+  "team": "Middle Tennessee",
+  "conference": "CUSA",
+  "offensiveRating": 106.1,
+  "defensiveRating": 109,
+  "netRating": -2.9,
+  "rankings": {
+   "offense": 209,
+   "defense": 232,
+   "net": 229
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 30,
+  "team": "Brown",
+  "conference": "Ivy",
+  "offensiveRating": 101.9,
+  "defensiveRating": 104.8,
+  "netRating": -2.9,
+  "rankings": {
+   "offense": 298,
+   "defense": 105,
+   "net": 229
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 238,
+  "team": "Quinnipiac",
+  "conference": "Metro",
+  "offensiveRating": 107.6,
+  "defensiveRating": 110.5,
+  "netRating": -2.9,
+  "rankings": {
+   "offense": 174,
+   "defense": 279,
+   "net": 229
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 307,
+  "team": "UC Davis",
+  "conference": "Mountain West",
+  "offensiveRating": 101.8,
+  "defensiveRating": 104.7,
+  "netRating": -2.9,
+  "rankings": {
+   "offense": 299,
+   "defense": 103,
+   "net": 229
   }
  },
  {
@@ -3258,21 +3272,7 @@
   "rankings": {
    "offense": 97,
    "defense": 333,
-   "net": 228
-  }
- },
- {
-  "season": 2027,
-  "teamId": 67,
-  "team": "Delaware State",
-  "conference": "MEAC",
-  "offensiveRating": 103.7,
-  "defensiveRating": 106.7,
-  "netRating": -3.1,
-  "rankings": {
-   "offense": 262,
-   "defense": 165,
-   "net": 234
+   "net": 229
   }
  },
  {
@@ -3285,8 +3285,22 @@
   "netRating": -3.1,
   "rankings": {
    "offense": 193,
-   "defense": 256,
-   "net": 234
+   "defense": 257,
+   "net": 235
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 67,
+  "team": "Delaware State",
+  "conference": "MEAC",
+  "offensiveRating": 103.6,
+  "defensiveRating": 106.8,
+  "netRating": -3.2,
+  "rankings": {
+   "offense": 265,
+   "defense": 168,
+   "net": 236
   }
  },
  {
@@ -3298,9 +3312,9 @@
   "defensiveRating": 107.8,
   "netRating": -3.4,
   "rankings": {
-   "offense": 245,
-   "defense": 192,
-   "net": 236
+   "offense": 247,
+   "defense": 191,
+   "net": 237
   }
  },
  {
@@ -3312,9 +3326,9 @@
   "defensiveRating": 115.7,
   "netRating": -3.5,
   "rankings": {
-   "offense": 71,
+   "offense": 70,
    "defense": 350,
-   "net": 237
+   "net": 238
   }
  },
  {
@@ -3327,21 +3341,7 @@
   "netRating": -3.6,
   "rankings": {
    "offense": 141,
-   "defense": 314,
-   "net": 238
-  }
- },
- {
-  "season": 2027,
-  "teamId": 57,
-  "team": "Colorado State",
-  "conference": "Pac-12",
-  "offensiveRating": 101.7,
-  "defensiveRating": 105.5,
-  "netRating": -3.8,
-  "rankings": {
-   "offense": 302,
-   "defense": 132,
+   "defense": 315,
    "net": 239
   }
  },
@@ -3354,9 +3354,9 @@
   "defensiveRating": 107.9,
   "netRating": -3.8,
   "rankings": {
-   "offense": 255,
-   "defense": 194,
-   "net": 239
+   "offense": 257,
+   "defense": 195,
+   "net": 240
   }
  },
  {
@@ -3368,23 +3368,37 @@
   "defensiveRating": 109,
   "netRating": -3.8,
   "rankings": {
-   "offense": 222,
+   "offense": 223,
    "defense": 232,
-   "net": 239
+   "net": 240
   }
  },
  {
   "season": 2027,
-  "teamId": 326,
-  "team": "UT Rio Grande Valley",
-  "conference": "Southland",
-  "offensiveRating": 105.7,
-  "defensiveRating": 109.6,
-  "netRating": -3.9,
+  "teamId": 57,
+  "team": "Colorado State",
+  "conference": "Pac-12",
+  "offensiveRating": 101.7,
+  "defensiveRating": 105.5,
+  "netRating": -3.8,
   "rankings": {
-   "offense": 215,
-   "defense": 249,
-   "net": 242
+   "offense": 301,
+   "defense": 132,
+   "net": 240
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 2,
+  "team": "Air Force",
+  "conference": "Mountain West",
+  "offensiveRating": 110.4,
+  "defensiveRating": 114.2,
+  "netRating": -3.8,
+  "rankings": {
+   "offense": 107,
+   "defense": 339,
+   "net": 240
   }
  },
  {
@@ -3396,9 +3410,9 @@
   "defensiveRating": 113.9,
   "netRating": -3.9,
   "rankings": {
-   "offense": 116,
+   "offense": 115,
    "defense": 335,
-   "net": 242
+   "net": 244
   }
  },
  {
@@ -3410,23 +3424,23 @@
   "defensiveRating": 119.2,
   "netRating": -3.9,
   "rankings": {
-   "offense": 23,
+   "offense": 24,
    "defense": 362,
-   "net": 242
+   "net": 244
   }
  },
  {
   "season": 2027,
-  "teamId": 2,
-  "team": "Air Force",
-  "conference": "Mountain West",
-  "offensiveRating": 110.4,
-  "defensiveRating": 114.3,
+  "teamId": 326,
+  "team": "UT Rio Grande Valley",
+  "conference": "Southland",
+  "offensiveRating": 105.7,
+  "defensiveRating": 109.6,
   "netRating": -3.9,
   "rankings": {
-   "offense": 108,
-   "defense": 340,
-   "net": 242
+   "offense": 214,
+   "defense": 249,
+   "net": 244
   }
  },
  {
@@ -3435,12 +3449,26 @@
   "team": "Northwestern",
   "conference": "Big Ten",
   "offensiveRating": 103.2,
-  "defensiveRating": 107.2,
-  "netRating": -4,
+  "defensiveRating": 107.1,
+  "netRating": -3.9,
   "rankings": {
    "offense": 274,
-   "defense": 173,
-   "net": 246
+   "defense": 172,
+   "net": 244
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 133,
+  "team": "Kennesaw State",
+  "conference": "CUSA",
+  "offensiveRating": 104.3,
+  "defensiveRating": 108.3,
+  "netRating": -4,
+  "rankings": {
+   "offense": 250,
+   "defense": 212,
+   "net": 248
   }
  },
  {
@@ -3454,21 +3482,35 @@
   "rankings": {
    "offense": 169,
    "defense": 302,
-   "net": 246
+   "net": 248
   }
  },
  {
   "season": 2027,
-  "teamId": 133,
-  "team": "Kennesaw State",
-  "conference": "CUSA",
-  "offensiveRating": 104.3,
-  "defensiveRating": 108.3,
+  "teamId": 322,
+  "team": "UNLV",
+  "conference": "Mountain West",
+  "offensiveRating": 107.7,
+  "defensiveRating": 111.8,
   "netRating": -4.1,
   "rankings": {
-   "offense": 248,
-   "defense": 211,
-   "net": 248
+   "offense": 169,
+   "defense": 303,
+   "net": 250
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 365,
+  "team": "Southern Indiana",
+  "conference": "OVC",
+  "offensiveRating": 100.5,
+  "defensiveRating": 104.7,
+  "netRating": -4.2,
+  "rankings": {
+   "offense": 319,
+   "defense": 103,
+   "net": 251
   }
  },
  {
@@ -3482,7 +3524,7 @@
   "rankings": {
    "offense": 199,
    "defense": 281,
-   "net": 249
+   "net": 251
   }
  },
  {
@@ -3490,27 +3532,13 @@
   "teamId": 103,
   "team": "Grambling",
   "conference": "SWAC",
-  "offensiveRating": 106.1,
+  "offensiveRating": 106,
   "defensiveRating": 110.3,
-  "netRating": -4.2,
+  "netRating": -4.3,
   "rankings": {
-   "offense": 209,
-   "defense": 271,
-   "net": 249
-  }
- },
- {
-  "season": 2027,
-  "teamId": 365,
-  "team": "Southern Indiana",
-  "conference": "OVC",
-  "offensiveRating": 100.5,
-  "defensiveRating": 104.7,
-  "netRating": -4.2,
-  "rankings": {
-   "offense": 321,
-   "defense": 103,
-   "net": 249
+   "offense": 210,
+   "defense": 272,
+   "net": 253
   }
  },
  {
@@ -3522,23 +3550,23 @@
   "defensiveRating": 106.6,
   "netRating": -4.3,
   "rankings": {
-   "offense": 295,
-   "defense": 160,
-   "net": 252
+   "offense": 294,
+   "defense": 161,
+   "net": 253
   }
  },
  {
   "season": 2027,
-  "teamId": 110,
-  "team": "Hofstra",
-  "conference": "CAA",
-  "offensiveRating": 101.4,
-  "defensiveRating": 105.7,
+  "teamId": 204,
+  "team": "North Texas",
+  "conference": "American",
+  "offensiveRating": 104.3,
+  "defensiveRating": 108.8,
   "netRating": -4.4,
   "rankings": {
-   "offense": 308,
-   "defense": 136,
-   "net": 253
+   "offense": 250,
+   "defense": 230,
+   "net": 255
   }
  },
  {
@@ -3552,7 +3580,21 @@
   "rankings": {
    "offense": 145,
    "defense": 322,
-   "net": 253
+   "net": 255
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 110,
+  "team": "Hofstra",
+  "conference": "CAA",
+  "offensiveRating": 101.4,
+  "defensiveRating": 105.7,
+  "netRating": -4.4,
+  "rankings": {
+   "offense": 307,
+   "defense": 136,
+   "net": 255
   }
  },
  {
@@ -3565,22 +3607,36 @@
   "netRating": -4.5,
   "rankings": {
    "offense": 297,
-   "defense": 160,
-   "net": 255
+   "defense": 161,
+   "net": 258
   }
  },
  {
   "season": 2027,
-  "teamId": 204,
-  "team": "North Texas",
-  "conference": "American",
-  "offensiveRating": 104.3,
-  "defensiveRating": 108.8,
+  "teamId": 206,
+  "team": "Northern Arizona",
+  "conference": "Big Sky",
+  "offensiveRating": 112,
+  "defensiveRating": 116.5,
   "netRating": -4.5,
   "rankings": {
-   "offense": 248,
-   "defense": 229,
-   "net": 255
+   "offense": 75,
+   "defense": 356,
+   "net": 258
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 64,
+  "team": "Dayton",
+  "conference": "A-10",
+  "offensiveRating": 108,
+  "defensiveRating": 112.5,
+  "netRating": -4.6,
+  "rankings": {
+   "offense": 167,
+   "defense": 313,
+   "net": 260
   }
  },
  {
@@ -3590,53 +3646,25 @@
   "conference": "Horizon",
   "offensiveRating": 109.3,
   "defensiveRating": 113.8,
-  "netRating": -4.5,
+  "netRating": -4.6,
   "rankings": {
-   "offense": 135,
+   "offense": 136,
    "defense": 333,
-   "net": 255
+   "net": 260
   }
  },
  {
   "season": 2027,
-  "teamId": 206,
-  "team": "Northern Arizona",
-  "conference": "Big Sky",
-  "offensiveRating": 112,
-  "defensiveRating": 116.6,
-  "netRating": -4.5,
+  "teamId": 40,
+  "team": "California",
+  "conference": "ACC",
+  "offensiveRating": 104.8,
+  "defensiveRating": 109.6,
+  "netRating": -4.7,
   "rankings": {
-   "offense": 75,
-   "defense": 356,
-   "net": 255
-  }
- },
- {
-  "season": 2027,
-  "teamId": 64,
-  "team": "Dayton",
-  "conference": "A-10",
-  "offensiveRating": 108,
-  "defensiveRating": 112.6,
-  "netRating": -4.6,
-  "rankings": {
-   "offense": 167,
-   "defense": 314,
-   "net": 259
-  }
- },
- {
-  "season": 2027,
-  "teamId": 322,
-  "team": "UNLV",
-  "conference": "Mountain West",
-  "offensiveRating": 107.4,
-  "defensiveRating": 112,
-  "netRating": -4.6,
-  "rankings": {
-   "offense": 179,
-   "defense": 305,
-   "net": 259
+   "offense": 233,
+   "defense": 249,
+   "net": 262
   }
  },
  {
@@ -3650,21 +3678,7 @@
   "rankings": {
    "offense": 314,
    "defense": 134,
-   "net": 261
-  }
- },
- {
-  "season": 2027,
-  "teamId": 40,
-  "team": "California",
-  "conference": "ACC",
-  "offensiveRating": 104.8,
-  "defensiveRating": 109.6,
-  "netRating": -4.8,
-  "rankings": {
-   "offense": 233,
-   "defense": 249,
-   "net": 261
+   "net": 263
   }
  },
  {
@@ -3678,7 +3692,7 @@
   "rankings": {
    "offense": 324,
    "defense": 124,
-   "net": 263
+   "net": 264
   }
  },
  {
@@ -3690,9 +3704,9 @@
   "defensiveRating": 114.6,
   "netRating": -4.9,
   "rankings": {
-   "offense": 123,
+   "offense": 122,
    "defense": 343,
-   "net": 263
+   "net": 264
   }
  },
  {
@@ -3702,11 +3716,11 @@
   "conference": "OVC",
   "offensiveRating": 103.4,
   "defensiveRating": 108.4,
-  "netRating": -5,
+  "netRating": -5.1,
   "rankings": {
    "offense": 270,
-   "defense": 216,
-   "net": 265
+   "defense": 217,
+   "net": 266
   }
  },
  {
@@ -3715,11 +3729,11 @@
   "team": "Denver",
   "conference": "WCC",
   "offensiveRating": 101.4,
-  "defensiveRating": 106.4,
+  "defensiveRating": 106.5,
   "netRating": -5.1,
   "rankings": {
-   "offense": 308,
-   "defense": 155,
+   "offense": 307,
+   "defense": 159,
    "net": 266
   }
  },
@@ -3732,9 +3746,9 @@
   "defensiveRating": 108.7,
   "netRating": -5.2,
   "rankings": {
-   "offense": 266,
+   "offense": 267,
    "defense": 227,
-   "net": 267
+   "net": 268
   }
  },
  {
@@ -3747,21 +3761,7 @@
   "netRating": -5.3,
   "rankings": {
    "offense": 203,
-   "defense": 301,
-   "net": 268
-  }
- },
- {
-  "season": 2027,
-  "teamId": 13,
-  "team": "Arkansas State",
-  "conference": "Sun Belt",
-  "offensiveRating": 102.3,
-  "defensiveRating": 108.1,
-  "netRating": -5.7,
-  "rankings": {
-   "offense": 295,
-   "defense": 205,
+   "defense": 300,
    "net": 269
   }
  },
@@ -3776,7 +3776,35 @@
   "rankings": {
    "offense": 233,
    "defense": 281,
-   "net": 269
+   "net": 270
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 13,
+  "team": "Arkansas State",
+  "conference": "Sun Belt",
+  "offensiveRating": 102.4,
+  "defensiveRating": 108,
+  "netRating": -5.7,
+  "rankings": {
+   "offense": 292,
+   "defense": 202,
+   "net": 270
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 192,
+  "team": "New Mexico State",
+  "conference": "CUSA",
+  "offensiveRating": 105.2,
+  "defensiveRating": 111.1,
+  "netRating": -5.9,
+  "rankings": {
+   "offense": 224,
+   "defense": 295,
+   "net": 272
   }
  },
  {
@@ -3790,21 +3818,7 @@
   "rankings": {
    "offense": 350,
    "defense": 73,
-   "net": 271
-  }
- },
- {
-  "season": 2027,
-  "teamId": 192,
-  "team": "New Mexico State",
-  "conference": "CUSA",
-  "offensiveRating": 105.2,
-  "defensiveRating": 111.1,
-  "netRating": -5.9,
-  "rankings": {
-   "offense": 223,
-   "defense": 297,
-   "net": 271
+   "net": 272
   }
  },
  {
@@ -3817,8 +3831,22 @@
   "netRating": -6,
   "rankings": {
    "offense": 260,
-   "defense": 256,
-   "net": 273
+   "defense": 257,
+   "net": 274
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 165,
+  "team": "Mercyhurst",
+  "conference": "NEC",
+  "offensiveRating": 102.2,
+  "defensiveRating": 108.3,
+  "netRating": -6.1,
+  "rankings": {
+   "offense": 296,
+   "defense": 212,
+   "net": 275
   }
  },
  {
@@ -3831,22 +3859,8 @@
   "netRating": -6.2,
   "rankings": {
    "offense": 354,
-   "defense": 65,
-   "net": 274
-  }
- },
- {
-  "season": 2027,
-  "teamId": 165,
-  "team": "Mercyhurst",
-  "conference": "NEC",
-  "offensiveRating": 102.1,
-  "defensiveRating": 108.3,
-  "netRating": -6.2,
-  "rankings": {
-   "offense": 297,
-   "defense": 211,
-   "net": 274
+   "defense": 64,
+   "net": 276
   }
  },
  {
@@ -3854,13 +3868,13 @@
   "teamId": 259,
   "team": "San Francisco",
   "conference": "WCC",
-  "offensiveRating": 101.5,
+  "offensiveRating": 101.6,
   "defensiveRating": 107.9,
   "netRating": -6.3,
   "rankings": {
-   "offense": 306,
-   "defense": 194,
-   "net": 276
+   "offense": 303,
+   "defense": 195,
+   "net": 277
   }
  },
  {
@@ -3868,26 +3882,12 @@
   "teamId": 31,
   "team": "Bryant",
   "conference": "Am. East",
-  "offensiveRating": 97.4,
+  "offensiveRating": 97.5,
   "defensiveRating": 103.8,
   "netRating": -6.4,
   "rankings": {
-   "offense": 346,
+   "offense": 344,
    "defense": 85,
-   "net": 277
-  }
- },
- {
-  "season": 2027,
-  "teamId": 122,
-  "team": "Indiana State",
-  "conference": "MVC",
-  "offensiveRating": 103.5,
-  "defensiveRating": 110.1,
-  "netRating": -6.6,
-  "rankings": {
-   "offense": 266,
-   "defense": 268,
    "net": 278
   }
  },
@@ -3900,9 +3900,23 @@
   "defensiveRating": 112.3,
   "netRating": -6.6,
   "rankings": {
-   "offense": 215,
+   "offense": 214,
    "defense": 310,
-   "net": 278
+   "net": 279
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 122,
+  "team": "Indiana State",
+  "conference": "MVC",
+  "offensiveRating": 103.5,
+  "defensiveRating": 110.1,
+  "netRating": -6.6,
+  "rankings": {
+   "offense": 267,
+   "defense": 268,
+   "net": 279
   }
  },
  {
@@ -3914,9 +3928,9 @@
   "defensiveRating": 108,
   "netRating": -6.6,
   "rankings": {
-   "offense": 308,
+   "offense": 307,
    "defense": 202,
-   "net": 278
+   "net": 279
   }
  },
  {
@@ -3924,54 +3938,12 @@
   "teamId": 247,
   "team": "SIU Edwardsville",
   "conference": "OVC",
-  "offensiveRating": 102.8,
+  "offensiveRating": 102.7,
   "defensiveRating": 109.5,
-  "netRating": -6.7,
-  "rankings": {
-   "offense": 287,
-   "defense": 247,
-   "net": 281
-  }
- },
- {
-  "season": 2027,
-  "teamId": 256,
-  "team": "Samford",
-  "conference": "SoCon",
-  "offensiveRating": 103.9,
-  "defensiveRating": 110.7,
   "netRating": -6.8,
   "rankings": {
-   "offense": 258,
-   "defense": 286,
-   "net": 282
-  }
- },
- {
-  "season": 2027,
-  "teamId": 330,
-  "team": "Utah Tech",
-  "conference": "Big Sky",
-  "offensiveRating": 107.2,
-  "defensiveRating": 114.1,
-  "netRating": -6.8,
-  "rankings": {
-   "offense": 184,
-   "defense": 337,
-   "net": 282
-  }
- },
- {
-  "season": 2027,
-  "teamId": 356,
-  "team": "Wofford",
-  "conference": "SoCon",
-  "offensiveRating": 109.7,
-  "defensiveRating": 116.6,
-  "netRating": -6.8,
-  "rankings": {
-   "offense": 123,
-   "defense": 356,
+   "offense": 290,
+   "defense": 248,
    "net": 282
   }
  },
@@ -3982,11 +3954,25 @@
   "conference": "Sun Belt",
   "offensiveRating": 104.2,
   "defensiveRating": 111,
+  "netRating": -6.8,
+  "rankings": {
+   "offense": 252,
+   "defense": 293,
+   "net": 282
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 330,
+  "team": "Utah Tech",
+  "conference": "Big Sky",
+  "offensiveRating": 107.2,
+  "defensiveRating": 114.1,
   "netRating": -6.9,
   "rankings": {
-   "offense": 251,
-   "defense": 294,
-   "net": 285
+   "offense": 184,
+   "defense": 337,
+   "net": 284
   }
  },
  {
@@ -4000,7 +3986,21 @@
   "rankings": {
    "offense": 338,
    "defense": 118,
-   "net": 285
+   "net": 284
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 356,
+  "team": "Wofford",
+  "conference": "SoCon",
+  "offensiveRating": 109.7,
+  "defensiveRating": 116.6,
+  "netRating": -6.9,
+  "rankings": {
+   "offense": 122,
+   "defense": 357,
+   "net": 284
   }
  },
  {
@@ -4012,7 +4012,7 @@
   "defensiveRating": 104.8,
   "netRating": -7.1,
   "rankings": {
-   "offense": 343,
+   "offense": 342,
    "defense": 105,
    "net": 287
   }
@@ -4040,22 +4040,8 @@
   "defensiveRating": 117.3,
   "netRating": -7.3,
   "rankings": {
-   "offense": 116,
+   "offense": 115,
    "defense": 358,
-   "net": 289
-  }
- },
- {
-  "season": 2027,
-  "teamId": 268,
-  "team": "South Carolina Upstate",
-  "conference": "Big South",
-  "offensiveRating": 103,
-  "defensiveRating": 110.3,
-  "netRating": -7.3,
-  "rankings": {
-   "offense": 282,
-   "defense": 271,
    "net": 289
   }
  },
@@ -4065,11 +4051,25 @@
   "team": "Jackson State",
   "conference": "SWAC",
   "offensiveRating": 101.2,
-  "defensiveRating": 108.6,
+  "defensiveRating": 108.7,
   "netRating": -7.4,
   "rankings": {
-   "offense": 312,
-   "defense": 224,
+   "offense": 311,
+   "defense": 227,
+   "net": 290
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 166,
+  "team": "Merrimack",
+  "conference": "Metro",
+  "offensiveRating": 101.6,
+  "defensiveRating": 109.2,
+  "netRating": -7.5,
+  "rankings": {
+   "offense": 303,
+   "defense": 238,
    "net": 291
   }
  },
@@ -4080,11 +4080,11 @@
   "conference": "MAC",
   "offensiveRating": 101.5,
   "defensiveRating": 109,
-  "netRating": -7.6,
+  "netRating": -7.5,
   "rankings": {
    "offense": 306,
    "defense": 232,
-   "net": 292
+   "net": 291
   }
  },
  {
@@ -4096,9 +4096,9 @@
   "defensiveRating": 110.4,
   "netRating": -7.6,
   "rankings": {
-   "offense": 287,
+   "offense": 286,
    "defense": 276,
-   "net": 292
+   "net": 293
   }
  },
  {
@@ -4111,7 +4111,7 @@
   "netRating": -7.7,
   "rankings": {
    "offense": 211,
-   "defense": 329,
+   "defense": 330,
    "net": 294
   }
  },
@@ -4121,25 +4121,11 @@
   "team": "UL Monroe",
   "conference": "Sun Belt",
   "offensiveRating": 103.1,
-  "defensiveRating": 110.8,
+  "defensiveRating": 110.9,
   "netRating": -7.8,
   "rankings": {
    "offense": 277,
-   "defense": 289,
-   "net": 295
-  }
- },
- {
-  "season": 2027,
-  "teamId": 166,
-  "team": "Merrimack",
-  "conference": "Metro",
-  "offensiveRating": 101.6,
-  "defensiveRating": 109.4,
-  "netRating": -7.8,
-  "rankings": {
-   "offense": 304,
-   "defense": 245,
+   "defense": 288,
    "net": 295
   }
  },
@@ -4159,6 +4145,20 @@
  },
  {
   "season": 2027,
+  "teamId": 70,
+  "team": "Drake",
+  "conference": "MVC",
+  "offensiveRating": 102.9,
+  "defensiveRating": 110.9,
+  "netRating": -7.9,
+  "rankings": {
+   "offense": 284,
+   "defense": 288,
+   "net": 297
+  }
+ },
+ {
+  "season": 2027,
   "teamId": 24,
   "team": "Binghamton",
   "conference": "Am. East",
@@ -4166,9 +4166,9 @@
   "defensiveRating": 113.4,
   "netRating": -7.9,
   "rankings": {
-   "offense": 218,
-   "defense": 325,
-   "net": 298
+   "offense": 220,
+   "defense": 326,
+   "net": 297
   }
  },
  {
@@ -4176,26 +4176,40 @@
   "teamId": 201,
   "team": "North Dakota",
   "conference": "Summit",
-  "offensiveRating": 105.8,
+  "offensiveRating": 105.7,
   "defensiveRating": 113.7,
   "netRating": -7.9,
   "rankings": {
-   "offense": 213,
-   "defense": 332,
-   "net": 298
+   "offense": 214,
+   "defense": 331,
+   "net": 297
   }
  },
  {
   "season": 2027,
-  "teamId": 70,
-  "team": "Drake",
-  "conference": "MVC",
-  "offensiveRating": 102.9,
-  "defensiveRating": 110.9,
-  "netRating": -8,
+  "teamId": 127,
+  "team": "Jacksonville",
+  "conference": "ASUN",
+  "offensiveRating": 105.2,
+  "defensiveRating": 113.3,
+  "netRating": -8.1,
   "rankings": {
-   "offense": 284,
-   "defense": 291,
+   "offense": 224,
+   "defense": 322,
+   "net": 300
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 137,
+  "team": "La Salle",
+  "conference": "A-10",
+  "offensiveRating": 104.2,
+  "defensiveRating": 112.3,
+  "netRating": -8.1,
+  "rankings": {
+   "offense": 252,
+   "defense": 310,
    "net": 300
   }
  },
@@ -4208,37 +4222,9 @@
   "defensiveRating": 108.5,
   "netRating": -8.1,
   "rankings": {
-   "offense": 321,
-   "defense": 220,
-   "net": 301
-  }
- },
- {
-  "season": 2027,
-  "teamId": 232,
-  "team": "Prairie View A&M",
-  "conference": "SWAC",
-  "offensiveRating": 102.4,
-  "defensiveRating": 110.6,
-  "netRating": -8.2,
-  "rankings": {
-   "offense": 293,
-   "defense": 281,
-   "net": 302
-  }
- },
- {
-  "season": 2027,
-  "teamId": 246,
-  "team": "SE Louisiana",
-  "conference": "Southland",
-  "offensiveRating": 106.7,
-  "defensiveRating": 114.9,
-  "netRating": -8.2,
-  "rankings": {
-   "offense": 193,
-   "defense": 344,
-   "net": 302
+   "offense": 319,
+   "defense": 221,
+   "net": 300
   }
  },
  {
@@ -4251,22 +4237,36 @@
   "netRating": -8.2,
   "rankings": {
    "offense": 262,
-   "defense": 304,
-   "net": 302
+   "defense": 305,
+   "net": 303
   }
  },
  {
   "season": 2027,
-  "teamId": 137,
-  "team": "La Salle",
-  "conference": "A-10",
-  "offensiveRating": 104.1,
-  "defensiveRating": 112.3,
-  "netRating": -8.2,
+  "teamId": 246,
+  "team": "SE Louisiana",
+  "conference": "Southland",
+  "offensiveRating": 106.7,
+  "defensiveRating": 115,
+  "netRating": -8.3,
   "rankings": {
-   "offense": 255,
-   "defense": 310,
-   "net": 302
+   "offense": 193,
+   "defense": 345,
+   "net": 304
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 232,
+  "team": "Prairie View A&M",
+  "conference": "SWAC",
+  "offensiveRating": 102.3,
+  "defensiveRating": 110.6,
+  "netRating": -8.3,
+  "rankings": {
+   "offense": 294,
+   "defense": 281,
+   "net": 304
   }
  },
  {
@@ -4275,12 +4275,26 @@
   "team": "UAlbany",
   "conference": "Am. East",
   "offensiveRating": 100.9,
-  "defensiveRating": 109.1,
+  "defensiveRating": 109.2,
   "netRating": -8.3,
   "rankings": {
    "offense": 314,
-   "defense": 235,
-   "net": 306
+   "defense": 238,
+   "net": 304
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 108,
+  "team": "Hawai'i",
+  "conference": "Mountain West",
+  "offensiveRating": 99.1,
+  "defensiveRating": 107.6,
+  "netRating": -8.4,
+  "rankings": {
+   "offense": 329,
+   "defense": 184,
+   "net": 307
   }
  },
  {
@@ -4292,7 +4306,7 @@
   "defensiveRating": 105.8,
   "netRating": -8.4,
   "rankings": {
-   "offense": 346,
+   "offense": 348,
    "defense": 138,
    "net": 307
   }
@@ -4303,39 +4317,11 @@
   "team": "Presbyterian",
   "conference": "Big South",
   "offensiveRating": 107.4,
-  "defensiveRating": 115.8,
-  "netRating": -8.4,
+  "defensiveRating": 115.9,
+  "netRating": -8.5,
   "rankings": {
    "offense": 179,
    "defense": 351,
-   "net": 307
-  }
- },
- {
-  "season": 2027,
-  "teamId": 127,
-  "team": "Jacksonville",
-  "conference": "ASUN",
-  "offensiveRating": 105.1,
-  "defensiveRating": 113.6,
-  "netRating": -8.5,
-  "rankings": {
-   "offense": 226,
-   "defense": 329,
-   "net": 309
-  }
- },
- {
-  "season": 2027,
-  "teamId": 108,
-  "team": "Hawai'i",
-  "conference": "Mountain West",
-  "offensiveRating": 99.1,
-  "defensiveRating": 107.6,
-  "netRating": -8.5,
-  "rankings": {
-   "offense": 329,
-   "defense": 184,
    "net": 309
   }
  },
@@ -4362,9 +4348,9 @@
   "defensiveRating": 111,
   "netRating": -8.6,
   "rankings": {
-   "offense": 293,
-   "defense": 294,
-   "net": 312
+   "offense": 292,
+   "defense": 293,
+   "net": 311
   }
  },
  {
@@ -4376,9 +4362,9 @@
   "defensiveRating": 112.9,
   "netRating": -8.6,
   "rankings": {
-   "offense": 251,
+   "offense": 252,
    "defense": 318,
-   "net": 312
+   "net": 311
   }
  },
  {
@@ -4387,12 +4373,12 @@
   "team": "Kent State",
   "conference": "MAC",
   "offensiveRating": 103.4,
-  "defensiveRating": 112,
+  "defensiveRating": 112.1,
   "netRating": -8.7,
   "rankings": {
    "offense": 270,
-   "defense": 305,
-   "net": 314
+   "defense": 306,
+   "net": 313
   }
  },
  {
@@ -4404,9 +4390,9 @@
   "defensiveRating": 109.3,
   "netRating": -8.7,
   "rankings": {
-   "offense": 319,
-   "defense": 242,
-   "net": 314
+   "offense": 318,
+   "defense": 241,
+   "net": 313
   }
  },
  {
@@ -4418,9 +4404,9 @@
   "defensiveRating": 110.4,
   "netRating": -8.8,
   "rankings": {
-   "offense": 304,
+   "offense": 303,
    "defense": 276,
-   "net": 316
+   "net": 315
   }
  },
  {
@@ -4432,9 +4418,9 @@
   "defensiveRating": 106.3,
   "netRating": -8.8,
   "rankings": {
-   "offense": 345,
-   "defense": 153,
-   "net": 316
+   "offense": 344,
+   "defense": 154,
+   "net": 315
   }
  },
  {
@@ -4444,11 +4430,11 @@
   "conference": "SoCon",
   "offensiveRating": 100.2,
   "defensiveRating": 109.2,
-  "netRating": -8.9,
+  "netRating": -9,
   "rankings": {
    "offense": 325,
    "defense": 238,
-   "net": 318
+   "net": 317
   }
  },
  {
@@ -4460,9 +4446,9 @@
   "defensiveRating": 110.3,
   "netRating": -9,
   "rankings": {
-   "offense": 311,
-   "defense": 271,
-   "net": 319
+   "offense": 310,
+   "defense": 272,
+   "net": 317
   }
  },
  {
@@ -4474,23 +4460,9 @@
   "defensiveRating": 113.5,
   "netRating": -9,
   "rankings": {
-   "offense": 242,
-   "defense": 327,
-   "net": 319
-  }
- },
- {
-  "season": 2027,
-  "teamId": 54,
-  "team": "Coastal Carolina",
-  "conference": "Sun Belt",
-  "offensiveRating": 100.7,
-  "defensiveRating": 109.9,
-  "netRating": -9.1,
-  "rankings": {
-   "offense": 318,
-   "defense": 261,
-   "net": 321
+   "offense": 243,
+   "defense": 328,
+   "net": 317
   }
  },
  {
@@ -4503,8 +4475,8 @@
   "netRating": -9.2,
   "rankings": {
    "offense": 337,
-   "defense": 183,
-   "net": 322
+   "defense": 182,
+   "net": 320
   }
  },
  {
@@ -4518,7 +4490,7 @@
   "rankings": {
    "offense": 192,
    "defense": 352,
-   "net": 322
+   "net": 320
   }
  },
  {
@@ -4532,35 +4504,7 @@
   "rankings": {
    "offense": 260,
    "defense": 319,
-   "net": 322
-  }
- },
- {
-  "season": 2027,
-  "teamId": 283,
-  "team": "Stetson",
-  "conference": "ASUN",
-  "offensiveRating": 104.9,
-  "defensiveRating": 114.2,
-  "netRating": -9.3,
-  "rankings": {
-   "offense": 231,
-   "defense": 339,
-   "net": 325
-  }
- },
- {
-  "season": 2027,
-  "teamId": 152,
-  "team": "Loyola Maryland",
-  "conference": "Patriot",
-  "offensiveRating": 97.3,
-  "defensiveRating": 106.6,
-  "netRating": -9.3,
-  "rankings": {
-   "offense": 349,
-   "defense": 160,
-   "net": 325
+   "net": 320
   }
  },
  {
@@ -4572,9 +4516,65 @@
   "defensiveRating": 114.5,
   "netRating": -9.3,
   "rankings": {
-   "offense": 226,
+   "offense": 227,
    "defense": 342,
+   "net": 323
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 152,
+  "team": "Loyola Maryland",
+  "conference": "Patriot",
+  "offensiveRating": 97.3,
+  "defensiveRating": 106.6,
+  "netRating": -9.4,
+  "rankings": {
+   "offense": 349,
+   "defense": 161,
+   "net": 324
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 283,
+  "team": "Stetson",
+  "conference": "ASUN",
+  "offensiveRating": 104.6,
+  "defensiveRating": 114.2,
+  "netRating": -9.6,
+  "rankings": {
+   "offense": 238,
+   "defense": 339,
    "net": 325
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 54,
+  "team": "Coastal Carolina",
+  "conference": "Sun Belt",
+  "offensiveRating": 100.5,
+  "defensiveRating": 110.1,
+  "netRating": -9.6,
+  "rankings": {
+   "offense": 319,
+   "defense": 268,
+   "net": 325
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 354,
+  "team": "Winthrop",
+  "conference": "Big South",
+  "offensiveRating": 103.7,
+  "defensiveRating": 113.5,
+  "netRating": -9.7,
+  "rankings": {
+   "offense": 262,
+   "defense": 328,
+   "net": 327
   }
  },
  {
@@ -4586,23 +4586,9 @@
   "defensiveRating": 114.9,
   "netRating": -9.7,
   "rankings": {
-   "offense": 223,
+   "offense": 224,
    "defense": 344,
-   "net": 328
-  }
- },
- {
-  "season": 2027,
-  "teamId": 354,
-  "team": "Winthrop",
-  "conference": "Big South",
-  "offensiveRating": 103.7,
-  "defensiveRating": 113.5,
-  "netRating": -9.8,
-  "rankings": {
-   "offense": 262,
-   "defense": 327,
-   "net": 329
+   "net": 327
   }
  },
  {
@@ -4610,12 +4596,26 @@
   "teamId": 194,
   "team": "Niagara",
   "conference": "Metro",
-  "offensiveRating": 97.8,
-  "defensiveRating": 107.7,
-  "netRating": -9.9,
+  "offensiveRating": 97.5,
+  "defensiveRating": 107.8,
+  "netRating": -10.3,
   "rankings": {
-   "offense": 343,
-   "defense": 188,
+   "offense": 344,
+   "defense": 191,
+   "net": 329
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 268,
+  "team": "South Carolina Upstate",
+  "conference": "Big South",
+  "offensiveRating": 101.2,
+  "defensiveRating": 111.6,
+  "netRating": -10.4,
+  "rankings": {
+   "offense": 311,
+   "defense": 300,
    "net": 330
   }
  },
@@ -4626,7 +4626,7 @@
   "conference": "MEAC",
   "offensiveRating": 96.7,
   "defensiveRating": 107.3,
-  "netRating": -10.5,
+  "netRating": -10.6,
   "rankings": {
    "offense": 353,
    "defense": 177,
@@ -4643,7 +4643,7 @@
   "netRating": -10.7,
   "rankings": {
    "offense": 332,
-   "defense": 245,
+   "defense": 247,
    "net": 332
   }
  },
@@ -4653,12 +4653,12 @@
   "team": "Chicago State",
   "conference": "NEC",
   "offensiveRating": 102.9,
-  "defensiveRating": 113.6,
-  "netRating": -10.7,
+  "defensiveRating": 113.7,
+  "netRating": -10.8,
   "rankings": {
    "offense": 284,
-   "defense": 329,
-   "net": 332
+   "defense": 331,
+   "net": 333
   }
  },
  {
@@ -4666,12 +4666,12 @@
   "teamId": 203,
   "team": "North Florida",
   "conference": "ASUN",
-  "offensiveRating": 97.4,
+  "offensiveRating": 97.5,
   "defensiveRating": 108.3,
   "netRating": -10.9,
   "rankings": {
-   "offense": 346,
-   "defense": 211,
+   "offense": 344,
+   "defense": 212,
    "net": 334
   }
  },
@@ -4691,20 +4691,6 @@
  },
  {
   "season": 2027,
-  "teamId": 345,
-  "team": "Weber State",
-  "conference": "Big Sky",
-  "offensiveRating": 104.9,
-  "defensiveRating": 116.4,
-  "netRating": -11.6,
-  "rankings": {
-   "offense": 231,
-   "defense": 355,
-   "net": 336
-  }
- },
- {
-  "season": 2027,
   "teamId": 269,
   "team": "South Dakota",
   "conference": "Summit",
@@ -4712,9 +4698,37 @@
   "defensiveRating": 115.1,
   "netRating": -11.6,
   "rankings": {
-   "offense": 266,
+   "offense": 267,
    "defense": 346,
    "net": 336
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 345,
+  "team": "Weber State",
+  "conference": "Big Sky",
+  "offensiveRating": 104.9,
+  "defensiveRating": 116.4,
+  "netRating": -11.6,
+  "rankings": {
+   "offense": 232,
+   "defense": 355,
+   "net": 336
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 181,
+  "team": "Morehead State",
+  "conference": "OVC",
+  "offensiveRating": 104.6,
+  "defensiveRating": 116.3,
+  "netRating": -11.7,
+  "rankings": {
+   "offense": 238,
+   "defense": 354,
+   "net": 338
   }
  },
  {
@@ -4726,8 +4740,8 @@
   "defensiveRating": 107.8,
   "netRating": -11.7,
   "rankings": {
-   "offense": 358,
-   "defense": 192,
+   "offense": 357,
+   "defense": 191,
    "net": 338
   }
  },
@@ -4747,34 +4761,6 @@
  },
  {
   "season": 2027,
-  "teamId": 181,
-  "team": "Morehead State",
-  "conference": "OVC",
-  "offensiveRating": 104.6,
-  "defensiveRating": 116.3,
-  "netRating": -11.7,
-  "rankings": {
-   "offense": 238,
-   "defense": 354,
-   "net": 338
-  }
- },
- {
-  "season": 2027,
-  "teamId": 94,
-  "team": "Gardner-Webb",
-  "conference": "Big South",
-  "offensiveRating": 98.5,
-  "defensiveRating": 110.3,
-  "netRating": -11.8,
-  "rankings": {
-   "offense": 334,
-   "defense": 271,
-   "net": 341
-  }
- },
- {
-  "season": 2027,
   "teamId": 193,
   "team": "New Orleans",
   "conference": "Southland",
@@ -4783,7 +4769,7 @@
   "netRating": -11.8,
   "rankings": {
    "offense": 334,
-   "defense": 271,
+   "defense": 272,
    "net": 341
   }
  },
@@ -4797,8 +4783,22 @@
   "netRating": -11.9,
   "rankings": {
    "offense": 359,
-   "defense": 194,
-   "net": 343
+   "defense": 195,
+   "net": 342
+  }
+ },
+ {
+  "season": 2027,
+  "teamId": 94,
+  "team": "Gardner-Webb",
+  "conference": "Big South",
+  "offensiveRating": 98.5,
+  "defensiveRating": 110.3,
+  "netRating": -11.9,
+  "rankings": {
+   "offense": 334,
+   "defense": 272,
+   "net": 342
   }
  },
  {
@@ -4811,7 +4811,7 @@
   "netRating": -12.1,
   "rankings": {
    "offense": 328,
-   "defense": 300,
+   "defense": 299,
    "net": 344
   }
  },
@@ -4824,23 +4824,9 @@
   "defensiveRating": 115.1,
   "netRating": -12.3,
   "rankings": {
-   "offense": 287,
+   "offense": 286,
    "defense": 346,
    "net": 345
-  }
- },
- {
-  "season": 2027,
-  "teamId": 196,
-  "team": "Norfolk State",
-  "conference": "MEAC",
-  "offensiveRating": 104.6,
-  "defensiveRating": 117.5,
-  "netRating": -12.9,
-  "rankings": {
-   "offense": 238,
-   "defense": 359,
-   "net": 346
   }
  },
  {
@@ -4859,12 +4845,26 @@
  },
  {
   "season": 2027,
+  "teamId": 196,
+  "team": "Norfolk State",
+  "conference": "MEAC",
+  "offensiveRating": 104.6,
+  "defensiveRating": 117.5,
+  "netRating": -12.9,
+  "rankings": {
+   "offense": 238,
+   "defense": 359,
+   "net": 346
+  }
+ },
+ {
+  "season": 2027,
   "teamId": 120,
   "team": "Incarnate Word",
   "conference": "Southland",
-  "offensiveRating": 96.4,
+  "offensiveRating": 96.3,
   "defensiveRating": 110,
-  "netRating": -13.6,
+  "netRating": -13.7,
   "rankings": {
    "offense": 356,
    "defense": 265,
@@ -4876,9 +4876,9 @@
   "teamId": 244,
   "team": "Robert Morris",
   "conference": "Horizon",
-  "offensiveRating": 96.2,
+  "offensiveRating": 96.1,
   "defensiveRating": 110,
-  "netRating": -13.8,
+  "netRating": -13.9,
   "rankings": {
    "offense": 357,
    "defense": 265,
@@ -4895,8 +4895,8 @@
   "netRating": -13.9,
   "rankings": {
    "offense": 330,
-   "defense": 314,
-   "net": 350
+   "defense": 315,
+   "net": 349
   }
  },
  {
@@ -4906,25 +4906,11 @@
   "conference": "Patriot",
   "offensiveRating": 98.8,
   "defensiveRating": 113.1,
-  "netRating": -14.3,
+  "netRating": -14.2,
   "rankings": {
    "offense": 330,
    "defense": 320,
    "net": 351
-  }
- },
- {
-  "season": 2027,
-  "teamId": 221,
-  "team": "Omaha",
-  "conference": "Summit",
-  "offensiveRating": 98.7,
-  "defensiveRating": 113.4,
-  "netRating": -14.7,
-  "rankings": {
-   "offense": 332,
-   "defense": 325,
-   "net": 352
   }
  },
  {
@@ -4943,15 +4929,29 @@
  },
  {
   "season": 2027,
+  "teamId": 221,
+  "team": "Omaha",
+  "conference": "Summit",
+  "offensiveRating": 98.7,
+  "defensiveRating": 113.4,
+  "netRating": -14.7,
+  "rankings": {
+   "offense": 332,
+   "defense": 326,
+   "net": 352
+  }
+ },
+ {
+  "season": 2027,
   "teamId": 42,
   "team": "Canisius",
   "conference": "Metro",
-  "offensiveRating": 100.6,
+  "offensiveRating": 100.5,
   "defensiveRating": 115.5,
   "netRating": -14.9,
   "rankings": {
    "offense": 319,
-   "defense": 349,
+   "defense": 348,
    "net": 354
   }
  },
@@ -5018,7 +5018,7 @@
   "conference": "Patriot",
   "offensiveRating": 94.2,
   "defensiveRating": 112.3,
-  "netRating": -18.2,
+  "netRating": -18.1,
   "rankings": {
    "offense": 361,
    "defense": 310,
@@ -5031,8 +5031,8 @@
   "team": "Eastern Illinois",
   "conference": "OVC",
   "offensiveRating": 99.7,
-  "defensiveRating": 118.5,
-  "netRating": -18.8,
+  "defensiveRating": 118.4,
+  "netRating": -18.7,
   "rankings": {
    "offense": 327,
    "defense": 361,
@@ -5044,11 +5044,11 @@
   "teamId": 7,
   "team": "Alcorn State",
   "conference": "SWAC",
-  "offensiveRating": 97.9,
+  "offensiveRating": 97.8,
   "defensiveRating": 117.6,
   "netRating": -19.7,
   "rankings": {
-   "offense": 340,
+   "offense": 342,
    "defense": 360,
    "net": 361
   }
@@ -5058,7 +5058,7 @@
   "teamId": 85,
   "team": "Florida A&M",
   "conference": "SWAC",
-  "offensiveRating": 95.7,
+  "offensiveRating": 95.8,
   "defensiveRating": 116.1,
   "netRating": -20.3,
   "rankings": {
@@ -5088,7 +5088,7 @@
   "conference": "Big West",
   "offensiveRating": 96.5,
   "defensiveRating": 119.9,
-  "netRating": -23.5,
+  "netRating": -23.4,
   "rankings": {
    "offense": 355,
    "defense": 363,
@@ -5102,7 +5102,7 @@
   "conference": "SWAC",
   "offensiveRating": 90.5,
   "defensiveRating": 121.1,
-  "netRating": -30.5,
+  "netRating": -30.6,
   "rankings": {
    "offense": 365,
    "defense": 365,
