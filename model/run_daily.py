@@ -482,6 +482,16 @@ def main():
     print(f"graded {len(g)} ({sum(x['won'] for x in g)} right), still pending {((rep or {}).get('left'))}; "
           f"today {len(slate['games'])} games, waiting {len(slate['waiting'])}, hammer "
           f"{(slate.get('hammer') or {}).get('team')} {(slate.get('hammer') or {}).get('spread')}")
+    # Momentum Index (display only, never moves the blend). Runs after the board is saved, so a failure here
+    # can't touch the slate.
+    try:
+        import momentum
+        out = momentum.build(now.date())
+        momentum.save(out)
+        print(f"momentum: {out['games_used']} games, {sum(r['index'] is not None for r in out['teams'])} teams rated, "
+              f"Haslametrics {out['hasla']['teams']} teams ({out['hasla']['weight']['status']})")
+    except Exception as e:
+        print("momentum failed:", type(e).__name__, str(e)[:300])
 
 
 if __name__ == "__main__":
