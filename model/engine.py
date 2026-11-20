@@ -252,7 +252,7 @@ def team_weights(state, name, kind="margin"):
 
 
 # ---- Prediction ----
-def predict_game(state, g):
+def predict_game(state, g, momentum=None):
     """g: {id, away, home, away_conf, home_conf, neutral, site, tip, sources:{s:{margin,total,note,derived}}, market, notes}"""
     ta, th = team(state, g["away"], g.get("away_conf")), team(state, g["home"], g.get("home_conf"))
     wa, ba, _ = team_weights(state, g["away"])
@@ -297,20 +297,19 @@ def predict_game(state, g):
     dog = g["away"] if fav_home else g["home"]
     p_pick = p_home if fav_home else 1 - p_home
 
-    def form_flag(name):
-        f = state["teams"][name]["form"][-5:]
-        if len(f) < 5:
-            return None
-        if sum(1 for r in f if r > 0) >= 4:
-            return "hot"
-        if sum(1 for r in f if r < 0) >= 4:
-            return "cold"
-        return None
+    # Hot/Cold comes from the Momentum Index (model/momentum.py), not from recent results against our number:
+    # the old 4-of-5 rule was a coin flip in the 2024-25 and 2025-26 backtest (research/momentum/).
+    mom = momentum or {}
 
-    def momentum(name):
+    def form_flag(name):
+        tag = (mom.get(name) or {}).get("tag")
+        return "hot" if tag == "Hot" else "cold" if tag == "Cold" else None
+
+    def momentum_view(name):
         f = state["teams"][name]["form"][-5:]
+        m = mom.get(name) or {}
         return {"n": len(f), "avg": round(statistics.mean(f), 1) if f else None, "last": [round(x, 1) for x in f],
-                "flag": form_flag(name)}
+                "flag": form_flag(name), "index": m.get("index"), "sd": m.get("sd"), "tag": m.get("tag")}
 
     def bad_loss(name):
         return any(state["teams"][name]["losses"][-2:])
@@ -323,7 +322,8 @@ def predict_game(state, g):
         if p_sd > TIER["weak_psd"]:
             why.append(f"sources split on the winner's chances (±{p_sd*100:.0f}%)")
         if flags:
-            why.append("hot/cold flag")
+            why.append("; ".join(f"{x} {mom[x]['tag']} on momentum ({mom[x]['index']:+.2f})"
+                                 for x in (g["away"], g["home"]) if form_flag(x)))
         if bad_loss(g["away"]) or bad_loss(g["home"]):
             why.append("bad loss in last 2")
         reason = "; ".join(why)
@@ -350,7 +350,7 @@ def predict_game(state, g):
                   "lean": lean, "n_sources": len(avail)},
         "pick": {"team": pick, "dog": dog, "p": round(p_pick, 4), "margin": round(abs(margin), 2),
                  "lock": p_pick >= LOCK},
-        "momentum": {g["away"]: momentum(g["away"]), g["home"]: momentum(g["home"])},
+        "momentum": {g["away"]: momentum_view(g["away"]), g["home"]: momentum_view(g["home"])},
         "tier": tier, "tier_reason": reason,
         "result": None,
     })
@@ -420,11 +420,11 @@ def pending_entry(p):
             "market": (-p["market"]["spread_home"]) if (p.get("market") or {}).get("spread_home") is not None else None}
 
 
-def build_slate(state, date, games, notes=None, generated_at=None):
+def build_slate(state, date, games, notes=None, generated_at=None, momentum=None):
     migrate(state)
     has = lambda g: any(g["sources"].get(s, {}).get("margin") is not None for s in SOURCES)
     waiting = [copy.deepcopy(g) for g in games if not has(g)]   # shown on the board, not graded
-    preds = [predict_game(state, g) for g in games if has(g)]
+    preds = [predict_game(state, g, momentum) for g in games if has(g)]
     order = {"Strong": 0, "Mid": 1, "Weak": 2}
     preds.sort(key=lambda x: (order[x["tier"]], -x["pick"]["p"]))
     slate = {"date": date, "generated_at": generated_at or datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),

@@ -335,7 +335,7 @@ def grade_pending(state, today):
 
 
 # ---------------- build ----------------
-def build_today(state, now):
+def build_today(state, now, momentum=None):
     today = now.date()
     status = jload(raw(today, "status.json"), {}) or {}
     unmatched = set()
@@ -444,7 +444,8 @@ def build_today(state, now):
     pend = state.get("pending") or {}
     if pend.get("games"):   # today's untipped games are rebuilt below; anything of today's that no longer qualifies drops out
         pend["games"] = [x for x in pend["games"] if not x["id"].startswith(today.isoformat()) or x["id"] in locked_ids]
-    slate = E.build_slate(state, today.isoformat(), games, notes, generated_at=now.isoformat(timespec="seconds"))
+    slate = E.build_slate(state, today.isoformat(), games, notes, generated_at=now.isoformat(timespec="seconds"),
+                          momentum=momentum)
     for p in slate["games"]:
         p["tip_sort"] = next(x["tip_sort"] for x in games if x["id"] == p["id"])
     slate["waiting"] = waiting
@@ -474,7 +475,16 @@ def main():
     E.migrate(state)
     backfill_dawg(state)
     rep = grade_pending(state, now.date())
-    slate = build_today(state, now)
+    # Momentum Index first, so Hot/Cold on the board and the Weak tier come from it. If it fails, the slate is built
+    # without Hot/Cold flags and everything else is unchanged.
+    mom_out, mom = None, None
+    try:
+        import momentum
+        mom_out = momentum.build(now.date())
+        mom = {r["team"]: {"index": r["index"], "sd": r["sd"], "tag": r["tag"]} for r in mom_out["teams"] if r["index"] is not None}
+    except Exception as e:
+        print("momentum failed:", type(e).__name__, str(e)[:300])
+    slate = build_today(state, now, mom)
     state["updated"] = now.isoformat(timespec="seconds")
     E.refresh_display(state)
     jsave(os.path.join(SITE, "state.json"), state)
@@ -482,16 +492,13 @@ def main():
     print(f"graded {len(g)} ({sum(x['won'] for x in g)} right), still pending {((rep or {}).get('left'))}; "
           f"today {len(slate['games'])} games, waiting {len(slate['waiting'])}, hammer "
           f"{(slate.get('hammer') or {}).get('team')} {(slate.get('hammer') or {}).get('spread')}")
-    # Momentum Index (display only, never moves the blend). Runs after the board is saved, so a failure here
-    # can't touch the slate.
-    try:
-        import momentum
-        out = momentum.build(now.date())
-        momentum.save(out)
-        print(f"momentum: {out['games_used']} games, {sum(r['index'] is not None for r in out['teams'])} teams rated, "
-              f"Haslametrics {out['hasla']['teams']} teams ({out['hasla']['weight']['status']})")
-    except Exception as e:
-        print("momentum failed:", type(e).__name__, str(e)[:300])
+    if mom_out:   # never moves the blend; saved after the board so a failure here can't touch the slate
+        try:
+            momentum.save(mom_out)
+            print(f"momentum: {mom_out['games_used']} games, {len(mom)} teams rated, "
+                  f"Haslametrics {mom_out['hasla']['teams']} teams ({mom_out['hasla']['weight']['status']})")
+        except Exception as e:
+            print("momentum save failed:", type(e).__name__, str(e)[:300])
 
 
 if __name__ == "__main__":

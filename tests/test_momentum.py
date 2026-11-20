@@ -87,3 +87,21 @@ assert hz["Duke"]["mom"] == 1.234 and hz["Duke"]["mom_def"] == 0.734, hz
 assert hz["Houston"]["mom"] is None and hz["Houston"]["inconsistency"] is None, hz
 print("hasla xml ok", hz)
 print("momentum tests passed")
+
+# 5. the engine takes Hot/Cold from the Momentum Index (not the old 4-of-5 rule) and puts those games in Weak
+import engine as E
+st = E.new_state("test")
+def game(i, home, away, margin):
+    return {"id": f"g{i}", "away": away, "home": home, "away_conf": "X", "home_conf": "X", "neutral": False,
+            "sources": {s: {"margin": margin, "total": 140.0} for s in E.SOURCES}, "market": {"spread_home": None}}
+games = [game(1, "HotU", "SteadyA", 12.0), game(2, "SteadyB", "SteadyC", 12.0)]
+mom = {"HotU": {"index": 0.91, "sd": 0.5, "tag": "Hot"}, "SteadyA": {"index": 0.1, "sd": 0.5, "tag": "Steady"}}
+sl = E.build_slate(st, "d0", games, momentum=mom)
+by = {g["id"]: g for g in sl["games"]}
+assert by["g1"]["tier"] == "Weak" and "momentum" in by["g1"]["tier_reason"], by["g1"]["tier_reason"]
+assert by["g1"]["momentum"]["HotU"]["flag"] == "hot" and by["g1"]["momentum"]["HotU"]["index"] == 0.91
+assert by["g2"]["tier"] != "Weak" and by["g2"]["momentum"]["SteadyB"]["flag"] is None, by["g2"]["tier"]
+sl2 = E.build_slate(E.new_state("test"), "d0", games)          # no index available -> no Hot/Cold flags at all
+assert all(not m["flag"] for g in sl2["games"] for m in g["momentum"].values())
+print("engine uses the Momentum Index for Hot/Cold:", by["g1"]["tier"], "-", by["g1"]["tier_reason"])
+print("momentum tests passed (with engine)")
