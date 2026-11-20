@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "updated": "2026-11-20T13:51:10-05:00",
+ "updated": "2026-11-20T16:19:15-05:00",
  "artifact_url": "https://claude.ai/artifact/AN8JdyqWML4JjQM7vBZYwr",
  "constants": {
   "MAE_PRIOR": 8.85,
@@ -25,7 +25,7 @@
  "records": {
   "su": {
    "w": 491,
-   "l": 136,
+   "l": 137,
    "since": "2026-11-05"
   },
   "hammer": {
@@ -36,13 +36,13 @@
   }
  },
  "model": {
-  "n": 627,
-  "mae": 9.78891547049441,
-  "brier_sum": 87.78985951999995,
+  "n": 628,
+  "mae": 9.7952229299363,
+  "brier_sum": 88.37050351999996,
   "correct": 491,
   "sigma": 12.11,
-  "tot_n": 617,
-  "tot_mae": 13.360940032414902
+  "tot_n": 618,
+  "tot_mae": 13.341747572815525
  },
  "sources": {
   "torvik": {
@@ -50,24 +50,24 @@
    "mae": 0.0
   },
   "hasla": {
-   "n": 566,
-   "mae": 9.59346289752652
+   "n": 567,
+   "mae": 9.600246913580264
   },
   "espn": {
-   "n": 627,
-   "mae": 10.127432216905916
+   "n": 628,
+   "mae": 10.129777070063708
   },
   "dratings": {
-   "n": 561,
-   "mae": 9.703386809269153
+   "n": 562,
+   "mae": 9.709074733096076
   },
   "massey": {
    "n": 506,
    "mae": 10.080039525691701
   },
   "cbbd": {
-   "n": 15,
-   "mae": 14.831999999999999
+   "n": 16,
+   "mae": 14.974374999999998
   }
  },
  "sources_tot": {
@@ -76,16 +76,16 @@
    "mae": 0.0
   },
   "hasla": {
-   "n": 566,
-   "mae": 14.091872791519446
+   "n": 567,
+   "mae": 14.07530864197532
   },
   "espn": {
    "n": 0,
    "mae": 0.0
   },
   "dratings": {
-   "n": 561,
-   "mae": 12.978609625668453
+   "n": 562,
+   "mae": 12.96637010676157
   },
   "massey": {
    "n": 506,
@@ -98,8 +98,8 @@
  },
  "bench": {
   "market": {
-   "n": 627,
-   "mae": 9.251196172248797
+   "n": 628,
+   "mae": 9.257961783439484
   }
  },
  "groups": {
@@ -135,24 +135,24 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 44,
-    "mae": 9.503181818181817
+    "n": 45,
+    "mae": 9.590666666666666
    },
    "espn": {
-    "n": 45,
-    "mae": 8.854444444444443
+    "n": 46,
+    "mae": 8.914130434782606
    },
    "dratings": {
-    "n": 43,
-    "mae": 8.70232558139535
+    "n": 44,
+    "mae": 8.797727272727274
    },
    "massey": {
     "n": 35,
     "mae": 8.500000000000002
    },
    "cbbd": {
-    "n": 0,
-    "mae": 0.0
+    "n": 1,
+    "mae": 17.11
    }
   },
   "BSth": {
@@ -473,24 +473,24 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 43,
-    "mae": 10.420465116279068
+    "n": 44,
+    "mae": 10.489090909090908
    },
    "espn": {
-    "n": 48,
-    "mae": 9.957291666666665
+    "n": 49,
+    "mae": 9.990816326530611
    },
    "dratings": {
-    "n": 44,
-    "mae": 10.040909090909093
+    "n": 45,
+    "mae": 10.104444444444447
    },
    "massey": {
     "n": 39,
     "mae": 10.038461538461537
    },
    "cbbd": {
-    "n": 0,
-    "mae": 0.0
+    "n": 1,
+    "mae": 17.11
    }
   },
   "UAC": {
@@ -969,16 +969,16 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 44,
-    "mae": 13.243181818181816
+    "n": 45,
+    "mae": 13.053333333333331
    },
    "espn": {
     "n": 0,
     "mae": 0.0
    },
    "dratings": {
-    "n": 43,
-    "mae": 12.162790697674417
+    "n": 44,
+    "mae": 12.024999999999999
    },
    "massey": {
     "n": 35,
@@ -1307,16 +1307,16 @@
     "mae": 0.0
    },
    "hasla": {
-    "n": 43,
-    "mae": 14.655813953488376
+    "n": 44,
+    "mae": 14.429545454545458
    },
    "espn": {
     "n": 0,
     "mae": 0.0
    },
    "dratings": {
-    "n": 44,
-    "mae": 11.831818181818184
+    "n": 45,
+    "mae": 11.704444444444446
    },
    "massey": {
     "n": 39,
@@ -1940,8 +1940,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -1953,10 +1953,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -3000,8 +3000,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -3013,10 +3013,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -3213,7 +3213,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -3230,7 +3230,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -7119,7 +7119,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -7136,7 +7136,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -7226,8 +7226,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -7239,10 +7239,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -7431,10 +7431,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -7446,10 +7446,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -8384,7 +8384,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -8915,8 +8915,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -8928,10 +8928,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -9125,8 +9125,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -9138,10 +9138,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -9541,10 +9541,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -9556,10 +9556,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -10072,8 +10072,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -10085,10 +10085,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -10282,7 +10282,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -10299,7 +10299,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -11554,7 +11554,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -11571,7 +11571,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -11967,7 +11967,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -11982,7 +11982,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -12286,7 +12286,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -14388,10 +14388,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -14403,10 +14403,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -15547,10 +15547,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -15562,10 +15562,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -15757,7 +15757,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -15772,7 +15772,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -16390,7 +16390,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -16813,8 +16813,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -16826,10 +16826,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -17270,12 +17270,13 @@
   },
   "UAB": {
    "conf": "Amer",
-   "n": 4,
+   "n": 5,
    "form": [
     -6.18,
     9.97,
     -6.05,
-    6.36
+    6.36,
+    13.75
    ],
    "losses": [
     false,
@@ -17287,24 +17288,24 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 4,
-     "mae": 8.3525
+     "n": 5,
+     "mae": 9.37
     },
     "espn": {
-     "n": 4,
-     "mae": 5.68
+     "n": 5,
+     "mae": 6.864
     },
     "dratings": {
-     "n": 4,
-     "mae": 8.3
+     "n": 5,
+     "mae": 9.22
     },
     "massey": {
      "n": 3,
      "mae": 5.833333333333333
     },
     "cbbd": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 17.11
     }
    },
    "terr": {
@@ -17313,16 +17314,16 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 4,
-     "mae": 14.400000000000006
+     "n": 5,
+     "mae": 12.460000000000003
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 4,
-     "mae": 10.5
+     "n": 5,
+     "mae": 9.62
     },
     "massey": {
      "n": 3,
@@ -17334,43 +17335,43 @@
     }
    },
    "tot": {
-    "n": 4,
-    "avg": 151.0
+    "n": 5,
+    "avg": 152.2
    },
    "weights": {
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
    "bench": {
     "market": {
-     "n": 4,
-     "mae": 8.0
+     "n": 5,
+     "mae": 9.1
     }
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
    "dawg": {
-    "n": 4,
-    "sum": 4.1,
-    "beat": 2,
+    "n": 5,
+    "sum": 17.85,
+    "beat": 3,
     "whoop": 0,
     "best": {
-     "over": 10.0,
-     "margin": 28,
-     "opp": "Florida A&M",
-     "date": "2026-11-09"
+     "over": 13.8,
+     "margin": 5,
+     "opp": "George Washington",
+     "date": "2026-11-20"
     }
    }
   },
@@ -17973,7 +17974,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -17988,7 +17989,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -18284,7 +18285,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -18301,7 +18302,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -18913,7 +18914,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -18930,7 +18931,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -19545,7 +19546,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -19562,7 +19563,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -19961,7 +19962,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -19976,7 +19977,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -21331,7 +21332,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -21346,7 +21347,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -22377,7 +22378,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -22392,7 +22393,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -23638,7 +23639,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -24575,8 +24576,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -24588,10 +24589,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -25200,7 +25201,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -25299,10 +25300,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -25314,10 +25315,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -25406,8 +25407,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -25419,10 +25420,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -25510,10 +25511,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -25525,10 +25526,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -25618,7 +25619,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -25633,7 +25634,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -25825,7 +25826,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -25840,7 +25841,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -26351,10 +26352,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -26366,10 +26367,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -26562,10 +26563,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -26577,10 +26578,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -26770,7 +26771,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -26785,7 +26786,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -26876,8 +26877,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -26889,10 +26890,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -26981,7 +26982,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -26996,7 +26997,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -27828,7 +27829,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -27843,7 +27844,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -27933,7 +27934,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -28138,7 +28139,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -28155,7 +28156,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -28449,7 +28450,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -28589,15 +28590,16 @@
   },
   "George Washington": {
    "conf": "A10",
-   "n": 3,
+   "n": 4,
    "form": [
     -2.29,
     6.55,
-    17.09
+    17.09,
+    -13.75
    ],
    "losses": [
     false,
-    false
+    true
    ],
    "err": {
     "torvik": {
@@ -28605,24 +28607,24 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 3,
-     "mae": 9.433333333333334
+     "n": 4,
+     "mae": 10.435
     },
     "espn": {
-     "n": 3,
-     "mae": 8.723333333333333
+     "n": 4,
+     "mae": 9.442499999999999
     },
     "dratings": {
-     "n": 3,
-     "mae": 7.733333333333333
+     "n": 4,
+     "mae": 9.025
     },
     "massey": {
      "n": 0,
      "mae": 0.0
     },
     "cbbd": {
-     "n": 0,
-     "mae": 0.0
+     "n": 1,
+     "mae": 17.11
     }
    },
    "terr": {
@@ -28631,16 +28633,16 @@
      "mae": 0.0
     },
     "hasla": {
-     "n": 3,
-     "mae": 18.733333333333338
+     "n": 4,
+     "mae": 15.225000000000001
     },
     "espn": {
      "n": 0,
      "mae": 0.0
     },
     "dratings": {
-     "n": 3,
-     "mae": 15.599999999999994
+     "n": 4,
+     "mae": 13.224999999999994
     },
     "massey": {
      "n": 0,
@@ -28652,36 +28654,36 @@
     }
    },
    "tot": {
-    "n": 3,
-    "avg": 132.33333333333334
+    "n": 4,
+    "avg": 138.5
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
    "bench": {
     "market": {
-     "n": 3,
-     "mae": 8.833333333333334
+     "n": 4,
+     "mae": 10.0
     }
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
    "dawg": {
-    "n": 3,
-    "sum": 21.35,
+    "n": 4,
+    "sum": 7.6,
     "beat": 2,
     "whoop": 1,
     "best": {
@@ -29183,10 +29185,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -29198,10 +29200,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -29491,10 +29493,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -29506,10 +29508,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -29700,10 +29702,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -29715,10 +29717,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -30426,7 +30428,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -30441,7 +30443,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -30630,7 +30632,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -30645,7 +30647,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -31246,7 +31248,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -31261,7 +31263,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -33021,7 +33023,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -33036,7 +33038,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -33125,7 +33127,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -33140,7 +33142,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -33754,10 +33756,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -33769,10 +33771,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -33861,8 +33863,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -33874,10 +33876,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -34600,8 +34602,8 @@
     "torvik": 0.166,
     "hasla": 0.145,
     "espn": 0.167,
-    "dratings": 0.173,
-    "massey": 0.182,
+    "dratings": 0.172,
+    "massey": 0.184,
     "cbbd": 0.166
    },
    "basis": "conference",
@@ -34613,10 +34615,10 @@
    },
    "tweights": {
     "torvik": 0.166,
-    "hasla": 0.151,
+    "hasla": 0.153,
     "espn": 0.166,
-    "dratings": 0.179,
-    "massey": 0.171,
+    "dratings": 0.18,
+    "massey": 0.168,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -34809,7 +34811,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -34826,7 +34828,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -34908,7 +34910,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -35538,7 +35540,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -35555,7 +35557,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -35954,7 +35956,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -35969,7 +35971,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -36271,7 +36273,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -36288,7 +36290,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference",
@@ -36469,10 +36471,10 @@
    },
    "weights": {
     "torvik": 0.167,
-    "hasla": 0.157,
+    "hasla": 0.156,
     "espn": 0.172,
-    "dratings": 0.169,
-    "massey": 0.169,
+    "dratings": 0.168,
+    "massey": 0.17,
     "cbbd": 0.167
    },
    "basis": "conference",
@@ -36484,10 +36486,10 @@
    },
    "tweights": {
     "torvik": 0.164,
-    "hasla": 0.143,
+    "hasla": 0.145,
     "espn": 0.164,
-    "dratings": 0.219,
-    "massey": 0.146,
+    "dratings": 0.22,
+    "massey": 0.143,
     "cbbd": 0.164
    },
    "tbasis": "conference",
@@ -36575,7 +36577,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -36590,7 +36592,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -37201,7 +37203,7 @@
    "weights": {
     "torvik": 0.163,
     "hasla": 0.153,
-    "espn": 0.231,
+    "espn": 0.232,
     "dratings": 0.15,
     "massey": 0.139,
     "cbbd": 0.163
@@ -37408,7 +37410,7 @@
     "torvik": 0.166,
     "hasla": 0.155,
     "espn": 0.146,
-    "dratings": 0.191,
+    "dratings": 0.19,
     "massey": 0.177,
     "cbbd": 0.166
    },
@@ -37423,7 +37425,7 @@
     "torvik": 0.162,
     "hasla": 0.114,
     "espn": 0.162,
-    "dratings": 0.21,
+    "dratings": 0.211,
     "massey": 0.188,
     "cbbd": 0.162
    },
@@ -37510,7 +37512,7 @@
    },
    "weights": {
     "torvik": 0.166,
-    "hasla": 0.164,
+    "hasla": 0.163,
     "espn": 0.182,
     "dratings": 0.174,
     "massey": 0.148,
@@ -37525,7 +37527,7 @@
    },
    "tweights": {
     "torvik": 0.167,
-    "hasla": 0.162,
+    "hasla": 0.163,
     "espn": 0.167,
     "dratings": 0.166,
     "massey": 0.171,
@@ -39579,7 +39581,7 @@
    "weights": {
     "torvik": 0.162,
     "hasla": 0.23,
-    "espn": 0.131,
+    "espn": 0.132,
     "dratings": 0.177,
     "massey": 0.136,
     "cbbd": 0.162
@@ -39608,7 +39610,7 @@
     "hasla": 0.147,
     "espn": 0.166,
     "dratings": 0.167,
-    "massey": 0.189,
+    "massey": 0.188,
     "cbbd": 0.166
    },
    "tbasis": "conference"
@@ -39839,6 +39841,103 @@
     "market": 13.5
    },
    {
+    "id": "2026-11-20-south-dakota-st-idaho-st",
+    "away": "South Dakota St.",
+    "home": "Idaho St.",
+    "neutral": false,
+    "margin": -6.53,
+    "p_home": 0.2978,
+    "total": 146.7,
+    "pick": "South Dakota St.",
+    "hammer": null,
+    "sources": {
+     "hasla": -9.56,
+     "espn": -7.03,
+     "dratings": -5.5,
+     "massey": -3.5
+    },
+    "src_totals": {
+     "hasla": 146.5,
+     "dratings": 146.1,
+     "massey": 147.5
+    },
+    "market": -5.5
+   },
+   {
+    "id": "2026-11-20-western-illinois-albany",
+    "away": "Western Illinois",
+    "home": "Albany",
+    "neutral": true,
+    "margin": 4.2,
+    "p_home": 0.6335,
+    "total": 143.1,
+    "pick": "Albany",
+    "hammer": null,
+    "sources": {
+     "hasla": 5.19,
+     "espn": 2.78,
+     "dratings": 7.2,
+     "cbbd": 1.62
+    },
+    "src_totals": {
+     "hasla": 149.4,
+     "dratings": 138.6
+    },
+    "market": 6.5
+   },
+   {
+    "id": "2026-11-20-northwestern-virginia-tech",
+    "away": "Northwestern",
+    "home": "Virginia Tech",
+    "neutral": true,
+    "margin": 6.73,
+    "p_home": 0.7064,
+    "total": 144.9,
+    "pick": "Virginia Tech",
+    "hammer": {
+     "id": "2026-11-20-northwestern-virginia-tech",
+     "team": "Northwestern",
+     "side": "away",
+     "spread": 11.5,
+     "spread_home": -11.5,
+     "edge": 4.77,
+     "cover_p": 0.6499,
+     "agree": 3,
+     "n": 3
+    },
+    "sources": {
+     "hasla": 3.15,
+     "espn": 8.68,
+     "dratings": 8.8
+    },
+    "src_totals": {
+     "hasla": 146.7,
+     "dratings": 143.2
+    },
+    "market": 11.5
+   },
+   {
+    "id": "2026-11-20-indiana-st-stephen-f-austin",
+    "away": "Indiana St.",
+    "home": "Stephen F. Austin",
+    "neutral": true,
+    "margin": 3.83,
+    "p_home": 0.6238,
+    "total": 147.7,
+    "pick": "Stephen F. Austin",
+    "hammer": null,
+    "sources": {
+     "hasla": 3.64,
+     "espn": 3.01,
+     "dratings": 4.8
+    },
+    "src_totals": {
+     "hasla": 150.9,
+     "dratings": 144.8
+    },
+    "market": 4.5
+   },
+   {
     "id": "2026-11-20-eastern-illinois-illinois",
     "away": "Eastern Illinois",
     "home": "Illinois",
@@ -39860,7 +39959,7 @@
      "dratings": 161.8,
      "massey": 150.5
     },
-    "market": 48.5
+    "market": 47.5
    },
    {
     "id": "2026-11-20-mississippi-valley-st-arkansas",
@@ -39886,7 +39985,7 @@
     "away": "Loyola MD",
     "home": "Virginia",
     "neutral": false,
-    "margin": 32.07,
+    "margin": 32.08,
     "p_home": 0.992,
     "total": 151.0,
     "pick": "Virginia",
@@ -39896,7 +39995,7 @@
      "espn": 27.25,
      "dratings": 35.4,
      "massey": 35.5,
-     "cbbd": 23.55
+     "cbbd": 23.56
     },
     "src_totals": {
      "hasla": 155.1,
@@ -39957,8 +40056,8 @@
     "away": "Le Moyne",
     "home": "Missouri",
     "neutral": false,
-    "margin": 30.38,
-    "p_home": 0.9892,
+    "margin": 30.39,
+    "p_home": 0.9893,
     "total": 154.4,
     "pick": "Missouri",
     "hammer": null,
@@ -39967,7 +40066,7 @@
      "espn": 25.03,
      "dratings": 27.6,
      "massey": 33.5,
-     "cbbd": 25.37
+     "cbbd": 25.45
     },
     "src_totals": {
      "hasla": 154.6,
@@ -40099,8 +40198,8 @@
     "away": "South Alabama",
     "home": "SMU",
     "neutral": false,
-    "margin": 14.07,
-    "p_home": 0.8641,
+    "margin": 14.09,
+    "p_home": 0.8645,
     "total": 152.2,
     "pick": "SMU",
     "hammer": null,
@@ -40109,7 +40208,7 @@
      "espn": 14.15,
      "dratings": 13.8,
      "massey": 12.5,
-     "cbbd": 8.64
+     "cbbd": 8.71
     },
     "src_totals": {
      "hasla": 153.7,
@@ -40187,28 +40286,6 @@
      "massey": 136.5
     },
     "market": -12.5
-   },
-   {
-    "id": "2026-11-20-uab-george-washington",
-    "away": "UAB",
-    "home": "George Washington",
-    "neutral": true,
-    "margin": 8.75,
-    "p_home": 0.762,
-    "total": 155.5,
-    "pick": "George Washington",
-    "hammer": null,
-    "sources": {
-     "hasla": 8.44,
-     "espn": 6.6,
-     "dratings": 7.9,
-     "cbbd": 12.11
-    },
-    "src_totals": {
-     "hasla": 161.7,
-     "dratings": 150.9
-    },
-    "market": 8.5
    },
    {
     "id": "2026-11-20-georgia-georgia-tech",
@@ -40303,35 +40380,12 @@
     "market": -7.5
    },
    {
-    "id": "2026-11-20-south-dakota-st-idaho-st",
-    "away": "South Dakota St.",
-    "home": "Idaho St.",
-    "neutral": false,
-    "margin": -6.53,
-    "p_home": 0.2978,
-    "total": 146.7,
-    "pick": "South Dakota St.",
-    "hammer": null,
-    "sources": {
-     "hasla": -9.56,
-     "espn": -7.03,
-     "dratings": -5.5,
-     "massey": -3.5
-    },
-    "src_totals": {
-     "hasla": 146.5,
-     "dratings": 146.1,
-     "massey": 147.5
-    },
-    "market": -5.5
-   },
-   {
     "id": "2026-11-20-tulsa-mississippi-st",
     "away": "Tulsa",
     "home": "Mississippi St.",
     "neutral": true,
-    "margin": 6.27,
-    "p_home": 0.6959,
+    "margin": 6.28,
+    "p_home": 0.696,
     "total": 158.2,
     "pick": "Mississippi St.",
     "hammer": null,
@@ -40344,15 +40398,15 @@
      "hasla": 161.1,
      "dratings": 155.7
     },
-    "market": 7.5
+    "market": 6.5
    },
    {
     "id": "2026-11-20-lipscomb-alabama-a-m",
     "away": "Lipscomb",
     "home": "Alabama A&M",
     "neutral": false,
-    "margin": -6.1,
-    "p_home": 0.3102,
+    "margin": -6.12,
+    "p_home": 0.3096,
     "total": 151.3,
     "pick": "Lipscomb",
     "hammer": null,
@@ -40361,7 +40415,7 @@
      "espn": -7.87,
      "dratings": -5.4,
      "massey": -8.5,
-     "cbbd": -2.12
+     "cbbd": -2.2
     },
     "src_totals": {
      "hasla": 155.2,
@@ -40418,7 +40472,7 @@
     "away": "Delaware",
     "home": "CSUN",
     "neutral": false,
-    "margin": 4.78,
+    "margin": 4.77,
     "p_home": 0.6519,
     "total": 150.5,
     "pick": "CSUN",
@@ -40435,34 +40489,12 @@
     "market": 7.5
    },
    {
-    "id": "2026-11-20-western-illinois-albany",
-    "away": "Western Illinois",
-    "home": "Albany",
-    "neutral": true,
-    "margin": 4.2,
-    "p_home": 0.6335,
-    "total": 143.1,
-    "pick": "Albany",
-    "hammer": null,
-    "sources": {
-     "hasla": 5.19,
-     "espn": 2.78,
-     "dratings": 7.2,
-     "cbbd": 1.62
-    },
-    "src_totals": {
-     "hasla": 149.4,
-     "dratings": 138.6
-    },
-    "market": 6.5
-   },
-   {
     "id": "2026-11-20-kansas-city-iona",
     "away": "Kansas City",
     "home": "Iona",
     "neutral": false,
-    "margin": 4.03,
-    "p_home": 0.6282,
+    "margin": 4.01,
+    "p_home": 0.6276,
     "total": 144.9,
     "pick": "Iona",
     "hammer": null,
@@ -40470,7 +40502,7 @@
      "hasla": 1.25,
      "espn": 7.31,
      "dratings": 4.8,
-     "cbbd": 3.2
+     "cbbd": 3.13
     },
     "src_totals": {
      "hasla": 148.9,
@@ -40483,7 +40515,7 @@
     "away": "Cal St. Bakersfield",
     "home": "Idaho",
     "neutral": false,
-    "margin": 3.7,
+    "margin": 3.71,
     "p_home": 0.6196,
     "total": 155.6,
     "pick": "Idaho",
@@ -40574,7 +40606,7 @@
     "neutral": false,
     "margin": 2.43,
     "p_home": 0.5775,
-    "total": 142.6,
+    "total": 142.5,
     "pick": "Jacksonville St.",
     "hammer": null,
     "sources": {
@@ -40596,7 +40628,7 @@
     "away": "North Texas",
     "home": "Appalachian St.",
     "neutral": false,
-    "margin": -2.17,
+    "margin": -2.16,
     "p_home": 0.4293,
     "total": 130.7,
     "pick": "North Texas",
@@ -40707,8 +40739,8 @@
     "away": "Richmond",
     "home": "Western Kentucky",
     "neutral": true,
-    "margin": -1.26,
-    "p_home": 0.4588,
+    "margin": -1.36,
+    "p_home": 0.4558,
     "total": 154.1,
     "pick": "Richmond",
     "hammer": null,
@@ -40716,7 +40748,7 @@
      "hasla": 0.09,
      "espn": -3.98,
      "dratings": -0.6,
-     "cbbd": -0.6
+     "cbbd": -0.97
     },
     "src_totals": {
      "hasla": 155.5,
@@ -40741,7 +40773,7 @@
     "src_totals": {
      "dratings": 140.4
     },
-    "market": 1.5
+    "market": -1.5
    },
    {
     "id": "2026-11-20-niagara-delaware-st",
@@ -40811,58 +40843,6 @@
     "market": 18.5
    },
    {
-    "id": "2026-11-20-northwestern-virginia-tech",
-    "away": "Northwestern",
-    "home": "Virginia Tech",
-    "neutral": true,
-    "margin": 6.73,
-    "p_home": 0.7064,
-    "total": 144.9,
-    "pick": "Virginia Tech",
-    "hammer": {
-     "id": "2026-11-20-northwestern-virginia-tech",
-     "team": "Northwestern",
-     "side": "away",
-     "spread": 11.5,
-     "spread_home": -11.5,
-     "edge": 4.77,
-     "cover_p": 0.6499,
-     "agree": 3,
-     "n": 3
-    },
-    "sources": {
-     "hasla": 3.15,
-     "espn": 8.68,
-     "dratings": 8.8
-    },
-    "src_totals": {
-     "hasla": 146.7,
-     "dratings": 143.2
-    },
-    "market": 11.5
-   },
-   {
-    "id": "2026-11-20-indiana-st-stephen-f-austin",
-    "away": "Indiana St.",
-    "home": "Stephen F. Austin",
-    "neutral": true,
-    "margin": 3.83,
-    "p_home": 0.6238,
-    "total": 147.7,
-    "pick": "Stephen F. Austin",
-    "hammer": null,
-    "sources": {
-     "hasla": 3.64,
-     "espn": 3.01,
-     "dratings": 4.8
-    },
-    "src_totals": {
-     "hasla": 150.9,
-     "dratings": 144.8
-    },
-    "market": 4.5
-   },
-   {
     "id": "2026-11-20-wisconsin-murray-st",
     "away": "Wisconsin",
     "home": "Murray St.",
@@ -40889,9 +40869,9 @@
     "away": "Saint Louis",
     "home": "Saint Mary's",
     "neutral": false,
-    "margin": 3.24,
-    "p_home": 0.6034,
-    "total": 157.8,
+    "margin": 3.25,
+    "p_home": 0.6036,
+    "total": 157.9,
     "pick": "Saint Mary's",
     "hammer": null,
     "sources": {
@@ -40912,8 +40892,8 @@
     "away": "Dayton",
     "home": "Utah",
     "neutral": true,
-    "margin": -1.94,
-    "p_home": 0.4378,
+    "margin": -1.93,
+    "p_home": 0.4379,
     "total": 144.7,
     "pick": "Dayton",
     "hammer": null,
@@ -41126,6 +41106,13 @@
    "w": 18,
    "l": 7,
    "mae": 9.81
+  },
+  {
+   "date": "2026-11-20",
+   "graded": 1,
+   "w": 0,
+   "l": 1,
+   "mae": 13.75
   }
  ],
  "log": [
