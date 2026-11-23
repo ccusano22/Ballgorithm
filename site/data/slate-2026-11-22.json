@@ -2,6 +2,7 @@
  "date": "2026-11-22",
  "generated_at": "2026-11-22T19:58:44-05:00",
  "notes": [
+  "GRADED: 21-10 picking winners (68%), average margin miss 10.3. Hammer Maryland Eastern Shore +10.5: loss.",
   "31 D1 games on the board (29 locked at tip). Coverage: Torvik 0, Haslametrics 2, ESPN 2, DRatings 1, Massey 0, CBBD 1, DraftKings lines 2.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "4 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
@@ -298,7 +299,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 26, 1.2 short of our number",
+    "tags": [],
+    "score": [
+     56,
+     82
+    ],
+    "model_err": 1.22,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 7.51,
+     "espn": 0.6,
+     "dratings": 0.5,
+     "massey": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 12.9,
+     "dratings": 7.9,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.7
+   }
   },
   {
    "id": "2026-11-22-delaware-ucla",
@@ -437,7 +461,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 37, 12.4 better our number",
+    "tags": [],
+    "score": [
+     48,
+     85
+    ],
+    "model_err": 12.4,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 9.86,
+     "espn": 13.99,
+     "dratings": 10.0,
+     "massey": 11.5,
+     "cbbd": 18.62
+    },
+    "src_tot_err": {
+     "hasla": 6.2,
+     "dratings": 11.6,
+     "massey": 12.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 10.2
+   }
   },
   {
    "id": "2026-11-22-njit-boston-college",
@@ -1217,7 +1265,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 10",
+    "tags": [],
+    "score": [
+     99,
+     89
+    ],
+    "model_err": 18.28,
+    "src_err": {
+     "market": 18.5,
+     "hasla": 20.14,
+     "espn": 18.56,
+     "dratings": 17.4,
+     "cbbd": 16.29
+    },
+    "src_tot_err": {
+     "hasla": 40.1,
+     "dratings": 43.0
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 41.7
+   }
   },
   {
    "id": "2026-11-22-tennessee-martin-utah-valley",
@@ -1348,7 +1418,30 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Won by 2, 6.0 short of our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     76,
+     78
+    ],
+    "model_err": 6.01,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 9.19,
+     "espn": 2.39,
+     "dratings": 5.9
+    },
+    "src_tot_err": {
+     "hasla": 3.2,
+     "dratings": 8.1
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.9
+   }
   },
   {
    "id": "2026-11-22-california-portland",
@@ -1483,7 +1576,29 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±12%)",
-   "result": null
+   "result": {
+    "label": "Lost by 8",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     79,
+     71
+    ],
+    "model_err": 15.89,
+    "src_err": {
+     "market": 15.5,
+     "espn": 16.98,
+     "dratings": 10.9,
+     "cbbd": 22.67
+    },
+    "src_tot_err": {
+     "dratings": 1.9
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 1.9
+   }
   },
   {
    "id": "2026-11-22-iu-indy-maryland-eastern-shore",
@@ -3360,7 +3475,26 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 15, 13.3 better our number",
+    "tags": [],
+    "score": [
+     79,
+     64
+    ],
+    "model_err": 13.29,
+    "src_err": {
+     "market": 12.5,
+     "espn": 12.79,
+     "dratings": 13.8
+    },
+    "src_tot_err": {
+     "dratings": 5.6
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.6
+   }
   },
   {
    "id": "2026-11-22-rice-lamar",
@@ -4594,7 +4728,27 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null,
+   "result": {
+    "label": "Won by 9, 4.0 better our number",
+    "tags": [],
+    "score": [
+     72,
+     63
+    ],
+    "model_err": 4.03,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 3.96,
+     "espn": 3.84,
+     "cbbd": 4.36
+    },
+    "src_tot_err": {
+     "hasla": 18.7
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 18.7
+   },
    "hammer": {
     "id": "2026-11-22-loyola-chicago-san-jose-st",
     "team": "Loyola Chicago",
@@ -4736,7 +4890,28 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±10%)",
-   "result": null
+   "result": {
+    "label": "Won by 26, 25.8 better our number",
+    "tags": [],
+    "score": [
+     64,
+     90
+    ],
+    "model_err": 25.77,
+    "src_err": {
+     "market": 27.5,
+     "hasla": 29.85,
+     "espn": 25.39,
+     "dratings": 22.4
+    },
+    "src_tot_err": {
+     "hasla": 3.6,
+     "dratings": 6.6
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.1
+   }
   }
  ],
  "waiting": [],
@@ -4751,7 +4926,7 @@
   "agree": 3,
   "n": 3
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Alice Lloyd Eagles",
   "Lancaster Bible Chargers",
