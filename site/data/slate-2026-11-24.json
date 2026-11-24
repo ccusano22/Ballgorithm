@@ -1,0 +1,8815 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T15:55:07-05:00",
+ "notes": [
+  "64 D1 games on the board. Coverage: Torvik 0, Haslametrics 61, ESPN 61, DRatings 61, Massey 41, CBBD 48, DraftKings lines 63.",
+  "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
+  "9 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
+ ],
+ "games": [
+  {
+   "id": "2026-11-24-milwaukee-florida",
+   "away": "Milwaukee",
+   "home": "Florida",
+   "away_conf": "Horz",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": false,
+   "site": "at Florida",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "SECN+",
+   "sources": {
+    "hasla": {
+     "margin": 37.95,
+     "total": 158.6,
+     "note": "Published projection: Milwaukee 60.3, Florida 98.3."
+    },
+    "dratings": {
+     "margin": 30.8,
+     "total": 157.8,
+     "note": "Published projection: Milwaukee 63.5, Florida 94.3."
+    },
+    "massey": {
+     "margin": 34.5,
+     "total": 157.5,
+     "note": "Published median margin: Florida by 34.5, total 157.5."
+    },
+    "espn": {
+     "margin": 25.8,
+     "derived": true,
+     "note": "BPI matchup predictor: Florida 99.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -34.5,
+    "total": 152.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.169,
+      "espn": 0.168,
+      "dratings": 0.15,
+      "massey": 0.152,
+      "cbbd": 0.195
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.165,
+      "dratings": 0.189,
+      "massey": 0.163,
+      "cbbd": 0.131
+     }
+    },
+    "used": {
+     "hasla": 0.265,
+     "espn": 0.248,
+     "dratings": 0.252,
+     "massey": 0.234
+    },
+    "used_total": {
+     "hasla": 0.336,
+     "dratings": 0.353,
+     "massey": 0.311
+    }
+   },
+   "blend": {
+    "margin": 32.33,
+    "src_sd": 4.51,
+    "model_sd": 12.33,
+    "sd": 13.13,
+    "p_home": 0.9931,
+    "p_sd": 0.0067,
+    "total": 158.0,
+    "total_sd": 16.7,
+    "baseline_total": 153.7,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Florida",
+    "dog": "Milwaukee",
+    "p": 0.9931,
+    "margin": 32.33,
+    "lock": true
+   },
+   "momentum": {
+    "Milwaukee": {
+     "n": 3,
+     "avg": -0.1,
+     "last": [
+      15.7,
+      9.4,
+      -25.5
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Florida": {
+     "n": 5,
+     "avg": -3.1,
+     "last": [
+      -0.2,
+      -2.4,
+      -6.5,
+      -11.1,
+      4.8
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.13,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-evansville-missouri",
+   "away": "Evansville",
+   "home": "Missouri",
+   "away_conf": "MVC",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": false,
+   "site": "at Missouri",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "SECN+",
+   "sources": {
+    "hasla": {
+     "margin": 33.21,
+     "total": 148.4,
+     "note": "Published projection: Evansville 57.6, Missouri 90.8."
+    },
+    "dratings": {
+     "margin": 26.3,
+     "total": 150.5,
+     "note": "Published projection: Evansville 62.1, Missouri 88.4."
+    },
+    "massey": {
+     "margin": 25.5,
+     "total": 149.5,
+     "note": "Published median margin: Missouri by 25.5, total 149.5."
+    },
+    "espn": {
+     "margin": 25.8,
+     "derived": true,
+     "note": "BPI matchup predictor: Missouri 99.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 22.6,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.3 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -30.5,
+    "total": 148.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.169,
+      "espn": 0.18,
+      "dratings": 0.175,
+      "massey": 0.214,
+      "cbbd": 0.102
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.165,
+      "dratings": 0.189,
+      "massey": 0.163,
+      "cbbd": 0.131
+     }
+    },
+    "used": {
+     "hasla": 0.213,
+     "espn": 0.206,
+     "dratings": 0.217,
+     "massey": 0.225,
+     "cbbd": 0.139
+    },
+    "used_total": {
+     "hasla": 0.308,
+     "dratings": 0.361,
+     "massey": 0.331
+    }
+   },
+   "blend": {
+    "margin": 26.97,
+    "src_sd": 3.51,
+    "model_sd": 12.33,
+    "sd": 12.82,
+    "p_home": 0.9823,
+    "p_sd": 0.0095,
+    "total": 149.5,
+    "total_sd": 16.7,
+    "baseline_total": 150.0,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Missouri",
+    "dog": "Evansville",
+    "p": 0.9823,
+    "margin": 26.97,
+    "lock": true
+   },
+   "momentum": {
+    "Evansville": {
+     "n": 4,
+     "avg": 3.4,
+     "last": [
+      5.5,
+      0.2,
+      8.8,
+      -0.7
+     ],
+     "flag": null,
+     "index": 0.0,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Missouri": {
+     "n": 5,
+     "avg": 6.3,
+     "last": [
+      -10.3,
+      15.8,
+      2.1,
+      27.2,
+      -3.4
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.12,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-jacksonville-indiana",
+   "away": "Jacksonville",
+   "home": "Indiana",
+   "away_conf": "ASun",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Indiana",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "B1G+",
+   "sources": {
+    "hasla": {
+     "margin": 26.81,
+     "total": 147.9,
+     "note": "Published projection: Jacksonville 60.6, Indiana 87.4."
+    },
+    "dratings": {
+     "margin": 26.1,
+     "total": 148.3,
+     "note": "Published projection: Jacksonville 61.1, Indiana 87.2."
+    },
+    "massey": {
+     "margin": 27.5,
+     "total": 149.5,
+     "note": "Published median margin: Indiana by 27.5, total 149.5."
+    },
+    "espn": {
+     "margin": 23.01,
+     "derived": true,
+     "note": "BPI matchup predictor: Indiana 98.1% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -27.5,
+    "total": 145.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.174,
+      "espn": 0.177,
+      "dratings": 0.165,
+      "massey": 0.185,
+      "cbbd": 0.133
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.264,
+     "espn": 0.239,
+     "dratings": 0.26,
+     "massey": 0.237
+    },
+    "used_total": {
+     "hasla": 0.356,
+     "dratings": 0.362,
+     "massey": 0.282
+    }
+   },
+   "blend": {
+    "margin": 25.88,
+    "src_sd": 1.72,
+    "model_sd": 12.33,
+    "sd": 12.45,
+    "p_home": 0.9812,
+    "p_sd": 0.0071,
+    "total": 148.5,
+    "total_sd": 16.7,
+    "baseline_total": 155.6,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Indiana",
+    "dog": "Jacksonville",
+    "p": 0.9812,
+    "margin": 25.88,
+    "lock": true
+   },
+   "momentum": {
+    "Jacksonville": {
+     "n": 5,
+     "avg": -6.3,
+     "last": [
+      0.6,
+      13.8,
+      -25.8,
+      -8.1,
+      -12.3
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Indiana": {
+     "n": 5,
+     "avg": 2.6,
+     "last": [
+      -2.8,
+      -1.6,
+      0.3,
+      4.7,
+      12.2
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.11,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±1%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-coppin-st-villanova",
+   "away": "Coppin St.",
+   "home": "Villanova",
+   "away_conf": "MEAC",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Villanova",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "truTV",
+   "sources": {
+    "hasla": {
+     "margin": 31.4,
+     "total": 141.0,
+     "note": "Published projection: Coppin St. 54.8, Villanova 86.2."
+    },
+    "dratings": {
+     "margin": 32.6,
+     "total": 147.2,
+     "note": "Published projection: Coppin St. 57.3, Villanova 89.9."
+    },
+    "massey": {
+     "margin": 38.5,
+     "total": 142.5,
+     "note": "Published median margin: Villanova by 38.5, total 142.5."
+    },
+    "espn": {
+     "margin": 25.8,
+     "derived": true,
+     "note": "BPI matchup predictor: Villanova 99.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 14.81,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.7 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -34.5,
+    "total": 143.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.174,
+      "espn": 0.184,
+      "dratings": 0.199,
+      "massey": 0.168,
+      "cbbd": 0.112
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.193,
+      "espn": 0.161,
+      "dratings": 0.172,
+      "massey": 0.168,
+      "cbbd": 0.141
+     }
+    },
+    "used": {
+     "hasla": 0.219,
+     "espn": 0.206,
+     "dratings": 0.222,
+     "massey": 0.201,
+     "cbbd": 0.152
+    },
+    "used_total": {
+     "hasla": 0.293,
+     "dratings": 0.355,
+     "massey": 0.352
+    }
+   },
+   "blend": {
+    "margin": 29.43,
+    "src_sd": 8.0,
+    "model_sd": 12.33,
+    "sd": 14.7,
+    "p_home": 0.9774,
+    "p_sd": 0.0435,
+    "total": 143.7,
+    "total_sd": 16.7,
+    "baseline_total": 141.3,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Villanova",
+    "dog": "Coppin St.",
+    "p": 0.9774,
+    "margin": 29.43,
+    "lock": true
+   },
+   "momentum": {
+    "Coppin St.": {
+     "n": 5,
+     "avg": 5.4,
+     "last": [
+      9.8,
+      11.5,
+      16.6,
+      -13.5,
+      2.9
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Villanova": {
+     "n": 5,
+     "avg": -0.7,
+     "last": [
+      -0.2,
+      1.6,
+      4.7,
+      -20.4,
+      10.6
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-umbc-iowa",
+   "away": "UMBC",
+   "home": "Iowa",
+   "away_conf": "AE",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Iowa",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "B1G+",
+   "sources": {
+    "hasla": {
+     "margin": 27.43,
+     "total": 142.6,
+     "note": "Published projection: UMBC 57.6, Iowa 85.0."
+    },
+    "dratings": {
+     "margin": 26.2,
+     "total": 145.8,
+     "note": "Published projection: UMBC 59.8, Iowa 86.0."
+    },
+    "massey": {
+     "margin": 30.5,
+     "total": 152.5,
+     "note": "Published median margin: Iowa by 30.5, total 152.5."
+    },
+    "espn": {
+     "margin": 25.03,
+     "derived": true,
+     "note": "BPI matchup predictor: Iowa 98.8% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 17.57,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 53.1 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -28.5,
+    "total": 144.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.195,
+      "espn": 0.193,
+      "dratings": 0.166,
+      "massey": 0.186,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.229,
+     "espn": 0.205,
+     "dratings": 0.214,
+     "massey": 0.195,
+     "cbbd": 0.156
+    },
+    "used_total": {
+     "hasla": 0.287,
+     "dratings": 0.38,
+     "massey": 0.333
+    }
+   },
+   "blend": {
+    "margin": 25.73,
+    "src_sd": 4.29,
+    "model_sd": 12.33,
+    "sd": 13.06,
+    "p_home": 0.9756,
+    "p_sd": 0.0255,
+    "total": 147.1,
+    "total_sd": 16.7,
+    "baseline_total": 149.6,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Iowa",
+    "dog": "UMBC",
+    "p": 0.9756,
+    "margin": 25.73,
+    "lock": true
+   },
+   "momentum": {
+    "UMBC": {
+     "n": 5,
+     "avg": -4.6,
+     "last": [
+      -3.9,
+      6.8,
+      -16.6,
+      7.1,
+      -16.2
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Iowa": {
+     "n": 4,
+     "avg": 5.0,
+     "last": [
+      14.1,
+      -9.9,
+      -2.6,
+      18.6
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-unc-asheville-florida-st",
+   "away": "UNC Asheville",
+   "home": "Florida St.",
+   "away_conf": "BSth",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Florida St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ACC Network",
+   "sources": {
+    "hasla": {
+     "margin": 26.49,
+     "total": 159.5,
+     "note": "Published projection: UNC Asheville 66.5, Florida St. 93.0."
+    },
+    "dratings": {
+     "margin": 24.6,
+     "total": 159.2,
+     "note": "Published projection: UNC Asheville 67.3, Florida St. 91.9."
+    },
+    "massey": {
+     "margin": 20.5,
+     "total": 155.5,
+     "note": "Published median margin: Florida St. by 20.5, total 155.5."
+    },
+    "espn": {
+     "margin": 19.55,
+     "derived": true,
+     "note": "BPI matchup predictor: Florida St. 96.1% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 15.8,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 74.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -29.5,
+    "total": 159.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.182,
+      "espn": 0.191,
+      "dratings": 0.221,
+      "massey": 0.152,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.183,
+      "espn": 0.162,
+      "dratings": 0.172,
+      "massey": 0.188,
+      "cbbd": 0.13
+     }
+    },
+    "used": {
+     "hasla": 0.218,
+     "espn": 0.21,
+     "dratings": 0.234,
+     "massey": 0.202,
+     "cbbd": 0.137
+    },
+    "used_total": {
+     "hasla": 0.281,
+     "dratings": 0.362,
+     "massey": 0.357
+    }
+   },
+   "blend": {
+    "margin": 21.92,
+    "src_sd": 3.79,
+    "model_sd": 12.33,
+    "sd": 12.9,
+    "p_home": 0.9554,
+    "p_sd": 0.0298,
+    "total": 158.0,
+    "total_sd": 16.7,
+    "baseline_total": 154.7,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Florida St.",
+    "dog": "UNC Asheville",
+    "p": 0.9554,
+    "margin": 21.92,
+    "lock": true
+   },
+   "momentum": {
+    "UNC Asheville": {
+     "n": 5,
+     "avg": -2.2,
+     "last": [
+      -7.8,
+      2.3,
+      12.1,
+      -23.1,
+      5.7
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Florida St.": {
+     "n": 4,
+     "avg": 2.1,
+     "last": [
+      8.2,
+      0.2,
+      7.2,
+      -7.1
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.11,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-sacred-heart-rutgers",
+   "away": "Sacred Heart",
+   "home": "Rutgers",
+   "away_conf": "MC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Rutgers",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "B1G+",
+   "sources": {
+    "hasla": {
+     "margin": 22.91,
+     "total": 164.4,
+     "note": "Published projection: Sacred Heart 70.7, Rutgers 93.7."
+    },
+    "dratings": {
+     "margin": 17.6,
+     "total": 155.8,
+     "note": "Published projection: Sacred Heart 69.1, Rutgers 86.7."
+    },
+    "massey": {
+     "margin": 23.5,
+     "total": 154.5,
+     "note": "Published median margin: Rutgers by 23.5, total 154.5."
+    },
+    "espn": {
+     "margin": 18.24,
+     "derived": true,
+     "note": "BPI matchup predictor: Rutgers 95.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 14.16,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 69.5 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -22.5,
+    "total": 159.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.2,
+      "espn": 0.16,
+      "dratings": 0.184,
+      "massey": 0.176,
+      "cbbd": 0.117
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.232,
+     "espn": 0.186,
+     "dratings": 0.225,
+     "massey": 0.19,
+     "cbbd": 0.167
+    },
+    "used_total": {
+     "hasla": 0.294,
+     "dratings": 0.383,
+     "massey": 0.323
+    }
+   },
+   "blend": {
+    "margin": 19.49,
+    "src_sd": 3.5,
+    "model_sd": 12.33,
+    "sd": 12.82,
+    "p_home": 0.9359,
+    "p_sd": 0.0354,
+    "total": 157.9,
+    "total_sd": 16.7,
+    "baseline_total": 149.0,
+    "lean": "over",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Rutgers",
+    "dog": "Sacred Heart",
+    "p": 0.9359,
+    "margin": 19.49,
+    "lock": true
+   },
+   "momentum": {
+    "Sacred Heart": {
+     "n": 4,
+     "avg": -1.7,
+     "last": [
+      -7.6,
+      5.3,
+      -8.8,
+      4.2
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Rutgers": {
+     "n": 4,
+     "avg": 8.5,
+     "last": [
+      4.0,
+      13.6,
+      0.6,
+      15.9
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-lipscomb-auburn",
+   "away": "Lipscomb",
+   "home": "Auburn",
+   "away_conf": "ASun",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": false,
+   "site": "at Auburn",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "SECN+",
+   "sources": {
+    "hasla": {
+     "margin": 20.26,
+     "total": 155.8,
+     "note": "Published projection: Lipscomb 67.8, Auburn 88.0."
+    },
+    "dratings": {
+     "margin": 22.2,
+     "total": 158.4,
+     "note": "Published projection: Lipscomb 68.1, Auburn 90.3."
+    },
+    "massey": {
+     "margin": 24.5,
+     "total": 156.5,
+     "note": "Published median margin: Auburn by 24.5, total 156.5."
+    },
+    "espn": {
+     "margin": 18.69,
+     "derived": true,
+     "note": "BPI matchup predictor: Auburn 95.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 10.81,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 70.0 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -24.5,
+    "total": 158.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.174,
+      "espn": 0.177,
+      "dratings": 0.165,
+      "massey": 0.185,
+      "cbbd": 0.133
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.165,
+      "dratings": 0.189,
+      "massey": 0.163,
+      "cbbd": 0.131
+     }
+    },
+    "used": {
+     "hasla": 0.217,
+     "espn": 0.205,
+     "dratings": 0.212,
+     "massey": 0.208,
+     "cbbd": 0.158
+    },
+    "used_total": {
+     "hasla": 0.373,
+     "dratings": 0.379,
+     "massey": 0.248
+    }
+   },
+   "blend": {
+    "margin": 19.74,
+    "src_sd": 4.67,
+    "model_sd": 12.33,
+    "sd": 13.18,
+    "p_home": 0.9328,
+    "p_sd": 0.0603,
+    "total": 157.0,
+    "total_sd": 16.7,
+    "baseline_total": 151.9,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Auburn",
+    "dog": "Lipscomb",
+    "p": 0.9328,
+    "margin": 19.74,
+    "lock": true
+   },
+   "momentum": {
+    "Lipscomb": {
+     "n": 5,
+     "avg": -0.1,
+     "last": [
+      -6.0,
+      14.8,
+      8.8,
+      3.9,
+      -22.1
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.13,
+     "tag": "Steady"
+    },
+    "Auburn": {
+     "n": 5,
+     "avg": -3.8,
+     "last": [
+      1.5,
+      -9.4,
+      -9.9,
+      8.6,
+      -9.9
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.07,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±6%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-central-michigan-notre-dame",
+   "away": "Central Michigan",
+   "home": "Notre Dame",
+   "away_conf": "MAC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Notre Dame",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ACCNX",
+   "sources": {
+    "hasla": {
+     "margin": 21.18,
+     "total": 160.7,
+     "note": "Published projection: Central Michigan 69.7, Notre Dame 90.9."
+    },
+    "dratings": {
+     "margin": 15.6,
+     "total": 151.0,
+     "note": "Published projection: Central Michigan 67.7, Notre Dame 83.3."
+    },
+    "massey": {
+     "margin": 18.5,
+     "total": 153.5,
+     "note": "Published median margin: Notre Dame by 18.5, total 153.5."
+    },
+    "espn": {
+     "margin": 18.57,
+     "derived": true,
+     "note": "BPI matchup predictor: Notre Dame 95.3% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -20.5,
+    "total": 152.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.197,
+      "espn": 0.165,
+      "dratings": 0.185,
+      "massey": 0.195,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.183,
+      "espn": 0.162,
+      "dratings": 0.172,
+      "massey": 0.188,
+      "cbbd": 0.13
+     }
+    },
+    "used": {
+     "hasla": 0.263,
+     "espn": 0.226,
+     "dratings": 0.247,
+     "massey": 0.265
+    },
+    "used_total": {
+     "hasla": 0.325,
+     "dratings": 0.314,
+     "massey": 0.361
+    }
+   },
+   "blend": {
+    "margin": 18.51,
+    "src_sd": 1.97,
+    "model_sd": 12.33,
+    "sd": 12.49,
+    "p_home": 0.9308,
+    "p_sd": 0.0215,
+    "total": 155.1,
+    "total_sd": 16.7,
+    "baseline_total": 156.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Notre Dame",
+    "dog": "Central Michigan",
+    "p": 0.9308,
+    "margin": 18.51,
+    "lock": true
+   },
+   "momentum": {
+    "Central Michigan": {
+     "n": 4,
+     "avg": 2.4,
+     "last": [
+      12.2,
+      15.5,
+      -13.2,
+      -4.8
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Notre Dame": {
+     "n": 5,
+     "avg": 8.7,
+     "last": [
+      7.0,
+      0.3,
+      20.0,
+      6.5,
+      9.9
+     ],
+     "flag": null,
+     "index": 0.0,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-stetson-south-florida",
+   "away": "Stetson",
+   "home": "South Florida",
+   "away_conf": "ASun",
+   "home_conf": "Amer",
+   "short": {},
+   "neutral": false,
+   "site": "at South Florida",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 20.73,
+     "total": 157.5,
+     "note": "Published projection: Stetson 68.4, South Florida 89.1."
+    },
+    "dratings": {
+     "margin": 15.8,
+     "total": 154.6,
+     "note": "Published projection: Stetson 69.4, South Florida 85.2."
+    },
+    "massey": {
+     "margin": 18.5,
+     "total": 155.5,
+     "note": "Published median margin: South Florida by 18.5, total 155.5."
+    },
+    "espn": {
+     "margin": 15.66,
+     "derived": true,
+     "note": "BPI matchup predictor: South Florida 92.1% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 14.54,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.3 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 153.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.174,
+      "espn": 0.177,
+      "dratings": 0.165,
+      "massey": 0.185,
+      "cbbd": 0.133
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.162,
+      "hasla": 0.173,
+      "espn": 0.196,
+      "dratings": 0.182,
+      "massey": 0.183,
+      "cbbd": 0.104
+     }
+    },
+    "used": {
+     "hasla": 0.207,
+     "espn": 0.223,
+     "dratings": 0.208,
+     "massey": 0.22,
+     "cbbd": 0.142
+    },
+    "used_total": {
+     "hasla": 0.341,
+     "dratings": 0.364,
+     "massey": 0.295
+    }
+   },
+   "blend": {
+    "margin": 17.21,
+    "src_sd": 2.26,
+    "model_sd": 12.33,
+    "sd": 12.53,
+    "p_home": 0.9151,
+    "p_sd": 0.0264,
+    "total": 155.9,
+    "total_sd": 16.7,
+    "baseline_total": 148.7,
+    "lean": "over",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "South Florida",
+    "dog": "Stetson",
+    "p": 0.9151,
+    "margin": 17.21,
+    "lock": true
+   },
+   "momentum": {
+    "Stetson": {
+     "n": 3,
+     "avg": -1.8,
+     "last": [
+      -15.0,
+      -4.9,
+      14.5
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "South Florida": {
+     "n": 5,
+     "avg": -3.6,
+     "last": [
+      1.4,
+      -9.0,
+      -16.6,
+      14.7,
+      -8.3
+     ],
+     "flag": null,
+     "index": -0.04,
+     "sd": 0.11,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-florida-a-m-south-alabama",
+   "away": "Florida A&M",
+   "home": "South Alabama",
+   "away_conf": "SWAC",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at South Alabama",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 14.64,
+     "total": 145.6,
+     "note": "Published projection: Florida A&M 65.5, South Alabama 80.1."
+    },
+    "dratings": {
+     "margin": 15.1,
+     "total": 141.5,
+     "note": "Published projection: Florida A&M 63.2, South Alabama 78.3."
+    },
+    "massey": {
+     "margin": 17.5,
+     "total": 146.5,
+     "note": "Published median margin: South Alabama by 17.5, total 146.5."
+    },
+    "espn": {
+     "margin": 16.7,
+     "derived": true,
+     "note": "BPI matchup predictor: South Alabama 93.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 13.53,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.9 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 141.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.202,
+      "espn": 0.14,
+      "dratings": 0.181,
+      "massey": 0.151,
+      "cbbd": 0.161
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.153,
+      "espn": 0.192,
+      "dratings": 0.208,
+      "massey": 0.187,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.211,
+     "espn": 0.199,
+     "dratings": 0.232,
+     "massey": 0.202,
+     "cbbd": 0.156
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.331,
+     "massey": 0.362
+    }
+   },
+   "blend": {
+    "margin": 15.56,
+    "src_sd": 1.43,
+    "model_sd": 12.33,
+    "sd": 12.41,
+    "p_home": 0.895,
+    "p_sd": 0.0209,
+    "total": 144.6,
+    "total_sd": 16.7,
+    "baseline_total": 157.2,
+    "lean": "under",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "South Alabama",
+    "dog": "Florida A&M",
+    "p": 0.895,
+    "margin": 15.56,
+    "lock": false
+   },
+   "momentum": {
+    "Florida A&M": {
+     "n": 2,
+     "avg": -8.1,
+     "last": [
+      -10.0,
+      -6.3
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "South Alabama": {
+     "n": 5,
+     "avg": 0.9,
+     "last": [
+      8.5,
+      12.2,
+      10.0,
+      -31.9,
+      5.9
+     ],
+     "flag": null,
+     "index": 0.0,
+     "sd": 0.13,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-alcorn-st-louisiana-tech",
+   "away": "Alcorn St.",
+   "home": "Louisiana Tech",
+   "away_conf": "SWAC",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at Louisiana Tech",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 11.57,
+     "total": 147.0,
+     "note": "Published projection: Alcorn St. 67.7, Louisiana Tech 79.3."
+    },
+    "dratings": {
+     "margin": 14.1,
+     "total": 142.9,
+     "note": "Published projection: Alcorn St. 64.4, Louisiana Tech 78.5."
+    },
+    "massey": {
+     "margin": 19.5,
+     "total": 140.5,
+     "note": "Published median margin: Louisiana Tech by 19.5, total 140.5."
+    },
+    "espn": {
+     "margin": 16.79,
+     "derived": true,
+     "note": "BPI matchup predictor: Louisiana Tech 93.5% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 14.56,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 69.8 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": null,
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.202,
+      "espn": 0.14,
+      "dratings": 0.181,
+      "massey": 0.151,
+      "cbbd": 0.161
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.153,
+      "espn": 0.192,
+      "dratings": 0.208,
+      "massey": 0.187,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.211,
+     "espn": 0.199,
+     "dratings": 0.232,
+     "massey": 0.202,
+     "cbbd": 0.156
+    },
+    "used_total": {
+     "hasla": 0.307,
+     "dratings": 0.331,
+     "massey": 0.362
+    }
+   },
+   "blend": {
+    "margin": 15.26,
+    "src_sd": 2.67,
+    "model_sd": 12.33,
+    "sd": 12.62,
+    "p_home": 0.8868,
+    "p_sd": 0.0394,
+    "total": 143.3,
+    "total_sd": 16.7,
+    "baseline_total": 147.6,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Louisiana Tech",
+    "dog": "Alcorn St.",
+    "p": 0.8868,
+    "margin": 15.26,
+    "lock": false
+   },
+   "momentum": {
+    "Alcorn St.": {
+     "n": 5,
+     "avg": -14.9,
+     "last": [
+      -5.0,
+      -17.5,
+      8.0,
+      -32.8,
+      -27.2
+     ],
+     "flag": null,
+     "index": -0.06,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Louisiana Tech": {
+     "n": 4,
+     "avg": -5.1,
+     "last": [
+      -24.4,
+      -3.6,
+      1.9,
+      5.5
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-delaware-st-chattanooga",
+   "away": "Delaware St.",
+   "home": "Chattanooga",
+   "away_conf": "MEAC",
+   "home_conf": "SC",
+   "short": {},
+   "neutral": false,
+   "site": "at Chattanooga",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 16.67,
+     "total": 148.4,
+     "note": "Published projection: Delaware St. 65.9, Chattanooga 82.6."
+    },
+    "dratings": {
+     "margin": 13.2,
+     "total": 148.0,
+     "note": "Published projection: Delaware St. 67.4, Chattanooga 80.6."
+    },
+    "massey": {
+     "margin": 15.5,
+     "total": 148.5,
+     "note": "Published median margin: Chattanooga by 15.5, total 148.5."
+    },
+    "espn": {
+     "margin": 15.36,
+     "derived": true,
+     "note": "BPI matchup predictor: Chattanooga 91.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 11.76,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 69.7 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 144.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.174,
+      "espn": 0.184,
+      "dratings": 0.199,
+      "massey": 0.168,
+      "cbbd": 0.112
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.223,
+     "espn": 0.213,
+     "dratings": 0.238,
+     "massey": 0.199,
+     "cbbd": 0.126
+    },
+    "used_total": {
+     "hasla": 0.276,
+     "dratings": 0.362,
+     "massey": 0.361
+    }
+   },
+   "blend": {
+    "margin": 14.71,
+    "src_sd": 1.77,
+    "model_sd": 12.33,
+    "sd": 12.46,
+    "p_home": 0.8812,
+    "p_sd": 0.0297,
+    "total": 148.3,
+    "total_sd": 16.7,
+    "baseline_total": 156.9,
+    "lean": "under",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Chattanooga",
+    "dog": "Delaware St.",
+    "p": 0.8812,
+    "margin": 14.71,
+    "lock": false
+   },
+   "momentum": {
+    "Delaware St.": {
+     "n": 4,
+     "avg": 3.1,
+     "last": [
+      4.9,
+      20.9,
+      -10.3,
+      -3.0
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Chattanooga": {
+     "n": 4,
+     "avg": 3.7,
+     "last": [
+      9.7,
+      10.0,
+      11.5,
+      -16.3
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-gardner-webb-bowling-green",
+   "away": "Gardner Webb",
+   "home": "Bowling Green",
+   "away_conf": "BSth",
+   "home_conf": "MAC",
+   "short": {},
+   "neutral": false,
+   "site": "at Bowling Green",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 13.62,
+     "total": 152.4,
+     "note": "Published projection: Gardner Webb 69.4, Bowling Green 83.0."
+    },
+    "dratings": {
+     "margin": 12.1,
+     "total": 149.1,
+     "note": "Published projection: Gardner Webb 68.5, Bowling Green 80.6."
+    },
+    "massey": {
+     "margin": 12.5,
+     "total": 152.5,
+     "note": "Published median margin: Bowling Green by 12.5, total 152.5."
+    },
+    "espn": {
+     "margin": 14.67,
+     "derived": true,
+     "note": "BPI matchup predictor: Bowling Green 90.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 10.26,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 64.1 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -12.5,
+    "total": 143.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.182,
+      "espn": 0.191,
+      "dratings": 0.221,
+      "massey": 0.152,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.197,
+      "espn": 0.165,
+      "dratings": 0.185,
+      "massey": 0.195,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.225,
+     "espn": 0.211,
+     "dratings": 0.24,
+     "massey": 0.205,
+     "cbbd": 0.119
+    },
+    "used_total": {
+     "hasla": 0.294,
+     "dratings": 0.349,
+     "massey": 0.357
+    }
+   },
+   "blend": {
+    "margin": 12.85,
+    "src_sd": 1.49,
+    "model_sd": 12.33,
+    "sd": 12.42,
+    "p_home": 0.8495,
+    "p_sd": 0.029,
+    "total": 151.3,
+    "total_sd": 16.7,
+    "baseline_total": 152.5,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Bowling Green",
+    "dog": "Gardner Webb",
+    "p": 0.8495,
+    "margin": 12.85,
+    "lock": false
+   },
+   "momentum": {
+    "Gardner Webb": {
+     "n": 4,
+     "avg": -0.6,
+     "last": [
+      -13.7,
+      8.9,
+      -1.7,
+      4.2
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Bowling Green": {
+     "n": 4,
+     "avg": -6.3,
+     "last": [
+      4.7,
+      -1.6,
+      -2.9,
+      -25.4
+     ],
+     "flag": null,
+     "index": -0.04,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-unc-greensboro-uc-santa-barbara",
+   "away": "UNC Greensboro",
+   "home": "UC Santa Barbara",
+   "away_conf": "SC",
+   "home_conf": "BW",
+   "short": {},
+   "neutral": false,
+   "site": "at UC Santa Barbara",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "ESPN+",
+   "sources": {
+    "dratings": {
+     "margin": 15.0,
+     "total": 147.6,
+     "note": "Published projection: UNC Greensboro 66.3, UC Santa Barbara 81.3."
+    },
+    "massey": {
+     "margin": 10.5,
+     "total": 150.5,
+     "note": "Published median margin: UC Santa Barbara by 10.5, total 150.5."
+    },
+    "espn": {
+     "margin": 13.54,
+     "derived": true,
+     "note": "BPI matchup predictor: UC Santa Barbara 88.9% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 11.35,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 66.5 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 145.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.183,
+      "espn": 0.155,
+      "dratings": 0.198,
+      "massey": 0.175,
+      "cbbd": 0.125
+     }
+    },
+    "used": {
+     "espn": 0.255,
+     "dratings": 0.308,
+     "massey": 0.263,
+     "cbbd": 0.174
+    },
+    "used_total": {
+     "dratings": 0.489,
+     "massey": 0.511
+    }
+   },
+   "blend": {
+    "margin": 12.81,
+    "src_sd": 1.78,
+    "model_sd": 12.33,
+    "sd": 12.46,
+    "p_home": 0.8481,
+    "p_sd": 0.0337,
+    "total": 149.1,
+    "total_sd": 16.7,
+    "baseline_total": 151.6,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "UC Santa Barbara",
+    "dog": "UNC Greensboro",
+    "p": 0.8481,
+    "margin": 12.81,
+    "lock": false
+   },
+   "momentum": {
+    "UNC Greensboro": {
+     "n": 4,
+     "avg": -5.1,
+     "last": [
+      -4.2,
+      1.9,
+      1.7,
+      -19.6
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "UC Santa Barbara": {
+     "n": 3,
+     "avg": 12.8,
+     "last": [
+      15.4,
+      17.0,
+      5.8
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±3%)",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-24-unc-greensboro-uc-santa-barbara",
+    "team": "UNC Greensboro",
+    "side": "away",
+    "spread": 18.5,
+    "spread_home": -18.5,
+    "edge": 5.69,
+    "cover_p": 0.676,
+    "agree": 4,
+    "n": 4
+   }
+  },
+  {
+   "id": "2026-11-24-bucknell-cornell",
+   "away": "Bucknell",
+   "home": "Cornell",
+   "away_conf": "PL",
+   "home_conf": "Ivy",
+   "short": {},
+   "neutral": false,
+   "site": "at Cornell",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 14.53,
+     "total": 160.9,
+     "note": "Published projection: Bucknell 73.2, Cornell 87.7."
+    },
+    "dratings": {
+     "margin": 9.5,
+     "total": 158.5,
+     "note": "Published projection: Bucknell 74.5, Cornell 84.0."
+    },
+    "massey": {
+     "margin": 11.5,
+     "total": 159.5,
+     "note": "Published median margin: Cornell by 11.5, total 159.5."
+    },
+    "espn": {
+     "margin": 13.09,
+     "derived": true,
+     "note": "BPI matchup predictor: Cornell 88.1% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -11.5,
+    "total": 154.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.207,
+      "espn": 0.178,
+      "dratings": 0.183,
+      "massey": 0.17,
+      "cbbd": 0.101
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.17,
+      "espn": 0.189,
+      "dratings": 0.183,
+      "massey": 0.171,
+      "cbbd": 0.123
+     }
+    },
+    "used": {
+     "hasla": 0.26,
+     "espn": 0.252,
+     "dratings": 0.252,
+     "massey": 0.235
+    },
+    "used_total": {
+     "hasla": 0.316,
+     "dratings": 0.407,
+     "massey": 0.277
+    }
+   },
+   "blend": {
+    "margin": 12.18,
+    "src_sd": 1.87,
+    "model_sd": 12.33,
+    "sd": 12.47,
+    "p_home": 0.8357,
+    "p_sd": 0.0378,
+    "total": 159.5,
+    "total_sd": 16.7,
+    "baseline_total": 143.1,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Cornell",
+    "dog": "Bucknell",
+    "p": 0.8357,
+    "margin": 12.18,
+    "lock": false
+   },
+   "momentum": {
+    "Bucknell": {
+     "n": 4,
+     "avg": -3.5,
+     "last": [
+      -16.9,
+      -2.1,
+      -11.8,
+      16.9
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Cornell": {
+     "n": 4,
+     "avg": -1.7,
+     "last": [
+      -9.6,
+      -18.2,
+      7.1,
+      13.7
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-charleston-southern-james-madison",
+   "away": "Charleston Southern",
+   "home": "James Madison",
+   "away_conf": "BSth",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at James Madison",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 15.1,
+     "total": 159.6,
+     "note": "Published projection: Charleston Southern 72.3, James Madison 87.4."
+    },
+    "dratings": {
+     "margin": 11.2,
+     "total": 154.4,
+     "note": "Published projection: Charleston Southern 71.6, James Madison 82.8."
+    },
+    "massey": {
+     "margin": 10.5,
+     "total": 152.5,
+     "note": "Published median margin: James Madison by 10.5, total 152.5."
+    },
+    "espn": {
+     "margin": 12.28,
+     "derived": true,
+     "note": "BPI matchup predictor: James Madison 86.6% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 11.12,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 71.8 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -13.5,
+    "total": 156.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.182,
+      "espn": 0.191,
+      "dratings": 0.221,
+      "massey": 0.152,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.153,
+      "espn": 0.192,
+      "dratings": 0.208,
+      "massey": 0.187,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.199,
+     "espn": 0.227,
+     "dratings": 0.255,
+     "massey": 0.201,
+     "cbbd": 0.119
+    },
+    "used_total": {
+     "hasla": 0.287,
+     "dratings": 0.361,
+     "massey": 0.353
+    }
+   },
+   "blend": {
+    "margin": 12.07,
+    "src_sd": 1.63,
+    "model_sd": 12.33,
+    "sd": 12.44,
+    "p_home": 0.8341,
+    "p_sd": 0.0306,
+    "total": 155.2,
+    "total_sd": 16.7,
+    "baseline_total": 146.1,
+    "lean": "over",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "James Madison",
+    "dog": "Charleston Southern",
+    "p": 0.8341,
+    "margin": 12.07,
+    "lock": false
+   },
+   "momentum": {
+    "Charleston Southern": {
+     "n": 4,
+     "avg": 5.4,
+     "last": [
+      1.4,
+      18.8,
+      -1.8,
+      3.2
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "James Madison": {
+     "n": 4,
+     "avg": 9.5,
+     "last": [
+      11.5,
+      8.8,
+      -4.1,
+      21.7
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-high-point-duquesne",
+   "away": "High Point",
+   "home": "Duquesne",
+   "away_conf": "BSth",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Daytona Beach",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": -10.36,
+     "total": 151.1,
+     "note": "Published projection: High Point 80.7, Duquesne 70.4."
+    },
+    "dratings": {
+     "margin": -8.3,
+     "total": 146.3,
+     "note": "Published projection: High Point 77.3, Duquesne 69.0."
+    },
+    "espn": {
+     "margin": -13.6,
+     "derived": true,
+     "note": "BPI matchup predictor: Duquesne 11.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -7.99,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 62.9 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 10.5,
+    "total": 141.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.182,
+      "espn": 0.191,
+      "dratings": 0.221,
+      "massey": 0.152,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.169,
+      "espn": 0.178,
+      "dratings": 0.17,
+      "massey": 0.183,
+      "cbbd": 0.134
+     }
+    },
+    "used": {
+     "hasla": 0.262,
+     "espn": 0.274,
+     "dratings": 0.291,
+     "cbbd": 0.174
+    },
+    "used_total": {
+     "hasla": 0.392,
+     "dratings": 0.608
+    }
+   },
+   "blend": {
+    "margin": -10.24,
+    "src_sd": 2.24,
+    "model_sd": 12.33,
+    "sd": 12.53,
+    "p_home": 0.207,
+    "p_sd": 0.0492,
+    "total": 148.2,
+    "total_sd": 16.7,
+    "baseline_total": 142.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "High Point",
+    "dog": "Duquesne",
+    "p": 0.793,
+    "margin": 10.24,
+    "lock": false
+   },
+   "momentum": {
+    "High Point": {
+     "n": 4,
+     "avg": 8.9,
+     "last": [
+      2.1,
+      13.0,
+      19.3,
+      1.3
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Duquesne": {
+     "n": 4,
+     "avg": -3.8,
+     "last": [
+      -1.4,
+      -1.9,
+      0.9,
+      -12.8
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±5%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-oregon-st-john-s",
+   "away": "Oregon",
+   "home": "St. John's",
+   "away_conf": "B10",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "10:30 PM ET",
+   "tip_sort": 1350,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": 11.68,
+     "total": 159.5,
+     "note": "Published projection: Oregon 73.9, St. John's 85.6."
+    },
+    "dratings": {
+     "margin": 9.2,
+     "total": 154.8,
+     "note": "Published projection: Oregon 72.8, St. John's 82.0."
+    },
+    "espn": {
+     "margin": 7.69,
+     "derived": true,
+     "note": "BPI matchup predictor: St. John's 75.6% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 156.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.193,
+      "espn": 0.161,
+      "dratings": 0.172,
+      "massey": 0.168,
+      "cbbd": 0.141
+     }
+    },
+    "used": {
+     "hasla": 0.361,
+     "espn": 0.295,
+     "dratings": 0.344
+    },
+    "used_total": {
+     "hasla": 0.468,
+     "dratings": 0.532
+    }
+   },
+   "blend": {
+    "margin": 9.65,
+    "src_sd": 1.64,
+    "model_sd": 12.33,
+    "sd": 12.44,
+    "p_home": 0.781,
+    "p_sd": 0.0389,
+    "total": 157.0,
+    "total_sd": 16.7,
+    "baseline_total": 162.6,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "St. John's",
+    "dog": "Oregon",
+    "p": 0.781,
+    "margin": 9.65,
+    "lock": false
+   },
+   "momentum": {
+    "Oregon": {
+     "n": 3,
+     "avg": -1.0,
+     "last": [
+      12.3,
+      0.6,
+      -15.9
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "St. John's": {
+     "n": 4,
+     "avg": 11.4,
+     "last": [
+      14.7,
+      6.2,
+      5.5,
+      19.0
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-hampton-old-dominion",
+   "away": "Hampton",
+   "home": "Old Dominion",
+   "away_conf": "CAA",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at Old Dominion",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 10.48,
+     "total": 141.1,
+     "note": "Published projection: Hampton 65.3, Old Dominion 75.8."
+    },
+    "dratings": {
+     "margin": 7.5,
+     "total": 138.9,
+     "note": "Published projection: Hampton 65.7, Old Dominion 73.2."
+    },
+    "massey": {
+     "margin": 8.5,
+     "total": 139.5,
+     "note": "Published median margin: Old Dominion by 8.5, total 139.5."
+    },
+    "espn": {
+     "margin": 10.89,
+     "derived": true,
+     "note": "BPI matchup predictor: Old Dominion 83.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -7.5,
+    "total": 129.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.152,
+      "espn": 0.178,
+      "dratings": 0.229,
+      "massey": 0.176,
+      "cbbd": 0.105
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.153,
+      "espn": 0.192,
+      "dratings": 0.208,
+      "massey": 0.187,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.207,
+     "espn": 0.251,
+     "dratings": 0.297,
+     "massey": 0.246
+    },
+    "used_total": {
+     "hasla": 0.313,
+     "dratings": 0.352,
+     "massey": 0.335
+    }
+   },
+   "blend": {
+    "margin": 9.21,
+    "src_sd": 1.4,
+    "model_sd": 12.33,
+    "sd": 12.41,
+    "p_home": 0.7711,
+    "p_sd": 0.0341,
+    "total": 139.8,
+    "total_sd": 16.7,
+    "baseline_total": 134.9,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Old Dominion",
+    "dog": "Hampton",
+    "p": 0.7711,
+    "margin": 9.21,
+    "lock": false
+   },
+   "momentum": {
+    "Hampton": {
+     "n": 2,
+     "avg": 2.2,
+     "last": [
+      2.3,
+      2.1
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Old Dominion": {
+     "n": 4,
+     "avg": 5.7,
+     "last": [
+      16.9,
+      7.3,
+      0.1,
+      -1.6
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±3%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-binghamton-lehigh",
+   "away": "Binghamton",
+   "home": "Lehigh",
+   "away_conf": "AE",
+   "home_conf": "PL",
+   "short": {},
+   "neutral": false,
+   "site": "at Lehigh",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 10.4,
+     "total": 144.6,
+     "note": "Published projection: Binghamton 67.1, Lehigh 77.5."
+    },
+    "dratings": {
+     "margin": 8.3,
+     "total": 138.5,
+     "note": "Published projection: Binghamton 65.1, Lehigh 73.4."
+    },
+    "massey": {
+     "margin": 7.5,
+     "total": 142.5,
+     "note": "Published median margin: Lehigh by 7.5, total 142.5."
+    },
+    "espn": {
+     "margin": 11.31,
+     "derived": true,
+     "note": "BPI matchup predictor: Lehigh 84.6% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 7.57,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 61.8 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -8.5,
+    "total": 137.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.195,
+      "espn": 0.193,
+      "dratings": 0.166,
+      "massey": 0.186,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.207,
+      "espn": 0.178,
+      "dratings": 0.183,
+      "massey": 0.17,
+      "cbbd": 0.101
+     }
+    },
+    "used": {
+     "hasla": 0.239,
+     "espn": 0.221,
+     "dratings": 0.208,
+     "massey": 0.212,
+     "cbbd": 0.12
+    },
+    "used_total": {
+     "hasla": 0.267,
+     "dratings": 0.404,
+     "massey": 0.329
+    }
+   },
+   "blend": {
+    "margin": 9.21,
+    "src_sd": 1.55,
+    "model_sd": 12.33,
+    "sd": 12.43,
+    "p_home": 0.7707,
+    "p_sd": 0.0377,
+    "total": 141.4,
+    "total_sd": 16.7,
+    "baseline_total": 131.8,
+    "lean": "over",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Lehigh",
+    "dog": "Binghamton",
+    "p": 0.7707,
+    "margin": 9.21,
+    "lock": false
+   },
+   "momentum": {
+    "Binghamton": {
+     "n": 5,
+     "avg": 5.8,
+     "last": [
+      11.2,
+      6.0,
+      1.9,
+      -10.9,
+      20.7
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.12,
+     "tag": "Steady"
+    },
+    "Lehigh": {
+     "n": 4,
+     "avg": 9.2,
+     "last": [
+      9.6,
+      -13.2,
+      4.2,
+      36.3
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "4 core systems agree (win chance ±4%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-san-diego-st-iowa-st",
+   "away": "San Diego St.",
+   "home": "Iowa St.",
+   "away_conf": "P12",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "5:30 PM ET",
+   "tip_sort": 1050,
+   "tv": "ESPNU",
+   "sources": {
+    "hasla": {
+     "margin": 8.35,
+     "total": 142.1,
+     "note": "Published projection: San Diego St. 66.9, Iowa St. 75.2."
+    },
+    "dratings": {
+     "margin": 8.1,
+     "total": 146.5,
+     "note": "Published projection: San Diego St. 69.2, Iowa St. 77.3."
+    },
+    "espn": {
+     "margin": 10.11,
+     "derived": true,
+     "note": "BPI matchup predictor: Iowa St. 81.9% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -9.5,
+    "total": 142.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.158,
+      "espn": 0.166,
+      "dratings": 0.153,
+      "massey": 0.208,
+      "cbbd": 0.149
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.156,
+      "dratings": 0.185,
+      "massey": 0.168,
+      "cbbd": 0.144
+     }
+    },
+    "used": {
+     "hasla": 0.34,
+     "espn": 0.322,
+     "dratings": 0.338
+    },
+    "used_total": {
+     "hasla": 0.461,
+     "dratings": 0.539
+    }
+   },
+   "blend": {
+    "margin": 8.83,
+    "src_sd": 0.89,
+    "model_sd": 12.33,
+    "sd": 12.36,
+    "p_home": 0.7625,
+    "p_sd": 0.022,
+    "total": 144.5,
+    "total_sd": 16.7,
+    "baseline_total": 137.2,
+    "lean": "over",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Iowa St.",
+    "dog": "San Diego St.",
+    "p": 0.7625,
+    "margin": 8.83,
+    "lock": false
+   },
+   "momentum": {
+    "San Diego St.": {
+     "n": 4,
+     "avg": 6.6,
+     "last": [
+      10.2,
+      -5.6,
+      1.0,
+      20.9
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Iowa St.": {
+     "n": 3,
+     "avg": -4.1,
+     "last": [
+      -1.5,
+      5.2,
+      -16.1
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Strong",
+   "tier_reason": "3 core systems agree (win chance ±2%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-new-hampshire-seton-hall",
+   "away": "New Hampshire",
+   "home": "Seton Hall",
+   "away_conf": "AE",
+   "home_conf": "BE",
+   "short": {},
+   "neutral": false,
+   "site": "at Seton Hall",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 22.55,
+     "total": 135.3,
+     "note": "Published projection: New Hampshire 56.4, Seton Hall 78.9."
+    },
+    "dratings": {
+     "margin": 22.1,
+     "total": 132.7,
+     "note": "Published projection: New Hampshire 55.3, Seton Hall 77.4."
+    },
+    "massey": {
+     "margin": 27.5,
+     "total": 137.5,
+     "note": "Published median margin: Seton Hall by 27.5, total 137.5."
+    },
+    "espn": {
+     "margin": 17.82,
+     "derived": true,
+     "note": "BPI matchup predictor: Seton Hall 94.6% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 5.89,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 63.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -20.5,
+    "total": 129.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.195,
+      "espn": 0.193,
+      "dratings": 0.166,
+      "massey": 0.186,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.193,
+      "espn": 0.161,
+      "dratings": 0.172,
+      "massey": 0.168,
+      "cbbd": 0.141
+     }
+    },
+    "used": {
+     "hasla": 0.232,
+     "espn": 0.211,
+     "dratings": 0.202,
+     "massey": 0.211,
+     "cbbd": 0.144
+    },
+    "used_total": {
+     "hasla": 0.278,
+     "dratings": 0.381,
+     "massey": 0.341
+    }
+   },
+   "blend": {
+    "margin": 20.1,
+    "src_sd": 7.32,
+    "model_sd": 12.33,
+    "sd": 14.34,
+    "p_home": 0.9196,
+    "p_sd": 0.1126,
+    "total": 135.1,
+    "total_sd": 16.7,
+    "baseline_total": 138.3,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Seton Hall",
+    "dog": "New Hampshire",
+    "p": 0.9196,
+    "margin": 20.1,
+    "lock": true
+   },
+   "momentum": {
+    "New Hampshire": {
+     "n": 5,
+     "avg": 5.7,
+     "last": [
+      11.7,
+      -5.3,
+      8.5,
+      18.8,
+      -5.2
+     ],
+     "flag": null,
+     "index": 0.0,
+     "sd": 0.12,
+     "tag": "Steady"
+    },
+    "Seton Hall": {
+     "n": 5,
+     "avg": 3.2,
+     "last": [
+      -12.7,
+      -0.6,
+      8.5,
+      9.6,
+      11.3
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.12,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±11%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-west-georgia-tennessee-tech",
+   "away": "West Georgia",
+   "home": "Tennessee Tech",
+   "away_conf": "UAC",
+   "home_conf": "SC",
+   "short": {},
+   "neutral": false,
+   "site": "at Tennessee Tech",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 18.23,
+     "total": 156.4,
+     "note": "Published projection: West Georgia 69.1, Tennessee Tech 87.3."
+    },
+    "dratings": {
+     "margin": 9.7,
+     "total": 162.3,
+     "note": "Published projection: West Georgia 76.3, Tennessee Tech 86.0."
+    },
+    "massey": {
+     "margin": 6.5,
+     "total": 153.5,
+     "note": "Published median margin: Tennessee Tech by 6.5, total 153.5."
+    },
+    "espn": {
+     "margin": 12.08,
+     "derived": true,
+     "note": "BPI matchup predictor: Tennessee Tech 86.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 16.06,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 80.5 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -14.5,
+    "total": 163.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.17,
+      "espn": 0.19,
+      "dratings": 0.198,
+      "massey": 0.162,
+      "cbbd": 0.117
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.221,
+     "espn": 0.217,
+     "dratings": 0.238,
+     "massey": 0.195,
+     "cbbd": 0.129
+    },
+    "used_total": {
+     "hasla": 0.286,
+     "dratings": 0.373,
+     "massey": 0.34
+    }
+   },
+   "blend": {
+    "margin": 12.3,
+    "src_sd": 4.23,
+    "model_sd": 12.33,
+    "sd": 13.04,
+    "p_home": 0.8272,
+    "p_sd": 0.0828,
+    "total": 157.6,
+    "total_sd": 16.7,
+    "baseline_total": 158.0,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Tennessee Tech",
+    "dog": "West Georgia",
+    "p": 0.8272,
+    "margin": 12.3,
+    "lock": false
+   },
+   "momentum": {
+    "West Georgia": {
+     "n": 3,
+     "avg": -10.2,
+     "last": [
+      -9.4,
+      -2.3,
+      -18.8
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Tennessee Tech": {
+     "n": 4,
+     "avg": 13.8,
+     "last": [
+      9.9,
+      -0.3,
+      23.1,
+      22.6
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-providence-arizona",
+   "away": "Providence",
+   "home": "Arizona",
+   "away_conf": "BE",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Maui",
+   "tip": "5 PM ET",
+   "tip_sort": 1020,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": 13.16,
+     "total": 158.2,
+     "note": "Published projection: Providence 72.5, Arizona 85.7."
+    },
+    "dratings": {
+     "margin": 8.7,
+     "total": 160.5,
+     "note": "Published projection: Providence 75.9, Arizona 84.6."
+    },
+    "massey": {
+     "margin": 13.5,
+     "total": 157.5,
+     "note": "Published median margin: Arizona by 13.5, total 157.5."
+    },
+    "cbbd": {
+     "margin": 3.52,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 70.5 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "espn": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -7.5,
+    "total": 157.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.193,
+      "espn": 0.161,
+      "dratings": 0.172,
+      "massey": 0.168,
+      "cbbd": 0.141
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.156,
+      "dratings": 0.185,
+      "massey": 0.168,
+      "cbbd": 0.144
+     }
+    },
+    "used": {
+     "hasla": 0.277,
+     "dratings": 0.264,
+     "massey": 0.248,
+     "cbbd": 0.211
+    },
+    "used_total": {
+     "hasla": 0.293,
+     "dratings": 0.342,
+     "massey": 0.366
+    }
+   },
+   "blend": {
+    "margin": 10.04,
+    "src_sd": 4.05,
+    "model_sd": 12.33,
+    "sd": 12.98,
+    "p_home": 0.7804,
+    "p_sd": 0.1015,
+    "total": 158.7,
+    "total_sd": 16.7,
+    "baseline_total": 150.9,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Arizona",
+    "dog": "Providence",
+    "p": 0.7804,
+    "margin": 10.04,
+    "lock": false
+   },
+   "momentum": {
+    "Providence": {
+     "n": 4,
+     "avg": 1.8,
+     "last": [
+      -2.5,
+      6.6,
+      -4.2,
+      7.3
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Arizona": {
+     "n": 5,
+     "avg": 0.3,
+     "last": [
+      -8.2,
+      -0.8,
+      9.4,
+      2.8,
+      -1.7
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.12,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±10%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-samford-georgia-tech",
+   "away": "Samford",
+   "home": "Georgia Tech",
+   "away_conf": "SC",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": false,
+   "site": "at Georgia Tech",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ACCNX",
+   "sources": {
+    "hasla": {
+     "margin": 7.36,
+     "total": 158.5,
+     "note": "Published projection: Samford 75.6, Georgia Tech 82.9."
+    },
+    "dratings": {
+     "margin": 9.6,
+     "total": 160.0,
+     "note": "Published projection: Samford 75.2, Georgia Tech 84.8."
+    },
+    "massey": {
+     "margin": 8.5,
+     "total": 156.5,
+     "note": "Published median margin: Georgia Tech by 8.5, total 156.5."
+    },
+    "espn": {
+     "margin": 7.59,
+     "derived": true,
+     "note": "BPI matchup predictor: Georgia Tech 75.3% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 7.06,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 74.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 161.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.183,
+      "espn": 0.162,
+      "dratings": 0.172,
+      "massey": 0.188,
+      "cbbd": 0.13
+     }
+    },
+    "used": {
+     "hasla": 0.229,
+     "espn": 0.2,
+     "dratings": 0.222,
+     "massey": 0.211,
+     "cbbd": 0.137
+    },
+    "used_total": {
+     "hasla": 0.291,
+     "dratings": 0.35,
+     "massey": 0.359
+    }
+   },
+   "blend": {
+    "margin": 8.1,
+    "src_sd": 0.92,
+    "model_sd": 12.33,
+    "sd": 12.36,
+    "p_home": 0.7439,
+    "p_sd": 0.0238,
+    "total": 158.3,
+    "total_sd": 16.7,
+    "baseline_total": 159.8,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Georgia Tech",
+    "dog": "Samford",
+    "p": 0.7439,
+    "margin": 8.1,
+    "lock": false
+   },
+   "momentum": {
+    "Samford": {
+     "n": 4,
+     "avg": -6.0,
+     "last": [
+      2.3,
+      -23.3,
+      2.6,
+      -5.7
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Georgia Tech": {
+     "n": 5,
+     "avg": -2.6,
+     "last": [
+      -1.9,
+      1.8,
+      -12.1,
+      -3.2,
+      2.3
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.11,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-mercer-florida-atlantic",
+   "away": "Mercer",
+   "home": "Florida Atlantic",
+   "away_conf": "SC",
+   "home_conf": "Amer",
+   "short": {},
+   "neutral": false,
+   "site": "at Florida Atlantic",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 10.63,
+     "total": 158.8,
+     "note": "Published projection: Mercer 74.1, Florida Atlantic 84.7."
+    },
+    "dratings": {
+     "margin": 7.7,
+     "total": 159.3,
+     "note": "Published projection: Mercer 75.8, Florida Atlantic 83.5."
+    },
+    "espn": {
+     "margin": 6.2,
+     "derived": true,
+     "note": "BPI matchup predictor: Florida Atlantic 71.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 4.01,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 73.4 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -7.5,
+    "total": 159.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.162,
+      "hasla": 0.173,
+      "espn": 0.196,
+      "dratings": 0.182,
+      "massey": 0.183,
+      "cbbd": 0.104
+     }
+    },
+    "used": {
+     "hasla": 0.281,
+     "espn": 0.278,
+     "dratings": 0.288,
+     "cbbd": 0.153
+    },
+    "used_total": {
+     "hasla": 0.435,
+     "dratings": 0.565
+    }
+   },
+   "blend": {
+    "margin": 7.54,
+    "src_sd": 2.41,
+    "model_sd": 12.33,
+    "sd": 12.56,
+    "p_home": 0.7259,
+    "p_sd": 0.0647,
+    "total": 159.1,
+    "total_sd": 16.7,
+    "baseline_total": 165.0,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Florida Atlantic",
+    "dog": "Mercer",
+    "p": 0.7259,
+    "margin": 7.54,
+    "lock": false
+   },
+   "momentum": {
+    "Mercer": {
+     "n": 5,
+     "avg": -1.6,
+     "last": [
+      -12.3,
+      6.3,
+      5.4,
+      -4.3,
+      -3.2
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Florida Atlantic": {
+     "n": 3,
+     "avg": -9.6,
+     "last": [
+      -25.5,
+      -4.8,
+      1.6
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-elon-furman",
+   "away": "Elon",
+   "home": "Furman",
+   "away_conf": "CAA",
+   "home_conf": "SC",
+   "short": {},
+   "neutral": false,
+   "site": "at Furman",
+   "tip": "6:30 PM ET",
+   "tip_sort": 1110,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 4.68,
+     "total": 148.6,
+     "note": "Published projection: Elon 72.0, Furman 76.6."
+    },
+    "dratings": {
+     "margin": 7.4,
+     "total": 150.2,
+     "note": "Published projection: Elon 71.4, Furman 78.8."
+    },
+    "massey": {
+     "margin": 6.5,
+     "total": 149.5,
+     "note": "Published median margin: Furman by 6.5, total 149.5."
+    },
+    "espn": {
+     "margin": 10.32,
+     "derived": true,
+     "note": "BPI matchup predictor: Furman 82.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 5.4,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.5 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 148.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.152,
+      "espn": 0.178,
+      "dratings": 0.229,
+      "massey": 0.176,
+      "cbbd": 0.105
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.21,
+     "espn": 0.209,
+     "dratings": 0.256,
+     "massey": 0.203,
+     "cbbd": 0.122
+    },
+    "used_total": {
+     "hasla": 0.286,
+     "dratings": 0.376,
+     "massey": 0.337
+    }
+   },
+   "blend": {
+    "margin": 7.01,
+    "src_sd": 1.96,
+    "model_sd": 12.33,
+    "sd": 12.49,
+    "p_home": 0.7128,
+    "p_sd": 0.0524,
+    "total": 149.5,
+    "total_sd": 16.7,
+    "baseline_total": 146.6,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Furman",
+    "dog": "Elon",
+    "p": 0.7128,
+    "margin": 7.01,
+    "lock": false
+   },
+   "momentum": {
+    "Elon": {
+     "n": 5,
+     "avg": 1.4,
+     "last": [
+      4.2,
+      -6.5,
+      -10.0,
+      6.0,
+      13.4
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.12,
+     "tag": "Steady"
+    },
+    "Furman": {
+     "n": 4,
+     "avg": 2.1,
+     "last": [
+      12.9,
+      0.4,
+      -7.1,
+      2.3
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-bryant-marist",
+   "away": "Bryant",
+   "home": "Marist",
+   "away_conf": "AE",
+   "home_conf": "MC",
+   "short": {},
+   "neutral": false,
+   "site": "at Marist",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 8.57,
+     "total": 139.2,
+     "note": "Published projection: Bryant 65.3, Marist 73.9."
+    },
+    "dratings": {
+     "margin": 5.4,
+     "total": 135.2,
+     "note": "Published projection: Bryant 64.9, Marist 70.3."
+    },
+    "massey": {
+     "margin": 4.5,
+     "total": 136.5,
+     "note": "Published median margin: Marist by 4.5, total 136.5."
+    },
+    "espn": {
+     "margin": 8.87,
+     "derived": true,
+     "note": "BPI matchup predictor: Marist 78.8% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 130.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.195,
+      "espn": 0.193,
+      "dratings": 0.166,
+      "massey": 0.186,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.2,
+      "espn": 0.16,
+      "dratings": 0.184,
+      "massey": 0.176,
+      "cbbd": 0.117
+     }
+    },
+    "used": {
+     "hasla": 0.27,
+     "espn": 0.242,
+     "dratings": 0.239,
+     "massey": 0.248
+    },
+    "used_total": {
+     "hasla": 0.258,
+     "dratings": 0.407,
+     "massey": 0.334
+    }
+   },
+   "blend": {
+    "margin": 6.88,
+    "src_sd": 1.91,
+    "model_sd": 12.33,
+    "sd": 12.48,
+    "p_home": 0.7092,
+    "p_sd": 0.0531,
+    "total": 136.7,
+    "total_sd": 16.7,
+    "baseline_total": 136.4,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Marist",
+    "dog": "Bryant",
+    "p": 0.7092,
+    "margin": 6.88,
+    "lock": false
+   },
+   "momentum": {
+    "Bryant": {
+     "n": 5,
+     "avg": 1.3,
+     "last": [
+      -3.4,
+      -7.7,
+      2.5,
+      -0.6,
+      15.8
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Marist": {
+     "n": 4,
+     "avg": 0.2,
+     "last": [
+      3.9,
+      -2.3,
+      -4.2,
+      3.5
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-drexel-penn",
+   "away": "Drexel",
+   "home": "Penn",
+   "away_conf": "CAA",
+   "home_conf": "Ivy",
+   "short": {},
+   "neutral": false,
+   "site": "at Penn",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+, NBC Sports Phil",
+   "sources": {
+    "hasla": {
+     "margin": 6.28,
+     "total": 147.4,
+     "note": "Published projection: Drexel 70.5, Penn 76.8."
+    },
+    "dratings": {
+     "margin": 5.4,
+     "total": 142.8,
+     "note": "Published projection: Drexel 68.7, Penn 74.1."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 145.5,
+     "note": "Published median margin: Penn by 3.5, total 145.5."
+    },
+    "espn": {
+     "margin": 6.73,
+     "derived": true,
+     "note": "BPI matchup predictor: Penn 72.8% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 6.73,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 71.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 142.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.152,
+      "espn": 0.178,
+      "dratings": 0.229,
+      "massey": 0.176,
+      "cbbd": 0.105
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.17,
+      "espn": 0.189,
+      "dratings": 0.183,
+      "massey": 0.171,
+      "cbbd": 0.123
+     }
+    },
+    "used": {
+     "hasla": 0.193,
+     "espn": 0.219,
+     "dratings": 0.246,
+     "massey": 0.207,
+     "cbbd": 0.136
+    },
+    "used_total": {
+     "hasla": 0.327,
+     "dratings": 0.394,
+     "massey": 0.279
+    }
+   },
+   "blend": {
+    "margin": 5.65,
+    "src_sd": 1.22,
+    "model_sd": 12.33,
+    "sd": 12.39,
+    "p_home": 0.6758,
+    "p_sd": 0.036,
+    "total": 145.1,
+    "total_sd": 16.7,
+    "baseline_total": 148.6,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Penn",
+    "dog": "Drexel",
+    "p": 0.6758,
+    "margin": 5.65,
+    "lock": false
+   },
+   "momentum": {
+    "Drexel": {
+     "n": 4,
+     "avg": 2.7,
+     "last": [
+      0.8,
+      -3.2,
+      -1.2,
+      14.5
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Penn": {
+     "n": 5,
+     "avg": -1.7,
+     "last": [
+      -15.2,
+      6.2,
+      -9.8,
+      -0.5,
+      10.7
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.08,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-creighton-michigan",
+   "away": "Creighton",
+   "home": "Michigan",
+   "away_conf": "BE",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "5:30 PM ET",
+   "tip_sort": 1050,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": 5.36,
+     "total": 158.4,
+     "note": "Published projection: Creighton 76.5, Michigan 81.9."
+    },
+    "dratings": {
+     "margin": 7.5,
+     "total": 162.3,
+     "note": "Published projection: Creighton 77.4, Michigan 84.9."
+    },
+    "espn": {
+     "margin": 2.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Michigan 59.9% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -5.5,
+    "total": 161.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.193,
+      "espn": 0.161,
+      "dratings": 0.172,
+      "massey": 0.168,
+      "cbbd": 0.141
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.361,
+     "espn": 0.295,
+     "dratings": 0.344
+    },
+    "used_total": {
+     "hasla": 0.468,
+     "dratings": 0.532
+    }
+   },
+   "blend": {
+    "margin": 5.34,
+    "src_sd": 1.93,
+    "model_sd": 12.33,
+    "sd": 12.48,
+    "p_home": 0.6655,
+    "p_sd": 0.057,
+    "total": 160.5,
+    "total_sd": 16.7,
+    "baseline_total": 158.9,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Michigan",
+    "dog": "Creighton",
+    "p": 0.6655,
+    "margin": 5.34,
+    "lock": false
+   },
+   "momentum": {
+    "Creighton": {
+     "n": 4,
+     "avg": -1.5,
+     "last": [
+      1.4,
+      -10.4,
+      2.6,
+      0.5
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Michigan": {
+     "n": 4,
+     "avg": 2.0,
+     "last": [
+      -4.8,
+      7.6,
+      16.0,
+      -10.6
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-boston-university-harvard",
+   "away": "Boston University",
+   "home": "Harvard",
+   "away_conf": "PL",
+   "home_conf": "Ivy",
+   "short": {},
+   "neutral": false,
+   "site": "at Harvard",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+, Patriot League TV",
+   "sources": {
+    "hasla": {
+     "margin": 6.35,
+     "total": 138.5,
+     "note": "Published projection: Boston University 66.1, Harvard 72.4."
+    },
+    "dratings": {
+     "margin": 5.6,
+     "total": 132.4,
+     "note": "Published projection: Boston University 63.4, Harvard 69.0."
+    },
+    "espn": {
+     "margin": 5.4,
+     "derived": true,
+     "note": "BPI matchup predictor: Harvard 68.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 2.63,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 61.9 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -5.5,
+    "total": 135.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.207,
+      "espn": 0.178,
+      "dratings": 0.183,
+      "massey": 0.17,
+      "cbbd": 0.101
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.17,
+      "espn": 0.189,
+      "dratings": 0.183,
+      "massey": 0.171,
+      "cbbd": 0.123
+     }
+    },
+    "used": {
+     "hasla": 0.283,
+     "espn": 0.275,
+     "dratings": 0.275,
+     "cbbd": 0.168
+    },
+    "used_total": {
+     "hasla": 0.438,
+     "dratings": 0.562
+    }
+   },
+   "blend": {
+    "margin": 5.26,
+    "src_sd": 1.41,
+    "model_sd": 12.33,
+    "sd": 12.41,
+    "p_home": 0.6641,
+    "p_sd": 0.0428,
+    "total": 135.1,
+    "total_sd": 16.7,
+    "baseline_total": 140.0,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Harvard",
+    "dog": "Boston University",
+    "p": 0.6641,
+    "margin": 5.26,
+    "lock": false
+   },
+   "momentum": {
+    "Boston University": {
+     "n": 4,
+     "avg": 7.1,
+     "last": [
+      8.9,
+      -0.2,
+      11.7,
+      7.9
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.12,
+     "tag": "Steady"
+    },
+    "Harvard": {
+     "n": 5,
+     "avg": -5.0,
+     "last": [
+      -6.5,
+      -17.1,
+      -3.6,
+      -0.2,
+      2.5
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.07,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-rider-loyola-md",
+   "away": "Rider",
+   "home": "Loyola MD",
+   "away_conf": "MC",
+   "home_conf": "PL",
+   "short": {},
+   "neutral": false,
+   "site": "at Loyola MD",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+, Patriot League TV",
+   "sources": {
+    "hasla": {
+     "margin": 5.35,
+     "total": 147.5,
+     "note": "Published projection: Rider 71.1, Loyola MD 76.4."
+    },
+    "dratings": {
+     "margin": 4.3,
+     "total": 141.1,
+     "note": "Published projection: Rider 68.4, Loyola MD 72.7."
+    },
+    "massey": {
+     "margin": 4.5,
+     "total": 145.5,
+     "note": "Published median margin: Loyola MD by 4.5, total 145.5."
+    },
+    "espn": {
+     "margin": 6.2,
+     "derived": true,
+     "note": "BPI matchup predictor: Loyola MD 71.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 6.14,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 65.5 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 138.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.2,
+      "espn": 0.16,
+      "dratings": 0.184,
+      "massey": 0.176,
+      "cbbd": 0.117
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.207,
+      "espn": 0.178,
+      "dratings": 0.183,
+      "massey": 0.17,
+      "cbbd": 0.101
+     }
+    },
+    "used": {
+     "hasla": 0.242,
+     "espn": 0.202,
+     "dratings": 0.219,
+     "massey": 0.206,
+     "cbbd": 0.131
+    },
+    "used_total": {
+     "hasla": 0.274,
+     "dratings": 0.407,
+     "massey": 0.319
+    }
+   },
+   "blend": {
+    "margin": 5.22,
+    "src_sd": 0.79,
+    "model_sd": 12.33,
+    "sd": 12.36,
+    "p_home": 0.6636,
+    "p_sd": 0.0235,
+    "total": 144.3,
+    "total_sd": 16.7,
+    "baseline_total": 140.2,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Loyola MD",
+    "dog": "Rider",
+    "p": 0.6636,
+    "margin": 5.22,
+    "lock": false
+   },
+   "momentum": {
+    "Rider": {
+     "n": 5,
+     "avg": -5.2,
+     "last": [
+      -11.7,
+      -6.0,
+      -4.7,
+      -11.8,
+      8.0
+     ],
+     "flag": null,
+     "index": 0.0,
+     "sd": 0.12,
+     "tag": "Steady"
+    },
+    "Loyola MD": {
+     "n": 4,
+     "avg": -8.5,
+     "last": [
+      -5.4,
+      -16.9,
+      -2.0,
+      -9.9
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-oral-roberts-ut-arlington",
+   "away": "Oral Roberts",
+   "home": "UT Arlington",
+   "away_conf": "Sum",
+   "home_conf": "UAC",
+   "short": {},
+   "neutral": false,
+   "site": "at UT Arlington",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 3.18,
+     "total": 147.5,
+     "note": "Published projection: Oral Roberts 72.2, UT Arlington 75.3."
+    },
+    "dratings": {
+     "margin": 5.0,
+     "total": 148.2,
+     "note": "Published projection: Oral Roberts 71.6, UT Arlington 76.6."
+    },
+    "massey": {
+     "margin": 6.5,
+     "total": 146.5,
+     "note": "Published median margin: UT Arlington by 6.5, total 146.5."
+    },
+    "espn": {
+     "margin": 3.33,
+     "derived": true,
+     "note": "BPI matchup predictor: UT Arlington 61.8% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 8.09,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 72.8 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 150.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.152,
+      "espn": 0.177,
+      "dratings": 0.183,
+      "massey": 0.188,
+      "cbbd": 0.135
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.17,
+      "espn": 0.19,
+      "dratings": 0.198,
+      "massey": 0.162,
+      "cbbd": 0.117
+     }
+    },
+    "used": {
+     "hasla": 0.193,
+     "espn": 0.219,
+     "dratings": 0.228,
+     "massey": 0.209,
+     "cbbd": 0.15
+    },
+    "used_total": {
+     "hasla": 0.336,
+     "dratings": 0.344,
+     "massey": 0.32
+    }
+   },
+   "blend": {
+    "margin": 5.06,
+    "src_sd": 1.88,
+    "model_sd": 12.33,
+    "sd": 12.47,
+    "p_home": 0.6576,
+    "p_sd": 0.0548,
+    "total": 147.4,
+    "total_sd": 16.7,
+    "baseline_total": 150.7,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "UT Arlington",
+    "dog": "Oral Roberts",
+    "p": 0.6576,
+    "margin": 5.06,
+    "lock": false
+   },
+   "momentum": {
+    "Oral Roberts": {
+     "n": 3,
+     "avg": 8.5,
+     "last": [
+      6.7,
+      16.9,
+      2.0
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "UT Arlington": {
+     "n": 5,
+     "avg": 5.3,
+     "last": [
+      4.5,
+      -0.1,
+      3.6,
+      13.5,
+      4.9
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-southern-indiana-vmi",
+   "away": "Southern Indiana",
+   "home": "VMI",
+   "away_conf": "OVC",
+   "home_conf": "SC",
+   "short": {},
+   "neutral": false,
+   "site": "at VMI",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 5.04,
+     "total": 147.3,
+     "note": "Published projection: Southern Indiana 71.1, VMI 76.2."
+    },
+    "dratings": {
+     "margin": 5.2,
+     "total": 148.4,
+     "note": "Published projection: Southern Indiana 71.6, VMI 76.8."
+    },
+    "massey": {
+     "margin": 2.5,
+     "total": 145.5,
+     "note": "Published median margin: VMI by 2.5, total 145.5."
+    },
+    "espn": {
+     "margin": 4.79,
+     "derived": true,
+     "note": "BPI matchup predictor: VMI 66.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 9.11,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 74.0 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 142.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.201,
+      "espn": 0.154,
+      "dratings": 0.184,
+      "massey": 0.173,
+      "cbbd": 0.124
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.24,
+     "espn": 0.196,
+     "dratings": 0.229,
+     "massey": 0.202,
+     "cbbd": 0.133
+    },
+    "used_total": {
+     "hasla": 0.36,
+     "dratings": 0.33,
+     "massey": 0.31
+    }
+   },
+   "blend": {
+    "margin": 5.06,
+    "src_sd": 2.13,
+    "model_sd": 12.33,
+    "sd": 12.51,
+    "p_home": 0.657,
+    "p_sd": 0.0607,
+    "total": 147.1,
+    "total_sd": 16.7,
+    "baseline_total": 145.1,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "VMI",
+    "dog": "Southern Indiana",
+    "p": 0.657,
+    "margin": 5.06,
+    "lock": false
+   },
+   "momentum": {
+    "Southern Indiana": {
+     "n": 3,
+     "avg": -5.9,
+     "last": [
+      -1.5,
+      -15.4,
+      -0.9
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "VMI": {
+     "n": 5,
+     "avg": 3.0,
+     "last": [
+      0.5,
+      6.3,
+      10.6,
+      1.6,
+      -4.2
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-texas-tech-louisville",
+   "away": "Texas Tech",
+   "home": "Louisville",
+   "away_conf": "B12",
+   "home_conf": "ACC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": -5.92,
+     "total": 149.5,
+     "note": "Published projection: Texas Tech 77.7, Louisville 71.8."
+    },
+    "dratings": {
+     "margin": -3.0,
+     "total": 159.0,
+     "note": "Published projection: Texas Tech 81.0, Louisville 78.0."
+    },
+    "espn": {
+     "margin": -6.1,
+     "derived": true,
+     "note": "BPI matchup predictor: Louisville 29.1% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 2.5,
+    "total": 153.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.156,
+      "dratings": 0.185,
+      "massey": 0.168,
+      "cbbd": 0.144
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.183,
+      "espn": 0.162,
+      "dratings": 0.172,
+      "massey": 0.188,
+      "cbbd": 0.13
+     }
+    },
+    "used": {
+     "hasla": 0.351,
+     "espn": 0.306,
+     "dratings": 0.343
+    },
+    "used_total": {
+     "hasla": 0.476,
+     "dratings": 0.524
+    }
+   },
+   "blend": {
+    "margin": -4.97,
+    "src_sd": 1.42,
+    "model_sd": 12.33,
+    "sd": 12.41,
+    "p_home": 0.3443,
+    "p_sd": 0.0429,
+    "total": 154.5,
+    "total_sd": 16.7,
+    "baseline_total": 150.5,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Texas Tech",
+    "dog": "Louisville",
+    "p": 0.6557,
+    "margin": 4.97,
+    "lock": false
+   },
+   "momentum": {
+    "Texas Tech": {
+     "n": 4,
+     "avg": 8.3,
+     "last": [
+      -7.8,
+      8.9,
+      16.4,
+      15.6
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Louisville": {
+     "n": 3,
+     "avg": -5.8,
+     "last": [
+      22.3,
+      -25.2,
+      -14.5
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-alabama-a-m-north-alabama",
+   "away": "Alabama A&M",
+   "home": "North Alabama",
+   "away_conf": "SWAC",
+   "home_conf": "UAC",
+   "short": {},
+   "neutral": false,
+   "site": "at North Alabama",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 2.05,
+     "total": 146.5,
+     "note": "Published projection: Alabama A&M 72.2, North Alabama 74.3."
+    },
+    "dratings": {
+     "margin": 1.8,
+     "total": 142.4,
+     "note": "Published projection: Alabama A&M 70.3, North Alabama 72.1."
+    },
+    "massey": {
+     "margin": 7.5,
+     "total": 145.5,
+     "note": "Published median margin: North Alabama by 7.5, total 145.5."
+    },
+    "espn": {
+     "margin": 2.47,
+     "derived": true,
+     "note": "BPI matchup predictor: North Alabama 58.8% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 7.76,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 73.5 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 142.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.202,
+      "espn": 0.14,
+      "dratings": 0.181,
+      "massey": 0.151,
+      "cbbd": 0.161
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.17,
+      "espn": 0.19,
+      "dratings": 0.198,
+      "massey": 0.162,
+      "cbbd": 0.117
+     }
+    },
+    "used": {
+     "hasla": 0.223,
+     "espn": 0.197,
+     "dratings": 0.227,
+     "massey": 0.187,
+     "cbbd": 0.166
+    },
+    "used_total": {
+     "hasla": 0.297,
+     "dratings": 0.355,
+     "massey": 0.348
+    }
+   },
+   "blend": {
+    "margin": 4.04,
+    "src_sd": 2.72,
+    "model_sd": 12.33,
+    "sd": 12.63,
+    "p_home": 0.6257,
+    "p_sd": 0.0807,
+    "total": 144.7,
+    "total_sd": 16.7,
+    "baseline_total": 149.8,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "North Alabama",
+    "dog": "Alabama A&M",
+    "p": 0.6257,
+    "margin": 4.04,
+    "lock": false
+   },
+   "momentum": {
+    "Alabama A&M": {
+     "n": 4,
+     "avg": -0.1,
+     "last": [
+      -17.7,
+      -1.4,
+      -3.4,
+      22.1
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "North Alabama": {
+     "n": 2,
+     "avg": -0.2,
+     "last": [
+      14.5,
+      -15.0
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±8%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-vcu-colorado-st",
+   "away": "VCU",
+   "home": "Colorado St.",
+   "away_conf": "A10",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Maui",
+   "tip": "10:30 PM ET",
+   "tip_sort": 1350,
+   "tv": "ESPNU",
+   "sources": {
+    "hasla": {
+     "margin": -5.99,
+     "total": 148.2,
+     "note": "Published projection: VCU 77.1, Colorado St. 71.1."
+    },
+    "dratings": {
+     "margin": -4.8,
+     "total": 152.0,
+     "note": "Published projection: VCU 78.4, Colorado St. 73.6."
+    },
+    "massey": {
+     "margin": 1.5,
+     "total": 147.5,
+     "note": "Published median margin: Colorado St. by 1.5, total 147.5."
+    },
+    "cbbd": {
+     "margin": -7.77,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.8 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "espn": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 5.5,
+    "total": 149.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.169,
+      "espn": 0.178,
+      "dratings": 0.17,
+      "massey": 0.183,
+      "cbbd": 0.134
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.158,
+      "espn": 0.166,
+      "dratings": 0.153,
+      "massey": 0.208,
+      "cbbd": 0.149
+     }
+    },
+    "used": {
+     "hasla": 0.247,
+     "dratings": 0.244,
+     "massey": 0.295,
+     "cbbd": 0.214
+    },
+    "used_total": {
+     "hasla": 0.277,
+     "dratings": 0.376,
+     "massey": 0.347
+    }
+   },
+   "blend": {
+    "margin": -3.87,
+    "src_sd": 3.49,
+    "model_sd": 12.33,
+    "sd": 12.82,
+    "p_home": 0.3813,
+    "p_sd": 0.108,
+    "total": 149.4,
+    "total_sd": 16.7,
+    "baseline_total": 151.2,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "VCU",
+    "dog": "Colorado St.",
+    "p": 0.6187,
+    "margin": 3.87,
+    "lock": false
+   },
+   "momentum": {
+    "VCU": {
+     "n": 4,
+     "avg": 1.7,
+     "last": [
+      -1.3,
+      8.2,
+      7.3,
+      -7.3
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Colorado St.": {
+     "n": 5,
+     "avg": -7.0,
+     "last": [
+      -5.1,
+      0.4,
+      -25.9,
+      -6.2,
+      1.7
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.12,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±11%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-robert-morris-lamar",
+   "away": "Robert Morris",
+   "home": "Lamar",
+   "away_conf": "Horz",
+   "home_conf": "Slnd",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Jacksonville",
+   "tip": "6:30 PM ET",
+   "tip_sort": 1110,
+   "tv": "Spiideo",
+   "sources": {
+    "hasla": {
+     "margin": 1.13,
+     "total": 148.1,
+     "note": "Published projection: Robert Morris 73.5, Lamar 74.6."
+    },
+    "dratings": {
+     "margin": 2.5,
+     "total": 156.9,
+     "note": "Published projection: Robert Morris 77.2, Lamar 79.7."
+    },
+    "espn": {
+     "margin": 1.06,
+     "derived": true,
+     "note": "BPI matchup predictor: Lamar 53.8% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 11.59,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 77.8 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -2.5,
+    "total": 154.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.169,
+      "espn": 0.168,
+      "dratings": 0.15,
+      "massey": 0.152,
+      "cbbd": 0.195
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.186,
+      "espn": 0.187,
+      "dratings": 0.164,
+      "massey": 0.174,
+      "cbbd": 0.125
+     }
+    },
+    "used": {
+     "hasla": 0.264,
+     "espn": 0.264,
+     "dratings": 0.234,
+     "cbbd": 0.238
+    },
+    "used_total": {
+     "hasla": 0.486,
+     "dratings": 0.514
+    }
+   },
+   "blend": {
+    "margin": 3.92,
+    "src_sd": 4.38,
+    "model_sd": 12.33,
+    "sd": 13.08,
+    "p_home": 0.6179,
+    "p_sd": 0.1209,
+    "total": 152.6,
+    "total_sd": 16.7,
+    "baseline_total": 157.9,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Lamar",
+    "dog": "Robert Morris",
+    "p": 0.6179,
+    "margin": 3.92,
+    "lock": false
+   },
+   "momentum": {
+    "Robert Morris": {
+     "n": 4,
+     "avg": -1.4,
+     "last": [
+      -12.6,
+      -0.3,
+      0.3,
+      7.0
+     ],
+     "flag": null,
+     "index": 0.06,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Lamar": {
+     "n": 3,
+     "avg": 8.4,
+     "last": [
+      -0.5,
+      30.5,
+      -4.7
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±12%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-charleston-utep",
+   "away": "Charleston",
+   "home": "UTEP",
+   "away_conf": "CAA",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Cancun",
+   "tip": "8:30 PM ET",
+   "tip_sort": 1230,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": -4.29,
+     "total": 147.1,
+     "note": "Published projection: Charleston 75.7, UTEP 71.4."
+    },
+    "dratings": {
+     "margin": -2.4,
+     "total": 147.4,
+     "note": "Published projection: Charleston 74.9, UTEP 72.5."
+    },
+    "espn": {
+     "margin": -4.67,
+     "derived": true,
+     "note": "BPI matchup predictor: UTEP 33.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -2.96,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 70.6 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 149.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.152,
+      "espn": 0.178,
+      "dratings": 0.229,
+      "massey": 0.176,
+      "cbbd": 0.105
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.185,
+      "espn": 0.175,
+      "dratings": 0.161,
+      "massey": 0.183,
+      "cbbd": 0.132
+     }
+    },
+    "used": {
+     "hasla": 0.256,
+     "espn": 0.268,
+     "dratings": 0.296,
+     "cbbd": 0.18
+    },
+    "used_total": {
+     "hasla": 0.453,
+     "dratings": 0.547
+    }
+   },
+   "blend": {
+    "margin": -3.59,
+    "src_sd": 0.93,
+    "model_sd": 12.33,
+    "sd": 12.37,
+    "p_home": 0.3857,
+    "p_sd": 0.0289,
+    "total": 147.3,
+    "total_sd": 16.7,
+    "baseline_total": 149.0,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Charleston",
+    "dog": "UTEP",
+    "p": 0.6143,
+    "margin": 3.59,
+    "lock": false
+   },
+   "momentum": {
+    "Charleston": {
+     "n": 3,
+     "avg": 1.4,
+     "last": [
+      11.9,
+      7.6,
+      -15.4
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "UTEP": {
+     "n": 3,
+     "avg": 10.3,
+     "last": [
+      10.2,
+      0.8,
+      20.0
+     ],
+     "flag": null,
+     "index": 0.05,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-army-air-force",
+   "away": "Army",
+   "home": "Air Force",
+   "away_conf": "PL",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, San Antonio",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 8.72,
+     "total": 158.5,
+     "note": "Published projection: Army 74.9, Air Force 83.6."
+    },
+    "dratings": {
+     "margin": 4.2,
+     "total": 152.8,
+     "note": "Published projection: Army 74.3, Air Force 78.5."
+    },
+    "espn": {
+     "margin": -3.33,
+     "derived": true,
+     "note": "BPI matchup predictor: Air Force 38.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 2.79,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 71.7 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 155.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.207,
+      "espn": 0.178,
+      "dratings": 0.183,
+      "massey": 0.17,
+      "cbbd": 0.101
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.185,
+      "espn": 0.175,
+      "dratings": 0.161,
+      "massey": 0.183,
+      "cbbd": 0.132
+     }
+    },
+    "used": {
+     "hasla": 0.296,
+     "espn": 0.267,
+     "dratings": 0.26,
+     "cbbd": 0.176
+    },
+    "used_total": {
+     "hasla": 0.436,
+     "dratings": 0.564
+    }
+   },
+   "blend": {
+    "margin": 3.28,
+    "src_sd": 4.31,
+    "model_sd": 12.33,
+    "sd": 13.06,
+    "p_home": 0.5992,
+    "p_sd": 0.1317,
+    "total": 155.3,
+    "total_sd": 16.7,
+    "baseline_total": 154.2,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Air Force",
+    "dog": "Army",
+    "p": 0.5992,
+    "margin": 3.28,
+    "lock": false
+   },
+   "momentum": {
+    "Army": {
+     "n": 4,
+     "avg": -6.1,
+     "last": [
+      -9.4,
+      9.0,
+      -3.5,
+      -20.7
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Air Force": {
+     "n": 3,
+     "avg": 2.8,
+     "last": [
+      4.7,
+      20.9,
+      -17.2
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±13%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-eastern-michigan-kennesaw-st",
+   "away": "Eastern Michigan",
+   "home": "Kennesaw St.",
+   "away_conf": "MAC",
+   "home_conf": "CUSA",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Cancun",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": 3.99,
+     "total": 154.6,
+     "note": "Published projection: Eastern Michigan 75.3, Kennesaw St. 79.3."
+    },
+    "dratings": {
+     "margin": 4.2,
+     "total": 153.2,
+     "note": "Published projection: Eastern Michigan 74.5, Kennesaw St. 78.7."
+    },
+    "espn": {
+     "margin": 2.61,
+     "derived": true,
+     "note": "BPI matchup predictor: Kennesaw St. 59.3% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 0.23,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 75.9 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 147.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.197,
+      "espn": 0.165,
+      "dratings": 0.185,
+      "massey": 0.195,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.174,
+      "espn": 0.209,
+      "dratings": 0.214,
+      "massey": 0.142,
+      "cbbd": 0.102
+     }
+    },
+    "used": {
+     "hasla": 0.275,
+     "espn": 0.278,
+     "dratings": 0.297,
+     "cbbd": 0.15
+    },
+    "used_total": {
+     "hasla": 0.523,
+     "dratings": 0.477
+    }
+   },
+   "blend": {
+    "margin": 3.1,
+    "src_sd": 1.58,
+    "model_sd": 12.33,
+    "sd": 12.43,
+    "p_home": 0.5986,
+    "p_sd": 0.0502,
+    "total": 153.9,
+    "total_sd": 16.7,
+    "baseline_total": 154.1,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Kennesaw St.",
+    "dog": "Eastern Michigan",
+    "p": 0.5986,
+    "margin": 3.1,
+    "lock": false
+   },
+   "momentum": {
+    "Eastern Michigan": {
+     "n": 3,
+     "avg": 6.2,
+     "last": [
+      -3.7,
+      27.1,
+      -4.8
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Kennesaw St.": {
+     "n": 4,
+     "avg": 7.3,
+     "last": [
+      -4.2,
+      1.3,
+      5.4,
+      26.6
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-georgia-southern-bellarmine",
+   "away": "Georgia Southern",
+   "home": "Bellarmine",
+   "away_conf": "SB",
+   "home_conf": "ASun",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Highland Heights",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -1.77,
+     "total": 154.3,
+     "note": "Published projection: Georgia Southern 78.0, Bellarmine 76.3."
+    },
+    "dratings": {
+     "margin": -2.4,
+     "total": 156.4,
+     "note": "Published projection: Georgia Southern 79.4, Bellarmine 77.0."
+    },
+    "espn": {
+     "margin": -3.13,
+     "derived": true,
+     "note": "BPI matchup predictor: Bellarmine 38.9% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -2.55,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.8 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 2.5,
+    "total": 152.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.153,
+      "espn": 0.192,
+      "dratings": 0.208,
+      "massey": 0.187,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.174,
+      "espn": 0.177,
+      "dratings": 0.165,
+      "massey": 0.185,
+      "cbbd": 0.133
+     }
+    },
+    "used": {
+     "hasla": 0.251,
+     "espn": 0.284,
+     "dratings": 0.287,
+     "cbbd": 0.179
+    },
+    "used_total": {
+     "hasla": 0.507,
+     "dratings": 0.493
+    }
+   },
+   "blend": {
+    "margin": -2.48,
+    "src_sd": 0.48,
+    "model_sd": 12.33,
+    "sd": 12.34,
+    "p_home": 0.4205,
+    "p_sd": 0.0153,
+    "total": 155.3,
+    "total_sd": 16.7,
+    "baseline_total": 158.2,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Georgia Southern",
+    "dog": "Bellarmine",
+    "p": 0.5795,
+    "margin": 2.48,
+    "lock": false
+   },
+   "momentum": {
+    "Georgia Southern": {
+     "n": 5,
+     "avg": 1.8,
+     "last": [
+      -6.3,
+      3.8,
+      -7.1,
+      10.3,
+      8.5
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.13,
+     "tag": "Steady"
+    },
+    "Bellarmine": {
+     "n": 5,
+     "avg": 2.3,
+     "last": [
+      2.8,
+      9.1,
+      -10.6,
+      -1.2,
+      11.7
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.12,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-houston-christian-louisiana-monroe",
+   "away": "Houston Christian",
+   "home": "Louisiana Monroe",
+   "away_conf": "Slnd",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at Louisiana Monroe",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -3.34,
+     "total": 154.6,
+     "note": "Published projection: Houston Christian 79.0, Louisiana Monroe 75.6."
+    },
+    "dratings": {
+     "margin": -2.9,
+     "total": 152.1,
+     "note": "Published projection: Houston Christian 77.5, Louisiana Monroe 74.6."
+    },
+    "espn": {
+     "margin": -0.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Louisiana Monroe 47.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -1.93,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 77.9 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 150.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.186,
+      "espn": 0.187,
+      "dratings": 0.164,
+      "massey": 0.174,
+      "cbbd": 0.125
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.153,
+      "espn": 0.192,
+      "dratings": 0.208,
+      "massey": 0.187,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.257,
+     "espn": 0.289,
+     "dratings": 0.283,
+     "cbbd": 0.171
+    },
+    "used_total": {
+     "hasla": 0.488,
+     "dratings": 0.512
+    }
+   },
+   "blend": {
+    "margin": -2.23,
+    "src_sd": 0.98,
+    "model_sd": 12.33,
+    "sd": 12.37,
+    "p_home": 0.4283,
+    "p_sd": 0.0314,
+    "total": 153.3,
+    "total_sd": 16.7,
+    "baseline_total": 162.7,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Houston Christian",
+    "dog": "Louisiana Monroe",
+    "p": 0.5717,
+    "margin": 2.23,
+    "lock": false
+   },
+   "momentum": {
+    "Houston Christian": {
+     "n": 2,
+     "avg": 1.9,
+     "last": [
+      14.2,
+      -10.3
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Louisiana Monroe": {
+     "n": 5,
+     "avg": 4.4,
+     "last": [
+      -9.1,
+      24.0,
+      -3.0,
+      -7.4,
+      17.6
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-green-bay-kansas-city",
+   "away": "Green Bay",
+   "home": "Kansas City",
+   "away_conf": "Horz",
+   "home_conf": "Sum",
+   "short": {},
+   "neutral": false,
+   "site": "at Kansas City",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "Summit League Network, Midco Sports Plus",
+   "sources": {
+    "hasla": {
+     "margin": 1.87,
+     "total": 148.5,
+     "note": "Published projection: Green Bay 73.3, Kansas City 75.2."
+    },
+    "dratings": {
+     "margin": 0.6,
+     "total": 145.6,
+     "note": "Published projection: Green Bay 72.5, Kansas City 73.1."
+    },
+    "espn": {
+     "margin": 2.21,
+     "derived": true,
+     "note": "BPI matchup predictor: Kansas City 57.9% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 3.98,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 64.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 145.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.169,
+      "espn": 0.168,
+      "dratings": 0.15,
+      "massey": 0.152,
+      "cbbd": 0.195
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.152,
+      "espn": 0.177,
+      "dratings": 0.183,
+      "massey": 0.188,
+      "cbbd": 0.135
+     }
+    },
+    "used": {
+     "hasla": 0.241,
+     "espn": 0.26,
+     "dratings": 0.251,
+     "cbbd": 0.248
+    },
+    "used_total": {
+     "hasla": 0.519,
+     "dratings": 0.481
+    }
+   },
+   "blend": {
+    "margin": 2.16,
+    "src_sd": 1.21,
+    "model_sd": 12.33,
+    "sd": 12.39,
+    "p_home": 0.5693,
+    "p_sd": 0.0383,
+    "total": 147.1,
+    "total_sd": 16.7,
+    "baseline_total": 151.1,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Kansas City",
+    "dog": "Green Bay",
+    "p": 0.5693,
+    "margin": 2.16,
+    "lock": false
+   },
+   "momentum": {
+    "Green Bay": {
+     "n": 4,
+     "avg": -0.9,
+     "last": [
+      4.7,
+      18.3,
+      -5.5,
+      -21.1
+     ],
+     "flag": null,
+     "index": -0.04,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Kansas City": {
+     "n": 4,
+     "avg": 0.9,
+     "last": [
+      9.4,
+      -13.8,
+      5.1,
+      3.0
+     ],
+     "flag": null,
+     "index": 0.0,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-sam-houston-st-washington-st",
+   "away": "Sam Houston St.",
+   "home": "Washington St.",
+   "away_conf": "CUSA",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": false,
+   "site": "at Washington St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "YouTube",
+   "sources": {
+    "hasla": {
+     "margin": -0.29,
+     "total": 162.4,
+     "note": "Published projection: Sam Houston St. 81.3, Washington St. 81.1."
+    },
+    "dratings": {
+     "margin": 4.4,
+     "total": 155.2,
+     "note": "Published projection: Sam Houston St. 75.4, Washington St. 79.8."
+    },
+    "massey": {
+     "margin": 5.5,
+     "total": 157.5,
+     "note": "Published median margin: Washington St. by 5.5, total 157.5."
+    },
+    "espn": {
+     "margin": 0.17,
+     "derived": true,
+     "note": "BPI matchup predictor: Washington St. 50.6% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -1.29,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 76.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -5.5,
+    "total": 155.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.174,
+      "espn": 0.209,
+      "dratings": 0.214,
+      "massey": 0.142,
+      "cbbd": 0.102
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.158,
+      "espn": 0.166,
+      "dratings": 0.153,
+      "massey": 0.208,
+      "cbbd": 0.149
+     }
+    },
+    "used": {
+     "hasla": 0.198,
+     "espn": 0.224,
+     "dratings": 0.22,
+     "massey": 0.209,
+     "cbbd": 0.15
+    },
+    "used_total": {
+     "hasla": 0.301,
+     "dratings": 0.314,
+     "massey": 0.386
+    }
+   },
+   "blend": {
+    "margin": 1.9,
+    "src_sd": 2.72,
+    "model_sd": 12.33,
+    "sd": 12.63,
+    "p_home": 0.5598,
+    "p_sd": 0.0858,
+    "total": 158.3,
+    "total_sd": 16.7,
+    "baseline_total": 157.4,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Washington St.",
+    "dog": "Sam Houston St.",
+    "p": 0.5598,
+    "margin": 1.9,
+    "lock": false
+   },
+   "momentum": {
+    "Sam Houston St.": {
+     "n": 4,
+     "avg": 10.0,
+     "last": [
+      4.2,
+      4.3,
+      6.4,
+      25.1
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Washington St.": {
+     "n": 4,
+     "avg": 8.6,
+     "last": [
+      -2.1,
+      1.4,
+      16.9,
+      18.5
+     ],
+     "flag": null,
+     "index": 0.05,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±9%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-purdue-fort-wayne-southeast-missouri",
+   "away": "Purdue Fort Wayne",
+   "home": "Southeast Missouri",
+   "away_conf": "Horz",
+   "home_conf": "OVC",
+   "short": {},
+   "neutral": false,
+   "site": "at Southeast Missouri",
+   "tip": "7:30 PM ET",
+   "tip_sort": 1170,
+   "tv": "ESPN+",
+   "sources": {
+    "espn": {
+     "margin": 1.67,
+     "derived": true,
+     "note": "BPI matchup predictor: Southeast Missouri 56.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 0.9,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 70.8 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 149.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.169,
+      "espn": 0.168,
+      "dratings": 0.15,
+      "massey": 0.152,
+      "cbbd": 0.195
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.201,
+      "espn": 0.154,
+      "dratings": 0.184,
+      "massey": 0.173,
+      "cbbd": 0.124
+     }
+    },
+    "used": {
+     "espn": 0.501,
+     "cbbd": 0.499
+    },
+    "used_total": {}
+   },
+   "blend": {
+    "margin": 1.29,
+    "src_sd": 0.38,
+    "model_sd": 12.33,
+    "sd": 12.34,
+    "p_home": 0.5415,
+    "p_sd": 0.0124,
+    "total": null,
+    "total_sd": 16.7,
+    "baseline_total": 152.3,
+    "lean": null,
+    "n_sources": 2
+   },
+   "pick": {
+    "team": "Southeast Missouri",
+    "dog": "Purdue Fort Wayne",
+    "p": 0.5415,
+    "margin": 1.29,
+    "lock": false
+   },
+   "momentum": {
+    "Purdue Fort Wayne": {
+     "n": 3,
+     "avg": 0.4,
+     "last": [
+      -21.8,
+      11.0,
+      11.9
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Southeast Missouri": {
+     "n": 3,
+     "avg": -8.0,
+     "last": [
+      6.6,
+      -6.6,
+      -23.9
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "only 2 of 6 sources have a number; they agree within 0.8 pts",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-mount-st-mary-s-morgan-st",
+   "away": "Mount St. Mary's",
+   "home": "Morgan St.",
+   "away_conf": "MC",
+   "home_conf": "MEAC",
+   "short": {},
+   "neutral": false,
+   "site": "at Morgan St.",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "MEAC Network",
+   "sources": {
+    "hasla": {
+     "margin": 0.49,
+     "total": 151.6,
+     "note": "Published projection: Mount St. Mary's 75.5, Morgan St. 76.0."
+    },
+    "dratings": {
+     "margin": -1.1,
+     "total": 151.7,
+     "note": "Published projection: Mount St. Mary's 76.4, Morgan St. 75.3."
+    },
+    "massey": {
+     "margin": -2.5,
+     "total": 146.5,
+     "note": "Published median margin: Mount St. Mary's by 2.5, total 146.5."
+    },
+    "espn": {
+     "margin": 3.24,
+     "derived": true,
+     "note": "BPI matchup predictor: Morgan St. 61.5% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 9.67,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 74.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 146.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.2,
+      "espn": 0.16,
+      "dratings": 0.184,
+      "massey": 0.176,
+      "cbbd": 0.117
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.174,
+      "espn": 0.184,
+      "dratings": 0.199,
+      "massey": 0.168,
+      "cbbd": 0.112
+     }
+    },
+    "used": {
+     "hasla": 0.223,
+     "espn": 0.206,
+     "dratings": 0.229,
+     "massey": 0.206,
+     "cbbd": 0.137
+    },
+    "used_total": {
+     "hasla": 0.274,
+     "dratings": 0.381,
+     "massey": 0.345
+    }
+   },
+   "blend": {
+    "margin": 1.34,
+    "src_sd": 4.3,
+    "model_sd": 12.33,
+    "sd": 13.06,
+    "p_home": 0.5407,
+    "p_sd": 0.1285,
+    "total": 149.9,
+    "total_sd": 16.7,
+    "baseline_total": 143.4,
+    "lean": "over",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Morgan St.",
+    "dog": "Mount St. Mary's",
+    "p": 0.5407,
+    "margin": 1.34,
+    "lock": false
+   },
+   "momentum": {
+    "Mount St. Mary's": {
+     "n": 4,
+     "avg": -6.5,
+     "last": [
+      5.4,
+      3.7,
+      -36.3,
+      1.3
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Morgan St.": {
+     "n": 5,
+     "avg": -2.8,
+     "last": [
+      9.7,
+      -6.8,
+      2.0,
+      -5.4,
+      -13.7
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.08,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±13%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-vermont-siena",
+   "away": "Vermont",
+   "home": "Siena",
+   "away_conf": "AE",
+   "home_conf": "MC",
+   "short": {},
+   "neutral": false,
+   "site": "at Siena",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 1.07,
+     "total": 155.8,
+     "note": "Published projection: Vermont 77.4, Siena 78.4."
+    },
+    "dratings": {
+     "margin": 2.8,
+     "total": 153.6,
+     "note": "Published projection: Vermont 75.4, Siena 78.2."
+    },
+    "massey": {
+     "margin": 1.5,
+     "total": 145.5,
+     "note": "Published median margin: Siena by 1.5, total 145.5."
+    },
+    "espn": {
+     "margin": -0.64,
+     "derived": true,
+     "note": "BPI matchup predictor: Siena 47.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 159.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.195,
+      "espn": 0.193,
+      "dratings": 0.166,
+      "massey": 0.186,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.2,
+      "espn": 0.16,
+      "dratings": 0.184,
+      "massey": 0.176,
+      "cbbd": 0.117
+     }
+    },
+    "used": {
+     "hasla": 0.27,
+     "espn": 0.242,
+     "dratings": 0.239,
+     "massey": 0.248
+    },
+    "used_total": {
+     "hasla": 0.258,
+     "dratings": 0.407,
+     "massey": 0.334
+    }
+   },
+   "blend": {
+    "margin": 1.18,
+    "src_sd": 1.23,
+    "model_sd": 12.33,
+    "sd": 12.39,
+    "p_home": 0.5378,
+    "p_sd": 0.0395,
+    "total": 151.5,
+    "total_sd": 16.7,
+    "baseline_total": 161.0,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Siena",
+    "dog": "Vermont",
+    "p": 0.5378,
+    "margin": 1.18,
+    "lock": false
+   },
+   "momentum": {
+    "Vermont": {
+     "n": 4,
+     "avg": 4.5,
+     "last": [
+      13.6,
+      -8.0,
+      5.2,
+      7.3
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Siena": {
+     "n": 4,
+     "avg": 6.1,
+     "last": [
+      17.4,
+      27.2,
+      -1.1,
+      -19.0
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.11,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-vanderbilt-ohio-st",
+   "away": "Vanderbilt",
+   "home": "Ohio St.",
+   "away_conf": "SEC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": false,
+   "site": "at Ohio St.",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "Peacock",
+   "sources": {
+    "hasla": {
+     "margin": -3.15,
+     "total": 154.2,
+     "note": "Published projection: Vanderbilt 78.7, Ohio St. 75.5."
+    },
+    "dratings": {
+     "margin": -1.6,
+     "total": 159.4,
+     "note": "Published projection: Vanderbilt 80.5, Ohio St. 78.9."
+    },
+    "massey": {
+     "margin": 1.5,
+     "total": 156.5,
+     "note": "Published median margin: Ohio St. by 1.5, total 156.5."
+    },
+    "espn": {
+     "margin": -0.83,
+     "derived": true,
+     "note": "BPI matchup predictor: Ohio St. 47.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -1.17,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 57.6 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 156.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.165,
+      "dratings": 0.189,
+      "massey": 0.163,
+      "cbbd": 0.131
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.225,
+     "espn": 0.189,
+     "dratings": 0.228,
+     "massey": 0.182,
+     "cbbd": 0.176
+    },
+    "used_total": {
+     "hasla": 0.341,
+     "dratings": 0.372,
+     "massey": 0.287
+    }
+   },
+   "blend": {
+    "margin": -1.16,
+    "src_sd": 1.5,
+    "model_sd": 12.33,
+    "sd": 12.42,
+    "p_home": 0.4627,
+    "p_sd": 0.0482,
+    "total": 156.8,
+    "total_sd": 16.7,
+    "baseline_total": 153.6,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Vanderbilt",
+    "dog": "Ohio St.",
+    "p": 0.5373,
+    "margin": 1.16,
+    "lock": false
+   },
+   "momentum": {
+    "Vanderbilt": {
+     "n": 5,
+     "avg": 4.1,
+     "last": [
+      10.6,
+      11.1,
+      -6.0,
+      10.9,
+      -6.1
+     ],
+     "flag": null,
+     "index": -0.06,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Ohio St.": {
+     "n": 5,
+     "avg": -0.4,
+     "last": [
+      1.9,
+      -11.1,
+      -6.2,
+      -2.7,
+      16.2
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.11,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-campbell-coastal-carolina",
+   "away": "Campbell",
+   "home": "Coastal Carolina",
+   "away_conf": "CAA",
+   "home_conf": "SB",
+   "short": {},
+   "neutral": false,
+   "site": "at Coastal Carolina",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": 1.15,
+     "total": 154.6,
+     "note": "Published projection: Campbell 76.7, Coastal Carolina 77.9."
+    },
+    "dratings": {
+     "margin": 1.3,
+     "total": 149.7,
+     "note": "Published projection: Campbell 74.2, Coastal Carolina 75.5."
+    },
+    "massey": {
+     "margin": -0.5,
+     "total": 148.5,
+     "note": "Published median margin: Campbell by 0.5, total 148.5."
+    },
+    "espn": {
+     "margin": 1.56,
+     "derived": true,
+     "note": "BPI matchup predictor: Coastal Carolina 55.6% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 148.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.152,
+      "espn": 0.178,
+      "dratings": 0.229,
+      "massey": 0.176,
+      "cbbd": 0.105
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.153,
+      "espn": 0.192,
+      "dratings": 0.208,
+      "massey": 0.187,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.207,
+     "espn": 0.251,
+     "dratings": 0.297,
+     "massey": 0.246
+    },
+    "used_total": {
+     "hasla": 0.313,
+     "dratings": 0.352,
+     "massey": 0.335
+    }
+   },
+   "blend": {
+    "margin": 0.89,
+    "src_sd": 0.81,
+    "model_sd": 12.33,
+    "sd": 12.36,
+    "p_home": 0.5288,
+    "p_sd": 0.0261,
+    "total": 150.8,
+    "total_sd": 16.7,
+    "baseline_total": 149.5,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Coastal Carolina",
+    "dog": "Campbell",
+    "p": 0.5288,
+    "margin": 0.89,
+    "lock": false
+   },
+   "momentum": {
+    "Campbell": {
+     "n": 5,
+     "avg": 6.2,
+     "last": [
+      -11.3,
+      -5.4,
+      9.2,
+      10.5,
+      28.1
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Coastal Carolina": {
+     "n": 4,
+     "avg": -1.6,
+     "last": [
+      -26.6,
+      0.3,
+      17.7,
+      2.1
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-new-haven-lindenwood",
+   "away": "New Haven",
+   "home": "Lindenwood",
+   "away_conf": "NEC",
+   "home_conf": "OVC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Stony Brook",
+   "tip": "4 PM ET",
+   "tip_sort": 960,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": -3.57,
+     "total": 142.9,
+     "note": "Published projection: New Haven 73.2, Lindenwood 69.7."
+    },
+    "dratings": {
+     "margin": 4.3,
+     "total": 135.7,
+     "note": "Published projection: New Haven 65.7, Lindenwood 70.0."
+    },
+    "espn": {
+     "margin": 4.7,
+     "derived": true,
+     "note": "BPI matchup predictor: Lindenwood 66.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -1.88,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 69.5 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 133.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.184,
+      "espn": 0.161,
+      "dratings": 0.165,
+      "massey": 0.197,
+      "cbbd": 0.128
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.164,
+      "hasla": 0.201,
+      "espn": 0.154,
+      "dratings": 0.184,
+      "massey": 0.173,
+      "cbbd": 0.124
+     }
+    },
+    "used": {
+     "hasla": 0.296,
+     "espn": 0.242,
+     "dratings": 0.268,
+     "cbbd": 0.194
+    },
+    "used_total": {
+     "hasla": 0.544,
+     "dratings": 0.456
+    }
+   },
+   "blend": {
+    "margin": 0.87,
+    "src_sd": 3.66,
+    "model_sd": 12.33,
+    "sd": 12.86,
+    "p_home": 0.5269,
+    "p_sd": 0.1164,
+    "total": 139.6,
+    "total_sd": 16.7,
+    "baseline_total": 133.0,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Lindenwood",
+    "dog": "New Haven",
+    "p": 0.5269,
+    "margin": 0.87,
+    "lock": false
+   },
+   "momentum": {
+    "New Haven": {
+     "n": 4,
+     "avg": -0.1,
+     "last": [
+      -4.0,
+      9.4,
+      -10.9,
+      5.2
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Lindenwood": {
+     "n": 3,
+     "avg": -1.2,
+     "last": [
+      -2.9,
+      -7.2,
+      6.4
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "some source disagreement (win chance ±12%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-tarleton-st-weber-st",
+   "away": "Tarleton St.",
+   "home": "Weber St.",
+   "away_conf": "UAC",
+   "home_conf": "BSky",
+   "short": {},
+   "neutral": false,
+   "site": "at Weber St.",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "ESPN+",
+   "sources": {
+    "dratings": {
+     "margin": -1.0,
+     "total": 156.8,
+     "note": "Published projection: Tarleton St. 78.9, Weber St. 77.9."
+    },
+    "massey": {
+     "margin": 2.5,
+     "total": 152.5,
+     "note": "Published median margin: Weber St. by 2.5, total 152.5."
+    },
+    "espn": {
+     "margin": -0.03,
+     "derived": true,
+     "note": "BPI matchup predictor: Weber St. 49.9% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -2.03,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 75.3 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "hasla": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 155.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.163,
+      "hasla": 0.17,
+      "espn": 0.19,
+      "dratings": 0.198,
+      "massey": 0.162,
+      "cbbd": 0.117
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.241,
+      "espn": 0.167,
+      "dratings": 0.169,
+      "massey": 0.141,
+      "cbbd": 0.122
+     }
+    },
+    "used": {
+     "espn": 0.282,
+     "dratings": 0.29,
+     "massey": 0.24,
+     "cbbd": 0.188
+    },
+    "used_total": {
+     "dratings": 0.511,
+     "massey": 0.489
+    }
+   },
+   "blend": {
+    "margin": -0.08,
+    "src_sd": 1.68,
+    "model_sd": 12.33,
+    "sd": 12.44,
+    "p_home": 0.4974,
+    "p_sd": 0.0541,
+    "total": 154.7,
+    "total_sd": 16.7,
+    "baseline_total": 159.9,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Tarleton St.",
+    "dog": "Weber St.",
+    "p": 0.5026,
+    "margin": 0.08,
+    "lock": false
+   },
+   "momentum": {
+    "Tarleton St.": {
+     "n": 4,
+     "avg": -5.0,
+     "last": [
+      -2.2,
+      -8.0,
+      13.9,
+      -23.6
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Weber St.": {
+     "n": 2,
+     "avg": -5.1,
+     "last": [
+      -5.5,
+      -4.7
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-illinois-st-tulsa",
+   "away": "Illinois St.",
+   "home": "Tulsa",
+   "away_conf": "MVC",
+   "home_conf": "Amer",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Palm Springs",
+   "tip": "4:30 PM ET",
+   "tip_sort": 990,
+   "tv": "CBSSN",
+   "sources": {
+    "hasla": {
+     "margin": 0.99,
+     "total": 150.4,
+     "note": "Published projection: Illinois St. 74.7, Tulsa 75.7."
+    },
+    "dratings": {
+     "margin": 1.9,
+     "total": 145.1,
+     "note": "Published projection: Illinois St. 71.6, Tulsa 73.5."
+    },
+    "espn": {
+     "margin": -2.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Tulsa 40.1% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 0.58,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 64.3 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 143.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.169,
+      "espn": 0.18,
+      "dratings": 0.175,
+      "massey": 0.214,
+      "cbbd": 0.102
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.162,
+      "hasla": 0.173,
+      "espn": 0.196,
+      "dratings": 0.182,
+      "massey": 0.183,
+      "cbbd": 0.104
+     }
+    },
+    "used": {
+     "hasla": 0.267,
+     "espn": 0.293,
+     "dratings": 0.279,
+     "cbbd": 0.161
+    },
+    "used_total": {
+     "hasla": 0.444,
+     "dratings": 0.556
+    }
+   },
+   "blend": {
+    "margin": 0.07,
+    "src_sd": 1.77,
+    "model_sd": 12.33,
+    "sd": 12.46,
+    "p_home": 0.5023,
+    "p_sd": 0.0569,
+    "total": 147.5,
+    "total_sd": 16.7,
+    "baseline_total": 152.2,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Tulsa",
+    "dog": "Illinois St.",
+    "p": 0.5023,
+    "margin": 0.07,
+    "lock": false
+   },
+   "momentum": {
+    "Illinois St.": {
+     "n": 4,
+     "avg": -1.4,
+     "last": [
+      -1.8,
+      -5.4,
+      1.2,
+      0.2
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Tulsa": {
+     "n": 4,
+     "avg": -3.4,
+     "last": [
+      1.9,
+      -6.7,
+      -4.2,
+      -4.7
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-queens-wofford",
+   "away": "Queens",
+   "home": "Wofford",
+   "away_conf": "ASun",
+   "home_conf": "SC",
+   "short": {},
+   "neutral": false,
+   "site": "at Wofford",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "ESPN+",
+   "sources": {
+    "hasla": {
+     "margin": -0.17,
+     "total": 173.9,
+     "note": "Published projection: Queens 87.0, Wofford 86.9."
+    },
+    "dratings": {
+     "margin": -1.7,
+     "total": 171.9,
+     "note": "Published projection: Queens 86.8, Wofford 85.1."
+    },
+    "espn": {
+     "margin": 0.58,
+     "derived": true,
+     "note": "BPI matchup predictor: Wofford 52.1% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 2.3,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 77.0 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 172.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.174,
+      "espn": 0.177,
+      "dratings": 0.165,
+      "massey": 0.185,
+      "cbbd": 0.133
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.154,
+      "hasla": 0.202,
+      "espn": 0.175,
+      "dratings": 0.202,
+      "massey": 0.167,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.283,
+     "espn": 0.265,
+     "dratings": 0.276,
+     "cbbd": 0.175
+    },
+    "used_total": {
+     "hasla": 0.471,
+     "dratings": 0.529
+    }
+   },
+   "blend": {
+    "margin": 0.04,
+    "src_sd": 1.44,
+    "model_sd": 12.33,
+    "sd": 12.41,
+    "p_home": 0.5013,
+    "p_sd": 0.0464,
+    "total": 172.8,
+    "total_sd": 16.7,
+    "baseline_total": 179.6,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Wofford",
+    "dog": "Queens",
+    "p": 0.5013,
+    "margin": 0.04,
+    "lock": false
+   },
+   "momentum": {
+    "Queens": {
+     "n": 4,
+     "avg": -9.0,
+     "last": [
+      -32.0,
+      11.2,
+      -2.2,
+      -13.2
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Wofford": {
+     "n": 4,
+     "avg": -2.2,
+     "last": [
+      -14.2,
+      2.2,
+      1.8,
+      1.5
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-idaho-st-boise-st",
+   "away": "Idaho St.",
+   "home": "Boise St.",
+   "away_conf": "BSky",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": false,
+   "site": "at Boise St.",
+   "tip": "9 PM ET",
+   "tip_sort": 1260,
+   "tv": "YouTube",
+   "sources": {
+    "hasla": {
+     "margin": 18.89,
+     "total": 151.8,
+     "note": "Published projection: Idaho St. 66.5, Boise St. 85.3."
+    },
+    "dratings": {
+     "margin": 15.9,
+     "total": 157.1,
+     "note": "Published projection: Idaho St. 70.6, Boise St. 86.5."
+    },
+    "massey": {
+     "margin": 18.5,
+     "total": 154.5,
+     "note": "Published median margin: Boise St. by 18.5, total 154.5."
+    },
+    "espn": {
+     "margin": 17.62,
+     "derived": true,
+     "note": "BPI matchup predictor: Boise St. 94.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 6.58,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 81.4 possessions, +4.3 home court (measured)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -18.5,
+    "total": 162.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.161,
+      "hasla": 0.241,
+      "espn": 0.167,
+      "dratings": 0.169,
+      "massey": 0.141,
+      "cbbd": 0.122
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.158,
+      "espn": 0.166,
+      "dratings": 0.153,
+      "massey": 0.208,
+      "cbbd": 0.149
+     }
+    },
+    "used": {
+     "hasla": 0.238,
+     "espn": 0.199,
+     "dratings": 0.193,
+     "massey": 0.208,
+     "cbbd": 0.162
+    },
+    "used_total": {
+     "hasla": 0.281,
+     "dratings": 0.332,
+     "massey": 0.387
+    }
+   },
+   "blend": {
+    "margin": 15.99,
+    "src_sd": 4.58,
+    "model_sd": 12.33,
+    "sd": 13.15,
+    "p_home": 0.8879,
+    "p_sd": 0.0891,
+    "total": 154.6,
+    "total_sd": 16.7,
+    "baseline_total": 166.2,
+    "lean": "under",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Boise St.",
+    "dog": "Idaho St.",
+    "p": 0.8879,
+    "margin": 15.99,
+    "lock": false
+   },
+   "momentum": {
+    "Idaho St.": {
+     "n": 4,
+     "avg": 1.7,
+     "last": [
+      -16.8,
+      -4.7,
+      6.8,
+      21.5
+     ],
+     "flag": null,
+     "index": 0.06,
+     "sd": 0.1,
+     "tag": "Steady"
+    },
+    "Boise St.": {
+     "n": 4,
+     "avg": -2.8,
+     "last": [
+      14.8,
+      16.3,
+      -17.4,
+      -25.1
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-kent-st-wyoming",
+   "away": "Kent St.",
+   "home": "Wyoming",
+   "away_conf": "MAC",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Daytona Beach",
+   "tip": "5:30 PM ET",
+   "tip_sort": 1050,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": 12.01,
+     "total": 153.5,
+     "note": "Published projection: Kent St. 70.7, Wyoming 82.8."
+    },
+    "dratings": {
+     "margin": 7.9,
+     "total": 149.7,
+     "note": "Published projection: Kent St. 70.9, Wyoming 78.8."
+    },
+    "espn": {
+     "margin": 7.48,
+     "derived": true,
+     "note": "BPI matchup predictor: Wyoming 75.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 12.75,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 66.4 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -9.5,
+    "total": 143.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.159,
+      "hasla": 0.197,
+      "espn": 0.165,
+      "dratings": 0.185,
+      "massey": 0.195,
+      "cbbd": 0.1
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.185,
+      "espn": 0.175,
+      "dratings": 0.161,
+      "massey": 0.183,
+      "cbbd": 0.132
+     }
+    },
+    "used": {
+     "hasla": 0.294,
+     "espn": 0.262,
+     "dratings": 0.266,
+     "cbbd": 0.178
+    },
+    "used_total": {
+     "hasla": 0.495,
+     "dratings": 0.505
+    }
+   },
+   "blend": {
+    "margin": 9.86,
+    "src_sd": 2.36,
+    "model_sd": 12.33,
+    "sd": 12.55,
+    "p_home": 0.784,
+    "p_sd": 0.0547,
+    "total": 151.6,
+    "total_sd": 16.7,
+    "baseline_total": 140.5,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Wyoming",
+    "dog": "Kent St.",
+    "p": 0.784,
+    "margin": 9.86,
+    "lock": false
+   },
+   "momentum": {
+    "Kent St.": {
+     "n": 3,
+     "avg": -11.9,
+     "last": [
+      -13.5,
+      -26.0,
+      3.9
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Wyoming": {
+     "n": 5,
+     "avg": 8.5,
+     "last": [
+      16.8,
+      2.3,
+      16.9,
+      -6.4,
+      12.8
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-gonzaga-kansas-st",
+   "away": "Gonzaga",
+   "home": "Kansas St.",
+   "away_conf": "P12",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "12:30 AM ET (next day)",
+   "tip_sort": 1470,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": -13.22,
+     "total": 161.4,
+     "note": "Published projection: Gonzaga 87.3, Kansas St. 74.1."
+    },
+    "massey": {
+     "margin": -5.5,
+     "total": 152.5,
+     "note": "Published median margin: Gonzaga by 5.5, total 152.5."
+    },
+    "espn": {
+     "margin": -11.88,
+     "derived": true,
+     "note": "BPI matchup predictor: Kansas St. 14.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 15.5,
+    "total": 157.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.158,
+      "espn": 0.166,
+      "dratings": 0.153,
+      "massey": 0.208,
+      "cbbd": 0.149
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.156,
+      "dratings": 0.185,
+      "massey": 0.168,
+      "cbbd": 0.144
+     }
+    },
+    "used": {
+     "hasla": 0.327,
+     "espn": 0.311,
+     "massey": 0.362
+    },
+    "used_total": {
+     "hasla": 0.407,
+     "massey": 0.593
+    }
+   },
+   "blend": {
+    "margin": -10.01,
+    "src_sd": 3.37,
+    "model_sd": 12.33,
+    "sd": 12.78,
+    "p_home": 0.2168,
+    "p_sd": 0.0823,
+    "total": 156.1,
+    "total_sd": 16.7,
+    "baseline_total": 157.1,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Gonzaga",
+    "dog": "Kansas St.",
+    "p": 0.7832,
+    "margin": 10.01,
+    "lock": false
+   },
+   "momentum": {
+    "Gonzaga": {
+     "n": 3,
+     "avg": -0.4,
+     "last": [
+      17.6,
+      -10.7,
+      -8.2
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Kansas St.": {
+     "n": 4,
+     "avg": 3.7,
+     "last": [
+      5.1,
+      10.4,
+      27.2,
+      -28.1
+     ],
+     "flag": null,
+     "index": -0.0,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-depaul-purdue",
+   "away": "DePaul",
+   "home": "Purdue",
+   "away_conf": "BE",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Fort Myers",
+   "tip": "6 PM ET",
+   "tip_sort": 1080,
+   "tv": "FS1",
+   "sources": {
+    "hasla": {
+     "margin": 11.1,
+     "total": 137.6,
+     "note": "Published projection: DePaul 63.3, Purdue 74.4."
+    },
+    "dratings": {
+     "margin": 5.5,
+     "total": 138.3,
+     "note": "Published projection: DePaul 66.4, Purdue 71.9."
+    },
+    "espn": {
+     "margin": 5.63,
+     "derived": true,
+     "note": "BPI matchup predictor: Purdue 69.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -3.67,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 60.1 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 132.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.193,
+      "espn": 0.161,
+      "dratings": 0.172,
+      "massey": 0.168,
+      "cbbd": 0.141
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.28,
+     "espn": 0.229,
+     "dratings": 0.268,
+     "cbbd": 0.223
+    },
+    "used_total": {
+     "hasla": 0.468,
+     "dratings": 0.532
+    }
+   },
+   "blend": {
+    "margin": 5.05,
+    "src_sd": 5.3,
+    "model_sd": 12.33,
+    "sd": 13.42,
+    "p_home": 0.6467,
+    "p_sd": 0.1576,
+    "total": 138.0,
+    "total_sd": 16.7,
+    "baseline_total": 141.8,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Purdue",
+    "dog": "DePaul",
+    "p": 0.6467,
+    "margin": 5.05,
+    "lock": false
+   },
+   "momentum": {
+    "DePaul": {
+     "n": 4,
+     "avg": 15.2,
+     "last": [
+      -1.4,
+      17.7,
+      25.9,
+      18.8
+     ],
+     "flag": null,
+     "index": 0.05,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Purdue": {
+     "n": 5,
+     "avg": -0.7,
+     "last": [
+      -23.7,
+      1.8,
+      -3.6,
+      -3.9,
+      25.8
+     ],
+     "flag": null,
+     "index": 0.06,
+     "sd": 0.11,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "sources split on the winner's chances (±16%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-clemson-washington",
+   "away": "Clemson",
+   "home": "Washington",
+   "away_conf": "ACC",
+   "home_conf": "B10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Maui",
+   "tip": "8 PM ET",
+   "tip_sort": 1200,
+   "tv": "ESPNU",
+   "sources": {
+    "hasla": {
+     "margin": -3.04,
+     "total": 150.0,
+     "note": "Published projection: Clemson 76.5, Washington 73.5."
+    },
+    "dratings": {
+     "margin": -1.6,
+     "total": 151.4,
+     "note": "Published projection: Clemson 76.5, Washington 74.9."
+    },
+    "massey": {
+     "margin": 0.5,
+     "total": 145.5,
+     "note": "Published median margin: Washington by 0.5, total 145.5."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "espn": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 150.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.183,
+      "espn": 0.162,
+      "dratings": 0.172,
+      "massey": 0.188,
+      "cbbd": 0.13
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.151,
+      "dratings": 0.192,
+      "massey": 0.141,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.349,
+     "dratings": 0.342,
+     "massey": 0.309
+    },
+    "used_total": {
+     "hasla": 0.317,
+     "dratings": 0.341,
+     "massey": 0.342
+    }
+   },
+   "blend": {
+    "margin": -1.45,
+    "src_sd": 1.45,
+    "model_sd": 12.33,
+    "sd": 12.42,
+    "p_home": 0.4534,
+    "p_sd": 0.0466,
+    "total": 148.9,
+    "total_sd": 16.7,
+    "baseline_total": 151.1,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Clemson",
+    "dog": "Washington",
+    "p": 0.5466,
+    "margin": 1.45,
+    "lock": false
+   },
+   "momentum": {
+    "Clemson": {
+     "n": 4,
+     "avg": -4.9,
+     "last": [
+      -9.2,
+      -7.8,
+      -15.0,
+      12.4
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Washington": {
+     "n": 2,
+     "avg": -10.8,
+     "last": [
+      -19.4,
+      -2.2
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-grand-canyon-saint-louis",
+   "away": "Grand Canyon",
+   "home": "Saint Louis",
+   "away_conf": "MWC",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Palm Springs",
+   "tip": "9:30 PM ET",
+   "tip_sort": 1290,
+   "tv": "CBSSN",
+   "sources": {
+    "hasla": {
+     "margin": 3.96,
+     "total": 159.9,
+     "note": "Published projection: Grand Canyon 78.0, Saint Louis 81.9."
+    },
+    "dratings": {
+     "margin": 1.2,
+     "total": 165.2,
+     "note": "Published projection: Grand Canyon 82.0, Saint Louis 83.2."
+    },
+    "espn": {
+     "margin": -1.28,
+     "derived": true,
+     "note": "BPI matchup predictor: Saint Louis 45.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 163.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.185,
+      "espn": 0.175,
+      "dratings": 0.161,
+      "massey": 0.183,
+      "cbbd": 0.132
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.169,
+      "espn": 0.178,
+      "dratings": 0.17,
+      "massey": 0.183,
+      "cbbd": 0.134
+     }
+    },
+    "used": {
+     "hasla": 0.341,
+     "espn": 0.34,
+     "dratings": 0.319
+    },
+    "used_total": {
+     "hasla": 0.427,
+     "dratings": 0.573
+    }
+   },
+   "blend": {
+    "margin": 1.3,
+    "src_sd": 2.14,
+    "model_sd": 12.33,
+    "sd": 12.51,
+    "p_home": 0.5414,
+    "p_sd": 0.0683,
+    "total": 162.9,
+    "total_sd": 16.7,
+    "baseline_total": 160.1,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Saint Louis",
+    "dog": "Grand Canyon",
+    "p": 0.5414,
+    "margin": 1.3,
+    "lock": false
+   },
+   "momentum": {
+    "Grand Canyon": {
+     "n": 2,
+     "avg": 9.4,
+     "last": [
+      11.4,
+      7.4
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Saint Louis": {
+     "n": 4,
+     "avg": 5.5,
+     "last": [
+      10.3,
+      44.7,
+      -19.3,
+      -13.8
+     ],
+     "flag": null,
+     "index": -0.06,
+     "sd": 0.1,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-baylor-alabama",
+   "away": "Baylor",
+   "home": "Alabama",
+   "away_conf": "B12",
+   "home_conf": "SEC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": 5.74,
+     "total": 170.3,
+     "note": "Published projection: Baylor 82.3, Alabama 88.0."
+    },
+    "dratings": {
+     "margin": 3.1,
+     "total": 175.7,
+     "note": "Published projection: Baylor 86.3, Alabama 89.4."
+    },
+    "espn": {
+     "margin": -0.5,
+     "derived": true,
+     "note": "BPI matchup predictor: Alabama 48.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -6.67,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 81.4 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 174.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.156,
+      "dratings": 0.185,
+      "massey": 0.168,
+      "cbbd": 0.144
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.188,
+      "espn": 0.165,
+      "dratings": 0.189,
+      "massey": 0.163,
+      "cbbd": 0.131
+     }
+    },
+    "used": {
+     "hasla": 0.276,
+     "espn": 0.24,
+     "dratings": 0.279,
+     "cbbd": 0.205
+    },
+    "used_total": {
+     "hasla": 0.472,
+     "dratings": 0.528
+    }
+   },
+   "blend": {
+    "margin": 0.96,
+    "src_sd": 4.65,
+    "model_sd": 12.33,
+    "sd": 13.18,
+    "p_home": 0.5291,
+    "p_sd": 0.1447,
+    "total": 173.2,
+    "total_sd": 16.7,
+    "baseline_total": 166.9,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Alabama",
+    "dog": "Baylor",
+    "p": 0.5291,
+    "margin": 0.96,
+    "lock": false
+   },
+   "momentum": {
+    "Baylor": {
+     "n": 3,
+     "avg": 13.8,
+     "last": [
+      24.9,
+      13.7,
+      2.6
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Alabama": {
+     "n": 4,
+     "avg": -1.9,
+     "last": [
+      -8.9,
+      15.2,
+      -8.5,
+      -5.4
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "sources split on the winner's chances (±14%)",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-stanford-colorado",
+   "away": "Stanford",
+   "home": "Colorado",
+   "away_conf": "ACC",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Palm Springs",
+   "tip": "11:59 PM ET",
+   "tip_sort": 1439,
+   "tv": "CBSSN",
+   "sources": {
+    "hasla": {
+     "margin": -1.69,
+     "total": 150.7,
+     "note": "Published projection: Stanford 76.2, Colorado 74.5."
+    },
+    "massey": {
+     "margin": 3.5,
+     "total": 148.5,
+     "note": "Published median margin: Colorado by 3.5, total 148.5."
+    },
+    "espn": {
+     "margin": -0.78,
+     "derived": true,
+     "note": "BPI matchup predictor: Colorado 47.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 140.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.183,
+      "espn": 0.162,
+      "dratings": 0.172,
+      "massey": 0.188,
+      "cbbd": 0.13
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.182,
+      "espn": 0.156,
+      "dratings": 0.185,
+      "massey": 0.168,
+      "cbbd": 0.144
+     }
+    },
+    "used": {
+     "hasla": 0.351,
+     "espn": 0.306,
+     "massey": 0.343
+    },
+    "used_total": {
+     "hasla": 0.44,
+     "massey": 0.56
+    }
+   },
+   "blend": {
+    "margin": 0.37,
+    "src_sd": 2.26,
+    "model_sd": 12.33,
+    "sd": 12.54,
+    "p_home": 0.5117,
+    "p_sd": 0.0725,
+    "total": 149.5,
+    "total_sd": 16.7,
+    "baseline_total": 143.6,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Colorado",
+    "dog": "Stanford",
+    "p": 0.5117,
+    "margin": 0.37,
+    "lock": false
+   },
+   "momentum": {
+    "Stanford": {
+     "n": 5,
+     "avg": -1.7,
+     "last": [
+      5.0,
+      2.9,
+      -7.9,
+      -4.4,
+      -3.9
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Colorado": {
+     "n": 4,
+     "avg": -8.9,
+     "last": [
+      -10.2,
+      -5.8,
+      -6.6,
+      -12.9
+     ],
+     "flag": null,
+     "index": -0.05,
+     "sd": 0.09,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  },
+  {
+   "id": "2026-11-24-nevada-santa-clara",
+   "away": "Nevada",
+   "home": "Santa Clara",
+   "away_conf": "MWC",
+   "home_conf": "WCC",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Palm Springs",
+   "tip": "7 PM ET",
+   "tip_sort": 1140,
+   "tv": "CBSSN",
+   "sources": {
+    "hasla": {
+     "margin": 1.64,
+     "total": 155.2,
+     "note": "Published projection: Nevada 76.8, Santa Clara 78.4."
+    },
+    "dratings": {
+     "margin": 1.1,
+     "total": 156.3,
+     "note": "Published projection: Nevada 77.6, Santa Clara 78.7."
+    },
+    "espn": {
+     "margin": -1.96,
+     "derived": true,
+     "note": "BPI matchup predictor: Santa Clara 43.0% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -2.08,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 74.2 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 158.5,
+    "book": "Draft Kings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.185,
+      "espn": 0.175,
+      "dratings": 0.161,
+      "massey": 0.183,
+      "cbbd": 0.132
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.166,
+      "espn": 0.153,
+      "dratings": 0.188,
+      "massey": 0.191,
+      "cbbd": 0.137
+     }
+    },
+    "used": {
+     "hasla": 0.271,
+     "espn": 0.253,
+     "dratings": 0.269,
+     "cbbd": 0.207
+    },
+    "used_total": {
+     "hasla": 0.45,
+     "dratings": 0.55
+    }
+   },
+   "blend": {
+    "margin": -0.19,
+    "src_sd": 1.71,
+    "model_sd": 12.33,
+    "sd": 12.45,
+    "p_home": 0.494,
+    "p_sd": 0.055,
+    "total": 155.8,
+    "total_sd": 16.7,
+    "baseline_total": 165.2,
+    "lean": "under",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Nevada",
+    "dog": "Santa Clara",
+    "p": 0.506,
+    "margin": 0.19,
+    "lock": false
+   },
+   "momentum": {
+    "Nevada": {
+     "n": 4,
+     "avg": -6.7,
+     "last": [
+      2.9,
+      -17.0,
+      -12.9,
+      0.3
+     ],
+     "flag": null,
+     "index": -0.03,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "Santa Clara": {
+     "n": 4,
+     "avg": -0.4,
+     "last": [
+      3.0,
+      3.0,
+      -7.3,
+      -0.2
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.12,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": null
+  }
+ ],
+ "waiting": [],
+ "hammer": {
+  "id": "2026-11-24-unc-greensboro-uc-santa-barbara",
+  "team": "UNC Greensboro",
+  "side": "away",
+  "spread": 18.5,
+  "spread_home": -18.5,
+  "edge": 5.69,
+  "cover_p": 0.676,
+  "agree": 4,
+  "n": 4
+ },
+ "graded": false,
+ "unmatched": [
+  "Arkansas Baptist Buffaloes",
+  "Arlington Baptist Patriots",
+  "Bloomsburg Huskies",
+  "Carolina Christian Centurions",
+  "Emerson Lions",
+  "Louisiana Christian Wildcats",
+  "Penn State Berks PENN STATE-LEHIGH VALLEY",
+  "SUNY Fredonia Blue Devils",
+  "Vermont State Randolph Knights"
+ ]
+}

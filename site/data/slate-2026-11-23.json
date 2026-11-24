@@ -2,6 +2,7 @@
  "date": "2026-11-23",
  "generated_at": "2026-11-23T23:52:41-05:00",
  "notes": [
+  "GRADED: 13-6 picking winners (68%), average margin miss 10.4. Hammer Texas A&M Corpus Chris +19.5: win.",
   "19 D1 games on the board (18 locked at tip). Coverage: Torvik 0, Haslametrics 1, ESPN 0, DRatings 0, Massey 0, CBBD 1, DraftKings lines 1.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "12 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
@@ -961,7 +962,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±13%)",
-   "result": null
+   "result": {
+    "label": "Won by 21, 13.1 better our number",
+    "tags": [],
+    "score": [
+     61,
+     82
+    ],
+    "model_err": 13.07,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 9.41,
+     "espn": 13.17,
+     "dratings": 12.5,
+     "massey": 11.5,
+     "cbbd": 22.23
+    },
+    "src_tot_err": {
+     "hasla": 22.5,
+     "dratings": 17.3,
+     "massey": 13.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 17.5
+   }
   },
   {
    "id": "2026-11-23-unc-greensboro-pepperdine",
@@ -2499,7 +2524,29 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 13, 1.7 short of our number",
+    "tags": [],
+    "score": [
+     83,
+     96
+    ],
+    "model_err": 1.74,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 5.3,
+     "espn": 1.4,
+     "dratings": 1.7,
+     "cbbd": 2.06
+    },
+    "src_tot_err": {
+     "hasla": 25.8,
+     "dratings": 21.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 23.4
+   }
   },
   {
    "id": "2026-11-23-alabama-st-california",
@@ -2638,7 +2685,31 @@
    },
    "tier": "Weak",
    "tier_reason": "sources split on the winner's chances (±29%)",
-   "result": null
+   "result": {
+    "label": "Won by 42, 26.4 better our number",
+    "tags": [],
+    "score": [
+     54,
+     96
+    ],
+    "model_err": 26.38,
+    "src_err": {
+     "market": 22.5,
+     "hasla": 22.45,
+     "espn": 21.61,
+     "dratings": 23.0,
+     "massey": 18.5,
+     "cbbd": 51.16
+    },
+    "src_tot_err": {
+     "hasla": 2.6,
+     "dratings": 2.6,
+     "massey": 0.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 0.3
+   }
   },
   {
    "id": "2026-11-23-temple-tennessee-martin",
@@ -2923,7 +2994,26 @@
    },
    "tier": "Weak",
    "tier_reason": "sources split on the winner's chances (±18%)",
-   "result": null,
+   "result": {
+    "label": "Lost by 9",
+    "tags": [],
+    "score": [
+     88,
+     79
+    ],
+    "model_err": 9.98,
+    "src_err": {
+     "market": 11.5,
+     "hasla": 14.82,
+     "cbbd": 3.3
+    },
+    "src_tot_err": {
+     "hasla": 12.0
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 12.0
+   },
    "hammer": {
     "id": "2026-11-23-san-jose-st-uc-san-diego",
     "team": "San Jose St.",
@@ -2949,7 +3039,7 @@
   "agree": 5,
   "n": 5
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Carolina University Bruins",
   "Carroll (MT) Fighting Saints",
