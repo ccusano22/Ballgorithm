@@ -1,8 +1,8 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-25T15:11:56-05:00",
+ "generated_at": "2026-11-25T21:56:20-05:00",
  "notes": [
-  "38 D1 games on the board. Coverage: Torvik 0, Haslametrics 34, ESPN 38, DRatings 32, Massey 18, CBBD 30, DraftKings lines 38.",
+  "38 D1 games on the board (33 locked at tip). Coverage: Torvik 0, Haslametrics 5, ESPN 5, DRatings 2, Massey 2, CBBD 3, DraftKings lines 5.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "11 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
  ],
@@ -141,7 +141,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 29, 1.5 short of our number",
+    "tags": [],
+    "score": [
+     72,
+     101
+    ],
+    "model_err": 1.51,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 3.15,
+     "espn": 2.29,
+     "dratings": 1.2,
+     "massey": 3.5
+    },
+    "src_tot_err": {
+     "hasla": 23.6,
+     "dratings": 22.4,
+     "massey": 25.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 23.8
+   }
   },
   {
    "id": "2026-11-25-norfolk-st-n-c-state",
@@ -282,7 +305,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 31, 3.4 better our number",
+    "tags": [],
+    "score": [
+     49,
+     80
+    ],
+    "model_err": 3.39,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 1.36,
+     "espn": 4.77,
+     "dratings": 3.1,
+     "massey": 1.5,
+     "cbbd": 12.03
+    },
+    "src_tot_err": {
+     "hasla": 25.9,
+     "dratings": 21.1,
+     "massey": 24.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 23.8
+   }
   },
   {
    "id": "2026-11-25-mississippi-valley-st-new-mexico",
@@ -554,7 +601,29 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 27, 3.5 better our number",
+    "tags": [],
+    "score": [
+     70,
+     97
+    ],
+    "model_err": 3.53,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 2.88,
+     "espn": 3.75,
+     "dratings": 8.3,
+     "cbbd": 1.51
+    },
+    "src_tot_err": {
+     "hasla": 15.9,
+     "dratings": 20.1
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 18.2
+   }
   },
   {
    "id": "2026-11-25-albany-syracuse",
@@ -695,7 +764,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±4%)",
-   "result": null
+   "result": {
+    "label": "Won by 21, 2.1 short of our number",
+    "tags": [],
+    "score": [
+     53,
+     74
+    ],
+    "model_err": 2.13,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 7.02,
+     "espn": 0.74,
+     "dratings": 2.2,
+     "massey": 3.5,
+     "cbbd": 6.0
+    },
+    "src_tot_err": {
+     "hasla": 28.0,
+     "dratings": 19.4,
+     "massey": 24.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 23.7
+   }
   },
   {
    "id": "2026-11-25-northeastern-wisconsin",
@@ -834,7 +927,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 37, 16.9 better our number",
+    "tags": [],
+    "score": [
+     54,
+     91
+    ],
+    "model_err": 16.87,
+    "src_err": {
+     "market": 17.5,
+     "hasla": 18.75,
+     "espn": 18.87,
+     "dratings": 20.4,
+     "massey": 8.5
+    },
+    "src_tot_err": {
+     "hasla": 13.1,
+     "dratings": 11.2,
+     "massey": 12.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.2
+   }
   },
   {
    "id": "2026-11-25-prairie-view-a-m-marshall",
@@ -971,7 +1087,29 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Won by 6, 7.3 short of our number",
+    "tags": [],
+    "score": [
+     58,
+     64
+    ],
+    "model_err": 7.32,
+    "src_err": {
+     "market": 7.5,
+     "espn": 9.66,
+     "dratings": 5.9,
+     "massey": 9.5,
+     "cbbd": 3.57
+    },
+    "src_tot_err": {
+     "dratings": 32.1,
+     "massey": 32.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 32.3
+   }
   },
   {
    "id": "2026-11-25-holy-cross-dartmouth",
@@ -1109,7 +1247,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Lost by 2",
+    "tags": [],
+    "score": [
+     67,
+     65
+    ],
+    "model_err": 14.05,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 14.82,
+     "espn": 14.98,
+     "dratings": 11.8,
+     "massey": 11.5,
+     "cbbd": 18.8
+    },
+    "src_tot_err": {
+     "hasla": 17.5,
+     "dratings": 13.6,
+     "massey": 16.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 15.7
+   }
   },
   {
    "id": "2026-11-25-south-carolina-usc",
@@ -1246,7 +1408,29 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 2, 8.9 short of our number",
+    "tags": [],
+    "score": [
+     69,
+     71
+    ],
+    "model_err": 8.91,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 10.61,
+     "espn": 9.83,
+     "dratings": 6.9,
+     "cbbd": 8.36
+    },
+    "src_tot_err": {
+     "hasla": 17.5,
+     "dratings": 10.1
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.7
+   }
   },
   {
    "id": "2026-11-25-bethune-cookman-richmond",
@@ -1385,7 +1569,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±5%)",
-   "result": null
+   "result": {
+    "label": "Won by 7, 3.4 short of our number",
+    "tags": [],
+    "score": [
+     79,
+     86
+    ],
+    "model_err": 3.38,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 2.75,
+     "espn": 3.94,
+     "dratings": 3.6,
+     "massey": 6.5,
+     "cbbd": 0.34
+    },
+    "src_tot_err": {
+     "hasla": 11.6,
+     "dratings": 15.4,
+     "massey": 13.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.7
+   }
   },
   {
    "id": "2026-11-25-longwood-george-mason",
@@ -1525,7 +1733,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Won by 35, 22.2 better our number",
+    "tags": [],
+    "score": [
+     58,
+     93
+    ],
+    "model_err": 22.2,
+    "src_err": {
+     "market": 18.5,
+     "hasla": 18.17,
+     "espn": 22.3,
+     "dratings": 21.9,
+     "massey": 22.5,
+     "cbbd": 28.57
+    },
+    "src_tot_err": {
+     "hasla": 3.6,
+     "dratings": 7.1,
+     "massey": 5.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.7
+   }
   },
   {
    "id": "2026-11-25-cal-st-bakersfield-pepperdine",
@@ -1663,141 +1895,6 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-25-stanford-saint-louis",
-   "away": "Stanford",
-   "home": "Saint Louis",
-   "away_conf": "ACC",
-   "home_conf": "A10",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Palm Springs",
-   "tip": "11:59 PM ET",
-   "tip_sort": 1439,
-   "tv": "CBSSN",
-   "sources": {
-    "hasla": {
-     "margin": 7.67,
-     "total": 154.6,
-     "note": "Published projection: Stanford 73.5, Saint Louis 81.2."
-    },
-    "espn": {
-     "margin": 6.53,
-     "derived": true,
-     "note": "BPI matchup predictor: Saint Louis 72.2% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": 7.81,
-     "derived": true,
-     "note": "From CBBD ratings: net rating gap at 70.4 possessions."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "massey": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -4.5,
-    "total": 152.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.183,
-      "espn": 0.16,
-      "dratings": 0.172,
-      "massey": 0.193,
-      "cbbd": 0.128
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.172,
-      "espn": 0.177,
-      "dratings": 0.176,
-      "massey": 0.181,
-      "cbbd": 0.128
-     }
-    },
-    "used": {
-     "hasla": 0.375,
-     "espn": 0.355,
-     "cbbd": 0.27
-    },
-    "used_total": {
-     "hasla": 1.0
-    }
-   },
-   "blend": {
-    "margin": 7.3,
-    "src_sd": 0.57,
-    "model_sd": 12.41,
-    "sd": 12.42,
-    "p_home": 0.7217,
-    "p_sd": 0.0156,
-    "total": 154.6,
-    "total_sd": 16.8,
-    "baseline_total": 155.3,
-    "lean": "near",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "Saint Louis",
-    "dog": "Stanford",
-    "p": 0.7217,
-    "margin": 7.3,
-    "lock": false
-   },
-   "momentum": {
-    "Stanford": {
-     "n": 5,
-     "avg": -3.6,
-     "last": [
-      2.9,
-      -7.9,
-      -4.4,
-      -3.9,
-      -4.6
-     ],
-     "flag": null,
-     "index": -0.02,
-     "sd": 0.14,
-     "tag": "Steady"
-    },
-    "Saint Louis": {
-     "n": 5,
-     "avg": 3.5,
-     "last": [
-      10.3,
-      44.7,
-      -19.3,
-      -13.8,
-      -4.3
-     ],
-     "flag": null,
-     "index": -0.08,
-     "sd": 0.12,
-     "tag": "Steady"
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
    "result": null
   },
   {
@@ -2070,7 +2167,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 18, 12.1 better our number",
+    "tags": [],
+    "score": [
+     54,
+     72
+    ],
+    "model_err": 12.1,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 10.48,
+     "espn": 11.54,
+     "dratings": 14.4,
+     "cbbd": 11.52
+    },
+    "src_tot_err": {
+     "hasla": 18.9,
+     "dratings": 14.8
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 16.5
+   }
   },
   {
    "id": "2026-11-25-byu-providence",
@@ -2204,7 +2323,27 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null,
+   "result": {
+    "label": "Won by 3, 2.7 short of our number",
+    "tags": [],
+    "score": [
+     85,
+     82
+    ],
+    "model_err": 2.7,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 3.86,
+     "espn": 3.04,
+     "cbbd": 0.91
+    },
+    "src_tot_err": {
+     "hasla": 9.2
+    },
+    "won": true,
+    "hammer": "win",
+    "total_err": 9.2
+   },
    "hammer": {
     "id": "2026-11-25-byu-providence",
     "team": "BYU",
@@ -2216,140 +2355,6 @@
     "agree": 3,
     "n": 3
    }
-  },
-  {
-   "id": "2026-11-25-washington-vcu",
-   "away": "Washington",
-   "home": "VCU",
-   "away_conf": "B10",
-   "home_conf": "A10",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Maui",
-   "tip": "10 PM ET",
-   "tip_sort": 1320,
-   "tv": "ESPN2",
-   "sources": {
-    "hasla": {
-     "margin": 4.64,
-     "total": 149.5,
-     "note": "Published projection: Washington 72.5, VCU 77.1."
-    },
-    "dratings": {
-     "margin": 2.6,
-     "total": 151.2,
-     "note": "Published projection: Washington 74.3, VCU 76.9."
-    },
-    "espn": {
-     "margin": 5.69,
-     "derived": true,
-     "note": "BPI matchup predictor: VCU 69.6% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "CBBD ratings wait until both teams have 5 games."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "massey": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -3.5,
-    "total": 144.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.186,
-      "espn": 0.15,
-      "dratings": 0.188,
-      "massey": 0.15,
-      "cbbd": 0.16
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.172,
-      "espn": 0.177,
-      "dratings": 0.176,
-      "massey": 0.181,
-      "cbbd": 0.128
-     }
-    },
-    "used": {
-     "hasla": 0.342,
-     "espn": 0.311,
-     "dratings": 0.347
-    },
-    "used_total": {
-     "hasla": 0.437,
-     "dratings": 0.563
-    }
-   },
-   "blend": {
-    "margin": 4.26,
-    "src_sd": 1.28,
-    "model_sd": 12.41,
-    "sd": 12.48,
-    "p_home": 0.6336,
-    "p_sd": 0.039,
-    "total": 150.5,
-    "total_sd": 16.8,
-    "baseline_total": 147.4,
-    "lean": "near",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "VCU",
-    "dog": "Washington",
-    "p": 0.6336,
-    "margin": 4.26,
-    "lock": false
-   },
-   "momentum": {
-    "Washington": {
-     "n": 3,
-     "avg": -6.4,
-     "last": [
-      -19.4,
-      -2.2,
-      2.5
-     ],
-     "flag": null,
-     "index": 0.01,
-     "sd": 0.11,
-     "tag": "Steady"
-    },
-    "VCU": {
-     "n": 5,
-     "avg": 1.2,
-     "last": [
-      -1.3,
-      8.2,
-      7.3,
-      -7.3,
-      -0.9
-     ],
-     "flag": null,
-     "index": -0.01,
-     "sd": 0.13,
-     "tag": "Steady"
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
   },
   {
    "id": "2026-11-25-memphis-penn-st",
@@ -2484,7 +2489,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 13, 8.8 better our number",
+    "tags": [],
+    "score": [
+     83,
+     70
+    ],
+    "model_err": 8.78,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 8.05,
+     "espn": 9.0,
+     "dratings": 9.3
+    },
+    "src_tot_err": {
+     "hasla": 14.9,
+     "dratings": 8.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 11.5
+   }
   },
   {
    "id": "2026-11-25-wake-forest-mississippi-st",
@@ -2762,139 +2788,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±11%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-25-pacific-jacksonville-st",
-   "away": "Pacific",
-   "home": "Jacksonville St.",
-   "away_conf": "WCC",
-   "home_conf": "CUSA",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Las Vegas",
-   "tip": "10:30 PM ET",
-   "tip_sort": 1350,
-   "tv": "FloSports",
-   "sources": {
-    "hasla": {
-     "margin": -1.76,
-     "total": 136.0,
-     "note": "Published projection: Pacific 68.9, Jacksonville St. 67.1."
+   "result": {
+    "label": "Lost by 14",
+    "tags": [],
+    "score": [
+     66,
+     52
+    ],
+    "model_err": 18.12,
+    "src_err": {
+     "market": 21.5,
+     "hasla": 18.82,
+     "espn": 19.09,
+     "dratings": 19.8,
+     "massey": 21.5,
+     "cbbd": 11.43
     },
-    "dratings": {
-     "margin": -5.5,
-     "total": 134.5,
-     "note": "Published projection: Pacific 70.0, Jacksonville St. 64.5."
+    "src_tot_err": {
+     "hasla": 33.3,
+     "dratings": 34.6,
+     "massey": 39.5
     },
-    "espn": {
-     "margin": -3.74,
-     "derived": true,
-     "note": "BPI matchup predictor: Jacksonville St. 36.8% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": null,
-     "note": "CBBD ratings wait until both teams have 5 games."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "massey": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 3.5,
-    "total": 132.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.162,
-      "espn": 0.153,
-      "dratings": 0.184,
-      "massey": 0.195,
-      "cbbd": 0.14
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.158,
-      "hasla": 0.174,
-      "espn": 0.209,
-      "dratings": 0.219,
-      "massey": 0.139,
-      "cbbd": 0.1
-     }
-    },
-    "used": {
-     "hasla": 0.305,
-     "espn": 0.329,
-     "dratings": 0.366
-    },
-    "used_total": {
-     "hasla": 0.472,
-     "dratings": 0.528
-    }
-   },
-   "blend": {
-    "margin": -3.78,
-    "src_sd": 1.53,
-    "model_sd": 12.41,
-    "sd": 12.5,
-    "p_home": 0.3812,
-    "p_sd": 0.0469,
-    "total": 135.2,
-    "total_sd": 16.8,
-    "baseline_total": 135.5,
-    "lean": "near",
-    "n_sources": 3
-   },
-   "pick": {
-    "team": "Pacific",
-    "dog": "Jacksonville St.",
-    "p": 0.6188,
-    "margin": 3.78,
-    "lock": false
-   },
-   "momentum": {
-    "Pacific": {
-     "n": 1,
-     "avg": -4.5,
-     "last": [
-      -4.5
-     ],
-     "flag": null,
-     "index": null,
-     "sd": null,
-     "tag": null
-    },
-    "Jacksonville St.": {
-     "n": 5,
-     "avg": -2.5,
-     "last": [
-      -1.7,
-      -17.6,
-      6.0,
-      -1.9,
-      2.6
-     ],
-     "flag": null,
-     "index": 0.02,
-     "sd": 0.08,
-     "tag": "Steady"
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
+    "won": false,
+    "hammer": null,
+    "total_err": 35.6
+   }
   },
   {
    "id": "2026-11-25-princeton-liberty",
@@ -3031,7 +2949,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 7",
+    "tags": [],
+    "score": [
+     79,
+     72
+    ],
+    "model_err": 10.38,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 10.97,
+     "espn": 9.87,
+     "dratings": 11.4,
+     "cbbd": 8.54
+    },
+    "src_tot_err": {
+     "hasla": 11.8,
+     "dratings": 14.0
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 12.9
+   }
   },
   {
    "id": "2026-11-25-west-florida-northwestern-st",
@@ -3170,145 +3110,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±11%)",
-   "result": null
-  },
-  {
-   "id": "2026-11-25-clemson-colorado-st",
-   "away": "Clemson",
-   "home": "Colorado St.",
-   "away_conf": "ACC",
-   "home_conf": "P12",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Maui",
-   "tip": "12:30 AM ET (next day)",
-   "tip_sort": 1470,
-   "tv": "ESPN2",
-   "sources": {
-    "hasla": {
-     "margin": -2.66,
-     "total": 147.4,
-     "note": "Published projection: Clemson 75.0, Colorado St. 72.4."
+   "result": {
+    "label": "Won by 14, 10.8 better our number",
+    "tags": [],
+    "score": [
+     57,
+     71
+    ],
+    "model_err": 10.85,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 13.47,
+     "espn": 11.13,
+     "dratings": 11.3,
+     "massey": 4.5,
+     "cbbd": 15.5
     },
-    "massey": {
-     "margin": -2.5,
-     "total": 143.5,
-     "note": "Published median margin: Clemson by 2.5, total 143.5."
+    "src_tot_err": {
+     "hasla": 20.3,
+     "dratings": 13.3,
+     "massey": 20.5
     },
-    "espn": {
-     "margin": -4.18,
-     "derived": true,
-     "note": "BPI matchup predictor: Colorado St. 35.3% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": -1.77,
-     "derived": true,
-     "note": "From CBBD ratings: net rating gap at 65.5 possessions."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 3.5,
-    "total": 148.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.183,
-      "espn": 0.16,
-      "dratings": 0.172,
-      "massey": 0.193,
-      "cbbd": 0.128
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.173,
-      "espn": 0.176,
-      "dratings": 0.187,
-      "massey": 0.145,
-      "cbbd": 0.153
-     }
-    },
-    "used": {
-     "hasla": 0.272,
-     "espn": 0.256,
-     "massey": 0.257,
-     "cbbd": 0.214
-    },
-    "used_total": {
-     "hasla": 0.486,
-     "massey": 0.514
-    }
-   },
-   "blend": {
-    "margin": -2.82,
-    "src_sd": 0.88,
-    "model_sd": 12.41,
-    "sd": 12.44,
-    "p_home": 0.4104,
-    "p_sd": 0.0273,
-    "total": 145.4,
-    "total_sd": 16.8,
-    "baseline_total": 151.3,
-    "lean": "near",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Clemson",
-    "dog": "Colorado St.",
-    "p": 0.5896,
-    "margin": 2.82,
-    "lock": false
-   },
-   "momentum": {
-    "Clemson": {
-     "n": 5,
-     "avg": -4.4,
-     "last": [
-      -9.2,
-      -7.8,
-      -15.0,
-      12.4,
-      -2.5
-     ],
-     "flag": null,
-     "index": 0.01,
-     "sd": 0.14,
-     "tag": "Steady"
-    },
-    "Colorado St.": {
-     "n": 5,
-     "avg": -5.8,
-     "last": [
-      0.4,
-      -25.9,
-      -6.2,
-      1.7,
-      0.9
-     ],
-     "flag": null,
-     "index": -0.02,
-     "sd": 0.14,
-     "tag": "Steady"
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 17.7
+   }
   },
   {
    "id": "2026-11-25-csun-weber-st",
@@ -3440,7 +3266,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 22, 19.6 better our number",
+    "tags": [],
+    "score": [
+     89,
+     67
+    ],
+    "model_err": 19.6,
+    "src_err": {
+     "market": 20.5,
+     "espn": 19.42,
+     "dratings": 19.0,
+     "massey": 20.5
+    },
+    "src_tot_err": {
+     "dratings": 10.6,
+     "massey": 8.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.5
+   }
   },
   {
    "id": "2026-11-25-georgia-st-florida-gulf-coast",
@@ -3575,7 +3422,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 5",
+    "tags": [],
+    "score": [
+     72,
+     77
+    ],
+    "model_err": 7.1,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 5.95,
+     "espn": 6.53,
+     "dratings": 7.7,
+     "cbbd": 8.59
+    },
+    "src_tot_err": {
+     "hasla": 2.3,
+     "dratings": 1.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 0.4
+   }
   },
   {
    "id": "2026-11-25-smu-utah-st",
@@ -3712,7 +3581,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 34, 31.9 better our number",
+    "tags": [],
+    "score": [
+     59,
+     93
+    ],
+    "model_err": 31.92,
+    "src_err": {
+     "market": 30.5,
+     "hasla": 33.85,
+     "espn": 30.99,
+     "dratings": 31.1,
+     "cbbd": 31.61
+    },
+    "src_tot_err": {
+     "hasla": 12.1,
+     "dratings": 13.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 12.7
+   }
   },
   {
    "id": "2026-11-25-grambling-st-lsu-new-orleans",
@@ -3836,7 +3727,25 @@
    },
    "tier": "Mid",
    "tier_reason": "only 1 of 6 sources have a number",
-   "result": null
+   "result": {
+    "label": "Won by 1, 1.1 short of our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     81,
+     80
+    ],
+    "model_err": 1.07,
+    "src_err": {
+     "market": 4.5,
+     "espn": 1.07
+    },
+    "src_tot_err": {},
+    "won": true,
+    "hammer": null,
+    "total_err": null
+   }
   },
   {
    "id": "2026-11-25-northern-illinois-siue",
@@ -3975,7 +3884,33 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 3, 1.0 better our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     68,
+     65
+    ],
+    "model_err": 0.96,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 2.34,
+     "espn": 1.75,
+     "dratings": 0.4,
+     "massey": 4.5,
+     "cbbd": 4.48
+    },
+    "src_tot_err": {
+     "hasla": 12.8,
+     "dratings": 6.6,
+     "massey": 8.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.5
+   }
   },
   {
    "id": "2026-11-25-portland-st-uc-riverside",
@@ -4113,7 +4048,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Lost by 7",
+    "tags": [],
+    "score": [
+     72,
+     65
+    ],
+    "model_err": 8.69,
+    "src_err": {
+     "market": 9.5,
+     "hasla": 5.96,
+     "espn": 9.1,
+     "dratings": 8.0,
+     "massey": 9.5,
+     "cbbd": 12.89
+    },
+    "src_tot_err": {
+     "hasla": 11.3,
+     "dratings": 15.0,
+     "massey": 11.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 12.6
+   }
   },
   {
    "id": "2026-11-25-kennesaw-st-charleston",
@@ -4250,7 +4209,29 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Lost by 14",
+    "tags": [],
+    "score": [
+     77,
+     91
+    ],
+    "model_err": 15.05,
+    "src_err": {
+     "market": 12.5,
+     "hasla": 16.36,
+     "espn": 12.97,
+     "dratings": 17.3,
+     "cbbd": 12.08
+    },
+    "src_tot_err": {
+     "hasla": 10.6,
+     "dratings": 3.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 6.9
+   }
   },
   {
    "id": "2026-11-25-eastern-michigan-utep",
@@ -4523,142 +4504,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-25-incarnate-word-hawaii",
-   "away": "Incarnate Word",
-   "home": "Hawaii",
-   "away_conf": "Slnd",
-   "home_conf": "MWC",
-   "short": {},
-   "neutral": false,
-   "site": "at Hawaii",
-   "tip": "11:59 PM ET",
-   "tip_sort": 1439,
-   "tv": "MW+",
-   "sources": {
-    "hasla": {
-     "margin": 17.63,
-     "total": 143.9,
-     "note": "Published projection: Incarnate Word 63.1, Hawaii 80.8."
+   "result": {
+    "label": "Lost by 14",
+    "tags": [],
+    "score": [
+     63,
+     77
+    ],
+    "model_err": 14.01,
+    "src_err": {
+     "market": 15.5,
+     "hasla": 12.47,
+     "espn": 12.55,
+     "dratings": 15.4,
+     "cbbd": 16.01
     },
-    "massey": {
-     "margin": 11.5,
-     "total": 144.5,
-     "note": "Published median margin: Hawaii by 11.5, total 144.5."
+    "src_tot_err": {
+     "hasla": 3.5,
+     "dratings": 6.8
     },
-    "espn": {
-     "margin": 13.72,
-     "derived": true,
-     "note": "BPI matchup predictor: Hawaii 89.2% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": 6.25,
-     "derived": true,
-     "note": "From CBBD ratings: net rating gap at 59.0 possessions, +3.0 home court (fallback)."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "dratings": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -16.5,
-    "total": 139.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.176,
-      "espn": 0.178,
-      "dratings": 0.158,
-      "massey": 0.188,
-      "cbbd": 0.135
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.181,
-      "espn": 0.173,
-      "dratings": 0.164,
-      "massey": 0.185,
-      "cbbd": 0.132
-     }
-    },
-    "used": {
-     "hasla": 0.265,
-     "espn": 0.261,
-     "massey": 0.277,
-     "cbbd": 0.198
-    },
-    "used_total": {
-     "hasla": 0.522,
-     "massey": 0.478
-    }
-   },
-   "blend": {
-    "margin": 12.66,
-    "src_sd": 4.11,
-    "model_sd": 12.41,
-    "sd": 13.07,
-    "p_home": 0.8336,
-    "p_sd": 0.0846,
-    "total": 144.2,
-    "total_sd": 16.8,
-    "baseline_total": 137.0,
-    "lean": "over",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Hawaii",
-    "dog": "Incarnate Word",
-    "p": 0.8336,
-    "margin": 12.66,
-    "lock": false
-   },
-   "momentum": {
-    "Incarnate Word": {
-     "n": 4,
-     "avg": -12.1,
-     "last": [
-      -19.4,
-      -10.2,
-      -1.6,
-      -17.4
-     ],
-     "flag": null,
-     "index": 0.0,
-     "sd": 0.09,
-     "tag": "Steady"
-    },
-    "Hawaii": {
-     "n": 3,
-     "avg": -10.7,
-     "last": [
-      0.1,
-      -15.2,
-      -16.9
-     ],
-     "flag": null,
-     "index": null,
-     "sd": null,
-     "tag": null
-    }
-   },
-   "tier": "Weak",
-   "tier_reason": "bad loss in last 2",
-   "result": null
+    "won": false,
+    "hammer": null,
+    "total_err": 5.2
+   }
   },
   {
    "id": "2026-11-25-grand-canyon-colorado",
@@ -5064,7 +4932,31 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 9, 6.0 better our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     77,
+     86
+    ],
+    "model_err": 6.0,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 6.67,
+     "espn": 5.55,
+     "dratings": 4.4,
+     "cbbd": 8.6
+    },
+    "src_tot_err": {
+     "hasla": 1.9,
+     "dratings": 8.4
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.2
+   }
   },
   {
    "id": "2026-11-25-arkansas-st-fiu",
@@ -5197,6 +5089,715 @@
      "index": -0.01,
      "sd": 0.1,
      "tag": "Steady"
+    }
+   },
+   "tier": "Weak",
+   "tier_reason": "bad loss in last 2",
+   "result": {
+    "label": "Lost by 4",
+    "tags": [],
+    "score": [
+     92,
+     88
+    ],
+    "model_err": 6.73,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 10.99,
+     "espn": 7.45,
+     "dratings": 5.4,
+     "massey": 2.5,
+     "cbbd": 8.17
+    },
+    "src_tot_err": {
+     "hasla": 10.8,
+     "dratings": 7.8,
+     "massey": 17.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 12.2
+   }
+  },
+  {
+   "id": "2026-11-25-stanford-saint-louis",
+   "away": "Stanford",
+   "home": "Saint Louis",
+   "away_conf": "ACC",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Palm Springs",
+   "tip": "11:59 PM ET",
+   "tip_sort": 1439,
+   "tv": "CBSSN",
+   "sources": {
+    "hasla": {
+     "margin": 7.67,
+     "total": 154.6,
+     "note": "Published projection: Stanford 73.5, Saint Louis 81.2."
+    },
+    "espn": {
+     "margin": 6.53,
+     "derived": true,
+     "note": "BPI matchup predictor: Saint Louis 72.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 7.81,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 70.4 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 152.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.178,
+      "espn": 0.158,
+      "dratings": 0.168,
+      "massey": 0.201,
+      "cbbd": 0.131
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.174,
+      "espn": 0.176,
+      "dratings": 0.175,
+      "massey": 0.177,
+      "cbbd": 0.133
+     }
+    },
+    "used": {
+     "hasla": 0.371,
+     "espn": 0.352,
+     "cbbd": 0.278
+    },
+    "used_total": {
+     "hasla": 1.0
+    }
+   },
+   "blend": {
+    "margin": 7.31,
+    "src_sd": 0.57,
+    "model_sd": 12.41,
+    "sd": 12.42,
+    "p_home": 0.7218,
+    "p_sd": 0.0156,
+    "total": 154.6,
+    "total_sd": 16.8,
+    "baseline_total": 155.3,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Saint Louis",
+    "dog": "Stanford",
+    "p": 0.7218,
+    "margin": 7.31,
+    "lock": false
+   },
+   "momentum": {
+    "Stanford": {
+     "n": 5,
+     "avg": -3.6,
+     "last": [
+      2.9,
+      -7.9,
+      -4.4,
+      -3.9,
+      -4.6
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.14,
+     "tag": "Steady"
+    },
+    "Saint Louis": {
+     "n": 5,
+     "avg": 3.5,
+     "last": [
+      10.3,
+      44.7,
+      -19.3,
+      -13.8,
+      -4.3
+     ],
+     "flag": null,
+     "index": -0.08,
+     "sd": 0.12,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-25-stanford-saint-louis",
+    "team": "Saint Louis",
+    "side": "home",
+    "spread": -3.5,
+    "spread_home": -3.5,
+    "edge": 3.81,
+    "cover_p": 0.6205,
+    "agree": 3,
+    "n": 3
+   }
+  },
+  {
+   "id": "2026-11-25-washington-vcu",
+   "away": "Washington",
+   "home": "VCU",
+   "away_conf": "B10",
+   "home_conf": "A10",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Maui",
+   "tip": "10 PM ET",
+   "tip_sort": 1320,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": 4.64,
+     "total": 149.5,
+     "note": "Published projection: Washington 72.5, VCU 77.1."
+    },
+    "dratings": {
+     "margin": 2.6,
+     "total": 151.2,
+     "note": "Published projection: Washington 74.3, VCU 76.9."
+    },
+    "espn": {
+     "margin": 5.69,
+     "derived": true,
+     "note": "BPI matchup predictor: VCU 69.6% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 143.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.185,
+      "espn": 0.15,
+      "dratings": 0.188,
+      "massey": 0.152,
+      "cbbd": 0.16
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.174,
+      "espn": 0.176,
+      "dratings": 0.175,
+      "massey": 0.177,
+      "cbbd": 0.133
+     }
+    },
+    "used": {
+     "hasla": 0.342,
+     "espn": 0.311,
+     "dratings": 0.347
+    },
+    "used_total": {
+     "hasla": 0.438,
+     "dratings": 0.562
+    }
+   },
+   "blend": {
+    "margin": 4.26,
+    "src_sd": 1.28,
+    "model_sd": 12.41,
+    "sd": 12.48,
+    "p_home": 0.6336,
+    "p_sd": 0.039,
+    "total": 150.5,
+    "total_sd": 16.8,
+    "baseline_total": 147.4,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "VCU",
+    "dog": "Washington",
+    "p": 0.6336,
+    "margin": 4.26,
+    "lock": false
+   },
+   "momentum": {
+    "Washington": {
+     "n": 3,
+     "avg": -6.4,
+     "last": [
+      -19.4,
+      -2.2,
+      2.5
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.11,
+     "tag": "Steady"
+    },
+    "VCU": {
+     "n": 5,
+     "avg": 1.2,
+     "last": [
+      -1.3,
+      8.2,
+      7.3,
+      -7.3,
+      -0.9
+     ],
+     "flag": null,
+     "index": -0.01,
+     "sd": 0.13,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-25-pacific-jacksonville-st",
+   "away": "Pacific",
+   "home": "Jacksonville St.",
+   "away_conf": "WCC",
+   "home_conf": "CUSA",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "10:30 PM ET",
+   "tip_sort": 1350,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": -1.76,
+     "total": 136.0,
+     "note": "Published projection: Pacific 68.9, Jacksonville St. 67.1."
+    },
+    "dratings": {
+     "margin": -5.5,
+     "total": 134.5,
+     "note": "Published projection: Pacific 70.0, Jacksonville St. 64.5."
+    },
+    "espn": {
+     "margin": -3.74,
+     "derived": true,
+     "note": "BPI matchup predictor: Jacksonville St. 36.8% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": null,
+     "note": "CBBD ratings wait until both teams have 5 games."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 3.5,
+    "total": 132.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.162,
+      "espn": 0.152,
+      "dratings": 0.183,
+      "massey": 0.195,
+      "cbbd": 0.142
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.157,
+      "hasla": 0.15,
+      "espn": 0.187,
+      "dratings": 0.189,
+      "massey": 0.216,
+      "cbbd": 0.1
+     }
+    },
+    "used": {
+     "hasla": 0.304,
+     "espn": 0.331,
+     "dratings": 0.364
+    },
+    "used_total": {
+     "hasla": 0.47,
+     "dratings": 0.53
+    }
+   },
+   "blend": {
+    "margin": -3.78,
+    "src_sd": 1.53,
+    "model_sd": 12.41,
+    "sd": 12.5,
+    "p_home": 0.3813,
+    "p_sd": 0.0469,
+    "total": 135.2,
+    "total_sd": 16.8,
+    "baseline_total": 135.5,
+    "lean": "near",
+    "n_sources": 3
+   },
+   "pick": {
+    "team": "Pacific",
+    "dog": "Jacksonville St.",
+    "p": 0.6187,
+    "margin": 3.78,
+    "lock": false
+   },
+   "momentum": {
+    "Pacific": {
+     "n": 1,
+     "avg": -4.5,
+     "last": [
+      -4.5
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
+    },
+    "Jacksonville St.": {
+     "n": 5,
+     "avg": -2.5,
+     "last": [
+      -1.7,
+      -17.6,
+      6.0,
+      -1.9,
+      2.6
+     ],
+     "flag": null,
+     "index": 0.02,
+     "sd": 0.08,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-25-clemson-colorado-st",
+   "away": "Clemson",
+   "home": "Colorado St.",
+   "away_conf": "ACC",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Maui",
+   "tip": "12:30 AM ET (next day)",
+   "tip_sort": 1470,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": -2.66,
+     "total": 147.4,
+     "note": "Published projection: Clemson 75.0, Colorado St. 72.4."
+    },
+    "massey": {
+     "margin": -2.5,
+     "total": 143.5,
+     "note": "Published median margin: Clemson by 2.5, total 143.5."
+    },
+    "espn": {
+     "margin": -4.18,
+     "derived": true,
+     "note": "BPI matchup predictor: Colorado St. 35.3% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -1.31,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 65.5 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 3.5,
+    "total": 147.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.178,
+      "espn": 0.158,
+      "dratings": 0.168,
+      "massey": 0.201,
+      "cbbd": 0.131
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.169,
+      "espn": 0.174,
+      "dratings": 0.179,
+      "massey": 0.15,
+      "cbbd": 0.162
+     }
+    },
+    "used": {
+     "hasla": 0.263,
+     "espn": 0.251,
+     "massey": 0.265,
+     "cbbd": 0.221
+    },
+    "used_total": {
+     "hasla": 0.491,
+     "massey": 0.509
+    }
+   },
+   "blend": {
+    "margin": -2.7,
+    "src_sd": 1.02,
+    "model_sd": 12.41,
+    "sd": 12.45,
+    "p_home": 0.4142,
+    "p_sd": 0.0319,
+    "total": 145.4,
+    "total_sd": 16.8,
+    "baseline_total": 151.3,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Clemson",
+    "dog": "Colorado St.",
+    "p": 0.5858,
+    "margin": 2.7,
+    "lock": false
+   },
+   "momentum": {
+    "Clemson": {
+     "n": 5,
+     "avg": -4.4,
+     "last": [
+      -9.2,
+      -7.8,
+      -15.0,
+      12.4,
+      -2.5
+     ],
+     "flag": null,
+     "index": 0.01,
+     "sd": 0.14,
+     "tag": "Steady"
+    },
+    "Colorado St.": {
+     "n": 5,
+     "avg": -5.8,
+     "last": [
+      0.4,
+      -25.9,
+      -6.2,
+      1.7,
+      0.9
+     ],
+     "flag": null,
+     "index": -0.02,
+     "sd": 0.14,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-25-incarnate-word-hawaii",
+   "away": "Incarnate Word",
+   "home": "Hawaii",
+   "away_conf": "Slnd",
+   "home_conf": "MWC",
+   "short": {},
+   "neutral": false,
+   "site": "at Hawaii",
+   "tip": "11:59 PM ET",
+   "tip_sort": 1439,
+   "tv": "MW+",
+   "sources": {
+    "hasla": {
+     "margin": 17.63,
+     "total": 143.9,
+     "note": "Published projection: Incarnate Word 63.1, Hawaii 80.8."
+    },
+    "massey": {
+     "margin": 11.5,
+     "total": 144.5,
+     "note": "Published median margin: Hawaii by 11.5, total 144.5."
+    },
+    "espn": {
+     "margin": 13.72,
+     "derived": true,
+     "note": "BPI matchup predictor: Hawaii 89.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 6.42,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 59.0 possessions, +3.0 home court (fallback)."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "dratings": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 139.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.172,
+      "espn": 0.183,
+      "dratings": 0.156,
+      "massey": 0.187,
+      "cbbd": 0.136
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.18,
+      "espn": 0.172,
+      "dratings": 0.163,
+      "massey": 0.185,
+      "cbbd": 0.135
+     }
+    },
+    "used": {
+     "hasla": 0.26,
+     "espn": 0.263,
+     "massey": 0.275,
+     "cbbd": 0.201
+    },
+    "used_total": {
+     "hasla": 0.522,
+     "massey": 0.478
+    }
+   },
+   "blend": {
+    "margin": 12.66,
+    "src_sd": 4.05,
+    "model_sd": 12.41,
+    "sd": 13.05,
+    "p_home": 0.8339,
+    "p_sd": 0.0827,
+    "total": 144.2,
+    "total_sd": 16.8,
+    "baseline_total": 137.0,
+    "lean": "over",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Hawaii",
+    "dog": "Incarnate Word",
+    "p": 0.8339,
+    "margin": 12.66,
+    "lock": false
+   },
+   "momentum": {
+    "Incarnate Word": {
+     "n": 4,
+     "avg": -12.1,
+     "last": [
+      -19.4,
+      -10.2,
+      -1.6,
+      -17.4
+     ],
+     "flag": null,
+     "index": 0.0,
+     "sd": 0.09,
+     "tag": "Steady"
+    },
+    "Hawaii": {
+     "n": 3,
+     "avg": -10.7,
+     "last": [
+      0.1,
+      -15.2,
+      -16.9
+     ],
+     "flag": null,
+     "index": null,
+     "sd": null,
+     "tag": null
     }
    },
    "tier": "Weak",
