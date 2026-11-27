@@ -2,6 +2,7 @@
  "date": "2026-11-26",
  "generated_at": "2026-11-26T21:58:45-05:00",
  "notes": [
+  "GRADED: 9-5 picking winners (64%), average margin miss 8.1. Hammer SMU +7.5: loss.",
   "14 D1 games on the board (11 locked at tip). Coverage: Torvik 0, Haslametrics 3, ESPN 3, DRatings 3, Massey 1, CBBD 2, DraftKings lines 3.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear."
  ],
@@ -456,7 +457,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 3",
+    "tags": [],
+    "score": [
+     93,
+     90
+    ],
+    "model_err": 6.96,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 7.92,
+     "espn": 5.18,
+     "dratings": 6.1,
+     "cbbd": 8.65
+    },
+    "src_tot_err": {
+     "hasla": 21.4,
+     "dratings": 20.9
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 21.1
+   }
   },
   {
    "id": "2026-11-26-smu-lsu",
@@ -594,7 +617,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null,
+   "result": {
+    "label": "Won by 9, 6.3 better our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     86,
+     95
+    ],
+    "model_err": 6.29,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 9.47,
+     "espn": 6.02,
+     "dratings": 5.7,
+     "cbbd": 3.26
+    },
+    "src_tot_err": {
+     "hasla": 24.6,
+     "dratings": 18.9
+    },
+    "won": true,
+    "hammer": "loss",
+    "total_err": 21.7
+   },
    "hammer": {
     "id": "2026-11-26-smu-lsu",
     "team": "SMU",
@@ -1537,7 +1584,29 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 13, on our number",
+    "tags": [],
+    "score": [
+     104,
+     91
+    ],
+    "model_err": 0.13,
+    "src_err": {
+     "market": 0.5,
+     "hasla": 6.11,
+     "espn": 0.56,
+     "dratings": 1.7,
+     "cbbd": 4.1
+    },
+    "src_tot_err": {
+     "hasla": 24.2,
+     "dratings": 21.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.8
+   }
   },
   {
    "id": "2026-11-26-jacksonville-st-uc-davis",
@@ -1833,7 +1902,29 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 3, 6.3 short of our number",
+    "tags": [],
+    "score": [
+     62,
+     59
+    ],
+    "model_err": 6.26,
+    "src_err": {
+     "market": 7.5,
+     "hasla": 6.45,
+     "espn": 7.71,
+     "dratings": 6.2,
+     "cbbd": 4.71
+    },
+    "src_tot_err": {
+     "hasla": 26.2,
+     "dratings": 30.0
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 28.2
+   }
   },
   {
    "id": "2026-11-26-pacific-nebraska-omaha",
@@ -1966,7 +2057,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null,
+   "result": {
+    "label": "Won by 9, 0.5 better our number",
+    "tags": [],
+    "score": [
+     71,
+     62
+    ],
+    "model_err": 0.52,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 3.63,
+     "espn": 2.26,
+     "dratings": 0.3
+    },
+    "src_tot_err": {
+     "hasla": 9.8,
+     "dratings": 9.7
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.7
+   },
    "hammer": {
     "id": "2026-11-26-pacific-nebraska-omaha",
     "team": "Pacific",
@@ -2116,7 +2228,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 5.5 better our number",
+    "tags": [],
+    "score": [
+     64,
+     72
+    ],
+    "model_err": 5.45,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 6.93,
+     "espn": 5.65,
+     "dratings": 4.0,
+     "massey": 1.5,
+     "cbbd": 9.14
+    },
+    "src_tot_err": {
+     "hasla": 20.0,
+     "dratings": 21.2,
+     "massey": 16.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 19.2
+   }
   }
  ],
  "waiting": [],
@@ -2131,6 +2267,6 @@
   "agree": 4,
   "n": 4
  },
- "graded": false,
+ "graded": true,
  "unmatched": []
 }
