@@ -1,8 +1,8 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T14:40:07-05:00",
+ "generated_at": "2026-11-27T21:48:55-05:00",
  "notes": [
-  "38 D1 games on the board. Coverage: Torvik 0, Haslametrics 36, ESPN 38, DRatings 36, Massey 18, CBBD 28, DraftKings lines 38.",
+  "38 D1 games on the board (35 locked at tip). Coverage: Torvik 0, Haslametrics 3, ESPN 3, DRatings 3, Massey 1, CBBD 3, DraftKings lines 3.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "6 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
  ],
@@ -140,7 +140,27 @@
    },
    "tier": "Strong",
    "tier_reason": "2 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 36, 2.5 short of our number",
+    "tags": [],
+    "score": [
+     61,
+     97
+    ],
+    "model_err": 2.48,
+    "src_err": {
+     "market": 12.5,
+     "espn": 4.08,
+     "massey": 5.5,
+     "cbbd": 6.45
+    },
+    "src_tot_err": {
+     "massey": 1.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.5
+   }
   },
   {
    "id": "2026-11-27-oakland-houston",
@@ -280,7 +300,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±0%)",
-   "result": null
+   "result": {
+    "label": "Won by 31, 1.1 short of our number",
+    "tags": [],
+    "score": [
+     46,
+     77
+    ],
+    "model_err": 1.06,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 6.34,
+     "espn": 2.43,
+     "dratings": 0.4,
+     "massey": 2.5,
+     "cbbd": 0.61
+    },
+    "src_tot_err": {
+     "hasla": 27.0,
+     "dratings": 24.8,
+     "massey": 25.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 25.7
+   }
   },
   {
    "id": "2026-11-27-western-kentucky-illinois",
@@ -420,7 +464,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 40, 15.5 better our number",
+    "tags": [],
+    "score": [
+     76,
+     116
+    ],
+    "model_err": 15.49,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 12.89,
+     "espn": 15.63,
+     "dratings": 17.1,
+     "massey": 14.5,
+     "cbbd": 17.65
+    },
+    "src_tot_err": {
+     "hasla": 20.3,
+     "dratings": 19.9,
+     "massey": 33.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 24.1
+   }
   },
   {
    "id": "2026-11-27-bowling-green-indiana",
@@ -559,7 +627,30 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Won by 36, 16.5 better our number",
+    "tags": [],
+    "score": [
+     57,
+     93
+    ],
+    "model_err": 16.54,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 14.09,
+     "espn": 16.05,
+     "dratings": 18.5,
+     "massey": 17.5
+    },
+    "src_tot_err": {
+     "hasla": 5.7,
+     "dratings": 3.1,
+     "massey": 3.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 4.1
+   }
   },
   {
    "id": "2026-11-27-bellarmine-butler",
@@ -699,7 +790,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±6%)",
-   "result": null
+   "result": {
+    "label": "Won by 36, 20.1 better our number",
+    "tags": [],
+    "score": [
+     56,
+     92
+    ],
+    "model_err": 20.09,
+    "src_err": {
+     "market": 17.5,
+     "hasla": 18.21,
+     "espn": 19.8,
+     "dratings": 21.3,
+     "massey": 15.5,
+     "cbbd": 26.18
+    },
+    "src_tot_err": {
+     "hasla": 1.9,
+     "dratings": 5.7,
+     "massey": 9.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.6
+   }
   },
   {
    "id": "2026-11-27-villanova-kansas",
@@ -840,7 +955,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Won by 15, 2.9 better our number",
+    "tags": [],
+    "score": [
+     50,
+     65
+    ],
+    "model_err": 2.89,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 1.89,
+     "espn": 2.66,
+     "dratings": 5.4,
+     "massey": 7.5,
+     "cbbd": 1.21
+    },
+    "src_tot_err": {
+     "hasla": 33.6,
+     "dratings": 41.4,
+     "massey": 34.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 36.5
+   }
   },
   {
    "id": "2026-11-27-idaho-washington-st",
@@ -1120,7 +1259,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±2%)",
-   "result": null
+   "result": {
+    "label": "Lost by 9",
+    "tags": [],
+    "score": [
+     76,
+     67
+    ],
+    "model_err": 19.83,
+    "src_err": {
+     "market": 18.5,
+     "hasla": 20.6,
+     "espn": 20.98,
+     "dratings": 19.1,
+     "massey": 19.5,
+     "cbbd": 18.33
+    },
+    "src_tot_err": {
+     "hasla": 0.9,
+     "dratings": 2.7,
+     "massey": 3.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 2.5
+   }
   },
   {
    "id": "2026-11-27-michigan-kansas-st",
@@ -1256,7 +1419,28 @@
    },
    "tier": "Strong",
    "tier_reason": "3 core systems agree (win chance ±1%)",
-   "result": null
+   "result": {
+    "label": "Won by 29, 20.3 better our number",
+    "tags": [],
+    "score": [
+     98,
+     69
+    ],
+    "model_err": 20.26,
+    "src_err": {
+     "market": 19.5,
+     "hasla": 19.64,
+     "espn": 20.7,
+     "dratings": 20.5
+    },
+    "src_tot_err": {
+     "hasla": 0.3,
+     "dratings": 2.9
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.4
+   }
   },
   {
    "id": "2026-11-27-old-dominion-virginia-tech",
@@ -1397,7 +1581,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 9, 5.7 short of our number",
+    "tags": [],
+    "score": [
+     61,
+     70
+    ],
+    "model_err": 5.65,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 9.01,
+     "espn": 6.89,
+     "dratings": 5.6,
+     "massey": 7.5,
+     "cbbd": 3.12
+    },
+    "src_tot_err": {
+     "hasla": 25.6,
+     "dratings": 15.0,
+     "massey": 20.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 20.3
+   }
   },
   {
    "id": "2026-11-27-cincinnati-boston-college",
@@ -1535,7 +1743,29 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+   "result": {
+    "label": "Won by 11, 3.0 better our number",
+    "tags": [],
+    "score": [
+     70,
+     59
+    ],
+    "model_err": 2.99,
+    "src_err": {
+     "market": 2.5,
+     "hasla": 0.75,
+     "espn": 1.18,
+     "dratings": 2.7,
+     "cbbd": 8.16
+    },
+    "src_tot_err": {
+     "hasla": 15.4,
+     "dratings": 10.9
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 13.1
+   }
   },
   {
    "id": "2026-11-27-la-salle-bucknell",
@@ -1673,7 +1903,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 3, 4.6 short of our number",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     89,
+     86
+    ],
+    "model_err": 4.62,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 6.09,
+     "espn": 5.41,
+     "dratings": 5.5,
+     "cbbd": 0.2
+    },
+    "src_tot_err": {
+     "hasla": 27.1,
+     "dratings": 27.9
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 27.6
+   }
   },
   {
    "id": "2026-11-27-radford-american",
@@ -1805,148 +2059,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-27-san-diego-st-texas-tech",
-   "away": "San Diego St.",
-   "home": "Texas Tech",
-   "away_conf": "P12",
-   "home_conf": "B12",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Las Vegas",
-   "tip": "11:30 PM ET",
-   "tip_sort": 1410,
-   "tv": "ESPN2",
-   "sources": {
-    "hasla": {
-     "margin": 6.4,
-     "total": 140.2,
-     "note": "Published projection: San Diego St. 66.9, Texas Tech 73.3."
+   "result": {
+    "label": "Won by 2, 5.5 short of our number",
+    "tags": [],
+    "score": [
+     62,
+     64
+    ],
+    "model_err": 5.5,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 7.39,
+     "espn": 3.59,
+     "dratings": 5.3
     },
-    "dratings": {
-     "margin": 5.8,
-     "total": 147.0,
-     "note": "Published projection: San Diego St. 70.6, Texas Tech 76.4."
+    "src_tot_err": {
+     "hasla": 27.5,
+     "dratings": 19.9
     },
-    "massey": {
-     "margin": 7.5,
-     "total": 142.5,
-     "note": "Published median margin: Texas Tech by 7.5, total 142.5."
-    },
-    "espn": {
-     "margin": 10.67,
-     "derived": true,
-     "note": "BPI matchup predictor: Texas Tech 83.2% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": 5.14,
-     "derived": true,
-     "note": "From CBBD ratings: net rating gap at 68.5 possessions."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -8.5,
-    "total": 142.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.169,
-      "espn": 0.172,
-      "dratings": 0.177,
-      "massey": 0.152,
-      "cbbd": 0.163
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.181,
-      "espn": 0.16,
-      "dratings": 0.19,
-      "massey": 0.157,
-      "cbbd": 0.146
-     }
-    },
-    "used": {
-     "hasla": 0.21,
-     "espn": 0.199,
-     "dratings": 0.22,
-     "massey": 0.185,
-     "cbbd": 0.185
-    },
-    "used_total": {
-     "hasla": 0.305,
-     "dratings": 0.333,
-     "massey": 0.361
-    }
-   },
-   "blend": {
-    "margin": 7.09,
-    "src_sd": 1.95,
-    "model_sd": 12.33,
-    "sd": 12.48,
-    "p_home": 0.7149,
-    "p_sd": 0.0507,
-    "total": 143.3,
-    "total_sd": 16.8,
-    "baseline_total": 140.8,
-    "lean": "near",
-    "n_sources": 5
-   },
-   "pick": {
-    "team": "Texas Tech",
-    "dog": "San Diego St.",
-    "p": 0.7149,
-    "margin": 7.09,
-    "lock": false
-   },
-   "momentum": {
-    "San Diego St.": {
-     "n": 5,
-     "avg": 4.5,
-     "last": [
-      10.2,
-      -5.6,
-      1.0,
-      20.9,
-      -4.2
-     ],
-     "flag": null,
-     "index": -0.05,
-     "sd": 0.14,
-     "tag": "Steady"
-    },
-    "Texas Tech": {
-     "n": 5,
-     "avg": 4.3,
-     "last": [
-      8.9,
-      16.4,
-      15.6,
-      -13.0,
-      -6.3
-     ],
-     "flag": null,
-     "index": -0.05,
-     "sd": 0.15,
-     "tag": "Steady"
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 23.0
+   }
   },
   {
    "id": "2026-11-27-niagara-lafayette",
@@ -2085,7 +2219,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 28, 21.2 better our number",
+    "tags": [],
+    "score": [
+     54,
+     82
+    ],
+    "model_err": 21.2,
+    "src_err": {
+     "market": 23.5,
+     "hasla": 20.58,
+     "espn": 21.2,
+     "dratings": 22.4,
+     "massey": 22.5,
+     "cbbd": 18.56
+    },
+    "src_tot_err": {
+     "hasla": 8.8,
+     "dratings": 3.8,
+     "massey": 6.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 6.1
+   }
   },
   {
    "id": "2026-11-27-wichita-st-kentucky",
@@ -2501,145 +2659,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-27-jacksonville-st-nebraska-omaha",
-   "away": "Jacksonville St.",
-   "home": "Nebraska Omaha",
-   "away_conf": "CUSA",
-   "home_conf": "Sum",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Las Vegas",
-   "tip": "10:30 PM ET",
-   "tip_sort": 1350,
-   "tv": "FloSports",
-   "sources": {
-    "hasla": {
-     "margin": -3.88,
-     "total": 144.7,
-     "note": "Published projection: Jacksonville St. 74.3, Nebraska Omaha 70.4."
+   "result": {
+    "label": "Won by 2, 4.4 short of our number",
+    "tags": [],
+    "score": [
+     66,
+     68
+    ],
+    "model_err": 4.36,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 3.0,
+     "espn": 3.03,
+     "dratings": 5.5,
+     "massey": 4.5,
+     "cbbd": 6.01
     },
-    "dratings": {
-     "margin": -5.6,
-     "total": 144.8,
-     "note": "Published projection: Jacksonville St. 75.2, Nebraska Omaha 69.6."
+    "src_tot_err": {
+     "hasla": 15.8,
+     "dratings": 14.9,
+     "massey": 11.5
     },
-    "espn": {
-     "margin": -8.68,
-     "derived": true,
-     "note": "BPI matchup predictor: Nebraska Omaha 21.7% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": -5.23,
-     "derived": true,
-     "note": "From CBBD ratings: net rating gap at 66.2 possessions."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "massey": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": 5.5,
-    "total": 139.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.16,
-      "hasla": 0.153,
-      "espn": 0.185,
-      "dratings": 0.186,
-      "massey": 0.216,
-      "cbbd": 0.101
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.165,
-      "hasla": 0.159,
-      "espn": 0.181,
-      "dratings": 0.192,
-      "massey": 0.17,
-      "cbbd": 0.133
-     }
-    },
-    "used": {
-     "hasla": 0.242,
-     "espn": 0.283,
-     "dratings": 0.293,
-     "cbbd": 0.182
-    },
-    "used_total": {
-     "hasla": 0.523,
-     "dratings": 0.477
-    }
-   },
-   "blend": {
-    "margin": -5.99,
-    "src_sd": 1.76,
-    "model_sd": 12.33,
-    "sd": 12.45,
-    "p_home": 0.3153,
-    "p_sd": 0.0494,
-    "total": 144.7,
-    "total_sd": 16.8,
-    "baseline_total": 148.9,
-    "lean": "near",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Jacksonville St.",
-    "dog": "Nebraska Omaha",
-    "p": 0.6847,
-    "margin": 5.99,
-    "lock": false
-   },
-   "momentum": {
-    "Jacksonville St.": {
-     "n": 5,
-     "avg": 2.2,
-     "last": [
-      6.0,
-      -1.9,
-      2.6,
-      10.8,
-      -6.6
-     ],
-     "flag": null,
-     "index": 0.03,
-     "sd": 0.14,
-     "tag": "Steady"
-    },
-    "Nebraska Omaha": {
-     "n": 5,
-     "avg": -6.4,
-     "last": [
-      -12.7,
-      7.2,
-      -30.5,
-      4.4,
-      -0.5
-     ],
-     "flag": null,
-     "index": 0.03,
-     "sd": 0.13,
-     "tag": "Steady"
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
+    "won": true,
+    "hammer": null,
+    "total_err": 14.2
+   }
   },
   {
    "id": "2026-11-27-ucf-georgia",
@@ -2775,7 +2819,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 12",
+    "tags": [],
+    "score": [
+     88,
+     76
+    ],
+    "model_err": 17.7,
+    "src_err": {
+     "market": 17.5,
+     "hasla": 15.97,
+     "espn": 20.16,
+     "dratings": 17.2
+    },
+    "src_tot_err": {
+     "hasla": 0.6,
+     "dratings": 1.6
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 1.1
+   }
   },
   {
    "id": "2026-11-27-texas-saint-mary-s",
@@ -2911,7 +2976,28 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±8%)",
-   "result": null
+   "result": {
+    "label": "Won by 3, 2.7 short of our number",
+    "tags": [],
+    "score": [
+     76,
+     73
+    ],
+    "model_err": 2.67,
+    "src_err": {
+     "market": 4.5,
+     "hasla": 0.86,
+     "espn": 6.37,
+     "dratings": 2.7
+    },
+    "src_tot_err": {
+     "hasla": 11.8,
+     "dratings": 8.1
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.8
+   }
   },
   {
    "id": "2026-11-27-colgate-hofstra",
@@ -3048,7 +3134,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 26",
+    "tags": [],
+    "score": [
+     75,
+     49
+    ],
+    "model_err": 31.39,
+    "src_err": {
+     "market": 27.5,
+     "hasla": 32.6,
+     "espn": 29.36,
+     "dratings": 31.3,
+     "massey": 33.5,
+     "cbbd": 29.58
+    },
+    "src_tot_err": {
+     "hasla": 19.8,
+     "dratings": 16.7,
+     "massey": 19.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 18.5
+   }
   },
   {
    "id": "2026-11-27-north-dakota-st-north-texas",
@@ -3326,145 +3436,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
-  },
-  {
-   "id": "2026-11-27-creighton-gonzaga",
-   "away": "Creighton",
-   "home": "Gonzaga",
-   "away_conf": "BE",
-   "home_conf": "P12",
-   "short": {},
-   "neutral": true,
-   "site": "Neutral site, Las Vegas",
-   "tip": "11 PM ET",
-   "tip_sort": 1380,
-   "tv": "ESPN",
-   "sources": {
-    "hasla": {
-     "margin": 5.13,
-     "total": 158.8,
-     "note": "Published projection: Creighton 76.9, Gonzaga 82.0."
+   "result": {
+    "label": "Lost by 11",
+    "tags": [],
+    "score": [
+     72,
+     61
+    ],
+    "model_err": 15.8,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 18.01,
+     "espn": 16.82,
+     "dratings": 14.5,
+     "massey": 12.5,
+     "cbbd": 18.37
     },
-    "dratings": {
-     "margin": 4.9,
-     "total": 159.7,
-     "note": "Published projection: Creighton 77.4, Gonzaga 82.3."
+    "src_tot_err": {
+     "hasla": 11.6,
+     "dratings": 12.3,
+     "massey": 9.5
     },
-    "espn": {
-     "margin": 5.31,
-     "derived": true,
-     "note": "BPI matchup predictor: Gonzaga 68.4% to win, converted to points at ±11.09."
-    },
-    "cbbd": {
-     "margin": 2.81,
-     "derived": true,
-     "note": "From CBBD ratings: net rating gap at 71.9 possessions."
-    },
-    "torvik": {
-     "margin": null,
-     "note": "No number today."
-    },
-    "massey": {
-     "margin": null,
-     "note": "No number today."
-    }
-   },
-   "market": {
-    "spread_home": -6.5,
-    "total": 160.5,
-    "book": "DraftKings"
-   },
-   "injuries": [],
-   "weights": {
-    "away": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.189,
-      "espn": 0.162,
-      "dratings": 0.161,
-      "massey": 0.164,
-      "cbbd": 0.159
-     }
-    },
-    "home": {
-     "basis": "conference",
-     "w": {
-      "torvik": 0.166,
-      "hasla": 0.169,
-      "espn": 0.172,
-      "dratings": 0.177,
-      "massey": 0.152,
-      "cbbd": 0.163
-     }
-    },
-    "used": {
-     "hasla": 0.265,
-     "espn": 0.247,
-     "dratings": 0.25,
-     "cbbd": 0.238
-    },
-    "used_total": {
-     "hasla": 0.476,
-     "dratings": 0.524
-    }
-   },
-   "blend": {
-    "margin": 4.56,
-    "src_sd": 1.01,
-    "model_sd": 12.33,
-    "sd": 12.37,
-    "p_home": 0.6439,
-    "p_sd": 0.0309,
-    "total": 159.3,
-    "total_sd": 16.8,
-    "baseline_total": 156.8,
-    "lean": "near",
-    "n_sources": 4
-   },
-   "pick": {
-    "team": "Gonzaga",
-    "dog": "Creighton",
-    "p": 0.6439,
-    "margin": 4.56,
-    "lock": false
-   },
-   "momentum": {
-    "Creighton": {
-     "n": 5,
-     "avg": 6.0,
-     "last": [
-      -10.4,
-      2.6,
-      0.5,
-      31.3,
-      6.1
-     ],
-     "flag": null,
-     "index": 0.09,
-     "sd": 0.15,
-     "tag": "Steady"
-    },
-    "Gonzaga": {
-     "n": 5,
-     "avg": 6.8,
-     "last": [
-      17.6,
-      -10.7,
-      -8.2,
-      29.9,
-      5.5
-     ],
-     "flag": null,
-     "index": 0.04,
-     "sd": 0.13,
-     "tag": "Steady"
-    }
-   },
-   "tier": "Mid",
-   "tier_reason": "thin margin",
-   "result": null
+    "won": false,
+    "hammer": null,
+    "total_err": 11.2
+   }
   },
   {
    "id": "2026-11-27-tcu-baylor",
@@ -3602,7 +3598,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 19",
+    "tags": [],
+    "score": [
+     88,
+     69
+    ],
+    "model_err": 23.39,
+    "src_err": {
+     "market": 23.5,
+     "hasla": 24.93,
+     "espn": 22.95,
+     "dratings": 22.5,
+     "cbbd": 23.12
+    },
+    "src_tot_err": {
+     "hasla": 6.8,
+     "dratings": 1.7
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 4.2
+   }
   },
   {
    "id": "2026-11-27-texas-st-louisiana-tech",
@@ -3743,7 +3761,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±11%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 3.9 better our number",
+    "tags": [],
+    "score": [
+     78,
+     70
+    ],
+    "model_err": 3.94,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 0.91,
+     "espn": 1.83,
+     "dratings": 4.0,
+     "massey": 10.5,
+     "cbbd": 1.79
+    },
+    "src_tot_err": {
+     "hasla": 6.4,
+     "dratings": 10.8,
+     "massey": 7.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.3
+   }
   },
   {
    "id": "2026-11-27-pacific-uc-davis",
@@ -3877,7 +3919,28 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±7%)",
-   "result": null
+   "result": {
+    "label": "Won by 17, 13.5 better our number",
+    "tags": [],
+    "score": [
+     78,
+     61
+    ],
+    "model_err": 13.5,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 16.68,
+     "espn": 12.55,
+     "dratings": 11.3
+    },
+    "src_tot_err": {
+     "hasla": 5.3,
+     "dratings": 1.9
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.4
+   }
   },
   {
    "id": "2026-11-27-missouri-st-oral-roberts",
@@ -4299,7 +4362,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 15",
+    "tags": [],
+    "score": [
+     73,
+     88
+    ],
+    "model_err": 15.76,
+    "src_err": {
+     "market": 18.5,
+     "hasla": 14.32,
+     "espn": 16.11,
+     "dratings": 17.7,
+     "cbbd": 14.86
+    },
+    "src_tot_err": {
+     "hasla": 7.8,
+     "dratings": 12.1
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 10.0
+   }
   },
   {
    "id": "2026-11-27-marquette-texas-a-m",
@@ -4434,7 +4519,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 2, 1.7 better our number",
+    "tags": [],
+    "score": [
+     76,
+     78
+    ],
+    "model_err": 1.71,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 2.45,
+     "espn": 2.81,
+     "dratings": 0.1
+    },
+    "src_tot_err": {
+     "hasla": 2.2,
+     "dratings": 7.3
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 2.8
+   }
   },
   {
    "id": "2026-11-27-west-virginia-north-carolina",
@@ -4569,7 +4675,27 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 13",
+    "tags": [],
+    "score": [
+     72,
+     59
+    ],
+    "model_err": 13.01,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 15.65,
+     "espn": 11.77,
+     "cbbd": 11.1
+    },
+    "src_tot_err": {
+     "hasla": 14.3
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 14.3
+   }
   },
   {
    "id": "2026-11-27-umbc-george-washington",
@@ -4707,7 +4833,29 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 40, 21.7 better our number",
+    "tags": [],
+    "score": [
+     51,
+     91
+    ],
+    "model_err": 21.67,
+    "src_err": {
+     "market": 18.5,
+     "hasla": 20.85,
+     "espn": 22.07,
+     "dratings": 24.2,
+     "cbbd": 18.84
+    },
+    "src_tot_err": {
+     "hasla": 12.8,
+     "dratings": 9.6
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 10.9
+   }
   },
   {
    "id": "2026-11-27-northeastern-northwestern",
@@ -4980,7 +5128,27 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 32, 21.3 better our number",
+    "tags": [],
+    "score": [
+     43,
+     75
+    ],
+    "model_err": 21.33,
+    "src_err": {
+     "market": 18.5,
+     "espn": 21.33,
+     "dratings": 19.9,
+     "cbbd": 23.43
+    },
+    "src_tot_err": {
+     "dratings": 26.7
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 26.7
+   }
   },
   {
    "id": "2026-11-27-drake-boise-st",
@@ -5118,7 +5286,29 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 17, 11.2 better our number",
+    "tags": [],
+    "score": [
+     71,
+     88
+    ],
+    "model_err": 11.23,
+    "src_err": {
+     "market": 10.5,
+     "hasla": 8.41,
+     "espn": 12.03,
+     "dratings": 10.7,
+     "cbbd": 14.19
+    },
+    "src_tot_err": {
+     "hasla": 2.8,
+     "dratings": 3.7
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 3.3
+   }
   },
   {
    "id": "2026-11-27-miami-fl-alabama",
@@ -5257,6 +5447,434 @@
    "tier": "Weak",
    "tier_reason": "sources split on the winner's chances (±14%)",
    "result": null
+  },
+  {
+   "id": "2026-11-27-san-diego-st-texas-tech",
+   "away": "San Diego St.",
+   "home": "Texas Tech",
+   "away_conf": "P12",
+   "home_conf": "B12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "11:30 PM ET",
+   "tip_sort": 1410,
+   "tv": "ESPN2",
+   "sources": {
+    "hasla": {
+     "margin": 6.4,
+     "total": 140.2,
+     "note": "Published projection: San Diego St. 66.9, Texas Tech 73.3."
+    },
+    "dratings": {
+     "margin": 5.8,
+     "total": 147.0,
+     "note": "Published projection: San Diego St. 70.6, Texas Tech 76.4."
+    },
+    "massey": {
+     "margin": 7.5,
+     "total": 142.5,
+     "note": "Published median margin: Texas Tech by 7.5, total 142.5."
+    },
+    "espn": {
+     "margin": 10.67,
+     "derived": true,
+     "note": "BPI matchup predictor: Texas Tech 83.2% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 5.49,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 68.6 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -8.5,
+    "total": 141.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.174,
+      "espn": 0.174,
+      "dratings": 0.179,
+      "massey": 0.151,
+      "cbbd": 0.156
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.175,
+      "espn": 0.159,
+      "dratings": 0.186,
+      "massey": 0.168,
+      "cbbd": 0.146
+     }
+    },
+    "used": {
+     "hasla": 0.21,
+     "espn": 0.2,
+     "dratings": 0.218,
+     "massey": 0.191,
+     "cbbd": 0.181
+    },
+    "used_total": {
+     "hasla": 0.315,
+     "dratings": 0.342,
+     "massey": 0.343
+    }
+   },
+   "blend": {
+    "margin": 7.17,
+    "src_sd": 1.88,
+    "model_sd": 12.42,
+    "sd": 12.56,
+    "p_home": 0.7159,
+    "p_sd": 0.0485,
+    "total": 143.3,
+    "total_sd": 16.8,
+    "baseline_total": 140.8,
+    "lean": "near",
+    "n_sources": 5
+   },
+   "pick": {
+    "team": "Texas Tech",
+    "dog": "San Diego St.",
+    "p": 0.7159,
+    "margin": 7.17,
+    "lock": false
+   },
+   "momentum": {
+    "San Diego St.": {
+     "n": 5,
+     "avg": 4.5,
+     "last": [
+      10.2,
+      -5.6,
+      1.0,
+      20.9,
+      -4.2
+     ],
+     "flag": null,
+     "index": -0.05,
+     "sd": 0.14,
+     "tag": "Steady"
+    },
+    "Texas Tech": {
+     "n": 5,
+     "avg": 4.3,
+     "last": [
+      8.9,
+      16.4,
+      15.6,
+      -13.0,
+      -6.3
+     ],
+     "flag": null,
+     "index": -0.05,
+     "sd": 0.15,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-27-jacksonville-st-nebraska-omaha",
+   "away": "Jacksonville St.",
+   "home": "Nebraska Omaha",
+   "away_conf": "CUSA",
+   "home_conf": "Sum",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "10:30 PM ET",
+   "tip_sort": 1350,
+   "tv": "FloSports",
+   "sources": {
+    "hasla": {
+     "margin": -3.88,
+     "total": 144.7,
+     "note": "Published projection: Jacksonville St. 74.3, Nebraska Omaha 70.4."
+    },
+    "dratings": {
+     "margin": -5.6,
+     "total": 144.8,
+     "note": "Published projection: Jacksonville St. 75.2, Nebraska Omaha 69.6."
+    },
+    "espn": {
+     "margin": -8.68,
+     "derived": true,
+     "note": "BPI matchup predictor: Nebraska Omaha 21.7% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": -5.1,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 66.3 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 138.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.16,
+      "hasla": 0.156,
+      "espn": 0.185,
+      "dratings": 0.184,
+      "massey": 0.212,
+      "cbbd": 0.102
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.165,
+      "hasla": 0.16,
+      "espn": 0.182,
+      "dratings": 0.194,
+      "massey": 0.169,
+      "cbbd": 0.131
+     }
+    },
+    "used": {
+     "hasla": 0.244,
+     "espn": 0.284,
+     "dratings": 0.292,
+     "cbbd": 0.18
+    },
+    "used_total": {
+     "hasla": 0.523,
+     "dratings": 0.477
+    }
+   },
+   "blend": {
+    "margin": -5.96,
+    "src_sd": 1.77,
+    "model_sd": 12.42,
+    "sd": 12.55,
+    "p_home": 0.3172,
+    "p_sd": 0.0494,
+    "total": 144.7,
+    "total_sd": 16.8,
+    "baseline_total": 148.9,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Jacksonville St.",
+    "dog": "Nebraska Omaha",
+    "p": 0.6828,
+    "margin": 5.96,
+    "lock": false
+   },
+   "momentum": {
+    "Jacksonville St.": {
+     "n": 5,
+     "avg": 2.2,
+     "last": [
+      6.0,
+      -1.9,
+      2.6,
+      10.8,
+      -6.6
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.14,
+     "tag": "Steady"
+    },
+    "Nebraska Omaha": {
+     "n": 5,
+     "avg": -6.4,
+     "last": [
+      -12.7,
+      7.2,
+      -30.5,
+      4.4,
+      -0.5
+     ],
+     "flag": null,
+     "index": 0.03,
+     "sd": 0.13,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null
+  },
+  {
+   "id": "2026-11-27-creighton-gonzaga",
+   "away": "Creighton",
+   "home": "Gonzaga",
+   "away_conf": "BE",
+   "home_conf": "P12",
+   "short": {},
+   "neutral": true,
+   "site": "Neutral site, Las Vegas",
+   "tip": "11 PM ET",
+   "tip_sort": 1380,
+   "tv": "ESPN",
+   "sources": {
+    "hasla": {
+     "margin": 5.13,
+     "total": 158.8,
+     "note": "Published projection: Creighton 76.9, Gonzaga 82.0."
+    },
+    "dratings": {
+     "margin": 4.9,
+     "total": 159.7,
+     "note": "Published projection: Creighton 77.4, Gonzaga 82.3."
+    },
+    "espn": {
+     "margin": 5.31,
+     "derived": true,
+     "note": "BPI matchup predictor: Gonzaga 68.4% to win, converted to points at ±11.09."
+    },
+    "cbbd": {
+     "margin": 2.16,
+     "derived": true,
+     "note": "From CBBD ratings: net rating gap at 72.0 possessions."
+    },
+    "torvik": {
+     "margin": null,
+     "note": "No number today."
+    },
+    "massey": {
+     "margin": null,
+     "note": "No number today."
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 160.5,
+    "book": "DraftKings"
+   },
+   "injuries": [],
+   "weights": {
+    "away": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.192,
+      "espn": 0.164,
+      "dratings": 0.163,
+      "massey": 0.162,
+      "cbbd": 0.153
+     }
+    },
+    "home": {
+     "basis": "conference",
+     "w": {
+      "torvik": 0.166,
+      "hasla": 0.174,
+      "espn": 0.174,
+      "dratings": 0.179,
+      "massey": 0.151,
+      "cbbd": 0.156
+     }
+    },
+    "used": {
+     "hasla": 0.27,
+     "espn": 0.25,
+     "dratings": 0.252,
+     "cbbd": 0.228
+    },
+    "used_total": {
+     "hasla": 0.484,
+     "dratings": 0.516
+    }
+   },
+   "blend": {
+    "margin": 4.44,
+    "src_sd": 1.29,
+    "model_sd": 12.42,
+    "sd": 12.49,
+    "p_home": 0.6389,
+    "p_sd": 0.0395,
+    "total": 159.3,
+    "total_sd": 16.8,
+    "baseline_total": 156.8,
+    "lean": "near",
+    "n_sources": 4
+   },
+   "pick": {
+    "team": "Gonzaga",
+    "dog": "Creighton",
+    "p": 0.6389,
+    "margin": 4.44,
+    "lock": false
+   },
+   "momentum": {
+    "Creighton": {
+     "n": 5,
+     "avg": 6.0,
+     "last": [
+      -10.4,
+      2.6,
+      0.5,
+      31.3,
+      6.1
+     ],
+     "flag": null,
+     "index": 0.09,
+     "sd": 0.15,
+     "tag": "Steady"
+    },
+    "Gonzaga": {
+     "n": 5,
+     "avg": 6.8,
+     "last": [
+      17.6,
+      -10.7,
+      -8.2,
+      29.9,
+      5.5
+     ],
+     "flag": null,
+     "index": 0.04,
+     "sd": 0.13,
+     "tag": "Steady"
+    }
+   },
+   "tier": "Mid",
+   "tier_reason": "thin margin",
+   "result": null,
+   "hammer": {
+    "id": "2026-11-27-creighton-gonzaga",
+    "team": "Creighton",
+    "side": "away",
+    "spread": 6.5,
+    "spread_home": -6.5,
+    "edge": 2.06,
+    "cover_p": 0.5655,
+    "agree": 4,
+    "n": 4
+   }
   }
  ],
  "waiting": [],

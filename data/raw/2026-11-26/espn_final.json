@@ -4105,116 +4105,6 @@
        "region": "us"
       }
      ],
-     "headlines": [
-      {
-       "type": "Recap",
-       "description": "— Dai Dai Ames scored 19 points and No. 9 Tennessee beat Iowa State 75-64 on Thursday to advance to the championship game of the Players Era tournament.",
-       "shortLinkText": "Ames scores 19 as No. 9 Tennessee beats Iowa State 75-64 to reach the Players Era title game",
-       "video": [
-        {
-         "id": 50607025,
-         "source": "espn",
-         "headline": "Tennessee Volunteers vs. Iowa State Cyclones: Game Highlights",
-         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.jpg",
-         "duration": 81,
-         "tracking": {
-          "coverageType": "Final Game Highlight",
-          "leagueName": "NCAA Men's Basketball",
-          "program": "ESPN",
-          "sportName": "basketball",
-          "trackingId": "dm_20261126_NCB_tennessee_volunteers_vs_iowa_state_cyclones_game_highlights",
-          "trackingName": "NCB_One-Play (Tennessee Volunteers vs. Iowa State Cyclones: Game Highlights) 2026/11/26 ESHEET"
-         },
-         "deviceRestrictions": {
-          "devices": [
-           "settop",
-           "tablet",
-           "handset",
-           "ipad",
-           "desktop"
-          ],
-          "type": "whitelist"
-         },
-         "links": {
-          "api": {
-           "artwork": {
-            "href": "https://artwork.api.espn.com/artwork/collections/media/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf"
-           },
-           "self": {
-            "href": "https://content.core.api.espn.com/v1/video/clips/50607025"
-           }
-          },
-          "mobile": {
-           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50607025/game-highlights",
-           "alert": {
-            "href": "https://m.espn.com/general/video/videoAlert?vid=50607025"
-           },
-           "progressiveDownload": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50607025/game-highlights"
-           },
-           "source": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
-           },
-           "streaming": {
-            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50607025/game-highlights"
-           }
-          },
-          "source": {
-           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4",
-           "HD": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
-           },
-           "HLS": {
-            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8",
-            "9x16": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
-            },
-            "HD": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
-            },
-            "cmaf": {
-             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8",
-             "9x16": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
-             },
-             "cmb": {
-              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
-             }
-            },
-            "cmb": {
-             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
-            },
-            "shield": {
-             "href": "https://watch.auth.api.espn.com/video/auth/media/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset"
-            }
-           },
-           "flash": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
-           },
-           "full": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
-           },
-           "mezzanine": {
-            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
-           }
-          },
-          "sportscenter": {
-           "href": "sportscenter://x-callback-url/showVideo?videoID=50607025&videoDSI=53934cfec23f9"
-          },
-          "web": {
-           "href": "https://www.espn.com/video/clip/_/id/50607025/game-highlights",
-           "self": {
-            "href": "https://www.espn.com/video/clip/_/id/50607025/game-highlights",
-            "dsi": {
-             "href": "https://www.espn.com/video/clip?id=53934cfec23f9"
-            }
-           }
-          }
-         }
-        }
-       ]
-      }
-     ],
      "highlights": [
       {
        "id": 50607025,
@@ -4328,6 +4218,116 @@
         "trackingId": "dm_20261126_NCB_tennessee_volunteers_vs_iowa_state_cyclones_game_highlights",
         "trackingName": "NCB_One-Play (Tennessee Volunteers vs. Iowa State Cyclones: Game Highlights) 2026/11/26 ESHEET"
        }
+      }
+     ],
+     "headlines": [
+      {
+       "type": "Recap",
+       "description": "— Dai Dai Ames scored 19 points and No. 9 Tennessee beat Iowa State 75-64 on Thursday to advance to the championship game of the Players Era tournament.",
+       "shortLinkText": "Ames scores 19 as No. 9 Tennessee beats Iowa State 75-64 to reach the Players Era title game",
+       "video": [
+        {
+         "id": 50607025,
+         "source": "espn",
+         "headline": "Tennessee Volunteers vs. Iowa State Cyclones: Game Highlights",
+         "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.jpg",
+         "duration": 81,
+         "tracking": {
+          "coverageType": "Final Game Highlight",
+          "leagueName": "NCAA Men's Basketball",
+          "program": "ESPN",
+          "sportName": "basketball",
+          "trackingId": "dm_20261126_NCB_tennessee_volunteers_vs_iowa_state_cyclones_game_highlights",
+          "trackingName": "NCB_One-Play (Tennessee Volunteers vs. Iowa State Cyclones: Game Highlights) 2026/11/26 ESHEET"
+         },
+         "deviceRestrictions": {
+          "devices": [
+           "settop",
+           "tablet",
+           "handset",
+           "ipad",
+           "desktop"
+          ],
+          "type": "whitelist"
+         },
+         "links": {
+          "api": {
+           "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf"
+           },
+           "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/50607025"
+           }
+          },
+          "mobile": {
+           "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50607025/game-highlights",
+           "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=50607025"
+           },
+           "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50607025/game-highlights"
+           },
+           "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
+           },
+           "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/50607025/game-highlights"
+           }
+          },
+          "source": {
+           "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4",
+           "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
+           },
+           "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8",
+            "9x16": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
+            },
+            "HD": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
+            },
+            "cmaf": {
+             "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8",
+             "9x16": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
+             },
+             "cmb": {
+              "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
+             }
+            },
+            "cmb": {
+             "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4/playlist.m3u8"
+            },
+            "shield": {
+             "href": "https://watch.auth.api.espn.com/video/auth/media/cf04e7e0-7ef3-4286-a15b-ed1f57f135bf/asset"
+            }
+           },
+           "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
+           },
+           "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
+           },
+           "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/1126/e3586f42-6103-422c-949e-2330ef00eec4/e3586f42-6103-422c-949e-2330ef00eec4.mp4"
+           }
+          },
+          "sportscenter": {
+           "href": "sportscenter://x-callback-url/showVideo?videoID=50607025&videoDSI=53934cfec23f9"
+          },
+          "web": {
+           "href": "https://www.espn.com/video/clip/_/id/50607025/game-highlights",
+           "self": {
+            "href": "https://www.espn.com/video/clip/_/id/50607025/game-highlights",
+            "dsi": {
+             "href": "https://www.espn.com/video/clip?id=53934cfec23f9"
+            }
+           }
+          }
+         }
+        }
+       ]
       }
      ]
     }
