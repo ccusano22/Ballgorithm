@@ -2,6 +2,7 @@
  "date": "2026-11-27",
  "generated_at": "2026-11-27T21:48:55-05:00",
  "notes": [
+  "GRADED: 26-12 picking winners (68%), average margin miss 11.4. Hammer Tennessee +3.5: loss.",
   "38 D1 games on the board (35 locked at tip). Coverage: Torvik 0, Haslametrics 3, ESPN 3, DRatings 3, Massey 1, CBBD 3, DraftKings lines 3.",
   "Torvik is dormant: cbbdata has no 2026-27 T-Rank numbers yet. It rejoins automatically when they appear.",
   "6 ESPN games skipped because one team isn't Division I or its name isn't recognized yet."
@@ -1119,7 +1120,31 @@
    },
    "tier": "Strong",
    "tier_reason": "4 core systems agree (win chance ±3%)",
-   "result": null
+   "result": {
+    "label": "Won by 8, 3.6 short of our number",
+    "tags": [],
+    "score": [
+     61,
+     69
+    ],
+    "model_err": 3.57,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 6.25,
+     "espn": 2.32,
+     "dratings": 2.2,
+     "massey": 3.5,
+     "cbbd": 2.93
+    },
+    "src_tot_err": {
+     "hasla": 25.0,
+     "dratings": 20.2,
+     "massey": 22.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 22.5
+   }
   },
   {
    "id": "2026-11-27-charleston-southern-east-tennessee-st",
@@ -2382,7 +2407,32 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 2",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     73,
+     71
+    ],
+    "model_err": 8.55,
+    "src_err": {
+     "market": 6.5,
+     "hasla": 7.18,
+     "espn": 8.56,
+     "dratings": 7.2,
+     "massey": 11.5
+    },
+    "src_tot_err": {
+     "hasla": 13.1,
+     "dratings": 12.8,
+     "massey": 12.5
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 12.8
+   }
   },
   {
    "id": "2026-11-27-penn-st-mississippi-st",
@@ -2518,7 +2568,28 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 5",
+    "tags": [],
+    "score": [
+     68,
+     63
+    ],
+    "model_err": 11.49,
+    "src_err": {
+     "market": 11.5,
+     "hasla": 12.89,
+     "espn": 10.75,
+     "dratings": 10.8
+    },
+    "src_tot_err": {
+     "hasla": 29.8,
+     "dratings": 25.6
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 27.6
+   }
   },
   {
    "id": "2026-11-27-princeton-unc-wilmington",
@@ -3295,7 +3366,29 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±9%)",
-   "result": null
+   "result": {
+    "label": "Won by 2, 3.4 short of our number",
+    "tags": [],
+    "score": [
+     73,
+     75
+    ],
+    "model_err": 3.37,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 0.72,
+     "espn": 7.74,
+     "dratings": 3.8,
+     "cbbd": 0.25
+    },
+    "src_tot_err": {
+     "hasla": 5.6,
+     "dratings": 6.2
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 5.9
+   }
   },
   {
    "id": "2026-11-27-towson-penn",
@@ -4077,7 +4170,31 @@
    },
    "tier": "Mid",
    "tier_reason": "some source disagreement (win chance ±12%)",
-   "result": null
+   "result": {
+    "label": "Won by 6, 2.6 better our number",
+    "tags": [],
+    "score": [
+     66,
+     72
+    ],
+    "model_err": 2.61,
+    "src_err": {
+     "market": 1.5,
+     "hasla": 0.79,
+     "espn": 2.19,
+     "dratings": 4.9,
+     "massey": 8.5,
+     "cbbd": 0.83
+    },
+    "src_tot_err": {
+     "hasla": 11.2,
+     "dratings": 5.9,
+     "massey": 8.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 8.6
+   }
   },
   {
    "id": "2026-11-27-tennessee-louisville",
@@ -4215,7 +4332,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null,
+   "result": {
+    "label": "Lost by 20",
+    "tags": [],
+    "score": [
+     64,
+     84
+    ],
+    "model_err": 22.56,
+    "src_err": {
+     "market": 16.5,
+     "hasla": 22.34,
+     "espn": 24.15,
+     "dratings": 22.3,
+     "cbbd": 21.3
+    },
+    "src_tot_err": {
+     "hasla": 2.3,
+     "dratings": 5.9
+    },
+    "won": false,
+    "hammer": "loss",
+    "total_err": 2.0
+   },
    "hammer": {
     "id": "2026-11-27-tennessee-louisville",
     "team": "Tennessee",
@@ -4994,7 +5133,30 @@
    },
    "tier": "Weak",
    "tier_reason": "bad loss in last 2",
-   "result": null
+   "result": {
+    "label": "Won by 4, 10.9 short of our number",
+    "tags": [],
+    "score": [
+     61,
+     65
+    ],
+    "model_err": 10.93,
+    "src_err": {
+     "market": 8.5,
+     "hasla": 10.03,
+     "espn": 11.15,
+     "dratings": 7.7,
+     "massey": 15.5
+    },
+    "src_tot_err": {
+     "hasla": 24.8,
+     "dratings": 21.7,
+     "massey": 24.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 23.6
+   }
   },
   {
    "id": "2026-11-27-lehigh-uc-santa-barbara",
@@ -5446,7 +5608,29 @@
    },
    "tier": "Weak",
    "tier_reason": "sources split on the winner's chances (±14%)",
-   "result": null
+   "result": {
+    "label": "Won by 6, 4.4 better our number",
+    "tags": [],
+    "score": [
+     87,
+     81
+    ],
+    "model_err": 4.37,
+    "src_err": {
+     "market": 3.5,
+     "hasla": 10.92,
+     "espn": 1.97,
+     "dratings": 4.8,
+     "cbbd": 1.5
+    },
+    "src_tot_err": {
+     "hasla": 1.8,
+     "dratings": 3.6
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 1.0
+   }
   },
   {
    "id": "2026-11-27-san-diego-st-texas-tech",
@@ -5587,7 +5771,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Won by 3, 4.2 short of our number",
+    "tags": [],
+    "score": [
+     75,
+     78
+    ],
+    "model_err": 4.17,
+    "src_err": {
+     "market": 5.5,
+     "hasla": 3.4,
+     "espn": 7.67,
+     "dratings": 2.8,
+     "massey": 4.5,
+     "cbbd": 2.49
+    },
+    "src_tot_err": {
+     "hasla": 12.8,
+     "dratings": 6.0,
+     "massey": 10.5
+    },
+    "won": true,
+    "hammer": null,
+    "total_err": 9.7
+   }
   },
   {
    "id": "2026-11-27-jacksonville-st-nebraska-omaha",
@@ -5725,7 +5933,29 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null
+   "result": {
+    "label": "Lost by 9",
+    "tags": [],
+    "score": [
+     69,
+     78
+    ],
+    "model_err": 14.96,
+    "src_err": {
+     "market": 13.5,
+     "hasla": 12.88,
+     "espn": 17.68,
+     "dratings": 14.6,
+     "cbbd": 14.1
+    },
+    "src_tot_err": {
+     "hasla": 2.3,
+     "dratings": 2.2
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 2.3
+   }
   },
   {
    "id": "2026-11-27-creighton-gonzaga",
@@ -5863,7 +6093,31 @@
    },
    "tier": "Mid",
    "tier_reason": "thin margin",
-   "result": null,
+   "result": {
+    "label": "Lost by 8",
+    "tags": [
+     "OT"
+    ],
+    "score": [
+     97,
+     89
+    ],
+    "model_err": 12.44,
+    "src_err": {
+     "market": 14.5,
+     "hasla": 13.13,
+     "espn": 13.31,
+     "dratings": 12.9,
+     "cbbd": 10.16
+    },
+    "src_tot_err": {
+     "hasla": 27.2,
+     "dratings": 26.3
+    },
+    "won": false,
+    "hammer": null,
+    "total_err": 26.7
+   },
    "hammer": {
     "id": "2026-11-27-creighton-gonzaga",
     "team": "Creighton",
@@ -5889,7 +6143,7 @@
   "agree": 4,
   "n": 4
  },
- "graded": false,
+ "graded": true,
  "unmatched": [
   "Auburn Montgomery Senators",
   "Bryant & Stratton (OH) Bobcats",
